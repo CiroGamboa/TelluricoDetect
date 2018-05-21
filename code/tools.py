@@ -27,6 +27,20 @@ class TelluricoTools:
                 return True
         return False
 
+    # 
+    def cumulative(trace):
+        output = []
+        acumula = 0.0
+        for sample in trace:
+            acumula += (sample*sample)
+            output.append(acumula)
+        return output
+    
+    def toArray(trace):
+        output = []
+        for sample in trace:
+            output.append(sample)
+        return output
 
 ##### MAKE DE DESIGN OF THE TOOLS CLASS, CONTAINING USEFUL INFORMATION
     ### ABOUT HOW TO USE OBSPY AND OTHER TOOLS

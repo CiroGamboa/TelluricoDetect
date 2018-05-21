@@ -12,6 +12,8 @@ Toda la documentacion debe ser en ingles
 from obspy import read
 from tools import TelluricoTools
 from obspy.signal.polarization import eigval
+import numpy as np
+import matplotlib.pyplot as ml
 
 # Read seismograms
 st = read('IOfiles/2013_06_2013-06-18-0559-59M.COL___261')
@@ -37,9 +39,10 @@ DOP = eigval(datax = test_trace[0],
              dataz = test_trace[2],
              fk = [1, 1, 1, 1, 1],
              normf = 1.0)
-    
 
-
-
-
-
+signal = TelluricoTools.toArray(test_trace[2])
+cumulative_signal = TelluricoTools.cumulative(test_trace[2])
+ml.plot(cumulative_signal)
+ml.show()
+ml.plot(signal)
+ml.show()
