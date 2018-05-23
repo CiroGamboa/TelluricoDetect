@@ -1,0 +1,28 @@
+ 2017  9 1 0350 10.2 L   7.279 -73.063158.0  RSN  7 0.4 1.8LRSN                1
+ GAP=119        0.90       4.4     4.5  6.2 -0.8874E+00  0.1092E+02 -0.5498E+01E
+ Epicentro: MATANZA - SANTANDER                                                3
+ ACTION:UPD 17-10-05 19:07 OP:rebc STATUS:               ID:20170901035010 L   I
+ OLDACT:UP  17-09-01 14:35 OP:dani STATUS:               ID:20170901034744     3
+ OLDACT:REG 17-09-01 13:01 OP:dani STATUS:               ID:20170901034744     3
+ 2017-09-01-0348-00M.COL___411                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  EZ EP        350 32.28                             165    0.1410 40.7  81 
+ PAM  EN ES        350 48.91                             165   -0.3310 40.7  81 
+ PAM  EZ I         350 49.53         8.9 0.24            170           40.7  81 
+ BRR  HZ EP        350 32.98                             154    0.1110 74.1 255 
+ BRR  HN ES        350 50.63                             154    0.1010 74.1 255 
+ BRR  HZ I         350 53.36         8.3 0.12            152           74.1 255 
+ BAR2 EZ EP        350 34.01                             153    0.6310 77.1 190 
+ BAR2 EZ ES        350 51.16                             153   -0.2810 77.1 190 
+ BAR2 EZ I         350 54.85        10.6 0.22            154           77.1 190 
+ ZAR  HZ EP        350 43.06                             126    0.01 9  200 277 
+ ZAR  HE ES        351  9.14                             126    0.49 9  200 277 
+ ZAR  HZ I         351 15.88         8.2 0.56            126            200 277 
+ SPBC HZ EP        350 43.86                             124   -0.52 8  212 212 
+ SPBC HN ES        351 11.29                             124    0.27 8  212 212 
+ SPBC HZ I         351 13.81         4.9 0.09            125            212 212 
+ HEL  HN ES        351 27.26                             115   -0.76 7  298 246 
+ SJC  HZ EP        351  1.83                             110   -0.03 6  372 321 
+ SJC  HN ES        351 41.69                             110   -0.44 6  372 321 
+ SJC  HZ I         351 45.02         2.3 0.34            111            372 321 
+                                                                                

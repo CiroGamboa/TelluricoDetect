@@ -1,0 +1,33 @@
+ 2013  611 0206 13.5 L   6.992 -73.486  4.8  RSN  9 0.4 1.9LRSN                1
+ GAP= 85        0.72       1.7     1.5  8.1  0.6224E+00  0.3635E+00 -0.1790E+01E
+ Epicentro: SAN VICENTE DE CHUCURI - SANTANDER                                 3
+ ACTION:UPD 14-01-08 09:54 OP:ep   STATUS:               ID:20130611020613 L   I
+ OLDACT:UP  13-06-11 08:56 OP:cam  STATUS:               ID:20130611015959     3
+ OLDACT:REG 13-06-11 07:26 OP:cam  STATUS:               ID:20130611015959     3
+ 2013-06-11-0159-59M.COL___260                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     D  2 6 18.13                              92   -0.2410 28.0 297 
+ BRR  HZ I         2 6 18.22       154.5 0.12             47           28.0 297 
+ BRR  HE ES        2 6 22.30                              92    0.1610 28.0 297 
+ GIR2 SZ IP     D  2 6 19.05                              92   -0.3410 33.7  73 
+ GIR2 SZ ES   2    2 6 23.65                              92   -0.30 5 33.7  73 
+ BAR2 SZ EP        2 6 22.84                              91    0.0510 55.5 143 
+ BAR2 SZ ES        2 6 29.89                              91   -0.1110 55.5 143 
+ BAR2 SZ I         2 6 31.13        29.8 0.36             47           55.5 143 
+ PTB  HZ IP     D  2 6 32.20                              90    0.1310  118 245 
+ PTB  HN ES        2 6 46.42                              90   -0.1110  118 245 
+ PTB  HZ I         2 6 48.67        32.0 0.38             47            118 245 
+ RUS  HZ EP   1    2 6 34.78                              90    0.52 7  130 160 
+ RUS  HN ES   2    2 6 50.45                              90    0.03 5  130 160 
+ RUS  HZ I         2 6 52.82         6.3 0.30             47            130 160 
+ OCA  HZ EP        2 6 35.54                              90    0.18 9  139   8 
+ OCA  HN ES   1    2 6 52.99                              90    0.60 7  139   8 
+ OCA  HZ I         2 6 57.73        16.1 0.40             47            139   8 
+ ZAR  HZ EP   1    2 6 38.72                              90    0.15 7  161 290 
+ ZAR  HN ES   1    2 6 57.32                              90   -0.78 7  161 290 
+ ZAR  HZ I         2 6 59.42        23.2 0.42             47            161 290 
+ SML  HZ EP   2    2 6 44.38                              56   -0.61 4  210 342 
+ SML  HN ES   2    2 7  9.29                              56   -0.24 4  210 342 
+ SML  HZ I         2 7 11.36        21.1 0.32             37            210 342 
+ HEL  HZ EP   1    2 6 50.18                              56    0.68 6  243 249 
+                                                                                

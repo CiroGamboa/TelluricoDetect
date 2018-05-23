@@ -1,0 +1,37 @@
+ 2016 1014 2247 21.8 L   6.741 -73.141151.5  RSN 10 0.4 2.0LRSN                1
+ GAP=140        0.88       3.4     3.7  6.4 -0.2900E+01  0.4633E+01 -0.2408E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-11-09 19:19 OP:rebc STATUS:               ID:20161014224721 L   I
+ OLDACT:UP  16-10-15 09:31 OP:dani STATUS:               ID:20161014223735d    3
+ OLDACT:UP  16-10-15 09:30 OP:dani STATUS:               ID:20161014223735d    3
+ OLDACT:UP  16-10-15 09:30 OP:dani STATUS:               ID:20161014223735d    3
+ OLDACT:DUP 16-10-15 09:25 OP:dani STATUS:               ID:20161014223735d    3
+ OLDACT:UP  16-10-15 09:24 OP:dani STATUS:               ID:20161014223734d    3
+ OLDACT:DUP 16-10-15 09:20 OP:dani STATUS:               ID:20161014223734d    3
+ OLDACT:UP  16-10-15 09:19 OP:dani STATUS:               ID:20161014223733     3
+ OLDACT:REG 16-10-15 08:04 OP:dani STATUS:               ID:20161014223733     3
+ 2016-10-14-2238-00M.COL___374                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP       2247 44.02                             152    0.2610 74.9 303 
+ BRR  HN ES       2248  1.37                             152    0.4610 74.9 303 
+ BRR  HZ I        2248  2.92        11.7 0.35            150           74.9 303 
+ PAM  EZ EP       2247 45.15                             150    0.2510 82.2  36 
+ PAM  EE ES       2248  2.61                             150   -0.3210 82.2  36 
+ PAM  EZ I        2248  4.57        13.8 0.47            152           82.2  36 
+ RUS  HZ EP       2247 45.80                             147    0.1410 94.1 176 
+ RUS  HN ES       2248  4.36                             147    0.0810 94.1 176 
+ RUS  HZ I        2248  5.43        10.1 0.29            151           94.1 176 
+ PTB  HZ EP       2247 48.63                             133   -0.54 9  147 261 
+ PTB  HN ES       2248  9.71                             133   -0.82 9  147 261 
+ PTB  HZ I        2248 15.56         8.2 0.36            134            147 261 
+ SPBC HN ES       2248 12.53                             131   -0.01 9  159 221 
+ OCA  HZ EP       2247 51.00                             130   -0.15 9  167 353 
+ OCA  HE ES   4   2248 12.61                             130   -1.45 0  167 353 
+ OCA  HZ I        2248 17.82        24.3 0.36            130            167 353 
+ ZAR  HZ EP       2247 55.03                             123    0.12 8  207 294 
+ ZAR  HN ES       2248 20.87                             123    0.12 8  207 294 
+ ZAR  HZ I        2248 29.99        10.3 0.32            123            207 294 
+ NOR  HN ES       2248 25.77                             120    0.41 8  231 236 
+ CHI  HN ES   2   2248 27.79                             119   -0.51 4  243 196 
+ GUY2CHE ES   2   2248 39.92                             114    0.69 4  298 236 
+                                                                                

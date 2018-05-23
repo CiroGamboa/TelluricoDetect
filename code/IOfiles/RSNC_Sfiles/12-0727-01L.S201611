@@ -1,0 +1,29 @@
+ 2016 1112 0727  1.9 L   7.189 -74.122  8.0  RSN  7 0.3 1.6LRSN                1
+ GAP=151        0.81       2.6     1.5  6.4  0.4618E+00  0.2529E+01  0.5927E+01E
+ Epicentro: PUERTO WILCHES - SANTANDER                                         3
+ ACTION:UPD 17-10-26 21:07 OP:lp   STATUS:               ID:20161112072701 L   I
+ OLDACT:UP  16-11-12 18:30 OP:and  STATUS:               ID:20161112071138d    3
+ OLDACT:DUP 16-11-12 18:26 OP:and  STATUS:               ID:20161112071138d    3
+ OLDACT:REG 16-11-12 12:59 OP:and  STATUS:               ID:20161112071137     3
+ 2016-11-12-0718-00M.COL___340                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     D  727  8.98                              97   -0.4910 46.1 101 
+ BRR  HN ES        727 14.99                              97   -0.4210 46.1 101 
+ BRR  HZ I         727 16.71        30.9 0.18             93           46.1 101 
+ PTB  HZ IP     D  727 14.90                              94    0.1810 80.7 207 
+ PTB  HN ES        727 24.92                              94    0.1710 80.7 207 
+ PTB  HZ I         727 25.44        26.7 0.16             92           80.7 207 
+ ZAR  HZ EP        727 15.80                              93    0.0010 87.9 292 
+ ZAR  HN ES        727 26.49                              93   -0.1810 87.9 292 
+ ZAR  HZ I         727 27.01        28.0 0.28             91           87.9 292 
+ BAR2 EZ EP        727 21.77                              92    0.4310  123 122 
+ BAR2 EZ ES        727 36.40                              92   -0.1510  123 122 
+ BAR2 EZ I         727 51.06         5.4 0.21             91            123 122 
+ PAM  EZ EP        727 27.24                              92    0.35 9  158  84 
+ PAM  EN ES        727 46.84                              92    0.42 9  158  84 
+ PAM  EZ I         727 49.04        16.7 0.22             91            158  84 
+ URE  HZ EP   3    727 28.76                              56    1.01 2  168 292 
+ URE  HZ I         727 50.30         6.8 0.12             91            168 292 
+ NOR  HN ES        727 54.45                              56   -0.28 9  198 205 
+ NOR  HZ I         727 58.20         4.6 0.28             56            198 205 
+                                                                                

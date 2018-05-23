@@ -1,0 +1,28 @@
+ 2017 1211 0324 44.2 L   6.764 -73.159136.0  RSN  6 0.3 1.2LRSN                1
+ GAP=149        0.81       4.2     4.0  5.9 -0.6751E+01  0.9463E+01 -0.2458E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 18-01-04 13:19 OP:rebc STATUS:               ID:20171211032444 L   I
+ OLDACT:UP  17-12-11 18:17 OP:edw  STATUS:               ID:20171211031741d    3
+ OLDACT:DUP 17-12-11 18:12 OP:edw  STATUS:               ID:20171211031741d    3
+ OLDACT:REG 17-12-11 14:13 OP:edw  STATUS:               ID:20171211031740     3
+ 2017-12-11-0318-00M.COL___466                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        325  2.60                             172    0.0310 19.1 188 
+ BAR2 EZ ES        325 17.28                             172    0.3810 19.1 188 
+ BAR2 EZ I         325 18.94         3.9 0.44            172           19.1 188 
+ PAM  EZ EP     C  325  5.57                             148   -0.0710 81.4  39 
+ PAM  EN ES        325 22.31                             148   -0.0510 81.4  39 
+ PAM  EZ I         325 24.39         3.1 0.46            151           81.4  39 
+ PTB  HZ EP        325  9.65                             130   -0.53 9  146 260 
+ PTB  HN ES        325 30.39                             130   -0.06 9  146 260 
+ PTB  HZ I         325 32.38         1.8 0.22            131            146 260 
+ SPBC HZ EP        325 11.48                             127   -0.09 9  159 219 
+ SPBC HN ES        325 32.47                             127   -0.45 9  159 219 
+ SPBC HZ I         325 37.94         3.2 0.34            130            159 219 
+ ZAR  HZ EP        325 15.91                             120   -0.13 9  204 293 
+ ZAR  HN ES        325 41.09                             120    0.20 9  204 293 
+ ZAR  HZ I         325 46.41         2.4 0.46            122            204 293 
+ GUY2CHZ EP        325 27.77                             111    0.80 7  298 235 
+ GUY2CHE ES        326  0.73                             111    0.40 7  298 235 
+ GUY2CHZ I         326  8.14         0.7 0.48                           298 235 
+                                                                                

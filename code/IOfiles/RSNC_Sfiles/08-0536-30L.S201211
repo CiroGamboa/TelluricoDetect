@@ -1,0 +1,49 @@
+ 2012 11 8 0536 30.0 L   5.993 -73.700116.1  RSN 11 0.5 2.2LRSN 2.7WRSN        1
+ SPEC AVERAGE  MO 13.2 ST 11.3 OM  2.0 f0 6.05 R0.2573 AL 2.92 WI 22.8 MW  2.7 3
+ SPEC SD       MO  0.3 ST 14.2 OM  0.6 f0 1.53 R0.0576 AL      WI      MW  0.2 3
+ GAP= 82        1.22       3.0     3.6  7.6 -0.2751E+01  0.8537E+01  0.2402E+01E
+ Epicentro: VELEZ - SANTANDER                                                  3
+ SPEC RUS HH N MO 12.8 ST  1.2 OM  1.3 f0 5.17 R0.2843 AL 2.27 WI 19.3 MW  2.5 3
+ SPEC RUS HH N T 537 1 K 0.000 GD  135 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH E MO 13.1 ST  2.6 OM  1.4 f0 5.17 R0.2843 AL 1.53 WI 33.1 MW  2.7 3
+ SPEC HEL HH E T 53724 K 0.000 GD  234 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH N MO 13.6 ST 38.2 OM  2.0 f0 8.69 R0.1692 AL 5.14 WI 26.5 MW  3.0 3
+ SPEC NOR HH N T 53710 K 0.000 GD  180 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 12.8 ST0.840 OM  1.2 f0 4.42 R0.3326 AL 1.78 WI 13.0 MW  2.5 3
+ SPEC CHI HH N T 53714 K 0.000 GD  190 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.5 ST 13.7 OM  1.9 f0 6.81 R0.2159 AL 3.87 WI 22.3 MW  2.9 3
+ SPEC BRR HH N T 537 9 K 0.000 GD  169 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-12-05 15:32 OP:}ep  STATUS:               ID:20121108053630 L   I
+ 2012-11-08-0530-00M.COL___230                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ RUS  HZ EP        536 48.75                             147    0.1710 69.1  99 
+ RUS  HN ES        537  2.32                             147   -0.7610 69.1  99 
+ RUS  HN I         537  4.20        23.9 0.28                          69.1  99 
+ BAR2 SZ EP        536 49.83                             140    0.2910 87.6  41 
+ BAR2 SZ ES        537  5.10                             140    0.3010 87.6  41 
+ BAR2 SZ I         537  6.70       135.7 0.38                          87.6  41 
+ PTB  HZ EP        536 49.49                             135   -1.0310  103 306 
+ PTB  HN ES        537  6.53                             135   -0.0110  103 306 
+ PTB  HN I         537  7.30        49.2 0.30                           103 306 
+ BRR  HZ EP        536 52.55                             130    0.2610  123 359 
+ BRR  HN ES        537 10.33                             130    0.6310  123 359 
+ BRR  HN I         537 13.75        40.0 0.14                           123 359 
+ GIR2 SZ EP        536 53.87                             127    0.5010  132  25 
+ GIR2 SZ ES        537 11.79                             127    0.1810  132  25 
+ NOR  HZ EP        536 53.95                             126    0.17 9  138 250 
+ NOR  HN ES        537 12.37                             126    0.02 9  138 250 
+ NOR  HN I         537 15.63        61.5 0.16                           138 250 
+ CHI  HZ EP        536 55.75                             124    0.21 9  151 181 
+ CHI  HE ES        537 15.22                             124   -0.26 9  151 181 
+ CHI  HN I         537 17.53        16.5 0.28                           151 181 
+ HEL  HZ EP        537  1.55                             115    0.45 9  204 276 
+ HEL  HZ I         537  2.55         6.8 0.50                           204 276 
+ HEL  HE ES        537 24.95                             115   -0.43 9  204 276 
+ GUY  SZ EP        537  1.99                             115    0.52 8  206 246 
+ GUY  SN ES        537 26.37                             115    0.35 8  206 246 
+ PRA  HZ EP        537  9.60                             107   -0.28 7  284 208 
+ PRA  HN ES        537 40.88                             107   -0.12 7  284 208 
+ PRA  HN I         537 45.75         4.2 0.18                           284 208 
+ SML  HZ EP        537 12.65                             105   -0.56 7  313 352 
+ SML  HE ES        537 45.54                             105   -1.40 7  313 352 
+                                                                                

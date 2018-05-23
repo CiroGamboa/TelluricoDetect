@@ -1,0 +1,31 @@
+ 2017  430 0511 50.6 L   6.121 -73.516128.8  RSN  7 0.4 1.6LRSN                1
+ GAP=129        1.00       4.5     3.6  7.8  0.7558E+01  0.5886E+00 -0.4012E+01E
+ Epicentro: SAN BENITO - SANTANDER                                             3
+ ACTION:UPD 17-05-30 21:17 OP:jn   STATUS:               ID:20170430051150 L   I
+ OLDACT:UP  17-04-30 16:15 OP:dnl  STATUS:               ID:20170430050743     3
+ OLDACT:UP  17-04-30 16:15 OP:dnl  STATUS:               ID:20170430050743     3
+ OLDACT:REG 17-04-30 12:32 OP:dnl  STATUS:               ID:20170430050743     3
+ 2017-04-30-0508-00M.COL___365                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ RUS  HZ EP        512  9.55                             156   -0.1310 54.2 118 
+ RUS  HN ES        512 24.66                             156    0.0810 54.2 118 
+ RUS  HZ I         512 27.28         6.4 0.22            160           54.2 118 
+ SPBC HZ EP        512 10.80                             146    0.1410 80.5 230 
+ SPBC HN ES        512 26.24                             146   -0.0810 80.5 230 
+ SPBC HZ I         512 31.65        15.9 0.10            146           80.5 230 
+ BRR  HZ EP        512 12.85                             137   -0.0310  111 349 
+ BRR  HN ES        512 30.78                             137    0.5010  111 349 
+ BRR  HZ I         512 33.50        10.8 0.12            140            111 349 
+ PTB  HZ EP        512 12.47                             136   -0.6610  114 294 
+ PTB  HN ES        512 30.20                             136   -0.5210  114 294 
+ PTB  HZ I         512 32.56         4.8 0.12            138            114 294 
+ YPLC HZ EP        512 16.50                             128    0.07 9  149 122 
+ YPLC HE ES        512 36.68                             128    0.08 9  149 122 
+ YPLC HZ I         512 38.92         2.8 0.14            132            149 122 
+ ZAR  HZ EP   4    512 24.28                             117    1.43 0  212 316 
+ ZAR  HN ES        512 47.85                             117   -0.17 8  212 316 
+ ZAR  HZ I         512 50.16         9.6 0.40            120            212 316 
+ HEL  HZ EP   4    512 26.07                             116    1.59 0  223 272 
+ HEL  HN ES        512 51.91                             116    0.98 8  223 272 
+ HEL  HZ I         512 57.43         3.2 0.22            119            223 272 
+                                                                                

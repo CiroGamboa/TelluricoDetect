@@ -1,0 +1,29 @@
+ 2014  430 1022 11.2 L   6.857 -73.176145.3  RSN  9 0.4 1.8LRSN                1
+ GAP=130        0.89       3.3     4.4  7.4 -0.5150E+01  0.1314E+02 -0.1867E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 14-05-13 20:50 OP:nd   STATUS:               ID:20140430102211 L   I
+ OLDACT:UP  14-04-30 21:16 OP:mher STATUS:               ID:20140430102001d    3
+ OLDACT:UP  14-04-30 21:15 OP:mher STATUS:               ID:20140430102001d    3
+ OLDACT:DUP 14-04-30 21:07 OP:mher STATUS:               ID:20140430102001d    3
+ 2014-04-30-1020-00M.COL___270                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ EP       1022 33.48                             151    0.2610 75.0  45 
+ PAM  SN ES       1022 50.39                             151   -0.0110 75.0  45 
+ RUS  HZ EP   1   1022 35.18                             142   -0.20 7  107 174 
+ RUS  HN ES   1   1022 54.15                             142   -0.10 7  107 174 
+ PTB  HZ EP       1022 37.14                             132   -0.80 9  146 256 
+ PTB  HN ES       1022 58.34                             132   -0.47 9  146 256 
+ PTB  HZ I        1023  1.04         7.4 0.13            132            146 256 
+ SPBC HZ EP   1   1022 39.84                             128   -0.09 7  166 217 
+ SPBC HN ES       1023  2.63                             128    0.29 9  166 217 
+ ZAR  HZ EP       1022 43.76                             123    0.71 9  199 291 
+ ZAR  HN ES   4   1023  8.92                             123    1.03 0  199 291 
+ NOR  HZ EP       1022 47.06                             118    0.06 8  236 233 
+ NOR  HE ES       1023 15.63                             118    0.70 8  236 233 
+ SML  HZ EP   1   1022 46.65                             118   -0.37 6  237 335 
+ SML  HN ES       1023 15.07                             118    0.10 8  237 335 
+ HEL  HN ES   1   1023 22.25                             115   -0.15 6  270 254 
+ GUY2CHN ES   4   1023 31.75                             112    2.79 0  302 233 
+ PRA  HZ EP   1   1023  4.99                             106   -0.15 4  396 209 
+ PRA  HN ES       1023 47.08                             106   -0.14 6  396 209 
+ PRA  HZ I        1023 53.27         2.2 0.32            106            396 209 

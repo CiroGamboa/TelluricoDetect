@@ -1,0 +1,27 @@
+ 2017 1229 0650 16.6 L   6.842 -73.208138.8  RSN  7 0.4 1.3LRSN                1
+ GAP=129        0.88       3.9     4.6  5.9 -0.1001E+02  0.6542E+01  0.1450E+00E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 18-01-04 13:25 OP:rebc STATUS:               ID:20171229065016 L   I
+ OLDACT:REG 17-12-29 13:11 OP:osc  STATUS:               ID:20171229064028     3
+ 2017-12-29-0648-00M.COL___445                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        650 35.49                             168   -0.0110 27.7 174 
+ BAR2 EZ ES        650 49.80                             168   -0.4410 27.7 174 
+ PAM  EZ EP        650 38.41                             149    0.2410 78.7  46 
+ PAM  EE ES        650 55.30                             149    0.3210 78.7  46 
+ PAM  EZ I         650 57.56         3.5 0.54            152           78.7  46 
+ PTB  HZ EP        650 43.04                             132    0.56 9  142 256 
+ PTB  HN ES        651  2.82                             132    0.15 9  142 256 
+ PTB  HZ I         651  6.96         1.4 0.52            131            142 256 
+ OCA  HZ EP        650 43.14                             129   -0.74 9  155 355 
+ OCA  HN ES        651  5.12                             129   -0.04 9  155 355 
+ SPBC HZ EP        650 44.67                             127    0.14 9  163 216 
+ SPBC HN ES        651  6.34                             127    0.04 9  163 216 
+ SPBC HZ I         651 10.28         3.1 0.30            129            163 216 
+ ZAR  HZ EP   9    650 49.94                             122    2.18 0  196 292 
+ ZAR  HN ES        651 14.44                                    0.20 9  196 292 
+ ZAR  HZ I         651 20.31         2.6 0.54            122            196 292 
+ GUY2CHZ EP        650 59.73                             111    0.16 7  298 233 
+ GUY2CHE ES        651 32.49                             111   -0.59 7  298 233 
+ GUY2CHZ I         651 40.52         1.0 0.38                           298 233 
+                                                                                

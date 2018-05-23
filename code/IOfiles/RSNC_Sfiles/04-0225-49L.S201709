@@ -1,0 +1,26 @@
+ 2017  9 4 0225 49.5 L   6.832 -73.159149.8  RSN  6 0.4 1.2LRSN                1
+ GAP=133        0.90       4.3     5.0  8.2  0.1031E+01  0.1434E+02  0.2834E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-10-05 19:08 OP:rebc STATUS:               ID:20170904022549 L   I
+ OLDACT:UP  17-09-04 14:33 OP:dnl  STATUS:               ID:20170904021740     3
+ OLDACT:REG 17-09-04 12:21 OP:dnl  STATUS:               ID:20170904021740     3
+ 2017-09-04-0218-00M.COL___417                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        226  9.65                             169    0.0010 26.6 185 
+ BAR2 EZ ES        226 25.19                             169   -0.2010 26.6 185 
+ BAR2 EZ I         226 26.18         3.8 0.20            169           26.6 185 
+ BRR  HZ EP   2    226 11.42                             154    0.53 5 68.2 297 
+ BRR  HN ES        226 27.97                             154    0.3710 68.2 297 
+ BRR  HZ I         226 32.40         4.0 0.36            149           68.2 297 
+ PAM  EZ EP   2    226 12.78                             152    0.77 5 75.7  42 
+ PAM  EN ES        226 29.47                             152   -0.1310 75.7  42 
+ PAM  EZ I         226 30.26         2.4 0.40            154           75.7  42 
+ RUS  HZ EP   2    226 13.78                             143   -0.09 5  104 175 
+ RUS  HN ES        226 32.59                             143   -0.3210  104 175 
+ RUS  HZ I         226 34.38         1.4 0.16            147            104 175 
+ SPBC HZ EP   2    226 17.59                             129   -0.85 5  165 218 
+ SPBC HE ES        226 41.69                             129    0.64 9  165 218 
+ ZAR  HZ EP   2    226 22.18                             124    0.28 4  201 291 
+ ZAR  HE ES        226 46.58                             124   -0.62 9  201 291 
+ ZAR  HZ I         226 57.74         2.0 0.30            122            201 291 
+                                                                                

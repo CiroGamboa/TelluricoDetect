@@ -1,0 +1,30 @@
+ 2013  1 8 1556 26.6 L   6.810 -73.149149.5  RSN  5 0.5 2.3LRSN 3.0WRSN        1
+ SPEC AVERAGE  MO 13.5 ST  7.5 OM  2.5 f0 4.87 R0.3173 AL 2.34 WI 18.8 MW  3.0 3
+ SPEC SD       MO  0.2 ST  5.2 OM  0.7 f0 1.01 R0.0739 AL      WI      MW  0.1 3
+ GAP=251        1.34      10.2     8.6 10.8  0.7070E+01  0.2597E+02  0.2698E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC ZAR HH E MO 13.7 ST  6.0 OM  1.9 f0 4.54 R0.3238 AL 2.08 WI 25.4 MW  3.1 3
+ SPEC ZAR HH E T155718 K 0.000 GD  252 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 13.3 ST  1.0 OM  1.6 f0 3.38 R0.4349 AL 1.03 WI 19.0 MW  2.8 3
+ SPEC PTB HH N T155714 K 0.000 GD  210 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH N MO 13.7 ST 15.6 OM  1.9 f0 6.03 R0.2438 AL 2.95 WI 15.9 MW  3.1 3
+ SPEC NOR HH N T155731 K 0.000 GD  278 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.5 ST  7.1 OM  1.9 f0 5.51 R0.2668 AL 3.28 WI 14.9 MW  2.9 3
+ SPEC BRR HH N T1557 5 K 0.000 GD  165 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:12 OP:ep   STATUS:               ID:20130108155626 L   I
+ 2013-01-08-1550-00M.COL___239                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1556 46.61                             171   -0.1210 24.3 189 
+ BAR2 SZ ES       1557  1.79                             171   -0.6210 24.3 189 
+ BAR2 SZ I        1557  5.59        18.0 0.60            165           24.3 189 
+ BRR  HZ EP       1556 48.59                             153    0.4510 70.4 298 
+ BRR  HN ES       1557  5.89                             153    0.9710 70.4 298 
+ BRR  HN I        1557  9.38        43.9 0.20            154           70.4 298 
+ PTB  HZ EP       1556 53.57                             133   -0.33 9  148 258 
+ PTB  HN ES       1557 14.91                             133   -0.25 9  148 258 
+ PTB  HN I        1557 19.90        28.2 0.34            133            148 258 
+ ZAR  HE ES       1557 23.88                             123   -0.81 9  203 292 
+ NOR  HZ EP       1557  2.82                             119    0.20 8  235 234 
+ NOR  HN ES       1557 31.11                             119    0.43 8  235 234 
+ NOR  HN I        1557 38.13        20.8 0.14            121            235 234 
+                                                                                

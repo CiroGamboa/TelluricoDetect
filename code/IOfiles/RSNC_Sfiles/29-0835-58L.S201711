@@ -1,0 +1,26 @@
+ 2017 1129 0835 58.2 L   6.783 -73.111133.3  RSN  6 0.4 1.3LRSN                1
+ GAP=142        1.06       4.5     4.8  7.9 -0.3376E+01  0.1418E+02 -0.3568E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-12-12 20:01 OP:rebc STATUS:               ID:20171129083558 L   I
+ OLDACT:DUP 17-11-29 17:24 OP:dhb  STATUS:               ID:20171129082743d    3
+ OLDACT:REG 17-11-29 12:37 OP:dhb  STATUS:               ID:20171129082742     3
+ 2017-11-29-0828-00M.COL___480                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        836 16.15                             170   -0.1610 22.5 201 
+ BAR2 EZ ES        836 30.65                             170    0.2110 22.5 201 
+ BAR2 EZ I         836 33.08         5.3 0.24            168           22.5 201 
+ PAM  EZ EP        836 19.03                             149   -0.0110 76.5  36 
+ PAM  EN ES        836 34.87                             149   -0.4310 76.5  36 
+ RUS  HZ EP        836 20.84                             142    0.2610 98.5 178 
+ RUS  HN ES        836 38.59                             142    0.5510 98.5 178 
+ RUS  HZ I         836 39.47         2.6 0.14            143           98.5 178 
+ PTB  HZ EP   4    836 22.99                             128   -1.51 0  151 260 
+ PTB  HE ES        836 45.05                             128    0.03 9  151 260 
+ PTB  HZ I         836 46.79         1.9 0.42            129            151 260 
+ SPBC HZ EP        836 25.25                             126   -0.61 9  164 220 
+ SPBC HN ES        836 46.83                             126   -0.62 9  164 220 
+ SPBC HZ I         836 51.57         3.6 0.34            127            164 220 
+ ZAR  HZ EP        836 31.10                             119    0.78 8  208 292 
+ ZAR  HN ES        836 55.38                             119    0.01 8  208 292 
+ ZAR  HZ I         837  0.29         2.6 0.42            120            208 292 
+                                                                                

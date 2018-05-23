@@ -1,0 +1,25 @@
+ 2017 12 7 1102  6.2 L   6.685 -73.257136.0  RSN  5 0.5 1.3LRSN                1
+ GAP=205        1.19       7.1     8.2  9.3  0.2753E+02  0.2602E+02  0.2091E+02E
+ Epicentro: GALAN - SANTANDER                                                  3
+ ACTION:UPD 18-01-04 13:17 OP:rebc STATUS:               ID:20171207110206 L   I
+ OLDACT:DUP 17-12-07 21:52 OP:lv   STATUS:               ID:20171207105746d    3
+ OLDACT:UP  17-12-07 21:45 OP:lv   STATUS:               ID:20171207105745     3
+ OLDACT:REG 17-12-07 20:15 OP:lv   STATUS:               ID:20171207105745     3
+ 2017-12-07-1058-00M.COL___467                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       11 2 24.03                             174   -0.4910 13.2 141 
+ BAR2 EZ ES       11 2 39.26                             174    0.4810 13.2 141 
+ PTB  HZ EP       11 2 30.80                             133   -0.3310  134 263 
+ PTB  HN ES       11 2 50.91                             133    0.3610  134 263 
+ PTB  HZ I        11 2 52.82         1.7 0.16            119            134 263 
+ ZAR  HZ EP       11 2 37.27                             121   -0.17 9  198 297 
+ ZAR  HN ES       11 3  1.63                             121   -0.16 9  198 297 
+ ZAR  HZ I        11 3  8.25         2.8 0.22            110            198 297 
+ CHI  HZ EP       11 2 42.27                             117    0.54 8  233 193 
+ CHI  HN ES       11 3  8.60                             117   -0.82 8  233 193 
+ CHI  HZ I        11 3 14.04         1.2 0.34            105            233 193 
+ PRA  HZ EP       11 2 58.54                             106    1.11 6  375 209 
+ PRA  HZ I        11 3 46.64         1.0 0.18             99            375 209 
+ SJC  HZ EP   4   11 2 58.00                             104   -4.00 0  414 329 
+ SJC  HN ES   4   11 3 40.27                             104   -5.23 0  414 329 
+                                                                                

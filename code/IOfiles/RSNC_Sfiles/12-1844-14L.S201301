@@ -1,0 +1,39 @@
+ 2013  112 1844 14.9 L   6.762 -73.141145.7  RSN  7 0.6 2.5LRSN 3.0WRSN        1
+ SPEC AVERAGE  MO 13.5 ST  6.9 OM  2.4 f0 4.18 R0.3766 AL 2.44 WI 20.1 MW  3.0 3
+ SPEC SD       MO  0.4 ST  5.4 OM  0.6 f0 1.04 R0.1013 AL      WI      MW  0.2 3
+ GAP=183        1.43       5.3     8.1  9.5  0.2387E+01  0.1399E+02  0.1164E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC RUS HH N MO 12.9 ST0.313 OM  1.3 f0 3.03 R0.4851 AL 1.23 WI  8.5 MW  2.6 3
+ SPEC RUS HH N T184454 K 0.000 GD  174 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH N MO 13.9 ST 14.0 OM  2.1 f0 5.01 R0.2934 AL 3.21 WI 23.7 MW  3.2 3
+ SPEC NOR HH N T184515 K 0.000 GD  274 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 13.9 ST 10.8 OM  2.2 f0 4.58 R0.3210 AL 2.04 WI 33.5 MW  3.2 3
+ SPEC OCA HH N T1845 3 K 0.000 GD  220 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.4 ST0.865 OM  1.6 f0 2.87 R0.5122 AL 2.21 WI 15.2 MW  2.9 3
+ SPEC CHI HH N T184520 K 0.000 GD  285 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.6 ST  8.4 OM  2.0 f0 5.42 R0.2712 AL 3.52 WI 19.7 MW  3.0 3
+ SPEC BRR HH N T184453 K 0.000 GD  163 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:13 OP:ep   STATUS:               ID:20130112184414 L   I
+ 2013-01-12-1838-41M.COL___187                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1844 34.67                             172    0.2010 19.3 194 
+ BAR2 SZ ES       1844 49.48                             172   -0.2310 19.3 194 
+ BAR2 SZ I        1844 51.53        50.3 0.26            169           19.3 194 
+ BRR  HZ EP       1844 36.78                             152    0.5710 73.8 301 
+ BRR  HE ES       1844 54.01                             152    1.2010 73.8 301 
+ BRR  HN I        1844 58.09        64.5 0.16            149           73.8 301 
+ RUS  HZ EP       1844 38.40                             145    0.0410 96.3 176 
+ RUS  HZ I        1844 39.48        17.5 0.18            146           96.3 176 
+ RUS  HN ES       1844 56.29                             145   -0.3610 96.3 176 
+ PTB  HZ EP       1844 41.42                             132   -0.44 9  148 260 
+ PTB  HN ES       1845  1.84                             132   -1.04 9  148 260 
+ PTB  HN I        1845  7.69        39.8 0.22            131            148 260 
+ OCA  HN ES       1845  5.33                             129   -0.69 9  165 353 
+ OCA  HE I        1845  8.67        59.3 0.20            130            165 353 
+ NOR  HZ EP       1844 50.39                             119   -0.04 8  233 235 
+ NOR  HN ES       1845 18.62                             119    0.49 8  233 235 
+ NOR  HN I        1845 25.16        62.0 0.18            119            233 235 
+ CHI  HZ EP       1844 52.44                             118    0.25 8  245 196 
+ CHI  HN ES       1845 21.23                             118   -0.03 8  245 196 
+ CHI  HN I        1845 27.02        14.1 0.42            118            245 196 
+                                                                                

@@ -1,0 +1,27 @@
+ 2014  930 0701 24.7 L   6.817 -73.176139.9  RSN  6 0.4 1.7LRSN                1
+ GAP=187        1.01       4.8     5.8  7.1 -0.3233E+01  0.5627E+01 -0.1156E+02E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 14-10-03 23:10 OP:nd   STATUS:               ID:20140930070124 L   I
+ OLDACT:REG 14-09-30 12:46 OP:stll STATUS:               ID:20140930065813     3
+ 2014-09-30-0658-13M.COL___286                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP        7 1 43.52                             169   -0.1310 24.9 182 
+ BAR2 SZ ES        7 1 58.28                             169   -0.1510 24.9 182 
+ BAR2 SZ I         7 1 59.89        15.8 0.16            172           24.9 182 
+ BRR  HZ EP     C  7 1 45.51                             153    0.5310 67.3 298 
+ BRR  HN ES        7 2  1.26                             153    0.4510 67.3 298 
+ BRR  HZ I         7 2  3.08         7.4 0.36            149           67.3 298 
+ PTB  HZ EP        7 1 50.45                             131   -0.47 9  145 258 
+ PTB  HN ES        7 2 11.00                             131   -0.37 9  145 258 
+ PTB  HZ I         7 2 14.10         5.3 0.14            131            145 258 
+ OCA  HZ EP        7 1 52.97                             129    0.64 9  158 354 
+ OCA  HN ES        7 2 13.34                             129   -0.55 9  158 354 
+ OCA  HZ I         7 2 16.53         5.9 0.26            129            158 354 
+ ZAR  HZ EP        7 1 56.61                             122    0.25 9  200 292 
+ ZAR  HN ES        7 2 21.31                             122    0.25 9  200 292 
+ ZAR  HZ I         7 2 27.92         4.2 0.46            121            200 292 
+ SML  HZ EP        7 2  0.25                             116   -0.40 8  241 336 
+ SML  HE ES        7 2 28.45                             116   -0.25 8  241 336 
+ SML  HZ I         7 2 34.37         7.0 0.30            117            241 336 
+ DBB  SZ EP   4 C  7 2 19.15                             109    7.62 0  336 274 
+                                                                                

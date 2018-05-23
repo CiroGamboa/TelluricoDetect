@@ -1,0 +1,171 @@
+ 2015 1119 2019 33.2 L   6.815 -73.135150.2  RSN 34 0.5 3.8LRSN 3.8WRSN        1
+ SPEC AVERAGE  MO 14.8 ST  9.9 OM  2.6 f0 2.38 R1.4051 AL 0.00 WI 30.0 MW  3.8 3
+ SPEC SD       MO  0.3 ST 20.0 OM  0.3 f0 1.79 R1.1973 AL      WI      MW  0.2 3
+ GAP= 53        1.01       2.2     2.4  4.0 -0.1118E+01  0.1640E+01  0.1219E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+      38.0      18.0    -162.0  6.0 10.0  6.0  0.0  0.1           RSN FPFIT    F
+ SPEC BAR2EH Z MO 14.8 ST  9.0 OM  2.9 f0 2.86 R0.6727 AL-0.00 WI 30.0 MW  3.8 3
+ SPEC BAR2EH Z T2020 6 K 0.000 GD  152 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC BRR HH Z MO 14.5 ST 11.9 OM  2.6 f0 3.84 R0.5010 AL-0.00 WI 30.0 MW  3.6 3
+ SPEC BRR HH Z T202010 K 0.000 GD  166 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC PAM EH Z MO 14.8 ST  3.2 OM  2.9 f0 1.97 R0.9766 AL-0.00 WI 30.0 MW  3.8 3
+ SPEC PAM EH Z T202011 K 0.000 GD  168 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC RUS HH Z MO 15.1 ST  1.6 OM  3.1 f0 1.30 R1.4800 AL-0.00 WI 30.0 MW  4.0 3
+ SPEC RUS HH Z T202014 K 0.000 GD  181 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC TAM HH Z MO 14.5 ST  1.4 OM  2.5 f0 1.88 R1.0234 AL-0.00 WI 30.0 MW  3.6 3
+ SPEC TAM HH Z T202022 K 0.000 GD  215 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC OCA HH Z MO 15.0 ST 16.8 OM  2.9 f0 3.12 R0.6167 AL-0.00 WI 30.0 MW  3.9 3
+ SPEC OCA HH Z T202021 K 0.000 GD  218 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC SPBCHH Z MO 14.7 ST 76.6 OM  2.6 f0 6.47 R0.2974 AL-0.00 WI 30.0 MW  3.7 3
+ SPEC SPBCHH Z T202023 K 0.000 GD  223 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC ZAR HH Z MO 14.6 ST 23.0 OM  2.5 f0 4.48 R0.4295 AL-0.00 WI 30.0 MW  3.7 3
+ SPEC ZAR HH Z T202029 K 0.000 GD  254 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC NOR HH Z MO 14.6 ST  9.1 OM  2.4 f0 3.43 R0.5609 AL-0.00 WI 30.0 MW  3.7 3
+ SPEC NOR HH Z T202036 K 0.000 GD  280 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC SML HH Z MO 14.4 ST 82.1 OM  2.2 f0 8.29 R0.2321 AL-0.00 WI 30.0 MW  3.5 3
+ SPEC SML HH Z T202036 K 0.000 GD  285 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC ROSCBH Z MO 15.2 ST0.971 OM  3.0 f0 1.01 R1.9050 AL-0.00 WI 30.0 MW  4.1 3
+ SPEC ROSCBH Z T202040 K 0.000 GD  295 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC HEL HH Z MO 14.7 ST0.845 OM  2.5 f0 1.39 R1.3842 AL-0.00 WI 30.0 MW  3.7 3
+ SPEC HEL HH Z T202043 K 0.000 GD  312 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC URE HH Z MO 14.4 ST  8.7 OM  2.2 f0 3.77 R0.5103 AL-0.00 WI 30.0 MW  3.6 3
+ SPEC URE HH Z T202042 K 0.000 GD  321 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPECGUY2CHH Z MO 15.0 ST  1.0 OM  2.8 f0 1.14 R1.6877 AL-0.00 WI 30.0 MW  4.0 3
+ SPECGUY2CHH Z T202050 K 0.000 GD  338 VS 5.20 DE 3.50 Q0750.0 QA 1.50 Q1 0.00 3
+ SPEC PTGCHH Z MO 14.8 ST  2.5 OM  2.6 f0 1.78 R1.0809 AL-0.00 WI 30.0 MW  3.8 3
+ SPEC PTGCHH Z T202048 K 0.000 GD  344 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC CBOCHH Z MO 14.9 ST0.361 OM  2.6 f00.919 R2.0936 AL-0.00 WI 30.0 MW  3.9 3
+ SPEC CBOCHH Z T202055 K 0.000 GD  367 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC DBB SH Z MO 14.5 ST  2.5 OM  2.2 f0 2.36 R0.8153 AL-0.00 WI 30.0 MW  3.6 3
+ SPEC DBB SH Z T202057 K 0.000 GD  372 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC MON HH Z MO 15.0 ST0.773 OM  2.7 f0 1.08 R1.7815 AL-0.00 WI 30.0 MW  3.9 3
+ SPEC MON HH Z T202057 K 0.000 GD  384 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC SDV BH Z MO 14.9 ST0.314 OM  2.6 f00.861 R2.2346 AL-0.00 WI 30.0 MW  3.9 3
+ SPEC SDV BH Z T202058 K 0.000 GD  388 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC ANILHH Z MO 14.9 ST  3.7 OM  2.6 f0 1.96 R0.9816 AL-0.00 WI 30.0 MW  3.9 3
+ SPEC ANILHH Z T2021 1 K 0.000 GD  389 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC PRA HH Z MO 14.8 ST  1.5 OM  2.5 f0 1.51 R1.2742 AL-0.00 WI 30.0 MW  3.8 3
+ SPEC PRA HH Z T2021 7 K 0.000 GD  421 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC ORTCHH Z MO 14.9 ST  1.3 OM  2.6 f0 1.33 R1.4466 AL-0.00 WI 30.0 MW  3.9 3
+ SPEC ORTCHH Z T2021 9 K 0.000 GD  424 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC ELOVBH Z MO 15.2 ST0.029 OM  2.9 f00.297 R6.4781 AL-0.00 WI 30.0 MW  4.1 3
+ SPEC ELOVBH Z T2021 7 K 0.000 GD  431 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC SJC HH Z MO 14.9 ST0.758 OM  2.5 f0 1.20 R1.6033 AL-0.00 WI 30.0 MW  3.8 3
+ SPEC SJC HH Z T2021 6 K 0.000 GD  435 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC PAL HH Z MO 15.2 ST0.255 OM  2.8 f00.663 R2.9020 AL-0.00 WI 30.0 MW  4.0 3
+ SPEC PAL HH Z T202110 K 0.000 GD  434 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC GUA SH Z MO 14.5 ST 12.7 OM  2.1 f0 3.99 R0.4822 AL-0.00 WI 30.0 MW  3.6 3
+ SPEC GUA SH Z T202123 K 0.000 GD  498 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC SMARHH Z MO 14.3 ST  4.1 OM  1.9 f0 3.16 R0.6089 AL-0.00 WI 30.0 MW  3.5 3
+ SPEC SMARHH Z T202125 K 0.000 GD  518 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC MACCHH Z MO 14.8 ST0.627 OM  2.4 f0 1.13 R1.7027 AL-0.00 WI 30.0 MW  3.8 3
+ SPEC MACCHH Z T202129 K 0.000 GD  543 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC PCONHH Z MO 14.8 ST0.082 OM  2.3 f00.589 R3.2666 AL-0.00 WI 30.0 MW  3.8 3
+ SPEC PCONHH Z T202156 K 0.000 GD  632 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ OLDACT:UP  15-11-20 04:45 OP:y    STATUS:               ID:20151119201750     3
+ OLDACT:REG 15-11-20 03:28 OP:cara STATUS:               ID:20151119201750     3
+ ACTION:UPD 15-12-28 16:12 OP:cam  STATUS:               ID:20151119201933 L   I
+ OLDACT:UP  15-11-20 06:31 OP:cara STATUS:               ID:20151119201933 L   3
+ OLDACT:UP  15-11-20 06:22 OP:nlst STATUS:               ID:20151119201933 L   3
+ OLDACT:UP  15-11-20 05:24 OP:y    STATUS:               ID:20151119201750     3
+ OLDACT:UP  15-11-20 04:52 OP:y    STATUS:               ID:20151119201750     3
+ 2015-11-19-2017-50M.COL___316                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP       2019 53.49                             170    0.0910 25.1 192 
+ BAR2 EZ ES       2020  8.47                             170   -0.6810 25.1 192 
+ BAR2 EZ I        2020 10.58      1014.0 0.28            168           25.1 192 
+ BRR  HZ IP     D 2019 55.28                             153    0.4410 71.5 297 
+ BRR  HN ES       2020 12.41                             153    0.6910 71.5 297 
+ BRR  HZ I        2020 16.39       832.4 0.28            147           71.5 297 
+ PAM  EZ EP     D 2019 56.34                             152    0.5710 75.4  40 
+ PAM  EN ES       2020 13.30                             152   -0.0710 75.4  40 
+ PAM  EZ I        2020 15.69      1655.4 0.46            152           75.4  40 
+ RUS  HZ EP       2019 57.38                             144   -0.1110  102 177 
+ RUS  HN ES       2020 15.89                             144   -0.5510  102 177 
+ RUS  HZ I        2020 17.35       867.5 0.34            144            102 177 
+ TAM  HZ IP     D 2020  1.92                             131    0.76 9  154 106 
+ TAM  HN ES       2020 23.85                             131    0.88 9  154 106 
+ OCA  HZ EP       2020  1.53                             131   -0.19 9  159 353 
+ OCA  HN ES       2020 23.43                             131   -0.54 9  159 353 
+ OCA  HZ I        2020 27.51      1010.3 0.20            128            159 353 
+ SPBC HZ EP       2020  2.23                             130    0.00 9  165 219 
+ SPBC HE ES       2020 24.56                             130   -0.31 9  165 219 
+ SPBC HZ I        2020 27.07      1155.5 0.36            127            165 219 
+ ZAR  HZ EP       2020  6.03                             123    0.04 9  205 292 
+ ZAR  HN ES       2020 31.43                             123   -0.13 9  205 292 
+ ZAR  HZ I        2020 37.15       501.6 0.40            119            205 292 
+ NOR  HZ EP       2020  9.60                             119    0.21 8  237 234 
+ NOR  HN ES       2020 37.84                             119    0.22 8  237 234 
+ NOR  HZ I        2020 45.44       347.6 0.14            116            237 234 
+ SML  HZ EP       2020  9.78                             118   -0.19 8  243 335 
+ SML  HN ES       2020 38.10                             118   -0.55 8  243 335 
+ SML  HZ I        2020 41.87       981.8 0.10            116            243 335 
+ ROSC BZ EP   4 C 2020 12.78                             117    1.00 0  255 211 
+ ROSC BE ES   4   2020 42.28                             117    0.41 0  255 211 
+ ROSC BZ I        2020 47.05       571.2 0.35            115            255 211 
+ HEL  HZ EP       2020 14.61                             115    0.80 8  274 256 
+ HEL  HN ES       2020 45.00                             115   -0.49 8  274 256 
+ HEL  HZ I        2020 51.58       198.5 0.28            113            274 256 
+ URE  HZ EP   4   2020 13.44                             114   -1.10 0  284 292 
+ URE  HN ES   4   2020 44.05                             114   -2.74 0  284 292 
+ URE  HZ I        2020 56.47       339.0 0.34            112            284 292 
+ SOCV BZ IP     D 2020 15.34                             113   -0.90 7  299  57 
+ SOCV BN ES   4   2020 47.58                             113   -2.23 0  299  57 
+ GUY2CHZ EP       2020 17.59                             113    0.36 7  303 235 
+ GUY2CHE ES       2020 51.89                             113    0.32 7  303 235 
+ GUY2CHZ I        2021  3.71       254.2 0.46                           303 235 
+ VIL  SZ EP       2020 16.78                             113   -0.24 7  305 192 
+ VIL  SE ES       2020 50.86                             113   -0.35 7  305 192 
+ LL1C HZ EP   4   2020 18.31                             113    1.48 0  305 351 
+ LL1C HE ES       2020 51.32                             113    0.45 7  305 351 
+ LL1C HZ I        2020 59.33       875.8 0.24            111            305 351 
+ PTGC HZ EP     C 2020 16.64                             112   -0.73 7  310 159 
+ PTGC HN ES   4   2020 50.07                             112   -1.76 0  310 159 
+ PTGC HZ I        2020 54.98       457.3 0.26            112            310 159 
+ ELA  HE ES       2020 56.92                             111   -0.41 7  331 229 
+ CBOC HZ EP   4   2020 21.47                             110    0.99 0  335 252 
+ CBOC HN ES       2020 57.02                             110   -0.35 7  335 252 
+ CBOC HZ I        2021  8.78        71.9 0.50            108            335 252 
+ DBB  SZ EP       2020 20.99                             110    0.01 7  341 274 
+ DBB  SZ I        2021  3.11       600.0 0.22            108            341 274 
+ MON  HZ EP   4   2020 20.55                             109   -1.82 0  354 308 
+ MON  HN ES   4   2020 58.88                             109   -1.84 0  354 308 
+ MON  HZ I        2021 13.22       115.6 0.50            107            354 308 
+ SDV  BZ EP       2020 23.01                             109   -0.17 6  358  50 
+ SDV  BN ES   4   2020 59.84                             109   -2.33 0  358  50 
+ SDV  BZ I        2021  3.74       106.6 0.35            108            358  50 
+ ANIL HZ EP   4   2020 24.72                             109    1.32 0  359 224 
+ ANIL HE ES       2021  3.10                             109    0.54 6  359 224 
+ ANIL HZ I        2021 10.38       637.2 0.32            107            359 224 
+ PRA  HZ EP       2020 26.90                             107   -0.21 6  394 210 
+ PRA  HE ES       2021  9.04                             107   -0.11 6  394 210 
+ PRA  HZ I        2021 15.36       156.4 0.20            106            394 210 
+ ORTC HZ EP       2020 27.82                             107    0.32 6  397 216 
+ ORTC HN ES       2021 10.82                             107    0.96 6  397 216 
+ ORTC HZ I        2021 14.87       141.9 0.30            105            397 216 
+ ELOV BZ IP       2020 27.80                             106   -0.42 6  404  87 
+ ELOV BE ES   4   2021  9.46                             106   -1.68 0  404  87 
+ PAL  HZ IP       2020 29.09                             106    0.37 6  408 239 
+ PAL  HN ES       2021 11.54                             106   -0.49 6  408 239 
+ PAL  HZ I        2021 17.36        79.5 0.32            105            408 239 
+ SJC  HZ EP   4   2020 27.20                             106   -1.63 0  409 327 
+ SJC  HN ES   4   2021  8.49                             106   -3.73 0  409 327 
+ SJC  HZ I        2021 12.35        77.6 0.42            105            409 327 
+ YOT  HZ EP       2020 35.83                             104   -0.77 5  474 229 
+ YOT  HN ES       2021 26.30                             104    0.25 5  474 229 
+ YOT  HZ I        2021 38.14        41.1 0.90            102            474 229 
+ GUA  SZ EP       2020 35.96                             104   -0.69 5  475 173 
+ GUA  SE ES   4   2021 24.53                             104   -1.61 0  475 173 
+ GUA  SZ I        2021 30.83       221.4 0.33            103            475 173 
+ SMAR HZ EP   4   2020 38.82                             103   -0.21 0  496 346 
+ SMAR HN ES   4   2021 26.52                             103   -3.87 0  496 346 
+ SMAR HZ I        2021 29.96        78.2 0.26            102            496 346 
+ MACC HZ EP   4 C 2020 40.36                             102   -1.87 0  522 189 
+ MACC HN ES   4   2021 31.18                             102   -4.89 0  522 189 
+ MARA HZ EP       2020 44.46                             102   -0.11 4  539 216 
+ MARA HE ES   4   2021 38.32                             102   -1.91 0  539 216 
+ URI  HZ IP   4 D 2020 43.99                             101   -2.09 0  555  13 
+ URI  HN ES   4   2021 38.76                             101   -4.17 0  555  13 
+ PCON HZ EP       2020 54.44                             100    0.54 3  614 216 
+ SOTA HZ EP   4   2020 58.26                              99    0.71 0  645 217 
+                                                                                

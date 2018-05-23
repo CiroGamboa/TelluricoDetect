@@ -1,0 +1,50 @@
+ 2012 1222 2221  2.2 L   6.824 -73.118146.0  RSN 15 0.6 2.6LRSN 3.3WRSN        1
+ SPEC AVERAGE  MO 14.0 ST  6.2 OM  3.1 f0 2.90 R0.5130 AL 2.19 WI 22.3 MW  3.3 3
+ SPEC SD       MO  0.4 ST  4.8 OM  0.8 f00.299 R0.0588 AL      WI      MW  0.3 3
+ GAP=186        1.38       3.4     6.3  6.9  0.4218E+00  0.1016E+02  0.2266E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC ZAR HH E MO 14.5 ST 13.0 OM  2.7 f0 3.17 R0.4637 AL 2.22 WI 35.8 MW  3.6 3
+ SPEC ZAR HH E T222159 K 0.000 GD  252 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 13.3 ST0.399 OM  1.7 f0 2.40 R0.6125 AL 1.59 WI 12.8 MW  2.8 3
+ SPEC RUS HH N T222143 K 0.000 GD  178 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.3 ST  8.1 OM  2.6 f0 3.08 R0.4773 AL 2.20 WI 14.5 MW  3.5 3
+ SPEC OCA HH N T222150 K 0.000 GD  215 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH E MO 14.0 ST  3.4 OM  2.4 f0 2.95 R0.4983 AL 2.75 WI 26.1 MW  3.3 3
+ SPEC BRR HH E T222140 K 0.000 GD  163 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-01-04 14:29 OP:ep   STATUS:               ID:20121222222102 L   I
+ 2012-12-22-2220-00M.COL___243                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       2221 22.00                             169    0.1210 26.6 196 
+ BAR2 SZ ES       2221 37.15                             169   -0.1210 26.6 196 
+ BAR2 SZ I        2221 38.71        84.4 0.36                          26.6 196 
+ GIR2 SZ EP       2221 22.09                             168    0.2810 29.4 343 
+ BRR  HZ IP     C 2221 23.89                             152    0.4710 72.7 296 
+ BRR  HZ I        2221 24.17        92.0 0.20                          72.7 296 
+ BRR  HE ES       2221 40.82                             152    0.8210 72.7 296 
+ RUS  HZ EP       2221 25.89                             143   -0.2210  103 178 
+ RUS  HN ES       2221 44.26                             143   -0.5310  103 178 
+ PTB  HZ EP       2221 28.69                             131   -0.77 9  151 258 
+ PTB  HE ES       2221 49.75                             131   -1.02 9  151 258 
+ OCA  HZ EP       2221 29.86                             130   -0.42 9  158 352 
+ OCA  HN ES       2221 52.31                             130    0.10 9  158 352 
+ ZAR  HZ EP       2221 34.69                             122   -0.12 8  206 291 
+ ZAR  HE ES       2222  0.27                             122   -0.01 8  206 291 
+ CTAB SZ EP       2221 39.15                             119    0.83 8  234 211 
+ CTAB SZ I        2221 40.38        24.7 0.40                           234 211 
+ SML  HZ EP       2221 38.74                             118    0.06 8  243 334 
+ SML  HN ES       2222  7.57                             118    0.40 8  243 334 
+ CHI  HZ EP       2221 39.60                             117   -0.63 8  252 196 
+ CHI  HE ES       2222  9.65                             117   -0.28 8  252 196 
+ ROSC BZ EP       2221 41.68                             116    0.98 8  257 211 
+ ROSC BN ES       2222 11.54                             116    0.77 8  257 211 
+ ROSC BZ I        2222 19.66        24.4 0.45                           257 211 
+ HEL  HZ EP       2221 43.12                             114    0.34 7  276 255 
+ URE  HZ EP       2221 41.89                             113   -1.56 7  286 291 
+ RREF HZ EP       2221 48.74                             111   -0.03 7  326 229 
+ RREF HN ES       2222 24.80                             111   -0.32 7  326 229 
+ RREF HZ I        2222 32.88        12.7 0.24                           326 229 
+ MON  HZ EP   4   2221 49.30                             109   -1.96 0  354 308 
+ MON  HE ES   4   2222 28.21                             109   -1.35 0  354 308 
+ ANIL HZ EP       2221 52.79                             108    0.36 6  361 225 
+ ANIL HE ES       2222 32.69                             108    1.04 6  361 225 
+                                                                                

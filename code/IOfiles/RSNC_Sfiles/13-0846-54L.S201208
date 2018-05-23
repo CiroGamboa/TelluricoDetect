@@ -1,0 +1,49 @@
+ 2012  813 0846 54.0 L   7.435 -73.416112.6  RSN 13 0.4 2.8LRSN 3.3WRSN        1
+ SPEC AVERAGE  MO 14.1 ST 35.5 OM  3.7 f0 5.37 R0.2983 AL 2.97 WI 18.0 MW  3.3 3
+ SPEC SD       MO  0.2 ST 26.2 OM  1.2 f0 1.63 R0.0828 AL      WI      MW  0.1 3
+ GAP= 91        0.94       3.1     2.8  6.2 -0.7650E-01  0.4959E+01  0.4070E+01E
+ Epicentro: SABANA DE TORRES - SANTANDER                                       3
+ SPEC OCA HH N MO 14.3 ST 32.8 OM  2.8 f0 4.82 R0.3050 AL 2.49 WI 11.4 MW  3.5 3
+ SPEC OCA HH N T 84726 K 0.000 GD  143 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 13.8 ST  4.9 OM  2.2 f0 3.71 R0.3962 AL 1.56 WI 26.6 MW  3.2 3
+ SPEC PTB HH N T 84734 K 0.000 GD  189 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 14.1 ST 68.9 OM  2.6 f0 7.59 R0.1937 AL 4.87 WI 15.9 MW  3.3 3
+ SPEC BRR HH N T 84722 K 0.000 GD  122 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-09-10 11:56 OP:ep   STATUS:               ID:20120813084654 L   I
+ 2012-08-13-0840-00M.COL___217                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ GIR2 SZ EP   1    847 10.28                             156   -0.15 7 46.4 148 
+ BRR  HZ IP     C  847 10.23                             155   -0.1110 48.8 222 
+ BRR  HZ I         847 10.62       256.8 0.22                          48.8 222 
+ BRR  HN ES   1    847 22.81                             155   -0.25 7 48.8 222 
+ PAM  SZ EP        847 13.41                             142    0.3810 79.8  98 
+ PAM  SN ES        847 28.02                             142    0.1810 79.8  98 
+ PAM  SZ I         847 30.28       151.1 0.22                          79.8  98 
+ OCA  HZ EP        847 13.13                             139   -0.1810 89.5   7 
+ OCA  HN ES        847 28.13                             139   -0.2110 89.5   7 
+ OCA  HZ I         847 30.27       502.4 0.24                          89.5   7 
+ BAR2 SZ EP        847 13.98                             136   -0.0410 96.7 164 
+ BAR2 SZ ES   1    847 29.28                             136   -0.32 7 96.7 164 
+ BAR2 SZ I         847 29.88       413.5 0.16                          96.7 164 
+ PTB  HZ EP   1    847 18.23                             122   -0.70 7  152 229 
+ PTB  HN ES        847 39.10                             122    0.75 9  152 229 
+ PTB  HZ I         847 41.23        72.5 0.24                           152 229 
+ ZAR  HZ EP   1    847 19.90                             121    0.19 7  159 272 
+ ZAR  HE ES   1    847 40.46                             121    0.73 7  159 272 
+ ZAR  HZ I         847 44.03        73.0 0.13                           159 272 
+ RUS  HZ EP   1    847 21.31                             119   -0.64 7  175 168 
+ RUS  HN ES        847 43.12                             119   -0.60 9  175 168 
+ RUS  HZ I         847 46.47        24.5 0.21                           175 168 
+ TAM  HZ EP   1    847 25.71                             113    0.34 6  211 122 
+ TAM  HZ I         847 26.33        46.1 0.26                           211 122 
+ TAM  HN ES        847 50.44                             113    0.63 8  211 122 
+ URE  HZ EP   1    847 27.19                             110   -1.01 6  236 279 
+ URE  HZ I         847 59.38        69.7 0.22                           236 279 
+ NOR  SZ EP   1    847 31.57                             108    0.34 6  262 218 
+ NOR  SN ES        848  0.02                             108   -0.22 8  262 218 
+ NOR  SZ I         848  7.06        32.6 0.18                           262 218 
+ HEL  HZ EP   1    847 33.18                             107    0.51 6  271 240 
+ HEL  HN ES   1    848  2.94                             107    0.14 6  271 240 
+ HEL  HZ I         848  8.42        32.8 0.26                           271 240 
+ DBB  SZ EP   1    847 37.14                             104    0.02 5  312 262 
+                                                                                

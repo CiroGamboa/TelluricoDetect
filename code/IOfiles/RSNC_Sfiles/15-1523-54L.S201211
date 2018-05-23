@@ -1,0 +1,33 @@
+ 2012 1115 1523 54.2 L   6.756 -73.178145.5  RSN  7 0.5 2.1LRSN 2.6WRSN        1
+ SPEC AVERAGE  MO 13.0 ST  2.1 OM  2.4 f0 4.18 R0.3818 AL 2.49 WI 13.1 MW  2.6 3
+ SPEC SD       MO  0.2 ST  1.9 OM  1.0 f0 1.17 R0.1065 AL      WI      MW  0.2 3
+ GAP=134        1.22       4.9     6.0  7.2  0.4009E+00  0.8132E+01 -0.4618E+01E
+ Epicentro: VILLANUEVA - SANTANDER                                             3
+ SPEC RUS HH N MO 12.8 ST0.243 OM  1.2 f0 3.01 R0.4884 AL 1.94 WI  9.2 MW  2.5 3
+ SPEC RUS HH N T152435 K 0.000 GD  174 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.3 ST  4.0 OM  1.7 f0 5.34 R0.2753 AL 3.03 WI 17.0 MW  2.8 3
+ SPEC BRR HH N T152432 K 0.000 GD  161 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-12-05 15:33 OP:}ep  STATUS:               ID:20121115152354 L   I
+ 2012-11-15-1520-00M.COL___230                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1524 13.85                             173    0.1410 18.1 181 
+ BAR2 SZ ES       1524 28.49                             173   -0.4310 18.1 181 
+ BAR2 SZ I        1524 29.57        20.4 0.18                          18.1 181 
+ GIR2 SZ EP       1524 14.30                             165    0.3210 35.8 357 
+ GIR2 SZ ES       1524 29.13                             165   -0.2710 35.8 357 
+ BRR  HZ EP       1524 15.99                             153    0.6910 70.6 303 
+ BRR  HN ES       1524 32.82                             153    1.0810 70.6 303 
+ BRR  HN I        1524 33.17        39.0 0.22                          70.6 303 
+ PAM  SZ IP     D 1524 16.88                             149    0.1110 83.5  39 
+ PAM  SZ I        1524 17.02        23.1 0.16                          83.5  39 
+ PAM  SN ES       1524 34.01                             149   -0.3510 83.5  39 
+ RUS  HZ EP       1524 17.77                             145    0.1610 96.0 174 
+ RUS  HN ES       1524 35.77                             145   -0.0910 96.0 174 
+ RUS  HN I        1524 36.32        15.3 0.32                          96.0 174 
+ PTB  HZ EP       1524 20.27                             133   -0.49 9  143 260 
+ PTB  HN ES       1524 40.98                             133   -0.48 9  143 260 
+ PTB  HN I        1524 48.52        10.7 0.26                           143 260 
+ SML  HZ EP       1524 30.89                             117   -0.26 8  247 337 
+ SML  HE ES       1524 59.41                             117   -0.55 8  247 337 
+ SML  HN I        1525  5.96        22.0 0.28                           247 337 
+                                                                                

@@ -1,0 +1,115 @@
+ 2014  6 2 1952  2.2 L   6.818 -73.143145.8  RSN 25 0.5 3.0LRSN 3.4WRSN        1
+ SPEC AVERAGE  MO 14.2 ST0.439 OM  2.3 f0 1.55 R1.5136 AL 0.00 WI 30.0 MW  3.4 3
+ SPEC SD       MO  0.3 ST0.457 OM  0.3 f00.760 R0.6036 AL      WI      MW  0.2 3
+ GAP= 71        1.07       2.5     2.9  4.7 -0.4772E+00  0.3606E+01  0.2131E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 14.2 ST  1.1 OM  2.3 f0 2.26 R0.8513 AL-0.00 WI 30.0 MW  3.4 3
+ SPEC BAR2SH Z T195235 K 0.000 GD  147 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC BRR HH Z MO 13.8 ST0.843 OM  1.9 f0 2.74 R0.7022 AL-0.00 WI 30.0 MW  3.2 3
+ SPEC BRR HH Z T195239 K 0.000 GD  161 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PAM SH Z MO 13.9 ST0.226 OM  2.0 f0 1.63 R1.1804 AL-0.00 WI 30.0 MW  3.2 3
+ SPEC PAM SH Z T195240 K 0.000 GD  164 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC TAM HH Z MO 13.9 ST0.216 OM  1.9 f0 1.59 R1.2101 AL-0.00 WI 30.0 MW  3.2 3
+ SPEC TAM HH Z T195250 K 0.000 GD  212 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC OCA HH Z MO 14.4 ST0.141 OM  2.4 f00.936 R2.0556 AL-0.00 WI 30.0 MW  3.6 3
+ SPEC OCA HH Z T195250 K 0.000 GD  214 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC SPBCHH Z MO 13.9 ST  1.8 OM  1.8 f0 3.46 R0.5561 AL-0.00 WI 30.0 MW  3.2 3
+ SPEC SPBCHH Z T195251 K 0.000 GD  220 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC NOR HH Z MO 14.1 ST0.512 OM  1.9 f0 1.94 R0.9918 AL-0.00 WI 30.0 MW  3.3 3
+ SPEC NOR HH Z T1953 3 K 0.000 GD  277 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC CHI HH Z MO 14.0 ST0.313 OM  1.8 f0 1.75 R1.0994 AL-0.00 WI 30.0 MW  3.3 3
+ SPEC CHI HH Z T1953 7 K 0.000 GD  290 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ROSCBH Z MO 14.6 ST0.175 OM  2.4 f00.906 R2.1236 AL-0.00 WI 30.0 MW  3.7 3
+ SPEC ROSCBH Z T195310 K 0.000 GD  293 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC HEL HH Z MO 14.3 ST0.093 OM  2.1 f00.908 R2.1189 AL-0.00 WI 30.0 MW  3.5 3
+ SPEC HEL HH Z T195313 K 0.000 GD  309 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPECGUY2CHH Z MO 14.6 ST  0.1 OM  2.4 f00.699 R  2.75 AL-0.00 WI 30.0 MW  3.7 3
+ SPECGUY2CHH Z T195319 K       GD336.3 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC RREFHH Z MO 14.5 ST0.134 OM  2.2 f00.908 R2.1189 AL-0.00 WI 30.0 MW  3.6 3
+ SPEC RREFHH Z T195326 K 0.000 GD  354 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC TOL SH Z MO 14.9 ST0.450 OM  2.6 f00.982 R1.9593 AL-0.00 WI 30.0 MW  3.9 3
+ SPEC TOL SH Z T195328 K 0.000 GD  374 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ANILHH Z MO 14.4 ST0.311 OM  2.1 f0 1.26 R1.5270 AL-0.00 WI 30.0 MW  3.5 3
+ SPEC ANILHH Z T195332 K 0.000 GD  387 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PRA HH Z MO 14.6 ST0.111 OM  2.3 f00.746 R2.5791 AL-0.00 WI 30.0 MW  3.7 3
+ SPEC PRA HH Z T195335 K 0.000 GD  420 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ORTCHH Z MO 14.1 ST0.140 OM  1.8 f0 1.18 R1.6305 AL-0.00 WI 30.0 MW  3.4 3
+ SPEC ORTCHH Z T195337 K 0.000 GD  422 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:REG 14-06-02 22:34 OP:fm   STATUS:               ID:20140602194807     3
+ ACTION:UPD 14-07-01 22:50 OP:nd   STATUS:               ID:20140602195202 L   I
+ OLDACT:UP  14-06-03 02:03 OP:fm   STATUS:               ID:20140602194807     3
+ 2014-06-02-1948-07M.COL___256                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     D 1952 21.84                             170    0.0010 25.4 190 
+ BAR2 SZ ES   1   1952 37.26                             170    0.07 7 25.4 190 
+ BAR2 SZ I        1952 38.18       296.9 0.18            169           25.4 190 
+ BRR  HZ EP       1952 23.54                             153    0.2710 70.5 297 
+ BRR  HN ES       1952 40.59                             153    0.8410 70.5 297 
+ BRR  SZ I        1952 43.53        88.5 0.34            151           70.5 297 
+ PAM  SZ EP       1952 24.67                             151    0.3910 75.6  40 
+ PAM  SN ES       1952 41.69                             151    0.1610 75.6  40 
+ PAM  SZ I        1952 45.25        67.9 0.62            154           75.6  40 
+ RUS  HZ EP       1952 25.69                             143   -0.3710  103 176 
+ RUS  HE ES       1952 44.11                             143   -0.5910  103 176 
+ RUS  SZ I        1952 45.56        66.8 0.28            145            103 176 
+ PTB  HZ EP       1952 28.60                             132   -0.59 9  148 258 
+ PTB  HN ES       1952 49.71                             132   -0.57 9  148 258 
+ PTB  SZ I        1952 57.03        95.4 0.18            131            148 258 
+ TAM  HZ EP       1952 29.95                             130    0.09 9  155 106 
+ TAM  HN ES       1952 51.60                             130    0.13 9  155 106 
+ TAM  SZ I        1952 57.84        51.3 0.32            133            155 106 
+ OCA  HZ EP       1952 30.01                             130   -0.28 9  158 353 
+ OCA  HN ES       1952 52.37                             130    0.14 9  158 353 
+ OCA  SZ I        1952 55.01       103.1 0.22            131            158 353 
+ SPBC HZ EP       1952 30.72                             129   -0.11 9  165 219 
+ SPBC HE ES       1952 52.88                             129   -0.31 9  165 219 
+ SPBC SZ I        1952 54.47       106.3 0.18            129            165 219 
+ ZAR  HZ EP       1952 34.46                             122   -0.10 9  204 292 
+ ZAR  HN ES       1952 59.65                             122   -0.18 9  204 292 
+ ZAR  SZ I        1953  4.98        88.1 0.58            123            204 292 
+ NOR  HZ EP       1952 37.93                             118   -0.11 8  236 234 
+ NOR  HE ES       1953  5.45                             118   -0.58 8  236 234 
+ NOR  SZ I        1953 10.93        83.9 0.22            119            236 234 
+ SML  HZ EP       1952 38.33                             118   -0.27 8  242 335 
+ SML  HN ES       1953  6.22                             118   -0.81 8  242 335 
+ SML  SZ I        1953 14.28        58.7 0.10            118            242 335 
+ CHI  HZ EP       1952 39.71                             117   -0.37 8  251 195 
+ CHI  HN ES   4   1953  9.02                             117   -0.64 0  251 195 
+ CHI  SZ I        1953 16.82        31.6 0.70            118            251 195 
+ ROSC BZ EP       1952 41.46                             116    0.97 8  255 211 
+ ROSC BN ES   4   1953 12.28                             116    1.90 0  255 211 
+ ROSC SZ I        1953 19.56       108.2 0.35            117            255 211 
+ HEL  HZ EP       1952 43.22                             115    0.76 8  273 255 
+ HEL  HN ES       1953 14.63                             115    0.73 8  273 255 
+ HEL  SZ I        1953 20.29        45.6 0.36            115            273 255 
+ URE  HZ EP       1952 42.50                             114   -0.68 7  283 292 
+ URE  HN ES   4   1953 12.70                             114   -2.47 0  283 292 
+ URE  SZ I        1953 22.33        56.1 0.18            114            283 292 
+ GUY2CHZ EP       1952 46.42                             112    0.49 7  303 234 
+ GUY2CHE ES       1953 20.53                             112    0.46 7  303 234 
+ GUY2CSZ I        1953 27.99        84.2 0.48                           303 234 
+ VIL  SZ EP       1952 45.45                             112   -0.36 7  305 192 
+ VIL  SE ES       1953 20.00                             112    0.15 7  305 192 
+ VIL  SZ I        1953 22.97        35.3 0.30            113            305 192 
+ RREF HZ EP   4   1952 49.88                             111    1.40 0  323 229 
+ RREF HN ES   4   1953 28.27                             111    3.66 0  323 229 
+ RREF SZ I        1953 33.16        50.7 0.54            111            323 229 
+ CBOC HN ES   1   1953 26.48                             110    0.63 5  335 252 
+ DBB  SZ EP       1952 49.55                             109   -0.10 7  340 274 
+ DBB  SZ ES   4   1953 24.76                             109   -1.94 0  340 274 
+ DBB  SZ I        1953 30.28       130.4 0.24            110            340 274 
+ TOL  SZ EP       1952 51.49                             109    0.89 7  345 224 
+ TOL  SN ES   4   1953 29.88                             109    1.49 0  345 224 
+ TOL  SZ I        1953 37.88       115.6 0.68            110            345 224 
+ ARGC HZ EP   4   1952 49.89                             108   -1.72 0  357 340 
+ ARGC HN ES   2   1953 30.63                             108    0.45 3  357 340 
+ ARGC SZ I        1953 44.84        12.5 1.56            109            357 340 
+ ANIL HZ EP       1952 53.03                             108    0.88 6  359 224 
+ ANIL HN ES   4   1953 33.99                             108    2.84 0  359 224 
+ PRA  HZ EP   1   1952 55.14                             106   -0.76 4  394 209 
+ PRA  HN ES   1   1953 37.19                             106   -0.63 4  394 209 
+ PRA  SZ I        1953 41.90        41.3 0.56            107            394 209 
+ ORTC HZ EP       1952 55.74                             106   -0.55 6  397 216 
+ ORTC HN ES       1953 39.14                             106    0.63 6  397 216 
+ ORTC SZ I        1953 44.80        35.4 0.32            107            397 216 
+                                                                                

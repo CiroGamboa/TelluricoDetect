@@ -1,0 +1,23 @@
+ 2013  912 1524 16.6 L   7.330 -73.462109.0  RSN  6 0.3 1.7LRSN                1
+ GAP=112        0.68       3.3     3.6  7.5 -0.2425E+00  0.5916E+01 -0.1060E+02E
+ Epicentro: SABANA DE TORRES - SANTANDER                                       3
+ ACTION:UPD 13-10-22 09:22 OP:ep   STATUS:               ID:20130912152416 L   I
+ OLDACT:UP  13-09-12 16:32 OP:cam  STATUS:               ID:20130912151959     3
+ OLDACT:REG 13-09-12 15:09 OP:cam  STATUS:               ID:20130912151959     3
+ 2013-09-12-1519-59M.COL___269                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP   1   1524 32.24                             160    0.31 7 37.0 228 
+ BRR  HN ES   1   1524 44.33                             160    0.43 7 37.0 228 
+ PAM  SZ EP       1524 35.70                             140    0.1310 84.2  89 
+ PAM  SN ES   1   1524 50.40                             140    0.03 7 84.2  89 
+ BAR2 SZ ES   1   1524 49.57                             138   -0.62 7 87.3 159 
+ PTB  HZ EP   1   1524 40.24                             123    0.15 7  140 232 
+ PTB  HE ES   1   1524 58.21                             123   -0.21 7  140 232 
+ PTB  HZ I        1525  2.38         4.9 0.20            125            140 232 
+ ZAR  HZ EP   4   1524 43.50                             120    1.90 0  155 277 
+ ZAR  HN ES   4   1525  4.06                             120    2.95 0  155 277 
+ ZAR  HZ I        1525  5.60         7.0 0.24            120            155 277 
+ SML  HZ EP   1   1524 44.01                             117    0.20 7  176 338 
+ SML  HN ES       1525  4.70                             117   -0.35 9  176 338 
+ SML  HZ I        1525 12.85        13.3 0.10            117            176 338 
+                                                                                

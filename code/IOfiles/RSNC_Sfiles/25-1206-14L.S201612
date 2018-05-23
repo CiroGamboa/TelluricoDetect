@@ -1,0 +1,30 @@
+ 2016 1225 1206 14.5 L   6.844 -73.340123.7  RSN  7 0.4 1.6LRSN                1
+ GAP=107        0.91       4.4     4.1  6.3  0.1387E+01  0.7611E+01  0.2620E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 17-01-11 20:18 OP:rebc STATUS:               ID:20161225120614 L   I
+ OLDACT:UP  16-12-25 22:35 OP:edw  STATUS:               ID:20161225115742     3
+ OLDACT:UP  16-12-25 22:34 OP:edw  STATUS:               ID:20161225115742     3
+ OLDACT:REG 16-12-25 20:17 OP:edw  STATUS:               ID:20161225115742     3
+ 2016-12-25-1158-00M.COL___375                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     C 12 6 31.84                             164    0.1210 32.8 148 
+ BAR2 EZ ES       12 6 45.34                             164    0.1610 32.8 148 
+ BAR2 EZ I        12 6 46.05        16.9 0.26            167           32.8 148 
+ BRR  HZ EP       12 6 32.24                             156    0.1510 50.4 305 
+ BRR  HE ES       12 6 46.29                             156    0.4510 50.4 305 
+ BRR  HZ I        12 6 47.16        15.1 0.14            154           50.4 305 
+ PAM  EZ EP   2   12 6 34.83                             142   -0.42 5 89.4  52 
+ PAM  EN ES       12 6 51.07                             142   -0.3910 89.4  52 
+ PAM  EZ I        12 6 52.30         4.9 0.40            145           89.4  52 
+ RUS  HZ EP       12 6 36.88                             136    0.0710  109 165 
+ RUS  HN ES       12 6 54.27                             136    0.0310  109 165 
+ RUS  HZ I        12 6 55.38         4.6 0.20            138            109 165 
+ PTB  HZ EP       12 6 37.35                             131   -0.5010  128 255 
+ PTB  HE ES       12 6 55.49                             131   -0.6010  128 255 
+ PTB  HZ I        12 6 58.89         3.9 0.13            130            128 255 
+ ZAR  HZ EP       12 6 43.80                             120    0.54 9  182 293 
+ ZAR  HN ES   4   12 7  8.14                             120    2.42 0  182 293 
+ ZAR  HZ I        12 7 10.84         4.8 0.28            120            182 293 
+ CHI  HZ EP   2   12 6 51.85                             112    0.80 4  249 190 
+ CHI  HN ES   4   12 7 21.01                             112    1.42 0  249 190 
+                                                                                

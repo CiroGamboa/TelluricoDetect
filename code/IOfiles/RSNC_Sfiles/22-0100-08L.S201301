@@ -1,0 +1,36 @@
+ 2013  122 0100  8.7 L   7.359 -73.183129.1  RSN  7 0.2 2.2LRSN 2.7WRSN        1
+ SPEC AVERAGE  MO 13.1 ST  4.7 OM  2.4 f0 5.78 R0.2627 AL 2.55 WI 19.0 MW  2.7 3
+ SPEC SD       MO  0.2 ST  4.4 OM  0.9 f0 1.08 R0.0464 AL      WI      MW  0.1 3
+ GAP=178        0.60       3.2     2.5  3.9  0.1373E+01  0.2506E+01  0.7987E+00E
+ Epicentro: RIONEGRO - SANTANDER                                               3
+ SPEC ZAR HH N MO 13.3 ST 12.1 OM  1.6 f0 7.47 R0.1968 AL 2.95 WI 23.8 MW  2.8 3
+ SPEC ZAR HH N T 1 1 0 K 0.000 GD  225 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 13.0 ST  2.0 OM  1.3 f0 5.26 R0.2795 AL 1.69 WI 23.6 MW  2.6 3
+ SPEC PTB HH N T 1 057 K 0.000 GD  211 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 12.9 ST  1.1 OM  1.4 f0 4.53 R0.3245 AL 2.59 WI 14.5 MW  2.6 3
+ SPEC PAM SH N T 1 042 K 0.000 GD  139 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.1 ST  3.8 OM  1.6 f0 5.88 R0.2500 AL 2.96 WI 14.0 MW  2.7 3
+ SPEC BRR HH N T 1 042 K 0.000 GD  144 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:15 OP:ep   STATUS:               ID:20130122010008 L   I
+ 2013-01-22-0058-47M.COL___181                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ EP        1 0 27.88                             157    0.0510 53.5  92 
+ PAM  SN ES        1 0 42.68                             157   -0.0410 53.5  92 
+ PAM  SN I         1 0 43.84        25.8 0.34            133           53.5  92 
+ BRR  HZ EP        1 0 27.62                             152   -0.0910 64.7 244 
+ BRR  HN ES        1 0 42.84                             152    0.3210 64.7 244 
+ BRR  HN I         1 0 43.71        28.1 0.18            132           64.7 244 
+ BAR2 SZ EP        1 0 29.42                             145    0.0710 84.8 180 
+ BAR2 SZ ES        1 0 45.40                             145   -0.0410 84.8 180 
+ BAR2 SZ I         1 0 47.01        37.8 0.16            119           84.8 180 
+ RUS  HZ EP        1 0 36.45                             125   -0.03 9  163 176 
+ RUS  HN ES        1 0 57.76                             125   -0.36 9  163 176 
+ PTB  HZ EP        1 0 36.07                             124   -0.26 9  167 237 
+ PTB  HN ES        1 0 57.98                             124    0.13 9  167 237 
+ PTB  HN I         1 1  0.16        15.9 0.16            107            167 237 
+ ZAR  HZ EP        1 0 37.96                             121   -0.21 9  185 275 
+ ZAR  HN ES        1 1  1.10                             121   -0.04 9  185 275 
+ ZAR  HE I         1 1  2.43        42.0 0.34            107            185 275 
+ CHI  HZ EP        1 0 53.03                             108    0.71 7  308 191 
+ CHI  HN I         1 1 36.31         3.1 0.48             98            308 191 
+                                                                                

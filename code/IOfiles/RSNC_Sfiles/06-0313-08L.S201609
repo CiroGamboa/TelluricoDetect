@@ -1,0 +1,28 @@
+ 2016  9 6 0313  8.5 L   6.711 -73.135148.5  RSN  7 0.3 1.9LRSN                1
+ GAP=142        0.78       3.3     3.4  5.3 -0.7972E+00  0.3475E+01  0.1076E+01E
+ Epicentro: JORDAN - SANTANDER                                                 3
+ ACTION:UPD 17-08-17 21:07 OP:lp   STATUS:               ID:20160906031308 L   I
+ OLDACT:UP  16-09-06 14:48 OP:dani STATUS:               ID:20160906030741     3
+ OLDACT:REG 16-09-06 12:18 OP:dani STATUS:               ID:20160906030741     3
+ 2016-09-06-0308-00M.COL___367                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP     C  313 28.29                             174   -0.0310 14.2 202 
+ BAR2 EZ ES        313 43.67                             174   -0.1010 14.2 202 
+ BAR2 EZ I         313 44.33        37.1 0.40            172           14.2 202 
+ BRR  HZ EP     C  313 30.36                             151    0.0610 77.4 304 
+ BRR  HN ES        313 47.85                             151    0.5510 77.4 304 
+ BRR  HZ I         313 50.40        14.4 0.14            152           77.4 304 
+ PAM  EZ EP        313 31.38                             149   -0.0610 84.5  35 
+ PAM  EE ES        313 49.20                             149   -0.1310 84.5  35 
+ PAM  EZ I         313 51.44        10.3 0.50            153           84.5  35 
+ RUS  HZ EP        313 31.95                             147    0.1010 90.7 176 
+ RUS  HE ES        313 49.92                             147   -0.1310 90.7 176 
+ RUS  HZ I         313 51.77        12.8 0.34            148           90.7 176 
+ PTB  HZ EP        313 35.26                             133   -0.40 9  147 263 
+ PTB  HE ES        313 56.22                             133   -0.62 9  147 263 
+ PTB  HZ I         314  0.14        13.1 0.12            133            147 263 
+ SPBC HZ EP        313 36.99                             131    0.40 9  156 222 
+ SPBC HN ES        313 58.76                             131    0.26 9  156 222 
+ SPBC HZ I         314  6.18         8.2 0.10            132            156 222 
+ ZAR  HN ES        314  7.58                             122    0.09 8  209 295 
+                                                                                

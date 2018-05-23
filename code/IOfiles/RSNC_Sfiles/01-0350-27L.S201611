@@ -1,0 +1,28 @@
+ 2016 11 1 0350 27.9 L   6.739 -73.099152.3  RSN  7 0.2 1.6LRSN                1
+ GAP=125        0.51       2.4     2.7  4.0 -0.1959E+01  0.4064E-01  0.2326E+01E
+ Epicentro: JORDAN - SANTANDER                                                 3
+ ACTION:UPD 17-10-26 21:03 OP:lp   STATUS:               ID:20161101035027 L   I
+ OLDACT:UP  16-11-01 15:02 OP:dani STATUS:               ID:20161101034745d    3
+ OLDACT:UP  16-11-01 15:02 OP:dani STATUS:               ID:20161101034745d    3
+ OLDACT:DUP 16-11-01 14:58 OP:dani STATUS:               ID:20161101034745d    3
+ 2016-11-01-0348-00M.COL___313                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        350 50.27                             151    0.1110 79.0 301 
+ BRR  HN ES        351  7.48                             151   -0.0710 79.0 301 
+ BRR  HZ I         351  8.13         7.9 0.20            152           79.0 301 
+ PAM  EZ EP        350 51.22                             151    0.3110 79.7  34 
+ PAM  EE ES        351  8.69                             151   -0.2010 79.7  34 
+ PAM  EZ I         351 10.73         6.9 0.40            153           79.7  34 
+ RUS  HZ EP        350 51.83                             147    0.0410 93.7 179 
+ RUS  HN ES        351 10.61                             147    0.1610 93.7 179 
+ RUS  HZ I         351 11.85         2.8 0.22            147           93.7 179 
+ PTB  HZ EP        350 55.52                             133   -0.20 9  152 262 
+ PTB  HE ES   4    351 12.53                             133   -4.92 0  152 262 
+ PTB  HZ I         351 16.60         3.9 0.15            133            152 262 
+ SPBC HN ES        351 19.02                             131   -0.18 9  161 222 
+ SPBC HZ I         351 21.20         5.7 0.24            131            161 222 
+ NOR  HZ EP   4    351  5.57                             120    1.54 0  235 237 
+ NOR  HN ES        351 32.42                             120    0.19 8  235 237 
+ NOR  HZ I         351 37.00         3.1 0.32            120            235 237 
+ PTGC HZ EP        351 10.84                             113   -0.27 7  301 159 
+                                                                                

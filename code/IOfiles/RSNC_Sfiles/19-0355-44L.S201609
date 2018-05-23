@@ -1,0 +1,31 @@
+ 2016  919 0355 44.2 L   6.811 -73.142150.0  RSN  7 0.4 1.3LRSN                1
+ GAP=183        0.83       3.6     5.9  8.9 -0.5405E+01 -0.9656E+01 -0.1145E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-08-17 21:13 OP:lp   STATUS:               ID:20160919035544 L   I
+ OLDACT:UP  16-09-19 16:33 OP:and  STATUS:               ID:20160919034738d    3
+ OLDACT:UP  16-09-19 16:29 OP:and  STATUS:               ID:20160919034738d    3
+ OLDACT:UP  16-09-19 16:25 OP:and  STATUS:               ID:20160919034738d    3
+ OLDACT:DUP 16-09-19 16:14 OP:and  STATUS:               ID:20160919034738d    3
+ 2016-09-19-0348-00M.COL___360                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        356  4.30                             170   -0.0810 24.6 191 
+ BAR2 EZ ES   2    356 20.05                             170   -0.06 5 24.6 191 
+ BAR2 EZ I         356 20.19         3.9 0.34            170           24.6 191 
+ BRR  HZ EP   2    356  6.46                             153    0.64 5 71.0 297 
+ BRR  HN ES   2    356 23.46                             153    0.80 5 71.0 297 
+ BRR  HZ I         356 30.11         2.9 0.14            150           71.0 297 
+ RUS  HZ EP        356  8.24                             144   -0.2310  102 176 
+ RUS  HN ES   2    356 27.12                             144   -0.27 5  102 176 
+ RUS  HZ I         356 27.78         1.4 0.31            150            102 176 
+ PTB  HZ EP        356 11.47                             133   -0.13 9  148 258 
+ PTB  HN ES        356 32.30                             133   -0.65 9  148 258 
+ PTB  HZ I         356 37.95         2.0 0.17            134            148 258 
+ OCA  HZ EP        356 12.89                             131    0.13 9  159 353 
+ OCA  HN ES        356 35.00                             131   -0.01 9  159 353 
+ OCA  HZ I         356 39.03         5.5 0.26            133            159 353 
+ SPBC HZ EP   2    356 13.84                             130    0.68 5  164 219 
+ SPBC HE ES        356 36.30                             130    0.57 9  164 219 
+ SPBC HZ I         356 39.33         2.7 0.13            133            164 219 
+ ZAR  HN ES   4    356 43.64                             123    1.18 0  204 292 
+ ZAR  HZ I         356 45.43         2.7 0.10            124            204 292 
+                                                                                

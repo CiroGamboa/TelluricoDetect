@@ -1,0 +1,32 @@
+ 2016 1022 0405 43.5 L   5.968 -73.955 14.4  RSN  6 0.4 0.7LRSN                1
+ GAP=106        1.07       2.9     3.6  6.9 -0.4728E+01  0.1362E+02 -0.6713E+01E
+ Epicentro: LA BELLEZA - SANTANDER                                             3
+ ACTION:UPD 16-11-09 19:21 OP:rebc STATUS:               ID:20161022040543 L   I
+ OLDACT:UP  16-10-22 20:24 OP:and  STATUS:               ID:20161022035748d    3
+ OLDACT:UP  16-10-22 20:23 OP:and  STATUS:               ID:20161022035748d    3
+ OLDACT:UP  16-10-22 20:22 OP:and  STATUS:               ID:20161022035748d    3
+ OLDACT:UP  16-10-22 17:27 OP:and  STATUS:               ID:20161022035748d    3
+ OLDACT:DUP 16-10-22 17:17 OP:and  STATUS:               ID:20161022035748d    3
+ OLDACT:UP  16-10-22 17:15 OP:and  STATUS:               ID:20161022035747d    3
+ OLDACT:DUP 16-10-22 17:13 OP:and  STATUS:               ID:20161022035747d    3
+ OLDACT:UP  16-10-22 17:09 OP:and  STATUS:               ID:20161022035746     3
+ OLDACT:REG 16-10-22 13:07 OP:and  STATUS:               ID:20161022035746     3
+ 2016-10-22-0358-00M.COL___355                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HN EP        4 5 50.00                             108   -0.1210 37.3 200 
+ SPBC HZ ES        4 5 55.36                             108    0.1010 37.3 200 
+ SPBC HZ I         4 5 56.62         7.8 0.07             47           37.3 200 
+ PTB  HZ IP   4 C  4 5 55.25                              97   -1.75 0 84.1 319 
+ PTB  HN ES   4    4 6  4.57                              97   -2.92 0 84.1 319 
+ PTB  HZ I         4 6  7.51         3.0 0.15             47           84.1 319 
+ RUS  HZ EP        4 5 59.50                              97    0.0810 96.9  95 
+ RUS  HN ES        4 6 11.69                              97   -0.1110 96.9  95 
+ RUS  HZ I         4 6 15.86         1.1 0.22             47           96.9  95 
+ BRR  HZ EP        4 6  3.83                              95    0.1110  129  12 
+ BRR  HE ES        4 6 19.72                              95    0.2710  129  12 
+ HEL  HZ EP        4 6  9.31                              56   -1.03 9  176 278 
+ HEL  HN ES   4    4 6 29.23                              56   -2.02 0  176 278 
+ GUY2CHZ EP   4    4 6 11.77                              56    1.22 0  177 242 
+ GUY2CHN ES        4 6 32.26                              56    0.65 9  177 242 
+ GUY2CHZ I         4 6 33.89         1.1 0.28                           177 242 
+                                                                                

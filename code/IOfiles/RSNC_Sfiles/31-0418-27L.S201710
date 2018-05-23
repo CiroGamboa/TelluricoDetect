@@ -1,0 +1,23 @@
+ 2017 1031 0418 27.9 L   6.114 -73.712107.8  RSN  5 0.2 0.7LRSN                1
+ GAP=109        0.66       2.8     2.7  5.7 -0.1522E+00  0.1349E+01 -0.2690E+01E
+ Epicentro: CHIPATA - SANTANDER                                                3
+ ACTION:UPD 17-11-07 19:39 OP:rebc STATUS:               ID:20171031041827 L   I
+ OLDACT:UP  17-11-01 13:34 OP:nlst STATUS:               ID:20171031041827 L   3
+ OLDACT:UP  17-10-31 15:53 OP:dani STATUS:               ID:20171031041737     3
+ OLDACT:REG 17-10-31 12:58 OP:dani STATUS:               ID:20171031041737     3
+ 2017-10-31-0418-00M.COL___441                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ EP        418 44.58                             147   -0.1810 64.8 218 
+ SPBC HN ES        418 57.91                             147   -0.0210 64.8 218 
+ RUS  HZ EP        418 46.36                             143    0.4110 73.8 109 
+ RUS  HN ES        418 59.96                             143   -0.1010 73.8 109 
+ RUS  HZ I         419  3.32         0.8 0.42            148           73.8 109 
+ BAR2 EZ EP        418 46.27                             141    0.2910 78.9  48 
+ BAR2 EZ ES        418 59.88                             141   -0.2310 78.9  48 
+ PTB  HZ EP        418 46.74                             135   -0.2310 94.9 300 
+ PTB  HE ES        419  2.14                             135    0.2610 94.9 300 
+ PTB  HZ I         419  5.36         1.2 0.24            139           94.9 300 
+ BRR  HZ EP        418 47.99                             131   -0.3010  110 360 
+ BRR  HN ES        419  4.32                             131    0.1110  110 360 
+ BRR  HZ I         419  7.30         2.2 0.44            134            110 360 
+                                                                                

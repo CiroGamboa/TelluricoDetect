@@ -1,0 +1,27 @@
+ 2016 1225 1019 44.9 L   6.584 -73.180151.7  RSN  5 0.3 1.0LRSN                1
+ GAP=188        0.70       5.5     5.2  5.7  0.1473E+02  0.4845E+01  0.9706E+00E
+ Epicentro: PINCHOTE - SANTANDER                                               3
+ ACTION:UPD 17-01-11 20:18 OP:rebc STATUS:               ID:20161225101944 L   I
+ OLDACT:UP  16-12-25 21:50 OP:edw  STATUS:               ID:20161225101745d    3
+ OLDACT:UP  16-12-25 21:47 OP:edw  STATUS:               ID:20161225101745d    3
+ OLDACT:DUP 16-12-25 21:45 OP:edw  STATUS:               ID:20161225101745d    3
+ OLDACT:UP  16-12-25 21:44 OP:edw  STATUS:               ID:20161225101744     3
+ OLDACT:UP  16-12-25 21:43 OP:edw  STATUS:               ID:20161225101744     3
+ OLDACT:UP  16-12-25 21:43 OP:edw  STATUS:               ID:20161225101744     3
+ OLDACT:REG 16-12-25 20:03 OP:edw  STATUS:               ID:20161225101744     3
+ 2016-12-25-1018-00M.COL___375                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       1020  5.21                             180    0.2410 0.93 344 
+ BAR2 EZ ES       1020 20.62                             180   -0.0410 0.93 344 
+ BAR2 EZ I        1020 22.60         3.1 0.31            171           0.93 344 
+ RUS  HZ EP       1020  7.30                             152   -0.4010 77.2 172 
+ RUS  HN ES       1020 25.62                             152    0.1010 77.2 172 
+ BRR  HZ EP       1020  7.11                             150   -0.1910 82.5 315 
+ BRR  HN ES       1020 24.88                             150    0.0810 82.5 315 
+ PTB  HZ EP       1020 12.25                             135    0.51 9  141 268 
+ PTB  HN ES       1020 32.56                             135   -0.15 9  141 268 
+ PTB  HZ I        1020 40.37         1.0 0.42            132            141 268 
+ ZAR  HN ES   2   1020 43.96                             123   -0.58 4  211 299 
+ CHI  HZ EP   4   1020 22.50                             121    2.15 0  225 196 
+ CHI  HN ES   4   1020 52.43                             121    4.41 0  225 196 
+                                                                                

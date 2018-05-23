@@ -1,0 +1,33 @@
+ 2015  2 7 0815 52.3 L   6.659 -73.665104.0  RSN  7 0.5 1.8LRSN                1
+ GAP= 93        1.19       4.5     5.2  8.7 -0.5942E+01  0.1250E+02  0.4962E+01E
+ Epicentro: EL CARMEN - SANTANDER                                              3
+ ACTION:UPD 15-04-30 21:23 OP:nd   STATUS:               ID:20150207081552 L   I
+ OLDACT:UP  15-02-08 00:43 OP:cam  STATUS:               ID:20150207080744d    3
+ OLDACT:DUP 15-02-08 00:41 OP:cam  STATUS:               ID:20150207080744d    3
+ OLDACT:UP  15-02-08 00:39 OP:cam  STATUS:               ID:20150207080743     3
+ OLDACT:REG 15-02-07 12:42 OP:stll STATUS:               ID:20150207080743     3
+ 2015-02-07-0807-43M.COL___287                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP     D  816  7.83                             152    0.1410 49.8 354 
+ BRR  HZ I         816  7.96        10.1 0.16            155           49.8 354 
+ BRR  HN ES        816 20.04                             152    0.3110 49.8 354 
+ BRR  HN I         816 26.54        20.4 0.16            155           49.8 354 
+ BAR2 EZ EP     D  816  8.66                             151    0.3810 53.9  98 
+ BAR2 EZ ES        816 21.03                             151    0.2710 53.9  98 
+ BAR2 EZ I         816 23.01        44.7 0.24            161           53.9  98 
+ PTB  HZ EP        816  9.83                             136   -0.6610 88.5 261 
+ PTB  HN ES   4    816 23.39                             136   -1.32 0 88.5 261 
+ PTB  HZ I         816 28.70         9.1 0.10            139           88.5 261 
+ RUS  HZ EP        816 12.56                             131   -0.1710  106 143 
+ RUS  HN ES        816 28.88                             131    0.1910  106 143 
+ RUS  HZ I         816 29.21         6.1 0.18            140            106 143 
+ SPBC HZ EP        816 13.97                             127    0.4810  120 202 
+ SPBC HN ES        816 29.26                             127   -0.7910  120 202 
+ SPBC HZ I         816 33.46        10.3 0.20            133            120 202 
+ PAM  SZ EP        816 14.93                             125   -0.1210  131  55 
+ PAM  SN ES        816 32.20                             125   -0.6310  131  55 
+ PAM  SZ I         816 33.34        12.7 0.22            134            131  55 
+ NOR  HZ EP        816 20.42                             115    0.66 9  180 228 
+ NOR  HN ES   4    816 42.45                             115    1.24 0  180 228 
+ NOR  HZ I         816 45.57        13.5 0.14            120            180 228 
+                                                                                

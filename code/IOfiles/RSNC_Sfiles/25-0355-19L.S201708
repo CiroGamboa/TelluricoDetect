@@ -1,0 +1,35 @@
+ 2017  825 0355 19.3 L   7.215 -74.246  4.0  RSN  9 0.5 1.5LRSN                1
+ GAP=151        1.19       4.6     2.4  7.2  0.5827E+01  0.2900E+01  0.1113E+02E
+ Epicentro: PUERTO WILCHES - SANTANDER                                         3
+ ACTION:UPD 17-09-04 20:24 OP:rebc STATUS:               ID:20170825035519 L   I
+ OLDACT:UP  17-08-25 15:05 OP:and  STATUS:               ID:20170825034737d    3
+ OLDACT:UP  17-08-25 15:05 OP:and  STATUS:               ID:20170825034737d    3
+ OLDACT:UP  17-08-25 15:02 OP:and  STATUS:               ID:20170825034737d    3
+ OLDACT:DUP 17-08-25 14:59 OP:and  STATUS:               ID:20170825034737d    3
+ 2017-08-25-0348-00M.COL___411                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     D  355 29.03                              47    0.0310 60.2 101 
+ BRR  HE ES        355 36.90                              47    0.3310 60.2 101 
+ BRR  HZ I         355 39.07        17.0 0.28             47           60.2 101 
+ ZAR  HZ EP        355 30.86                              47   -0.2810 74.2 294 
+ ZAR  HN ES        355 39.76                              47   -0.6210 74.2 294 
+ ZAR  HZ I         355 40.47        49.4 0.26             47           74.2 294 
+ BAR2 EZ EP   2    355 41.29                              47    0.52 5  136 120 
+ BAR2 EZ ES        355 56.69                              47   -0.84 9  136 120 
+ BAR2 EZ I         355 59.38        12.7 0.58             47            136 120 
+ URE  HN ES        356  2.71                              47    0.82 9  154 293 
+ PAM  EE ES        356  7.27                              47   -0.18 9  171  85 
+ PAM  EZ I         356  9.14        10.2 0.18             47            171  85 
+ HEL  HZ EP   4    355 50.40                              37    2.72 0  181 231 
+ HEL  HN ES   2    356 10.20                              37    0.38 4  181 231 
+ HEL  HZ I         356 13.81         2.9 0.46             37            181 231 
+ RUS  HZ EP        355 50.28                              37    0.80 9  195 139 
+ RUS  HN ES        356 13.36                              37    0.33 9  195 139 
+ RUS  HZ I         356 14.64         4.3 0.16             37            195 139 
+ NOR  HZ EP   4    355 52.11                              37    3.10 0  195 201 
+ NOR  HN ES        356 11.91                              37   -0.28 9  195 201 
+ NOR  HZ I         356 13.44         2.5 0.32             37            195 201 
+ GUY2CHZ EP   2    355 56.25                              37   -0.45 4  253 209 
+ GUY2CHN ES   4    356 29.63                              37    3.76 0  253 209 
+ GUY2CHZ I         356 32.95         0.9 0.46                           253 209 
+                                                                                

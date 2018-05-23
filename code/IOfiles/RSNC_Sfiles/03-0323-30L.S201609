@@ -1,0 +1,34 @@
+ 2016  9 3 0323 30.5 L   6.767 -73.110145.7  RSN  8 0.4 1.7LRSN                1
+ GAP=143        0.92       3.9     3.9  6.2 -0.1939E+01  0.6193E+01  0.2836E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-08-17 21:06 OP:lp   STATUS:               ID:20160903032330 L   I
+ OLDACT:UP  16-09-03 14:12 OP:drio STATUS:               ID:20160903031736d    3
+ OLDACT:DUP 16-09-03 14:07 OP:drio STATUS:               ID:20160903031736d    3
+ OLDACT:UP  16-09-03 14:07 OP:drio STATUS:               ID:20160903031734d    3
+ OLDACT:DUP 16-09-03 14:01 OP:drio STATUS:               ID:20160903031734d    3
+ 2016-09-03-0318-00M.COL___355                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        323 50.03                             171   -0.0810 20.9 202 
+ BAR2 EZ ES        324  5.58                             171    0.2010 20.9 202 
+ BAR2 EZ I         324  8.35         9.9 0.12            172           20.9 202 
+ BRR  HZ EP        323 52.01                             151    0.0310 76.4 300 
+ BRR  HE ES        324  8.89                             151    0.1910 76.4 300 
+ BRR  HZ I         324 12.15         8.6 0.30            151           76.4 300 
+ PAM  EZ EP        323 53.02                             151    0.2510 77.9  36 
+ PAM  EN ES        324  9.98                             151   -0.1410 77.9  36 
+ PAM  EZ I         324 12.19        16.6 0.64            153           77.9  36 
+ RUS  HZ EP        323 54.62                             145    0.6110 96.8 178 
+ RUS  HE ES        324 11.92                             145   -0.4010 96.8 178 
+ RUS  HZ I         324 13.73         4.8 0.26            148           96.8 178 
+ PTB  HZ EP        323 57.62                             131   -0.17 9  151 260 
+ PTB  HE ES        324 18.84                             131   -0.20 9  151 260 
+ PTB  HZ I         324 20.10         6.7 0.16            133            151 260 
+ SPBC HZ EP        323 58.21                             129   -0.79 9  163 221 
+ SPBC HE ES        324 21.29                             129    0.08 9  163 221 
+ SPBC HZ I         324 24.91         5.5 0.10            131            163 221 
+ ZAR  HN ES        324 28.99                             122   -0.21 8  209 293 
+ ZAR  HZ I         324 34.16         9.0 0.32            123            209 293 
+ GUY2CHZ EP   4    324 15.71                             112    1.44 0  302 236 
+ GUY2CHN ES        324 49.14                             112    0.76 7  302 236 
+ GUY2CHZ I         324 57.72         2.2 0.60                           302 236 
+                                                                                

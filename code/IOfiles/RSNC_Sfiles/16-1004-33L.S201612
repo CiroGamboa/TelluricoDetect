@@ -1,0 +1,23 @@
+ 2016 1216 1004 33.4 L   7.348 -73.117 11.2  RSN  4 0.3 0.9LRSN                1
+ GAP=212        0.85       4.0     3.7  5.7 -0.6984E+01  0.1404E+02 -0.2855E+01E
+ Epicentro: RIONEGRO - SANTANDER                                               3
+ ACTION:UPD 17-01-11 20:15 OP:rebc STATUS:               ID:20161216100433 L   I
+ OLDACT:UP  16-12-16 23:40 OP:edw  STATUS:               ID:20161216095748     3
+ OLDACT:UP  16-12-16 23:40 OP:edw  STATUS:               ID:20161216095748     3
+ OLDACT:UP  16-12-16 23:36 OP:ar   STATUS:               ID:20161216095748     3
+ OLDACT:REG 16-12-16 21:23 OP:ar   STATUS:               ID:20161216095748     3
+ 2016-12-16-0958-00M.COL___363                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  EZ IP     D 10 4 41.39                             101   -0.1610 46.1  91 
+ PAM  EN ES       10 4 47.78                             101   -0.1510 46.1  91 
+ PAM  EZ I        10 4 48.44         6.9 0.16             97           46.1  91 
+ BAR2 HZ EP       10 4 47.14                              95    0.1610 83.9 185 
+ BAR2 HZ ES       10 4 57.45                              95   -0.1410 83.9 185 
+ BAR2 HZ I        10 4 57.91         3.4 0.20             94           83.9 185 
+ RUS  HZ EP       10 4 59.31                              56    0.58 9  161 179 
+ RUS  HN ES       10 5 18.45                              56   -0.05 9  161 179 
+ RUS  HZ I        10 5 19.79         1.1 0.14             56            161 179 
+ PTB  HZ EP       10 5  0.05                              56    0.41 9  173 239 
+ PTB  HN ES       10 5 19.55                              56   -0.59 9  173 239 
+ PTB  HZ I        10 5 20.75         2.3 0.28             56            173 239 
+                                                                                

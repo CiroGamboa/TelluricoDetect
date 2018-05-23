@@ -1,0 +1,30 @@
+ 2016  213 0404 20.6 L   6.785 -73.165142.9  RSN  7 0.2 1.4LRSN                1
+ GAP=141        0.51       2.5     2.9  3.9 -0.3248E+01  0.1952E+01  0.1342E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-03-04 21:25 OP:rebc STATUS:               ID:20160213040420 L   I
+ OLDACT:UP  16-02-13 15:35 OP:ak   STATUS:               ID:20160213035750     3
+ OLDACT:REG 16-02-13 12:48 OP:ak   STATUS:               ID:20160213035750     3
+ 2016-02-13-0357-50M.COL___310                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        4 4 39.77                             171   -0.0710 21.4 185 
+ BAR2 EZ ES        4 4 54.80                             171   -0.0610 21.4 185 
+ BAR2 EZ I         4 4 56.36         5.5 0.18            168           21.4 185 
+ PAM  EZ EP        4 4 42.83                             149    0.1710 80.0  40 
+ PAM  EN ES        4 5  0.03                             149    0.1510 80.0  40 
+ PAM  EZ I         4 5  2.00         3.9 0.50            153           80.0  40 
+ RUS  HZ EP        4 4 43.69                             144   -0.2710 99.1 175 
+ RUS  HN ES        4 5  1.98                             144   -0.2110 99.1 175 
+ RUS  HZ I         4 5  3.64         2.7 0.34            142           99.1 175 
+ PTB  HZ EP   2    4 4 46.59                             132   -0.52 5  145 259 
+ PTB  HN ES        4 5  7.71                             132   -0.09 9  145 259 
+ PTB  HZ I         4 5  8.52         3.0 0.30            133            145 259 
+ SPBC HZ EP        4 4 48.62                             129   -0.01 9  161 219 
+ SPBC HN ES        4 5 10.85                             129    0.35 9  161 219 
+ SPBC HZ I         4 5 16.98         5.6 0.24            129            161 219 
+ CHI  HZ EP   2    4 4 58.12                             117    0.21 4  247 195 
+ CHI  HN ES        4 5 27.28                             117    0.27 8  247 195 
+ CHI  HZ I         4 5 33.43         1.1 0.36            117            247 195 
+ GUY2CHZ EP   4    4 5  5.42                             112    1.65 0  299 235 
+ GUY2CHN ES   2    4 5 37.37                             112   -0.08 4  299 235 
+ GUY2CHZ I         4 5 50.04         1.5 0.52                           299 235 
+                                                                                

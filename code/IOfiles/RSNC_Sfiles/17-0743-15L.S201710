@@ -1,0 +1,35 @@
+ 2017 1017 0743 15.9 L   6.826 -73.111150.0  RSN  8 0.6 1.6LRSN                1
+ GAP=243        0.97       4.7     6.3  7.1  0.1099E+02  0.1537E+02  0.1082E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-11-07 19:32 OP:rebc STATUS:               ID:20171017074315 L   I
+ OLDACT:UP  17-10-17 15:50 OP:dani STATUS:               ID:20171017073735d    3
+ OLDACT:UP  17-10-17 15:50 OP:dani STATUS:               ID:20171017073735d    3
+ OLDACT:UP  17-10-17 15:49 OP:dani STATUS:               ID:20171017073735d    3
+ OLDACT:DUP 17-10-17 15:46 OP:dani STATUS:               ID:20171017073735d    3
+ OLDACT:UP  17-10-17 15:46 OP:dani STATUS:               ID:20171017073734     3
+ OLDACT:UP  17-10-17 15:45 OP:dani STATUS:               ID:20171017073734     3
+ OLDACT:REG 17-10-17 12:44 OP:dani STATUS:               ID:20171017073734     3
+ 2017-10-17-0738-00M.COL___416                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        743 36.01                             169   -0.0810 27.0 197 
+ BAR2 EZ ES        743 51.75                             169   -0.1110 27.0 197 
+ BRR  HZ EP     D  743 37.73                             153    0.1310 73.4 295 
+ BRR  HN ES        743 54.97                             153    0.4210 73.4 295 
+ BRR  HZ I         743 55.97         8.1 0.17            148           73.4 295 
+ RUS  HZ EP        743 40.49                             144    0.2610  103 178 
+ RUS  HN ES        743 59.23                             144    0.0010  103 178 
+ RUS  HZ I         743 59.71         3.7 0.32            143            103 178 
+ PTB  HZ EP        743 42.77                             132   -0.81 9  152 258 
+ PTB  HN ES   3    744  3.64                             132   -1.55 2  152 258 
+ PTB  HZ I         744  8.83         4.1 0.20            129            152 258 
+ ZAR  HZ EP   3    743 47.35                             123   -1.51 2  207 291 
+ ZAR  HE ES        744 14.49                             123   -0.10 8  207 291 
+ ZAR  HZ I         744 20.24         5.3 0.33            121            207 291 
+ NOR  HN ES        744 21.14                             119    0.32 8  239 234 
+ CHI  HZ EP   3    743 55.65                             118    1.43 2  252 196 
+ CHI  HN ES        744 23.40                             118   -0.72 8  252 196 
+ CHI  HZ I         744 25.58         1.8 0.17            117            252 196 
+ PRA  HZ EP        744 10.65                             107    0.60 6  396 210 
+ PRA  HN ES        744 53.16                             107    0.85 6  396 210 
+ PRA  HZ I         745  0.75         2.1 0.21            107            396 210 
+                                                                                

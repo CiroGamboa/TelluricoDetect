@@ -1,0 +1,23 @@
+ 2017 1130 0433 22.6 L   6.800 -73.197140.0  RSN  4 0.3 1.0LRSN                1
+ GAP=144        0.79       4.8     4.6  7.3 -0.6688E+01  0.9315E+01 -0.2751E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 17-12-12 20:02 OP:rebc STATUS:               ID:20171130043322 L   I
+ OLDACT:DUP 17-11-30 15:49 OP:dhb  STATUS:               ID:20171130042739d    3
+ OLDACT:UP  17-11-30 15:43 OP:dhb  STATUS:               ID:20171130042737     3
+ OLDACT:UP  17-11-30 15:40 OP:dhb  STATUS:               ID:20171130042737     3
+ OLDACT:REG 17-11-30 12:34 OP:dhb  STATUS:               ID:20171130042737     3
+ 2017-11-30-0428-00M.COL___456                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        433 41.73                             170    0.2310 23.1 176 
+ BAR2 EZ ES   1    433 55.60                             170   -0.67 7 23.1 176 
+ BAR2 EZ I         433 58.83         3.3 0.26            173           23.1 176 
+ PAM  EZ EP        433 44.00                             149   -0.4110 81.1  43 
+ PAM  EE ES        434  1.82                             149    0.3810 81.1  43 
+ PAM  EZ I         434  5.14         1.4 0.42            151           81.1  43 
+ RUS  HZ EP        433 45.77                             143   -0.0310  101 173 
+ RUS  HN ES        434  4.09                             143    0.1710  101 173 
+ RUS  HZ I         434  5.09         1.5 0.20            147            101 173 
+ PTB  HZ EP        433 48.45                             132   -0.12 9  142 258 
+ PTB  HE ES        434  9.01                             132    0.16 9  142 258 
+ PTB  HZ I         434 11.41         1.3 0.42            135            142 258 
+                                                                                

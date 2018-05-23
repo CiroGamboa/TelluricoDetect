@@ -1,0 +1,35 @@
+ 2016  8 1 2143  1.2 L   6.777 -73.084140.6  RSN  8 0.5 2.0LRSN                1
+ GAP=146        1.37       5.5     6.4  8.7 -0.4284E+01  0.1891E+02  0.3198E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-10-29 15:31 OP:rebc STATUS:               ID:20160801214301 L   I
+ OLDACT:UP  16-08-02 08:15 OP:ar   STATUS:               ID:20160801213342d    3
+ OLDACT:UP  16-08-02 08:11 OP:ar   STATUS:               ID:20160801213342d    3
+ OLDACT:DUP 16-08-02 08:04 OP:ar   STATUS:               ID:20160801213342d    3
+ OLDACT:UP  16-08-02 07:59 OP:ar   STATUS:               ID:20160801213341     3
+ OLDACT:REG 16-08-02 07:53 OP:ar   STATUS:               ID:20160801213341     3
+ 2016-08-01-2134-00M.COL___356                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 HZ EP       2143 19.87                             170   -0.3210 23.1 208 
+ BAR2 HZ ES       2143 34.70                             170   -0.3110 23.1 208 
+ BAR2 HZ I        2143 37.59        28.2 0.32                          23.1 208 
+ PAM  EZ EP       2143 22.27                             151   -0.4610 75.4  34 
+ PAM  EN ES       2143 39.61                             151    0.0710 75.4  34 
+ PAM  EZ I        2143 41.96        20.1 0.56                          75.4  34 
+ BRR  HZ EP       2143 23.18                             149    0.9710 78.4 298 
+ BRR  HN ES       2143 38.83                             149    0.2210 78.4 298 
+ BRR  HZ I        2143 43.01        15.2 0.25                          78.4 298 
+ RUS  HZ EP       2143 23.84                             144   -0.3810 97.8 180 
+ RUS  HN ES       2143 42.89                             144    0.7010 97.8 180 
+ RUS  HZ I        2143 43.82         8.0 0.28                          97.8 180 
+ SPBC HZ EP       2143 28.81                             127   -0.71 9  166 221 
+ SPBC HN ES       2143 51.58                             127   -0.05 9  166 221 
+ SPBC HZ I        2143 53.69        22.7 0.34                           166 221 
+ ZAR  HZ EP       2143 34.96                             120    0.90 8  211 292 
+ ZAR  HN ES       2143 58.82                             120   -0.88 8  211 292 
+ ZAR  HZ I        2144  0.69        11.6 0.14                           211 292 
+ NOR  HN ES       2144  4.97                             117   -0.08 8  239 236 
+ SOCV BZ EP   4   2143 42.53                             112   -0.99 0  297  56 
+ SOCV BE ES   4   2144 14.89                             112   -1.65 0  297  56 
+ GUY2CHZ EP       2143 45.35                             111    0.33 7  305 236 
+ GUY2CHN ES   4   2144 22.40                             111    3.18 0  305 236 
+                                                                                

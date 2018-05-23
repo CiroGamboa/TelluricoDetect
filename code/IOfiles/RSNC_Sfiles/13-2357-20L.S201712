@@ -1,0 +1,31 @@
+ 2017 1213 2357 20.1 L   6.794 -73.124145.3  RSN  7 0.4 1.7LRSN                1
+ GAP=114        0.83       3.8     3.5  6.9  0.3792E+00  0.6212E+01  0.2306E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 18-01-04 13:20 OP:rebc STATUS:               ID:20171213235720 L   I
+ OLDACT:UP  17-12-14 07:59 OP:dnl  STATUS:               ID:20171213234742     3
+ OLDACT:UP  17-12-14 07:58 OP:dnl  STATUS:               ID:20171213234742     3
+ OLDACT:REG 17-12-14 07:27 OP:dnl  STATUS:               ID:20171213234742     3
+ 2017-12-13-2348-00M.COL___468                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       2357 39.57                             170   -0.1310 23.3 196 
+ BAR2 EZ ES       2357 55.06                             170    0.0910 23.3 196 
+ BAR2 EZ I        2357 55.61        15.2 0.20            168           23.3 196 
+ PAM  EZ IP     C 2357 42.56                             151    0.3310 76.4  38 
+ PAM  EE ES       2357 59.25                             151   -0.2210 76.4  38 
+ PAM  EZ I        2358  1.77         9.5 0.46            154           76.4  38 
+ PTB  HZ EP       2357 46.45                             131   -0.81 9  150 259 
+ PTB  HE ES       2358  8.86                             131    0.43 9  150 259 
+ PTB  HZ I        2358  9.80         5.8 0.54            131            150 259 
+ SPBC HZ EP   2   2357 48.73                             129    0.04 5  164 220 
+ SPBC HN ES       2358 10.73                             129   -0.24 9  164 220 
+ SPBC HZ I        2358 19.02         7.7 0.12            128            164 220 
+ YPLC HZ EP   2   2357 49.98                             127    0.26 4  175 152 
+ YPLC HN ES       2358 13.00                             127    0.20 9  175 152 
+ YPLC HZ I        2358 17.16         5.0 0.40            127            175 152 
+ ZAR  HZ EP   2   2357 53.45                             122    0.65 4  207 292 
+ ZAR  HN ES       2358 18.44                             122    0.16 8  207 292 
+ ZAR  HZ I        2358 24.51         5.4 0.32            122            207 292 
+ GUY2CHZ EP   4   2358  5.18                             112    1.28 0  303 235 
+ GUY2CHN ES   4   2358 40.64                             112    2.60 0  303 235 
+ GUY2CHZ I        2358 44.79         2.2 0.30                           303 235 
+                                                                                

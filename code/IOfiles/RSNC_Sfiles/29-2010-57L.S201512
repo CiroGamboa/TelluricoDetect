@@ -1,0 +1,132 @@
+ 2015 1229 2010 57.5 L   6.804 -73.139140.3  RSN 26 0.4 3.6LRSN 3.8WRSN        1
+ SPEC AVERAGE  MO 14.8 ST  5.1 OM  2.8 f0 1.92 R1.6523 AL 0.00 WI 35.0 MW  3.8 3
+ SPEC SD       MO  0.3 ST  9.7 OM  0.3 f0 1.48 R0.9754 AL      WI      MW  0.2 3
+ GAP=137        0.81       1.8     2.7  3.9 -0.9279E+00  0.4210E+01  0.6602E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+      10.0      83.0     158.0  3.0  4.0 14.0  0.1  0.2           RSN FPFIT    F
+ SPEC BAR2EH Z MO 14.7 ST  4.4 OM  2.8 f0 2.48 R0.7758 AL-0.00 WI 35.0 MW  3.7 3
+ SPEC BAR2EH Z T201129 K 0.000 GD  142 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC PAM EH Z MO 14.8 ST  1.3 OM  2.9 f0 1.48 R1.3000 AL-0.00 WI 35.0 MW  3.8 3
+ SPEC PAM EH Z T201134 K 0.000 GD  159 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC RUS HH Z MO 15.0 ST0.448 OM  3.1 f00.865 R2.2243 AL-0.00 WI 35.0 MW  4.0 3
+ SPEC RUS HH Z T201137 K 0.000 GD  172 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC OCA HH Z MO 14.9 ST  9.8 OM  2.9 f0 2.63 R0.7316 AL-0.00 WI 35.0 MW  3.9 3
+ SPEC OCA HH Z T201145 K 0.000 GD  212 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC SPBCHH Z MO 14.4 ST 13.2 OM  2.4 f0 4.25 R0.4527 AL-0.00 WI 35.0 MW  3.6 3
+ SPEC SPBCHH Z T201145 K 0.000 GD  215 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC ZAR HH Z MO 14.5 ST 11.2 OM  2.4 f0 3.83 R0.5023 AL-0.00 WI 35.0 MW  3.6 3
+ SPEC ZAR HH Z T201153 K 0.000 GD  248 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC NOR HH Z MO 14.6 ST  2.2 OM  2.4 f0 2.15 R0.8949 AL-0.00 WI 35.0 MW  3.6 3
+ SPEC NOR HH Z T201158 K 0.000 GD  274 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC SML HH Z MO 14.5 ST 42.4 OM  2.3 f0 6.19 R0.3108 AL-0.00 WI 35.0 MW  3.6 3
+ SPEC SML HH Z T2012 1 K 0.000 GD  281 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC CHI HH Z MO 15.1 ST0.189 OM  2.9 f00.639 R3.0110 AL-0.00 WI 35.0 MW  4.0 3
+ SPEC CHI HH Z T2012 2 K 0.000 GD  285 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC ROSCBH Z MO 15.4 ST0.204 OM  3.2 f00.518 R3.7143 AL-0.00 WI 35.0 MW  4.2 3
+ SPEC ROSCBH Z T2012 5 K 0.000 GD  290 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC HEL HH Z MO 14.7 ST0.521 OM  2.5 f0 1.19 R1.6168 AL-0.00 WI 35.0 MW  3.7 3
+ SPEC HEL HH Z T2012 7 K 0.000 GD  306 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPECGUY2CHH Z MO 15.2 ST0.185 OM  3.0 f00.559 R3.4419 AL-0.00 WI 35.0 MW  4.1 3
+ SPECGUY2CHH Z T201213 K 0.000 GD  332 VS 5.20 DE 3.50 Q0750.0 QA 1.50 Q1 0.00 3
+ SPEC CBOCHH Z MO 15.1 ST0.190 OM  2.8 f00.639 R3.0110 AL-0.00 WI 35.0 MW  4.0 3
+ SPEC CBOCHH Z T201219 K 0.000 GD  362 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC MON HH Z MO 15.0 ST0.234 OM  2.7 f00.728 R2.6429 AL-0.00 WI 35.0 MW  3.9 3
+ SPEC MON HH Z T201220 K 0.000 GD  380 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC ANILHH Z MO 15.2 ST  1.3 OM  2.9 f0 1.09 R1.7651 AL-0.00 WI 35.0 MW  4.1 3
+ SPEC ANILHH Z T201224 K 0.000 GD  384 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC PRA HH Z MO 15.2 ST0.411 OM  2.9 f00.730 R2.6356 AL-0.00 WI 35.0 MW  4.1 3
+ SPEC PRA HH Z T201231 K 0.000 GD  417 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC ORTCHH Z MO 15.0 ST0.490 OM  2.7 f00.901 R2.1354 AL-0.00 WI 35.0 MW  4.0 3
+ SPEC ORTCHH Z T201232 K 0.000 GD  420 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC PAL HH Z MO 14.7 ST0.252 OM  2.4 f00.901 R2.1354 AL-0.00 WI 35.0 MW  3.8 3
+ SPEC PAL HH Z T201233 K 0.000 GD  430 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC CRJCHH Z MO 14.6 ST  2.1 OM  2.2 f0 2.03 R0.9478 AL-0.00 WI 35.0 MW  3.7 3
+ SPEC CRJCHH Z T201243 K 0.000 GD  487 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ SPEC GUA SH Z MO 14.5 ST  7.0 OM  2.1 f0 3.28 R0.5866 AL-0.00 WI 35.0 MW  3.6 3
+ SPEC GUA SH Z T201244 K 0.000 GD  494 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 3.50 3
+ OLDACT:REG 15-12-30 03:21 OP:cara STATUS:               ID:20151229200750     3
+ ACTION:UPD 16-02-04 15:08 OP:cam  STATUS:               ID:20151229201057 L   I
+ OLDACT:UP  15-12-30 05:43 OP:nlst STATUS:               ID:20151229201057 L   3
+ OLDACT:UP  15-12-30 04:44 OP:cara STATUS:               ID:20151229200750     3
+ OLDACT:UP  15-12-30 04:44 OP:cara STATUS:               ID:20151229200750     3
+ 2015-12-29-2007-50M.COL___340                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     C 2011 16.59                             170    0.1210 23.9 192 
+ BAR2 EZ ES       2011 30.93                             170   -0.3510 23.9 192 
+ BAR2 EZ I        2011 32.39       981.6 0.34            168           23.9 192 
+ BRR  HZ EP       2011 18.79                             151    0.7210 71.6 298 
+ BRR  HE ES   4   2011 35.37                             151    1.25 0 71.6 298 
+ BRR  HZ I        2011 39.72       783.9 0.12            150           71.6 298 
+ PAM  EZ EP     D 2011 19.47                             150    0.4010 76.5  39 
+ PAM  EN ES       2011 36.16                             150    0.2610 76.5  39 
+ PAM  EZ I        2011 38.44       840.9 0.48            155           76.5  39 
+ RUS  HZ EP     C 2011 20.52                             142   -0.2110  101 176 
+ RUS  HN ES       2011 39.09                             142    0.2210  101 176 
+ RUS  HZ I        2011 40.74       420.1 0.38            145            101 176 
+ PTB  HZ EP       2011 23.57                             131   -0.51 9  149 259 
+ PTB  HN ES       2011 44.54                             131   -0.29 9  149 259 
+ PTB  HZ I        2011 47.29       322.1 0.46            131            149 259 
+ OCA  HZ EP       2011 24.93                             128   -0.40 9  160 353 
+ OCA  HN ES       2011 46.50                             128   -0.56 9  160 353 
+ OCA  HZ I        2011 52.03      1254.8 0.24            131            160 353 
+ SPBC HZ IP     D 2011 25.81                             128    0.16 9  164 219 
+ SPBC HN ES       2011 47.49                             128   -0.13 9  164 219 
+ SPBC HZ I        2011 53.30       336.4 0.18            129            164 219 
+ ZAR  HZ EP       2011 29.67                             121    0.04 9  205 292 
+ ZAR  HN ES       2011 55.14                             121    0.44 9  205 292 
+ ZAR  HZ I        2012  0.93       448.6 0.40            122            205 292 
+ NOR  HZ EP       2011 32.79                             117   -0.20 8  236 234 
+ NOR  HZ IP     C 2011 33.15                             117    0.16 8  236 234 
+ NOR  HN ES       2012  0.43                             117   -0.26 8  236 234 
+ NOR  HZ I        2012  6.46       210.9 0.18            119            236 234 
+ SML  HZ EP       2011 33.18                             116   -0.61 8  244 335 
+ SML  HN ES       2012  2.57                             116    0.46 8  244 335 
+ SML  HZ I        2012  4.29       503.7 0.44            118            244 335 
+ CHI  HZ IP     D 2011 34.94                             116   -0.01 8  249 195 
+ CHI  HN ES       2012  3.63                             116   -0.55 8  249 195 
+ CHI  HZ I        2012  7.34       157.9 0.30            118            249 195 
+ ROSC BZ EP   4   2011 36.37                             115    0.98 0  254 211 
+ ROSC BN ES   4   2012  7.42                             115    2.45 0  254 211 
+ ROSC BZ I        2012 11.35       373.5 0.40            117            254 211 
+ HEL  HZ EP       2011 37.72                             114    0.21 8  273 256 
+ HEL  HE ES       2012  8.59                             114   -0.15 8  273 256 
+ HEL  HZ I        2012 15.73       166.9 0.38            115            273 256 
+ GUY2CHZ EP       2011 41.24                             111    0.30 7  302 235 
+ GUY2CHE ES       2012 15.18                             111    0.34 7  302 235 
+ GUY2CHZ I        2012 21.97       196.7 0.28                           302 235 
+ VIL  SZ EP       2011 40.49                             111   -0.23 7  304 192 
+ VIL  SN ES       2012 14.81                             111    0.36 7  304 192 
+ PTGC HZ IP   4 C 2011 39.80                             110   -1.32 0  309 159 
+ PTGC HN ES   4   2012 12.68                             110   -2.47 0  309 159 
+ PTGC HZ I        2012 15.46       225.0 0.38            113            309 159 
+ CBOC HZ EP       2011 44.72                             109    0.45 7  334 252 
+ CBOC HN ES       2012 20.61                             109   -0.16 7  334 252 
+ CBOC HZ I        2012 24.36        70.3 0.44            110            334 252 
+ DBB  SZ IP     D 2011 44.78                             108   -0.04 7  340 274 
+ DBB  SZ ES   4   2012 19.80                             108   -1.95 0  340 274 
+ DBB  SZ I        2012 27.19       489.5 0.52            110            340 274 
+ MON  HZ IP   4   2011 44.45                             108   -1.86 0  354 308 
+ MON  HE ES   4   2012 22.11                             108   -2.28 0  354 308 
+ MON  HZ I        2012 23.93        69.2 0.24            109            354 308 
+ ANIL HZ EP   4   2011 48.28                             107    1.10 0  358 225 
+ ANIL HN ES       2012 26.31                             107    0.37 6  358 225 
+ ANIL HZ I        2012 35.91       294.0 0.34            109            358 225 
+ PRA  HZ EP       2011 50.42                             105   -0.49 6  393 210 
+ PRA  HN ES       2012 32.60                             105    0.02 6  393 210 
+ PRA  HZ I        2012 38.46       224.7 0.40            107            393 210 
+ ORTC HZ EP       2011 51.06                             105   -0.25 6  396 216 
+ ORTC HN ES       2012 34.02                             105    0.71 6  396 216 
+ ORTC HZ I        2012 39.94       133.8 0.28            107            396 216 
+ PAL  HZ EP       2011 52.72                             105    0.15 6  407 239 
+ PAL  HN ES       2012 35.19                             105   -0.34 6  407 239 
+ PAL  HZ I        2012 39.80        65.7 0.34            106            407 239 
+ CRJC HZ IP   4 C 2011 57.38                             102   -2.39 0  467   3 
+ CRJC HN ES   4   2012 44.53                             102   -3.82 0  467   3 
+ CRJC HZ I        2012 53.76        91.2 0.22            104            467   3 
+ GUA  SZ EP   4   2011 59.61                             102   -0.92 0  474 173 
+ GUA  SN ES   4   2012 46.16                             102   -3.55 0  474 173 
+ GUA  SZ I        2012 52.73       177.4 0.24            104            474 173 
+ SMAR HZ EP   4   2012  1.11                             101   -2.07 0  497 346 
+ SMAR HN ES   4   2012 49.89                             101   -4.53 0  497 346 
+ SMAR HZ I        2012 54.34        53.7 0.38            103            497 346 
+                                                                                

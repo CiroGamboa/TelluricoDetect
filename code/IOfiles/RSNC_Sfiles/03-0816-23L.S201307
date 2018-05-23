@@ -1,0 +1,21 @@
+ 2013  7 3 0816 23.9 L   7.162 -73.032 10.5  RSN  6 0.2 1.2LRSN                1
+ GAP=133        0.62       1.9     1.9  8.7 -0.2036E+01 -0.4315E+01 -0.3631E+01E
+ Epicentro: TONA - SANTANDER                                                   3
+ ACTION:UPD 13-08-12 10:35 OP:ep   STATUS:               ID:20130703081623 L   I
+ OLDACT:UP  13-07-03 12:33 OP:stll STATUS:               ID:20130703080850d    3
+ OLDACT:DUP 13-07-03 12:25 OP:stll STATUS:               ID:20130703080850d    3
+ 2013-07-03-0808-49M.COL___230                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ GIR2 SZ EP        816 28.06                             113    0.1810 20.1 243 
+ GIR2 SZ ES        816 30.96                             113   -0.0310 20.1 243 
+ PAM  SZ EP        816 31.35                             101   -0.0410 41.6  62 
+ PAM  SZ I         816 31.53        15.6 0.22             94           41.6  62 
+ BAR2 SZ ES        816 42.90                              96   -0.1610 65.2 195 
+ BAR2 SZ I         816 43.53         5.0 0.26             92           65.2 195 
+ BRR  HZ EP        816 35.80                              95   -0.1510 75.4 265 
+ BRR  HN ES        816 45.50                              95    0.1410 75.4 265 
+ BRR  HN I         816 46.01        27.7 0.46             92           75.4 265 
+ GRA  SZ EP        816 37.66                              95    0.2810 83.8  17 
+ GRA  SZ ES        816 47.46                              95   -0.4510 83.8  17 
+ CAPV BZ ES        816 55.59                              94    0.2510  111  45 
+                                                                                

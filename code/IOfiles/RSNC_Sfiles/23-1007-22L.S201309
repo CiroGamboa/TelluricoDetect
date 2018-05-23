@@ -1,0 +1,76 @@
+ 2013  923 1007 22.0 L   6.823 -73.117145.0  RSN 16 0.7 2.0LRSN 2.5WRSN        1
+ SPEC AVERAGE  MO 12.9 ST 17.9 OM  1.1 f0 12.7 R0.2582 AL 0.00 WI 20.0 MW  2.5 3
+ SPEC SD       MO  0.2 ST 23.2 OM  0.3 f0 7.08 R0.2124 AL      WI      MW  0.1 3
+ GAP= 72        1.62       3.8     4.1  7.5 -0.3721E+01  0.2060E+01  0.4623E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 12.7 ST 22.6 OM  0.9 f0 18.8 R0.1023 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC BAR2SH Z T10 755 K 0.050 GD  147 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC BRR HH Z MO 12.9 ST 14.1 OM  1.0 f0 14.4 R0.1336 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC BRR HH Z T10 759 K 0.050 GD  162 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC RUS HH Z MO 12.5 ST  3.7 OM  0.6 f0 12.2 R0.1577 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC RUS HH Z T10 8 3 K 0.050 GD  177 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PTB HH Z MO 13.1 ST0.337 OM  1.1 f0 3.53 R0.5450 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC PTB HH Z T10 8 8 K 0.050 GD  209 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC OCA HH Z MO 12.8 ST  8.9 OM  0.8 f0 13.1 R0.1469 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC OCA HH Z T10 810 K 0.050 GD  214 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC SPBCHH Z MO 13.1 ST 29.0 OM  1.1 f0 15.3 R0.1258 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC SPBCHH Z T10 811 K 0.050 GD  221 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ZAR HH Z MO 12.9 ST 81.3 OM  0.8 f0 26.0 R0.0740 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC ZAR HH Z T10 817 K 0.050 GD  251 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC NOR HH Z MO 12.8 ST 19.0 OM  0.7 f0 16.7 R0.1152 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC NOR HH Z T10 824 K 0.050 GD  279 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC CHI HH Z MO 12.9 ST0.125 OM  0.8 f0 2.86 R0.6727 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC CHI HH Z T10 827 K 0.050 GD  290 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC HEL HH Z MO 13.0 ST0.309 OM  0.8 f0 3.78 R0.5090 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC HEL HH Z T10 835 K 0.050 GD  311 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:REG 13-09-23 15:28 OP:stll STATUS:               ID:20130923095838     3
+ ACTION:UPD 13-10-22 09:24 OP:ep   STATUS:               ID:20130923100722 L   I
+ OLDACT:UP  13-09-23 16:34 OP:stll STATUS:               ID:20130923095838     3
+ 2013-09-23-0958-38M.COL___238                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     D 10 7 41.93                             169    0.2810 26.6 196 
+ BAR2 SZ ES       10 7 56.65                             169   -0.2910 26.6 196 
+ BAR2 SZ I        10 7 58.43        13.9 0.26            166           26.6 196 
+ BRR  HZ EP       10 7 43.81                             152    0.6110 72.9 296 
+ BRR  HN ES       10 8  1.08                             152    1.3710 72.9 296 
+ BRR  SZ I        10 8  1.76        10.5 0.62            150           72.9 296 
+ RUS  HZ EP       10 7 45.73                             143   -0.1610  103 178 
+ RUS  HN ES       10 8  4.55                             143    0.0610  103 178 
+ RUS  HZ I        10 8  5.93         6.8 0.36            140            103 178 
+ CAPV BZ EP       10 7 49.42                             133    0.41 9  145  38 
+ CAPV BZ ES       10 8 10.28                             133    0.24 9  145  38 
+ PTB  HZ EP       10 7 48.54                             131   -0.74 9  151 258 
+ PTB  HN ES       10 8  9.79                             131   -0.74 9  151 258 
+ PTB  SZ I        10 8 15.70        14.2 0.24            128            151 258 
+ TAM  HZ IP     C 10 7 50.09                             131    0.66 9  153 106 
+ TAM  HN ES       10 8 11.15                             131    0.35 9  153 106 
+ TAM  SZ I        10 8 27.94        10.6 0.56            128            153 106 
+ OCA  HZ EP       10 7 50.31                             130    0.22 9  158 352 
+ OCA  HN ES       10 8 11.65                             130   -0.31 9  158 352 
+ OCA  SZ I        10 8 18.01        10.5 0.38            128            158 352 
+ SPBC HZ EP       10 7 50.67                             128   -0.19 9  167 219 
+ SPBC HN ES       10 8 12.66                             128   -0.69 9  167 219 
+ SPBC SZ I        10 8 17.90        15.4 0.16            125            167 219 
+ ZAR  HZ EP       10 7 54.62                             122   -0.02 8  206 291 
+ ZAR  HN ES       10 8 19.40                             122   -0.68 8  206 291 
+ ZAR  SZ I        10 8 26.06        13.9 0.38            119            206 291 
+ NOR  HZ EP       10 7 58.02                             118   -0.15 8  239 234 
+ NOR  HN ES       10 8 25.97                             118   -0.38 8  239 234 
+ NOR  SZ I        10 8 32.30         6.2 0.18            115            239 234 
+ SML  HZ EP       10 7 58.21                             117   -0.31 8  243 334 
+ SML  HN ES       10 8 26.32                             117   -0.65 8  243 334 
+ SML  SZ I        10 8 31.59        17.5 0.08            115            243 334 
+ CHI  HZ EP       10 7 59.70                             117   -0.36 8  252 196 
+ CHI  HN ES       10 8 28.81                             117   -0.91 8  252 196 
+ CHI  SZ I        10 8 35.47         8.1 4.10            114            252 196 
+ HEL  HZ EP       10 8  4.03                             114    1.40 7  276 255 
+ HEL  SZ I        10 8 40.55         6.0 0.36            112            276 255 
+ SOCV BZ IP     C 10 8  4.22                             112   -0.37 7  297  57 
+ SOCV BZ ES       10 8 36.21                             112   -1.56 7  297  57 
+ RREF HZ EP       10 8  9.93                             110    1.31 7  326 229 
+ RREF HN ES       10 8 46.75                             110    1.80 7  326 229 
+ RREF SZ I        10 8 58.53         6.1 1.26            108            326 229 
+ PRA  HZ EP       10 8 15.81                             106   -0.17 6  396 210 
+ PRA  HN ES       10 8 57.52                             106   -0.54 6  396 210 
+ PRA  HZ I        10 9  3.38         5.7 0.62            104            396 210 
+                                                                                

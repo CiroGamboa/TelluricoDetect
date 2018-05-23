@@ -1,0 +1,22 @@
+ 2017 1125 1900 22.3 L   6.298 -72.884  4.0  RSN  4 0.4 1.3LRSN                1
+ GAP=196        1.15       2.8     5.8  8.3 -0.5478E+01  0.2307E+02 -0.4734E+01E
+ Epicentro: ONZAGA - SANTANDER                                                 3
+ ACTION:UPD 17-12-12 20:00 OP:rebc STATUS:               ID:20171125190022 L   I
+ OLDACT:UP  17-11-26 00:44 OP:edw  STATUS:               ID:20171125185732     3
+ OLDACT:UP  17-11-26 00:43 OP:edw  STATUS:               ID:20171125185732     3
+ OLDACT:REG 17-11-25 22:53 OP:edw  STATUS:               ID:20171125185732     3
+ 2017-11-25-1858-00M.COL___491                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       19 0 30.57                              47    0.4110 46.4 315 
+ BAR2 EZ ES       19 0 35.97                              47   -0.3210 46.4 315 
+ BAR2 EZ I        19 0 37.43        27.1 0.30             47           46.4 315 
+ RUS  HZ EP       19 0 31.25                              47    0.2810 50.0 206 
+ RUS  HN ES       19 0 37.21                              47   -0.5210 50.0 206 
+ RUS  HZ I        19 0 39.02        10.1 0.18             47           50.0 206 
+ PAM  EZ EP       19 0 41.67                              47    0.5610  117  10 
+ PAM  EN ES       19 0 55.17                              47   -0.6210  117  10 
+ PAM  EZ I        19 0 58.70         4.5 0.16             47            117  10 
+ PTB  HZ EP   4   19 0 51.28                              37    1.71 0  176 279 
+ PTB  HN ES       19 1 11.12                              37    0.27 9  176 279 
+ PTB  HZ I        19 1 14.07         5.2 0.40             47            176 279 
+                                                                                

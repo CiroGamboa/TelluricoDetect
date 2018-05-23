@@ -1,0 +1,44 @@
+ 2013  3 2 0306 13.3 L   6.834 -73.396117.4  RSN 10 0.5 2.3LRSN 2.6WRSN        1
+ SPEC AVERAGE  MO 13.1 ST0.936 OM  2.1 f0 3.13 R0.5609 AL 1.91 WI 20.4 MW  2.6 3
+ SPEC SD       MO  0.1 ST  1.2 OM  0.7 f0 1.31 R0.2340 AL      WI      MW  0.1 3
+ GAP= 92        1.23       4.8     3.5  7.0  0.1694E+01  0.5693E+01  0.3829E+01E
+ Epicentro: SAN VICENTE DE CHUCURI - SANTANDER                                 3
+ SPEC RUS HH N MO 13.1 ST0.069 OM  1.5 f0 1.58 R0.9304 AL 1.43 WI 18.2 MW  2.7 3
+ SPEC RUS HH N T 3 651 K 0.000 GD  160 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.0 ST0.381 OM  1.2 f0 2.95 R0.4983 AL 1.50 WI 23.1 MW  2.6 3
+ SPEC HEL HH N T 3 715 K 0.000 GD  272 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 12.9 ST0.218 OM  1.3 f0 2.76 R0.5326 AL 1.46 WI 13.0 MW  2.5 3
+ SPEC PAM SH N T 3 649 K 0.000 GD  151 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.2 ST  3.1 OM  1.7 f0 5.21 R0.2821 AL 3.25 WI 27.2 MW  2.7 3
+ SPEC BRR HH N T 3 642 K 0.000 GD  126 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-04-09 13:59 OP:ep   STATUS:               ID:20130302030613 L   I
+ 2013-03-02-0258-48M.COL___199                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP        3 6 30.11                             162    0.2010 35.7 139 
+ BAR2 SZ ES        3 6 42.81                             162   -0.0710 35.7 139 
+ BAR2 SZ I         3 6 44.24        95.4 0.32            153           35.7 139 
+ BRR  HZ IP     D  3 6 30.19                             157    0.1810 46.2 311 
+ BRR  HZ I         3 6 30.47        22.5 0.26            148           46.2 311 
+ BRR  HN ES        3 6 43.23                             157    0.1810 46.2 311 
+ PAM  SZ EP        3 6 34.02                             139    0.0910 95.1  54 
+ PAM  SN ES        3 6 50.26                             139    0.2410 95.1  54 
+ PAM  SE I         3 6 53.57        25.1 0.42            129           95.1  54 
+ RUS  HZ EP        3 6 35.26                             134    0.1010  110 162 
+ RUS  HN I         3 6 53.75        27.1 0.64            121            110 162 
+ PTB  HZ IP     C  3 6 34.60                             131   -0.9910  122 255 
+ PTB  HE I         3 6 55.41        50.4 0.36            117            122 255 
+ OCA  HE EP   2    3 6 39.03                             123   -0.06 5  156   3 
+ OCA  HN ES        3 6 58.23                             123   -0.98 9  156   3 
+ OCA  HN I         3 7  0.74       115.2 0.32            113            156   3 
+ ZAR  HZ EP        3 6 41.77                             119    0.62 9  177 294 
+ ZAR  HN ES        3 7  3.66                             119    0.78 9  177 294 
+ ZAR  HN I         3 7  7.11        20.7 0.12            109            177 294 
+ TAM  HZ IP     D  3 6 42.11                             118    0.31 9  183 104 
+ TAM  HZ I         3 6 42.28        11.2 0.20            109            183 104 
+ TAM  HN ES        3 7  3.74                             118   -0.30 9  183 104 
+ SML  HZ EP        3 6 46.94                             112    0.00 8  230 341 
+ SML  HE I         3 7 17.75        36.5 0.28            105            230 341 
+ HEL  HZ EP        3 6 49.72                             111    0.44 8  246 253 
+ HEL  HN ES        3 7 16.48                             111   -0.87 8  246 253 
+ HEL  HN I         3 7 23.55         7.5 0.38            103            246 253 
+                                                                                

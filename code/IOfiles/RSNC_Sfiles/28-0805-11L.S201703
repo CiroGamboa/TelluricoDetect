@@ -1,0 +1,50 @@
+ 2017  328 0805 11.2 L   6.728 -73.462111.0  RSN 12 0.3 1.5LRSN                1
+ GAP= 85        0.84       3.1     2.9  5.3  0.2674E+01  0.4350E+01  0.4629E+01E
+ Epicentro: EL CARMEN - SANTANDER                                              3
+ ACTION:UPD 17-05-25 18:46 OP:jn   STATUS:               ID:20170328080511 L   I
+ OLDACT:UP  17-03-28 17:11 OP:and  STATUS:               ID:20170328075743     3
+ OLDACT:UP  17-03-28 17:11 OP:and  STATUS:               ID:20170328075743     3
+ OLDACT:UP  17-03-28 17:10 OP:and  STATUS:               ID:20170328075743     3
+ OLDACT:UP  17-03-28 17:10 OP:and  STATUS:               ID:20170328075743     3
+ OLDACT:UP  17-03-28 17:10 OP:and  STATUS:               ID:20170328075743     3
+ OLDACT:UP  17-03-28 17:08 OP:and  STATUS:               ID:20170328075743     3
+ OLDACT:UP  17-03-28 17:06 OP:and  STATUS:               ID:20170328075743     3
+ OLDACT:UP  17-03-28 17:06 OP:and  STATUS:               ID:20170328075743     3
+ OLDACT:UP  17-03-28 17:06 OP:and  STATUS:               ID:20170328075743     3
+ OLDACT:UP  17-03-28 16:58 OP:and  STATUS:               ID:20170328075743     3
+ OLDACT:REG 17-03-28 12:51 OP:and  STATUS:               ID:20170328075743     3
+ 2017-03-28-0758-00M.COL___360                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        8 5 27.08                             162    0.0910 34.4 116 
+ BAR2 EZ ES        8 5 39.27                             162   -0.0610 34.4 116 
+ BAR2 EZ I         8 5 40.55        29.1 0.24            164           34.4 116 
+ BRR  HZ EP        8 5 26.78                             154   -0.5910 50.2 327 
+ BRR  HN ES        8 5 39.80                             154   -0.2110 50.2 327 
+ BRR  HZ I         8 5 42.35         5.9 0.05            156           50.2 327 
+ RUS  HZ EP        8 5 31.56                             135   -0.2110  101 156 
+ RUS  HN ES        8 5 47.81                             135   -0.0210  101 156 
+ RUS  HZ I         8 5 49.29         9.8 0.42            137            101 156 
+ PAM  EZ EP        8 5 32.38                             133    0.0510  108  51 
+ PAM  EN ES        8 5 49.31                             133    0.4710  108  51 
+ PAM  EZ I         8 5 50.82         4.1 0.18            137            108  51 
+ PTB  HZ EP   4    8 5 30.12                             131   -1.93 0  112 259 
+ PTB  HN ES   4    8 5 44.64                             131   -3.70 0  112 259 
+ PTB  HZ I         8 5 49.28         5.0 0.14            133            112 259 
+ SPBC HZ IP   4 C  8 5 36.13                             125    1.58 0  137 210 
+ SPBC HN ES   4    8 5 51.00                             125   -1.78 0  137 210 
+ SPBC HZ I         8 5 56.75         4.8 0.08            127            137 210 
+ ZAR  HZ EP        8 5 38.29                             117   -0.22 9  176 299 
+ ZAR  HN ES        8 6  0.33                             117    0.49 9  176 299 
+ ZAR  HZ I         8 6  2.30         4.3 0.11            120            176 299 
+ NOR  HE ES   2    8 6  5.13                             114    0.04 4  202 230 
+ NOR  HZ I         8 6  6.93         3.1 0.14            116            202 230 
+ HEL  HZ EP   4    8 5 47.11                             110    1.39 0  236 256 
+ HEL  HN ES        8 6 12.98                             110    0.31 8  236 256 
+ URE  HN ES   4    8 6 13.07                             108   -2.69 0  255 296 
+ URE  HZ I         8 6 16.03         3.2 0.19            110            255 296 
+ PTGC HZ EP        8 5 54.08                             103   -0.51 7  316 152 
+ PTGC HN ES        8 6 29.14                             103    0.68 7  316 152 
+ SJC  HZ EP   4    8 6  2.52                              99   -1.97 0  398 332 
+ SJC  HN ES   4    8 6 42.88                              99   -3.19 0  398 332 
+ SJC  HZ I         8 6 43.78         1.4 0.44            102            398 332 
+                                                                                

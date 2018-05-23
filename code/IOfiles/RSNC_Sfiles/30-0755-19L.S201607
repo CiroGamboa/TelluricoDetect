@@ -1,0 +1,20 @@
+ 2016  730 0755 19.1 L   6.454 -73.194 27.3  RSN  5 0.4 1.0LRSN                1
+ GAP=164        0.95       2.7     7.7  5.7  0.1103E+02  0.3830E+02  0.7574E+01E
+ Epicentro: PARAMO - SANTANDER                                                 3
+ ACTION:UPD 17-03-29 16:56 OP:lp   STATUS:               ID:20160730075519 L   I
+ OLDACT:REG 16-07-30 13:56 OP:edw  STATUS:               ID:20160730074759     3
+ 2016-07-30-0747-59S.COL___334                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        755 23.53                             149   -0.8810 15.4   5 
+ BAR2 EZ ES        755 29.08                             149    0.5210 15.4   5 
+ RUS  HZ EP        755 30.52                             104    0.1210 63.2 169 
+ RUS  HN ES        755 39.25                             104    0.0110 63.2 169 
+ RUS  HZ I         755 39.73         8.0 0.20            105           63.2 169 
+ BRR  HZ EP        755 34.07                              61    0.1710 92.2 322 
+ BRR  HN ES        755 45.50                              61    0.0410 92.2 322 
+ BRR  HZ I         755 46.26         2.7 0.50             61           92.2 322 
+ SPBC HZ EP        755 39.12                              61    0.1910  132 228 
+ SPBC HN ES        755 54.36                              61   -0.0610  132 228 
+ SPBC HZ I         755 58.09         3.8 0.10             61            132 228 
+ PTB  HE ES        755 56.02                              61   -0.10 9  140 274 
+                                                                                

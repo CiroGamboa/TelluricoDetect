@@ -1,0 +1,27 @@
+ 2016 1225 1548 48.0 L   6.591 -73.513 15.3  RSN  6 0.3 1.3LRSN                1
+ GAP=119        0.88       2.1     1.9  5.1  0.6060E+00  0.4625E+01 -0.7837E+00E
+ Epicentro: EL CARMEN - SANTANDER                                              3
+ ACTION:UPD 17-01-11 20:19 OP:rebc STATUS:               ID:20161225154848 L   I
+ OLDACT:UP  16-12-26 00:06 OP:edw  STATUS:               ID:20161225153744d    3
+ OLDACT:DUP 16-12-26 00:03 OP:edw  STATUS:               ID:20161225153744d    3
+ 2016-12-25-1538-00M.COL___384                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     D 1548 54.84                             110    0.1210 36.6  90 
+ BAR2 EZ ES       1548 59.71                             110   -0.2210 36.6  90 
+ BAR2 EZ I        1549  0.30        28.5 0.12            108           36.6  90 
+ BRR  HZ EP       1548 58.18                             101    0.1310 61.1 339 
+ BRR  HN ES       1549  6.01                             101    0.1410 61.1 339 
+ BRR  HZ I        1549  6.54         7.1 0.36            100           61.1 339 
+ RUS  HZ EP       1549  3.42                              98    0.4210 90.7 148 
+ RUS  HN ES       1549 14.44                              98   -0.2310 90.7 148 
+ RUS  HZ I        1549 15.37         7.3 0.30             97           90.7 148 
+ PTB  HZ EP       1549  4.72                              96    0.1610  104 267 
+ PTB  HN ES       1549 17.06                              96   -0.4010  104 267 
+ PTB  HZ I        1549 19.57        17.8 0.34             96            104 267 
+ PAM  EZ EP       1549  8.36                              96    0.6310  122  47 
+ PAM  EN ES       1549 22.49                              96   -0.6010  122  47 
+ PAM  EZ I        1549 24.31         6.7 0.22             95            122  47 
+ ZAR  HZ EP       1549 14.54                              56   -0.15 9  179 304 
+ ZAR  HN ES       1549 35.44                              56   -0.05 9  179 304 
+ ZAR  HZ I        1549 37.54         4.3 0.46             56            179 304 
+                                                                                

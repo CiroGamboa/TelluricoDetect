@@ -1,0 +1,35 @@
+ 2014  7 6 0025 59.8 L   5.891 -73.309  4.0  RSN  9 0.5 1.7LRSN                1
+ GAP=109        1.21       2.9     2.6  6.5  0.6782E+00  0.4637E+01  0.3113E+01E
+ Epicentro: GAMBITA - SANTANDER                                                3
+ ACTION:UPD 15-03-16 20:41 OP:nd   STATUS:               ID:20140706002559 L   I
+ OLDACT:UP  14-07-06 13:56 OP:cam  STATUS:               ID:20140706002000     3
+ OLDACT:UP  14-07-06 13:48 OP:cam  STATUS:               ID:20140706002000     3
+ OLDACT:REG 14-07-06 12:33 OP:cma  STATUS:               ID:20140706002000     3
+ 2014-07-06-0020-00M.COL___279                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ RUS  HZ IP     D  026  4.15                              47   -0.5110 25.0  89 
+ RUS  HN ES        026  8.33                              47   -0.1510 25.0  89 
+ RUS  HZ I         026  9.01        63.3 0.32            108           25.0  89 
+ BAR2 SZ EP        026 12.58                              47    0.0210 78.8  10 
+ BAR2 SZ I         026 34.09         9.3 0.16             95           78.8  10 
+ SPBC HZ EP   4    026 11.54                              47   -2.34 0 88.5 253 
+ SPBC HN ES   4    026 20.32                              47   -4.56 0 88.5 253 
+ SPBC HZ I         026 20.93        31.2 0.42             96           88.5 253 
+ BRR  HZ EP        026 22.23                              47    0.39 9  142 342 
+ BRR  HN ES        026 39.88                              47    0.83 9  142 342 
+ BRR  HN I         026 45.98        21.6 0.16             56            142 342 
+ PTB  HZ EP        026 22.19                              47   -0.29 9  146 300 
+ PTB  HN ES        026 39.21                              47   -0.98 9  146 300 
+ PTB  HZ I         026 41.43        10.8 0.16             56            146 300 
+ CHI  HZ EP   1    026 23.72                              47    0.64 7  147 199 
+ CHI  HN ES        026 41.53                              47    0.27 9  147 199 
+ PAM  SZ EP   4    026 29.32                              47    2.11 0  174  23 
+ PAM  SN ES   4    026 50.42                              47    1.81 0  174  23 
+ PAM  SZ I         026 53.94        10.3 0.18             56            174  23 
+ GUY2CHZ EP        026 35.29                              37   -0.24 8  239 252 
+ GUY2CHN ES        027  3.61                              37    0.19 8  239 252 
+ GUY2CHZ I         027  7.35         8.0 0.44                           239 252 
+ HEL  HZ EP        026 37.09                              37    0.62 8  248 278 
+ HEL  HN ES        027  4.71                              37   -0.38 8  248 278 
+ HEL  HZ I         027  5.28         4.9 0.20             56            248 278 
+                                                                                

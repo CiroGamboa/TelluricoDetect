@@ -1,0 +1,74 @@
+ 2013  126 1957 14.4 L   6.810 -73.141151.8  RSN 19 0.4 3.3LRSN 3.7WRSN        1
+ SPEC AVERAGE  MO 14.6 ST 10.7 OM  3.2 f0 2.36 R0.6419 AL 1.63 WI 14.1 MW  3.7 3
+ SPEC SD       MO  0.2 ST  9.3 OM  0.3 f00.427 R0.1091 AL      WI      MW  0.2 3
+ GAP= 71        0.77       2.8     2.7  4.0 -0.4677E+00  0.2393E+01  0.1858E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC ZAR HH E MO 14.9 ST 33.8 OM  3.1 f0 3.13 R0.4696 AL 1.33 WI 14.7 MW  3.9 3
+ SPEC ZAR HH E T195812 K 0.000 GD  254 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH N MO 14.8 ST 21.4 OM  3.0 f0 2.81 R0.5231 AL 1.38 WI 16.9 MW  3.8 3
+ SPEC NOR HH N T195818 K 0.000 GD  280 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC TAM HH N MO 14.5 ST  5.3 OM  2.8 f0 2.24 R0.6562 AL 2.79 WI  7.7 MW  3.6 3
+ SPEC TAM HH N T1958 4 K 0.000 GD  216 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.9 ST  9.7 OM  3.2 f0 2.01 R0.7313 AL 0.93 WI 14.9 MW  3.9 3
+ SPEC OCA HH N T1958 5 K 0.000 GD  219 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 14.6 ST  4.6 OM  2.9 f0 1.99 R0.7387 AL 0.78 WI 15.7 MW  3.7 3
+ SPEC PTB HH N T1958 2 K 0.000 GD  212 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH E MO 14.4 ST  4.2 OM  2.7 f0 2.38 R0.6176 AL 2.44 WI  9.7 MW  3.5 3
+ SPEC RUS HH E T195756 K 0.000 GD  182 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 14.2 ST  3.0 OM  2.6 f0 2.35 R0.6255 AL 1.77 WI  9.0 MW  3.4 3
+ SPEC PAM SH N T195754 K 0.000 GD  169 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ANILHH N MO 15.0 ST 10.1 OM  3.0 f0 1.96 R0.7500 AL 1.70 WI 20.9 MW  3.9 3
+ SPEC ANILHH N T195843 K 0.000 GD  389 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.6 ST  3.1 OM  2.7 f0 1.83 R0.8033 AL 1.58 WI 17.3 MW  3.7 3
+ SPEC CHI HH N T195820 K 0.000 GD  292 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 14.5 ST 11.4 OM  2.9 f0 2.92 R0.5034 AL 1.62 WI 13.9 MW  3.6 3
+ SPEC BRR HH N T195753 K 0.000 GD  167 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:17 OP:ep   STATUS:               ID:20130126195714 L   I
+ 2013-01-26-1955-50M.COL___204                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1957 34.74                             170   -0.0810 24.5 191 
+ BAR2 SZ ES       1957 50.46                             170   -0.2610 24.5 191 
+ BAR2 SZ I        1957 51.47       553.3 0.38            152           24.5 191 
+ BRR  HZ EP     C 1957 36.65                             153    0.4110 71.1 298 
+ BRR  HN ES   1   1957 53.82                             153    0.57 7 71.1 298 
+ BRR  HZ I        1957 58.10       287.2 0.12            135           71.1 298 
+ PAM  SZ EP     D 1957 37.51                             152    0.2810 76.2  40 
+ PAM  SN ES   1   1957 54.94                             152   -0.07 7 76.2  40 
+ PAM  SZ I        1957 56.96       158.1 0.48            137           76.2  40 
+ RUS  HZ EP     D 1957 38.57                             145   -0.3010  102 176 
+ RUS  HE ES   1   1957 57.51                             145   -0.41 7  102 176 
+ RUS  HZ I        1957 58.59       182.2 0.38            119            102 176 
+ PTB  HZ EP   1   1957 41.55                             133   -0.42 7  148 258 
+ PTB  HN ES   1   1958  2.94                             133   -0.51 7  148 258 
+ PTB  HZ I        1958 10.18       369.8 0.46            111            148 258 
+ TAM  HZ EP     D 1957 42.93                             132    0.35 9  155 105 
+ TAM  HZ I        1958  3.79       144.1 0.34            110            155 105 
+ TAM  HN ES   1   1958  4.54                             132    0.00 7  155 105 
+ OCA  HZ EP   1   1957 43.08                             131   -0.05 7  159 353 
+ OCA  HN ES   1   1958  5.49                             131   -0.02 7  159 353 
+ OCA  HZ I        1958  9.71       431.7 0.30            112            159 353 
+ ZAR  HZ EP   1   1957 47.17                             124   -0.12 6  204 292 
+ ZAR  HE ES   1   1958 13.02                             124    0.10 6  204 292 
+ ZAR  HZ I        1958 19.17       300.4 0.30            105            204 292 
+ NOR  HZ EP     C 1957 50.48                             119   -0.16 8  236 234 
+ NOR  HN ES   1   1958 19.24                             119    0.36 6  236 234 
+ NOR  HZ I        1958 24.00       226.2 0.18            102            236 234 
+ CHI  HZ EP       1957 52.72                             118    0.11 8  250 195 
+ CHI  HN ES   1   1958 22.46                             118    0.07 6  250 195 
+ CHI  HZ I        1958 29.97        73.4 0.30            101            250 195 
+ ROSC BZ EP   1   1957 54.03                             118    1.00 6  254 211 
+ ROSC BZ I        1958 32.55       265.8 0.40            101            254 211 
+ HEL  HZ EP   1   1957 54.36                             116   -0.69 6  273 256 
+ HEL  HZ I        1958 33.96       132.3 0.37            100            273 256 
+ URE  HZ EP   1   1957 55.07                             115   -0.75 6  284 292 
+ VIL  SZ EP   1   1957 57.75                             113   -0.53 5  305 192 
+ VIL  SZ I        1958 41.93       138.0 0.46             99            305 192 
+ DBB  SZ EP     C 1958  2.20                             110   -0.02 7  340 274 
+ TOL  SZ EP   1   1958  3.72                             110    0.64 5  345 225 
+ TOL  SZ I        1958 46.45        68.9 0.30             98            345 225 
+ SDV  BZ EP   1   1958  3.93                             109   -0.66 5  359  50 
+ ANIL HZ EP   1   1958  5.25                             109    0.63 5  359 224 
+ ANIL HN ES   1   1958 44.50                             109    0.74 5  359 224 
+ ANIL HZ I        1958 51.39       100.2 0.38             97            359 224 
+ YOT  HZ EP   1   1958 17.14                             104   -0.65 4  473 229 
+                                                                                

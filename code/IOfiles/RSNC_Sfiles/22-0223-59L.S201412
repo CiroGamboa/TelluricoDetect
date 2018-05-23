@@ -1,0 +1,34 @@
+ 2014 1222 0223 59.1 L   6.803 -73.166144.0  RSN  8 0.4 1.4LRSN                1
+ GAP=134        1.15       3.9     4.9  7.3 -0.2592E+01  0.6104E+01 -0.1261E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 15-02-10 17:06 OP:nd   STATUS:               ID:20141222022359 L   I
+ OLDACT:UP  14-12-22 17:26 OP:mh   STATUS:               ID:20141222021751d    3
+ OLDACT:DUP 14-12-22 14:44 OP:mh   STATUS:               ID:20141222021751d    3
+ OLDACT:UP  14-12-22 14:44 OP:mh   STATUS:               ID:20141222021750     3
+ OLDACT:UP  14-12-22 14:44 OP:mh   STATUS:               ID:20141222021750     3
+ OLDACT:REG 14-12-22 12:29 OP:mh   STATUS:               ID:20141222021750     3
+ 2014-12-22-0217-50M.COL___290                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP   1    224 18.78                             170    0.30 7 23.4 184 
+ BAR2 EZ ES        224 32.94                             170   -0.6910 23.4 184 
+ BAR2 EZ I         224 35.20         5.1 0.21            172           23.4 184 
+ BRR  HZ EP        224 20.47                             153    0.5710 69.1 299 
+ BRR  HN ES        224 36.76                             153    0.6110 69.1 299 
+ BRR  HZ I         224 41.72         8.1 0.21            154           69.1 299 
+ PAM  SZ EP        224 21.49                             150    0.3310 78.6  41 
+ PAM  SE ES        224 38.19                             150   -0.2110 78.6  41 
+ PAM  SZ I         224 42.62         2.7 0.47            153           78.6  41 
+ RUS  HZ EP        224 22.76                             143    0.0810  101 175 
+ RUS  HN ES        224 41.22                             143    0.1310  101 175 
+ RUS  HZ I         224 42.69         2.1 0.34            147            101 175 
+ PTB  HZ EP        224 25.01                             132   -0.68 9  146 259 
+ PTB  HN ES        224 45.92                             132   -0.54 9  146 259 
+ PTB  HZ I         224 48.16         4.3 0.50            134            146 259 
+ OCA  HZ EP        224 26.43                             129   -0.75 9  160 354 
+ OCA  HN ES        224 49.35                             129    0.24 9  160 354 
+ OCA  HZ I         224 54.26         2.4 0.17            132            160 354 
+ SPBC HZ EP        224 27.51                             129    0.20 9  162 218 
+ SPBC HE ES        224 49.67                             129    0.32 9  162 218 
+ SPBC HZ I         224 56.90         5.7 0.26            132            162 218 
+ ZAR  HN ES        224 56.32                             122    0.12 9  202 292 
+                                                                                

@@ -1,0 +1,26 @@
+ 2017  7 6 1039  0.9 L   6.793 -73.076142.0  RSN  6 0.2 1.4LRSN                1
+ GAP=173        0.53       4.6     3.1  4.9 -0.5348E+01  0.2722E+01  0.7645E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-08-30 15:30 OP:rebc STATUS:               ID:20170706103900 L   I
+ OLDACT:UP  17-07-07 00:08 OP:ar   STATUS:               ID:20170706103739     3
+ OLDACT:UP  17-07-07 00:04 OP:ar   STATUS:               ID:20170706103739     3
+ OLDACT:REG 17-07-06 22:15 OP:ar   STATUS:               ID:20170706103739     3
+ 2017-07-06-1038-00M.COL___368                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP   2   1039 20.71                             169    0.55 5 25.1 208 
+ BAR2 EZ ES   2   1039 35.40                             169    0.26 5 25.1 208 
+ BAR2 EZ E      C 1039 36.92                                           25.1 208 
+ BAR2 EZ I        1039 37.47         3.4 0.30            167           25.1 208 
+ PAM  EE ES       1039 39.31                             152   -0.0410 73.4  35 
+ BRR  HZ EP   9   1039 22.89                             150    0.78 0 78.3 296 
+ BRR  HE ES       1039 39.66                             149    0.2610 78.3 296 
+ BRR  HZ I        1039 43.06         8.6 0.32            149           78.3 296 
+ PTB  HZ EP       1039 28.12                             130   -0.17 9  155 260 
+ PTB  HE ES       1039 49.38                             130   -0.24 9  155 260 
+ PTB  HZ I        1039 50.73         2.6 0.30            130            155 260 
+ ZAR  HZ EP   4   1039 35.83                             121    1.91 0  211 292 
+ ZAR  HN ES       1039 59.75                             121    0.11 8  211 292 
+ ZAR  HZ I        1040  4.42         3.4 0.26            121            211 292 
+ NOR  HN ES       1040  5.44                             117    0.16 8  241 236 
+ NOR  HZ I        1040 12.84         1.9 0.14            118            241 236 
+                                                                                

@@ -1,0 +1,37 @@
+ 2016  6 3 0222  6.2 L   6.813 -73.139148.0  RSN  9 0.3 1.8LRSN                1
+ GAP=184        0.71       2.6     3.8  4.4 -0.1255E+01  0.3198E+01  0.1867E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-07-21 22:14 OP:rebc STATUS:               ID:20160603022206 L   I
+ OLDACT:UP  16-06-03 15:30 OP:edw  STATUS:               ID:20160603021743     3
+ OLDACT:UP  16-06-03 15:25 OP:edw  STATUS:               ID:20160603021743     3
+ OLDACT:UP  16-06-03 15:23 OP:edw  STATUS:               ID:20160603021743     3
+ OLDACT:REG 16-06-03 11:53 OP:edw  STATUS:               ID:20160603021743     3
+ 2016-06-03-0217-43M.COL___325                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        222 25.98                             170   -0.1210 24.9 191 
+ BAR2 EZ ES        222 41.87                             170    0.2310 24.9 191 
+ BAR2 EZ I         222 43.50        10.2 0.46                          24.9 191 
+ BRR  HZ EP        222 28.00                             153    0.4510 71.1 297 
+ BRR  HN ES        222 44.53                             153    0.3010 71.1 297 
+ RUS  HZ EP        222 30.15                             144   -0.0910  102 176 
+ RUS  HE ES        222 48.80                             144   -0.2110  102 176 
+ RUS  HZ E         222 49.22                                            102 176 
+ RUS  HZ I         222 49.45         4.3 0.36                           102 176 
+ PTB  HZ EP        222 32.72                             133   -0.68 9  149 258 
+ PTB  HE ES        222 54.62                             133   -0.03 9  149 258 
+ PTB  HZ I         222 57.92         9.6 0.14                           149 258 
+ OCA  HZ EP   2    222 34.39                             131   -0.13 5  159 353 
+ OCA  HE ES        222 56.52                             131   -0.12 9  159 353 
+ OCA  HZ I         223  3.05        10.0 0.46                           159 353 
+ SPBC HZ EP        222 34.97                             129   -0.01 9  165 219 
+ SPBC HN ES        222 57.60                             129    0.14 9  165 219 
+ SPBC HZ I         223  2.38         7.2 0.44                           165 219 
+ NOR  HZ EP        222 41.91                             119   -0.27 8  236 234 
+ NOR  HN ES        223 10.08                             119   -0.18 8  236 234 
+ NOR  HZ I         223 15.49         5.3 0.18                           236 234 
+ HEL  HZ EP   2    222 47.12                             115    0.51 4  273 256 
+ HEL  HN ES   2    223 17.79                             115   -0.36 4  273 256 
+ PRA  HZ EP        223  0.34                             107    0.39 6  394 210 
+ PRA  HN ES        223 42.58                             107    0.68 6  394 210 
+ PRA  HZ I         223 44.08         1.9 0.22                           394 210 
+                                                                                

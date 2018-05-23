@@ -1,0 +1,41 @@
+ 2016 1214 0540  1.0 L   6.708 -73.198149.8  RSN 10 0.4 1.5LRSN                1
+ GAP=153        0.93       4.4     4.5  5.8  0.9119E+01 -0.1802E+01  0.5080E+01E
+ Epicentro: VILLANUEVA - SANTANDER                                             3
+ ACTION:UPD 17-01-11 20:14 OP:rebc STATUS:               ID:20161214054001 L   I
+ OLDACT:UP  16-12-14 16:25 OP:e    STATUS:               ID:20161214053747d    3
+ OLDACT:UP  16-12-14 16:21 OP:e    STATUS:               ID:20161214053747d    3
+ OLDACT:UP  16-12-14 16:17 OP:e    STATUS:               ID:20161214053747d    3
+ OLDACT:UP  16-12-14 16:17 OP:e    STATUS:               ID:20161214053747d    3
+ OLDACT:DUP 16-12-14 16:10 OP:e    STATUS:               ID:20161214053747d    3
+ OLDACT:UP  16-12-14 16:09 OP:e    STATUS:               ID:20161214053746d    3
+ OLDACT:DUP 16-12-14 16:06 OP:e    STATUS:               ID:20161214053746d    3
+ 2016-12-14-0538-00M.COL___380                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        540 20.77                             175   -0.1710 12.9 172 
+ BAR2 EZ ES        540 36.14                             175   -0.3710 12.9 172 
+ BAR2 EZ I         540 36.95         7.7 0.24            166           12.9 172 
+ BRR  HZ EP        540 22.57                             153   -0.0410 71.9 308 
+ BRR  HN ES        540 39.57                             153    0.0910 71.9 308 
+ BRR  HZ I         540 43.71         4.8 0.14            148           71.9 308 
+ RUS  HZ EP        540 25.03                             147    0.5410 91.1 172 
+ RUS  HN ES        540 43.55                             147    0.7310 91.1 172 
+ RUS  HZ I         540 44.62         7.8 0.32            143           91.1 172 
+ PTB  HZ EP        540 27.78                             134    0.15 9  140 262 
+ PTB  HN ES        540 48.32                             134   -0.10 9  140 262 
+ PTB  HZ I         540 53.62         2.9 0.18            129            140 262 
+ TAM  HZ IP     D  540 29.05                             131   -0.24 9  158 101 
+ ZAR  HZ EP   4    540 35.17                             123    1.60 0  203 295 
+ ZAR  HN ES        540 58.80                             123   -0.19 9  203 295 
+ ZAR  HZ I         541  9.29         2.9 0.20            120            203 295 
+ CHI  HZ EP   4    540 38.93                             119    1.23 0  237 194 
+ CHI  HN ES        541  5.70                             119   -0.64 8  237 194 
+ CHI  HZ I         541 18.14         1.6 0.42            117            237 194 
+ GUY2CHZ EP   4    540 45.89                             114    2.29 0  291 236 
+ GUY2CHE ES   4    541 22.91                             114    6.07 0  291 236 
+ GUY2CHZ I         541 25.97         1.5 0.30                           291 236 
+ PTGC HZ EP        540 44.12                             113   -0.09 7  301 157 
+ PTGC HE ES        541 17.44                             113   -0.49 7  301 157 
+ PRA  HZ EP        540 53.90                             108    0.61 6  380 210 
+ PRA  HN ES   4    541 36.92                             108    2.84 0  380 210 
+ PRA  HZ I         541 41.44         1.7 0.48            106            380 210 
+                                                                                

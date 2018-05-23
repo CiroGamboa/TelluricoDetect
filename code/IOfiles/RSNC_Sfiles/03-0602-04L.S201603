@@ -1,0 +1,47 @@
+ 2016  3 3 0602  4.1 L   6.869 -73.314126.1  RSN 11 0.5 1.4LRSN                1
+ GAP= 53        1.11       3.4     4.0  8.3  0.2992E+00  0.9864E+01 -0.3868E+01E
+ Epicentro: BETULIA - SANTANDER                                                3
+ OLDACT:UP  16-03-03 17:22 OP:mh   STATUS:               ID:20160303055746     3
+ OLDACT:REG 16-03-03 12:22 OP:mh   STATUS:               ID:20160303055746     3
+ ACTION:UPD 16-05-13 21:21 OP:cam  STATUS:               ID:20160303060204 L   I
+ OLDACT:UP  16-03-03 18:13 OP:mh   STATUS:               ID:20160303055749d    3
+ OLDACT:DUP 16-03-03 18:01 OP:mh   STATUS:               ID:20160303055749d    3
+ OLDACT:UP  16-03-03 17:53 OP:mh   STATUS:               ID:20160303055747d    3
+ OLDACT:UP  16-03-03 17:52 OP:mh   STATUS:               ID:20160303055747d    3
+ OLDACT:UP  16-03-03 17:51 OP:mh   STATUS:               ID:20160303055747d    3
+ OLDACT:DUP 16-03-03 17:51 OP:mh   STATUS:               ID:20160303055747d    3
+ 2016-03-03-0557-46M.COL___312                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        6 2 22.22                             164    0.5410 33.9 155 
+ BAR2 EZ ES        6 2 35.44                             164    0.0610 33.9 155 
+ BAR2 EZ I         6 2 36.72        12.6 0.20            155           33.9 155 
+ PAM  EZ EP   1    6 2 25.23                             144    0.39 7 85.5  52 
+ PAM  EE ES   1    6 2 40.60                             144   -0.40 7 85.5  52 
+ PAM  EZ I         6 2 44.49         4.1 0.28            133           85.5  52 
+ RUS  HZ EP   1    6 2 27.18                             136    0.35 7  111 167 
+ RUS  HE ES        6 2 44.78                             136    0.2310  111 167 
+ RUS  HZ I         6 2 46.80         1.7 0.22            125            111 167 
+ PTB  HZ EP   1    6 2 27.64                             131   -0.36 7  131 254 
+ PTB  HE ES        6 2 45.76                             131   -0.8710  131 254 
+ PTB  HZ I         6 2 49.87         2.9 0.24            122            131 254 
+ OCA  HZ EP        6 2 29.75                             126   -0.35 9  151 360 
+ OCA  HN ES        6 2 50.02                             126   -0.34 9  151 360 
+ OCA  HZ I         6 2 58.09        12.2 0.44            117            151 360 
+ SPBC HZ EP        6 2 30.88                             125    0.16 9  159 212 
+ SPBC HN ES   1    6 2 51.57                             125    0.10 7  159 212 
+ SPBC HZ I         6 2 53.58         3.0 0.16            115            159 212 
+ TAM  HZ EP   4    6 2 33.02                             122    0.69 0  175 106 
+ TAM  HN ES   1    6 2 54.19                             122   -0.15 7  175 106 
+ TAM  HZ I         6 2 59.49         6.4 0.81            112            175 106 
+ ZAR  HN ES        6 2 56.98                             120    1.07 9  184 292 
+ ZAR  HZ I         6 3  0.39         3.2 0.08            113            184 292 
+ CHI  HZ EP   4    6 2 37.74                             112   -3.43 0  252 191 
+ CHI  HZ I         6 3  9.11         0.8 0.46            105            252 191 
+ CHI  HN ES   1    6 3  9.20                             112   -0.87 6  252 191 
+ GUY2CHZ EP   2    6 2 44.91                             109   -0.79 4  291 231 
+ GUY2CHN ES   4    6 3 23.11                             109    4.98 0  291 231 
+ GUY2CHZ I         6 3 26.08         1.0 0.36                           291 231 
+ MON  HZ EP   4    6 3  6.69                             106   16.53 0  334 309 
+ MON  HE ES        6 3 26.13                             106    0.06 7  334 309 
+ MON  HZ I         6 3 27.99         0.8 0.10            101            334 309 
+                                                                                

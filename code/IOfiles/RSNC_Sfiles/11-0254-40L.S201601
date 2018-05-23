@@ -1,0 +1,58 @@
+ 2016  111 0254 40.9 L   6.816 -73.187149.0  RSN 12 0.4 1.7LRSN                1
+ GAP=131        0.95       2.5     3.6  5.0 -0.7008E+00  0.4518E+01 -0.2341E+00E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 16-03-09 23:24 OP:cam  STATUS:               ID:20160111025440 L   I
+ OLDACT:UP  16-01-11 15:01 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 15:01 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:49 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:49 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:46 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:46 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:46 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:44 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:REG 16-01-11 12:20 OP:mh   STATUS:               ID:20160111024755     3
+ 2016-01-11-0247-55M.COL___247                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        255  0.90                             170   -0.0510 24.7 179 
+ BAR2 EZ ES        255 15.86                             170   -0.7210 24.7 179 
+ BAR2 EZ I         255 18.00        11.6 0.72            170           24.7 179 
+ BRR  HZ EP        255  2.59                             155    0.4610 66.3 299 
+ BRR  HN ES        255 19.48                             155    0.7810 66.3 299 
+ BRR  HZ I         255 22.60         6.1 0.10            151           66.3 299 
+ PAM  EZ EP        255  3.78                             151    0.2210 79.1  43 
+ PAM  EN ES        255 21.46                             151    0.2310 79.1  43 
+ PAM  EZ I         255 22.82         6.0 0.48            155           79.1  43 
+ RUS  HZ EP        255  4.90                             144   -0.2210  103 174 
+ RUS  HN ES        255 23.84                             144   -0.1810  103 174 
+ RUS  HZ I         255 24.21         5.3 0.24            147            103 174 
+ PTB  HZ EP        255  7.39                             134   -0.37 9  144 258 
+ PTB  HN ES        255 28.57                             134   -0.15 9  144 258 
+ PTB  HZ I         255 29.91         5.7 0.14            133            144 258 
+ OCA  HZ EP        255  9.44                             131    0.19 9  158 355 
+ OCA  HN ES        255 31.04                             131   -0.33 9  158 355 
+ OCA  HZ I         255 35.89         9.3 0.46            132            158 355 
+ SPBC HZ EP        255  9.75                             130    0.24 9  162 217 
+ SPBC HN ES        255 32.12                             130    0.29 9  162 217 
+ SPBC HZ I         255 38.85         9.8 0.22            131            162 217 
+ ZAR  HZ EP        255 12.35                             124   -0.70 9  199 292 
+ ZAR  HN ES        255 38.25                             124    0.11 9  199 292 
+ ZAR  HZ I         255 48.90         5.0 0.50            124            199 292 
+ SML  HZ EP        255 17.69                             118    0.36 8  240 336 
+ SML  HN ES        255 45.24                             118   -0.51 8  240 336 
+ SML  HZ I         255 48.91         8.5 0.10            119            240 336 
+ CHI  HZ EP        255 19.11                             118    0.28 8  249 194 
+ CHI  HE ES        255 48.44                             118    0.01 8  249 194 
+ CHI  HZ I         255 50.67         2.7 0.36            120            249 194 
+ HEL  HZ EP        255 20.60                             116   -0.23 8  268 255 
+ HEL  HN ES        255 52.17                             116    0.18 8  268 255 
+ HEL  HZ I         255 59.84         3.0 0.22            116            268 255 
+ GUY2CHZ EP   4    255 26.02                             113    1.67 0  298 234 
+ GUY2CHN ES   4    256  2.26                             113    4.01 0  298 234 
+ GUY2CHZ I         256  5.86         2.1 0.62                           298 234 
+                                                                                

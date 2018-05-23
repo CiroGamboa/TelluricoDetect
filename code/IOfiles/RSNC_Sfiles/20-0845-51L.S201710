@@ -1,0 +1,26 @@
+ 2017 1020 0845 51.6 L   6.715 -73.756 98.0  RSN  6 0.4 1.1LRSN                1
+ GAP=115        1.09       4.5     3.3  7.6  0.3345E+01  0.1553E+01  0.1709E+00E
+ Epicentro: EL CARMEN - SANTANDER                                              3
+ ACTION:UPD 17-11-07 19:34 OP:rebc STATUS:               ID:20171020084551 L   I
+ OLDACT:UP  17-10-20 18:38 OP:dani STATUS:               ID:20171020082712     3
+ OLDACT:REG 17-10-20 13:21 OP:dani STATUS:               ID:20171020082712     3
+ 2017-10-20-0838-00M.COL___450                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        846  6.47                             154    0.4510 43.6   6 
+ BRR  HN ES        846 17.98                             154    0.7110 43.6   6 
+ BRR  HZ I         846 21.76         3.9 0.25            155           43.6   6 
+ BAR2 EZ EP        846  7.91                             144    0.2110 64.9 102 
+ BAR2 EZ ES        846 20.07                             144   -0.2010 64.9 102 
+ BAR2 EZ I         846 21.31         5.5 0.16            147           64.9 102 
+ PTB  HZ EP     C  846  8.66                             138    0.1110 79.8 256 
+ PTB  HN ES        846 21.50                             138   -0.2810 79.8 256 
+ PTB  HZ I         846 22.53         4.7 0.08            142           79.8 256 
+ RUS  HZ EP        846 12.91                             127    0.2610  118 141 
+ RUS  HN ES        846 28.82                             127   -0.2610  118 141 
+ RUS  HZ I         846 30.60         2.3 0.31            130            118 141 
+ PAM  HZ EP        846 14.51                             122    0.01 9  136  59 
+ PAM  EN ES        846 31.68                             122   -0.68 9  136  59 
+ PAM  HZ I         846 33.65         1.9 0.17            125            136  59 
+ ZAR  HZ EP        846 15.56                             119    0.27 9  149 305 
+ ZAR  HN ES        846 33.05                             119   -0.72 9  149 305 
+                                                                                

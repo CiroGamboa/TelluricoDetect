@@ -1,0 +1,26 @@
+ 2016 1124 0210 33.7 L   7.133 -73.404 17.8  RSN  6 0.5 1.8LRSN                1
+ GAP=147        1.09       4.1     2.4  4.2 -0.7331E+00  0.4456E+01 -0.2623E+01E
+ Epicentro: LEBRIJA - SANTANDER                                                3
+ ACTION:UPD 17-10-26 21:11 OP:lp   STATUS:               ID:20161124021033 L   I
+ OLDACT:UP  16-11-24 14:14 OP:dani STATUS:               ID:20161124020744     3
+ OLDACT:REG 16-11-24 12:31 OP:dani STATUS:               ID:20161124020744     3
+ 2016-11-24-0208-00M.COL___352                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP     D  210 40.04                             114    0.1110 34.1 265 
+ BRR  HE ES        210 44.65                             114   -0.1310 34.1 265 
+ BRR  HZ I         210 46.56       123.7 0.10             47           34.1 265 
+ BAR2 EZ EP        210 44.18                             103   -0.4210 64.7 158 
+ BAR2 EZ ES   1    210 54.06                             103    0.98 7 64.7 158 
+ BAR2 EZ I         211  3.92        15.8 0.22             47           64.7 158 
+ PAM  EZ EP     D  210 47.40                             101    0.1010 81.1  74 
+ PAM  EN ES        210 57.73                             101   -0.1710 81.1  74 
+ PAM  EZ I         211  0.18        13.9 0.20             47           81.1  74 
+ PTB  HZ EP        210 54.33                              56   -0.1810  134 241 
+ PTB  HN ES        211 10.30                              56   -0.4210  134 241 
+ PTB  HZ I         211 11.14        37.9 0.24             47            134 241 
+ ZAR  HZ EP        210 58.44                              56   -0.03 9  165 284 
+ ZAR  HN ES        211 17.56                              56   -0.22 9  165 284 
+ ZAR  HZ I         211 18.65        19.4 0.28             47            165 284 
+ URE  HN ES        211 36.58                              56    1.13 8  245 286 
+ URE  HZ I         211 43.12         4.9 0.21             37            245 286 
+                                                                                

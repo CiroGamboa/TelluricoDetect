@@ -1,0 +1,30 @@
+ 2016  919 0428 39.2 L   6.752 -73.201152.7  RSN  6 0.3 1.4LRSN                1
+ GAP=177        0.63       4.5     5.6  6.6 -0.1123E+01 -0.8102E+01  0.8258E+01E
+ Epicentro: VILLANUEVA - SANTANDER                                             3
+ ACTION:UPD 17-08-17 21:14 OP:lp   STATUS:               ID:20160919042839 L   I
+ OLDACT:UP  16-09-19 20:05 OP:and  STATUS:               ID:20160919042739d    3
+ OLDACT:DUP 16-09-19 19:49 OP:and  STATUS:               ID:20160919042739d    3
+ OLDACT:UP  16-09-19 19:23 OP:and  STATUS:               ID:20160919042738     3
+ OLDACT:UP  16-09-19 19:10 OP:and  STATUS:               ID:20160919042738     3
+ OLDACT:REG 16-09-19 11:54 OP:ar   STATUS:               ID:20160919042738     3
+ 2016-09-19-0428-00M.COL___354                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP     C  429  1.05                             155    0.0410 68.8 305 
+ BRR  HE ES        429 18.20                             155    0.2110 68.8 305 
+ BRR  HZ I         429 23.04         4.4 0.28            152           68.8 305 
+ RUS  HZ EP   2    429  3.70                             146    0.35 5 95.9 172 
+ RUS  HN ES   2    429 22.24                             146    0.07 5 95.9 172 
+ RUS  HZ I         429 22.62         1.4 0.25            150           95.9 172 
+ PTB  HZ EP        429  6.22                             135    0.06 9  141 260 
+ PTB  HN ES        429 26.71                             135   -0.46 9  141 260 
+ PTB  HZ I         429 28.99         2.7 0.19            135            141 260 
+ SPBC HZ EP        429  7.63                             132    0.09 9  155 218 
+ SPBC HE ES   4    429 31.71                             132    2.09 0  155 218 
+ SPBC HZ I         429 33.64         2.3 0.15            133            155 218 
+ OCA  HZ EP   2    429  7.79                             130   -0.74 5  165 355 
+ OCA  HN ES   2    429 31.11                             130   -0.27 5  165 355 
+ OCA  HZ I         429 32.78         5.3 0.21            132            165 355 
+ ZAR  HZ EP   4    429 13.21                             125    1.43 0  201 294 
+ ZAR  HE ES   2    429 37.93                             125    0.76 4  201 294 
+ ZAR  HZ I         429 44.10         3.7 0.27            125            201 294 
+                                                                                

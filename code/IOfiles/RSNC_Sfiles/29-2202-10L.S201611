@@ -1,0 +1,31 @@
+ 2016 1129 2202 10.8 L   7.413 -73.180133.9  RSN  6 0.2 2.0LRSN                1
+ GAP=186        0.53       4.7     2.5  4.5  0.4141E+00  0.1943E+01 -0.9065E+01E
+ Epicentro: EL PLAYON - SANTANDER                                              3
+ ACTION:UPD 17-10-26 21:13 OP:lp   STATUS:               ID:20161129220210 L   I
+ OLDACT:UP  16-11-30 03:46 OP:edw  STATUS:               ID:20161129215747d    3
+ OLDACT:UP  16-11-30 03:46 OP:edw  STATUS:               ID:20161129215747d    3
+ OLDACT:DUP 16-11-30 03:29 OP:edw  STATUS:               ID:20161129215747d    3
+ OLDACT:REG 16-11-30 02:55 OP:edw  STATUS:               ID:20161129215746     3
+ 2016-11-29-2158-00M.COL___346                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  EZ EP       22 2 30.64                             157    0.1810 53.6  99 
+ PAM  EN ES       22 2 45.74                             157   -0.0410 53.6  99 
+ PAM  EZ I        22 2 48.70        27.6 0.31            160           53.6  99 
+ BRR  HZ IP     C 22 2 30.38                             151   -0.1210 67.8 240 
+ BRR  HN ES       22 2 45.87                             151    0.0210 67.8 240 
+ BRR  HZ I        22 2 48.83        19.3 0.22            152           67.8 240 
+ BAR2 EZ EP       22 2 32.64                             144    0.3010 90.7 180 
+ BAR2 EZ ES       22 2 48.89                             144   -0.2310 90.7 180 
+ BAR2 EZ I        22 2 50.03        35.0 0.15            146           90.7 180 
+ PTB  HZ EP   9   22 2 38.59                             125   -0.52 0  171 236 
+ PTB  HN ES       22 3  0.92                             114    0.26 9  171 236 
+ PTB  HZ I        22 3  4.72        15.4 0.12            127            171 236 
+ ZAR  HZ EP       22 2 40.34                             122   -0.24 9  185 273 
+ ZAR  HN ES       22 3  3.89                             122    0.10 9  185 273 
+ ZAR  HZ I        22 3  5.04        12.5 0.14            124            185 273 
+ LL6C HZ EP   4   22 2 27.65                             113   -20.7 0  257 358 
+ LL6C HN ES   4   22 2 56.49                             113   -21.0 0  257 358 
+ SJC  HZ EP   4   22 2 58.03                             106   -1.25 0  352 321 
+ SJC  HN ES   4   22 3 32.85                             106   -4.22 0  352 321 
+ SJC  HZ I        22 3 36.67         2.3 0.22            108            352 321 
+                                                                                

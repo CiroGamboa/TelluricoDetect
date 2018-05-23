@@ -1,0 +1,49 @@
+ 2012  7 7 1306 23.0 L   6.538 -73.547105.3  RSN 15 0.5 3.8LRSN                1
+ GAP= 43        1.24       3.0     3.0  6.2  0.6538E+00  0.3883E+01  0.4680E+01E
+ Epicentro: EL CARMEN DE CHUCURI - SANTANDER                                   3
+ SPEC SD       MO  0.1 ST0.688 OM  1.3 f00.156 R0.0835 AL      WI      MW  0.1 3
+ SPEC RUS HH Z MO 14.6 ST  3.4 OM  3.1 f0 1.83 R0.8033 AL 1.92 WI 24.5 MW  3.7 3
+ SPEC RUS HH Z T13 650 K 0.000 GD  137 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH Z MO 14.9 ST  3.7 OM  3.2 f0 1.51 R0.9735 AL 1.06 WI 31.1 MW  3.9 3
+ SPEC ZAR HH Z T13 7 2 K 0.000 GD  207 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH Z MO 14.7 ST  2.1 OM  2.9 f0 1.49 R0.9866 AL 1.43 WI 29.6 MW  3.7 3
+ SPEC HEL HH Z T13 714 K 0.000 GD  246 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-08-14 11:43 OP:ep   STATUS:               ID:20120707130623 L   I
+ 2012-07-07-1300-00M.COL___201                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP       13 6 39.08                             157     0.710   41  82 
+ BAR2 SZ ES       13 6 50.95                             157     0.510   41  82 
+ BAR2 SZ I        13 6 53.49      7515.8 0.45            160             41  82 
+ BRR  HZ EP       13 6 39.81                             146     0.310   66 344 
+ BRR  HE ES       13 6 52.67                             146     0.210   66 344 
+ BRR  HZ I        13 7  2.47       904.4 0.13            146             66 344 
+ RUS  HZ EP       13 6 42.07                             137     0.110   88 144 
+ RUS  HE ES       13 6 56.35                             137    -0.410   88 144 
+ RUS  HZ I        13 6 59.51       942.0 0.47            144             88 144 
+ PTB  HZ IP     C 13 6 41.90                             133    -0.510  101 270 
+ PTB  HZ I        13 6 42.23       816.6 0.22            136            101 270 
+ PTB  HE ES   1   13 6 56.80                             133    -0.7 7  101 270 
+ PAM  SZ EP       13 6 45.34                             125    -0.310  129  47 
+ ZAR  HZ EP       13 6 50.57                             115     0.2 9  179 306 
+ ZAR  HE ES       13 7 12.47                             115     0.7 9  179 306 
+ ZAR  HZ I        13 7 15.63      1253.0 0.20            119            179 306 
+ YOP  SZ EP       13 6 51.16                             115     0.5 9  181 136 
+ YOP  SN ES   1   13 7 12.43                             115     0.1 7  181 136 
+ YOP  SZ I        13 7 15.14       678.3 0.43            121            181 136 
+ NOR  SZ EP       13 6 50.71                             115     0.0 9  182 234 
+ NOR  SN ES       13 7 11.64                             115    -0.7 9  182 234 
+ OCA  HZ EP       13 6 51.06                             114    -0.7 9  190   8 
+ OCA  HE ES       13 7 13.62                             114    -0.5 9  190   8 
+ OCA  HZ I        13 7 24.57      1474.2 0.24            117            190   8 
+ TAM  HZ EP       13 6 51.80                             113    -0.3 9  194  93 
+ TAM  HZ I        13 6 52.38       657.3 0.41            118            194  93 
+ TAM  HN ES   1   13 7 14.36                             113    -0.5 6  194  93 
+ CHI  HZ EP       13 6 54.70                             111     0.1 8  212 186 
+ CHI  HE ES   1   13 7 18.62                             111    -0.6 6  212 186 
+ HEL  HZ EP       13 6 56.28                             110     0.6 8  223 260 
+ HEL  HE ES       13 7 20.91                             110    -0.4 8  223 260 
+ HEL  HZ I        13 7 29.43       483.2 0.31            114            223 260 
+ VIL  SZ EP       13 7  0.92                             105     0.1 8  269 183 
+ TOL  SZ EP       13 7  4.59                             104     0.8 7  292 222 
+ PRA  HZ EP       13 7  9.91                             100     0.1 6  346 205 
+ PRA  HE ES       13 7 46.42                             100     0.0 6  346 205 

@@ -1,0 +1,23 @@
+ 2017 11 5 0955 41.2 L   7.087 -73.416112.4  RSN  5 0.3 0.9LRSN                1
+ GAP=157        0.83       4.8     3.6  6.7  0.5877E-01  0.4099E+01  0.9266E+01E
+ Epicentro: LEBRIJA - SANTANDER                                                3
+ ACTION:UPD 17-12-12 19:52 OP:rebc STATUS:               ID:20171105095541 L   I
+ OLDACT:UP  17-11-05 17:49 OP:dhb  STATUS:               ID:20171105094743     3
+ OLDACT:REG 17-11-05 16:14 OP:dnl  STATUS:               ID:20171105094743     3
+ 2017-11-05-0948-00M.COL___420                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     D  955 56.81                             163   -0.0210 32.7 274 
+ BRR  HN ES        956  9.55                             163    0.5710 32.7 274 
+ BRR  HZ I         956 11.03         2.9 0.28            163           32.7 274 
+ BAR2 EZ EP        955 58.57                             150    0.0210 60.5 155 
+ BAR2 EZ ES        956 11.91                             150   -0.1410 60.5 155 
+ BAR2 EZ I         956 13.45         3.9 0.26            152           60.5 155 
+ PAM  EE ES        956 15.25                             141   -0.3310 83.9  71 
+ PAM  EZ I         956 17.66         1.5 0.24            144           83.9  71 
+ PTB  HZ EP        956  3.91                             127   -0.0410  130 242 
+ PTB  HN ES        956 21.17                             127   -0.4910  130 242 
+ PTB  HZ I         956 24.05         0.9 0.22            129            130 242 
+ RUS  HZ EP        956  5.72                             126    0.43 9  137 164 
+ RUS  HN ES        956 24.05                             126    0.01 9  137 164 
+ RUS  HZ I         956 25.26         0.8 0.66            128            137 164 
+                                                                                

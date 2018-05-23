@@ -1,0 +1,30 @@
+ 2017 1114 2306 45.3 L   6.642 -74.071  8.0  RSN  7 0.5 1.4LRSN                1
+ GAP= 89        1.24       2.7     2.4  6.7 -0.1527E+01 -0.3390E+01  0.2123E+01E
+ Epicentro: PUERTO PARRA - SANTANDER                                           3
+ ACTION:UPD 17-12-12 19:55 OP:rebc STATUS:               ID:20171114230645 L   I
+ OLDACT:UP  17-11-15 06:24 OP:dnl  STATUS:               ID:20171114225740     3
+ OLDACT:REG 17-11-15 05:53 OP:dnl  STATUS:               ID:20171114225740     3
+ 2017-11-14-2258-00M.COL___459                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PTB  HZ IP     D 23 6 52.76                              96    0.1410 44.0 255 
+ PTB  HE ES       23 6 58.58                              96    0.2610 44.0 255 
+ PTB  HZ I        23 6 58.76        42.5 0.22             97           44.0 255 
+ BRR  HZ IP     D 23 6 55.79                              94    0.0310 65.0  38 
+ BRR  HN ES       23 7  3.95                              94    0.0310 65.0  38 
+ BRR  HZ I        23 7  5.32        11.9 0.44             95           65.0  38 
+ ZAR  HZ EP       23 7  5.28                              92   -0.0310  128 317 
+ ZAR  HE ES       23 7 20.57                              92   -0.3510  128 317 
+ ZAR  HZ I        23 7 22.75         9.3 0.18             92            128 317 
+ RUS  HZ EP       23 7  8.28                              92    1.08 9  137 127 
+ RUS  HN ES       23 7 23.65                              92   -0.63 9  137 127 
+ RUS  HZ I        23 7 28.15         4.1 0.28             92            137 127 
+ NOR  HZ EP   2   23 7  9.11                              92    0.67 5  148 217 
+ NOR  HE ES       23 7 25.64                              92   -0.85 9  148 217 
+ NOR  HZ I        23 7 29.85         3.2 0.12             92            148 217 
+ PAM  EZ EP   2   23 7 13.04                              56    0.98 5  170  63 
+ PAM  EN ES       23 7 32.50                              56   -0.44 9  170  63 
+ PAM  EZ I        23 7 35.14         9.0 0.30             56            170  63 
+ GUY2CHZ EP   4   23 7 18.91                              56    1.58 0  212 222 
+ GUY2CHN ES       23 7 42.65                              56    0.34 8  212 222 
+ GUY2CHZ I        23 7 47.36         2.0 0.84                           212 222 
+                                                                                

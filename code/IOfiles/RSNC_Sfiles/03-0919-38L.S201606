@@ -1,0 +1,28 @@
+ 2016  6 3 0919 38.2 L   6.803 -73.121145.3  RSN  6 0.4 1.5LRSN                1
+ GAP=185        1.13       4.2     6.9  7.8 -0.1450E+01  0.1039E+01 -0.2984E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-07-21 22:15 OP:rebc STATUS:               ID:20160603091938 L   I
+ OLDACT:DUP 16-06-03 20:05 OP:ar   STATUS:               ID:20160603091745d    3
+ OLDACT:DUP 16-06-03 19:54 OP:ar   STATUS:               ID:20160603091744d    3
+ OLDACT:UP  16-06-03 19:53 OP:ar   STATUS:               ID:20160603091743     3
+ OLDACT:REG 16-06-03 13:14 OP:edw  STATUS:               ID:20160603091743     3
+ 2016-06-03-0917-43M.COL___319                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        919 57.97                             170    0.1510 24.3 196 
+ BAR2 EZ ES        920 13.12                             170    0.0210 24.3 196 
+ BAR2 EZ I         920 14.41         7.1 0.26                          24.3 196 
+ BRR  HZ EP        919 59.56                             152    0.1010 73.5 297 
+ BRR  HN ES        920 16.81                             152    0.8010 73.5 297 
+ RUS  HZ EP        920  2.33                             144    0.3810  101 178 
+ RUS  HN ES        920 20.10                             144   -0.3510  101 178 
+ RUS  HZ I         920 21.87         2.5 0.24                           101 178 
+ PTB  HZ EP        920  6.08                             131    0.67 9  151 259 
+ PTB  HN ES        920 26.04                             131   -0.57 9  151 259 
+ PTB  HZ I         920 31.24         3.5 0.66                           151 259 
+ OCA  HZ EP        920  6.06                             129   -0.44 9  160 352 
+ OCA  HN ES        920 28.04                             129   -0.51 9  160 352 
+ OCA  HZ I         920 31.76         7.2 0.48                           160 352 
+ SPBC HZ EP        920  6.81                             129   -0.08 9  165 220 
+ SPBC HN ES        920 28.85                             129   -0.39 9  165 220 
+ SPBC HZ I         920 32.91         3.9 0.12                           165 220 
+                                                                                

@@ -1,0 +1,24 @@
+ 2015  429 0036 30.8 L   6.405 -73.269 12.0  RSN  6 0.4 1.3LRSN                1
+ GAP=129        0.96       2.1     2.7 11.6  0.7370E+00  0.1412E+02  0.5691E+01E
+ Epicentro: PALMAS DEL SOCORRO - SANTANDER                                     3
+ ACTION:UPD 15-06-03 16:58 OP:cam  STATUS:               ID:20150429003630 L   I
+ OLDACT:UP  15-04-29 13:06 OP:drio STATUS:               ID:20150429002750     3
+ OLDACT:REG 15-04-29 12:08 OP:stll STATUS:               ID:20150429002750     3
+ 2015-04-29-0027-50M.COL___289                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        036 35.74                             114    0.3510 22.8  25 
+ BAR2 EZ ES        036 38.94                             114    0.0010 22.8  25 
+ BAR2 EZ I         036 40.55        31.1 0.36             47           22.8  25 
+ RUS  HZ EP        036 41.22                              99    0.0610 60.3 160 
+ RUS  HE ES        036 48.93                              99   -0.2910 60.3 160 
+ RUS  HZ I         036 49.34         7.0 0.24             47           60.3 160 
+ BRR  HZ EP        036 45.80                              95    0.4210 91.7 328 
+ BRR  HE ES        036 56.40                              95   -0.3310 91.7 328 
+ PAM  SZ EP        036 50.77                              94    0.4710  121  31 
+ PAM  SN ES        037  4.83                              94   -0.6610  121  31 
+ PAM  SZ I         037  5.65        17.6 0.18             47            121  31 
+ PTB  HZ EP     D  036 51.78                              94    0.2810  132 277 
+ PTB  HN ES        037  7.30                              94   -0.3210  132 277 
+ NOR  HN ES   4    037 23.28                              56   -0.33 0  200 242 
+ NOR  HZ I         037 26.17         3.5 0.34             37            200 242 
+                                                                                

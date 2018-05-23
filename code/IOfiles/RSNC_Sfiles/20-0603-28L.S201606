@@ -1,0 +1,29 @@
+ 2016  620 0603 28.1 L   6.789 -73.128144.0  RSN  7 0.4 1.2LRSN                1
+ GAP=139        1.04       4.5     4.5  7.3 -0.1032E+01  0.7163E+01  0.2356E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-07-21 22:20 OP:rebc STATUS:               ID:20160620060328 L   I
+ OLDACT:REG 16-06-20 13:28 OP:ar   STATUS:               ID:20160620055742     3
+ 2016-06-20-0557-42M.COL___343                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        6 3 47.58                             171    0.0710 22.6 195 
+ BAR2 EZ ES        6 4  2.89                             171    0.2510 22.6 195 
+ BAR2 EZ I         6 4  4.16         4.1 0.16                          22.6 195 
+ BRR  HZ EP        6 3 49.49                             152    0.2910 73.5 299 
+ BRR  HN ES        6 4  6.41                             152    0.7610 73.5 299 
+ BRR  HZ I         6 4  8.96         3.4 0.28                          73.5 299 
+ PAM  EZ EP        6 3 50.04                             151   -0.0810 77.1  38 
+ PAM  EE ES        6 4  6.81                             151   -0.4810 77.1  38 
+ PAM  EZ I         6 4 10.57         3.1 0.22                          77.1  38 
+ RUS  HZ EP        6 3 52.01                             144    0.4210 99.2 177 
+ RUS  HN ES        6 4  9.59                             144   -0.3110 99.2 177 
+ RUS  HZ I         6 4 11.17         1.4 0.31                          99.2 177 
+ PTB  HZ EP        6 3 54.37                             131   -0.71 9  149 259 
+ PTB  HN ES        6 4 15.73                             131   -0.39 9  149 259 
+ PTB  HZ I         6 4 17.91         1.9 0.19                           149 259 
+ SPBC HZ EP   2    6 3 56.52                             129    0.02 5  163 220 
+ SPBC HN ES        6 4 18.76                             129    0.12 9  163 220 
+ SPBC HZ I         6 4 24.57         3.4 0.12                           163 220 
+ ZAR  HZ EP   2    6 4  1.62                             122    0.95 4  206 292 
+ ZAR  HN ES        6 4 25.75                             122   -0.32 8  206 292 
+ ZAR  HZ I         6 4 30.66         2.2 0.28                           206 292 
+                                                                                

@@ -1,0 +1,49 @@
+ 2013 11 1 2057 12.2 L   7.448 -73.182131.4  RSN 10 0.5 3.0LRSN 3.1WRSN        1
+ SPEC AVERAGE  MO 13.7 ST 43.1 OM  2.4 f0 7.71 R0.2405 AL 0.00 WI 18.9 MW  3.1 3
+ SPEC SD       MO  0.2 ST 38.7 OM  0.4 f0 2.82 R0.1069 AL      WI      MW  0.1 3
+ GAP=136        1.15       4.3     3.8  6.9  0.4918E+01  0.3053E+01 -0.1084E+01E
+ Epicentro: EL PLAYON - SANTANDER                                              3
+ SPEC ZAR HH N MO 14.0 ST104.7 OM  2.2 f0 10.0 R0.1554 AL 0.00 WI 21.2 MW  3.2 3
+ SPEC ZAR HH N T2058 5 K 0.000 GD  226 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SML HH E MO 13.4 ST 32.4 OM  1.7 f0 10.0 R0.1554 AL 0.00 WI 30.6 MW  2.9 3
+ SPEC SML HH E T205759 K 0.000 GD  222 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 13.6 ST  2.8 OM  1.9 f0 3.83 R0.4057 AL 0.00 WI 16.6 MW  3.0 3
+ SPEC RUS HH N T2058 2 K 0.000 GD  216 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH E MO 13.8 ST 68.6 OM  2.2 f0 10.0 R0.1554 AL 0.00 WI 17.1 MW  3.1 3
+ SPEC BRR HH E T205747 K 0.000 GD  148 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 13.7 ST  6.8 OM  2.2 f0 4.70 R0.3306 AL 0.00 WI  8.8 MW  3.1 3
+ SPEC PAM SH N T205745 K 0.000 GD  142 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 14-01-09 16:24 OP:ep   STATUS:               ID:20131101205712 L   I
+ OLDACT:UP  13-11-02 03:29 OP:cam  STATUS:               ID:20131101204847     3
+ OLDACT:REG 13-11-02 03:15 OP:cam  STATUS:               ID:20131101204847     3
+ 2013-11-01-2048-47M.COL___220                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ EP     C 2057 32.00                             156    0.4210 54.5 103 
+ PAM  SN ES       2057 46.88                             156    0.1710 54.5 103 
+ PAM  SZ I        2057 49.90       202.4 0.32            149           54.5 103 
+ BRR  HZ IP     D 2057 31.81                             150    0.1210 69.6 237 
+ BRR  HE ES       2057 47.13                             150    0.2210 69.6 237 
+ BRR  HZ I        2057 47.48       314.6 0.12            150           69.6 237 
+ BAR2 SZ EP       2057 33.63                             142   -0.1010 94.6 180 
+ BAR2 SZ ES       2057 50.05                             142   -0.4910 94.6 180 
+ BAR2 SZ I        2057 51.15       910.0 0.12            138           94.6 180 
+ RUS  HZ EP       2057 40.71                             124   -0.35 9  172 176 
+ RUS  HN ES       2058  2.96                             124   -0.63 9  172 176 
+ RUS  HZ I        2058  3.76        39.7 0.36            119            172 176 
+ PTB  HZ EP       2057 40.17                             124   -0.33 9  173 235 
+ PTB  HE ES       2058  2.50                             124   -0.09 9  173 235 
+ PTB  HZ I        2058  5.86       118.5 0.16            120            173 235 
+ SML  HZ EP   1   2057 41.02                             123   -0.05 7  179 327 
+ SML  HE ES       2058  2.58                             123   -1.03 9  179 327 
+ SML  HZ I        2058  4.34       165.5 0.10            118            179 327 
+ ZAR  HZ EP       2057 41.83                             122    0.10 9  185 272 
+ ZAR  HN ES       2058  5.96                             122    1.18 9  185 272 
+ ZAR  HZ I        2058  8.46       137.4 0.56            118            185 272 
+ TAM  HZ EP       2057 42.57                             121    0.27 9  190 126 
+ TAM  HZ I        2058  5.48        55.3 0.42            115            190 126 
+ TAM  HN ES       2058  6.24                             121    0.45 9  190 126 
+ SPBC HZ EP   2   2057 46.16                             117    0.43 4  222 206 
+ NOR  HZ EP       2057 52.19                             111    0.02 7  280 222 
+ HEL  HZ EP   4   2057 55.77                             110    1.53 0  294 242 
+ GUY2CHZ EP   4   2058  1.60                             107    1.39 0  345 225 
+                                                                                

@@ -1,0 +1,76 @@
+ 2013  1 8 1816 29.5 L   6.828 -73.119150.9  RSN 24 0.6 3.8LRSN 3.9WRSN        1
+ SPEC AVERAGE  MO 14.9 ST 30.3 OM  3.5 f0 2.60 R0.6445 AL 2.09 WI 12.9 MW  3.9 3
+ SPEC SD       MO  0.3 ST 34.7 OM  0.5 f0 1.10 R0.2121 AL      WI      MW  0.2 3
+ GAP=128        1.26       3.0     4.9  5.4 -0.1499E+01  0.1903E+01  0.9371E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC RUS HH N MO 14.6 ST  3.6 OM  2.9 f0 1.94 R0.7577 AL 1.82 WI 12.7 MW  3.6 3
+ SPEC RUS HH N T181711 K 0.000 GD  182 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 14.3 ST  5.5 OM  2.6 f0 2.81 R0.5231 AL 2.55 WI 10.3 MW  3.4 3
+ SPEC RUS HH Z T181713 K 0.000 GD  182 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH E MO 15.3 ST 37.4 OM  3.5 f0 2.38 R0.6176 AL 1.27 WI 12.5 MW  4.1 3
+ SPEC ZAR HH E T181728 K 0.000 GD  255 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SJC HH N MO 14.8 ST  8.3 OM  2.8 f0 2.06 R0.7136 AL 1.86 WI 16.1 MW  3.8 3
+ SPEC SJC HH N T1818 5 K 0.000 GD  435 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 15.0 ST 13.8 OM  3.3 f0 2.11 R0.6967 AL 1.66 WI  6.6 MW  4.0 3
+ SPEC PTB HH N T181717 K 0.000 GD  213 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 14.9 ST  2.7 OM  3.0 f0 1.35 R1.0889 AL 1.52 WI 21.2 MW  3.9 3
+ SPEC HEL HH N T181743 K 0.000 GD  314 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 15.3 ST 50.2 OM  3.6 f0 2.56 R0.5742 AL 2.13 WI 12.4 MW  4.2 3
+ SPEC OCA HH N T181720 K 0.000 GD  218 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ANILHH N MO 15.0 ST 59.3 OM  3.0 f0 3.53 R0.4164 AL 2.71 WI 11.5 MW  3.9 3
+ SPEC ANILHH N T1818 0 K 0.000 GD  392 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.9 ST  6.6 OM  3.0 f0 1.87 R0.7861 AL 1.85 WI 15.0 MW  3.9 3
+ SPEC CHI HH N T181736 K 0.000 GD  293 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 14.7 ST116.0 OM  3.1 f0 5.43 R0.2707 AL 3.52 WI 10.7 MW  3.8 3
+ SPEC BRR HH N T1817 8 K 0.000 GD  167 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:13 OP:ep   STATUS:               ID:20130108181629 L   I
+ 2013-01-08-1810-00M.COL___239                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP       1816 50.08                             169    0.2710 27.0 195 
+ BAR2 SZ ES       1817  5.63                             169   -0.0310 27.0 195 
+ BAR2 SZ I        1817  6.75      1665.6 0.46            167           27.0 195 
+ BRR  HZ IP     C 1816 51.90                             153    0.6410 72.5 295 
+ BRR  HZ I        1816 52.35       752.4 0.18            151           72.5 295 
+ BRR  HE ES       1817  8.46                             153    0.2110 72.5 295 
+ BRR  HN I        1817  9.91      1512.6 0.40            151           72.5 295 
+ BRR  HE I        1817 10.38      1678.6 0.24                          72.5 295 
+ RUS  HZ IP     D 1816 53.94                             144   -0.0110  103 178 
+ RUS  HN ES       1817 12.13                             144   -0.9010  103 178 
+ PTB  HZ EP       1816 56.58                             132   -0.61 9  151 258 
+ PTB  HN ES       1817 17.87                             132   -0.94 9  151 258 
+ OCA  HZ EP       1816 58.09                             131    0.14 9  158 352 
+ OCA  HN ES       1817 20.73                             131    0.57 9  158 352 
+ ZAR  HZ EP       1817  2.49                             123    0.05 8  206 291 
+ ZAR  HE ES       1817 28.62                             123    0.48 8  206 291 
+ CHI  HZ IP     D 1817  7.84                             117   -0.03 8  252 196 
+ CHI  HZ I        1817 10.85       258.8 0.34            116            252 196 
+ CHI  HN ES       1817 37.18                             117   -0.64 8  252 196 
+ CHI  HN I        1817 41.53       645.7 0.26            116            252 196 
+ ROSC BZ IP     D 1817  9.73                             117    1.39 8  257 211 
+ ROSC BE ES       1817 38.86                             117    0.21 8  257 211 
+ ROSC BZ I        1817 48.00       983.7 0.40            116            257 211 
+ HEL  HZ EP       1817 10.91                             115    0.54 7  276 255 
+ HEL  HE ES       1817 41.29                             115   -0.96 7  276 255 
+ HEL  HN I        1817 49.13       489.5 0.40            114            276 255 
+ VIL  SZ EP       1817 13.10                             112   -0.44 7  307 192 
+ VIL  SN ES       1817 48.79                             112    0.88 7  307 192 
+ RREF HZ EP       1817 17.11                             111    0.77 7  326 229 
+ RREF HN ES       1817 53.15                             111    0.27 7  326 229 
+ DBB  SZ IP       1817 17.66                             110    0.17 7  342 274 
+ COD  HZ EP       1817 17.31                             110   -0.44 6  346 354 
+ COD  HN ES       1817 54.64                             110   -0.76 6  346 354 
+ COD  HN I        1818  1.19       191.5 0.50            109            346 354 
+ SDV  BZ EP       1817 19.18                             109   -0.05 6  356  50 
+ ANIL HZ EP       1817 20.67                             109    0.69 6  362 225 
+ ANIL HE ES       1817 58.81                             109   -0.56 6  362 225 
+ SJA  SZ EP       1817 25.75                             107    1.11 6  404 193 
+ SJC  HN EP       1817 24.09                             106   -1.02 6  408 326 
+ PAL  HZ EP       1817 25.78                             106    0.48 6  410 239 
+ YOT  HZ EP       1817 32.80                             104   -0.38 5  476 229 
+ SMAR HZ EP       1817 34.51                             103   -0.71 4  495 346 
+ BET  SZ EP       1817 37.79                             102   -1.21 4  526 209 
+ MARA HZ EP       1817 40.06                             102   -1.07 4  541 216 
+ POP2 HZ EP       1817 49.95                             100   -0.16 3  617 220 
+ POP2 HN I        1818 58.55        25.6 0.46             99            617 220 
+ FLO2 HZ IP     C 1817 52.38                              99   -0.81 2  645 206 
+                                                                                

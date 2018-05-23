@@ -1,0 +1,37 @@
+ 2017 1016 0313 25.6 L   6.839 -73.128152.2  RSN  7 0.6 1.3LRSN                1
+ GAP=225        1.06       7.6     7.3  6.6  0.3697E+02  0.3242E+01  0.3830E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-11-07 19:32 OP:rebc STATUS:               ID:20171016031325 L   I
+ OLDACT:UP  17-10-16 14:52 OP:dani STATUS:               ID:20171016030742d    3
+ OLDACT:UP  17-10-16 14:51 OP:dani STATUS:               ID:20171016030742d    3
+ OLDACT:UP  17-10-16 14:50 OP:dani STATUS:               ID:20171016030742d    3
+ OLDACT:DUP 17-10-16 14:45 OP:dani STATUS:               ID:20171016030742d    3
+ OLDACT:UP  17-10-16 14:40 OP:dani STATUS:               ID:20171016030741     3
+ OLDACT:UP  17-10-16 14:40 OP:dani STATUS:               ID:20171016030741     3
+ OLDACT:UP  17-10-16 14:40 OP:dani STATUS:               ID:20171016030741     3
+ OLDACT:UP  17-10-16 14:38 OP:dani STATUS:               ID:20171016030741     3
+ OLDACT:UP  17-10-16 14:37 OP:dani STATUS:               ID:20171016030741     3
+ OLDACT:REG 17-10-16 12:45 OP:dani STATUS:               ID:20171016030741     3
+ 2017-10-16-0308-00M.COL___429                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        313 46.21                             170    0.1510 27.9 192 
+ BAR2 EZ ES        314  1.62                             170   -0.4410 27.9 192 
+ BAR2 EZ I         314  4.03         7.3 0.28            169           27.9 192 
+ BRR  HZ EP        313 48.02                             154    0.6210 71.0 295 
+ BRR  HE ES        314  4.69                             154    0.2510 71.0 295 
+ BRR  HZ I         314  9.15         4.5 0.21            152           71.0 295 
+ RUS  HZ EP        313 50.76                             144    0.5210  105 177 
+ RUS  HE ES        314  9.56                             144    0.0610  105 177 
+ RUS  HZ I         314 10.28         2.0 0.24            146            105 177 
+ PTB  HZ EP        313 52.97                             133   -0.34 9  151 257 
+ PTB  HE ES        314 14.70                             133   -0.26 9  151 257 
+ PTB  HZ I         314 15.75         1.1 0.13            133            151 257 
+ ZAR  HZ EP        313 57.59                             124   -0.87 9  204 291 
+ ZAR  HE ES        314 24.17                             124    0.05 9  204 291 
+ ZAR  HZ I         314 30.03         1.7 0.18            124            204 291 
+ PTGC HZ EP        314  9.52                             112   -0.56 7  312 159 
+ PTGC HE ES   3    314 42.93                             112   -1.88 2  312 159 
+ PRA  HZ EP        314 20.58                             107    0.73 6  397 210 
+ PRA  HN ES   3    315  4.13                             107    1.92 1  397 210 
+ PRA  HZ I         315  6.52         1.2 0.22            108            397 210 
+                                                                                

@@ -1,0 +1,43 @@
+ 2017  817 1142 38.0 L   6.351 -73.581113.9  RSN 10 0.4 1.7LRSN                1
+ GAP= 74        0.68       2.2     2.6  4.8 -0.2328E+00  0.5306E+01  0.1176E+01E
+ Epicentro: SANTA HELENA DEL OPON - SANTANDER                                  3
+ ACTION:UPD 17-09-04 20:21 OP:rebc STATUS:               ID:20170817114238 L   I
+ OLDACT:UP  17-08-17 20:57 OP:and  STATUS:               ID:20170817113737d    3
+ OLDACT:UP  17-08-17 20:55 OP:and  STATUS:               ID:20170817113737d    3
+ OLDACT:UP  17-08-17 20:54 OP:and  STATUS:               ID:20170817113737d    3
+ OLDACT:DUP 17-08-17 20:52 OP:and  STATUS:               ID:20170817113737d    3
+ OLDACT:UP  17-08-17 20:51 OP:and  STATUS:               ID:20170817113736     3
+ OLDACT:UP  17-08-17 20:51 OP:and  STATUS:               ID:20170817113736     3
+ OLDACT:REG 17-08-17 19:45 OP:and  STATUS:               ID:20170817113736     3
+ 2017-08-17-1138-00M.COL___407                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     D 1142 55.02                             154    0.1110 51.5  59 
+ BAR2 EZ ES       1143  8.00                             154   -0.1210 51.5  59 
+ BAR2 EZ I        1143  9.50        49.3 0.38            156           51.5  59 
+ RUS  HZ EP       1142 56.59                             145   -0.1410 74.9 133 
+ RUS  HN ES       1143 11.21                             145   -0.1510 74.9 133 
+ RUS  HZ I        1143 11.99         7.5 0.32            145           74.9 133 
+ BRR  HZ EP       1142 56.42                             140   -0.3610 84.8 350 
+ BRR  HN ES       1143 11.52                             140    0.0810 84.8 350 
+ BRR  HZ I        1143 14.20        14.7 0.40            141           84.8 350 
+ PAM  EZ EP       1143  2.97                             124   -0.06 9  146  42 
+ PAM  EN ES       1143 23.02                             124    0.44 9  146  42 
+ PAM  EZ I        1143 27.79         5.0 0.34            125            146  42 
+ NOR  HZ EP       1143  4.60                             120   -0.01 9  167 239 
+ NOR  HN ES       1143 25.19                             120   -0.20 9  167 239 
+ NOR  HZ I        1143 27.02         8.7 0.24            119            167 239 
+ ZAR  HZ EP       1143  6.93                             116   -0.01 9  189 312 
+ ZAR  HN ES       1143 29.72                             116    0.19 9  189 312 
+ ZAR  HZ I        1143 34.00        11.0 0.28            116            189 312 
+ CHI  HZ EP       1143  7.60                             116   -0.05 9  191 185 
+ CHI  HN ES   2   1143 32.63                             116    1.82 4  191 185 
+ CHI  HZ I        1143 35.40         1.7 0.28            116            191 185 
+ HEL  HZ EP   3   1143 10.36                             113   -0.03 2  216 265 
+ HEL  HE ES   3   1143 36.11                             113    0.44 2  216 265 
+ HEL  HZ I        1143 39.04         4.6 0.22            113            216 265 
+ PRA  HZ EP   3   1143 22.57                             104   -0.08 2  326 206 
+ PRA  HN ES   3   1143 58.22                             104    0.72 2  326 206 
+ PRA  HZ I        1144  4.90         2.6 0.21            103            326 206 
+ SJC  HZ EP   2   1143 34.44                              99   -0.72 3  430 336 
+ SJC  HN ES   4   1144 15.81                              99   -3.95 0  430 336 
+                                                                                

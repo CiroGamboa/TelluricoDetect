@@ -1,0 +1,47 @@
+ 2013  1 9 1712 25.8 L   6.049 -73.807105.2  RSN 12 0.5 2.7LRSN 3.2WRSN        1
+ SPEC AVERAGE  MO 13.9 ST 13.3 OM  3.0 f0 3.81 R0.4160 AL 2.56 WI 15.2 MW  3.2 3
+ SPEC SD       MO  0.4 ST 16.3 OM  0.8 f0 1.02 R0.1161 AL      WI      MW  0.3 3
+ GAP= 75        1.12       3.1     3.0  7.6 -0.1058E+01  0.8760E+01  0.2820E+01E
+ Epicentro: EL PEON - SANTANDER                                                3
+ SPEC RUS HH N MO 13.4 ST  1.7 OM  1.9 f0 3.65 R0.4027 AL 2.08 WI  9.1 MW  2.9 3
+ SPEC RUS HH N T171257 K 0.000 GD  133 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.3 ST  7.5 OM  2.5 f0 3.01 R0.4884 AL 1.86 WI 15.3 MW  3.5 3
+ SPEC OCA HH N T171329 K 0.000 GD  269 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.5 ST0.660 OM  1.8 f0 2.46 R0.5976 AL 1.82 WI 17.5 MW  2.9 3
+ SPEC HEL HH N T171316 K 0.000 GD  218 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH N MO 14.4 ST 44.9 OM  2.8 f0 5.10 R0.2882 AL 3.85 WI 10.1 MW  3.5 3
+ SPEC NOR HH N T1713 4 K 0.000 GD  166 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.9 ST 11.6 OM  2.3 f0 4.85 R0.3031 AL 3.20 WI 23.9 MW  3.2 3
+ SPEC BRR HH N T1713 3 K 0.000 GD  158 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:13 OP:ep   STATUS:               ID:20130109171225 L   I
+ 2013-01-09-1708-48M.COL___202                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ RUS  HZ EP       1712 44.25                             139   -0.0310 82.0 102 
+ RUS  HN ES       1712 58.46                             139   -0.2110 82.0 102 
+ RUS  HN I        1712 59.34        78.5 0.24            140           82.0 102 
+ PTB  HZ EP       1712 43.20                             136   -1.0810 90.0 307 
+ PTB  HN ES       1712 58.44                             136   -0.2410 90.0 307 
+ BAR2 SZ IP       1712 45.14                             136    0.4310 91.6  49 
+ BAR2 SZ ES       1712 59.56                             136    0.1110 91.6  49 
+ BAR2 SZ I        1713  1.11       157.8 0.56            136           91.6  49 
+ BRR  HZ EP       1712 46.86                             128    0.1110  118   5 
+ BRR  HN ES       1713  3.62                             128    0.5310  118   5 
+ BRR  HN I        1713  7.47        60.7 0.18            128            118   5 
+ NOR  HZ EP       1712 47.95                             125   -0.0410  129 246 
+ NOR  HN ES       1713  5.17                             125   -0.1210  129 246 
+ NOR  HN I        1713  7.18       343.0 0.16            124            129 246 
+ CHI  HZ EP       1712 50.89                             119   -0.45 9  157 177 
+ HEL  HZ EP       1712 55.24                             114    0.23 9  191 275 
+ HEL  HE ES       1713 18.40                             114    0.62 9  191 275 
+ HEL  HN I        1713 22.10        32.3 0.38            113            191 275 
+ ZAR  HZ EP       1712 54.89                             113   -0.36 9  197 324 
+ ZAR  HE ES       1713 17.98                             113   -0.22 9  197 324 
+ TOL  SZ EP       1712 59.89                             109    0.16 8  233 226 
+ ANIL HE ES       1713 30.01                             107    1.06 8  247 226 
+ ANIL HN I        1713 41.64        24.3 0.22            107            247 226 
+ OCA  HN ES       1713 29.30                             107    0.42 8  248  13 
+ OCA  HN I        1713 35.93        69.6 0.48            107            248  13 
+ DBB  SZ EP       1713  5.28                             104   -0.39 7  287 292 
+ DBB  SZ ES       1713 36.61                             104   -0.15 7  287 292 
+ DBB  SZ I        1713 38.94        10.8 0.40            104            287 292 
+                                                                                

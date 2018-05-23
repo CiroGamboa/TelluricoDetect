@@ -1,0 +1,55 @@
+ 2013  2 2 0723  7.9 L   6.808 -73.132138.0  RSN 11 0.4 2.5LRSN 2.8WRSN        1
+ SPEC AVERAGE  MO 13.4 ST 15.3 OM  1.8 f0 6.31 R0.3268 AL 2.12 WI 21.3 MW  2.8 3
+ SPEC SD       MO  0.3 ST 30.9 OM  0.4 f0 5.36 R0.1463 AL      WI      MW  0.2 3
+ GAP= 71        1.06       3.6     3.7  5.6  0.1116E+01  0.3751E+01 -0.5752E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC ZAR HH N MO 12.9 ST101.9 OM  1.1 f0 21.2 R0.0693 AL 1.50 WI 23.3 MW  2.5 3
+ SPEC ZAR HH N T 724 3 K 0.000 GD  247 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH E MO 13.5 ST  2.1 OM  1.8 f0 3.61 R0.4072 AL 1.50 WI 32.9 MW  2.9 3
+ SPEC PTB HH E T 72353 K 0.000 GD  203 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 12.9 ST  2.1 OM  1.3 f0 5.60 R0.2625 AL 2.14 WI 16.5 MW  2.6 3
+ SPEC RUS HH N T 72348 K 0.000 GD  171 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 13.8 ST 15.8 OM  2.1 f0 5.57 R0.2639 AL 2.53 WI 27.4 MW  3.2 3
+ SPEC OCA HH N T 72354 K 0.000 GD  211 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 13.3 ST  3.7 OM  0.9 f0 5.25 R0.2800 AL 1.83 WI 15.4 MW  2.8 3
+ SPEC PAM SH Z T 72329 K 0.000 GD  157 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.3 ST  1.9 OM  1.4 f0 4.12 R0.3568 AL 2.32 WI 21.4 MW  2.8 3
+ SPEC HEL HH N T 72420 K 0.000 GD  306 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.5 ST0.451 OM  1.6 f0 2.26 R0.6504 AL 2.15 WI 17.5 MW  2.9 3
+ SPEC CHI HH N T 72413 K 0.000 GD  285 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.6 ST  7.6 OM  2.0 f0 5.22 R0.2816 AL 3.38 WI 26.3 MW  3.0 3
+ SPEC BRR HH N T 72344 K 0.000 GD  155 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BAR2SH Z MO 13.4 ST  2.4 OM  1.9 f0 3.98 R0.3693 AL 1.74 WI 10.6 MW  2.9 3
+ SPEC BAR2SH Z T 72341 K 0.000 GD  140 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-03-12 09:29 OP:ep   STATUS:               ID:20130202072307 L   I
+ 2013-02-02-0718-49M.COL___179                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C  723 26.72                             169    0.1110 24.5 193 
+ BAR2 SZ ES        723 41.13                             169   -0.0910 24.5 193 
+ BAR2 SZ I         723 42.90       118.7 0.18            168           24.5 193 
+ BRR  HZ IP     C  723 28.53                             151    0.2710 72.1 297 
+ BRR  HN ES        723 44.84                             151    0.6910 72.1 297 
+ BRR  HN I         723 45.94        80.1 0.16            151           72.1 297 
+ PAM  SZ EP        723 29.44                             150    0.2610 75.7  39 
+ PAM  SN ES        723 45.83                             150    0.0410 75.7  39 
+ PAM  SN I         723 47.73        53.7 0.26            153           75.7  39 
+ RUS  HZ EP        723 30.77                             142   -0.1710  101 177 
+ RUS  HN ES        723 48.80                             142   -0.1310  101 177 
+ RUS  HN I         723 51.57        11.9 0.48            143            101 177 
+ PTB  HZ EP        723 33.63                             130   -0.76 9  149 259 
+ PTB  HE ES        723 54.54                             130   -0.52 9  149 259 
+ PTB  HE I         723 59.77        65.0 0.40            131            149 259 
+ TAM  HZ EP   1    723 35.13                             129    0.28 7  154 105 
+ TAM  HE ES   1    723 55.94                             129    0.07 7  154 105 
+ OCA  HZ EP        723 35.08                             128   -0.46 9  160 353 
+ OCA  HE ES        723 56.55                             128   -0.56 9  160 353 
+ OCA  HN I         724  0.90       117.1 0.24            130            160 353 
+ ZAR  HZ EP        723 39.99                             120    0.04 9  205 292 
+ ZAR  HN ES        724  5.11                             120    0.15 9  205 292 
+ SML  HZ EP        723 44.19                             116    0.12 8  244 335 
+ CHI  HZ EP        723 45.14                             115   -0.17 8  250 195 
+ CHI  HN ES   4    724 14.57                             115    0.08 0  250 195 
+ CHI  HN I         724 19.93        15.0 0.68            116            250 195 
+ ROSC BN ES   4    724 17.33                             115    2.02 0  254 211 
+ HEL  HZ EP        723 49.16                             113    1.25 8  274 256 
+                                                                                

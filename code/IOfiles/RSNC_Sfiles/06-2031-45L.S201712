@@ -1,0 +1,24 @@
+ 2017 12 6 2031 45.2 L   6.872 -72.639  4.0  RSN  5 0.6 1.8LRSN                1
+ GAP=250        0.96       4.1    10.4  9.8 -0.2305E+02  0.7293E+02 -0.4560E+01E
+ Epicentro: CERRITO - SANTANDER                                                3
+ ACTION:UPD 18-01-04 13:17 OP:rebc STATUS:               ID:20171206203145 L   I
+ OLDACT:UP  17-12-07 05:55 OP:dani STATUS:               ID:20171206202741d    3
+ OLDACT:UP  17-12-07 05:29 OP:dani STATUS:               ID:20171206202740d    3
+ OLDACT:DUP 17-12-07 05:26 OP:dani STATUS:               ID:20171206202740d    3
+ 2017-12-06-2028-00M.COL___485                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  EZ EP       2031 54.46                              47    0.2710 52.1 353 
+ PAM  EN ES       2032  0.52                              47   -0.6910 52.1 353 
+ PAM  EZ I        2032  1.08        38.1 0.12             47           52.1 353 
+ BAR2 EZ EP       2031 56.22                              47   -0.0510 67.6 243 
+ BAR2 EZ ES   3   2032  3.35                              47   -1.57 2 67.6 243 
+ BAR2 EZ I        2032  4.69        41.8 0.48             47           67.6 243 
+ OCA  HZ EP   3   2032 13.15                              47    1.63 2  169 334 
+ OCA  HE ES       2032 32.48                              47    0.42 9  169 334 
+ OCA  HZ I        2032 37.36        21.6 0.21             37            169 334 
+ PTB  HZ EP   3   2032 17.72                              37    1.71 2  204 260 
+ PTB  HN ES       2032 40.02                              37   -0.02 9  204 260 
+ PTB  HZ I        2032 42.35         5.0 0.47             37            204 260 
+ ZAR  HZ EP       2032 22.00                              37   -0.28 8  255 286 
+ ZAR  HN ES       2032 51.61                              37    0.41 8  255 286 
+                                                                                

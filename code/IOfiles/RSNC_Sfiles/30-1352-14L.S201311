@@ -1,0 +1,20 @@
+ 2013 1130 1352 14.2 L   7.415 -73.145142.0  RSN  5 0.2 1.7LRSN                1
+ GAP=187        0.44       5.8     2.8  5.8 -0.2959E+01  0.8728E+00 -0.6359E+01E
+ Epicentro: EL PLAYON - SANTANDER                                              3
+ ACTION:UPD 14-01-09 16:32 OP:ep   STATUS:               ID:20131130135214 L   I
+ OLDACT:REG 13-11-30 15:08 OP:cam  STATUS:               ID:20131130135000     3
+ 2013-11-30-1350-00M.COL___282                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ IP     D 1352 34.60                             160    0.0510 49.9 100 
+ PAM  SN ES   2   1352 50.41                             160   -0.04 5 49.9 100 
+ PAM  SZ I        1352 52.66         4.2 0.44            161           49.9 100 
+ BRR  HZ EP       1352 34.75                             152   -0.1610 71.3 242 
+ BRR  HN ES   1   1352 51.44                             152    0.35 7 71.3 242 
+ BAR2 SZ EP   1   1352 36.59                             146    0.09 7 91.1 183 
+ BAR2 SZ ES   2   1352 53.48                             146   -0.45 5 91.1 183 
+ BAR2 SZ I        1352 55.97        16.1 0.54            146           91.1 183 
+ PTB  HZ EP   2   1352 43.59                             126    0.24 4  174 236 
+ PTB  HN ES   1   1353  6.16                             126    0.04 7  174 236 
+ PTB  HZ I        1353  8.60         5.9 0.18            128            174 236 
+ ZAR  HN ES   1   1353  8.59                             124   -0.19 7  189 273 
+                                                                                

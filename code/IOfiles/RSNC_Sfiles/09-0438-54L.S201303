@@ -1,0 +1,24 @@
+ 2013  3 9 0438 53.3 L   6.872 -73.662  4.3  RSN  4 0.6 3.5LRSN 3.9WRSN        1
+ SPEC AVERAGE  MO 15.0 ST 45.5 OM  4.0 f0 2.91 R0.5508 AL 2.38 WI 12.6 MW  3.9 3
+ SPEC SD       MO  0.1 ST 44.6 OM  1.3 f00.897 R0.1477 AL      WI      MW  0.0 3
+ GAP=275        1.13       5.4    13.1 15.9 -0.4615E+02  0.6492E+02 -0.2204E+02E
+ Epicentro: SAN VICENTE DE CHUCURI - SANTANDER                                 3
+ SPEC TAM HH Z MO 15.0 ST 12.1 OM  2.5 f0 2.07 R0.7101 AL 2.21 WI  8.6 MW  3.9 3
+ SPEC TAM HH Z T 43925 K 0.000 GD  212 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 14.9 ST 16.0 OM  2.6 f0 2.50 R0.5880 AL 1.95 WI 14.2 MW  3.9 3
+ SPEC RUS HH Z T 43913 K 0.000 GD  126 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 15.0 ST108.5 OM  2.8 f0 4.15 R0.3542 AL 2.99 WI 15.1 MW  4.0 3
+ SPEC PAM SH Z T 43912 K 0.000 GD  118 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-04-09 14:00 OP:ep   STATUS:               ID:20130309043854dL   I
+ 2013-03-09-0436-53M.COL___198                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ IP     C  439 12.10                              90   -0.2310  118  64 
+ PAM  SN ES        439 27.24                              90    0.0810  118  64 
+ PAM  SE I         439 29.27      2321.7 0.48             47            118  64 
+ RUS  HZ IP     C  439 13.65                              90    0.1610  126 149 
+ RUS  HE ES        439 28.96                              90   -0.2610  126 149 
+ RUS  HE I         439 32.45       524.9 0.34             47            126 149 
+ TAM  HZ IP     C  439 25.99                              56    0.83 9  212 103 
+ TAM  HZ I         439 26.98       324.5 0.44             37            212 103 
+ ELOV BZ IP     C  439 54.54                              55   -1.49 5  462  88 
+                                                                                

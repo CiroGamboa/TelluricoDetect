@@ -1,0 +1,52 @@
+ 2013  4 7 2310  7.0 L   6.829 -73.149138.0  RSN 13 0.4 2.7LRSN 3.1WRSN        1
+ SPEC AVERAGE  MO 13.8 ST 24.6 OM  2.1 f0 6.72 R0.2884 AL 2.90 WI 42.9 MW  3.1 3
+ SPEC SD       MO  0.4 ST 23.0 OM  0.6 f0 1.40 R0.0854 AL      WI      MW  0.2 3
+ GAP=111        0.86       2.9     2.8  5.1  0.1142E+01  0.3310E+01  0.5092E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC ZAR HH E MO 14.2 ST 50.6 OM  2.1 f0 7.81 R0.2330 AL 1.97 WI 28.5 MW  3.4 3
+ SPEC ZAR HH E T2311 4 K 0.050 GD  245 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PRA HH N MO 13.4 ST  6.5 OM  1.1 f0 7.09 R0.2567 AL 3.32 WI 20.9 MW  2.9 3
+ SPEC PRA HH N T231141 K 0.050 GD  418 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC OCA HH N MO 14.3 ST 54.4 OM  2.3 f0 7.24 R0.2514 AL 3.56 WI 53.6 MW  3.5 3
+ SPEC OCA HH N T231053 K 0.050 GD  209 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC HEL HH E MO 13.5 ST  8.9 OM  1.3 f0 7.51 R0.2423 AL 3.62 WI 61.0 MW  2.9 3
+ SPEC HEL HH E T231117 K 0.050 GD  305 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC CHI HH N MO 13.7 ST  2.5 OM  1.6 f0 3.97 R0.4584 AL 2.03 WI 50.7 MW  3.1 3
+ SPEC CHI HH N T231113 K 0.050 GD  287 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ ACTION:UPD 13-05-22 14:36 OP:EP   STATUS:               ID:20130407231007 L   I
+ 2013-04-07-2310-00M.COL___245                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       2310 25.76                             169    0.0310 26.4 188 
+ BAR2 SZ ES       2310 40.51                             169    0.1410 26.4 188 
+ BAR2 SZ I        2310 41.41       101.9 0.26            169           26.4 188 
+ BRR  HZ EP       2310 27.66                             152    0.4810 69.4 296 
+ RUS  HZ IP     C 2310 29.73                             141   -0.4710  104 176 
+ RUS  HN ES       2310 48.09                             141   -0.2410  104 176 
+ RUS  HN I        2310 48.91        47.5 0.26            142            104 176 
+ PTB  HZ EP   1   2310 32.80                             130   -0.54 7  148 258 
+ PTB  HN ES       2310 53.43                             130   -0.48 9  148 258 
+ PTB  HN I        2310 55.15        63.8 0.34            129            148 258 
+ TAM  HZ IP     C 2310 34.12                             128   -0.04 9  156 106 
+ TAM  HN ES       2310 55.63                             128    0.27 9  156 106 
+ TAM  HN I        2310 56.09        72.6 0.38            130            156 106 
+ OCA  HZ EP   2   2310 34.29                             128   -0.09 5  157 353 
+ OCA  HN ES       2310 55.63                             128   -0.13 9  157 353 
+ OCA  HN I        2311  0.86       189.6 0.32            128            157 353 
+ ZAR  HZ EP   1   2310 38.85                             121    0.09 6  203 291 
+ ZAR  HE ES   1   2311  4.43                             121    0.88 6  203 291 
+ ZAR  HE I        2311 11.63       107.1 0.46            120            203 291 
+ CHI  HZ EP       2310 44.11                             115   -0.46 8  252 195 
+ CHI  HN ES   1   2311 14.86                             115    0.96 6  252 195 
+ CHI  HN I        2311 19.21        34.2 0.36            116            252 195 
+ HEL  HZ EP   1   2310 47.67                             113    0.83 6  272 255 
+ HEL  HE ES   2   2311 18.33                             113    0.39 4  272 255 
+ HEL  HE I        2311 24.34        21.7 0.50            113            272 255 
+ DBB  SZ EP   1   2310 54.27                             108    0.20 5  339 274 
+ DBB  SZ ES       2311 30.68                             108   -0.13 7  339 274 
+ DBB  SZ I        2311 31.58        11.1 0.54            108            339 274 
+ COD  HZ EP   1   2310 53.90                             108   -0.78 5  345 355 
+ PRA  HZ EP   1   2311  0.28                             105   -0.25 4  395 209 
+ PRA  HN ES       2311 42.21                             105   -0.10 6  395 209 
+ PRA  HN I        2311 47.50        19.7 0.36            105            395 209 
+ SJA  SZ EP       2311  2.17                             105    0.55 6  403 193 
+                                                                                

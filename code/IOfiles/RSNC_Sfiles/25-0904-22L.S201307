@@ -1,0 +1,24 @@
+ 2013  725 0904 22.5 L   6.830 -73.181151.2  RSN  5 0.4 1.6LRSN                1
+ GAP=204        0.90       6.0     7.5  8.1  0.3569E+01  0.4284E+01 -0.8318E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 13-08-12 10:40 OP:ep   STATUS:               ID:20130725090422 L   I
+ OLDACT:UP  13-07-25 12:46 OP:cam  STATUS:               ID:20130725085960d    3
+ OLDACT:UP  13-07-25 12:44 OP:cam  STATUS:               ID:20130725085960d    3
+ OLDACT:DUP 13-07-25 12:43 OP:cam  STATUS:               ID:20130725085960d    3
+ OLDACT:REG 13-07-25 10:21 OP:cam  STATUS:               ID:20130725085959     3
+ 2013-07-25-0859-59M.COL___267                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP        9 4 42.82                             170   -0.0010 26.3 180 
+ BAR2 SZ ES   1    9 4 58.30                             170   -0.39 7 26.3 180 
+ BAR2 SZ I         9 5  0.95         2.7 0.48            165           26.3 180 
+ BRR  HZ EP        9 4 44.10                             155    0.1510 66.2 298 
+ BRR  HZ I         9 4 49.40         4.4 0.54            142           66.2 298 
+ BRR  HN ES        9 5  1.27                             155    0.5710 66.2 298 
+ PTB  HZ EP        9 4 49.50                             134   -0.11 9  145 257 
+ PTB  HN ES        9 5 10.39                             134   -0.39 9  145 257 
+ PTB  HZ I         9 5 14.04         2.1 0.16            119            145 257 
+ ZAR  HZ EP   1    9 4 55.42                             124    0.63 6  199 292 
+ ZAR  HE I         9 5 25.45        38.4 0.32            111            199 292 
+ SML  HN ES        9 5 26.84                             119   -0.50 8  239 336 
+ SML  HZ I         9 5 35.85         3.0 0.10            107            239 336 
+                                                                                

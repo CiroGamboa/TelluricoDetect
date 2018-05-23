@@ -1,0 +1,63 @@
+ 2012  829 0901 29.3 L   6.401 -73.679100.1  RSN 20 0.5 2.8LRSN 3.4WRSN        1
+ SPEC AVERAGE  MO 14.2 ST  7.9 OM  3.2 f0 3.26 R0.4538 AL 2.60 WI 29.2 MW  3.4 3
+ SPEC SD       MO  0.1 ST  2.4 OM  1.0 f00.238 R0.0338 AL      WI      MW  0.0 3
+ GAP= 50        1.03       2.8     3.0  6.8 -0.9866E-01  0.6933E+01  0.2911E+01E
+ Epicentro: SANTA HELENA DEL OPON - SANTANDER                                  3
+ SPEC ROSCBH Z MO 14.3 ST 11.2 OM  1.8 f0 3.53 R0.4164 AL 3.00 WI 23.3 MW  3.5 3
+ SPEC ROSCBH Z T 9 157 K 0.000 GD  212 VP 7.60 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 14.1 ST  6.6 OM  2.4 f0 3.29 R0.4468 AL 2.23 WI 40.1 MW  3.4 3
+ SPEC HEL HH N T 9 223 K 0.000 GD  229 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.2 ST  5.8 OM  2.5 f0 2.95 R0.4983 AL 2.57 WI 24.3 MW  3.4 3
+ SPEC CHI HH N T 9 220 K 0.000 GD  220 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-09-10 11:59 OP:ep   STATUS:               ID:20120829090129 L   I
+ 2012-08-29-0900-00M.COL___218                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP        9 1 45.65                             147    0.4510 58.9  69 
+ BAR2 SZ ES   1    9 1 58.18                             147    0.56 7 58.9  69 
+ BAR2 SZ I         9 1 59.84       478.8 0.42                          58.9  69 
+ BRR  HZ IP     D  9 1 46.63                             139    0.3410 78.2 357 
+ BRR  HZ I         9 1 54.96       146.7 0.12                          78.2 357 
+ RUS  HZ EP        9 1 47.51                             137   -0.1610 86.6 130 
+ RUS  HN ES   1    9 2  1.26                             137   -0.75 7 86.6 130 
+ RUS  HZ I         9 2  3.33        59.8 0.50                          86.6 130 
+ PTB  HZ IP     C  9 1 46.68                             136   -0.4010 87.4 280 
+ PTB  HN ES   1    9 2  0.23                             136   -0.73 7 87.4 280 
+ PTB  HZ I         9 2  3.40       112.3 0.18                          87.4 280 
+ GIR2 SZ IP        9 1 48.07                             134    0.4010 92.2  36 
+ PAM  SZ EP        9 1 53.90                             120    0.06 9  150  46 
+ PAM  SN ES   1    9 2 13.02                             120    0.02 7  150  46 
+ PAM  SZ I         9 2 13.62        47.5 0.26                           150  46 
+ NOR  SZ EP        9 1 53.97                             118   -0.51 9  161 235 
+ NOR  SZ I         9 2 17.23        73.7 0.14                           161 235 
+ ZAR  HZ EP        9 1 56.69                             115    0.43 9  178 313 
+ ZAR  HZ I         9 2 24.31        60.6 0.24                           178 313 
+ YOP  SZ EP        9 1 56.70                             115   -0.07 9  181 130 
+ YOP  SN ES   1    9 2 18.56                             115    0.36 7  181 130 
+ YOP  SZ I         9 2 19.56       138.9 0.26                           181 130 
+ ROSC BZ EP   3    9 1 58.36                             114    0.61 2  187 202 
+ ROSC BZ I         9 2  2.28        41.7 0.40                           187 202 
+ CHI  HZ IP     C  9 1 58.56                             113   -0.27 9  196 182 
+ CHI  HZ I         9 1 59.19        45.4 0.20                           196 182 
+ CHI  HN ES   1    9 2 22.27                             113    0.40 6  196 182 
+ HEL  HZ EP        9 2  0.32                             112    0.40 8  206 264 
+ HEL  HZ I         9 2 27.89        77.8 0.26                           206 264 
+ OCA  HZ EP        9 1 59.73                             111   -0.05 8  207  11 
+ OCA  HN ES   1    9 2 23.80                             111    0.24 6  207  11 
+ OCA  HZ I         9 2 29.94       263.7 0.32                           207  11 
+ TAM  HZ IP     D  9 1 59.55                             111   -0.29 8  209  89 
+ TAM  HZ I         9 1 59.75        91.7 0.32                           209  89 
+ TAM  HN ES   2    9 2 22.37                             111   -1.29 4  209  89 
+ VIL  SZ EP        9 2  5.03                             107   -0.07 8  253 180 
+ VIL  SZ I         9 2 39.57        75.0 0.38                           253 180 
+ URE  HZ EP        9 2  4.00                             107   -1.01 8  254 306 
+ URE  HZ I         9 2 36.03        38.8 0.16                           254 306 
+ TOL  SZ EP        9 2  7.52                             106    0.06 8  271 222 
+ TOL  SZ I         9 2 44.62        13.9 0.40                           271 222 
+ ANIL HZ EP        9 2  9.90                             105    0.85 7  285 222 
+ ANIL HN ES   2    9 2 41.56                             105    1.49 4  285 222 
+ ANIL HZ I         9 2 47.32        97.9 0.36                           285 222 
+ DBB  SZ EP        9 2  9.49                             105    0.31 7  288 284 
+ DBB  SZ I         9 2 45.48        20.9 0.30                           288 284 
+ PRA  HZ EP        9 2 13.00                             103   -0.66 7  326 204 
+ PRA  HZ I         9 2 56.55        33.6 0.20                           326 204 
+                                                                                

@@ -1,0 +1,31 @@
+ 2016 1011 1730 19.9 L   7.325 -73.203129.9  RSN  6 0.2 1.6LRSN                1
+ GAP=172        0.54       4.1     2.4  4.3 -0.1066E+01  0.3902E+01 -0.4068E+01E
+ Epicentro: RIONEGRO - SANTANDER                                               3
+ ACTION:UPD 16-11-09 19:18 OP:rebc STATUS:               ID:20161011173019 L   I
+ OLDACT:UP  16-10-12 00:23 OP:and  STATUS:               ID:20161011172747d    3
+ OLDACT:UP  16-10-12 00:19 OP:and  STATUS:               ID:20161011172747d    3
+ OLDACT:UP  16-10-12 00:19 OP:and  STATUS:               ID:20161011172747d    3
+ OLDACT:DUP 16-10-12 00:17 OP:and  STATUS:               ID:20161011172747d    3
+ OLDACT:REG 16-10-11 22:16 OP:lv   STATUS:               ID:20161011172746     3
+ 2016-10-11-1728-00M.COL___369                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  EZ EP       1730 39.20                             156    0.0510 55.6  88 
+ PAM  EE ES       1730 54.29                             156    0.1010 55.6  88 
+ PAM  EZ I        1730 56.26         7.9 0.34            160           55.6  88 
+ BRR  HZ IP     D 1730 38.46                             153   -0.2610 61.1 247 
+ BRR  HN ES       1730 53.16                             153   -0.2810 61.1 247 
+ BRR  HZ I        1730 55.85        10.0 0.26            154           61.1 247 
+ BAR2 EZ EP     D 1730 40.50                             146    0.2010 81.1 178 
+ BAR2 EZ ES       1730 56.27                             146    0.0310 81.1 178 
+ BAR2 EZ I        1730 57.31        10.4 0.14            150           81.1 178 
+ PTB  HZ EP       1730 46.91                             125   -0.21 9  163 238 
+ PTB  HN ES       1731  8.56                             125    0.17 9  163 238 
+ PTB  HZ I        1731 10.94         4.3 0.19            127            163 238 
+ ZAR  HZ EP       1730 49.09                             122   -0.07 9  184 276 
+ ZAR  HN ES       1731 12.34                             122    0.32 9  184 276 
+ ZAR  HZ I        1731 15.19         5.0 0.14            123            184 276 
+ NOR  HN ES   4   1731 30.57                             112    1.98 0  268 224 
+ GUY2CHZ EP   4   1731 10.09                             107    3.57 0  333 226 
+ GUY2CHN ES   4   1731 48.09                             107    5.17 0  333 226 
+ GUY2CHZ I        1731 53.25         1.7 0.24                           333 226 
+                                                                                

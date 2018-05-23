@@ -1,0 +1,37 @@
+ 2014  927 0118 24.8 L   6.595 -72.709  1.0  RSN  9 0.5 2.1LRSN                1
+ GAP=120        1.05       3.1     2.1  5.2  0.9652E+00  0.2502E+01 -0.1639E+01E
+ Epicentro: SAN MIGUEL - SANTANDER                                             3
+ ACTION:UPD 14-10-03 23:08 OP:nd   STATUS:               ID:20140927011824 L   I
+ OLDACT:UP  14-09-27 15:28 OP:mh   STATUS:               ID:20140927010818     3
+ OLDACT:UP  14-09-27 15:28 OP:mh   STATUS:               ID:20140927010818     3
+ OLDACT:UP  14-09-27 15:28 OP:mh   STATUS:               ID:20140927010818     3
+ OLDACT:UP  14-09-27 15:09 OP:mh   STATUS:               ID:20140927010818     3
+ OLDACT:REG 14-09-27 13:45 OP:mh   STATUS:               ID:20140927010818     3
+ 2014-09-27-0108-18M.COL___298                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C  118 33.36                              47   -0.6710 52.4 270 
+ BAR2 SZ ES        118 40.65                              47   -0.5510 52.4 270 
+ PAM  SZ EP   4    118 36.14                              47   -2.69 0 82.4   1 
+ PAM  SN ES   4    118 43.20                              47   -6.55 0 82.4   1 
+ PAM  SZ I         118 46.66        24.8 0.38             47           82.4   1 
+ RUS  HZ EP   1    118 39.72                              47    0.03 7 88.0 208 
+ RUS  HN ES   1    118 50.97                              47   -0.31 7 88.0 208 
+ RUS  HZ I         118 51.85        24.7 0.16             47           88.0 208 
+ TAM  HZ EP        118 41.76                              47    0.2610  103 100 
+ TAM  HN ES        118 54.25                              47   -0.2510  103 100 
+ TAM  HZ I         118 58.50        45.5 0.34             47            103 100 
+ BRR  HZ EP   1    118 44.96                              47    0.25 7  125 297 
+ BRR  HZ I         118 47.49        93.8 0.19             47            125 297 
+ BRR  HN ES        119  0.12                              47   -0.1010  125 297 
+ SPBC HZ EP   1    118 54.43                              37    0.81 7  183 235 
+ SPBC HN ES   1    119 16.35                              37    0.28 7  183 235 
+ SPBC HZ I         119 22.70        20.0 0.22             37            183 235 
+ PTB  HZ EP        118 55.32                              37    0.55 9  193 268 
+ PTB  HN ES        119 18.63                              37    0.51 9  193 268 
+ OCA  HZ EP        118 54.31                              37   -0.70 9  194 340 
+ OCA  HN ES        119 18.84                              37    0.30 9  194 340 
+ OCA  HZ I         119 21.66        20.4 0.34             37            194 340 
+ ZAR  HZ EP        119  3.36                              37    0.60 8  257 293 
+ ZAR  HN ES        119 32.33                              37   -0.02 8  257 293 
+ ZAR  HZ I         119 35.70        11.5 0.48             37            257 293 
+                                                                                

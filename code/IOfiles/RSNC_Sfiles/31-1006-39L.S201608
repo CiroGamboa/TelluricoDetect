@@ -1,0 +1,38 @@
+ 2016  831 1006 39.2 L   7.218 -73.062153.8  RSN  9 0.2 1.6LRSN                1
+ GAP=195        0.53       1.7     2.9  3.2  0.5961E+00  0.2498E+00 -0.6557E+00E
+ Epicentro: TONA - SANTANDER                                                   3
+ ACTION:UPD 16-10-29 15:40 OP:rebc STATUS:               ID:20160831100639 L   I
+ OLDACT:UP  16-08-31 21:07 OP:edw  STATUS:               ID:20160831095737d    3
+ OLDACT:UP  16-08-31 21:06 OP:edw  STATUS:               ID:20160831095737d    3
+ OLDACT:DUP 16-08-31 20:57 OP:edw  STATUS:               ID:20160831095737d    3
+ OLDACT:REG 16-08-31 19:28 OP:edw  STATUS:               ID:20160831095736     3
+ 2016-08-31-0958-00M.COL___349                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       10 7  1.55                             154   -0.0110 70.5 191 
+ BAR2 EZ ES       10 7 18.90                             154   -0.0710 70.5 191 
+ BAR2 EZ I        10 7 20.95         6.0 0.20                          70.5 191 
+ BRR  HZ IP     D 10 7  1.57                             153    0.2310 72.8 260 
+ BRR  HE ES       10 7 18.53                             153   -0.0510 72.8 260 
+ BRR  HZ I        10 7 21.98         4.3 0.15                          72.8 260 
+ OCA  HZ EP       10 7  4.62                             141    0.1710  116 346 
+ OCA  HN ES       10 7 24.23                             141    0.1010  116 346 
+ OCA  HZ I        10 7 32.25         9.5 0.20                           116 346 
+ RUS  HZ EP       10 7  7.23                             134   -0.18 9  147 181 
+ RUS  HE ES       10 7 29.49                             134    0.10 9  147 181 
+ RUS  HZ I        10 7 30.51         1.6 0.30                           147 181 
+ PTB  HZ EP   9   10 7  8.60                             129   -0.42 0  171 244 
+ PTB  HN ES       10 7 31.62                             130   -0.22 9  171 244 
+ PTB  HZ I        10 7 34.16         4.9 0.20                           171 244 
+ ZAR  HZ EP       10 7 11.95                             125    0.09 9  201 279 
+ ZAR  HN ES       10 7 37.33                             125    0.02 9  201 279 
+ ZAR  HZ I        10 7 43.48         4.4 0.11                           201 279 
+ SPBC HZ EP       10 7 12.70                             124    0.18 8  206 213 
+ SPBC HN ES       10 7 38.07                             124   -0.42 8  206 213 
+ SPBC HZ I        10 7 42.43         3.1 0.26                           206 213 
+ GUY2CHZ EP   2   10 7 27.48                             111    0.23 3  337 229 
+ GUY2CHN ES       10 8  4.95                             111    0.24 7  337 229 
+ GUY2CHZ I        10 8 17.51         1.7 0.50                           337 229 
+ SJC  HZ EP       10 7 30.56                             109   -0.75 6  377 322 
+ SJC  HN ES       10 8 11.81                             109   -0.13 6  377 322 
+ SJC  HZ I        10 8 12.65         1.9 0.14                           377 322 
+                                                                                

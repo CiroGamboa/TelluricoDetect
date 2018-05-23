@@ -1,0 +1,33 @@
+ 2017 1222 0537 40.7 L   6.788 -73.186141.5  RSN  7 0.5 1.7LRSN                1
+ GAP=138        1.09       4.2     5.2  7.7 -0.9125E+01  0.1200E+02 -0.9212E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 18-01-04 13:23 OP:rebc STATUS:               ID:20171222053740 L   I
+ OLDACT:UP  17-12-22 16:40 OP:dani STATUS:               ID:20171222052435d    3
+ OLDACT:DUP 17-12-22 16:37 OP:dani STATUS:               ID:20171222052435d    3
+ OLDACT:UP  17-12-22 16:37 OP:dani STATUS:               ID:20171222052434     3
+ OLDACT:UP  17-12-22 16:37 OP:dani STATUS:               ID:20171222052434     3
+ OLDACT:UP  17-12-22 16:35 OP:dani STATUS:               ID:20171222052434     3
+ OLDACT:REG 17-12-22 13:05 OP:dani STATUS:               ID:20171222052434     3
+ 2017-12-22-0528-00M.COL___466                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 HZ EP        537 59.70                             171   -0.0410 21.6 179 
+ BAR2 HZ ES        538 14.79                             171    0.1610 21.6 179 
+ BAR2 HZ I         538 16.10        12.5 0.20            172           21.6 179 
+ PAM  EZ EP        538  2.51                             149   -0.1510 81.3  41 
+ PAM  EE ES        538 19.86                             149    0.0310 81.3  41 
+ PAM  EZ I         538 21.69         6.4 0.48            152           81.3  41 
+ PTB  HZ EP        538  6.28                             132   -0.57 9  143 259 
+ PTB  HN ES        538 27.07                             132   -0.22 9  143 259 
+ PTB  HZ I         538 30.91         3.0 0.14            132            143 259 
+ SPBC HZ EP        538  8.39                             129   -0.07 9  159 218 
+ SPBC HN ES        538 30.74                             129    0.58 9  159 218 
+ SPBC HZ I         538 33.11         8.3 0.32            131            159 218 
+ OCA  HZ EP        538  8.56                             128   -0.16 9  161 355 
+ OCA  HN ES        538 29.89                             128   -0.72 9  161 355 
+ OCA  HZ I         538 33.29        10.6 0.22            130            161 355 
+ ZAR  HZ EP   3    538 10.35                             122   -2.10 2  200 293 
+ ZAR  HN ES        538 37.48                             122    0.23 9  200 293 
+ ZAR  HZ I         538 46.47         3.4 0.10            122            200 293 
+ DRL03HZ EP        538 22.73                             112    0.58 7  290 354 
+ DRL03HE ES        538 55.68                             112    1.16 7  290 354 
+                                                                                

@@ -1,0 +1,34 @@
+ 2016 1112 0034  8.7 L   6.758 -73.109143.7  RSN  9 0.2 2.1LRSN                1
+ GAP=124        0.53       3.1     2.3  3.9 -0.9363E+00  0.2350E+00  0.6274E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-10-26 21:07 OP:lp   STATUS:               ID:20161112003408 L   I
+ OLDACT:UP  16-11-12 13:23 OP:and  STATUS:               ID:20161112002746     3
+ OLDACT:UP  16-11-12 13:21 OP:and  STATUS:               ID:20161112002746     3
+ OLDACT:UP  16-11-12 13:18 OP:and  STATUS:               ID:20161112002746     3
+ OLDACT:REG 16-11-12 12:21 OP:and  STATUS:               ID:20161112002746     3
+ 2016-11-12-0028-00M.COL___340                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     D  034 28.12                             172    0.1510 20.0 204 
+ BAR2 EZ I         034 44.40        56.2 0.18            169           20.0 204 
+ BRR  HZ EP        034 29.91                             150   -0.0110 77.0 300 
+ BRR  HN ES        034 46.62                             150    0.1110 77.0 300 
+ PAM  EZ EP        034 30.90                             150    0.1810 78.6  35 
+ PAM  EN ES        034 47.78                             150   -0.1510 78.6  35 
+ PAM  EZ I         034 50.37        13.3 0.30            141           78.6  35 
+ PTB  HZ EP   9    034 34.85                             131   -0.90 0  151 261 
+ PTB  HN ES        034 56.04                             131    0.06 9  151 261 
+ PTB  HZ I         035  2.71        10.9 0.16            120            151 261 
+ ZAR  HZ EP        034 41.76                             121    0.22 8  210 293 
+ ZAR  HN ES        035  6.70                             121   -0.50 8  210 293 
+ ZAR  HZ I         035 14.32        13.5 0.30            111            210 293 
+ NOR  HZ EP        034 44.49                             118    0.15 8  235 236 
+ NOR  HN ES        035 12.20                             118    0.03 8  235 236 
+ NOR  HZ I         035 16.22         9.8 0.21            109            235 236 
+ ROSC BZ EP        034 46.47                             116    0.00 8  251 212 
+ ROSC BN ES   4    035 18.35                             116    2.40 0  251 212 
+ ROSC BZ I         035 26.47         9.9 0.40            108            251 212 
+ URE  HZ EP        034 50.35                             113    0.10 7  289 292 
+ URE  HZ I         035 36.14         9.5 0.09            104            289 292 
+ PTGC HZ EP        034 51.29                             112   -0.47 7  303 159 
+ PTGC HN ES   4    035 24.85                             112   -0.53 0  303 159 
+                                                                                

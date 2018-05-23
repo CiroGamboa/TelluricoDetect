@@ -1,0 +1,41 @@
+ 2017  210 0222 48.5 L   6.715 -73.519108.6  RSN  9 0.3 1.5LRSN                1
+ GAP= 79        1.13       4.1     4.6  6.8 -0.3512E+01  0.5816E+01  0.1027E+02E
+ Epicentro: EL CARMEN - SANTANDER                                              3
+ ACTION:UPD 17-05-24 15:34 OP:jn   STATUS:               ID:20170210022248 L   I
+ OLDACT:UP  17-02-10 15:07 OP:edw  STATUS:               ID:20170210021104d    3
+ OLDACT:DUP 17-02-10 14:57 OP:edw  STATUS:               ID:20170210021104d    3
+ OLDACT:UP  17-02-10 14:56 OP:edw  STATUS:               ID:20170210021103d    3
+ OLDACT:UP  17-02-10 14:52 OP:edw  STATUS:               ID:20170210021103d    3
+ OLDACT:UP  17-02-10 14:51 OP:edw  STATUS:               ID:20170210021103d    3
+ OLDACT:UP  17-02-10 14:41 OP:edw  STATUS:               ID:20170210021103d    3
+ OLDACT:DUP 17-02-10 14:38 OP:edw  STATUS:               ID:20170210021103d    3
+ 2017-02-10-0218-00M.COL___364                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     C  223  4.47                             158    0.2310 39.6 110 
+ BAR2 EZ ES        223 16.99                             158    0.4510 39.6 110 
+ BAR2 EZ I         223 17.84        17.1 0.18            156           39.6 110 
+ BRR  HZ IP     D  223  4.10                             154   -0.2210 48.3 334 
+ BRR  HN ES        223 16.96                             154    0.2910 48.3 334 
+ BRR  HZ I         223 17.59         8.5 0.12            154           48.3 334 
+ RUS  HZ EP        223  9.07                             133    0.0710  103 152 
+ RUS  HN ES        223 24.59                             133   -0.4110  103 152 
+ RUS  HZ I         223 26.09        12.8 0.22            130            103 152 
+ PTB  HZ IP   9 C  223  7.41                             132   -1.16 0  105 259 
+ PTB  HN ES        223 21.97                             130   -1.1110  105 259 
+ PTB  HZ I         223 23.27         7.6 0.16            130            105 259 
+ PAM  EZ EP        223  9.86                             129   -0.1310  114  53 
+ PAM  EN ES        223 26.50                             129   -0.2710  114  53 
+ PAM  EZ I         223 30.63         5.3 0.42            128            114  53 
+ ZAR  HZ EP   4    223 16.49                             117    1.32 0  171 300 
+ ZAR  HN ES   4    223 37.83                             117    1.85 0  171 300 
+ ZAR  HZ I         223 38.25         4.1 0.10            116            171 300 
+ CHI  HZ EP        223 23.24                             109    0.77 8  232 186 
+ CHI  HN ES        223 48.65                             109   -0.34 8  232 186 
+ CHI  HZ I         223 56.48         1.2 0.24            107            232 186 
+ CBOC HZ EP   4    223 33.04                             104    3.91 0  291 251 
+ CBOC HE ES        224  0.64                             104   -0.19 7  291 251 
+ PRA  HZ EP        223 37.34                             100   -0.36 6  365 205 
+ PRA  HN ES        224 15.91                             100   -0.19 6  365 205 
+ PRA  HZ I         224 26.92         1.1 0.34             98            365 205 
+ SJC  HN ES   4    224 20.32                              98   -2.63 0  397 333 
+                                                                                

@@ -1,0 +1,22 @@
+ 2016 1031 1551 19.7 L   6.604 -72.867  4.0  RSN  5 0.5 1.3LRSN                1
+ GAP=184        1.01       2.6     3.9  6.9 -0.3861E+01  0.2678E+01  0.3478E+00E
+ Epicentro: MOLAGAVITA - SANTANDER                                             3
+ ACTION:UPD 16-11-09 19:24 OP:rebc STATUS:               ID:20161031155119 L   I
+ OLDACT:UP  16-11-01 16:48 OP:nlst STATUS:               ID:20161031155119 L   3
+ OLDACT:REG 16-10-31 21:17 OP:cog  STATUS:               ID:20161031154651     3
+ 2016-10-31-1548-00M.COL___331                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     D 1551 25.80                              47    0.0110 34.9 268 
+ BAR2 EZ ES       1551 30.07                              47   -0.5010 34.9 268 
+ RUS  HZ EP       1551 33.74                              47    0.5110 82.2 197 
+ RUS  HN ES       1551 43.41                              47   -0.4010 82.2 197 
+ RUS  HZ I        1551 45.30         5.9 0.16             90           82.2 197 
+ PAM  HZ EP       1551 33.64                              47    0.2410 83.4  13 
+ PAM  HN ES       1551 43.67                              47   -0.4510 83.4  13 
+ PAM  HZ I        1551 45.79         5.3 0.30             90           83.4  13 
+ BRR  HZ EP       1551 37.22                              47    0.4910  109 301 
+ BRR  HZ I        1551 48.42        10.6 0.39             90            109 301 
+ PTB  HZ EP   3   1551 48.25                              47    1.32 2  176 268 
+ PTB  HN ES   3   1552  9.09                              47    0.90 2  176 268 
+ PTB  HZ I        1552 11.17         8.3 0.18             56            176 268 
+                                                                                

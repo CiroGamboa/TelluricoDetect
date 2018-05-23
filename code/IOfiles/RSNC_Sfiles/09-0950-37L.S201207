@@ -1,0 +1,48 @@
+ 2012  7 9 0950 37.8 L   7.369 -73.123  4.0  RSN 11 0.5 4.4LRSN 4.2WRSN        1
+ SPEC AVERAGE  MO 15.4 ST181.5 OM  4.5 f0 3.61 R0.4247 AL 2.71 WI 23.7 MW  4.2 3
+ Epicentro: RIONEGRO - SANTANDER                                               3
+ SPEC SD       MO  0.2 ST112.8 OM  0.7 f00.711 R0.0874 AL      WI      MW  0.1 3
+ GAP=101        0.94       2.1     2.3  5.2 -0.9969E+00  0.6352E+01 -0.4261E+01E
+ Evento Sentido                                                                2
+ Reportado como sentido en:                                                    3
+ SURATA, RIONEGRO, CHARTA (SANTANDER)                                          3
+ SPEC ZAR HH Z MO 15.5 ST291.5 OM  4.0 f0 3.94 R0.3731 AL 3.56 WI 28.8 MW  4.3 3
+ SPEC ZAR HH Z T 95125 K 0.020 GD  138 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH Z MO 15.1 ST110.1 OM  3.5 f0 3.89 R0.3779 AL 3.49 WI 35.3 MW  4.0 3
+ SPEC HEL HH Z T 95148 K 0.020 GD  172 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 15.5 ST116.5 OM  4.0 f0 2.95 R0.4983 AL 2.52 WI 12.4 MW  4.3 3
+ SPEC PTB HH Z T 95123 K 0.020 GD  131 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 15.4 ST339.5 OM  3.9 f0 4.60 R0.3196 AL 2.71 WI 27.9 MW  4.2 3
+ SPEC RUS HH Z T 95116 K 0.020 GD  127 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH Z MO 15.3 ST 50.1 OM  3.9 f0 2.65 R0.5547 AL 1.25 WI 14.1 MW  4.1 3
+ SPEC OCA HH Z T 951 3 K 0.020 GD 98.6 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-08-10 11:32 OP:ep   STATUS:               ID:20120709095037 L   I
+ 2012-07-09-0947-42M.COL___208                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ EP        950 46.42                              92    0.3910 46.9  94 
+ PAM  SN ES        950 52.48                              92    0.0410 46.9  94 
+ PAM  SZ I         950 54.75     15811.2 0.60                          46.9  94 
+ BRR  HZ EP   1    950 49.73                              91    0.53 7 71.2 246 
+ BRR  HN ES        950 58.63                              91    0.5610 71.2 246 
+ BRR  HZ I         951  0.21      5356.0 0.29                          71.2 246 
+ BAR2 SZ EP        950 51.82                              91    0.1010 86.2 184 
+ BAR2 SZ ES   1    951  2.01                              91   -0.55 7 86.2 184 
+ BAR2 SZ I         951  4.04     14906.1 0.22                          86.2 184 
+ OCA  HZ EP   1    950 53.01                              91   -0.50 7 98.5 347 
+ OCA  HN ES   1    951  4.96                              91   -0.79 7 98.5 347 
+ RUS  HZ EP   1    951  4.16                              90    0.48 7  163 178 
+ RUS  HN ES        951 23.16                              90   -0.69 9  163 178 
+ RUS  HZ I         951 26.50      5450.2 0.25                           163 178 
+ PTB  HZ EP   1    951  4.55                              56   -0.18 7  174 238 
+ PTB  HE ES   1    951 25.17                              56   -0.54 7  174 238 
+ PTB  HZ I         951 26.80     10134.6 0.46                           174 238 
+ ZAR  HZ EP        951  7.24                              56    0.15 9  192 274 
+ ZAR  HN ES        951 29.49                              56   -0.42 9  192 274 
+ ZAR  HZ I         951 31.16      7188.0 0.41                           192 274 
+ URE  HN ES   1    951 47.24                              56    0.13 6  269 279 
+ COD  HZ EP   1    951 19.07                              56    0.25 6  286 353 
+ COD  HN ES        951 50.73                              56   -0.06 7  286 353 
+ HEL  HZ EP   1    951 21.23                              55    0.69 5  296 244 
+ HEL  HN ES   1    951 53.88                              55    0.03 5  296 244 
+ SJC  HZ EP   1    951 29.00                              55    0.99 5  360 321 
+ SJC  HN ES   1    952  7.22                              55    0.08 5  360 321 

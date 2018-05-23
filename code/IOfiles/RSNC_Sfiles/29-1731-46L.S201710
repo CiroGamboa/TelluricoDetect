@@ -1,0 +1,52 @@
+ 2017 1029 1731 46.4 L   6.802 -73.174143.4  RSN 13 0.5 2.1LRSN                1
+ GAP=102        1.17       3.8     3.7  6.1  0.1028E+01  0.2438E+01  0.5114E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-11-07 19:39 OP:rebc STATUS:               ID:20171029173146 L   I
+ OLDACT:UP  17-10-30 00:50 OP:dani STATUS:               ID:20171029172742d    3
+ OLDACT:UP  17-10-30 00:47 OP:dani STATUS:               ID:20171029172742d    3
+ OLDACT:UP  17-10-30 00:46 OP:dani STATUS:               ID:20171029172742d    3
+ OLDACT:DUP 17-10-30 00:44 OP:dani STATUS:               ID:20171029172742d    3
+ OLDACT:UP  17-10-30 00:43 OP:dani STATUS:               ID:20171029172741     3
+ OLDACT:UP  17-10-30 00:43 OP:dani STATUS:               ID:20171029172741     3
+ OLDACT:UP  17-10-30 00:41 OP:dani STATUS:               ID:20171029172741     3
+ OLDACT:UP  17-10-30 00:41 OP:dani STATUS:               ID:20171029172741     3
+ OLDACT:UP  17-10-30 00:41 OP:dani STATUS:               ID:20171029172741     3
+ OLDACT:REG 17-10-29 20:24 OP:dani STATUS:               ID:20171029172741     3
+ 2017-10-29-1728-00M.COL___437                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP     D 1732  5.72                             170   -0.0310 23.2 182 
+ BAR2 EZ ES       1732 20.38                             170   -0.4610 23.2 182 
+ BAR2 EZ I        1732 22.34        29.8 0.16            169           23.2 182 
+ BRR  HZ EP     D 1732  7.47                             153    0.3310 68.3 300 
+ BRR  HN ES       1732 24.20                             153    0.8910 68.3 300 
+ BRR  HZ I        1732 27.25        23.4 0.40            153           68.3 300 
+ PAM  EZ EP       1732  8.67                             150    0.1810 79.2  41 
+ PAM  EN ES       1732 25.67                             150   -0.0310 79.2  41 
+ PAM  EZ I        1732 27.93        17.4 0.54            154           79.2  41 
+ RUS  HZ EP       1732  9.69                             143   -0.2810  101 174 
+ RUS  HN ES       1732 28.64                             143    0.3010  101 174 
+ RUS  HZ I        1732 29.52        13.9 0.24            144            101 174 
+ PTB  HZ EP       1732 12.17                             132   -0.74 9  145 258 
+ PTB  HN ES       1732 33.33                             132   -0.25 9  145 258 
+ PTB  HZ I        1732 34.53        10.8 0.16            132            145 258 
+ TAM  HZ EP       1732 14.09                             129   -0.10 9  158 105 
+ SPBC HZ EP       1732 14.68                             129    0.12 9  161 218 
+ SPBC HN ES       1732 35.68                             129   -0.83 9  161 218 
+ SPBC HZ I        1732 43.64        22.5 0.34            130            161 218 
+ YPLC HZ EP       1732 16.18                             126   -0.03 9  179 150 
+ YPLC HN ES       1732 39.43                             126   -0.02 9  179 150 
+ YPLC HZ I        1732 41.11        19.2 0.30            128            179 150 
+ ZAR  HZ EP       1732 17.38                             122   -1.01 9  201 292 
+ ZAR  HE ES       1732 43.45                             122    0.12 9  201 292 
+ ZAR  HZ I        1732 49.22        12.4 0.38            123            201 292 
+ TABC EZ EP   1   1732 23.07                             119    1.20 6  229 210 
+ NOR  HZ EP       1732 22.12                             118    0.37 8  232 234 
+ NOR  HN ES       1732 49.51                             118    0.21 8  232 234 
+ NOR  HZ I        1732 57.58         9.9 0.18            119            232 234 
+ CHI  HZ EP       1732 24.06                             117    0.14 8  248 194 
+ CHI  HE ES       1732 53.74                             117    0.57 8  248 194 
+ CHI  HZ I        1732 55.48         5.9 0.27            118            248 194 
+ GUY2CHZ EP   3   1732 31.56                             112    1.92 2  299 234 
+ GUY2CHN ES   4   1733  8.67                             112    5.32 0  299 234 
+ GUY2CHZ I        1733 10.96         5.5 0.32                           299 234 
+                                                                                

@@ -1,0 +1,24 @@
+ 2014  925 0124 13.8 L   6.821 -73.408120.8  RSN  6 0.5 1.4LRSN                1
+ GAP=182        1.24       6.3     6.2  9.6  0.1419E+02  0.1489E+02  0.1332E+02E
+ Epicentro: SAN VICENTE DE CHUCURI - SANTANDER                                 3
+ ACTION:UPD 14-10-03 23:08 OP:nd   STATUS:               ID:20140925012413 L   I
+ OLDACT:UP  14-09-25 14:21 OP:cam  STATUS:               ID:20140925012000     3
+ OLDACT:REG 14-09-25 12:46 OP:cam  STATUS:               ID:20140925012000     3
+ 2014-09-25-0120-00M.COL___252                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP     C  124 30.67                             163   -0.1010 35.6 135 
+ BAR2 SZ ES        124 43.10                             163   -0.9310 35.6 135 
+ BRR  HZ EP        124 30.98                             158    0.1310 46.1 313 
+ BRR  HN ES        124 45.09                             158    0.9110 46.1 313 
+ BRR  HN I         124 46.43        17.1 0.16            157           46.1 313 
+ RUS  HZ EP        124 35.75                             135   -0.0810  109 161 
+ RUS  HN ES        124 53.52                             135    0.4710  109 161 
+ RUS  HZ I         124 55.28         1.6 0.16            136            109 161 
+ PTB  HZ EP     C  124 35.99                             132   -0.1810  120 255 
+ PTB  HN ES        124 53.41                             132   -0.2510  120 255 
+ PTB  HZ I         124 58.90         4.5 0.54            131            120 255 
+ SPBC HZ EP   1    124 39.62                             125    0.61 7  149 210 
+ SPBC HN ES        124 58.71                             125    0.01 9  149 210 
+ SPBC HZ I         125  6.23         2.9 0.30            125            149 210 
+ ZAR  HN ES   1    125  2.97                             120   -0.61 7  177 295 
+                                                                                

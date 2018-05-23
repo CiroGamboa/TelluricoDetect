@@ -1,0 +1,24 @@
+ 2017 1211 1350 18.8 L   6.028 -73.857102.9  RSN  5 0.2 1.2LRSN                1
+ GAP=125        0.42       2.2     2.8  4.0 -0.1253E+01 -0.3531E+01  0.1023E+01E
+ Epicentro: EL PENON - SANTANDER                                               3
+ ACTION:UPD 18-01-04 13:19 OP:rebc STATUS:               ID:20171211135018 L   I
+ OLDACT:UP  17-12-12 01:06 OP:mg   STATUS:               ID:20171211134742     3
+ OLDACT:REG 17-12-11 21:57 OP:mg   STATUS:               ID:20171211134742     3
+ 2017-12-11-1348-00M.COL___478                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ EP       1350 33.95                             153   -0.1410 47.9 210 
+ SPBC HN ES       1350 46.14                             153    0.0810 47.9 210 
+ SPBC HZ I        1350 46.60        14.9 0.19            154           47.9 210 
+ PTB  HZ EP   2   1350 36.35                             136   -0.43 5 87.1 310 
+ PTB  HN ES   1   1350 50.92                             136    0.09 7 87.1 310 
+ PTB  HZ I        1350 53.53         2.8 0.06            138           87.1 310 
+ BAR2 EZ EP       1350 38.13                             133    0.1810 97.2  50 
+ BAR2 EZ ES   2   1350 52.60                             133   -0.33 5 97.2  50 
+ BAR2 EZ I        1350 54.55         8.7 0.21            134           97.2  50 
+ CHI  HZ EP       1350 43.93                             119   -0.02 9  155 175 
+ CHI  HE ES   2   1351  3.65                             119    0.05 5  155 175 
+ CHI  HZ I        1351  6.98         0.9 0.18            120            155 175 
+ GUY2CHZ EP   2   1350 48.15                             113    0.40 4  189 242 
+ GUY2CHN ES   2   1351 10.11                             113   -0.26 4  189 242 
+ GUY2CHZ I        1351 15.06         1.8 0.22                           189 242 
+                                                                                

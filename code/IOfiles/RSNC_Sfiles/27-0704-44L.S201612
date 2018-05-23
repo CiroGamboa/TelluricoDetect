@@ -1,0 +1,27 @@
+ 2016 1227 0704 44.1 L   6.782 -73.153146.4  RSN  6 0.3 1.1LRSN                1
+ GAP=136        0.90       4.6     4.0  6.6  0.1637E+01  0.5062E+01  0.4519E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-01-11 20:19 OP:rebc STATUS:               ID:20161227070444 L   I
+ OLDACT:DUP 16-12-27 18:12 OP:edw  STATUS:               ID:20161227065741d    3
+ OLDACT:REG 16-12-27 13:28 OP:edw  STATUS:               ID:20161227065740     3
+ 2016-12-27-0658-00M.COL___366                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        7 5  3.42                             171   -0.3010 21.3 189 
+ BAR2 EZ ES        7 5 18.70                             171   -0.3710 21.3 189 
+ BAR2 EZ I         7 5 19.07         1.9 0.11            173           21.3 189 
+ BRR  HZ IP     D  7 5  5.36                             153    0.0810 71.4 300 
+ BRR  HN ES        7 5 22.57                             153    0.7210 71.4 300 
+ BRR  HZ I         7 5 26.37         2.6 0.30            150           71.4 300 
+ PAM  EZ EP        7 5  6.53                             150    0.0710 79.4  39 
+ PAM  EN ES        7 5 23.68                             150   -0.2610 79.4  39 
+ PAM  EZ I         7 5 25.65         3.9 0.52            151           79.4  39 
+ RUS  HZ EP        7 5  7.96                             144    0.2310 98.7 175 
+ RUS  HN ES        7 5 26.51                             144    0.3010 98.7 175 
+ RUS  HZ I         7 5 27.36         1.9 0.30            148           98.7 175 
+ PTB  HZ EP        7 5 10.92                             132   -0.05 9  147 260 
+ PTB  HN ES        7 5 31.43                             132   -0.53 9  147 260 
+ PTB  HZ I         7 5 33.28         0.9 0.11            133            147 260 
+ ZAR  HZ EP   4    7 5 18.75                             122    2.21 0  204 293 
+ ZAR  HN ES        7 5 41.91                             122    0.04 9  204 293 
+ ZAR  HZ I         7 5 48.22         2.2 0.22            123            204 293 
+                                                                                

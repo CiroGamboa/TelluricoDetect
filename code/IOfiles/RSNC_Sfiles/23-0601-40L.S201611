@@ -1,0 +1,29 @@
+ 2016 1123 0601 40.3 L   6.819 -73.151153.3  RSN  6 0.6 1.6LRSN                1
+ GAP=222        1.04       6.3     6.9  7.6  0.2022E+02  0.1363E+01  0.9833E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-10-26 21:10 OP:lp   STATUS:               ID:20161123060140 L   I
+ OLDACT:UP  16-11-23 16:19 OP:dani STATUS:               ID:20161123055748d    3
+ OLDACT:DUP 16-11-23 16:16 OP:dani STATUS:               ID:20161123055748d    3
+ OLDACT:UP  16-11-23 16:15 OP:dani STATUS:               ID:20161123055747     3
+ OLDACT:REG 16-11-23 12:58 OP:dani STATUS:               ID:20161123055747     3
+ 2016-11-23-0558-00M.COL___352                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        6 2  0.96                             170    0.0910 25.4 188 
+ BAR2 EZ ES        6 2 16.45                             170   -0.4610 25.4 188 
+ BAR2 EZ I         6 2 17.26         8.7 0.22            169           25.4 188 
+ BRR  HZ EP        6 2  2.80                             154    0.6210 69.7 297 
+ BRR  HN ES        6 2 19.57                             154    0.3210 69.7 297 
+ BRR  HZ I         6 2 22.41         5.1 0.30            154           69.7 297 
+ PTB  HZ EP   3    6 2  6.29                             134   -1.59 2  148 258 
+ PTB  HN ES        6 2 28.94                             134   -0.45 9  148 258 
+ PTB  HZ I         6 2 29.96         4.0 0.15            133            148 258 
+ ZAR  HZ EP        6 2 12.59                             124   -0.52 9  203 292 
+ ZAR  HN ES        6 2 38.75                             124    0.05 9  203 292 
+ ZAR  HZ I         6 2 40.55         3.1 0.12            124            203 292 
+ CHI  HZ EP   2    6 2 19.40                             118    0.77 4  251 195 
+ CHI  HN ES        6 2 49.19                             118    0.66 8  251 195 
+ CHI  HZ I         6 2 51.64         2.1 0.40            119            251 195 
+ PTGC HZ EP        6 2 24.27                             113   -0.48 7  311 159 
+ PTGC HN ES   3    6 2 57.71                             113   -1.70 2  311 159 
+ PTGC HZ I         6 2 59.36         2.5 0.26            113            311 159 
+                                                                                

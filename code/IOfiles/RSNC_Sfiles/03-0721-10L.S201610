@@ -1,0 +1,26 @@
+ 2016 10 3 0721 10.0 L   6.876 -73.313127.2  RSN  6 0.5 1.2LRSN                1
+ GAP=102        1.33       5.1     6.3  9.9 -0.4968E+01  0.1383E+02 -0.9382E+01E
+ Epicentro: BETULIA - SANTANDER                                                3
+ ACTION:UPD 16-11-09 19:15 OP:rebc STATUS:               ID:20161003072110 L   I
+ OLDACT:UP  16-10-03 18:38 OP:dnl  STATUS:               ID:20161003071745     3
+ OLDACT:REG 16-10-03 15:33 OP:dani STATUS:               ID:20161003071745     3
+ 2016-10-03-0718-00M.COL___363                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        721 28.23                             164    0.5010 34.6 155 
+ BAR2 EZ ES        721 41.26                             164   -0.2910 34.6 155 
+ BAR2 EZ I         721 42.78         8.7 0.38            168           34.6 155 
+ BRR  HZ EP        721 28.78                             157    0.7310 50.9 300 
+ BRR  HN ES     C  721 42.92                             157    0.8010 50.9 300 
+ BRR  HZ I         721 51.79         2.7 0.14            158           50.9 300 
+ PAM  EZ EP   2    721 30.93                             145    0.12 5 84.9  53 
+ PAM  EE ES        721 47.18                             145    0.1610 84.9  53 
+ PAM  EZ I         721 50.35         4.1 0.68            151           84.9  53 
+ RUS  HZ EP   2    721 33.32                             137    0.42 5  112 167 
+ RUS  HN ES        721 50.22                             137   -0.5210  112 167 
+ RUS  HZ I         721 54.66         0.8 0.28            143            112 167 
+ PTB  HZ EP        721 33.72                             131   -0.3010  132 254 
+ PTB  HE ES        721 52.34                             131   -0.4010  132 254 
+ PTB  HZ I         721 55.56         4.7 0.44            135            132 254 
+ OCA  HZ EP        721 35.99                             127   -0.01 9  151 360 
+ OCA  HE ES        721 55.26                             127   -1.01 9  151 360 
+                                                                                

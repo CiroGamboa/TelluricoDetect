@@ -1,0 +1,40 @@
+ 2016  4 9 0947 24.6 L   6.171 -73.831 99.5  RSN  9 0.5 1.6LRSN                1
+ GAP= 95        1.31       4.0     3.7  9.2 -0.2688E+00  0.1282E+02 -0.2490E+01E
+ Epicentro: LANDAZURI - SANTANDER                                              3
+ ACTION:UPD 16-05-05 14:19 OP:rebc STATUS:               ID:20160409094724 L   I
+ OLDACT:UP  16-04-09 15:51 OP:mh   STATUS:               ID:20160409093747     3
+ OLDACT:UP  16-04-09 15:50 OP:mh   STATUS:               ID:20160409093747     3
+ OLDACT:UP  16-04-09 15:49 OP:mh   STATUS:               ID:20160409093747     3
+ OLDACT:UP  16-04-09 15:49 OP:mh   STATUS:               ID:20160409093747     3
+ OLDACT:UP  16-04-09 15:49 OP:mh   STATUS:               ID:20160409093747     3
+ OLDACT:UP  16-04-09 15:48 OP:mh   STATUS:               ID:20160409093747     3
+ OLDACT:UP  16-04-09 15:47 OP:mh   STATUS:               ID:20160409093747     3
+ OLDACT:REG 16-04-09 12:15 OP:mh   STATUS:               ID:20160409093747     3
+ 2016-04-09-0937-47M.COL___300                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ EP        947 40.51                             145   -0.0310 63.3 205 
+ SPBC HE ES        947 53.20                             145    0.2210 63.3 205 
+ SPBC HZ I         947 54.51        15.9 0.24            144           63.3 205 
+ PTB  HZ EP        947 40.95                             138   -0.7910 80.3 301 
+ PTB  HN ES        947 54.14                             138   -0.9710 80.3 301 
+ PTB  HZ I         947 58.01         8.4 0.40            138           80.3 301 
+ BAR2 EZ EP   1    947 43.07                             137    0.59 7 85.5  57 
+ BAR2 EZ ES        947 57.00                             137    0.5710 85.5  57 
+ RUS  HZ EP   1    947 43.23                             136    0.16 7 88.3 110 
+ RUS  HN ES        947 57.18                             136   -0.2910 88.3 110 
+ NOR  HZ EP        947 46.20                             123   -0.5810  133 240 
+ NOR  HN ES        948  4.86                             123    0.7710  133 240 
+ NOR  HZ I         948  5.56        15.3 0.20            122            133 240 
+ CHI  HE ES        948 11.78                             116   -0.33 9  171 176 
+ CHI  HZ I         948 18.35         3.7 0.35            115            171 176 
+ ZAR  HZ EP        947 52.18                             114   -0.18 9  185 322 
+ ZAR  HN IS        948 14.65                             114    0.64 9  185 322 
+ ZAR  HN ES        948 14.65                                            185 322 
+ ZAR  HZ I         948 16.68         7.2 0.12            113            185 322 
+ HEL  HZ EP        947 53.47                             114    0.32 9  188 271 
+ HEL  HN ES        948 15.58                             114    0.16 9  188 271 
+ HEL  HZ I         948 20.32                             113            188 271 
+ GUY2CHZ EP   1    947 54.13                             112   -0.48 6  200 238 
+ GUY2CHN ES        948 18.60                             112    0.59 9  200 238 
+ GUY2CHZ I         948 23.50         3.5 0.39                           200 238 
+                                                                                

@@ -1,0 +1,27 @@
+ 2016  822 0356 34.1 L   5.808 -74.097  4.0  RSN  6 0.6 1.4LRSN                1
+ GAP=197        1.34       3.5     7.0  6.5  0.1822E+01  0.2886E+02 -0.3986E+01E
+ Epicentro: FLORIAN - SANTANDER                                                3
+ ACTION:UPD 16-10-29 15:37 OP:rebc STATUS:               ID:20160822035634 L   I
+ OLDACT:DUP 16-08-22 15:16 OP:ak   STATUS:               ID:20160822034740d    3
+ OLDACT:DUP 16-08-22 15:04 OP:ak   STATUS:               ID:20160822034739d    3
+ 2016-08-22-0348-00M.COL___368                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ IP     C  356 37.16                             124   -0.2610 17.4 171 
+ SPBC HN ES        356 39.71                             124   -0.3110 17.4 171 
+ SPBC HZ I         356 41.14        89.3 0.06                          17.4 171 
+ NOR  HZ EP        356 49.03                              96    0.6910 89.7 252 
+ NOR  HN ES        357  0.08                              96    0.6310 89.7 252 
+ NOR  HZ I         357  0.41         7.2 0.23                          89.7 252 
+ PTB  HZ EP        356 48.43                              96    0.0710 90.1 334 
+ PTB  HN ES        356 59.50                              96    0.0110 90.1 334 
+ PTB  HZ I         357  2.35         9.0 0.41                          90.1 334 
+ GUY2CHZ EP   1    356 59.48                              56    0.87 7  155 245 
+ GUY2CHN ES        357 17.17                              56   -0.56 9  155 245 
+ GUY2CHZ I         357 21.85         5.8 0.82                           155 245 
+ HEL  HZ EP   2    356 59.74                              56   -0.19 5  164 285 
+ HEL  HN ES        357 19.01                              56   -1.07 9  164 285 
+ HEL  HZ I         357 20.93         5.0 0.28                           164 285 
+ PRA  HZ EP   2    357 11.27                              56    0.92 4  248 201 
+ PRA  HE ES   4    357 42.23                              56    3.60 0  248 201 
+ PRA  HZ I         357 46.72         2.0 0.26                           248 201 
+                                                                                

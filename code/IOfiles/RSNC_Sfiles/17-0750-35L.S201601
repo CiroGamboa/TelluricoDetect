@@ -1,0 +1,26 @@
+ 2016  117 0750 35.2 L   6.840 -73.119145.8  RSN  6 0.4 1.2LRSN                1
+ GAP=138        0.97       4.4     4.9  9.1 -0.2575E+01  0.1781E+02 -0.2119E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-03-09 23:26 OP:cam  STATUS:               ID:20160117075035 L   I
+ OLDACT:DUP 16-01-17 18:02 OP:mh   STATUS:               ID:20160117074736d    3
+ OLDACT:REG 16-01-17 14:00 OP:mh   STATUS:               ID:20160117074735     3
+ 2016-01-17-0747-35M.COL___319                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        750 55.05                             168    0.1210 28.3 194 
+ BAR2 EZ I         751 12.19         1.8 0.32            170           28.3 194 
+ PAM  EZ EP        750 57.05                             153   -0.0510 72.1  40 
+ PAM  EN ES        751 14.31                             153    0.1210 72.1  40 
+ PAM  EZ I         751 16.52         4.8 0.46            150           72.1  40 
+ RUS  HZ EP        750 58.91                             143   -0.3510  105 178 
+ RUS  HN ES        751 17.79                             143   -0.2410  105 178 
+ PTB  HZ EP   1    751  1.61                             131   -0.89 7  152 257 
+ PTB  HN ES   1    751 23.22                             131   -0.58 7  152 257 
+ PTB  HZ I         751 24.44         2.1 0.18            131            152 257 
+ SPBC HZ EP        751  4.39                             128    0.20 9  168 219 
+ SPBC HN ES        751 27.53                             128    0.71 9  168 219 
+ SPBC HZ I         751 29.60         1.8 0.10            128            168 219 
+ ZAR  HZ IP        751  8.29                             122    0.54 9  205 291 
+ ZAR  HZ EP        751  8.29                             122            205 291 
+ ZAR  HN ES        751 33.09                             122   -0.05 9  205 291 
+ ZAR  HZ I         751 38.23         2.3 0.62            122            205 291 
+                                                                                

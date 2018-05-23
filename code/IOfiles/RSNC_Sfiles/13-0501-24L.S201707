@@ -1,0 +1,26 @@
+ 2017  713 0501 24.0 L   6.761 -73.141145.2  RSN  6 0.4 1.4LRSN                1
+ GAP=139        1.02       4.9     5.3  7.5 -0.8143E+01  0.5209E+01  0.2311E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-08-30 15:32 OP:rebc STATUS:               ID:20170713050124 L   I
+ OLDACT:REG 17-07-13 12:49 OP:dnl  STATUS:               ID:20170713045643     3
+ 2017-07-13-0457-00M.COL___371                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        5 1 43.05                             172   -0.4910 19.3 194 
+ BAR2 EZ ES        5 1 58.45                             172   -0.2910 19.3 194 
+ BAR2 EZ I         5 2  1.10         7.5 0.26            170           19.3 194 
+ BRR  HZ EP        5 1 45.49                             151    0.2010 73.8 301 
+ BRR  HE ES        5 2  2.61                             151    0.7610 73.8 301 
+ BRR  HZ I         5 2  6.41         4.3 0.14            151           73.8 301 
+ PAM  EZ IP     C  5 1 46.38                             150   -0.0110 80.4  37 
+ PAM  EN ES        5 2  3.65                             150   -0.1610 80.4  37 
+ PAM  EZ I         5 2  5.59         4.5 0.48            155           80.4  37 
+ RUS  HZ EP   2    5 1 47.96                             145    0.52 5 96.3 176 
+ RUS  HE ES        5 2  5.76                             145    0.0810 96.3 176 
+ RUS  HZ I         5 2  7.31         3.3 0.30            147           96.3 176 
+ PTB  HZ EP   2    5 1 50.41                             132   -0.54 5  148 260 
+ PTB  HN ES        5 2 11.22                             132   -0.71 9  148 260 
+ PTB  HZ I         5 2 15.82         1.6 0.10            132            148 260 
+ SPBC HZ EP        5 1 52.55                             129    0.33 9  160 220 
+ SPBC HE ES        5 2 14.48                             129    0.28 9  160 220 
+ SPBC HZ I         5 2 21.45         3.9 0.32            131            160 220 
+                                                                                

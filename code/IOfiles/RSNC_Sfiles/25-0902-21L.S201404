@@ -1,0 +1,31 @@
+ 2014  425 0902 21.8 L   6.812 -73.199147.2  RSN  8 0.3 1.8LRSN                1
+ GAP=222        0.59       3.0     5.9  7.8 -0.8945E+01 -0.1378E+02  0.5079E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ OLDACT:REG 14-04-25 12:40 OP:fm   STATUS:               ID:20140425085805     3
+ ACTION:UPD 14-05-13 23:11 OP:nd   STATUS:               ID:20140425090221 L   I
+ OLDACT:UP  14-04-25 15:20 OP:fm   STATUS:               ID:20140425085805     3
+ 2014-04-25-0858-05M.COL___239                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PTB  HZ EP        9 2 48.17                             133   -0.2510  142 258 
+ PTB  HN ES        9 3  9.03                             133   -0.1310  142 258 
+ PTB  HZ I         9 3 14.61         5.6 0.30            128            142 258 
+ OCA  HN ES   1    9 3 12.00                             130   -0.10 7  158 355 
+ SPBC HZ EP   1    9 2 50.33                             130    0.14 7  161 217 
+ SPBC HN ES   1    9 3 12.54                             130    0.22 7  161 217 
+ SPBC HZ I         9 3 15.97         6.4 0.16            128            161 217 
+ ZAR  HZ EP   1    9 2 54.03                             123    0.27 7  198 292 
+ ZAR  HE ES   1    9 3 19.26                             123    0.60 7  198 292 
+ ZAR  HZ I         9 3 25.73         5.9 0.20            119            198 292 
+ SML  HZ EP   1    9 2 57.87                             118   -0.27 6  240 336 
+ SML  HN ES   1    9 3 26.58                             118    0.11 6  240 336 
+ SML  HZ I         9 3 39.12         5.1 0.08            116            240 336 
+ HEL  HZ EP   4    9 3  3.32                             116    1.80 0  267 255 
+ HEL  HN ES   1    9 3 31.76                             116   -0.72 6  267 255 
+ HEL  HZ I         9 3 41.61         4.5 3.92            113            267 255 
+ GUY2CHZ EP   1    9 3  5.41                             113    0.36 6  297 234 
+ GUY2CHN ES   1    9 3 39.08                             113    0.32 6  297 234 
+ GUY2CHZ I         9 3 45.09         2.2 1.46                           297 234 
+ RREF HZ EP   4    9 3 10.61                             111    2.99 0  318 228 
+ RREF HE ES   1    9 3 43.16                             111   -0.18 5  318 228 
+ RREF HZ I         9 3 50.05         3.7 3.22            110            318 228 
+                                                                                

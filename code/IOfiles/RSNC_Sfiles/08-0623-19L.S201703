@@ -1,0 +1,43 @@
+ 2017  3 8 0623 19.9 L   5.814 -73.804113.9  RSN 10 0.4 1.4LRSN                1
+ GAP=105        0.61       2.6     1.9  3.9 -0.7109E-01  0.5493E+00 -0.8733E+00E
+ Epicentro: JESUS MARIA - SANTANDER                                            3
+ ACTION:UPD 17-05-25 18:37 OP:jn   STATUS:               ID:20170308062319 L   I
+ OLDACT:UP  17-03-08 18:40 OP:and  STATUS:               ID:20170308061746d    3
+ OLDACT:UP  17-03-08 18:37 OP:and  STATUS:               ID:20170308061746d    3
+ OLDACT:UP  17-03-08 18:33 OP:and  STATUS:               ID:20170308061746d    3
+ OLDACT:UP  17-03-08 18:33 OP:and  STATUS:               ID:20170308061746d    3
+ OLDACT:UP  17-03-08 18:31 OP:and  STATUS:               ID:20170308061746d    3
+ OLDACT:UP  17-03-08 18:31 OP:and  STATUS:               ID:20170308061746d    3
+ OLDACT:DUP 17-03-08 18:29 OP:and  STATUS:               ID:20170308061746d    3
+ OLDACT:REG 17-03-08 12:59 OP:and  STATUS:               ID:20170308061745     3
+ 2017-03-08-0618-00M.COL___335                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ IP     C  623 35.77                             162   -0.0410 34.7 239 
+ SPBC HN ES        623 48.17                             162   -0.0910 34.7 239 
+ SPBC HZ I         623 49.64         9.9 0.19            161           34.7 239 
+ RUS  HZ EP   2    623 39.16                             143    0.15 5 80.3  84 
+ RUS  HN ES        623 54.06                             143    0.1110 80.3  84 
+ RUS  HZ I         623 55.28         2.8 0.20            145           80.3  84 
+ PTB  HZ EP   9    623 39.30                             133   -1.31 0  108 318 
+ PTB  HN ES   2    623 54.94                             135   -0.55 5  108 318 
+ PTB  HZ I         623 56.98         5.0 0.23            131            108 318 
+ BAR2 EZ IP     D  623 41.41                             133    0.3010  110  39 
+ BAR2 EZ ES        623 57.76                             133    0.0610  110  39 
+ BAR2 EZ I         623 59.03        11.2 0.56            133            110  39 
+ NOR  HZ EP        623 41.87                             130   -0.0110  121 257 
+ NOR  HN ES   2    623 58.85                             130   -0.21 5  121 257 
+ NOR  HZ I         623 59.79         5.3 0.22            129            121 257 
+ BRR  HZ EP        623 43.74                             124   -0.22 9  143   4 
+ BRR  HN ES   2    624  3.19                             124    0.42 5  143   4 
+ BRR  HZ I         624  7.85         4.6 0.30            124            143   4 
+ HEL  HZ EP   3    623 51.20                             116    1.24 2  195 282 
+ HEL  HE ES        624 13.82                             116    0.38 9  195 282 
+ HEL  HZ I         624 21.30         2.1 0.30            115            195 282 
+ ZAR  HZ EP   2    623 51.63                             113   -0.50 4  219 328 
+ ZAR  HE ES        624 16.89                             113   -0.42 8  219 328 
+ ZAR  HZ I         624 20.65         2.8 0.24            112            219 328 
+ TAM  HZ EP   2    623 54.43                             111    0.67 4  233  73 
+ TAM  HN ES   2    624 19.17                             111   -1.04 4  233  73 
+ PTGC HZ EP        623 56.38                             109   -0.10 8  257 134 
+ PTGC HN ES   2    624 24.79                             109   -0.26 4  257 134 
+                                                                                

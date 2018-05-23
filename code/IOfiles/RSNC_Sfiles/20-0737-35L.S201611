@@ -1,0 +1,20 @@
+ 2016 1120 0737 35.5 L   6.466 -73.057135.2  RSN  4 0.0 1.0LRSN                1
+ GAP=251        0.29       6.2     3.2  5.0 -0.1442E+02 -0.1060E+02  0.2129E+02E
+ Epicentro: MOGOTES - SANTANDER                                                3
+ ACTION:UPD 17-10-26 21:09 OP:lp   STATUS:               ID:20161120073735 L   I
+ OLDACT:UP  16-11-20 17:13 OP:and  STATUS:               ID:20161120072745     3
+ OLDACT:UP  16-11-20 17:09 OP:and  STATUS:               ID:20161120072745     3
+ OLDACT:REG 16-11-20 13:35 OP:and  STATUS:               ID:20161120072745     3
+ 2016-11-20-0728-00M.COL___331                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        737 57.55                             141   -0.0410  101 314 
+ BRR  HE ES        738 14.82                             141    0.0010  101 314 
+ PAM  EZ EP        737 58.52                             140    0.0210  104  22 
+ PAM  EZ I         738 18.15         1.0 0.17            138            104  22 
+ PTB  HZ EP        738  2.31                             128   -0.00 9  155 273 
+ PTB  HN ES        738 23.24                             128    0.01 9  155 273 
+ PTB  HZ I         738 28.10         1.2 0.17            138            155 273 
+ ZAR  HZ EP        738  9.98                             117    0.02 8  229 300 
+ ZAR  HE ES   4    738 34.95                             117   -1.90 0  229 300 
+ ZAR  HZ I         738 39.50         1.8 0.16            123            229 300 
+                                                                                

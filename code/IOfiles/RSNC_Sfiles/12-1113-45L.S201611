@@ -1,0 +1,32 @@
+ 2016 1112 1113 45.0 L   6.832 -73.203130.4  RSN  5 0.4 1.6LRSN                1
+ GAP=130        0.95       6.4     4.7  9.2 -0.1306E+02  0.1966E+02 -0.8073E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ OLDACT:UP  16-11-12 22:17 OP:dnl  STATUS:               ID:20161112110746     3
+ OLDACT:UP  16-11-12 22:15 OP:dnl  STATUS:               ID:20161112110746     3
+ OLDACT:UP  16-11-12 22:14 OP:dnl  STATUS:               ID:20161112110746     3
+ OLDACT:REG 16-11-12 20:46 OP:dnl  STATUS:               ID:20161112110746     3
+ ACTION:UPD 17-10-26 21:07 OP:lp   STATUS:               ID:20161112111345 L   I
+ OLDACT:DUP 16-11-12 23:33 OP:dnl  STATUS:               ID:20161112110749d    3
+ OLDACT:UP  16-11-12 23:17 OP:dnl  STATUS:               ID:20161112110748d    3
+ OLDACT:UP  16-11-12 23:16 OP:dnl  STATUS:               ID:20161112110748d    3
+ OLDACT:UP  16-11-12 23:15 OP:dnl  STATUS:               ID:20161112110748d    3
+ OLDACT:DUP 16-11-12 23:00 OP:dnl  STATUS:               ID:20161112110748d    3
+ OLDACT:UP  16-11-12 22:18 OP:dnl  STATUS:               ID:20161112110746     3
+ 2016-11-12-1108-00M.COL___331                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       1114  2.77                             168   -0.1310 26.6 175 
+ BAR2 EZ ES       1114 16.65                             168   -0.1810 26.6 175 
+ BAR2 EZ I        1114 20.35        12.8 0.34            170           26.6 175 
+ PAM  EZ EP       1114  5.44                             147   -0.3010 79.0  45 
+ PAM  EN ES       1114 22.36                             147    0.4710 79.0  45 
+ PAM  EZ I        1114 25.00         5.8 0.56            151           79.0  45 
+ PTB  HZ EP   4   1114  8.68                             129   -1.60 0  142 257 
+ PTB  HN ES       1114 29.47                             129   -0.49 9  142 257 
+ PTB  HZ I        1114 33.15         5.5 0.28            131            142 257 
+ ZAR  HZ EP   2   1114 16.18                             120    0.42 4  197 292 
+ ZAR  HE ES       1114 39.78                             120    0.06 9  197 292 
+ ZAR  HZ I        1114 45.69         4.6 0.32            121            197 292 
+ NOR  HZ EP   2   1114 19.00                             115   -0.59 4  232 233 
+ NOR  HE ES       1114 47.37                             115    0.83 8  232 233 
+ NOR  HZ I        1114 52.34         4.5 0.46            118            232 233 
+                                                                                

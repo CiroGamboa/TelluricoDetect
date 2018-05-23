@@ -1,0 +1,24 @@
+ 2014  5 4 0506 47.9 L   6.083 -73.870 93.0  RSN  6 0.4 1.7WRSN                1
+ SPEC AVERAGE  MO 11.6 ST  7.7 OM  3.0 f0 27.5 R0.0605 AL 0.00 WI 30.0 MW  1.7 3
+ SPEC SD       MO  0.0 ST0.000 OM  3.0 f00.000 R0.0000 AL      WI      MW  0.0 3
+ GAP=139        1.14       5.2     3.7  9.4  0.3913E+01  0.3686E+01 -0.2006E+02E
+ SPEC PTB HH Z MO 11.6 ST  7.7 OM  0.0 f0 27.5 R0.0605 AL-0.00 WI 30.0 MW  1.7 3
+ SPEC PTB HH Z T 5 715 K 0.000 GD  124 VS 4.50 DE 3.29 Q0386.0 QA 0.87 VS 4.50 3
+ Epicentro: EL PEON - SANTANDER                                                3
+ OLDACT:REG 14-05-04 13:00 OP:mh   STATUS:               ID:20140504050000     3
+ ACTION:UP  15-03-16 16:55 OP:nd   STATUS:               ID:20140504050647 L   I
+ OLDACT:UPD 14-06-06 16:39 OP:nd   STATUS:               ID:20140504050647 L   3
+ 2014-05-04-0500-00M.COL___273                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ EP        5 7  2.89                             148    0.4910 52.7 205 
+ SPBC HN ES        5 7 13.94                             148    0.1910 52.7 205 
+ PTB  HZ EP        5 7  3.97                             135   -0.6010 82.2 308 
+ PTB  HN ES        5 7 17.32                             135   -0.2810 82.2 308 
+ RUS  HZ EP        5 7  5.75                             133   -0.1210 89.6 104 
+ RUS  HN ES        5 7 20.08                             133    0.1510 89.6 104 
+ NOR  HN ES        5 7 24.33                             123   -0.6610  125 243 
+ HEL  HZ EP        5 7 15.78                             112    0.14 9  184 274 
+ HEL  HN ES        5 7 38.08                             112    0.77 9  184 274 
+ ZAR  HZ EP        5 7 15.50                             111   -0.40 9  190 325 
+ ZAR  HN ES        5 7 38.31                             111    0.53 9  190 325 
+                                                                                

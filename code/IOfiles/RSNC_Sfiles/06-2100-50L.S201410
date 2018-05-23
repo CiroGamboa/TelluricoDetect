@@ -1,0 +1,27 @@
+ 2014 10 6 2100 50.4 L   6.510 -74.067 18.1  RSN  6 0.2 1.9LRSN                1
+ GAP=116        0.57       1.5     1.8 14.4 -0.7005E+00 -0.2030E+02  0.6524E+01E
+ Epicentro: PUERTO PARRA - SANTANDER                                           3
+ ACTION:UPD 14-11-29 23:47 OP:nd   STATUS:               ID:20141006210050 L   I
+ OLDACT:UP  14-10-07 04:02 OP:cam  STATUS:               ID:20141006210000     3
+ OLDACT:UP  14-10-07 04:02 OP:cam  STATUS:               ID:20141006210000     3
+ OLDACT:REG 14-10-07 03:14 OP:cam  STATUS:               ID:20141006210000     3
+ 2014-10-06-2100-00M.COL___252                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PTB  HZ IP     C 21 0 57.78                             110   -0.1210 43.1 274 
+ PTB  HE ES       21 1  4.02                             110    0.2510 43.1 274 
+ PTB  HZ I        21 1  4.08       177.5 0.16            104           43.1 274 
+ BRR  HZ EP       21 1  2.45                             101   -0.3710 76.8  31 
+ BRR  HN ES       21 1 12.49                             101   -0.0310 76.8  31 
+ BRR  HZ I        21 1 13.21        22.9 0.10             98           76.8  31 
+ SPBC HN ES       21 1 17.29                              99   -0.2110 94.9 180 
+ SPBC HN I        21 1 18.79        21.6 0.10             96           94.9 180 
+ BAR2 SZ EP       21 1  6.48                              99    0.2010 98.3  85 
+ BAR2 SZ ES       21 1 18.78                              99    0.1010 98.3  85 
+ BAR2 SZ I        21 1 19.58        54.5 0.18             96           98.3  85 
+ RUS  HZ EP       21 1 11.30                              97    0.2110  129 122 
+ RUS  HE ES       21 1 27.22                              97   -0.0210  129 122 
+ RUS  HZ I        21 1 28.45         9.1 0.48             95            129 122 
+ PAM  SZ EP   4   21 1 21.23                              56    4.12 0  177  59 
+ PAM  SN ES   4   21 1 38.16                              56    0.20 0  177  59 
+ PAM  SN I        21 1 39.29        14.0 0.20             56            177  59 
+                                                                                

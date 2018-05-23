@@ -1,0 +1,30 @@
+ 2017  610 0027 14.5 L   7.170 -72.916137.3  RSN  7 0.5 1.9LRSN                1
+ GAP=268        0.77       5.9     6.1  7.0  0.1497E+02 -0.1090E+02 -0.9777E+01E
+ Epicentro: TONA - SANTANDER                                                   3
+ ACTION:UPD 17-09-14 16:51 OP:jn   STATUS:               ID:20170610002715dL   I
+ OLDACT:UP  17-06-10 14:25 OP:cog  STATUS:               ID:20170610001738     3
+ OLDACT:UP  17-06-10 14:25 OP:cog  STATUS:               ID:20170610001738     3
+ OLDACT:REG 17-06-10 12:47 OP:osc  STATUS:               ID:20170610001738     3
+ 2017-06-10-0018-00M.COL___365                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        027 35.40                             145   -0.4010 88.2 266 
+ BRR  HE ES        027 52.82                             145    0.3810 88.2 266 
+ BRR  HZ I         027 54.02        29.2 0.14            142           88.2 266 
+ RUS  HZ EP        027 41.08                             131    0.18 9  142 187 
+ RUS  HN ES        028  1.31                             131   -0.22 9  142 187 
+ RUS  HZ I         028  3.22         6.0 0.26            129            142 187 
+ PTB  HZ EP   9    027 42.39                             123   -1.91 0  184 248 
+ PTB  HN ES        028  5.34                             123   -0.32 9  184 248 
+ PTB  HZ I         028  7.91         8.9 0.16            121            184 248 
+ SPBC HZ EP   3    027 48.79                             120    1.58 2  211 217 
+ SPBC HN ES   3    028 11.58                             120   -1.18 2  211 217 
+ ZAR  HZ EP        027 47.49                             119   -0.29 8  217 280 
+ ZAR  HN ES   4    028 10.60                             119   -3.18 0  217 280 
+ NOR  HZ EP        027 55.15                             112    0.43 7  280 231 
+ NOR  HE ES   4    028 27.40                             112    1.28 0  280 231 
+ NOR  HZ I         028 31.77         5.3 0.16            111            280 231 
+ HEL  HZ EP   4    027 59.55                             110    1.16 0  309 250 
+ HEL  HE ES        028 32.66                             110   -0.00 7  309 250 
+ SJC  HZ EP   4    028  5.01                             105   -2.62 0  391 321 
+ SJC  HN ES   4    028 45.38                             105   -3.72 0  391 321 
+                                                                                

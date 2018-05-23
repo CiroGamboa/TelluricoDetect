@@ -1,0 +1,31 @@
+ 2017  110 0408 46.9 L   6.515 -73.390 16.1  RSN  7 0.3 1.5LRSN                1
+ GAP=118        0.73       1.9     2.0  4.1  0.1079E+01  0.4781E+01  0.5843E+00E
+ Epicentro: HATO - SANTANDER                                                   3
+ ACTION:UPD 17-05-22 15:57 OP:jn   STATUS:               ID:20170110040846 L   I
+ OLDACT:UP  17-01-10 14:33 OP:and  STATUS:               ID:20170110040743     3
+ OLDACT:UP  17-01-10 14:33 OP:and  STATUS:               ID:20170110040743     3
+ OLDACT:UP  17-01-10 14:32 OP:and  STATUS:               ID:20170110040743     3
+ OLDACT:UP  17-01-10 14:32 OP:and  STATUS:               ID:20170110040743     3
+ OLDACT:REG 17-01-10 12:35 OP:and  STATUS:               ID:20170110040743     3
+ 2017-01-10-0408-00M.COL___354                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     D  4 8 52.22                             122    0.1910 24.5  70 
+ BAR2 EZ ES        4 8 56.25                             122    0.2510 24.5  70 
+ BAR2 EZ I         4 8 57.65        37.3 0.42             47           24.5  70 
+ BRR  HZ EP        4 8 59.01                             100    0.0210 74.5 332 
+ BRR  HN ES        4 9  8.28                             100   -0.1010 74.5 332 
+ BRR  HZ I         4 9  9.08        16.4 0.10             47           74.5 332 
+ RUS  HZ EP        4 8 59.96                             100    0.1210 76.7 154 
+ RUS  HN ES        4 9  9.66                             100   -0.2310 76.7 154 
+ RUS  HZ I         4 9 10.82        14.2 0.13             47           76.7 154 
+ PTB  HZ EP        4 9  5.66                              96    0.1410  118 271 
+ PTB  HN ES        4 9 19.87                              96   -0.1410  118 271 
+ PAM  EZ IP     C  4 9  5.56                              96   -0.6010  119  40 
+ PAM  EN ES   4    4 9 19.25                              96   -1.90 0  119  40 
+ PAM  EZ I         4 9 21.47        16.8 0.38             47            119  40 
+ ZAR  HZ EP        4 9 16.05                              56    0.52 9  195 304 
+ ZAR  HN ES        4 9 37.76                              56   -0.07 9  195 304 
+ ZAR  HZ I         4 9 42.80         2.6 0.24             37            195 304 
+ NOR  HN ES   4    4 9 40.42                              56    2.56 0  195 237 
+ NOR  HZ I         4 9 41.96         4.8 0.34             37            195 237 
+                                                                                

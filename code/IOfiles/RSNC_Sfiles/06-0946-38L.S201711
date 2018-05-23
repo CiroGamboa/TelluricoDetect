@@ -1,0 +1,23 @@
+ 2017 11 6 0946 38.5 L   6.589 -73.620108.0  RSN  4 0.2 1.1LRSN                1
+ GAP=183        0.45       3.5     2.4  5.3 -0.2334E+01  0.3837E+01 -0.3884E+00E
+ Epicentro: EL CARMEN - SANTANDER                                              3
+ ACTION:UPD 17-12-12 19:52 OP:rebc STATUS:               ID:20171106094638 L   I
+ OLDACT:UP  17-11-06 18:47 OP:dnl  STATUS:               ID:20171106093740d    3
+ OLDACT:UP  17-11-06 18:47 OP:dnl  STATUS:               ID:20171106093740d    3
+ OLDACT:DUP 17-11-06 18:43 OP:dnl  STATUS:               ID:20171106093740d    3
+ OLDACT:REG 17-11-06 13:18 OP:dnl  STATUS:               ID:20171106093739     3
+ 2017-11-06-0938-00M.COL___423                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        946 54.50                             154   -0.1110 48.4  90 
+ BAR2 EZ ES        947  7.27                             154    0.0810 48.4  90 
+ BAR2 EZ I         947  8.63         5.1 0.46            159           48.4  90 
+ PTB  HZ EP        946 57.34                             136   -0.0710 92.7 267 
+ PTB  HN ES        947 12.23                             136    0.0510 92.7 267 
+ PTB  HZ I         947 13.83         1.0 0.28            135           92.7 267 
+ SPBC HZ EP   2    947  0.11                             130    0.58 5  115 206 
+ SPBC HE ES        947 15.86                             130   -0.0810  115 206 
+ SPBC HZ I         947 21.67         4.0 0.22            129            115 206 
+ ZAR  HZ EP   4    947  6.87                             118    1.91 0  169 306 
+ ZAR  HN ES   4    947 28.48                             118    2.88 0  169 306 
+ ZAR  HZ I         947 31.02         1.7 0.34            118            169 306 
+                                                                                

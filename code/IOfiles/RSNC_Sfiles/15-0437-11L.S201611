@@ -1,0 +1,30 @@
+ 2016 1115 0437 11.4 L   6.880 -73.131149.4  RSN  6 0.3 1.5LRSN                1
+ GAP=147        0.79       4.2     3.9  5.0 -0.2153E+01  0.3029E+01  0.3938E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-10-26 21:08 OP:lp   STATUS:               ID:20161115043711 L   I
+ OLDACT:UP  16-11-15 16:04 OP:edw  STATUS:               ID:20161115042745d    3
+ OLDACT:DUP 16-11-15 15:59 OP:edw  STATUS:               ID:20161115042745d    3
+ OLDACT:UP  16-11-15 15:58 OP:edw  STATUS:               ID:20161115042744     3
+ OLDACT:UP  16-11-15 15:57 OP:edw  STATUS:               ID:20161115042744     3
+ OLDACT:REG 16-11-15 12:53 OP:edw  STATUS:               ID:20161115042744     3
+ 2016-11-15-0428-00M.COL___344                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        437 31.08                             167   -0.6110 32.3 190 
+ BAR2 EZ ES        437 47.16                             167   -0.3510 32.3 190 
+ BAR2 EZ I         437 48.75         8.8 0.34            168           32.3 190 
+ BRR  HZ EP        437 32.96                             154    0.1210 68.9 291 
+ BRR  HE ES        437 49.72                             154    0.1810 68.9 291 
+ BRR  HZ I         437 58.47         4.1 0.26            152           68.9 291 
+ PAM  EZ EP        437 33.83                             154    0.2410 69.7  43 
+ PAM  EN ES        437 51.14                             154    0.2610 69.7  43 
+ PAM  EZ I         437 53.48         2.9 0.14            158           69.7  43 
+ PTB  HZ EP   9    437 37.90                             132   -1.10 0  151 256 
+ PTB  HN ES        437 59.39                             132   -0.02 9  151 256 
+ PTB  HZ I         438  1.15         5.2 0.13            132            151 256 
+ ZAR  HZ EP        437 43.73                             123   -0.20 9  202 290 
+ ZAR  HN ES        438  9.21                             123   -0.08 9  202 290 
+ ZAR  HZ I         438 15.28         3.5 0.12            124            202 290 
+ ROSC BZ EP        437 50.70                             116    0.04 8  261 210 
+ ROSC BE ES        438 21.83                             116    0.57 8  261 210 
+ ROSC BZ I         438 26.78         3.8 0.45            119            261 210 
+                                                                                

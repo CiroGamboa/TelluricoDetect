@@ -1,0 +1,27 @@
+ 2014 1213 0302 23.1 L   6.769 -73.207146.9  RSN  8 0.4 1.6LRSN                1
+ GAP=130        1.05       3.6     5.4  8.0 -0.4535E+01  0.1439E+02 -0.9024E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 15-02-10 17:03 OP:nd   STATUS:               ID:20141213030223 L   I
+ OLDACT:REG 14-12-13 14:13 OP:stll STATUS:               ID:20141213025741     3
+ 2014-12-13-0257-41M.COL___294                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        3 2 43.06                             172    0.2210 19.8 172 
+ BAR2 EZ ES        3 2 58.03                             172   -0.1710 19.8 172 
+ BAR2 EZ I         3 2 59.36         6.1 0.34            170           19.8 172 
+ BRR  HZ EP        3 2 44.64                             154    0.4510 67.2 304 
+ PAM  SZ EP        3 2 45.98                             149    0.0810 84.3  42 
+ PAM  SZ I         3 2 46.13         6.8 0.22            154           84.3  42 
+ PAM  SN ES        3 3  3.40                             149   -0.2610 84.3  42 
+ RUS  HZ EP        3 2 47.11                             145    0.3010 97.9 172 
+ RUS  HN ES        3 3  5.48                             145    0.2010 97.9 172 
+ RUS  HZ I         3 3  6.81         3.1 0.28            146           97.9 172 
+ PTB  HZ EP        3 2 49.42                             134   -0.14 9  141 260 
+ PTB  HN ES        3 3 10.80                             134    0.64 9  141 260 
+ PTB  HZ I         3 3 16.20         3.8 0.18            131            141 260 
+ SPBC HN ES        3 3 11.86                             130   -1.02 9  156 218 
+ SPBC HZ I         3 3 21.05        10.2 0.22            130            156 218 
+ OCA  HN ES        3 3 14.13                             129   -0.02 9  163 356 
+ SML  HZ EP        3 2 59.31                             118   -0.57 8  244 337 
+ SML  HN ES        3 3 28.49                             118   -0.03 8  244 337 
+ SML  HZ I         3 3 35.74         6.5 0.26            118            244 337 
+                                                                                

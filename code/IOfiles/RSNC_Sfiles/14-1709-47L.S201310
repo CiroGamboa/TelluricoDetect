@@ -1,0 +1,74 @@
+ 2013 1014 1709 47.7 L   6.811 -73.132151.2  RSN 17 0.4 3.2LRSN 3.4WRSN        1
+ SPEC AVERAGE  MO 14.2 ST135.6 OM  2.8 f0 7.19 R0.2981 AL 0.00 WI 29.9 MW  3.4 3
+ SPEC SD       MO  0.2 ST116.3 OM  0.3 f0 3.30 R0.1808 AL      WI      MW  0.1 3
+ GAP= 71        1.02       2.5     3.4  4.7 -0.1144E+01  0.2539E+01 -0.1331E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC CHI HH N MO 14.3 ST  5.9 OM  2.4 f0 3.03 R0.5129 AL 0.00 WI 37.0 MW  3.5 3
+ SPEC CHI HH N T171054 K 0.000 GD  292 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SML HH N MO 14.1 ST132.0 OM  2.2 f0 10.0 R0.1554 AL 0.00 WI 31.7 MW  3.3 3
+ SPEC SML HH N T171052 K 0.000 GD  286 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH E MO 14.2 ST205.6 OM  2.4 f0 10.0 R0.1554 AL 0.00 WI 15.9 MW  3.4 3
+ SPEC NOR HH E T171050 K 0.000 GD  281 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH N MO 14.1 ST147.9 OM  2.3 f0 10.0 R0.1554 AL 0.00 WI 31.1 MW  3.3 3
+ SPEC ZAR HH N T171046 K 0.000 GD  254 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SPBCHH N MO 14.4 ST326.5 OM  2.7 f0 10.0 R0.1554 AL 0.00 WI 27.6 MW  3.6 3
+ SPEC SPBCHH N T171038 K 0.000 GD  223 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.5 ST259.0 OM  2.8 f0 8.63 R0.1801 AL 0.00 WI 48.1 MW  3.6 3
+ SPEC OCA HH N T171036 K 0.000 GD  219 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH E MO 14.3 ST  3.7 OM  2.6 f0 2.60 R0.5977 AL 0.00 WI 19.4 MW  3.4 3
+ SPEC RUS HH E T171029 K 0.000 GD  182 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 14.0 ST  4.4 OM  2.4 f0 3.29 R0.4723 AL 0.00 WI 28.8 MW  3.3 3
+ SPEC PAM SH Z T171026 K 0.000 GD  169 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-11-25 09:21 OP:ep   STATUS:               ID:20131014170947 L   I
+ OLDACT:UP  13-10-14 17:04 OP:cam  STATUS:               ID:20131014170959     3
+ OLDACT:UP  13-10-14 17:04 OP:cam  STATUS:               ID:20131014170959     3
+ OLDACT:UP  13-10-14 17:02 OP:cam  STATUS:               ID:20131014170959     3
+ OLDACT:REG 13-10-14 16:02 OP:cam  STATUS:               ID:20131014170959     3
+ 2013-10-14-1709-59M.COL___273                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C 1710  8.16                             170    0.1310 24.8 193 
+ BAR2 SZ ES       1710 23.43                             170   -0.4510 24.8 193 
+ BAR2 SZ I        1710 25.97       297.5 0.40            169           24.8 193 
+ BRR  HZ IP     D 1710 10.02                             153    0.5210 72.0 297 
+ BRR  HE ES       1710 27.34                             153    0.8510 72.0 297 
+ BRR  HZ I        1710 32.32       197.7 0.20            152           72.0 297 
+ PAM  SZ IP       1710 10.92                             152    0.5110 75.5  39 
+ PAM  SN ES       1710 28.08                             152   -0.0310 75.5  39 
+ PAM  SZ I        1710 30.26       414.4 0.56            156           75.5  39 
+ RUS  HZ EP       1710 11.96                             145   -0.1310  102 177 
+ RUS  HE ES       1710 30.53                             145   -0.5610  102 177 
+ RUS  HZ I        1710 33.51       135.8 0.38            147            102 177 
+ PTB  HZ EP       1710 14.78                             133   -0.51 9  149 259 
+ PTB  HN ES       1710 36.43                             133   -0.36 9  149 259 
+ PTB  HZ I        1710 38.39       150.8 0.14            133            149 259 
+ TAM  HZ IP     D 1710 16.33                             132    0.60 9  154 106 
+ OCA  HZ EP       1710 16.27                             131   -0.10 9  159 353 
+ OCA  HN ES       1710 38.29                             131   -0.42 9  159 353 
+ OCA  HZ I        1710 42.69       166.7 0.20            133            159 353 
+ SPBC HZ EP       1710 17.03                             130    0.21 9  165 219 
+ SPBC HN ES       1710 39.55                             130    0.04 9  165 219 
+ SPBC HZ I        1710 44.07       248.3 0.32            131            165 219 
+ ZAR  HZ EP       1710 20.57                             123   -0.05 9  205 292 
+ ZAR  HN ES       1710 46.54                             123    0.25 9  205 292 
+ ZAR  HZ I        1710 52.97       141.8 0.40            125            205 292 
+ NOR  HZ EP       1710 23.90                             119   -0.07 8  237 234 
+ NOR  HE ES       1710 52.08                             119   -0.17 8  237 234 
+ NOR  HZ I        1710 58.79       106.7 0.32            121            237 234 
+ SML  HZ EP       1710 24.49                             119   -0.12 8  243 335 
+ SML  HN ES       1710 53.33                             119   -0.05 8  243 335 
+ SML  HZ I        1710 56.29       224.8 0.10            121            243 335 
+ CHI  HZ EP       1710 26.12                             118    0.23 8  250 195 
+ CHI  HN ES       1710 55.52                             118   -0.14 8  250 195 
+ CHI  HZ I        1711  0.94        56.4 0.26            120            250 195 
+ ROSC BZ EP   4   1710 27.77                             118    1.43 0  255 211 
+ HEL  HZ EP   4   1710 29.96                             116    1.55 0  274 256 
+ HEL  HN ES       1711  0.94                             116    0.80 8  274 256 
+ HEL  HZ I        1711  6.34        62.2 0.28            117            274 256 
+ URE  HZ EP       1710 28.02                             115   -1.15 7  285 292 
+ GUY2CHZ EP   1   1710 32.27                             113    0.47 5  303 235 
+ GUY2CHZ I        1711 16.07        82.5 0.40                           303 235 
+ COD  HZ EP       1710 35.46                             110   -0.74 6  347 354 
+ COD  HE ES   1   1711 14.09                             110    0.08 5  347 354 
+ PRA  HZ EP       1710 41.66                             107    0.02 6  394 210 
+ PRA  HE ES   1   1711 23.78                             107    0.08 4  394 210 
+                                                                                

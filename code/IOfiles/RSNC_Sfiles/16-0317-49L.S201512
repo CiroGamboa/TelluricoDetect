@@ -1,0 +1,26 @@
+ 2015 1216 0317 49.5 L   6.748 -73.151142.0  RSN  5 0.2 1.5LRSN                1
+ GAP=249        0.66       4.3     4.4  5.9  0.1897E+01  0.6928E+01  0.7052E-01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-02-04 15:05 OP:cam  STATUS:               ID:20151216031749 L   I
+ OLDACT:UP  15-12-16 15:04 OP:cara STATUS:               ID:20151216030749d    3
+ OLDACT:UP  15-12-16 15:02 OP:cara STATUS:               ID:20151216030749d    3
+ OLDACT:DUP 15-12-16 14:56 OP:cara STATUS:               ID:20151216030749d    3
+ OLDACT:UP  15-12-16 14:48 OP:cara STATUS:               ID:20151216030748     3
+ OLDACT:UP  15-12-16 14:44 OP:cara STATUS:               ID:20151216030748     3
+ OLDACT:REG 15-12-16 12:47 OP:cara STATUS:               ID:20151216030748     3
+ 2015-12-16-0307-48M.COL___328                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        318  8.78                             173    0.1710 17.5 191 
+ BAR2 EZ ES        318 23.16                             173   -0.3210 17.5 191 
+ BAR2 EZ I         318 24.78         8.7 0.26            168           17.5 191 
+ BRR  HZ IP        318 10.67                             151    0.2410 73.7 303 
+ BRR  HE ES        318 26.92                             151    0.2010 73.7 303 
+ BRR  HZ I         318 32.47         6.9 0.30            149           73.7 303 
+ PTB  HZ EP        318 15.63                             131   -0.43 9  146 261 
+ PTB  HE ES        318 36.78                             131    0.04 9  146 261 
+ PTB  HZ I         318 38.92         3.6 0.42            130            146 261 
+ SPBC HE ES        318 39.13                             129    0.19 9  158 220 
+ SPBC HZ I         318 47.01         3.1 0.18            129            158 220 
+ ZAR  HE ES        318 47.04                             121   -0.14 8  206 294 
+ ZAR  HZ I         318 53.45         3.7 0.50            122            206 294 
+                                                                                
