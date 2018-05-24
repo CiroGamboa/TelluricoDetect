@@ -3,6 +3,9 @@
 """
 Created on Thu Feb  8 15:19:41 2018
 
+EN ESTA CLASE SE DETERMINAN LOS PARAMETROS DE UN SISMO
+ESTABLECIDOS EN SU ARCHIVO SFILE CORRESPONDIENTE
+
 @author: CiroGamJr
 """
 # MIRAR QUE HACER CUANDO HAY VARIAS LINEAS DEL MISMO TIPO
@@ -10,14 +13,35 @@ Created on Thu Feb  8 15:19:41 2018
 class Sfile:
     
     # Instance the object with the name and path of the sfile
+    
+    # SERIA BUENA IDEA QUE FUESE UN DICT, CON LA DESCRIBION DE CADA PARAM
+    params = ['STAT','SP','IPHASW','D','HRMM','SECON','CODA',
+              'AMPLIT','PERI','AZIMU','VELO','AIN','AR','TRES',
+              'W','DIS','CAS', 'YEAR','MONTH','DAY','HOUR',
+              'MINUTES','SECONDS','LOCATION','DISTANCE','EVENT_ID',
+              'LATITUDE','LONGITUDE','DEPTH','DEPTH_INDICATOR',
+              'LOCATING_INDICATOR','HYPOCENTER_REPORTING_AGENCY',
+              'NUMBER_OF_STATIONS_USED','RMS_OF_TIME_RESIDUALS',
+              'MAGNITUDE_NUMBER_1','TYPE_OF_MAGNITUDE_1',
+              'MAGNITUDE_REPORTING_AGENCY_1','MAGNITUDE_NUMBER_2',
+              'TYPE_OF_MAGNITUDE_2','MAGNITUDE_REPORTING_AGENCY_2',
+              'MAGNITUDE_NUMBER_3','TYPE_OF_MAGNITUDE_3',
+              'MAGNITUDE_REPORTING_AGENCY_3','LINE_TYPE','GAP',
+              'ORIGIN_TIME_ERROR','LATITUDE_ERROR','LONGITUDE_ERROR',
+              'DEPTH_ERROR','COVARIANCE_XY','COVARIANCE_XZ',
+              'COVARIANCE_YZ','EPICENTER_LOCATION','BINARY_FILENAME',
+              'LAST_ACTION_DONE','DATETIME_LAST_ACTION']
+    
     def __init__(self, filename, path):
+        
+        # COMPOROBAR SI LA RUTA Y EL ARCHIVO EXISTEN
         self.path = path
         self.filename = filename
         self.lines_info = [] # List that contains the information, classified by linetype
         
                    
     # Get each attribute from the Sfile 
-    def get_attributes(self):           
+    def get_params(self):        
         lines = []
         with open(self.path+self.filename) as sfile:
             station_flag = False
@@ -142,7 +166,7 @@ class Sfile:
                         lines.append(line)
                         self.lines_info.append({'TYPE_I':self.type_I})
         
-    def print_attributes(self):
+    def print_params(self):
         '''
         The variable lines_info is a list that contains dicts corresponding to the 
         types of the lines, Example: [{'TYPE_1': info},{'TYPE_E' : info}, ...]

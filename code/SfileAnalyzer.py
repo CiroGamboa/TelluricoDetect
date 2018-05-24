@@ -3,6 +3,9 @@
 """
 Created on Fri Feb 23 09:22:46 2018
 
+ESTA CLASE ESTA DEDICADA A ANALIZAR LOS SFILES DE FORMA GENERAL
+CON EL FIN DE SACAR ESTADISTICAS 
+
 @author: CiroGamJr
 
 
@@ -25,7 +28,7 @@ class SfileAnalyzer:
             if fnmatch.fnmatch(filename, pattern):
                     
                 sfile = Sfile(filename = filename, path = self.path)
-                sfile.get_attributes()
+                sfile.get_params()
                 self.sfiles.append(sfile)
         
         print("Files found: ")
@@ -111,11 +114,54 @@ class SfileAnalyzer:
                 print('\n')
         
             
+    def group_by_magnitude(self):
+        # Solo por este ejemplo
+        group1 = []
+        group2 = []
+        group3 = []
+        badgroup = []
+        
+        min_value1 = 0
+        max_value1 = 5.5
+        
+        min_value2 = 5.5
+        max_value2 = 6.5
+        
+        min_value3 = 6.5
+        max_value3 = 9
+        
+        for sfile in self.sfiles:
+            mag = float(sfile.type_1['TYPE_OF_MAGNITUDE_1'])
+            print(mag)
+                
+            if(mag >= min_value1 and mag < max_value1):
+                group1.append(sfile)
+            elif(mag >= min_value2 and mag < max_value2):
+                group2.append(sfile)
+            elif(mag >= min_value3 and mag < max_value3):
+                group3.append(sfile)
+            else:
+                badgroup.append(sfile)
+                
+        print("GROUP 1:")
+        print(len(group1))
+        print("GROUP 2:")
+        print(len(group2))
+        print("GROUP 3:")
+        print(len(group3))
+        print("SAD GROUP:")
+        print(len(badgroup))
+        
+            
+                    
+            
+
         
 #### Testing
-path = "RSNC_Sfiles/"
+path = "IOfiles/RSNC_Sfiles/"
 analyzer = SfileAnalyzer(path)
 analyzer.get_sfiles()
+analyzer.group_by_magnitude()
 
 
 

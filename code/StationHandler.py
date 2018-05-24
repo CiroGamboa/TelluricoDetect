@@ -3,6 +3,14 @@
 """
 Created on Mon Apr  9 15:15:53 2018
 
+
+ESTE ARCHIVO SE DESTINARA A LA MANIPULACION DE LA INFORMACION DE LAS
+ESTACIONES EN GENERAL. SE VERA APOYADO EN LA CLASE Station.py.
+ES PROBABLE QUE DESDE ESTE ARCHIVO SE HAGA UNA CONEXION A UNA BASE DE DATOS
+PARA LEER DATOS RELACIONADOS CON ESTACIONES SISMICAS.
+
+
+
 En este código se extraen los sensores de cada estacion,
 para posteriormente verificar si se tratan de triaxiles o monoaxilaes
 
