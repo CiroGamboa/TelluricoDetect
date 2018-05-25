@@ -6,6 +6,13 @@ This is gonna be a class with handy methods for general use
 '''
 Class dedicated to provide helpful methos for overall use in Tellurico
 '''
+
+from obspy import read
+from obspy.signal.polarization import eigval
+import numpy as np
+import matplotlib.pyplot as ml
+from TraceClass import TraceClass
+
 class TelluricoTools:
     
     # Remove duplicated objects in a list
@@ -41,6 +48,43 @@ class TelluricoTools:
         for sample in trace:
             output.append(sample)
         return output
+    
+    def normalice(trace):
+        output = []
+        mean= np.mean(trace)
+        for sample in trace:
+            output.append(sample - mean)
+        return output
+    
+    def FFT(trace):
+        Fs = trace.stats.sampling_rate;  # sampling rate
+        Ts = 1.0/Fs; # sampling interval
+        t = np.arange(0,(len(trace)/Fs),Ts) # time vector
+        n = len(trace) # length of the signal
+        k = np.arange(n)
+        T = n/Fs
+        frq = k/T # two sides frequency range
+        frq = frq[range(int(n/2))] # one side frequency range
+        
+        Y = np.fft.fft(trace)/n # fft computing and normalization
+        Y = Y[range(int(n/2))]
+        
+        #%matplotlib qt
+        fig, ax = ml.subplots(2, 1)
+        ax[0].plot(t,trace)
+        ax[0].set_xlabel('Time')
+        ax[0].set_ylabel('Amplitude')
+        ax[1].plot(frq,abs(Y),'r') # plotting the spectrum
+        ax[1].set_xlabel('Freq (Hz)')
+        ax[1].set_ylabel('|Y(freq)|')
+
+class SeismicInfo:
+    
+    # Print metadata al traces
+    def printMedata(st):
+        for trace in st:
+            if(TelluricoTools.check_trace(trace)):
+                print(trace.stats)
 
 ##### MAKE DE DESIGN OF THE TOOLS CLASS, CONTAINING USEFUL INFORMATION
     ### ABOUT HOW TO USE OBSPY AND OTHER TOOLS
