@@ -1,0 +1,23 @@
+ 2016 1221 1600 49.5 L   6.891 -73.266  4.0  RSN  5 0.3 1.2LRSN                1
+ GAP=116        0.81       1.7     1.7  4.7  0.2857E+00  0.4185E+00  0.7655E+00E
+ Epicentro: BETULIA - SANTANDER                                                3
+ ACTION:UPD 17-01-11 20:17 OP:rebc STATUS:               ID:20161221160049 L   I
+ OLDACT:REG 16-12-21 20:34 OP:dani STATUS:               ID:20161221155743     3
+ 2016-12-21-1558-00M.COL___372                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       16 0 55.62                              47    0.0810 34.3 164 
+ BAR2 EZ ES       16 1  0.22                              47   -0.0310 34.3 164 
+ BAR2 EZ I        16 1  3.48        31.8 0.72            111           34.3 164 
+ BRR  HZ EP       16 0 58.46                              47    0.0810 54.8 296 
+ BRR  HN ES       16 1  5.40                              47    0.0810 54.8 296 
+ BRR  HZ I        16 1  6.19        17.8 0.20            103           54.8 296 
+ PAM  EZ EP       16 1  3.10                              47    0.4110 79.8  52 
+ PAM  EE ES       16 1 12.48                              47   -0.4910 79.8  52 
+ PAM  EZ I        16 1 14.18         7.9 0.12             99           79.8  52 
+ RUS  HZ EP       16 1  7.94                              47    0.3310  112 170 
+ RUS  HN ES       16 1 21.52                              47   -0.2210  112 170 
+ RUS  HZ I        16 1 23.25         4.4 0.28             96            112 170 
+ PTB  HZ EP       16 1 11.14                              47    0.24 9  137 254 
+ PTB  HN ES       16 1 27.09                              47   -0.50 9  137 254 
+ PTB  HZ I        16 1 29.27         4.8 0.20             56            137 254 
+                                                                                

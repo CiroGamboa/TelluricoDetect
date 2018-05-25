@@ -1,0 +1,25 @@
+ 2017  9 8 0532 15.5 L   6.774 -73.096144.7  RSN  5 0.3 1.5LRSN                1
+ GAP=144        0.59       3.1     4.2  5.2 -0.5081E+01 -0.4545E+00  0.1642E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-10-05 19:10 OP:rebc STATUS:               ID:20170908053215 L   I
+ OLDACT:UP  17-09-08 16:40 OP:dnl  STATUS:               ID:20170908052750d    3
+ OLDACT:DUP 17-09-08 16:38 OP:dnl  STATUS:               ID:20170908052750d    3
+ OLDACT:REG 17-09-08 13:18 OP:dnl  STATUS:               ID:20170908052749     3
+ 2017-09-08-0528-00M.COL___422                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        532 34.82                             171   -0.1710 22.2 206 
+ BAR2 EZ ES        532 49.80                             171   -0.3910 22.2 206 
+ BAR2 EZ I         532 51.07         9.5 0.46            171           22.2 206 
+ PAM  EZ EP        532 37.73                             151    0.1810 76.3  35 
+ PAM  EN ES        532 54.73                             151   -0.0110 76.3  35 
+ PAM  EZ I         532 57.19         4.4 0.70            152           76.3  35 
+ BRR  HZ EP   2    532 36.63                             150   -0.28 5 77.5 298 
+ BRR  HN ES        532 53.84                             150    0.2410 77.5 298 
+ BRR  HZ I         532 55.50         7.1 0.34            151           77.5 298 
+ RUS  HZ EP   2    532 39.11                             144    0.18 5 97.4 179 
+ RUS  HN ES        532 57.48                             144    0.2810 97.4 179 
+ RUS  HZ I         532 58.46         3.3 0.28            146           97.4 179 
+ SPBC HZ EP   2    532 43.53                             128   -0.53 5  165 221 
+ SPBC HN ES        533  6.34                             128    0.02 9  165 221 
+ SPBC HZ I         533  8.44         7.1 0.26            130            165 221 
+                                                                                

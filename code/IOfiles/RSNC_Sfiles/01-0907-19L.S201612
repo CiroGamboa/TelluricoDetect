@@ -1,0 +1,32 @@
+ 2016 12 1 0907 19.0 L   6.816 -73.197142.0  RSN  7 0.6 1.6LRSN                1
+ GAP=133        1.00       9.3     6.4  7.6 -0.3154E+02  0.1964E+02 -0.6967E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 17-01-11 20:11 OP:rebc STATUS:               ID:20161201090719 L   I
+ OLDACT:UP  16-12-01 16:46 OP:dani STATUS:               ID:20161201085745     3
+ OLDACT:UP  16-12-01 16:46 OP:dani STATUS:               ID:20161201085745     3
+ OLDACT:UP  16-12-01 16:46 OP:dani STATUS:               ID:20161201085745     3
+ OLDACT:REG 16-12-01 13:28 OP:dani STATUS:               ID:20161201085745     3
+ 2016-12-01-0858-00M.COL___330                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        9 7 37.55                             170   -0.6410 24.8 176 
+ BAR2 EZ ES        9 7 53.24                             170    0.0610 24.8 176 
+ BAR2 EZ I         9 7 54.85         8.4 0.23            172           24.8 176 
+ BRR  HZ EP   2 C  9 7 40.34                             154    0.94 5 65.3 300 
+ BRR  HN ES   2    9 7 54.40                             154   -0.92 5 65.3 300 
+ BRR  HZ I         9 8  0.58        13.3 0.26            150           65.3 300 
+ PAM  EZ EP        9 7 41.07                             149    0.1210 79.8  44 
+ PAM  EE ES        9 7 58.45                             149    0.3710 79.8  44 
+ PAM  EZ I         9 8  1.05         4.5 0.64            153           79.8  44 
+ PTB  HZ EP        9 7 45.18                             132    0.01 9  143 258 
+ PTB  HN ES        9 8  6.03                             132    0.44 9  143 258 
+ PTB  HZ I         9 8 11.38         3.4 0.21            133            143 258 
+ ZAR  HZ EP        9 7 49.87                             122   -0.70 9  198 292 
+ ZAR  HN ES   3    9 8 16.39                             122    1.19 2  198 292 
+ ZAR  HZ I         9 8 20.53         3.8 0.08            124            198 292 
+ NOR  HZ EP        9 7 54.17                             118    0.06 8  231 233 
+ NOR  HN ES   3    9 8 23.21                             118    1.70 2  231 233 
+ NOR  HZ I         9 8 26.42         3.9 0.18            122            231 233 
+ CBOC HZ EP   3    9 8  6.68                             109    1.50 2  329 251 
+ CBOC HN ES   4    9 8 38.35                             109   -2.87 0  329 251 
+ CBOC HZ I         9 8 39.05         1.0 0.28            112            329 251 
+                                                                                

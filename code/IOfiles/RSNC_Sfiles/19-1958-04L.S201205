@@ -1,0 +1,41 @@
+ 2012  519 1958  4.0 L   6.806 -73.165141.8  RSN 13 0.4 2.6LRSN 3.0WRSN        1
+ SPEC AVERAGE  MO 13.7 ST 22.0 OM 98.7 f0 6.88 R  0.27 AL 2.38 WI 13.7 MW  3.0 3
+ GAP=134        0.88       3.8     4.4  6.5 -0.1037E+01  0.9348E+01  0.6325E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC RUS HH N MO 13.4 ST 38.9 OM  1.8 f010.10 R0.1455 AL 2.38 WI 11.1 MW  2.9 3
+ SPEC RUS HH N T195844 K 0.020 GD  174 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.9 ST  5.1 OM  2.0 f0 3.66 R0.4016 AL 2.38 WI 16.3 MW  3.2 3
+ SPEC HEL HH N T195913 K 0.020 GD  304 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UP  12-07-05 12:06 OP:pat  STATUS:               ID:20120519195804 L   I
+ 2012-05-19-1957-00S.COL___200                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO SNR AR TRES W  DIS CAZ7
+ BAR2 SZ IP       1958 23.12                             170     0.010   24 185 
+ BAR2 SZ ES   1   1958 37.90                             170    -0.2 7   24 185 
+ BRR  HZ IP     C 1958 24.84                             153     0.310   69 299 
+ BRR  HZ I        1958 25.14       104.1 0.19                            69 299 
+ BRR  HN ES   1   1958 41.65                             153     1.0 7   69 299 
+ PAM  SZ EP   1   1958 26.00                             150     0.2 7   78  41 
+ PAM  SN ES   1   1958 42.83                             150     0.0 7   78  41 
+ RUS  HZ EP   1   1958 27.09                             143    -0.3 7  101 175 
+ RUS  HN ES   1   1958 45.58                             143    -0.1 7  101 175 
+ RUS  HZ I        1958 48.21        57.8 0.33                           101 175 
+ PTB  HZ EP   1   1958 29.75                             131    -0.7 7  146 258 
+ PTB  HN ES   1   1958 50.70                             131    -0.4 7  146 258 
+ PTB  HZ I        1958 53.37        39.8 0.22                           146 258 
+ OCA  HE ES   1   1958 53.03                             129    -0.6 7  159 354 
+ ZAR  HZ EP   1   1958 35.92                             122     0.0 6  202 292 
+ ZAR  HN ES   1   1959  0.95                             122     0.1 6  202 292 
+ ZAR  HZ I        1959  6.78        44.0 0.35                           202 292 
+ NOR  SZ EP   1   1958 39.55                             118     0.2 6  233 234 
+ NOR  SN ES   1   1959  6.72                             118    -0.2 6  233 234 
+ ROSC BZ EP   1   1958 42.37                             116     0.5 6  252 211 
+ ROSC BZ I        1959 16.36        42.0 0.56                           252 211 
+ HEL  HN ES   1   1959 14.44                             114    -0.4 6  270 256 
+ HEL  HZ I        1959 21.31        24.0 0.44                           270 256 
+ VIL  SN ES   2   1959 20.79                             111    -0.2 4  304 191 
+ VIL  SZ I        1959 27.21        15.0 0.51                           304 191 
+ RREF HZ EP   1   1958 50.34                             110     0.5 5  321 229 
+ RREF HZ I        1959 33.27        25.4 0.33                           321 229 
+ PRA  HZ EP   1   1958 57.81                             106     0.5 4  392 209 
+ PRA  HN ES   1   1959 38.98                             106     0.1 4  392 209 
+                                                                                

@@ -121,49 +121,42 @@ class SfileAnalyzer:
         group1 = []
         group2 = []
         group3 = []
-        badgroup = []
+        undefined_group = []
+        damaged_group = []
         
-        min_value1 = 0
-        max_value1 = 5.5
-        
-        min_value2 = 5.5
-        max_value2 = 6.5
-        
-        min_value3 = 6.5
-        max_value3 = 9
+        key_value1 = 5.5
+        key_value2 = 6.5
         
         for sfile in self.sfiles:
             mag_string = sfile.type_1['TYPE_OF_MAGNITUDE_1']
-            #print(mag_string)
-            
             try:  
                 mag = float(mag_string)
+                
+                if(mag >= 0 and mag < key_value1):
+                    group1.append(sfile.filename)        
+                elif(mag >= key_value1 and mag < key_value2):
+                    group2.append(sfile.filename)        
+                elif(mag >= key_value2):
+                    group3.append(sfile.filename)        
+                else:
+                    undefined_group.append(sfile.filename)
+                    
             except:
-                badgroup.append(sfile.filename)
+                damaged_group.append(sfile.filename)
             
-            '''   
-            if(mag >= min_value1 and mag < max_value1):
-                group1.append(sfile)
-            elif(mag >= min_value2 and mag < max_value2):
-                group2.append(sfile)
-            elif(mag >= min_value3 and mag < max_value3):
-                group3.append(sfile)
-            else:
-                badgroup.append(sfile)
-                
-            '''
+
             
-        
-                
-        print("GROUP 1:")
+    
+        print("GROUP 1: 0 >= mag < 5.5")
         print(len(group1))
-        print("GROUP 2:")
+        print("GROUP 2: 5.5 >= mag < 6.5")
         print(len(group2))
-        print("GROUP 3:")
+        print("GROUP 3: mag >= 6.5")
         print(len(group3))
-        print("SAD GROUP:")
-        print(len(badgroup))
-        print(badgroup)
+        print("UNDEFINED GROUP: mag < 0")
+        print(len(undefined_group))
+        print("DAMAGED GROUP: CORRUPT FILES)
+        print(len(damaged_group))
         
         
     def clear_corrupt(self):
@@ -188,9 +181,9 @@ class SfileAnalyzer:
                 included = True
                 
             # Check if there are repeated files
-            pattern = re.compile("\.[1-9]+")
-            pattern.search("dog")
-            if(re.match(,sfile.filename) is None and not included):
+            #pattern = re.compile("\.[1-9]+")
+            #pattern.search("dog")
+            if(re.search( r'[.][1-9]+', sfile.filename, re.M|re.I) is not None and not included):
                 repeated_files.append(sfile.filename)
                 included = True
                 
@@ -218,64 +211,11 @@ class SfileAnalyzer:
         print(repeated_files)
             
         
-            
-                    
-            
-
-        
 #### Testing
 path = "IOfiles/RSNC_Sfiles/"
 analyzer = SfileAnalyzer(path)
 analyzer.get_sfiles()
 #analyzer.group_by_magnitude()
-
-#def clear_corrupt(sfiles):
-#    
-#    # List containing the names of corrupt files
-#    corrupt_files = []
-#    
-#    # List containing the names of repeated files
-#    repeated_files = []
-#    
-#    # Flag for avoid including the same file in many cases
-#    included = None
-#    for sfile in sfiles:
-#        
-#        included = False
-##        # Check if the magnitude can be parsed to float   
-##        try:  
-##            mag = float(sfile.type_1['TYPE_OF_MAGNITUDE_1'])
-##            
-##        except:
-##            corrupt_files.append(sfile.filename)
-##            included = True
-#            
-#        # Check if there are repeated files
-#        if(re.match('^.[1-9]+',sfile.filename) is not None and not included):
-#            repeated_files.append(sfile.filename)
-#            included = True
-#            
-#    # Take out repeated Sfiles and Corrupt Sfiles in different folders
-##        if(len(corrupt_files) > 0):
-##            corrupt_path = "IOfiles/CorruptSfiles/"
-##            if not os.path.exists(corrupt_path):
-##                os.makedirs(corrupt_path)
-##                
-##            for file in corrupt_files:
-##                os.rename(self.path+file, corrupt_path+file)
-#            
-#    print("CORRUPT FILES FOUND:"+str(len(corrupt_files)))
-#        
-##        if(len(repeated_files) > 0):
-##            repeated_path = "IOfiles/RepeatedSfiles/"
-##            if not os.path.exists(repeated_path):
-##                os.makedirs(repeated_path)
-##                
-##            for file in repeated_files:
-##                os.rename(self.path+file, repeated_path+file)
-#            
-#    print("REPEATED FILES FOUND:"+str(len(repeated_files)))
-
 
 
 

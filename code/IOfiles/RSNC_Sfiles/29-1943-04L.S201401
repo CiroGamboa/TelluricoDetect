@@ -1,0 +1,107 @@
+ 2014  129 1943  4.8 L   6.822 -73.150143.2  RSN 19 0.4 2.9LRSN 3.1WRSN        1
+ SPEC AVERAGE  MO 13.7 ST 48.8 OM  2.0 f0 7.12 R0.3866 AL 0.00 WI 20.0 MW  3.1 3
+ SPEC SD       MO  0.3 ST107.4 OM  0.3 f0 5.10 R0.3012 AL      WI      MW  0.2 3
+ GAP= 70        1.03       2.5     3.1  4.9 -0.2275E+00  0.4262E+01  0.9862E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 13.9 ST  8.4 OM  2.3 f0 4.64 R0.3349 AL-0.00 WI 20.0 MW  3.2 3
+ SPEC BAR2SH Z T194337 K 0.000 GD  145 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH Z MO 13.6 ST 18.2 OM  2.0 f0 7.32 R0.2123 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC BRR HH Z T194341 K 0.000 GD  159 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 13.8 ST  1.0 OM  2.2 f0 2.41 R0.6448 AL-0.00 WI 20.0 MW  3.1 3
+ SPEC PAM SH Z T194342 K 0.000 GD  162 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 13.0 ST  3.0 OM  1.4 f0 6.14 R0.2531 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC RUS HH Z T194344 K 0.000 GD  176 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 13.5 ST 97.3 OM  1.8 f0 13.7 R0.1134 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC PTB HH Z T194350 K 0.000 GD  205 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC TAM HH Z MO 13.8 ST  1.9 OM  2.1 f0 2.89 R0.5377 AL-0.00 WI 20.0 MW  3.2 3
+ SPEC TAM HH Z T194352 K 0.000 GD  211 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH Z MO 13.5 ST 11.9 OM  1.8 f0 6.72 R0.2312 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC OCA HH Z T194352 K 0.000 GD  213 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SPBCHH Z MO 13.6 ST 27.9 OM  1.9 f0 8.20 R0.1895 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC SPBCHH Z T194353 K 0.000 GD  218 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH Z MO 13.8 ST 69.3 OM  2.0 f0 9.86 R0.1576 AL-0.00 WI 20.0 MW  3.1 3
+ SPEC ZAR HH Z T1944 1 K 0.000 GD  248 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH Z MO 13.6 ST 14.4 OM  1.8 f0 6.58 R0.2362 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC NOR HH Z T1944 6 K 0.000 GD  276 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SML HH Z MO 13.5 ST472.1 OM  1.7 f0 22.6 R0.0688 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC SML HH Z T1944 7 K 0.000 GD  280 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH Z MO 14.4 ST0.448 OM  2.5 f0 1.19 R1.3059 AL-0.00 WI 20.0 MW  3.5 3
+ SPEC CHI HH Z T194411 K 0.000 GD  288 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ROSCBH Z MO 13.8 ST  1.2 OM  1.9 f0 2.63 R0.5909 AL-0.00 WI 20.0 MW  3.1 3
+ SPEC ROSCBH Z T194414 K 0.000 GD  292 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH Z MO 13.8 ST  2.4 OM  1.9 f0 3.23 R0.4811 AL-0.00 WI 20.0 MW  3.1 3
+ SPEC HEL HH Z T194414 K 0.000 GD  307 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC URE HH Z MO 13.7 ST 36.9 OM  1.8 f0 8.60 R0.1807 AL-0.00 WI 20.0 MW  3.1 3
+ SPEC URE HH Z T194412 K 0.000 GD  316 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPECGUY2CHH Z MO 13.9 ST  1.1 OM  2.0 f0 2.28 R 0.682 AL-0.00 WI 20.0 MW  3.2 3
+ SPECGUY2CHH Z T194421 K       GD334.2 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC DBB SH Z MO 14.2 ST0.974 OM  2.2 f0 1.79 R0.8682 AL-0.00 WI 20.0 MW  3.4 3
+ SPEC DBB SH Z T194426 K 0.000 GD  368 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PRA HH Z MO 13.9 ST  3.8 OM  1.9 f0 3.41 R0.4557 AL-0.00 WI 20.0 MW  3.2 3
+ SPEC PRA HH Z T194438 K 0.000 GD  419 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SJC HH Z MO 13.3 ST106.5 OM  1.3 f0 16.2 R0.0959 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC SJC HH Z T194437 K 0.000 GD  431 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ OLDACT:REG 14-01-29 15:44 OP:nd   STATUS:               ID:20140129194000     3
+ ACTION:UP  14-03-13 09:59 OP:ep   STATUS:               ID:20140129194304 L   I
+ OLDACT:UPD 14-02-19 09:23 OP:ep   STATUS:               ID:20140129194304 L   3
+ OLDACT:UP  14-01-29 17:10 OP:nd   STATUS:               ID:20140129194000     3
+ 2014-01-29-1940-00M.COL___288                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     D 1943 24.25                             169    0.0910 25.7 188 
+ BAR2 SZ ES       1943 38.78                             169   -0.4910 25.7 188 
+ BAR2 SZ I        1943 40.36       294.2 0.12            168           25.7 188 
+ BRR  HZ IP     C 1943 26.05                             153    0.4810 69.6 297 
+ BRR  HN ES       1943 42.71                             153    0.9310 69.6 297 
+ BRR  SZ I        1943 46.48       142.9 0.16            150           69.6 297 
+ PAM  SZ EP       1943 27.01                             151    0.3710 75.9  41 
+ PAM  SN ES       1943 43.72                             151    0.0310 75.9  41 
+ PAM  SZ I        1943 45.78       186.7 0.48            155           75.9  41 
+ RUS  HZ EP       1943 28.29                             143   -0.1810  103 176 
+ RUS  HN ES       1943 46.21                             143   -0.7310  103 176 
+ RUS  SZ I        1943 48.05        38.4 0.22            144            103 176 
+ PTB  HZ EP       1943 31.31                             131   -0.24 9  148 258 
+ PTB  HN ES   2   1943 51.89                             131   -0.53 5  148 258 
+ PTB  HZ I        1943 57.10       121.2 0.36            131            148 258 
+ TAM  HZ EP       1943 32.69                             130    0.32 9  156 106 
+ TAM  HN ES       1943 54.11                             130    0.23 9  156 106 
+ TAM  SZ I        1943 54.62        57.2 0.26            134            156 106 
+ OCA  HZ EP       1943 32.29                             129   -0.38 9  158 353 
+ OCA  HN ES       1943 53.86                             129   -0.55 9  158 353 
+ OCA  SZ I        1943 59.09        72.1 0.36            131            158 353 
+ SPBC HZ EP       1943 33.32                             128    0.08 9  165 218 
+ SPBC HN ES       1943 55.19                             128   -0.25 9  165 218 
+ SPBC SZ I        1944  1.88        64.9 0.24            128            165 218 
+ ZAR  HZ EP       1943 37.20                             122    0.28 9  203 292 
+ ZAR  HN ES       1944  2.66                             122    0.67 9  203 292 
+ ZAR  SZ I        1944  7.69       146.0 0.40            122            203 292 
+ NOR  HZ EP       1943 40.53                             118    0.05 8  236 234 
+ NOR  HN ES       1944  8.17                             118   -0.15 8  236 234 
+ NOR  HZ I        1944 12.03        51.4 0.42            118            236 234 
+ SML  HZ EP       1943 40.30                             117   -0.71 8  241 335 
+ SML  HN ES       1944  8.91                             117   -0.35 8  241 335 
+ SML  HZ I        1944 17.18        86.4 0.26            118            241 335 
+ CHI  HZ EP       1943 42.82                             116    0.23 8  251 195 
+ CHI  HE ES       1944 12.83                             116    0.76 8  251 195 
+ CHI  SZ I        1944 19.85        20.2 0.24            118            251 195 
+ ROSC BZ EP   4   1943 45.54                             116    2.57 0  255 211 
+ ROSC BN ES   4   1944 15.55                             116    2.80 0  255 211 
+ ROSC SZ I        1944 22.20        51.3 0.40            117            255 211 
+ HEL  HZ EP       1943 44.69                             114   -0.19 8  272 255 
+ HEL  HN ES   2   1944 16.18                             114    0.02 4  272 255 
+ HEL  SZ I        1944 23.21        33.4 0.28            115            272 255 
+ URE  HZ EP   4   1943 44.47                             113   -1.11 0  282 291 
+ URE  HN ES   4   1944 14.42                             113   -2.98 0  282 291 
+ URE  SZ I        1944 22.64        54.0 0.24            114            282 291 
+ GUY2CHZ EP   4   1943 48.78                             112    0.39 0  302 234 
+ GUY2CHN ES   4   1944 22.78                             112    0.38 0  302 234 
+ GUY2CSZ I        1944 30.57        29.0 0.72                           302 234 
+ DBB  SZ EP       1943 52.16                             109    0.08 7  339 274 
+ DBB  SZ ES   4   1944 28.32                             109   -0.65 0  339 274 
+ DBB  SZ I        1944 35.51        32.2 0.40            110            339 274 
+ PRA  HZ EP       1943 58.29                             106   -0.15 6  394 209 
+ PRA  HN ES       1944 39.76                             106   -0.53 6  394 209 
+ PRA  SZ I        1944 43.24        27.2 0.20            107            394 209 
+ SJC  HZ EP   4   1943 58.68                             105   -1.31 0  407 327 
+ SJC  HN ES   4   1944 39.31                             105   -3.74 0  407 327 
+ SJC  SZ I        1944 43.37        22.2 0.62            106            407 327 
+                                                                                

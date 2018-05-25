@@ -1,0 +1,25 @@
+ 2017  4 9 1016 40.4 L   6.882 -72.983140.0  RSN  5 0.4 1.2LRSN                1
+ GAP=154        1.04       6.3     6.7  8.1  0.1712E+02  0.2499E+00 -0.1173E+02E
+ Epicentro: PIEDECUESTA - SANTANDER                                            3
+ ACTION:UPD 17-05-30 21:10 OP:jn   STATUS:               ID:20170409101640 L   I
+ OLDACT:UP  17-04-09 21:23 OP:edw  STATUS:               ID:20170409100740d    3
+ OLDACT:DUP 17-04-09 21:21 OP:edw  STATUS:               ID:20170409100740d    3
+ OLDACT:UP  17-04-09 21:21 OP:edw  STATUS:               ID:20170409100739     3
+ OLDACT:UP  17-04-09 21:19 OP:edw  STATUS:               ID:20170409100739     3
+ OLDACT:REG 17-04-09 20:25 OP:edw  STATUS:               ID:20170409100739     3
+ 2017-04-09-1008-00M.COL___371                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       1016 59.84                             164    0.1010 38.8 215 
+ BAR2 EZ ES       1017 14.97                             164    0.1210 38.8 215 
+ BAR2 EZ I        1017 16.43         5.4 0.12            162           38.8 215 
+ PAM  EZ EP       1017  0.82                             156   -0.1710 59.5  32 
+ PAM  EN ES   2   1017 16.67                             156   -0.39 5 59.5  32 
+ BRR  HZ EP       1017  1.84                             147    0.1210 84.3 287 
+ BRR  HN ES       1017 18.75                             147    0.3810 84.3 287 
+ RUS  HZ EP       1017  3.91                             140   -0.3710  110 186 
+ RUS  HN ES       1017 22.92                             140   -0.0010  110 186 
+ RUS  HZ I        1017 25.15         1.3 0.46            139            110 186 
+ ZAR  HZ EP       1017 14.74                             119    0.83 8  218 288 
+ ZAR  HE ES       1017 39.09                             119   -0.97 8  218 288 
+ ZAR  HZ I        1017 41.69         2.2 0.50            120            218 288 
+                                                                                

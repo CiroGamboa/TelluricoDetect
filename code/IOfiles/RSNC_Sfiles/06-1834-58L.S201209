@@ -1,0 +1,53 @@
+ 2012  9 6 1834 58.2 L   6.116 -74.261 73.7  RSN 14 0.4 2.7LRSN 3.3WRSN        1
+ SPEC AVERAGE  MO 14.1 ST  7.0 OM  3.3 f0 3.05 R0.5126 AL 2.55 WI 23.8 MW  3.3 3
+ SPEC SD       MO  0.2 ST  6.4 OM  0.8 f00.849 R0.1139 AL      WI      MW  0.2 3
+ GAP= 62        0.75       2.7     2.6  9.6 -0.3019E+01 -0.3030E+01  0.1209E+02E
+ Epicentro: CIMITARRA - SANTANDER                                              3
+ SPEC VIL SH N MO 14.4 ST  7.5 OM  2.7 f0 2.88 R0.5104 AL 2.41 WI 23.2 MW  3.5 3
+ SPEC VIL SH N T183556 K 0.000 GD  194 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 14.1 ST 17.3 OM  2.5 f0 4.49 R0.3274 AL 3.98 WI 26.7 MW  3.4 3
+ SPEC PAM SH N T183553 K 0.000 GD  187 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.1 ST  2.4 OM  2.5 f0 2.44 R0.6025 AL 2.24 WI 24.9 MW  3.3 3
+ SPEC CHI HH N T183543 K 0.000 GD  159 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.7 ST0.986 OM  2.2 f0 2.41 R0.6100 AL 1.55 WI 20.3 MW  3.1 3
+ SPEC HEL HH N T183537 K 0.000 GD  137 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-10-22 14:17 OP:ep   STATUS:               ID:20120906183458 L   I
+ 2012-09-06-1830-00M.COL___221                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PTB  HZ EP       1835 10.45                             140   -0.1910 51.6 335 
+ PTB  HN ES   3   1835 20.62                             140    0.30 2 51.6 335 
+ PTB  HZ I        1835 23.16       103.7 0.38                          51.6 335 
+ NOR  SZ EP       1835 13.87                             123   -0.4310 90.9 228 
+ NOR  SN ES   3   1835 26.67                             123   -0.17 2 90.9 228 
+ NOR  SN I        1835 30.09       537.6 0.14                          90.9 228 
+ BRR  HZ IP     D 1835 17.95                             114    0.0110  125  29 
+ BRR  HZ I        1835 18.30        81.8 0.12                           125  29 
+ BRR  HN ES   1   1835 33.80                             114    0.48 7  125  29 
+ BAR2 SZ IP       1835 18.88                             113    0.0610  130  66 
+ BAR2 SZ ES   1   1835 35.35                             113    0.46 7  130  66 
+ BAR2 SZ I        1835 36.93       138.2 0.28                           130  66 
+ RUS  HZ EP       1835 18.80                             113   -0.6010  133 101 
+ RUS  HN ES   3   1835 35.20                             113   -0.72 2  133 101 
+ HEL  HZ EP       1835 19.90                             111   -0.24 9  141 273 
+ HEL  HE ES   3   1835 37.22                             111   -0.02 2  141 273 
+ HEL  HN I        1835 41.99        99.5 0.32                           141 273 
+ GIR2 SZ EP       1835 22.11                             108    0.12 9  159  48 
+ GIR2 SZ ES   1   1835 40.60                             108    0.08 7  159  48 
+ ZAR  HZ EP       1835 22.67                             107    0.04 9  166 337 
+ ZAR  HE ES   3   1835 42.31                             107    0.64 2  166 337 
+ CHI  HZ EP       1835 24.16                             106    0.00 9  175 160 
+ CHI  HE ES   3   1835 44.49                             106    0.11 2  175 160 
+ CHI  HZ I        1835 48.75        31.5 0.42                           175 160 
+ CHI  HN I        1835 48.91       101.5 0.40                           175 160 
+ TOL  SZ EP       1835 27.80                             103   -0.01 8  206 215 
+ PAM  SZ EP       1835 29.43                             102   -0.16 8  219  52 
+ PAM  SN ES   3   1835 53.67                             102   -0.39 2  219  52 
+ PAM  SN I        1835 57.01       105.3 0.26                           219  52 
+ ANIL HZ EP       1835 30.32                             102    0.91 8  220 215 
+ ANIL HZ I        1835 30.61        41.9 0.22                           220 215 
+ ANIL HE ES   3   1835 55.85                             102    2.11 2  220 215 
+ VIL  SZ EP       1835 30.87                             102    0.38 8  230 164 
+ PRA  HZ EP       1835 35.37                              99   -0.36 8  275 195 
+ PRA  HN ES   3   1836  5.78                              99    0.79 2  275 195 
+ PRA  HN I        1836  9.90        17.8 0.20                           275 195 
+                                                                                

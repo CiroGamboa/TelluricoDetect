@@ -1,0 +1,23 @@
+ 2017  7 8 0632 48.4 L   7.376 -73.471  4.0  RSN  6 0.5 1.1LRSN                1
+ GAP=178        1.20       5.2     3.2  8.3 -0.4805E+01  0.1378E+02 -0.1491E+02E
+ Epicentro: SABANA DE TORRES - SANTANDER                                       3
+ ACTION:UPD 17-08-30 15:30 OP:rebc STATUS:               ID:20170708063248 L   I
+ OLDACT:DUP 17-07-08 17:11 OP:edw  STATUS:               ID:20170708062740d    3
+ OLDACT:UP  17-07-08 16:49 OP:edw  STATUS:               ID:20170708062739     3
+ OLDACT:UP  17-07-08 16:48 OP:edw  STATUS:               ID:20170708062739     3
+ OLDACT:REG 17-07-08 13:13 OP:edw  STATUS:               ID:20170708062739     3
+ 2017-07-08-0628-00M.COL___374                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        632 55.73                             101    0.6610 39.9 222 
+ PAM  EZ EP        633  2.88                              95    0.4210 85.3  93 
+ PAM  EN ES        633 12.91                              95   -0.4810 85.3  93 
+ PAM  EZ I         633 15.90         4.8 0.28             47           85.3  93 
+ BAR2 EZ IP     C  633  3.70                              95    0.4310 92.4 160 
+ BAR2 EZ ES        633 14.28                              95   -0.5610 92.4 160 
+ BAR2 EZ I         633 14.83         5.4 0.34             47           92.4 160 
+ PTB  HZ EP        633 10.94                              93    0.25 9  143 230 
+ PTB  HE ES        633 27.74                              93   -0.31 9  143 230 
+ PTB  HZ I         633 28.67         4.1 0.24             47            143 230 
+ ZAR  HN ES        633 30.32                              56   -0.62 9  154 275 
+ SPBC HN ES   1    633 43.19                              56    0.28 6  202 199 
+                                                                                

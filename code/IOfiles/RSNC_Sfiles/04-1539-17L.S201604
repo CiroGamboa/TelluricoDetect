@@ -1,0 +1,35 @@
+ 2016  4 4 1539 17.9 L   7.564 -73.606  0.0  RSN  4 0.5 1.5LRSN                1
+ GAP=163        1.03       2.6     3.5  8.7 -0.3355E+01 -0.1156E+02  0.6443E+01E
+ Epicentro: SABANA DE TORRES - SANTANDER                                       3
+ ACTION:UPD 16-05-05 14:18 OP:rebc STATUS:               ID:20160404153917 L   I
+ OLDACT:UP  16-04-05 16:13 OP:nlst STATUS:               ID:20160404153917 L   3
+ OLDACT:DUP 16-04-04 22:02 OP:drio STATUS:               ID:20160404153748d    3
+ OLDACT:UP  16-04-04 22:02 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 22:01 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 22:00 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 22:00 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 21:59 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 21:58 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 21:57 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 21:56 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 21:56 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 21:48 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 21:44 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 21:44 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:UP  16-04-04 21:41 OP:drio STATUS:               ID:20160404153747d    3
+ OLDACT:DUP 16-04-04 21:37 OP:drio STATUS:               ID:20160404153747d    3
+ 2016-04-04-1537-46M.COL___295                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ OCA  HZ EP       1539 31.21                              47   -0.2610 81.0  23 
+ OCA  HN ES       1539 42.07                              47   -0.0110 81.0  23 
+ OCA  HZ I        1539 45.18        51.4 0.26            142           81.0  23 
+ PAM  EZ EP   4   1539 33.79                              47   -1.37 0  103 104 
+ PAM  EN ES       1539 49.18                              47    0.5310  103 104 
+ PAM  EZ I        1539 49.78        10.8 0.16            132            103 104 
+ BAR2 EZ EP   2   1539 35.69                              47   -1.36 5  117 156 
+ BAR2 EZ ES       1539 51.70                              47   -0.3010  117 156 
+ BAR2 EZ I        1539 53.08        10.6 0.32            124            117 156 
+ PTB  HZ EP       1539 41.29                              47   -0.07 9  147 220 
+ PTB  HN ES       1540  0.15                              47    0.48 9  147 220 
+ PTB  HZ I        1540  1.70         2.7 0.16            115            147 220 
+                                                                                

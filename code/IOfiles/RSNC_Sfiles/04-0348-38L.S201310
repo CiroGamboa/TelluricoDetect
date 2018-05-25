@@ -1,0 +1,21 @@
+ 2013 10 4 0348 38.4 L   6.541 -73.409  3.2  RSN  4 0.5 1.0LRSN                1
+ GAP=181        1.02       3.9     6.2  8.2  0.1809E+02 -0.3688E+01 -0.3066E+01E
+ Epicentro: HATO - SANTANDER                                                   3
+ ACTION:UPD 13-11-25 09:19 OP:ep   STATUS:               ID:20131004034838 L   I
+ OLDACT:UP  13-11-18 08:58 OP:ep   STATUS:               ID:20131004034838 L   3
+ OLDACT:REG 13-10-04 09:48 OP:nd   STATUS:               ID:20131004033959     3
+ 2013-10-04-0339-59M.COL___273                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        348 49.66                              47   -0.1910 71.0 332 
+ BRR  HN ES        348 58.91                              47    0.1210 71.0 332 
+ BRR  HZ I         349  0.31         6.9 0.12            105           71.0 332 
+ RUS  HZ EP        348 52.21                              47    0.4610 80.2 153 
+ RUS  HN ES        349  1.81                              47   -0.3610 80.2 153 
+ RUS  HZ I         349  3.19         5.2 0.16            102           80.2 153 
+ PTB  HZ EP   2    348 55.19                              47   -1.46 5  116 270 
+ PTB  HN ES   2    349 11.22                              47    0.32 5  116 270 
+ PTB  HZ I         349 11.29         4.0 0.16             93            116 270 
+ SPBC HZ EP   1    348 58.23                              47    0.47 7  123 217 
+ SPBC HN ES   4    349 15.63                              47    2.75 0  123 217 
+ SPBC HZ I         349 19.44         2.9 0.32             93            123 217 
+                                                                                

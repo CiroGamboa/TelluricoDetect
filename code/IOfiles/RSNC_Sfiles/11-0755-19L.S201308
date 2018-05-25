@@ -1,0 +1,24 @@
+ 2013  811 0755 19.9 L   5.950 -73.996  8.8  RSN  7 0.3 1.1LRSN                1
+ GAP=128        0.73       2.3     2.5  5.7 -0.2231E+01  0.6932E+01  0.4202E-02E
+ Epicentro: LA BELLEZA - SANTANDER                                             3
+ ACTION:UPD 14-01-14 09:01 OP:ep   STATUS:               ID:20130811075519 L   I
+ OLDACT:REG 13-08-11 07:41 OP:jn   STATUS:               ID:20130811074960d    3
+ 2013-08-11-0749-59M.COL___270                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HN ES   1    755 30.81                              99    0.36 8 34.0 194 
+ SPBC HZ I         755 32.41        13.3 0.20             47           34.0 194 
+ RUS  HZ EP        755 36.71                              93    0.3010  101  94 
+ RUS  HN ES   1    755 48.59                              93   -0.67 7  101  94 
+ RUS  HZ I         755 50.04         2.3 0.18             47            101  94 
+ NOR  HE ES   1    755 49.11                              93   -0.53 7  106 246 
+ BRR  HZ EP   1    755 40.59                              92    0.08 7  132  14 
+ BRR  HN ES        755 56.59                              92    0.0410  132  14 
+ BRR  HZ I         755 59.69         3.8 0.10             47            132  14 
+ GUY2CHZ I         756  8.95         1.8 0.14                           172 242 
+ HEL  HZ I         756  6.81         2.4 0.18             47            172 279 
+ GUY2CHZ EP   1    755 47.15                              56    0.34 7  172 242 
+ GUY2CHN ES   1    756  7.77                              56    0.01 7  172 242 
+ HEL  HN ES   4    756  5.61                              56   -1.95 0  172 279 
+ RREF HN ES   1    756 11.91                              56   -0.16 7  189 232 
+ RREF HZ I         756 15.54         2.9 0.24             37            189 232 
+                                                                                

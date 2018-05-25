@@ -1,0 +1,31 @@
+ 2017 1124 1636  6.4 L   6.757 -73.174137.5  RSN  6 0.4 1.6LRSN                1
+ GAP=135        1.08       5.0     4.7  7.8 -0.3565E+01  0.1646E+02 -0.3345E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-12-12 19:59 OP:rebc STATUS:               ID:20171124163606 L   I
+ OLDACT:UP  17-11-24 23:56 OP:edw  STATUS:               ID:20171124161527d    3
+ OLDACT:UP  17-11-24 23:55 OP:edw  STATUS:               ID:20171124161527d    3
+ OLDACT:DUP 17-11-24 23:51 OP:edw  STATUS:               ID:20171124161527d    3
+ OLDACT:UP  17-11-24 23:50 OP:edw  STATUS:               ID:20171124161526     3
+ OLDACT:UP  17-11-24 23:48 OP:edw  STATUS:               ID:20171124161526     3
+ OLDACT:REG 17-11-24 20:57 OP:edw  STATUS:               ID:20171124161526     3
+ 2017-11-24-1628-00M.COL___494                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       1636 24.76                             172   -0.2110 18.3 183 
+ BAR2 EZ ES       1636 39.45                             172    0.0210 18.3 183 
+ BAR2 EZ I        1636 40.65        16.9 0.14            173           18.3 183 
+ PAM  EZ EP       1636 27.60                             147   -0.5310 83.0  39 
+ PAM  EN ES       1636 45.13                             147    0.0710 83.0  39 
+ PAM  EZ I        1636 46.74         5.1 0.48            150           83.0  39 
+ RUS  HZ EP       1636 29.13                             143    0.0810 96.1 174 
+ RUS  HN ES       1636 47.11                             143    0.4210 96.1 174 
+ RUS  HZ I        1636 48.87         6.5 0.26            146           96.1 174 
+ PTB  HZ EP       1636 31.89                             131   -0.49 9  144 260 
+ PTB  HN ES       1636 52.42                             131   -0.19 9  144 260 
+ PTB  HZ I        1636 55.03         5.1 0.46            132            144 260 
+ ZAR  HZ EP       1636 39.45                             121    1.20 9  203 294 
+ ZAR  HE ES       1637  3.14                             121    0.08 9  203 294 
+ ZAR  HZ I        1637  8.73         6.6 0.18            122            203 294 
+ NOR  HZ EP       1636 41.24                             117    0.12 8  229 235 
+ NOR  HN ES       1637  7.78                             117   -0.40 8  229 235 
+ NOR  HZ I        1637 11.35         3.3 0.38            119            229 235 
+                                                                                

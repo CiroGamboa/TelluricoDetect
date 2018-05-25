@@ -1,0 +1,39 @@
+ 2017  3 6 0359 50.5 L   6.784 -73.117144.2  RSN 10 0.3 1.2LRSN                1
+ GAP= 73        0.68       3.9     3.9  4.6 -0.6810E+01 -0.5505E+01  0.6556E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-05-25 18:36 OP:jn   STATUS:               ID:20170306035950 L   I
+ OLDACT:UP  17-03-06 14:24 OP:and  STATUS:               ID:20170306035746     3
+ OLDACT:UP  17-03-06 14:23 OP:and  STATUS:               ID:20170306035746     3
+ OLDACT:UP  17-03-06 14:23 OP:and  STATUS:               ID:20170306035746     3
+ OLDACT:UP  17-03-06 14:22 OP:and  STATUS:               ID:20170306035746     3
+ OLDACT:UP  17-03-06 14:22 OP:and  STATUS:               ID:20170306035746     3
+ OLDACT:UP  17-03-06 14:21 OP:and  STATUS:               ID:20170306035746     3
+ OLDACT:REG 17-03-06 12:18 OP:and  STATUS:               ID:20170306035746     3
+ 2017-03-06-0358-00M.COL___387                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        4 0  9.74                             171   -0.1410 22.4 199 
+ BAR2 EZ ES        4 0 24.88                             171   -0.1410 22.4 199 
+ BAR2 EZ I         4 0 25.63         4.0 0.31            171           22.4 199 
+ BRR  HZ EP        4 0 11.32                             151   -0.3210 74.8 299 
+ BRR  HN ES        4 0 28.75                             151    0.5910 74.8 299 
+ BRR  HZ I         4 0 31.04         3.2 0.34            152           74.8 299 
+ PAM  EZ IP     C  4 0 12.56                             151    0.1010 76.8  37 
+ PAM  EN ES        4 0 29.32                             151   -0.3110 76.8  37 
+ PAM  EZ I         4 0 31.71         2.9 0.52            152           76.8  37 
+ RUS  HZ EP   2    4 0 13.65                             144   -0.26 5 98.7 178 
+ RUS  HN ES   2    4 0 32.82                             144    0.61 5 98.7 178 
+ RUS  HZ I         4 0 33.48         4.6 0.32            145           98.7 178 
+ PTB  HZ EP   9    4 0 16.58                             131   -0.96 0  151 260 
+ PTB  HN ES        4 0 37.58                             132   -0.13 9  151 260 
+ PTB  HZ I         4 0 38.48         1.2 0.17            132            151 260 
+ TAM  HZ EP        4 0 18.01                             131    0.33 9  152 105 
+ SPBC HZ EP        4 0 18.78                             128   -0.11 9  164 220 
+ SPBC HN ES        4 0 40.89                             128   -0.19 9  164 220 
+ SPBC HZ I         4 0 41.14         2.6 0.12            130            164 220 
+ NOR  HZ EP   2    4 0 26.73                             118    0.47 4  236 235 
+ CHI  HZ EP   2    4 0 28.20                             117    0.23 4  248 196 
+ CHI  HN ES   4    4 0 58.30                             117    1.06 0  248 196 
+ CHI  HZ I         4 0 59.82         0.7 0.12            118            248 196 
+ SJC  HZ EP   9    4 0 44.12                             105   -2.21 0  412 327 
+ SJC  HN ES   2    4 1 27.44                             106   -0.27 3  412 327 
+                                                                                

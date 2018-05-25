@@ -1,0 +1,20 @@
+ 2011  330 1323 36.7 L   6.789 -73.114144.0  RSN  7 0.2 1.9LRSN                1
+ GAP=180        0.33       2.7     4.2  5.1 -0.7388E+01 -0.1104E+02  0.8617E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UP  11-06-16 14:36 OP:jfem STATUS:               ID:20110330132336 L   I
+ 2011-03-30-1320-00M.COL___140                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO SNR AR TRES W  DIS CAZ7
+ BAR2 SZ IP       1323 56.06                             170     0.010   23 200 
+ BAR2 SZ I        1324 12.13        33.2 0.27                            23 200 
+ GIR2 SZ ES   3   1324 11.86                             166     0.5 2   33 345 
+ BRR  HZ IP     D 1323 57.82                             151     0.010   75 298 
+ BRR  HN ES   1   1324 14.38                             151     0.0 7   75 298 
+ GRA  SZ IP       1324  1.81                             136     0.010  126  16 
+ GRA  SZ ES   1   1324 21.29                             136    -0.1 7  126  16 
+ GRA  SZ I        1324 25.52        10.4 0.34                           126  16 
+ OCA  SZ ES   3   1324 26.68                             129    -0.4 2  162 352 
+ NOR  SE ES   2   1324 40.58                             118     0.1 4  237 235 
+ CHI  HZ EP   1   1324 14.42                             117     0.2 6  248 196 
+ CHI  HE ES   2   1324 43.19                             117    -0.4 4  248 196 
+ CHI  HZ I        1324 52.40         3.4 0.36                           248 196 
+                                                                                

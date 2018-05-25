@@ -1,0 +1,23 @@
+ 2010  420 0901  7.6 L   6.803 -72.930143.2  RSN  6 0.4 2.2LRSN                1
+ GAP=215        0.66       4.6    10.2  7.4 -0.2567E+02 -0.1990E+02  0.1232E+02E
+ Epicentro: CEPITA - SANTANDER                                                 3
+ ACTION:UPD 10-08-24 10:00 OP:vdl  STATUS:               ID:20100420090107 L   I
+ 2010-04-20-0857-35S.COL___100                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP   2    9 1 27.40                             165     0.2 5   36 230 
+ BAR2 SZ ES   2    9 1 42.56                             165     0.0 5   36 230 
+ BRR  HZ IP     D  9 1 29.85                             145     0.010   93 291 
+ BRR  HZ I         9 1 30.01        56.9 0.16                            93 291 
+ BRR  HN ES   1    9 1 47.04                             145    -0.1 7   93 291 
+ OCA  SZ IP        9 1 36.01                             128    -0.1 9  165 345 
+ OCA  SZ ES   2    9 1 58.38                             128     0.1 5  165 345 
+ OCA  SZ I         9 2  2.45        27.4 0.24                           165 345 
+ CHI  HN ES   2    9 2 16.20                             116     0.3 4  256 200 
+ CHI  HZ I         9 2 17.82         5.5 0.33                           256 200 
+ RREF BZ EP   1    9 1 56.72                             109     1.0 5  340 232 
+ RREF BE ES   1    9 2 33.27                             109     0.0 5  340 232 
+ RREF BZ I         9 2 39.59         3.3 0.56                           340 232 
+ PRA  HZ EP   1    9 2  1.64                             105    -0.8 4  405 213 
+ PRA  HN ES   1    9 2 44.87                             105    -0.4 4  405 213 
+ PRA  HZ I         9 2 48.95         3.5 0.25                           405 213 
+                                                                                

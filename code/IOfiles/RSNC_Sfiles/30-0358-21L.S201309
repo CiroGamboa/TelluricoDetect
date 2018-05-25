@@ -1,0 +1,54 @@
+ 2013  930 0358 21.2 L   6.590 -73.397120.0  RSN  8 0.3 1.8LRSN 2.5WRSN        1
+ SPEC AVERAGE  MO 12.8 ST  8.5 OM  1.4 f0 9.65 R0.6269 AL 0.00 WI 20.0 MW  2.5 3
+ SPEC SD       MO  0.5 ST 11.0 OM  0.6 f0 5.28 R1.1520 AL      WI      MW  0.4 3
+ GAP=121        0.87       3.4     4.2  6.1  0.2862E+01  0.1227E+02  0.2819E+01E
+ Epicentro: HATO - SANTANDER                                                   3
+ SPEC BAR2SH Z MO 12.7 ST  1.1 OM  1.2 f0 5.71 R0.2722 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC BAR2SH Z T 35849 K 0.000 GD  122 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH Z MO 12.4 ST  3.5 OM  0.9 f0 10.3 R0.1509 AL-0.00 WI 20.0 MW  2.2 3
+ SPEC BRR HH Z T 35852 K 0.000 GD  137 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 14.2 ST0.016 OM  2.6 f00.451 R3.4457 AL-0.00 WI 20.0 MW  3.4 3
+ SPEC RUS HH Z T 35855 K 0.000 GD  146 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 12.6 ST 34.5 OM  1.0 f0 19.2 R0.0809 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC PTB HH Z T 35858 K 0.000 GD  167 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SPBCHH Z MO 12.6 ST  5.9 OM  1.0 f0 10.5 R0.1480 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC SPBCHH Z T 359 0 K 0.000 GD  175 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH Z MO 12.7 ST  8.9 OM  1.0 f0 11.1 R0.1400 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC ZAR HH Z T 35912 K 0.000 GD  224 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH Z MO 12.7 ST  5.9 OM  0.9 f0 10.3 R0.1509 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC NOR HH Z T 35914 K 0.000 GD  232 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPECGUY2CHH Z MO 14.2 ST  0.0 OM  2.3 f00.538 R  2.89 AL-0.00 WI 20.0 MW  3.4 3
+ SPECGUY2CHH Z T 35928 K       GD290.9 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ OLDACT:REG 13-09-30 05:44 OP:nd   STATUS:               ID:20130930034959     3
+ ACTION:UPD 13-10-22 09:26 OP:ep   STATUS:               ID:20130930035821 L   I
+ OLDACT:UP  13-09-30 06:55 OP:nd   STATUS:               ID:20130930034959     3
+ 2013-09-30-0349-59M.COL___272                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C  358 37.81                             168    0.0710 23.7  89 
+ BAR2 SZ ES        358 50.57                             168   -0.0710 23.7  89 
+ BAR2 SZ I         358 51.63        29.5 0.18            172           23.7  89 
+ BRR  HZ IP     D  358 39.34                             149    0.0010 66.9 329 
+ BRR  HN ES        358 53.81                             149    0.3110 66.9 329 
+ BRR  HZ I         358 55.89        13.4 0.16            149           66.9 329 
+ BRR  SZ I         359  2.82        12.5 0.20                          66.9 329 
+ RUS  HZ EP        358 41.32                             143    0.0710 84.6 156 
+ RUS  HN ES        358 56.87                             143   -0.0310 84.6 156 
+ RUS  SZ I         358 58.24         9.8 0.30            147           84.6 156 
+ RUS  HZ I         358 58.46        10.2 0.22                          84.6 156 
+ PTB  HZ EP        358 42.30                             133   -0.9910  117 267 
+ PTB  HN ES   2    358 59.93                             133   -0.60 5  117 267 
+ PTB  HZ I         359  2.48        12.1 0.08            133            117 267 
+ PTB  SZ I         359  5.17        15.6 0.12                           117 267 
+ SPBC HZ EP        358 44.47                             130    0.1110  128 216 
+ SPBC HN ES        359  2.39                             130   -0.0510  128 216 
+ SPBC SZ I         359  4.01        12.9 0.14            132            128 216 
+ SPBC HZ I         359  4.11        12.8 0.10                           128 216 
+ ZAR  HZ EP        358 50.51                             118   -0.03 9  190 302 
+ ZAR  HN ES        359 13.63                             118    0.19 9  190 302 
+ ZAR  HZ I         359 17.63        13.0 0.32            120            190 302 
+ NOR  HZ EP        358 52.02                             117    0.46 9  199 235 
+ NOR  HN ES        359 15.56                             117    0.31 9  199 235 
+ GUY2CHZ EP   4    359  0.66                             110    1.10 0  265 235 
+ GUY2CHN ES   4    359 30.06                             110    0.56 0  265 235 
+ GUY2CHZ I         359 36.20         4.3 0.50                           265 235 
+                                                                                

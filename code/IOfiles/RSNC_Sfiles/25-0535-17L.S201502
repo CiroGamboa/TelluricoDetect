@@ -1,0 +1,28 @@
+ 2015  225 0535 17.4 L   6.813 -73.214141.2  RSN  6 0.4 1.7LRSN                1
+ GAP=128        1.10       4.3     5.4  7.4 -0.2647E+01  0.4281E+01 -0.3546E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 15-04-30 21:29 OP:nd   STATUS:               ID:20150225053517 L   I
+ OLDACT:UP  15-02-25 17:57 OP:mher STATUS:               ID:20150225052745     3
+ OLDACT:UP  15-02-25 17:57 OP:mher STATUS:               ID:20150225052745     3
+ OLDACT:REG 15-02-25 13:47 OP:mh   STATUS:               ID:20150225052745     3
+ 2015-02-25-0527-45M.COL___290                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        535 36.71                             170    0.1710 24.7 172 
+ BAR2 EZ ES        535 51.08                             170   -0.3610 24.7 172 
+ BAR2 EZ I         535 53.58        12.3 0.24            171           24.7 172 
+ BRR  HZ EP        535 38.51                             154    0.8310 63.9 301 
+ BRR  HN ES        535 54.02                             154    0.5410 63.9 301 
+ BRR  HZ I         535 56.18        12.4 0.14            155           63.9 301 
+ PAM  SZ EP     C  535 39.77                             149    0.3610 81.3  44 
+ PAM  SN ES        535 56.42                             149   -0.1310 81.3  44 
+ PAM  SZ I         535 58.91         9.3 0.76            151           81.3  44 
+ RUS  HZ EP        535 40.95                             142    0.0510  103 172 
+ RUS  HN ES        535 59.08                             142   -0.1310  103 172 
+ RUS  HZ I         536  1.04         5.5 0.38            145            103 172 
+ PTB  HZ EP        535 43.23                             132   -0.15 9  141 258 
+ PTB  HN ES        536  3.20                             132   -0.42 9  141 258 
+ PTB  HZ I         536  5.40         7.2 0.32            135            141 258 
+ OCA  HZ EP        535 44.45                             129   -0.73 9  158 356 
+ OCA  HN ES        536  6.58                             129   -0.25 9  158 356 
+ OCA  HZ I         536  9.35         6.2 0.22            131            158 356 
+                                                                                

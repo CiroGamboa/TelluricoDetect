@@ -1,0 +1,31 @@
+ 2017  517 0741 11.1 L   6.775 -73.071150.0  RSN  7 0.4 1.7LRSN                1
+ GAP=127        1.06       6.5     6.3  8.7 -0.1913E+02 -0.3994E+01  0.2564E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-06-16 13:36 OP:jn   STATUS:               ID:20170517074111 L   I
+ OLDACT:UP  17-05-17 15:47 OP:dnl  STATUS:               ID:20170517073730     3
+ OLDACT:UP  17-05-17 15:47 OP:dnl  STATUS:               ID:20170517073730     3
+ OLDACT:REG 17-05-17 13:48 OP:dnl  STATUS:               ID:20170517073730     3
+ 2017-05-17-0738-00M.COL___350                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  EZ IP     C  741 33.98                             152    0.4010 74.7  33 
+ PAM  EN ES        741 51.07                             152   -0.0710 74.7  33 
+ PAM  EZ I         741 52.81         7.6 0.58            158           74.7  33 
+ BRR  HZ EP        741 33.00                             150   -0.1610 79.8 297 
+ BRR  HE ES        741 50.24                             150   -0.1610 79.8 297 
+ BRR  HZ I         741 53.50         4.6 0.14            154           79.8 297 
+ PTB  HZ EP        741 38.05                             131   -1.01 9  155 260 
+ PTB  HN ES   4    741 59.24                             131   -1.66 0  155 260 
+ PTB  HZ I         742  6.60         5.0 0.40            133            155 260 
+ SPBC HZ EP        741 40.20                             129    0.01 9  166 222 
+ SPBC HN ES        742  3.28                             129    0.37 9  166 222 
+ SPBC HZ I         742  3.89         9.1 0.18            130            166 222 
+ ZAR  HZ EP        741 45.47                             122    0.79 8  213 292 
+ ZAR  HN ES   4    742  9.52                             122   -1.38 0  213 292 
+ ZAR  HZ I         742 15.48         4.8 0.52            125            213 292 
+ NOR  HZ EP   1    741 47.48                             119   -0.11 6  240 236 
+ NOR  HN ES        742 16.27                             119    0.19 8  240 236 
+ NOR  HZ I         742 21.79         3.3 0.16            120            240 236 
+ PTGC HZ EP        741 54.28                             113   -0.21 7  303 160 
+ PTGC HE ES   4    742 27.20                             113   -1.16 0  303 160 
+ PTGC HZ I         742 40.49         1.9 0.62            114            303 160 
+                                                                                

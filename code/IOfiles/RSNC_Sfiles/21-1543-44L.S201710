@@ -1,0 +1,24 @@
+ 2017 1021 1543 44.4 L   6.631 -74.185 24.8  RSN  6 0.4 1.3LRSN                1
+ GAP=128        1.01       3.6     3.3  5.1  0.3141E+01 -0.1253E+02 -0.7636E+01E
+ Epicentro: PUERTO PARRA - SANTANDER                                           3
+ ACTION:UPD 17-11-07 19:34 OP:rebc STATUS:               ID:20171021154344 L   I
+ OLDACT:UP  17-10-21 23:42 OP:edw  STATUS:               ID:20171021153514     3
+ OLDACT:REG 17-10-21 20:44 OP:edw  STATUS:               ID:20171021153514     3
+ 2017-10-21-1538-00M.COL___453                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PTB  HZ EP       1543 50.64                             126   -0.1710 31.7 251 
+ PTB  HN ES       1543 55.86                             126    0.0110 31.7 251 
+ PTB  HZ I        1543 56.15        25.0 0.20            114           31.7 251 
+ BRR  HZ EP       1543 56.44                              71   -0.2110 74.2  45 
+ BRR  HN ES       1544  6.41                              71    0.1710 74.2  45 
+ BAR2 EZ EP       1544  1.53                              56   -0.4510  111  92 
+ BAR2 EZ ES       1544 15.30                              56   -0.4310  111  92 
+ BAR2 EZ I        1544 16.53        11.1 0.52             97            111  92 
+ ZAR  HN ES       1544 17.39                              56   -0.0510  121 322 
+ RUS  HZ EP       1544  7.15                              56    0.39 9  147 124 
+ RUS  HN ES       1544 24.39                              56    0.15 9  147 124 
+ RUS  HZ I        1544 26.82         4.1 0.46             56            147 124 
+ PAM  EZ EP       1544 12.20                              56    1.05 9  182  64 
+ PAM  EN ES       1544 31.81                              56   -0.24 9  182  64 
+ PAM  EZ I        1544 35.87         2.9 0.46             56            182  64 
+                                                                                

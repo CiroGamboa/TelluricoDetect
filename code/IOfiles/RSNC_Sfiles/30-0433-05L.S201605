@@ -1,0 +1,34 @@
+ 2016  530 0433  5.7 L   6.839 -73.173147.1  RSN  8 0.5 2.1LRSN                1
+ GAP=139        1.30       5.0     6.7  7.7 -0.1563E+02  0.1435E+02 -0.4022E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 16-08-18 17:50 OP:cam  STATUS:               ID:20160530043305 L   I
+ OLDACT:UP  16-05-30 16:45 OP:edw  STATUS:               ID:20160530042742d    3
+ OLDACT:DUP 16-05-30 16:41 OP:edw  STATUS:               ID:20160530042742d    3
+ OLDACT:UP  16-05-30 16:28 OP:edw  STATUS:               ID:20160530042741     3
+ OLDACT:REG 16-05-30 13:05 OP:edw  STATUS:               ID:20160530042741     3
+ 2016-05-30-0427-41M.COL___310                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        433 25.44                             169   -0.1510 27.3 182 
+ BAR2 EZ ES        433 40.16                             169   -0.9410 27.3 182 
+ BAR2 EZ I         433 41.75        32.3 0.18            169           27.3 182 
+ BRR  HZ EP        433 27.35                             154    0.5910 66.5 297 
+ BRR  HN ES        433 44.27                             154    1.1010 66.5 297 
+ PAM  EZ EP        433 28.27                             151    0.2710 76.1  43 
+ PAM  EN ES        433 45.42                             151    0.0410 76.1  43 
+ PAM  EZ I         433 47.48        17.9 0.48            154           76.1  43 
+ PTB  HZ EP        433 32.15                             133   -0.46 9  146 257 
+ PTB  HN ES        433 53.23                             133   -0.36 9  146 257 
+ PTB  HZ I         433 55.64        14.8 0.22            133            146 257 
+ OCA  HZ EP        433 33.94                             131    0.24 9  156 354 
+ OCA  HN ES        433 55.15                             131   -0.38 9  156 354 
+ OCA  HZ I         434  0.41        24.3 0.46            132            156 354 
+ SPBC HZ EP        433 34.45                             129   -0.01 9  165 217 
+ SPBC HN ES        433 56.87                             129   -0.01 9  165 217 
+ SPBC HZ I         434  2.23        18.6 0.40            130            165 217 
+ NOR  HZ EP        433 42.14                             119    0.61 8  235 233 
+ NOR  HN ES        434  9.48                             119    0.01 8  235 233 
+ NOR  HZ I         434 16.24        10.0 0.20            119            235 233 
+ SJC  HZ EP        434  0.41                             106   -0.30 6  404 327 
+ SJC  HN ES        434 42.46                             106   -1.14 6  404 327 
+ SJC  HZ I         434 44.63         1.8 0.36            107            404 327 
+                                                                                

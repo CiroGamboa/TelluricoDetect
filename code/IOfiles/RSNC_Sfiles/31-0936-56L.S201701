@@ -1,0 +1,72 @@
+ 2017  131 0936 56.2 L   6.819 -73.177143.6  RSN 16 0.4 2.2LRSN                1
+ GAP= 66        0.72       2.4     2.4  3.9 -0.5224E+00  0.2772E+01 -0.1971E+00E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 17-05-22 16:05 OP:jn   STATUS:               ID:20170131093656 L   I
+ OLDACT:UP  17-01-31 17:13 OP:and  STATUS:               ID:20170131092751d    3
+ OLDACT:UP  17-01-31 17:13 OP:and  STATUS:               ID:20170131092751d    3
+ OLDACT:UP  17-01-31 17:11 OP:and  STATUS:               ID:20170131092751d    3
+ OLDACT:UP  17-01-31 17:10 OP:and  STATUS:               ID:20170131092751d    3
+ OLDACT:UP  17-01-31 17:09 OP:and  STATUS:               ID:20170131092751d    3
+ OLDACT:UP  17-01-31 17:08 OP:and  STATUS:               ID:20170131092751d    3
+ OLDACT:UP  17-01-31 17:08 OP:and  STATUS:               ID:20170131092751d    3
+ OLDACT:UP  17-01-31 17:06 OP:and  STATUS:               ID:20170131092751d    3
+ OLDACT:UP  17-01-31 17:06 OP:and  STATUS:               ID:20170131092751d    3
+ OLDACT:DUP 17-01-31 17:04 OP:and  STATUS:               ID:20170131092751d    3
+ OLDACT:UP  17-01-31 17:02 OP:and  STATUS:               ID:20170131092750d    3
+ OLDACT:UP  17-01-31 17:02 OP:and  STATUS:               ID:20170131092750d    3
+ OLDACT:UP  17-01-31 17:01 OP:and  STATUS:               ID:20170131092750d    3
+ OLDACT:UP  17-01-31 16:57 OP:and  STATUS:               ID:20170131092750d    3
+ OLDACT:DUP 17-01-31 16:55 OP:and  STATUS:               ID:20170131092750d    3
+ OLDACT:UP  17-01-31 16:54 OP:and  STATUS:               ID:20170131092749     3
+ OLDACT:UP  17-01-31 16:52 OP:and  STATUS:               ID:20170131092749     3
+ OLDACT:UP  17-01-31 16:51 OP:and  STATUS:               ID:20170131092749     3
+ OLDACT:REG 17-01-31 14:21 OP:dnl  STATUS:               ID:20170131092749     3
+ 2017-01-31-0928-00M.COL___325                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     D  937 15.69                             170    0.0810 25.1 181 
+ BAR2 EZ ES        937 30.68                             170   -0.0710 25.1 181 
+ BAR2 EZ I         937 32.81        59.2 0.32            169           25.1 181 
+ BRR  HZ IP     D  937 17.55                             153    0.6610 67.1 298 
+ BRR  HN ES   3    937 34.67                             153    1.64 2 67.1 298 
+ BRR  HZ I         937 35.61        31.5 0.18            149           67.1 298 
+ PAM  EZ EP     D  937 18.43                             150    0.2110 78.1  42 
+ PAM  EN ES        937 35.20                             150   -0.2110 78.1  42 
+ PAM  EZ I         937 37.89        54.0 0.50            148           78.1  42 
+ RUS  HZ EP        937 19.81                             143   -0.1010  103 174 
+ RUS  HN ES        937 38.46                             143    0.0510  103 174 
+ RUS  HZ I         937 39.61        65.0 0.32            139            103 174 
+ PTB  HZ EP        937 22.42                             132   -0.30 9  145 258 
+ PTB  HN ES        937 43.34                             132   -0.07 9  145 258 
+ PTB  HZ I         937 50.35        20.4 0.14            128            145 258 
+ TAM  HZ IP     D  937 24.14                             129    0.07 9  159 105 
+ TAM  HZ I         937 45.16         7.4 0.38            126            159 105 
+ TAM  HN ES   2    937 45.70                             129   -0.11 5  159 105 
+ ZAR  HZ EP   2    937 28.27                             122    0.18 4  200 292 
+ ZAR  HN ES        937 53.00                             122    0.04 9  200 292 
+ ZAR  HZ I         938  2.56        17.3 0.22            118            200 292 
+ CHI  HZ EP        937 33.91                             117    0.01 8  250 194 
+ CHI  HN ES        938  3.10                             117   -0.21 8  250 194 
+ CHI  HZ I         938  7.26        13.0 0.68            113            250 194 
+ ROSC BZ EP   9    937 35.76                             116    1.56 0  253 210 
+ ROSC BN ES        938  5.41                             116    0.00 8  253 210 
+ ROSC BZ I         938 13.94        17.8 0.30            113            253 210 
+ URE  HZ EP        937 36.28                             113   -0.43 7  280 292 
+ URE  HN ES   4    938  6.66                             113   -1.65 0  280 292 
+ URE  HZ I         938 20.63         9.8 0.14            110            280 292 
+ PTGC HZ EP   9    937 38.97                             111   -1.35 0  312 158 
+ PTGC HN ES        938 12.44                             111   -0.95 7  312 158 
+ CBOC HZ EP   3    937 44.02                             110    1.30 2  331 252 
+ CBOC HN ES        938 18.62                             110   -0.38 7  331 252 
+ CBOC HZ I         938 30.82         3.2 0.40            106            331 252 
+ ORTC HZ EP        937 50.06                             106    0.06 6  395 216 
+ ORTC HN ES   4    938 33.91                             106    1.94 0  395 216 
+ ORTC HZ I         938 37.05         6.5 0.34            103            395 216 
+ PAL  HZ EP        937 51.26                             106    0.20 6  404 239 
+ PAL  HN ES        938 34.11                             106    0.25 6  404 239 
+ PAL  HZ I         938 38.12         3.3 0.27            103            404 239 
+ SJC  HZ EP   4    937 49.89                             105   -1.36 0  406 327 
+ SJC  HN ES   4    938 31.37                             105   -2.83 0  406 327 
+ SJC  HZ I         938 35.47         2.8 0.50            103            406 327 
+ CRJC HZ EP   4    937 56.12                             103   -2.29 0  466   4 
+ CRJC HN ES        938 46.17                             103   -0.77 5  466   4 
+                                                                                

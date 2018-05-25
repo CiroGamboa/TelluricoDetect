@@ -1,0 +1,64 @@
+ 2013  827 2319  1.4 L   6.795 -73.121139.2  RSN 13 0.5 1.8LRSN 2.4WRSN        1
+ SPEC AVERAGE  MO 12.6 ST  1.8 OM  1.1 f0 6.40 R0.2842 AL 0.00 WI 20.0 MW  2.4 3
+ SPEC SD       MO  0.1 ST  1.6 OM  0.2 f0 2.46 R0.1155 AL      WI      MW  0.1 3
+ GAP=140        1.21       3.5     4.5  6.0 -0.4377E+01  0.5098E+01  0.3215E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 12.7 ST0.398 OM  1.2 f0 3.94 R0.3944 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC BAR2SH Z T231933 K 0.000 GD  141 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH Z MO 12.6 ST0.966 OM  1.0 f0 5.95 R0.2612 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC BRR HH Z T231937 K 0.000 GD  157 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 12.5 ST0.334 OM  0.9 f0 4.50 R0.3453 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC PAM SH Z T231938 K 0.000 GD  158 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 12.5 ST0.112 OM  0.9 f0 3.05 R0.5095 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC RUS HH Z T231940 K 0.000 GD  171 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 12.5 ST  4.9 OM  0.8 f0 10.9 R0.1426 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC PTB HH Z T231945 K 0.000 GD  204 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SPBCHH Z MO 12.6 ST  3.5 OM  0.9 f0 8.90 R0.1746 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC SPBCHH Z T231950 K 0.000 GD  215 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH Z MO 12.8 ST  2.3 OM  1.0 f0 6.77 R0.2295 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC ZAR HH Z T231957 K 0.000 GD  249 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH Z MO 12.6 ST  1.9 OM  0.8 f0 7.17 R0.2167 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC NOR HH Z T2320 3 K 0.000 GD  274 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPECGUY2CHH Z MO 14.9 ST  0.0 OM  3.0 f00.204 R  7.63 AL-0.00 WI 20.0 MW  3.9 3
+ SPECGUY2CHH Z T232017 K       GD333.4 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ OLDACT:DUP 13-08-28 03:59 OP:stll STATUS:               ID:20130827230851d    3
+ ACTION:UPD 14-01-14 09:07 OP:ep   STATUS:               ID:20130827231901 L   I
+ OLDACT:UP  13-08-28 04:21 OP:stll STATUS:               ID:20130827230851d    3
+ 2013-08-27-2308-49M.COL___215                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       2319 20.48                             170    0.1910 23.4 197 
+ BAR2 SZ ES       2319 35.24                             170    0.2510 23.4 197 
+ BAR2 SZ I        2319 37.01         9.8 0.12            166           23.4 197 
+ BRR  HZ EP       2319 22.31                             150    0.2710 73.8 298 
+ BRR  HN ES       2319 38.54                             150    0.4310 73.8 298 
+ BRR  SZ I        2319 46.89        12.7 2.62            157           73.8 298 
+ PAM  SZ EP       2319 23.47                             150    0.5810 76.1  38 
+ PAM  SN ES       2319 39.79                             150    0.1710 76.1  38 
+ PAM  SZ I        2319 42.98         5.6 0.16            159           76.1  38 
+ RUS  HZ EP       2319 24.52                             142    0.0210 99.9 178 
+ RUS  HN ES       2319 42.20                             142   -0.2910 99.9 178 
+ RUS  SZ I        2320  5.55         5.6 4.82            144           99.9 178 
+ CAPV BZ EP       2319 27.75                             130   -0.45 9  148  37 
+ PTB  HZ EP   9   2319 27.28                             130   -0.84 0  150 259 
+ PTB  HN ES       2319 47.42                                   -0.67 9  150 259 
+ PTB  SZ I        2319 51.31         7.7 0.40            136            150 259 
+ OCA  HN ES       2319 49.91                             128   -1.19 9  161 352 
+ SPBC HZ EP       2319 29.45                             127   -0.12 9  164 220 
+ SPBC HN ES       2319 51.71                             127    0.20 9  164 220 
+ SPBC SZ I        2319 56.46         8.0 0.18            131            164 220 
+ ZAR  HZ EP       2319 33.83                             120    0.08 8  207 292 
+ ZAR  HN ES       2319 58.63                             120   -0.33 8  207 292 
+ ZAR  SZ I        2320  3.56         7.6 0.70            128            207 292 
+ NOR  HZ EP       2319 36.74                             117   -0.26 8  237 235 
+ NOR  HN ES       2320  4.81                             117    0.07 8  237 235 
+ NOR  SZ I        2320 10.60         5.0 0.16            122            237 235 
+ CHI  HZ EP       2319 38.91                             116    0.10 8  249 196 
+ CHI  HN ES       2320  6.78                             116   -1.17 8  249 196 
+ CHI  SZ I        2320 14.35         5.1 1.84            120            249 196 
+ GUY2CHZ EP       2319 45.95                             111    0.98 7  303 235 
+ GUY2CHN ES       2320 19.35                             111    0.43 7  303 235 
+ GUY2CSZ I        2320 23.63         4.8 2.98                           303 235 
+ RREF HZ EP       2319 48.05                             109    0.55 7  323 230 
+ RREF HN ES       2320 22.78                             109   -0.65 7  323 230 
+ RREF SZ I        2320 31.09         4.2 2.52            114            323 230 
+                                                                                

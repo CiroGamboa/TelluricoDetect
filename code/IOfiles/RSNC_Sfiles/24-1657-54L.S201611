@@ -1,0 +1,33 @@
+ 2016 1124 1657 54.1 L   7.314 -73.445104.5  RSN  7 0.2 1.8LRSN                1
+ GAP=171        0.60       3.3     2.1  4.1 -0.5572E+00  0.2531E+01 -0.1221E+01E
+ Epicentro: SABANA DE TORRES - SANTANDER                                       3
+ ACTION:UPD 17-10-26 21:11 OP:lp   STATUS:               ID:20161124165754 L   I
+ OLDACT:UP  16-11-24 23:34 OP:edw  STATUS:               ID:20161124164745d    3
+ OLDACT:UP  16-11-24 23:33 OP:edw  STATUS:               ID:20161124164745d    3
+ OLDACT:DUP 16-11-24 23:31 OP:edw  STATUS:               ID:20161124164745d    3
+ OLDACT:UP  16-11-24 23:30 OP:edw  STATUS:               ID:20161124164744     3
+ OLDACT:REG 16-11-24 20:23 OP:edw  STATUS:               ID:20161124164744     3
+ 2016-11-24-1648-00M.COL___349                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP       1658  8.47                             159   -0.4510 37.3 232 
+ BRR  HE ES       1658 20.38                             159   -0.1110 37.3 232 
+ BRR  HZ I        1658 21.28        25.9 0.38            154           37.3 232 
+ PAM  EZ EP       1658 12.38                             139   -0.1110 82.4  88 
+ PAM  EN ES       1658 26.99                             139    0.1310 82.4  88 
+ PAM  EZ I        1658 27.62         5.8 0.32            140           82.4  88 
+ BAR2 EZ EP       1658 12.28                             138   -0.0710 84.9 160 
+ BAR2 EZ ES       1658 26.89                             138    0.2810 84.9 160 
+ BAR2 EZ I        1658 27.73        26.9 0.28            136           84.9 160 
+ PTB  HZ EP   9   1658 16.01                             122   -1.30 0  141 233 
+ PTB  HN ES       1658 34.08                             123   -0.06 9  141 233 
+ PTB  HZ I        1658 38.94         8.9 0.22            120            141 233 
+ ZAR  HZ EP       1658 19.08                             119    0.05 9  157 277 
+ ZAR  HN ES       1658 38.80                             119    0.30 9  157 277 
+ ZAR  HZ I        1658 40.87        14.5 0.16            117            157 277 
+ NOR  HZ EP       1658 29.83                             107    0.31 8  250 219 
+ NOR  HN ES       1658 56.93                             107   -0.24 8  250 219 
+ NOR  HZ I        1659  3.18         3.1 0.12            105            250 219 
+ SJC  HZ EP   4   1658 39.29                             100   -1.39 0  344 326 
+ SJC  HN ES   4   1659 13.95                             100   -3.09 0  344 326 
+ SJC  HZ I        1659 17.50         2.2 0.26            100            344 326 
+                                                                                

@@ -1,0 +1,30 @@
+ 2016  629 0704 40.7 L   6.739 -73.109147.3  RSN  7 0.2 1.5LRSN                1
+ GAP=144        0.64       2.8     2.9  4.2 -0.1075E+01  0.3943E+01 -0.9946E+00E
+ Epicentro: JORDAN - SANTANDER                                                 3
+ ACTION:UPD 16-07-21 22:24 OP:rebc STATUS:               ID:20160629070440 L   I
+ OLDACT:UP  16-06-29 17:37 OP:edw  STATUS:               ID:20160629065745     3
+ OLDACT:REG 16-06-29 13:16 OP:edw  STATUS:               ID:20160629065745     3
+ 2016-06-29-0657-45M.COL___343                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        7 5  0.59                             173    0.1410 18.1 206 
+ BAR2 EZ ES        7 5 16.20                             173    0.3810 18.1 206 
+ BAR2 EZ I         7 5 17.03         4.0 0.14                          18.1 206 
+ BRR  HZ EP        7 5  2.43                             151   -0.0110 78.0 301 
+ BRR  HN ES        7 5 19.48                             151    0.1110 78.0 301 
+ BRR  HZ I         7 5 20.92         5.8 0.14                          78.0 301 
+ PAM  EZ EP        7 5  3.39                             150    0.1110 80.4  34 
+ PAM  EN ES        7 5 20.64                             150   -0.2310 80.4  34 
+ PAM  EZ I         7 5 22.42         5.2 0.50                          80.4  34 
+ RUS  HE ES        7 5 21.98                             146   -0.4210 93.6 178 
+ PTB  HZ EP        7 5  8.04                             132   -0.03 9  151 262 
+ PTB  HN ES        7 5 29.04                             132   -0.36 9  151 262 
+ PTB  HZ I         7 5 30.67         4.8 0.20                           151 262 
+ SPBC HZ EP        7 5  9.03                             130   -0.07 9  161 222 
+ SPBC HN ES        7 5 31.60                             130    0.37 9  161 222 
+ SPBC HZ I         7 5 33.97         4.0 0.26                           161 222 
+ ZAR  HZ EP        7 5 14.03                             122    0.11 8  210 293 
+ ZAR  HN ES        7 5 39.71                             122   -0.10 8  210 293 
+ ZAR  HZ I         7 5 49.11         2.8 0.24                           210 293 
+ SJC  HZ EP   4    7 5 35.24                             106   -2.02 0  417 327 
+ SJC  HN ES   4    7 6 16.95                             106   -4.41 0  417 327 
+                                                                                

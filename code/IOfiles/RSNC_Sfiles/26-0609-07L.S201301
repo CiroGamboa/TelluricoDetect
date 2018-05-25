@@ -1,0 +1,51 @@
+ 2013  126 0609  7.1 L   6.812 -73.140139.5  RSN 10 0.6 2.2LRSN 2.8WRSN        1
+ SPEC AVERAGE  MO 13.2 ST  1.6 OM  1.7 f0 3.77 R0.4036 AL 1.76 WI 17.4 MW  2.8 3
+ SPEC SD       MO  0.2 ST  1.2 OM  0.4 f00.678 R0.0758 AL      WI      MW  0.2 3
+ GAP= 71        1.47       4.8     4.3  8.2  0.1872E+01  0.7755E+01  0.7093E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC RUS HH N MO 12.9 ST0.378 OM  1.3 f0 3.24 R0.4537 AL 1.27 WI 12.3 MW  2.5 3
+ SPEC RUS HH N T 6 947 K 0.000 GD  172 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.3 ST0.522 OM  1.4 f0 2.76 R0.5326 AL 1.68 WI 21.6 MW  2.8 3
+ SPEC HEL HH N T 61017 K 0.000 GD  306 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 13.7 ST  3.6 OM  2.0 f0 3.76 R0.3910 AL 1.69 WI 17.1 MW  3.1 3
+ SPEC OCA HH N T 6 954 K 0.000 GD  211 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 13.1 ST  1.8 OM  0.8 f0 4.53 R0.3245 AL 1.81 WI 16.2 MW  2.7 3
+ SPEC PAM SH Z T 6 928 K 0.000 GD  158 VP 7.60 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.3 ST0.930 OM  1.5 f0 3.17 R0.4637 AL 1.88 WI 23.6 MW  2.8 3
+ SPEC CHI HH N T 61012 K 0.000 GD  286 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.4 ST  3.0 OM  1.8 f0 4.57 R0.3217 AL 2.51 WI 20.2 MW  2.9 3
+ SPEC BRR HH N T 6 944 K 0.000 GD  156 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BAR2SH Z MO 13.0 ST  1.2 OM  1.5 f0 4.35 R0.3379 AL 1.45 WI 11.0 MW  2.6 3
+ SPEC BAR2SH Z T 6 939 K 0.000 GD  141 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:16 OP:ep   STATUS:               ID:20130126060907 L   I
+ 2013-01-26-0608-37M.COL___186                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP        6 9 26.04                             169    0.0010 24.8 191 
+ BAR2 SZ ES        6 9 40.41                             169   -0.3710 24.8 191 
+ BAR2 SZ I         6 9 41.96        24.9 0.18            169           24.8 191 
+ BRR  HZ EP        6 9 27.91                             151    0.3110 71.1 297 
+ BRR  HN ES        6 9 44.70                             151    1.1410 71.1 297 
+ BRR  HN I         6 9 48.86        45.0 0.16            151           71.1 297 
+ PAM  SZ EP        6 9 28.97                             150    0.3810 75.9  40 
+ PAM  SZ I         6 9 29.19        18.9 0.22            153           75.9  40 
+ PAM  SN ES        6 9 45.55                             150    0.2210 75.9  40 
+ RUS  HZ EP        6 9 30.07                             142   -0.3010  102 176 
+ RUS  HN ES        6 9 48.27                             142   -0.2210  102 176 
+ RUS  HN I         6 9 50.30        21.6 0.42            143            102 176 
+ PTB  HZ EP        6 9 32.75                             130   -0.93 9  149 258 
+ PTB  HE ES        6 9 53.84                             130   -0.54 9  149 258 
+ PTB  HN I         6 9 58.98        36.9 0.30            131            149 258 
+ TAM  HZ EP        6 9 34.14                             129   -0.15 9  155 106 
+ TAM  HE ES        6 9 55.85                             129    0.37 9  155 106 
+ TAM  HN I         6 9 59.87        14.1 0.36            131            155 106 
+ OCA  HN ES        6 9 55.44                             128   -1.01 9  159 353 
+ OCA  HN I         610  1.68        50.5 0.30            130            159 353 
+ ZAR  HZ EP        6 9 39.56                             121    0.37 9  204 292 
+ ZAR  HN ES        610  3.52                             121   -0.67 9  204 292 
+ CHI  HZ EP        6 9 44.52                             116   -0.13 8  250 195 
+ CHI  HN ES        610 13.73                             116   -0.19 8  250 195 
+ CHI  HN I         610 19.92         8.9 0.32            117            250 195 
+ HEL  HZ EP        6 9 48.19                             113    1.05 8  273 256 
+ HEL  HN ES        610 19.39                             113    1.04 8  273 256 
+ HEL  HN I         610 25.66         7.3 0.40            114            273 256 
+                                                                                

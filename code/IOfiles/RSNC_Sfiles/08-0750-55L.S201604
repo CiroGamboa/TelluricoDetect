@@ -1,0 +1,35 @@
+ 2016  4 8 0750 55.7 L   6.837 -73.202137.8  RSN  8 0.4 1.7LRSN                1
+ GAP=130        0.95       4.4     5.2  6.9 -0.1293E+02  0.1399E+02 -0.4090E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 16-05-05 14:19 OP:rebc STATUS:               ID:20160408075055 L   I
+ OLDACT:UP  16-04-08 18:19 OP:mh   STATUS:               ID:20160408074746d    3
+ OLDACT:UP  16-04-08 18:19 OP:mh   STATUS:               ID:20160408074746d    3
+ OLDACT:UP  16-04-08 18:17 OP:mh   STATUS:               ID:20160408074746d    3
+ OLDACT:DUP 16-04-08 18:14 OP:mh   STATUS:               ID:20160408074746d    3
+ OLDACT:REG 16-04-08 12:47 OP:mh   STATUS:               ID:20160408074745     3
+ 2016-04-08-0747-45M.COL___322                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        751 14.27                             168   -0.2010 27.1 175 
+ BAR2 EZ ES        751 29.13                             168    0.0310 27.1 175 
+ BAR2 EZ I         751 30.68        10.2 0.35            171           27.1 175 
+ PAM  EZ EP        751 17.11                             149   -0.0510 78.6  45 
+ PAM  EN ES        751 34.07                             149    0.1810 78.6  45 
+ PAM  EZ I         751 36.44        11.9 0.50            152           78.6  45 
+ PTB  HZ EP        751 21.05                             131   -0.50 9  143 257 
+ PTB  HN ES        751 41.55                             131   -0.16 9  143 257 
+ PTB  HZ I         751 44.81        12.0 0.89            131            143 257 
+ OCA  HZ EP        751 22.58                             129   -0.38 9  156 355 
+ OCA  HN ES        751 44.55                             129    0.33 9  156 355 
+ OCA  HZ I         751 49.82        15.8 0.14            129            156 355 
+ SPBC HZ EP        751 23.35                             127   -0.20 9  163 216 
+ SPBC HN ES        751 45.36                             127    0.10 9  163 216 
+ SPBC HZ I         751 50.42         6.3 0.09            129            163 216 
+ HEL  HN ES        752  5.72                             114    0.13 8  267 255 
+ HEL  HZ I         752 14.22         2.5 0.36            115            267 255 
+ GUY2CHZ EP        751 39.96                             111    1.31 7  298 233 
+ GUY2CHN ES   4    752 15.07                             111    2.92 0  298 233 
+ GUY2CHZ I         752 18.91         1.9 0.25                           298 233 
+ MON  HZ EP   4    751 41.11                             108   -2.44 0  346 308 
+ MON  HN ES   4    752 20.09                             108   -0.77 0  346 308 
+ MON  HZ I         752 25.26         1.3 0.63            109            346 308 
+                                                                                

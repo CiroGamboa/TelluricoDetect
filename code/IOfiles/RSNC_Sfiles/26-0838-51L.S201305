@@ -1,0 +1,76 @@
+ 2013  526 0838 50.2 L   6.815 -73.160143.5  RSN 17 0.4 2.8LRSN 3.1WRSN        1
+ SPEC AVERAGE  MO 13.8 ST  7.5 OM  2.5 f0 4.13 R0.4030 AL 2.51 WI 21.3 MW  3.1 3
+ SPEC SD       MO  0.2 ST  7.3 OM  0.5 f0 1.17 R0.1251 AL      WI      MW  0.1 3
+ GAP= 64        0.90       2.3     2.9  4.8  0.4095E+00  0.3638E+01  0.2055E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC NOR HH N MO 13.9 ST 21.6 OM  2.1 f0 5.99 R0.2594 AL 3.20 WI 23.4 MW  3.2 3
+ SPEC NOR HH N T 83952 K 0.000 GD  274 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.1 ST 13.2 OM  2.4 f0 4.39 R0.3540 AL 2.97 WI 23.6 MW  3.4 3
+ SPEC OCA HH N T 83938 K 0.000 GD  213 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 13.8 ST  4.9 OM  2.1 f0 4.03 R0.3856 AL 1.84 WI 20.0 MW  3.1 3
+ SPEC PTB HH N T 83935 K 0.000 GD  205 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 13.5 ST  2.1 OM  1.9 f0 3.75 R0.4144 AL 2.88 WI 14.0 MW  3.0 3
+ SPEC RUS HH N T 83929 K 0.000 GD  176 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPECGUY2CHH N MO 13.9 ST0.922 OM  2.0 f0 2.14 R0.7277 AL 2.98 WI 24.9 MW  3.2 3
+ SPECGUY2CHH N T 840 6 K 0.000 GD  333 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.6 ST  1.1 OM  1.7 f0 2.95 R0.5268 AL 1.94 WI 25.4 MW  3.0 3
+ SPEC HEL HH N T 83959 K 0.000 GD  306 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.0 ST  2.1 OM  2.1 f0 2.71 R0.5734 AL 2.40 WI 27.1 MW  3.2 3
+ SPEC CHI HH N T 83954 K 0.000 GD  288 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.7 ST  7.6 OM  2.1 f0 5.06 R0.3071 AL 2.36 WI 15.7 MW  3.1 3
+ SPEC BRR HH N T 83926 K 0.000 GD  159 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-06-20 09:53 OP:ep   STATUS:               ID:20130526083851dL   I
+ 2013-05-26-0836-46M.COL___209                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     D  839  9.67                             170    0.0510 24.7 186 
+ BAR2 SZ ES   1    839 24.55                             170   -0.19 7 24.7 186 
+ BAR2 SZ I         839 25.87        92.9 0.42            168           24.7 186 
+ GIR2 SZ EP        839  9.72                             168    0.1410 29.4 353 
+ GIR2 SZ ES   1    839 24.24                             168   -0.44 7 29.4 353 
+ GIR2 SZ I         839 26.12        50.7 0.12            168           29.4 353 
+ BRR  HZ IP     C  839 11.48                             153    0.4710 69.0 298 
+ BRR  HN ES   1    839 28.06                             153    0.84 7 69.0 298 
+ BRR  HZ I         839 32.36        69.3 0.40            151           69.0 298 
+ PAM  SZ EP        839 12.36                             150    0.1710 77.2  41 
+ PAM  SE ES        839 29.76                             150    0.4410 77.2  41 
+ PAM  SE I         839 31.53        87.4 0.56            155           77.2  41 
+ RUS  HZ EP     C  839 13.62                             143   -0.2710  102 175 
+ RUS  HN ES        839 32.29                             143   -0.0510  102 175 
+ RUS  HN I         839 33.82       118.9 0.40            144            102 175 
+ PTB  HZ EP        839 16.18                             132   -0.72 9  147 258 
+ PTB  HN ES   1    839 37.16                             132   -0.54 7  147 258 
+ PTB  HN I         839 42.58       133.7 0.46            131            147 258 
+ TAM  HZ IP     D  839 18.07                             130    0.16 9  157 105 
+ TAM  HN ES   4    839 37.62                             130   -1.89 0  157 105 
+ TAM  HN I         839 44.11        28.8 0.44            133            157 105 
+ OCA  HZ EP   1    839 18.20                             129    0.01 7  158 354 
+ OCA  HN ES        839 39.67                             129   -0.34 9  158 354 
+ YOP  SZ EP   1    839 20.50                             125    0.17 7  181 153 
+ YOP  SN ES        839 43.61                             125   -0.19 9  181 153 
+ YOP  SN I         839 47.86        80.1 0.32            127            181 153 
+ ZAR  HZ EP   1    839 22.06                             122   -0.25 6  202 292 
+ ZAR  HN ES        839 47.10                             122   -0.23 9  202 292 
+ ZAR  HN I         839 55.91       102.3 0.16            123            202 292 
+ NOR  HZ EP   1    839 25.77                             118   -0.02 6  234 234 
+ NOR  HN ES        839 53.87                             118    0.34 8  234 234 
+ NOR  HN I         840  3.65       113.0 0.20            118            234 234 
+ SML  HZ EP   1    839 25.92                             117   -0.57 6  242 335 
+ SML  HN ES        839 54.36                             117   -0.42 8  242 335 
+ SML  HN I         840  0.79       100.3 0.28            119            242 335 
+ CHI  HZ EP   1    839 27.70                             116   -0.23 6  250 195 
+ CHI  HN ES        839 56.87                             116   -0.47 8  250 195 
+ CHI  HN I         839 59.44        54.8 0.36            117            250 195 
+ HEL  HZ EP   1    839 31.33                             114    1.13 6  271 255 
+ HEL  HN ES        840  1.72                             114    0.34 8  271 255 
+ HEL  HN I         840  7.44        27.5 0.26            115            271 255 
+ GUY2CHZ EP   1    839 34.54                             112    0.85 5  301 234 
+ GUY2CHN ES   4    840 10.07                             112    2.48 0  301 234 
+ GUY2CHN I         840 15.13        32.8 0.42                           301 234 
+ RREF HZ EP   1    839 37.15                             110    0.89 5  322 229 
+ RREF HN ES   2    840 12.97                             110    0.81 3  322 229 
+ RREF HZ I         840 21.93        25.7 0.34            111            322 229 
+ PRA  HZ EP   1    839 43.46                             106   -0.29 4  393 209 
+ PRA  HN ES   1    840 24.81                             106   -0.68 4  393 209 
+ PRA  HN I         840 31.55        19.5 0.38            107            393 209 
+ SMAR HN ES   4    840 42.46                             102   -4.50 0  495 346 
+                                                                                

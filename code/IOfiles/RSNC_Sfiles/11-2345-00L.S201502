@@ -1,0 +1,28 @@
+ 2015  211 2345  0.3 L   6.785 -73.176147.4  RSN  7 0.4 1.6LRSN                1
+ GAP=133        0.82       4.1     4.1  5.7 -0.4641E+01  0.3195E+01  0.3653E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 15-04-30 21:25 OP:nd   STATUS:               ID:20150211234500 L   I
+ OLDACT:DUP 15-02-12 05:56 OP:cam  STATUS:               ID:20150211233749d    3
+ OLDACT:UP  15-02-12 05:55 OP:cam  STATUS:               ID:20150211233748     3
+ OLDACT:REG 15-02-12 05:23 OP:cam  STATUS:               ID:20150211233748     3
+ 2015-02-11-2337-48M.COL___302                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP   1   2345 19.41                             171   -0.67 7 21.4 182 
+ BAR2 EZ ES       2345 35.83                             171    0.3110 21.4 182 
+ BAR2 EZ I        2345 36.28        16.5 0.16            166           21.4 182 
+ BRR  HN ES       2345 38.32                             154    0.2710 69.1 301 
+ PAM  SZ EP       2345 22.95                             150    0.0610 80.7  41 
+ PAM  SN ES       2345 40.21                             150   -0.3010 80.7  41 
+ PAM  SZ I        2345 42.42         3.8 0.58            140           80.7  41 
+ RUS  HZ EP       2345 24.20                             145    0.0910 99.3 174 
+ RUS  HE ES       2345 42.87                             145    0.1810 99.3 174 
+ RUS  HZ I        2345 43.83         4.3 0.18            132           99.3 174 
+ PTB  HZ EP       2345 26.99                             133   -0.09 9  144 259 
+ PTB  HN ES       2345 47.85                             133   -0.12 9  144 259 
+ PTB  HZ I        2345 52.03         4.3 0.36            119            144 259 
+ SPBC HZ EP   1   2345 28.65                             130    0.04 7  160 218 
+ SPBC HN ES       2345 50.21                             130   -0.48 9  160 218 
+ SPBC HZ I        2345 56.49         4.8 0.18            117            160 218 
+ NOR  HZ EP   1   2345 36.65                             119    0.92 6  231 234 
+ NOR  HZ I        2346 10.80         3.6 0.18            108            231 234 
+                                                                                

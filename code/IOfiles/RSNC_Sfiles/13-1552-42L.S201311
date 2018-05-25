@@ -1,0 +1,63 @@
+ 2013 1113 1552 42.5 L   7.581 -73.538113.5  RSN 12 0.5 2.0LRSN 2.6WRSN        1
+ SPEC AVERAGE  MO 13.0 ST236.3 OM  1.2 f0 23.4 R0.1330 AL 0.00 WI 20.0 MW  2.6 3
+ SPEC SD       MO  0.2 ST322.6 OM  0.3 f0 12.9 R0.1010 AL      WI      MW  0.1 3
+ GAP= 88        1.17       2.8     3.7  6.9  0.2939E-02  0.8278E+01  0.4849E+01E
+ Epicentro: SABANA DE TORRES - SANTANDER                                       3
+ SPEC BRR HH Z MO 13.1 ST470.1 OM  1.3 f0 40.0 R0.0481 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC BRR HH Z T155311 K 0.050 GD  126 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PAM SH Z MO 12.8 ST  6.6 OM  1.0 f0 11.5 R0.1673 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC PAM SH Z T155317 K 0.050 GD  148 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC BAR2SH Z MO 13.1 ST114.2 OM  1.2 f0 24.8 R0.0776 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC BAR2SH Z T155318 K 0.050 GD  162 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ZAR HH Z MO 13.0 ST119.1 OM  1.1 f0 26.0 R0.0740 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC ZAR HH Z T155324 K 0.050 GD  184 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC SML HH Z MO 13.4 ST999.9 OM  1.5 f0 40.0 R0.0481 AL-0.00 WI 20.0 MW  2.9 3
+ SPEC SML HH Z T155323 K 0.050 GD  185 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC RUS HH Z MO 12.6 ST0.517 OM  0.6 f0 5.84 R0.3295 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC RUS HH Z T155334 K 0.050 GD  223 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC SPBCHH Z MO 13.0 ST176.2 OM  0.9 f0 31.3 R0.0615 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC SPBCHH Z T155338 K 0.050 GD  248 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC NOR HH Z MO 13.1 ST  3.5 OM  1.0 f0 7.45 R0.2583 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC NOR HH Z T155349 K 0.050 GD  290 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPECGUY2CHH Z MO 12.9 ST  0.4 OM  0.7 f0 4.33 R 0.444 AL-0.00 WI 20.0 MW  2.5 3
+ SPECGUY2CHH Z T1554 2 K 0.050 GD349.0 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:REG 13-11-13 15:47 OP:stll STATUS:               ID:20131113154810     3
+ ACTION:UPD 14-01-09 16:27 OP:ep   STATUS:               ID:20131113155242 L   I
+ OLDACT:UP  13-11-13 18:27 OP:stll STATUS:               ID:20131113154810     3
+ 2013-11-13-1548-10M.COL___222                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     C 1552 59.60                             152    0.3510 55.8 200 
+ BRR  HN ES       1553 12.84                             152    0.5010 55.8 200 
+ BRR  HZ I        1553 15.70        30.5 0.24            153           55.8 200 
+ OCA  HZ EP       1553  0.86                             144    0.0310 76.6  18 
+ OCA  HN ES       1553 15.43                             144    0.2710 76.6  18 
+ OCA  HZ I        1553 17.29        59.4 0.40            148           76.6  18 
+ PAM  SZ EP       1553  2.95                             137    0.1210 96.4 106 
+ PAM  SN ES       1553 19.02                             137    0.2910 96.4 106 
+ PAM  HZ I        1553 21.79        12.6 0.46            143           96.4 106 
+ BAR2 SZ EP       1553  4.30                             131    0.0710  116 160 
+ BAR2 SZ ES       1553 20.43                             131   -0.7910  116 160 
+ BAR2 HZ I        1553 22.63        29.1 0.40            135            116 160 
+ ZAR  HZ EP       1553  6.60                             124   -0.22 9  146 266 
+ ZAR  HE ES       1553 25.84                             124    0.03 9  146 266 
+ ZAR  HZ I        1553 32.97        11.9 0.12            126            146 266 
+ SML  HZ EP       1553  6.68                             124   -0.24 9  147 337 
+ SML  HN ES       1553 25.41                             124   -0.59 9  147 337 
+ SML  HZ I        1553 33.24        37.0 0.08            127            147 337 
+ PTB  HZ EP       1553  7.49                             122   -0.10 9  153 221 
+ PTB  HN ES       1553 26.89                             122   -0.31 9  153 221 
+ PTB  HZ I        1553 28.19        14.0 0.18            125            153 221 
+ RUS  HZ EP       1553 12.13                             116   -0.34 9  193 165 
+ RUS  HN ES       1553 35.64                             116   -0.24 9  193 165 
+ RUS  HZ I        1553 40.07         3.9 1.14            120            193 165 
+ SPBC HZ EP       1553 14.94                             112   -0.13 8  221 196 
+ SPBC HN ES       1553 40.19                             112   -0.32 8  221 196 
+ SPBC HZ I        1553 47.91         9.0 0.28            115            221 196 
+ NOR  HZ EP       1553 20.52                             108    0.23 8  267 213 
+ NOR  HE ES       1553 50.53                             108    0.73 8  267 213 
+ NOR  HZ I        1553 57.11         6.0 0.18            111            267 213 
+ GUY2CHZ EP       1553 30.13                             104    1.97 7  330 218 
+ GUY2CHN ES       1554  3.77                             104   -0.04 7  330 218 
+ GUY2CHZ I        1554 19.60         3.8 2.12                           330 218 
+ RREF HN ES       1554  9.26                             102   -0.80 6  358 214 
+                                                                                

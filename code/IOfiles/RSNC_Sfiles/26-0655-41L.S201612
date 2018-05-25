@@ -1,0 +1,26 @@
+ 2016 1226 0655 41.9 L   6.700 -73.199148.8  RSN  5 0.2 1.1LRSN                1
+ GAP=223        0.57       4.4     4.0  4.4  0.1060E+02  0.2867E+01 -0.6473E-01E
+ Epicentro: VILLANUEVA - SANTANDER                                             3
+ ACTION:UPD 17-01-11 20:19 OP:rebc STATUS:               ID:20161226065541 L   I
+ OLDACT:UP  16-12-26 18:19 OP:edw  STATUS:               ID:20161226064744d    3
+ OLDACT:DUP 16-12-26 18:17 OP:edw  STATUS:               ID:20161226064744d    3
+ OLDACT:UP  16-12-26 18:17 OP:edw  STATUS:               ID:20161226064743     3
+ OLDACT:UP  16-12-26 18:15 OP:edw  STATUS:               ID:20161226064743     3
+ OLDACT:REG 16-12-26 12:54 OP:edw  STATUS:               ID:20161226064743     3
+ 2016-12-26-0648-00M.COL___366                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        656  1.55                             175   -0.2010 12.0 171 
+ BAR2 EZ ES        656 17.00                             175   -0.2110 12.0 171 
+ BRR  HZ EP        656  3.39                             153   -0.0810 72.5 308 
+ BRR  HE ES        656 20.62                             153    0.3410 72.5 308 
+ BRR  HZ I         656 20.98         2.9 0.38            151           72.5 308 
+ RUS  HZ EP        656  5.22                             147   -0.0410 90.1 172 
+ RUS  HN ES        656 23.66                             147    0.2010 90.1 172 
+ RUS  HZ I         656 25.24         1.0 0.42            146           90.1 172 
+ PTB  HZ EP        656  8.76                             134    0.29 9  140 263 
+ PTB  HN ES        656 28.94                             134   -0.24 9  140 263 
+ PTB  HZ I         656 32.76         1.2 0.14            132            140 263 
+ ZAR  HZ EP   2    656 14.71                             123    0.23 4  203 296 
+ ZAR  HN ES        656 39.75                             123   -0.13 9  203 296 
+ ZAR  HZ I         656 43.26         1.7 0.26            123            203 296 
+                                                                                

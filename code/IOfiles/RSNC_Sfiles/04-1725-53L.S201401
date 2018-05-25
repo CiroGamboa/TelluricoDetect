@@ -1,0 +1,29 @@
+ 2014  1 4 1725 53.5 L   6.781 -73.362131.6  RSN  8 0.4 1.7LRSN                1
+ GAP=135        0.77       4.6     5.8  8.1  0.4716E+01  0.1035E+02 -0.6741E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 14-03-13 09:51 OP:ep   STATUS:               ID:20140104172553 L   I
+ OLDACT:UP  14-01-04 19:31 OP:mh   STATUS:               ID:20140104172002d    3
+ OLDACT:UP  14-01-04 19:31 OP:mh   STATUS:               ID:20140104172002d    3
+ OLDACT:DUP 14-01-04 19:24 OP:mh   STATUS:               ID:20140104172002d    3
+ OLDACT:UP  14-01-04 19:23 OP:mh   STATUS:               ID:20140104172000     3
+ OLDACT:REG 14-01-04 15:14 OP:mh   STATUS:               ID:20140104172000     3
+ 2014-01-04-1720-00M.COL___285                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1726 11.77                             167    0.2410 28.8 136 
+ BAR2 SZ ES   1   1726 25.20                             167   -0.42 7 28.8 136 
+ BAR2 SZ I        1726 25.95        11.9 0.27            169           28.8 136 
+ BRR  HZ EP       1726 12.63                             157    0.5310 52.9 313 
+ BRR  HN ES   2   1726 26.80                             157    0.17 5 52.9 313 
+ RUS  HZ EP   1   1726 16.14                             140    0.10 7  103 163 
+ RUS  HN ES   2   1726 33.63                             140   -0.01 5  103 163 
+ RUS  HZ I        1726 35.28         2.8 0.31            144            103 163 
+ PTB  HZ EP   1   1726 16.46                             134   -0.67 7  124 258 
+ PTB  HN ES   2   1726 35.40                             134   -0.18 5  124 258 
+ OCA  HN ES   2   1726 41.53                             126   -0.62 5  161   2 
+ OCA  HZ I        1726 46.55         9.3 0.20            122            161   2 
+ ZAR  HN ES   2   1726 46.50                             122    0.78 4  183 296 
+ NOR  HN ES   2   1726 51.31                             118   -0.41 4  214 231 
+ SML  HZ EP   1   1726 28.13                             115   -0.44 6  237 341 
+ SML  HN ES   2   1726 55.76                             115   -0.18 4  237 341 
+ SML  HZ I        1727  9.82         8.7 0.07            112            237 341 
+                                                                                

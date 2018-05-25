@@ -1,0 +1,34 @@
+ 2014  519 1707 24.7 L   6.799 -73.155142.0  RSN  8 0.5 2.0LRSN                1
+ GAP=155        1.12       9.0     7.2 10.8 -0.4306E+02 -0.2194E+02  0.6843E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 15-03-16 16:59 OP:nd   STATUS:               ID:20140519170724 L   I
+ OLDACT:UP  14-05-20 01:33 OP:nlst STATUS:               ID:20140519170724 L   3
+ OLDACT:UP  14-05-19 23:57 OP:cam  STATUS:               ID:20140519170000     3
+ OLDACT:REG 14-05-19 23:26 OP:cam  STATUS:               ID:20140519170000     3
+ 2014-05-19-1700-00M.COL___252                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP     C 17 7 45.53                             153    0.0910 70.3 299 
+ BRR  HN ES       17 8  2.27                             153    0.6910 70.3 299 
+ BRR  HZ I        17 8  3.57        15.3 0.14            160           70.3 299 
+ PAM  SZ EP     D 17 7 46.47                             150   -0.1410 78.1  40 
+ PAM  SN ES       17 8  3.67                             150    0.0110 78.1  40 
+ PAM  SZ I        17 8  5.21         6.9 0.38            157           78.1  40 
+ PTB  HZ EP       17 7 50.26                             132   -1.05 9  147 259 
+ PTB  HN ES   1   17 8 11.20                             132   -0.83 7  147 259 
+ PTB  HZ I        17 8 12.40         9.8 0.14            136            147 259 
+ NOR  HZ EP       17 8  0.28                             118    0.12 8  234 234 
+ NOR  HN ES       17 8 27.28                             118   -0.50 8  234 234 
+ NOR  HZ I        17 8 31.17         6.8 0.16            121            234 234 
+ CHI  HZ EP   1   17 8  1.78                             117   -0.41 6  248 195 
+ CHI  HN ES   2   17 8 31.16                             117   -0.24 4  248 195 
+ CHI  HZ I        17 8 36.70         4.9 0.24            118            248 195 
+ GUY2CHZ EP       17 8  8.88                             112    0.81 7  300 235 
+ GUY2CHN ES       17 8 42.23                             112    0.36 7  300 235 
+ GUY2CHN I        17 8 48.61         7.1 0.70                           300 235 
+ RREF HZ EP   1   17 8 11.21                             111    0.59 5  321 229 
+ RREF HN ES       17 8 46.78                             111    0.37 7  321 229 
+ RREF HZ I        17 8 55.15         6.0 0.28            113            321 229 
+ PRA  HZ EP       17 8 18.00                             106   -0.06 6  391 209 
+ PRA  HE ES       17 9  0.19                             106    0.54 6  391 209 
+ PRA  HZ I        17 9  5.32         5.1 0.26            108            391 209 
+                                                                                

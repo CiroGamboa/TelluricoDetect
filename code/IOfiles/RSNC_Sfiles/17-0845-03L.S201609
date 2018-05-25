@@ -1,0 +1,27 @@
+ 2016  917 0845  3.3 L   6.500 -73.800 86.8  RSN  6 0.5 1.4LRSN                1
+ GAP=116        1.37       5.4     5.6 11.8 -0.5757E+01  0.1267E+02  0.3456E+01E
+ Epicentro: CIMITARRA - SANTANDER                                              3
+ ACTION:UPD 17-08-17 21:13 OP:lp   STATUS:               ID:20160917084503 L   I
+ OLDACT:UP  16-09-17 18:26 OP:ar   STATUS:               ID:20160917083732d    3
+ OLDACT:DUP 16-09-17 17:51 OP:ar   STATUS:               ID:20160917083732d    3
+ 2016-09-17-0838-00M.COL___354                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        845 17.86                             139   -0.3610 67.8   8 
+ BRR  HN ES        845 30.48                             139    0.6210 67.8   8 
+ BRR  HZ I         845 31.12        14.3 0.14            141           67.8   8 
+ BAR2 EZ EP        845 18.42                             139   -0.2310 69.1  81 
+ BAR2 EZ ES        845 30.45                             139   -0.1810 69.1  81 
+ BAR2 EZ I         845 31.35         5.8 0.36            142           69.1  81 
+ PTB  HZ EP        845 17.86                             137   -0.7910 72.7 273 
+ PTB  HE ES        845 30.22                             137   -0.4010 72.7 273 
+ PTB  HZ I         845 31.02         8.7 0.10            137           72.7 273 
+ SPBC HZ EP        845 21.10                             127   -0.0210 98.5 198 
+ SPBC HN ES        845 35.65                             127    0.6310 98.5 198 
+ SPBC HZ I         845 38.74         8.0 0.28            128           98.5 198 
+ PAM  EZ EP   4    845 28.61                             115    1.19 0  153  53 
+ PAM  EE ES   4    845 44.64                             115   -1.59 0  153  53 
+ PAM  EZ I         845 45.95         2.9 0.18            117            153  53 
+ ZAR  HZ EP        845 28.52                             113    0.88 9  160 313 
+ ZAR  HN ES   4    845 49.11                             113    2.49 0  160 313 
+ ZAR  HZ I         845 50.26         6.7 0.24            114            160 313 
+                                                                                

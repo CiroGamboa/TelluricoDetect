@@ -1,0 +1,27 @@
+ 2016  211 0048 39.3 L   6.810 -73.168143.1  RSN  7 0.3 1.6LRSN                1
+ GAP=133        0.72       2.8     3.4  5.7 -0.6895E+00  0.7547E+01 -0.5995E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-03-04 21:25 OP:rebc STATUS:               ID:20160211004839 L   I
+ OLDACT:UP  16-02-11 16:39 OP:ak   STATUS:               ID:20160211003750     3
+ OLDACT:REG 16-02-11 12:28 OP:ak   STATUS:               ID:20160211003750     3
+ 2016-02-11-0037-50M.COL___322                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        048 58.88                             170    0.2710 24.1 184 
+ BAR2 EZ ES        049 14.10                             170    0.4210 24.1 184 
+ BAR2 EZ I         049 15.12        15.3 0.16            170           24.1 184 
+ PAM  EZ EP        049  1.62                             150    0.3510 78.2  41 
+ PAM  EN ES        049 18.32                             150   -0.0910 78.2  41 
+ PAM  EZ I         049 21.44         4.4 0.60            154           78.2  41 
+ RUS  HZ EP   2    049  2.06                             143   -0.81 5  102 175 
+ RUS  HN ES        049 20.86                             143   -0.4010  102 175 
+ RUS  HZ I         049 22.31         4.3 0.20            146            102 175 
+ PTB  HZ EP   2    049  6.10                             132    0.27 5  146 258 
+ PTB  HN ES        049 26.44                             132   -0.10 9  146 258 
+ PTB  HZ I         049 31.80         4.9 0.30            133            146 258 
+ OCA  HN ES        049 28.84                             129   -0.24 9  159 354 
+ ZAR  HZ EP        049 11.45                             122    0.17 9  201 292 
+ ZAR  HN ES        049 36.20                             122   -0.03 9  201 292 
+ ZAR  HZ I         049 42.71         8.1 0.36            124            201 292 
+ SML  HZ EP        049 15.51                             117   -0.04 8  242 336 
+ SML  HN ES        049 43.51                             117   -0.32 8  242 336 
+                                                                                

@@ -1,0 +1,22 @@
+ 2016 1217 0106 31.3 L   6.522 -73.616111.5  RSN  4 0.2 1.4LRSN                1
+ GAP=132        0.64       3.9     3.1  5.9  0.5001E+01  0.4608E+01  0.5986E+01E
+ Epicentro: SANTA HELENA DEL OPON - SANTANDER                                  3
+ ACTION:UPD 17-01-11 20:15 OP:rebc STATUS:               ID:20161217010631 L   I
+ OLDACT:UP  16-12-17 13:47 OP:e    STATUS:               ID:20161217005744d    3
+ OLDACT:DUP 16-12-17 13:45 OP:e    STATUS:               ID:20161217005744d    3
+ OLDACT:UP  16-12-17 13:44 OP:e    STATUS:               ID:20161217005743     3
+ OLDACT:UP  16-12-17 13:43 OP:e    STATUS:               ID:20161217005743     3
+ OLDACT:REG 16-12-17 12:40 OP:and  STATUS:               ID:20161217005743     3
+ 2016-12-17-0058-00M.COL___381                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        1 6 47.61                             155   -0.1710 48.6  81 
+ BAR2 EZ ES        1 7  0.27                             155   -0.4010 48.6  81 
+ BAR2 EZ I         1 7  2.03        11.2 0.23            157           48.6  81 
+ BRR  HZ EP        1 6 48.49                             147    0.0610 65.6 351 
+ BRR  HN ES        1 7  2.18                             147    0.3410 65.6 351 
+ RUS  HZ EP        1 6 51.15                             138    0.1210 91.3 140 
+ RUS  HN ES        1 7  6.72                             138    0.2610 91.3 140 
+ PTB  HZ EP        1 6 50.38                             137   -0.1310 92.9 271 
+ PTB  HN ES        1 7  5.46                             137   -0.0710 92.9 271 
+ PTB  HZ I         1 7  6.93         3.0 0.18            138           92.9 271 
+                                                                                

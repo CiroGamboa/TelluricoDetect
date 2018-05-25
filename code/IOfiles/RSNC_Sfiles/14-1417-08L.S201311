@@ -1,0 +1,39 @@
+ 2013 1114 1417  8.6 L   6.774 -73.171139.4  RSN  6 0.5 2.0LRSN 2.6WRSN        1
+ SPEC AVERAGE  MO 13.0 ST103.4 OM  1.7 f0 17.3 R0.1641 AL 0.00 WI 20.0 MW  2.6 3
+ SPEC SD       MO  0.3 ST183.5 OM  0.7 f0 11.9 R0.0950 AL      WI      MW  0.2 3
+ GAP=134        1.27       5.8     6.1  8.7 -0.8624E+01  0.7709E+01  0.5555E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 13.2 ST 25.9 OM  1.4 f0 13.6 R0.1415 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC BAR2SH Z T141740 K 0.050 GD  140 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC BRR HH Z MO 13.2 ST 11.4 OM  1.3 f0 10.8 R0.1781 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC BRR HH Z T141744 K 0.050 GD  156 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PAM SH Z MO 13.1 ST  1.4 OM  1.2 f0 5.76 R0.3340 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC PAM SH Z T141745 K 0.050 GD  161 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC RUS HH Z MO 12.5 ST  8.4 OM  0.6 f0 16.2 R0.1188 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC RUS HH Z T141747 K 0.050 GD  170 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PTB HH Z MO 13.1 ST470.1 OM  1.1 f0 40.0 R0.0481 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC PTB HH Z T141752 K 0.050 GD  200 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:DUP 13-11-14 20:09 OP:stll STATUS:               ID:20131114141001d    3
+ ACTION:UPD 14-01-09 16:28 OP:ep   STATUS:               ID:20131114141708 L   I
+ OLDACT:UP  13-11-14 20:14 OP:stll STATUS:               ID:20131114141001d    3
+ 2013-11-14-1410-00M.COL___279                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1417 27.46                             171    0.0910 20.1 183 
+ BAR2 SZ ES       1417 41.68                             171   -0.3510 20.1 183 
+ BAR2 SZ I        1417 44.38        43.4 0.90            169           20.1 183 
+ BRR  HZ IP       1417 29.17                             152    0.2010 70.2 302 
+ BRR  HN ES       1417 45.84                             152    0.9610 70.2 302 
+ BRR  SZ I        1417 49.89        20.1 0.32            151           70.2 302 
+ PAM  SZ EP       1417 30.27                             148   -0.0910 81.4  40 
+ PAM  SN ES       1417 47.12                             148   -0.2410 81.4  40 
+ PAM  SZ I        1417 48.92        19.7 0.32            155           81.4  40 
+ RUS  HZ EP       1417 31.80                             143    0.3010 98.0 174 
+ RUS  HN ES       1417 49.17                             143   -0.2210 98.0 174 
+ RUS  SZ I        1417 52.17         8.7 0.18            145           98.0 174 
+ PTB  HZ EP       1417 34.24                             131   -0.47 9  144 260 
+ PTB  HN ES       1417 54.12                             131   -0.99 9  144 260 
+ PTB  SZ I        1418  0.32        18.1 0.50            132            144 260 
+ SPBC HZ EP       1417 36.32                             128    0.12 9  159 219 
+ SPBC HN ES       1417 58.38                             128    0.63 9  159 219 
+ SPBC SZ I        1418  7.32        11.8 0.24            130            159 219 
+                                                                                

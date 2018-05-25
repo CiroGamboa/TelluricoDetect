@@ -1,0 +1,32 @@
+ 2017 1111 1020  0.2 L   6.659 -74.080 17.9  RSN  7 0.5 1.3LRSN                1
+ GAP= 85        0.85       2.1     2.0  6.0 -0.9065E+00 -0.6510E+00  0.3691E+01E
+ Epicentro: PUERTO PARRA - SANTANDER                                           3
+ ACTION:UPD 17-12-12 19:54 OP:rebc STATUS:               ID:20171111102000 L   I
+ OLDACT:UP  17-11-11 21:31 OP:mg   STATUS:               ID:20171111101739     3
+ OLDACT:UP  17-11-11 21:26 OP:mg   STATUS:               ID:20171111101739     3
+ OLDACT:UP  17-11-11 21:25 OP:mg   STATUS:               ID:20171111101739     3
+ OLDACT:UP  17-11-11 21:25 OP:mg   STATUS:               ID:20171111101739     3
+ OLDACT:REG 17-11-11 20:23 OP:mg   STATUS:               ID:20171111101739     3
+ 2017-11-11-1018-00M.COL___438                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PTB  HZ IP     D 1020  7.59                             109   -0.2210 43.7 252 
+ PTB  HN ES       1020 13.38                             109   -0.3510 43.7 252 
+ PTB  HZ I        1020 13.59        19.0 0.16            109           43.7 252 
+ BRR  HZ EP       1020 10.77                             103    0.0010 64.1  39 
+ BRR  HN ES       1020 19.21                             103    0.2110 64.1  39 
+ BRR  HZ I        1020 19.82        15.2 0.10            103           64.1  39 
+ BAR2 EZ EP       1020 16.11                              98   -0.1910 99.5  94 
+ BAR2 EZ ES   2   1020 27.98                              98   -0.86 5 99.5  94 
+ BAR2 EZ I        1020 30.03        12.8 0.62             98           99.5  94 
+ SPBC HZ EP       1020 18.47                              97    0.5510  111 180 
+ SPBC HN ES   1   1020 32.10                              97    0.38 7  111 180 
+ SPBC HZ I        1020 34.26         5.8 0.08             97            111 180 
+ ZAR  HZ EP   1   1020 20.22                              97    0.18 7  126 317 
+ ZAR  HN ES       1020 35.62                              97    0.1310  126 317 
+ ZAR  HZ I        1020 37.31         5.8 0.09             96            126 317 
+ NOR  HN ES   1   1020 40.26                              56   -0.55 7  149 216 
+ NOR  HZ I        1020 41.62         3.5 0.15             56            149 216 
+ GUY2CHZ EP   3   1020 33.43                              56    1.93 2  213 222 
+ GUY2CHN ES   4   1020 58.06                              56    2.16 0  213 222 
+ GUY2CHZ I        1021  1.51         2.6 0.31                           213 222 
+                                                                                

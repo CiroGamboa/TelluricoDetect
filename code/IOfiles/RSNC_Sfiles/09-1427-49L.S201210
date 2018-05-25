@@ -1,0 +1,32 @@
+ 2012 10 9 1427 49.0 L   6.786 -73.105147.6  RSN  7 0.4 2.3LRSN 3.0WRSN        1
+ SPEC AVERAGE  MO 13.6 ST  2.7 OM  3.4 f0 2.62 R0.9302 AL 1.71 WI 14.4 MW  3.0 3
+ SPEC SD       MO  0.1 ST  2.6 OM  1.5 f0 1.66 R0.5868 AL      WI      MW  0.1 3
+ GAP=125        0.63       4.2     5.4  6.2  0.4519E+01  0.9533E+01  0.2378E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC RUS HH N MO 13.4 ST0.033 OM  1.8 f00.969 R1.5170 AL 1.34 WI  6.5 MW  2.9 3
+ SPEC RUS HH N T142831 K 0.000 GD  177 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.7 ST  5.3 OM  2.1 f0 4.28 R0.3435 AL 2.09 WI 22.2 MW  3.1 3
+ SPEC BRR HH N T142827 K 0.000 GD  165 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-11-22 17:02 OP:ep   STATUS:               ID:20121009142749 L   I
+ 2012-10-09-1420-00M.COL___223                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1428  8.91                             170    0.0310 23.1 202 
+ BAR2 SZ ES   3   1428 23.95                             170   -0.41 2 23.1 202 
+ BAR2 SZ I        1428 25.64        39.1 0.24                          23.1 202 
+ GIR2 SZ EP       1428  9.04                             167    0.0510 33.8 343 
+ GIR2 SZ ES   3   1428 25.10                             167    0.54 2 33.8 343 
+ PAM  SZ EP   1   1428 11.53                             152    0.18 7 75.8  36 
+ PAM  SZ I        1428 11.90        16.0 0.22                          75.8  36 
+ PAM  SN ES   1   1428 28.22                             152   -0.54 7 75.8  36 
+ BRR  HZ EP       1428 10.74                             151    0.0910 75.9 298 
+ BRR  HZ I        1428 10.93        59.6 0.16                          75.9 298 
+ BRR  HN ES   1   1428 28.04                             151    0.53 7 75.9 298 
+ RUS  HZ EP       1428 13.04                             145    0.2010 98.8 179 
+ RUS  HN ES   1   1428 31.13                             145   -0.28 7 98.8 179 
+ RUS  HN I        1428 32.04        22.4 0.32                          98.8 179 
+ ZAR  HZ EP       1428 21.74                             122   -0.35 8  209 292 
+ ZAR  HE ES   3   1428 46.30                             122   -1.58 2  209 292 
+ ZAR  HN I        1428 56.61        27.9 0.14                           209 292 
+ AGZ  SZ E        1428 22.89                                            217 161 
+ AGZ  SZ EP   3   1428 22.89                             121    0.00 2  217 161 
+                                                                                

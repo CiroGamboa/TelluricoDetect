@@ -1,0 +1,40 @@
+ 2016  119 0136 20.5 L   6.630 -72.550  3.3  RSN  9 0.4 1.8LRSN                1
+ GAP=228        1.02       3.0     7.0  6.2 -0.1168E+02  0.2867E+02 -0.6868E+01E
+ Epicentro: CARCASI - SANTANDER                                                3
+ ACTION:UPD 16-03-09 23:26 OP:cam  STATUS:               ID:20160119013620 L   I
+ OLDACT:UP  16-02-23 20:53 OP:AR   STATUS:               ID:20160119013620 L   3
+ OLDACT:UP  16-01-19 14:07 OP:ar   STATUS:               ID:20160119012736d    3
+ OLDACT:DUP 16-01-19 14:02 OP:ar   STATUS:               ID:20160119012736d    3
+ OLDACT:UP  16-01-19 13:59 OP:ar   STATUS:               ID:20160119012735     3
+ OLDACT:UP  16-01-19 13:56 OP:ar   STATUS:               ID:20160119012735     3
+ OLDACT:REG 16-01-19 12:38 OP:ar   STATUS:               ID:20160119012735     3
+ 2016-01-19-0127-35M.COL___323                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        136 32.34                              47    0.2910 70.1 267 
+ BAR2 EZ ES        136 40.69                              47   -0.3710 70.1 267 
+ BAR2 EZ I         136 41.78        31.0 0.28             47           70.1 267 
+ PAM  EZ EP        136 34.13                              47    0.3010 80.2 348 
+ PAM  EE ES        136 43.94                              47   -0.3010 80.2 348 
+ PAM  EZ I         136 44.44        27.2 0.36             47           80.2 348 
+ RUS  HZ EP        136 36.86                              47   -0.0910  101 216 
+ RUS  HN ES        136 49.30                              47   -0.4810  101 216 
+ RUS  HZ I         136 50.64        10.2 0.20             47            101 216 
+ OCA  HZ EP   9    136 54.24                              37    3.55 0  197 335 
+ OCA  HN ES        137 17.69                              37   -0.10 9  197 335 
+ OCA  HZ I         137 23.85        21.3 0.34             37            197 335 
+ SPBC HZ EP   4    136 54.67                              37    3.67 0  200 237 
+ SPBC HN ES        137 15.66                              37    0.87 9  200 237 
+ SPBC HZ I         137 21.44        11.2 0.32             37            200 237 
+ PTB  HZ EP   9    136 54.82                              37    2.55 0  211 267 
+ PTB  HN ES        137 20.03                              37    0.43 8  211 267 
+ PTB  HZ I         137 21.76        15.0 0.14             37            211 267 
+ CHI  HZ EP   4    137  3.32                              37    4.83 0  257 211 
+ CHI  HN ES   4    137 30.66                              37    2.53 0  257 211 
+ CHI  HZ I         137 43.44         2.6 0.32             37            257 211 
+ SML  HZ EP   4    137  7.86                              36    5.39 0  293 325 
+ SML  HN ES   4    137 42.65                              36    7.44 0  293 325 
+ SML  HZ I         137 45.43         5.4 0.54             37            293 325 
+ GUY2CHZ EP   4    137 13.63                              36    3.74 0  348 244 
+ GUY2CHE ES   4    137 53.74                              36    5.32 0  348 244 
+ GUY2CHZ I         137 59.66         3.0 0.48                           348 244 
+                                                                                

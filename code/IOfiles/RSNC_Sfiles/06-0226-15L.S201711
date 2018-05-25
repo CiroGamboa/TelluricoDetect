@@ -1,0 +1,29 @@
+ 2017 11 6 0226 15.5 L   6.789 -73.237142.5  RSN  7 0.3 1.4LRSN                1
+ GAP=104        0.78       3.6     4.7  5.8  0.4283E+01  0.4006E+01  0.3019E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 17-12-12 19:52 OP:rebc STATUS:               ID:20171106022615 L   I
+ OLDACT:UP  17-11-06 15:40 OP:dnl  STATUS:               ID:20171106021741     3
+ OLDACT:UP  17-11-06 15:39 OP:dnl  STATUS:               ID:20171106021741     3
+ OLDACT:UP  17-11-06 15:39 OP:dnl  STATUS:               ID:20171106021741     3
+ OLDACT:REG 17-11-06 13:00 OP:dnl  STATUS:               ID:20171106021741     3
+ 2017-11-06-0218-00M.COL___444                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        226 34.59                             171   -0.1210 22.6 164 
+ BAR2 EZ ES        226 49.86                             171    0.1510 22.6 164 
+ BAR2 EZ I         226 51.17         4.8 0.16            176           22.6 164 
+ BRR  HZ EP        226 36.43                             155    0.5910 63.2 304 
+ BRR  HE ES        226 51.25                             155   -0.4710 63.2 304 
+ BRR  HZ I         226 55.14         5.0 0.28            151           63.2 304 
+ PAM  EZ EP        226 37.57                             148   -0.2710 85.0  44 
+ PAM  EN ES        226 55.46                             148    0.1910 85.0  44 
+ PAM  EZ I         227  6.66         6.7 0.24            144           85.0  44 
+ RUS  HZ EP        226 38.68                             143   -0.2410  101 170 
+ RUS  HN ES        226 57.36                             143    0.1610  101 170 
+ RUS  HZ I         226 59.47         2.0 0.30            148            101 170 
+ PTB  HZ EP        226 41.38                             133    0.10 9  138 258 
+ PTB  HE ES   4    227  3.12                             133    1.73 0  138 258 
+ PTB  HZ I         227  4.09         2.0 0.14            134            138 258 
+ YPLC HN ES        227  8.72                             125   -0.10 9  181 148 
+ ZAR  HZ EP   4    226 41.84                             123   -4.97 0  195 294 
+ ZAR  HZ I         226 55.87         7.4 0.42            122            195 294 
+                                                                                

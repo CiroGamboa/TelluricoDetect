@@ -1,0 +1,69 @@
+ 2013 10 9 2144 48.7 L   6.508 -73.561102.0  RSN 14 0.6 2.0LRSN 2.7WRSN        1
+ SPEC AVERAGE  MO 13.1 ST160.3 OM  1.4 f0 17.1 R0.1847 AL 0.00 WI 20.0 MW  2.7 3
+ SPEC SD       MO  0.5 ST252.5 OM  0.6 f0 13.7 R0.1174 AL      WI      MW  0.3 3
+ GAP= 65        1.49       3.2     4.0  7.1 -0.2601E+01  0.7411E+01  0.2133E+01E
+ Epicentro: EL CARMEN DE CHUCURI - SANTANDER                                   3
+ SPEC BAR2SH Z MO 13.7 ST 62.9 OM  2.0 f0 12.5 R0.1539 AL-0.00 WI 20.0 MW  3.1 3
+ SPEC BAR2SH Z T214514 K 0.050 GD  110 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC BRR HH Z MO 13.2 ST 21.1 OM  1.4 f0 13.3 R0.1447 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC BRR HH Z T214517 K 0.050 GD  122 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PTB HH Z MO 13.2 ST665.2 OM  1.4 f0 40.0 R0.0481 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC PTB HH Z T214520 K 0.050 GD  142 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PAM SH Z MO 12.9 ST  9.7 OM  1.0 f0 12.6 R0.1527 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC PAM SH Z T214527 K 0.050 GD  166 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ZAR HH Z MO 13.0 ST  1.5 OM  1.0 f0 6.32 R0.3044 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC ZAR HH Z T214535 K 0.050 GD  206 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC CHI HH Z MO 12.5 ST0.627 OM  0.5 f0 6.64 R0.2898 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC CHI HH Z T214541 K 0.050 GD  232 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPECGUY2CHH Z MO 13.0 ST  0.7 OM  0.9 f0 5.10 R 0.377 AL-0.00 WI 20.0 MW  2.6 3
+ SPECGUY2CHH Z T214550 K 0.050 GD265.4 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC SML HH Z MO 13.1 ST520.3 OM  1.0 f0 40.0 R0.0481 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC SML HH Z T214552 K 0.050 GD  279 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PRA HH Z MO 12.9 ST0.980 OM  0.7 f0 5.73 R0.3358 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC PRA HH Z T214610 K 0.050 GD  356 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:REG 13-10-10 01:04 OP:stll STATUS:               ID:20131009213846     3
+ ACTION:UPD 13-11-25 09:20 OP:ep   STATUS:               ID:20131009214448 L   I
+ OLDACT:UP  13-10-10 03:16 OP:stll STATUS:               ID:20131009213846     3
+ 2013-10-09-2138-46M.COL___230                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C 2145  4.46                             156    0.6010 42.9  78 
+ BAR2 SZ ES       2145 16.45                             156    0.7510 42.9  78 
+ BAR2 SZ I        2145 17.89       201.6 0.54            160           42.9  78 
+ BRR  HZ IP     D 2145  5.25                             143    0.1510 68.3 346 
+ BRR  HN ES       2145 18.65                             143    0.7510 68.3 346 
+ BRR  SZ I        2145 26.56        13.8 0.18            143           68.3 346 
+ RUS  HZ EP       2145  7.35                             137    0.1610 86.2 142 
+ RUS  HN ES       2145 21.14                             137   -0.4910 86.2 142 
+ RUS  SZ I        2145 23.36        10.1 0.16            142           86.2 142 
+ PTB  HZ IP     D 2145  7.23                             132   -0.4310 99.0 272 
+ PTB  HN ES       2145 21.90                             132   -0.5610 99.0 272 
+ PTB  SZ I        2145 23.76        23.4 0.04            133           99.0 272 
+ SPBC HZ EP       2145  9.23                             129    0.4310  110 211 
+ SPBC HN ES       2145 24.40                             129   -0.1010  110 211 
+ SPBC SZ I        2145 28.71        30.1 0.16            132            110 211 
+ PAM  SZ EP       2145 11.05                             123   -0.4610  132  46 
+ PAM  SN ES       2145 28.83                             123   -0.4910  132  46 
+ PAM  SZ I        2145 30.51        18.5 0.22            127            132  46 
+ NOR  HZ EP       2145 15.88                             114   -0.01 9  179 234 
+ NOR  HN ES       2145 36.46                             114   -0.66 9  179 234 
+ NOR  SZ I        2145 38.98         9.0 0.30            117            179 234 
+ ZAR  HZ EP       2145 16.51                             114    0.52 9  180 307 
+ ZAR  HN ES       2145 36.65                             114   -0.64 9  180 307 
+ ZAR  SZ I        2145 46.80        11.0 0.36            116            180 307 
+ CAPV BZ IP     C 2145 18.68                             111   -0.26 9  204  42 
+ CHI  HZ EP       2145 19.88                             111    0.14 8  209 185 
+ CHI  HZ I        2145 21.64         3.2 0.50            114            209 185 
+ CHI  HN ES       2145 42.78                             111   -1.19 8  209 185 
+ GUY2CHZ EP       2145 26.03                             107    1.99 8  245 235 
+ GUY2CHN ES       2145 52.00                             107    0.38 8  245 235 
+ GUY2CSZ I        2145 58.84        10.6 0.96                           245 235 
+ SML  HZ EP       2145 24.33                             105   -0.83 8  260 348 
+ SML  HN ES       2145 53.51                             105   -0.10 8  260 348 
+ SML  SZ I        2146  0.42        32.6 0.10            107            260 348 
+ PRA  HZ EP       2145 35.18                             100    0.14 7  342 205 
+ PRA  HN ES       2146 11.55                             100    0.34 7  342 205 
+ PRA  SZ I        2146 21.54         4.5 1.38            102            342 205 
+ ORTC HZ EP       2145 35.45                             100    0.33 7  343 213 
+ ORTC HZ I        2145 36.88         4.3 0.28            102            343 213 
+ ORTC HE ES       2146 11.11                             100   -0.23 7  343 213 
+                                                                                

@@ -1,0 +1,26 @@
+ 2014  623 0756 50.6 L   6.789 -73.368122.8  RSN  6 0.4 1.4LRSN                1
+ GAP=156        0.92       4.0     5.2  7.3  0.6839E+00  0.1336E+02 -0.6175E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 14-07-01 22:56 OP:nd   STATUS:               ID:20140623075650 L   I
+ OLDACT:DUP 14-06-23 18:43 OP:spq  STATUS:               ID:20140623074806d    3
+ OLDACT:UP  14-06-23 18:41 OP:spq  STATUS:               ID:20140623074805     3
+ OLDACT:REG 14-06-23 13:43 OP:spq  STATUS:               ID:20140623074805     3
+ 2014-06-23-0748-05M.COL___259                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP        757  7.83                             166    0.2210 29.9 137 
+ BAR2 SZ ES        757 20.84                             166   -0.0710 29.9 137 
+ BAR2 SZ I         757 22.18        16.4 0.26            166           29.9 137 
+ BRR  HZ EP        757  8.15                             156   -0.0010 51.8 313 
+ BRR  HN ES        757 22.13                             156    0.2510 51.8 313 
+ BRR  HZ I         757 23.19         7.8 0.34            154           51.8 313 
+ PTB  HZ IP     D  757 13.11                             132   -0.3410  123 257 
+ PTB  HN ES        757 30.73                             132   -0.5810  123 257 
+ PTB  HZ I         757 35.23         2.2 0.16            129            123 257 
+ SPBC HE ES        757 35.70                             126    0.09 9  148 212 
+ SPBC HZ I         757 43.05         2.0 0.15            125            148 212 
+ ZAR  HZ EP        757 19.65                             120    0.39 9  182 295 
+ ZAR  HN ES        757 42.24                             120    0.59 9  182 295 
+ ZAR  HZ I         757 46.00         2.1 0.37            119            182 295 
+ SML  HN ES        757 51.45                             113   -0.59 8  236 341 
+ SML  HZ I         757 54.72         5.2 0.10            114            236 341 
+                                                                                

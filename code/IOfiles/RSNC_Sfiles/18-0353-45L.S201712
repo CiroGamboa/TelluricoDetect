@@ -1,0 +1,28 @@
+ 2017 1218 0353 45.8 L   6.801 -73.096149.4  RSN  6 0.4 1.6LRSN                1
+ GAP=211        0.95       4.0     5.8  7.2 -0.7596E+01  0.8689E+01 -0.3112E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 18-01-04 13:21 OP:rebc STATUS:               ID:20171218035345 L   I
+ OLDACT:DUP 17-12-18 15:53 OP:dhb  STATUS:               ID:20171218034742d    3
+ OLDACT:DUP 17-12-18 15:48 OP:dhb  STATUS:               ID:20171218034741d    3
+ OLDACT:REG 17-12-18 12:31 OP:dhb  STATUS:               ID:20171218034740     3
+ 2017-12-18-0348-00M.COL___457                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        354  6.25                             170    0.3610 25.0 202 
+ BAR2 EZ ES        354 21.36                             170   -0.2210 25.0 202 
+ BAR2 EZ I         354 21.88         5.6 0.30            166           25.0 202 
+ PTB  HZ EP        354 13.11                             132   -0.43 9  153 259 
+ PTB  HN ES        354 34.84                             132   -0.35 9  153 259 
+ PTB  HZ I         354 42.62         2.9 0.48            130            153 259 
+ OCA  HZ EP        354 14.25                             130   -0.19 9  161 351 
+ OCA  HE ES        354 36.96                             130    0.17 9  161 351 
+ OCA  HZ I         354 41.97        12.4 0.22            131            161 351 
+ SPBC HZ EP        354 15.35                             129    0.44 9  167 220 
+ SPBC HE ES        354 37.71                             129    0.09 9  167 220 
+ SPBC HZ I         354 44.35         3.6 0.24            130            167 220 
+ ZAR  HZ EP        354 18.25                             122   -0.74 8  209 292 
+ ZAR  HE ES        354 45.61                             122    0.73 8  209 292 
+ ZAR  HZ I         354 50.56         5.1 0.52            122            209 292 
+ NOR  HZ EP        354 22.49                             119    0.27 8  239 235 
+ NOR  HN ES        354 50.54                             119   -0.09 8  239 235 
+ NOR  HZ I         354 56.86         2.0 0.16            119            239 235 
+                                                                                

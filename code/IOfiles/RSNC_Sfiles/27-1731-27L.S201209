@@ -1,0 +1,50 @@
+ 2012  927 1731 27.6 L   6.771 -73.056142.9  RSN 12 0.4 3.0LRSN 3.2WRSN        1
+ SPEC AVERAGE  MO 13.9 ST  9.4 OM  2.4 f0 4.43 R0.3359 AL 2.15 WI 10.6 MW  3.2 3
+ SPEC SD       MO  0.2 ST  5.2 OM  0.5 f00.488 R0.0356 AL      WI      MW  0.1 3
+ GAP= 95        0.79       3.8     3.9  5.4 -0.3661E+01  0.3436E+01  0.6403E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC ZAR HH N MO 14.1 ST 20.6 OM  2.3 f0 4.99 R0.2946 AL 0.94 WI  9.8 MW  3.3 3
+ SPEC ZAR HH N T173224 K 0.000 GD  257 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PRA HH N MO 14.0 ST  7.9 OM  2.0 f0 3.88 R0.3789 AL 1.37 WI  9.1 MW  3.3 3
+ SPEC PRA HH N T1733 1 K 0.000 GD  419 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 13.8 ST  7.2 OM  1.4 f0 4.43 R0.3318 AL 1.47 WI 19.9 MW  3.1 3
+ SPEC RUS HH Z T173149 K 0.000 GD  172 VP 7.60 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 13.5 ST  5.7 OM  1.9 f0 5.16 R0.2849 AL 3.98 WI  2.7 MW  2.9 3
+ SPEC PAM SH N T1732 6 K 0.000 GD  160 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.8 ST  5.3 OM  1.9 f0 4.03 R0.3648 AL 2.00 WI  8.6 MW  3.1 3
+ SPEC HEL HH N T173240 K 0.000 GD  315 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.0 ST  9.9 OM  2.2 f0 4.08 R0.3603 AL 3.12 WI 13.4 MW  3.3 3
+ SPEC CHI HH N T173232 K 0.000 GD  286 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-10-22 14:21 OP:ep   STATUS:               ID:20120927173127 L   I
+ 2012-09-27-1730-00M.COL___213                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1731 46.62                             170   -0.2810 24.3 215 
+ BAR2 SZ ES   1   1732  1.78                             170   -0.18 7 24.3 215 
+ BAR2 SZ I        1732  4.42       224.0 0.38                          24.3 215 
+ PAM  SZ IP       1731 49.41                             151    0.1010 74.1  32 
+ PAM  SN ES   1   1732  6.71                             151    0.46 7 74.1  32 
+ PAM  SN I        1732  8.18       118.4 0.44                          74.1  32 
+ BRR  HZ IP     C 1731 48.52                             149   -0.5410 81.4 297 
+ BRR  HE ES   1   1732  5.94                             149    0.15 7 81.4 297 
+ BRR  HE I        1732  7.55       424.1 0.16                          81.4 297 
+ RUS  HZ EP       1731 50.44                             144   -0.3910 97.2 182 
+ RUS  HN ES   1   1732  8.93                             144   -0.01 7 97.2 182 
+ TAM  HZ EP       1731 54.67                             132    0.58 9  145 105 
+ ZAR  HZ EP   2   1732  0.60                             120   -0.34 4  214 292 
+ ZAR  HN I        1732 30.46        99.5 0.22                           214 292 
+ CHI  HZ EP       1732  4.53                             116   -0.58 8  248 198 
+ CHI  HN ES   1   1732 34.21                             116   -0.16 6  248 198 
+ CHI  HN I        1732 40.59        72.2 0.42                           248 198 
+ ROSC BZ EP   1   1732  6.16                             116    0.31 6  255 213 
+ ROSC BN ES   2   1732 36.54                             116    0.86 4  255 213 
+ HEL  HZ EP   1   1732  8.73                             113    0.07 6  281 257 
+ HEL  HN ES   1   1732 40.92                             113    0.23 6  281 257 
+ HEL  HN I        1732 44.86        29.8 0.36                           281 257 
+ GUY  SZ EP       1732 12.37                             111    0.30 7  310 237 
+ GUY  SN ES   2   1732 47.41                             111    0.65 4  310 237 
+ RREF HZ EP   1   1732 14.60                             110    0.34 5  327 231 
+ RREF HN ES   1   1732 51.58                             110    0.93 5  327 231 
+ RREF HZ I        1732 58.97        30.5 0.36                           327 231 
+ PRA  HN ES   1   1733  2.98                             106   -0.19 4  394 211 
+ PRA  HN I        1733  7.64        33.0 0.68                           394 211 
+                                                                                

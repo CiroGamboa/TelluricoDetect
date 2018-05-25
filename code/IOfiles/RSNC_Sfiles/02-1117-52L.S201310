@@ -1,0 +1,47 @@
+ 2013 10 2 1117 52.4 L   6.808 -73.148145.3  RSN  9 0.5 2.0LRSN 2.7WRSN        1
+ SPEC AVERAGE  MO 13.2 ST 74.8 OM  1.6 f0 14.5 R2.0521 AL 0.00 WI 20.0 MW  2.7 3
+ SPEC SD       MO  0.6 ST140.6 OM  0.7 f0 13.1 R4.2048 AL      WI      MW  0.4 3
+ GAP=136        1.31       4.2     5.8  7.6  0.2771E+01  0.9166E+01  0.2421E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 12.9 ST 53.6 OM  1.1 f0 21.5 R0.0895 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC BAR2SH Z T111825 K 0.050 GD  147 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC BRR HH Z MO 13.4 ST  4.5 OM  1.5 f0 6.73 R0.2859 AL-0.00 WI 20.0 MW  2.9 3
+ SPEC BRR HH Z T111829 K 0.050 GD  161 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PAM SH Z MO 12.9 ST  1.7 OM  1.0 f0 7.06 R0.2725 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC PAM SH Z T111830 K 0.050 GD  164 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC RUS HH Z MO 12.4 ST  2.6 OM  0.5 f0 11.7 R0.1644 AL-0.00 WI 20.0 MW  2.2 3
+ SPEC RUS HH Z T111832 K 0.050 GD  177 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PTB HH Z MO 13.0 ST386.4 OM  1.0 f0 40.0 R0.0481 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC PTB HH Z T111838 K 0.050 GD  207 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC SPBCHH Z MO 14.4 ST0.001 OM  2.4 f00.168 R 11.45 AL-0.00 WI 20.0 MW  3.6 3
+ SPEC SPBCHH Z T111841 K 0.050 GD  219 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:REG 13-10-02 13:49 OP:stll STATUS:               ID:20131002110843     3
+ ACTION:UPD 13-11-25 09:18 OP:ep   STATUS:               ID:20131002111752 L   I
+ OLDACT:UP  13-10-02 18:48 OP:stll STATUS:               ID:20131002110843     3
+ 2013-10-02-1108-43M.COL___231                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1118 12.00                             170   -0.0010 24.2 189 
+ BAR2 SZ ES       1118 26.94                             170   -0.3410 24.2 189 
+ BAR2 SZ I        1118 28.68        18.9 0.40            164           24.2 189 
+ BRR  HZ EP       1118 13.89                             153    0.4210 70.6 298 
+ BRR  HN ES       1118 30.79                             153    0.8910 70.6 298 
+ BRR  SZ I        1118 34.06        18.4 0.38            148           70.6 298 
+ PAM  SZ EP       1118 14.81                             151    0.2710 76.8  40 
+ PAM  SN ES       1118 31.84                             151    0.0310 76.8  40 
+ PAM  SZ I        1118 33.73        18.6 0.56            153           76.8  40 
+ RUS  HZ EP       1118 15.78                             143   -0.4010  102 176 
+ RUS  HN ES       1118 34.43                             143   -0.2910  102 176 
+ RUS  SZ I        1118 36.18         4.7 0.18            138            102 176 
+ PTB  HZ EP       1118 18.64                             132   -0.69 9  148 258 
+ PTB  HN ES       1118 39.93                             132   -0.41 9  148 258 
+ PTB  SZ I        1118 47.07        18.1 0.24            126            148 258 
+ SPBC HZ EP       1118 20.95                             129    0.03 9  164 219 
+ SPBC SZ I        1118 45.06        12.0 0.26            123            164 219 
+ ZAR  HN ES       1118 50.36                             122    0.35 9  204 292 
+ SML  HZ EP       1118 28.47                             117   -0.44 8  243 335 
+ SML  HN ES       1118 56.72                             117   -0.66 8  243 335 
+ SML  SZ I        1119  0.42        15.3 0.08            115            243 335 
+ CHI  HZ EP       1118 31.60                             117    1.43 8  249 195 
+ CHI  HN ES       1118 59.50                             117   -0.12 8  249 195 
+ CHI  HZ I        1119  9.11         4.0 0.50            113            249 195 
+                                                                                

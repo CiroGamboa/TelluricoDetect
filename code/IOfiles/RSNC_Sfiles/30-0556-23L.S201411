@@ -1,0 +1,28 @@
+ 2014 1130 0556 23.4 L   7.335 -73.952 76.7  RSN  7 0.5 1.8LRSN                1
+ GAP=214        1.22       6.8     5.1  9.2  0.6322E+01  0.1510E+02  0.1504E+02E
+ Epicentro: PUERTO WILCHES - SANTANDER                                         3
+ ACTION:UPD 14-12-19 15:48 OP:nd   STATUS:               ID:20141130055623 L   I
+ OLDACT:UP  14-11-30 18:04 OP:mh   STATUS:               ID:20141130054745     3
+ OLDACT:REG 14-11-30 13:28 OP:mh   STATUS:               ID:20141130054745     3
+ 2014-11-30-0547-45M.COL___300                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        556 34.97                             152   -0.1010 36.6 134 
+ BRR  HN ES        556 44.60                             152    0.4110 36.6 134 
+ BRR  HZ I         556 44.94        92.0 0.12            107           36.6 134 
+ ZAR  HZ EP   1    556 40.01                             122   -0.68 7  101 280 
+ ZAR  HN ES        556 54.47                             122    0.2810  101 280 
+ ZAR  HZ I         556 57.16        17.8 0.10             99            101 280 
+ PTB  HZ EP        556 40.28                             121   -0.7010  104 212 
+ PTB  HN ES        556 54.07                             121   -0.6410  104 212 
+ PTB  HZ I         556 57.40        10.4 0.34             98            104 212 
+ BAR2 SZ EP        556 42.70                             118   -0.0810  118 134 
+ BAR2 SZ I         556 59.90        16.8 0.31             96            118 134 
+ HEL  HZ EP        556 54.92                             104    0.71 8  215 234 
+ HEL  HZ I         557 25.68        13.5 0.96             56            215 234 
+ NOR  HZ EP        556 54.96                             104    0.51 8  221 207 
+ NOR  HN ES        557 19.20                             104    0.51 8  221 207 
+ NOR  HZ I         557 27.34         4.7 0.18             56            221 207 
+ SJC  HZ EP   4    557  3.01                              99   -2.75 0  314 335 
+ SJC  HN ES   4    557 35.38                              99   -3.43 0  314 335 
+ SJC  HZ I         557 38.35         1.1 0.54             55            314 335 
+                                                                                

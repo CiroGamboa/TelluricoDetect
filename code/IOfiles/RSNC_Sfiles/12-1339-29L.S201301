@@ -1,0 +1,42 @@
+ 2013  112 1339 29.4 L   6.805 -73.156148.4  RSN  8 0.5 2.4LRSN 3.1WRSN        1
+ SPEC AVERAGE  MO 13.7 ST  5.1 OM  2.7 f0 3.45 R0.4419 AL 2.23 WI 19.7 MW  3.1 3
+ SPEC SD       MO  0.4 ST  4.3 OM  0.7 f00.647 R0.0843 AL      WI      MW  0.2 3
+ GAP=182        1.23       4.3     6.3  7.7  0.5611E+01  0.1136E+02  0.6025E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC RUS HH N MO 13.2 ST0.828 OM  1.6 f0 3.30 R0.4455 AL 1.90 WI  8.5 MW  2.8 3
+ SPEC RUS HH N T134010 K 0.000 GD  179 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH N MO 14.0 ST 12.3 OM  2.2 f0 4.43 R0.3318 AL 2.61 WI 26.1 MW  3.3 3
+ SPEC NOR HH N T134032 K 0.000 GD  277 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.2 ST  6.7 OM  2.5 f0 3.11 R0.4727 AL 2.14 WI 18.0 MW  3.4 3
+ SPEC OCA HH N T134017 K 0.000 GD  218 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.4 ST0.610 OM  1.6 f0 2.54 R0.5787 AL 1.50 WI 17.4 MW  2.9 3
+ SPEC CHI HH N T134035 K 0.000 GD  289 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH E MO 13.8 ST  4.8 OM  2.2 f0 3.86 R0.3808 AL 3.01 WI 28.7 MW  3.1 3
+ SPEC BRR HH E T1340 7 K 0.000 GD  164 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:13 OP:ep   STATUS:               ID:20130112133929 L   I
+ 2013-01-12-1338-41M.COL___196                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1339 49.53                             171    0.1710 23.7 187 
+ BAR2 SZ ES       1340  4.89                             171   -0.0410 23.7 187 
+ BAR2 SZ I        1340  6.15        44.5 0.38            168           23.7 187 
+ BRR  HZ IP     C 1339 51.35                             153    0.5710 69.9 299 
+ BRR  HZ I        1339 51.65        53.4 0.24            149           69.9 299 
+ BRR  HN ES       1340  8.52                             153    1.0810 69.9 299 
+ RUS  HZ EP       1339 53.52                             144    0.0510  101 175 
+ RUS  HN ES       1340 11.80                             144   -0.4310  101 175 
+ RUS  HN I        1340 12.62        27.2 0.34            145            101 175 
+ PTB  HZ EP       1339 56.02                             133   -0.48 9  147 259 
+ PTB  HN ES       1340 17.02                             133   -0.61 9  147 259 
+ PTB  HN I        1340 24.03        23.1 0.36            130            147 259 
+ OCA  HN ES       1340 19.14                             130   -0.92 9  160 354 
+ OCA  HN I        1340 23.61       117.9 0.24            131            160 354 
+ ZAR  HZ EP       1340  2.26                             123    0.36 9  203 292 
+ ZAR  HN ES       1340 27.12                             123   -0.12 9  203 292 
+ ZAR  HN I        1340 32.97        31.7 0.42            122            203 292 
+ NOR  HZ EP       1340  5.41                             119    0.18 8  234 234 
+ NOR  HN ES       1340 33.05                             119   -0.12 8  234 234 
+ NOR  HN I        1340 42.22        24.7 0.16            118            234 234 
+ CHI  HZ EP       1340  7.42                             118    0.14 8  249 195 
+ CHI  HZ I        1340  9.38         5.5 0.14            118            249 195 
+ CHI  HN ES       1340 36.84                             118    0.02 8  249 195 
+                                                                                

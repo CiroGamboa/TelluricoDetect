@@ -1,0 +1,45 @@
+ 2013  316 0524 15.1 L   6.537 -73.391 14.0  RSN  9 0.4 2.7LRSN 2.9WRSN        1
+ SPEC AVERAGE  MO 13.5 ST  3.5 OM  2.4 f0 4.10 R0.3743 AL 2.21 WI 21.7 MW  2.9 3
+ SPEC SD       MO  0.3 ST  2.5 OM  0.4 f00.799 R0.0819 AL      WI      MW  0.2 3
+ GAP=106        1.06       2.6     2.9  4.8  0.1915E+01  0.4028E+01 -0.2836E+01E
+ Epicentro: HATO - SANTANDER                                                   3
+ SPEC PTB HH N MO 13.3 ST  3.0 OM  1.9 f0 4.65 R0.3161 AL 0.90 WI 18.2 MW  2.8 3
+ SPEC PTB HH N T 52444 K 0.000 GD  108 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 13.1 ST  1.4 OM  1.8 f0 4.34 R0.3387 AL 2.34 WI 20.7 MW  2.7 3
+ SPEC RUS HH N T 52436 K 0.000 GD 80.2 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.3 ST  1.5 OM  1.7 f0 3.80 R0.3868 AL 2.23 WI 28.6 MW  2.8 3
+ SPEC HEL HH N T 52513 K 0.000 GD  154 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH E MO 13.9 ST  6.2 OM  2.4 f0 3.75 R0.3920 AL 2.84 WI 28.1 MW  3.2 3
+ SPEC OCA HH E T 525 1 K 0.000 GD  137 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 13.7 ST  1.5 OM  2.3 f0 2.75 R0.5345 AL 1.90 WI 18.4 MW  3.1 3
+ SPEC PAM SH N T 52442 K 0.000 GD  108 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.6 ST  7.5 OM  2.3 f0 5.30 R0.2774 AL 3.08 WI 16.2 MW  3.0 3
+ SPEC BRR HH N T 52434 K 0.000 GD 73.6 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-04-09 14:02 OP:ep   STATUS:               ID:20130316052415 L   I
+ 2013-03-16-0520-00M.COL___244                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP        524 20.55                             118    0.6210 23.8  75 
+ BRR  HZ EP        524 26.96                              98    0.2010 72.3 331 
+ BRR  HN ES        524 35.36                              98   -0.4910 72.3 331 
+ BRR  HN I         524 36.58       333.7 0.34             47           72.3 331 
+ RUS  HZ EP        524 28.66                              98    0.3910 79.0 154 
+ RUS  HN ES        524 37.85                              98   -0.7010 79.0 154 
+ RUS  HN I         524 39.42        91.4 0.14             47           79.0 154 
+ PAM  SZ EP        524 33.48                              95   -0.5110  117  41 
+ PAM  SN ES   4    524 46.78                              95   -1.96 0  117  41 
+ PAM  SN I         524 47.49       490.8 0.26             47            117  41 
+ PTB  HZ IP     D  524 33.96                              95    0.3310  118 270 
+ PTB  HN ES   1    524 48.28                              95    0.19 7  118 270 
+ PTB  HN I         524 49.22       287.7 0.22             47            118 270 
+ OCA  HZ EP   1    524 43.44                              56    0.22 7  188   2 
+ OCA  HN ES        525  5.47                              56    0.31 9  188   2 
+ OCA  HN I         525  9.17       218.5 0.36             37            188   2 
+ ZAR  HZ EP   1    524 43.53                              56   -0.16 7  194 303 
+ ZAR  HN ES        525  5.48                              56   -0.51 9  194 303 
+ ZAR  HN I         525  8.99        47.2 0.12             37            194 303 
+ HEL  HZ EP        524 49.94                              56    0.05 8  240 261 
+ HEL  HN ES   2    525 17.90                              56    0.86 4  240 261 
+ HEL  HN I         525 23.55        25.2 0.32             37            240 261 
+ URE  HE ES   4    525 25.80                              56    2.31 0  272 300 
+ URE  HE I         525 27.47        35.0 0.28             37            272 300 
+                                                                                

@@ -1,0 +1,28 @@
+ 2017 11 5 1730 21.9 L   7.051 -73.314121.3  RSN  6 0.2 1.2LRSN                1
+ GAP=139        0.53       2.8     2.4  4.2 -0.1134E-01  0.2128E+01  0.1513E+01E
+ Epicentro: LEBRIJA - SANTANDER                                                3
+ ACTION:UPD 17-12-12 19:52 OP:rebc STATUS:               ID:20171105173021 L   I
+ OLDACT:UP  17-11-05 23:39 OP:mg   STATUS:               ID:20171105172739d    3
+ OLDACT:UP  17-11-05 23:38 OP:mg   STATUS:               ID:20171105172739d    3
+ OLDACT:DUP 17-11-05 23:34 OP:mg   STATUS:               ID:20171105172739d    3
+ 2017-11-05-1728-00M.COL___437                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP       1730 38.69                             159   -0.2610 44.3 278 
+ BRR  HN ES       1730 52.08                             159   -0.1810 44.3 278 
+ BRR  HZ I        1730 53.12         5.9 0.20            159           44.3 278 
+ BAR2 EZ EP     C 1730 39.81                             155    0.1010 52.8 164 
+ BAR2 EZ ES   2   1730 53.90                             155    0.29 5 52.8 164 
+ BAR2 EZ I        1730 54.96        11.5 0.22            154           52.8 164 
+ PAM  EZ EP       1730 41.17                             146   -0.2310 75.0  65 
+ PAM  EN ES       1730 56.83                             146    0.2210 75.0  65 
+ PAM  EZ I        1730 58.70         2.7 0.46            150           75.0  65 
+ RUS  HZ EP   1   1730 46.27                             130    0.31 7  131 169 
+ RUS  HN ES       1731  4.62                             130   -0.1210  131 169 
+ RUS  HZ I        1731  9.26         1.6 0.34            131            131 169 
+ PTB  HZ EP       1730 45.98                             128   -0.07 9  138 246 
+ PTB  HN ES   1   1731  5.06                             128    0.16 7  138 246 
+ PTB  HZ I        1731  7.82         2.1 0.32            128            138 246 
+ ZAR  HZ EP   1   1730 50.16                             120    0.17 7  177 286 
+ ZAR  HE ES   2   1731 12.55                             120    0.64 4  177 286 
+ ZAR  HZ I        1731 14.97         1.7 0.25            122            177 286 
+                                                                                

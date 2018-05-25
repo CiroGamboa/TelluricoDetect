@@ -1,0 +1,40 @@
+ 2017  629 0926 36.7 L   6.785 -73.061151.5  RSN  9 0.5 1.6LRSN                1
+ GAP=224        0.92       4.5     5.5  6.4  0.5467E+01 -0.1598E+01  0.8141E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-09-14 16:56 OP:jn   STATUS:               ID:20170629092636 L   I
+ OLDACT:UP  17-06-29 17:50 OP:and  STATUS:               ID:20170629091744     3
+ OLDACT:UP  17-06-29 17:50 OP:and  STATUS:               ID:20170629091744     3
+ OLDACT:UP  17-06-29 17:49 OP:and  STATUS:               ID:20170629091744     3
+ OLDACT:UP  17-06-29 17:48 OP:and  STATUS:               ID:20170629091744     3
+ OLDACT:UP  17-06-29 17:47 OP:and  STATUS:               ID:20170629091744     3
+ OLDACT:REG 17-06-29 13:24 OP:and  STATUS:               ID:20170629091744     3
+ 2017-06-29-0918-00M.COL___358                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        926 57.32                             170    0.2810 25.1 212 
+ BAR2 EZ ES        927 12.69                             170   -0.2210 25.1 212 
+ BAR2 EZ I         927 13.92        18.0 0.18            168           25.1 212 
+ BRR  HZ IP     C  926 59.17                             151    0.2010 80.3 296 
+ BRR  HE ES        927 16.64                             151    0.2810 80.3 296 
+ BRR  HZ I         927 19.60         9.0 0.30            147           80.3 296 
+ PTB  HZ EP   2    927  4.03                             131   -0.89 5  157 260 
+ PTB  HN ES   2    927 25.44                             131   -1.50 5  157 260 
+ PTB  HZ I         927 32.46         2.7 0.18            126            157 260 
+ SPBC HZ EP        927  6.63                             129    0.56 9  168 222 
+ SPBC HN ES        927 28.84                             129   -0.15 9  168 222 
+ SPBC HZ I         927 33.38         7.3 0.10            124            168 222 
+ ZAR  HZ EP        927  9.81                             122   -0.65 8  213 292 
+ ZAR  HE ES   3    927 35.74                             122   -1.06 2  213 292 
+ ZAR  HZ I         927 42.83         3.5 0.50            117            213 292 
+ NOR  HZ EP   2    927 13.61                             119    0.15 4  241 236 
+ NOR  HN ES        927 42.47                             119    0.32 8  241 236 
+ NOR  HZ I         927 47.65         2.8 0.16            114            241 236 
+ CHI  HZ EP   2    927 15.29                             118    0.48 4  250 197 
+ CHI  HN ES   1    927 44.84                             118    0.29 6  250 197 
+ CHI  HZ I         927 49.80         1.9 0.34            113            250 197 
+ PTGC HZ IP     C  927 20.27                             113    0.02 7  304 160 
+ PTGC HZ I         927 47.79         2.0 0.34            108            304 160 
+ PTGC HN ES        927 53.59                             113   -0.64 7  304 160 
+ GUY2CHZ EP   3    927 22.54                             113    1.23 2  308 236 
+ GUY2CHE ES   4    927 59.34                             113    3.22 0  308 236 
+ GUY2CHZ I         928  6.45         1.7 0.34                           308 236 
+                                                                                

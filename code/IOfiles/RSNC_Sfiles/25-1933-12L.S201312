@@ -1,0 +1,110 @@
+ 2013 1225 1933 12.0 L   6.805 -73.136147.8  RSN 21 0.5 2.7LRSN 3.0WRSN        1
+ SPEC AVERAGE  MO 13.6 ST 23.8 OM  1.9 f0 6.10 R0.4045 AL 0.00 WI 20.0 MW  3.0 3
+ SPEC SD       MO  0.3 ST 55.4 OM  0.3 f0 4.50 R0.2504 AL      WI      MW  0.2 3
+ GAP= 71        1.14       2.7     3.2  5.2 -0.7458E+00  0.3155E+01  0.2172E-01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 13.9 ST  3.7 OM  2.3 f0 3.48 R0.4466 AL-0.00 WI 20.0 MW  3.2 3
+ SPEC BAR2SH Z T193345 K 0.000 GD  149 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH Z MO 13.3 ST 13.2 OM  1.7 f0 8.19 R0.1897 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC BRR HH Z T193349 K 0.000 GD  164 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 13.5 ST0.997 OM  1.9 f0 2.96 R0.5250 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC PAM SH Z T193350 K 0.000 GD  166 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 13.3 ST  1.1 OM  1.7 f0 3.52 R0.4415 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC RUS HH Z T193352 K 0.000 GD  179 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 13.4 ST 50.3 OM  1.7 f0 11.8 R0.1317 AL-0.00 WI 20.0 MW  2.9 3
+ SPEC PTB HH Z T193358 K 0.000 GD  209 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC TAM HH Z MO 13.6 ST  1.2 OM  1.9 f0 2.88 R0.5396 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC TAM HH Z T193360 K 0.000 GD  213 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH Z MO 13.9 ST  3.5 OM  2.2 f0 3.27 R0.4752 AL-0.00 WI 20.0 MW  3.2 3
+ SPEC OCA HH Z T1934 0 K 0.000 GD  217 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SPBCHH Z MO 13.7 ST 20.8 OM  2.0 f0 6.87 R0.2262 AL-0.00 WI 20.0 MW  3.1 3
+ SPEC SPBCHH Z T1934 2 K 0.000 GD  220 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH Z MO 13.5 ST  5.8 OM  1.7 f0 5.24 R0.2966 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC NOR HH Z T193414 K 0.000 GD  278 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SML HH Z MO 13.5 ST248.9 OM  1.6 f0 19.6 R0.0793 AL-0.00 WI 20.0 MW  2.9 3
+ SPEC SML HH Z T193415 K 0.000 GD  285 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH Z MO 13.7 ST0.946 OM  1.8 f0 2.61 R0.5954 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC CHI HH Z T193417 K 0.000 GD  289 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ROSCBH Z MO 14.0 ST0.811 OM  2.1 f0 1.96 R0.7929 AL-0.00 WI 20.0 MW  3.3 3
+ SPEC ROSCBH Z T193420 K 0.000 GD  293 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH Z MO 13.8 ST  1.1 OM  1.9 f0 2.52 R0.6167 AL-0.00 WI 20.0 MW  3.1 3
+ SPEC HEL HH Z T193423 K 0.000 GD  310 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC URE HH Z MO 13.4 ST 44.9 OM  1.5 f0 11.5 R0.1351 AL-0.00 WI 20.0 MW  2.9 3
+ SPEC URE HH Z T193422 K 0.000 GD  321 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPECGUY2CHH Z MO 14.0 ST  0.8 OM  2.1 f0 1.88 R 0.828 AL-0.00 WI 20.0 MW  3.3 3
+ SPECGUY2CHH Z T193428 K       GD336.2 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC VIL SH Z MO 13.9 ST  1.4 OM  2.0 f0 2.43 R0.6395 AL-0.00 WI 20.0 MW  3.2 3
+ SPEC VIL SH Z T193426 K 0.000 GD  338 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CBOCHH Z MO 13.4 ST  5.9 OM  1.4 f0 6.04 R0.2573 AL-0.00 WI 20.0 MW  2.9 3
+ SPEC CBOCHH Z T193435 K 0.000 GD  366 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC DBB SH Z MO 14.2 ST0.741 OM  2.2 f0 1.63 R0.9534 AL-0.00 WI 20.0 MW  3.4 3
+ SPEC DBB SH Z T193434 K 0.000 GD  370 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC COD HH Z MO 13.3 ST  7.8 OM  1.3 f0 7.08 R0.2195 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC COD HH Z T193435 K 0.000 GD  378 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SJC HH Z MO 13.2 ST 38.3 OM  1.2 f0 12.4 R0.1253 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC SJC HH Z T193445 K 0.000 GD  434 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ 2013-12-25-1930-00M.COL___285                                                 6
+ OLDACT:REG 13-12-25 15:16 OP:jn   STATUS:               ID:20131225193000     3
+ ACTION:UPD 14-01-13 10:21 OP:ep   STATUS:               ID:20131225193312 L   I
+ OLDACT:UP  13-12-25 20:05 OP:jn   STATUS:               ID:20131225193000     3
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C 1933 32.05                             170    0.1210 24.0 192 
+ BAR2 SZ ES       1933 47.18                             170   -0.2610 24.0 192 
+ BAR2 SZ I        1933 49.59       165.0 0.24            164           24.0 192 
+ BRR  HZ EP       1933 33.91                             153    0.4710 71.8 298 
+ BRR  HE ES       1933 50.85                             153    0.7110 71.8 298 
+ BRR  SZ I        1933 54.80        62.5 0.14            140           71.8 298 
+ PAM  SZ EP     C 1933 34.81                             151    0.4010 76.3  39 
+ PAM  SE ES       1933 52.12                             151    0.2710 76.3  39 
+ PAM  SZ I        1933 54.01        85.3 0.30            142           76.3  39 
+ RUS  HZ EP       1933 35.89                             144   -0.1310  101 177 
+ RUS  HN ES       1933 54.01                             144   -0.7210  101 177 
+ RUS  SZ I        1933 55.65        49.5 0.34            131            101 177 
+ PTB  HZ EP       1933 38.75                             132   -0.52 9  149 259 
+ PTB  HN ES       1933 59.85                             132   -0.66 9  149 259 
+ PTB  SZ I        1934  5.85        69.8 0.24            119            149 259 
+ TAM  HZ IP     D 1933 40.22                             131    0.42 9  154 105 
+ TAM  HE ES       1934  1.68                             131    0.23 9  154 105 
+ TAM  SZ I        1934 11.01        36.7 0.80            119            154 105 
+ OCA  HZ EP       1933 40.40                             130   -0.07 9  160 353 
+ OCA  HN ES       1934  2.26                             130   -0.38 9  160 353 
+ OCA  SZ I        1934  8.14        72.9 0.38            118            160 353 
+ OCA  HZ I        1934 10.49        60.1 0.34                           160 353 
+ SPBC HZ EP       1933 40.84                             129    0.05 9  164 219 
+ SPBC HE ES       1934  3.63                             129    0.41 9  164 219 
+ SPBC SZ I        1934  7.92       109.8 0.26            116            164 219 
+ ZAR  HN ES       1934 10.04                             123   -0.12 9  205 292 
+ NOR  HZ EP       1933 47.93                             119   -0.08 8  236 235 
+ NOR  HN ES       1934 16.05                             119   -0.01 8  236 235 
+ NOR  SZ I        1934 23.16        41.0 0.20            108            236 235 
+ SML  HZ EP       1933 48.87                             118    0.10 8  244 335 
+ SML  HE ES       1934 17.13                             118   -0.29 8  244 335 
+ SML  SZ I        1934 21.72       105.6 0.08            108            244 335 
+ CHI  HZ EP       1933 49.99                             117    0.06 8  249 195 
+ CHI  HN ES       1934 19.03                             117   -0.46 8  249 195 
+ CHI  SZ I        1934 23.04        24.7 0.52            107            249 195 
+ ROSC BZ EP   4   1933 51.86                             117    1.49 0  254 211 
+ ROSC BE ES   4   1934 22.23                             117    1.95 0  254 211 
+ ROSC SZ I        1934 29.90        66.0 0.50            107            254 211 
+ HEL  HZ EP       1933 53.80                             115    1.32 8  273 256 
+ HEL  HN ES       1934 24.57                             115    0.55 8  273 256 
+ HEL  SZ I        1934 30.71        30.4 0.40            105            273 256 
+ HEL  HZ I        1934 30.75        25.9 0.36                           273 256 
+ URE  HZ EP   4   1933 52.69                             114   -0.60 0  285 292 
+ URE  SZ I        1934 32.68        26.4 0.16            105            285 292 
+ GUY2CHZ EP   2   1933 56.10                             113    0.23 4  302 235 
+ GUY2CSZ I        1934 38.55        36.1 0.38                           302 235 
+ GUY2CHZ I        1934 38.75        36.6 0.38                           302 235 
+ VIL  SZ EP       1933 54.63                             112   -1.00 7  304 192 
+ VIL  SZ I        1934 35.10        30.3 0.72            104            304 192 
+ CBOC HZ EP       1933 59.80                             110    0.63 7  335 252 
+ CBOC SZ I        1934 44.65        10.5 0.74            102            335 252 
+ DBB  SZ EP   2   1933 58.97                             110   -0.74 3  340 274 
+ DBB  SZ I        1934 38.34        33.7 0.48            102            340 274 
+ COD  HZ EP       1933 59.82                             109   -0.63 6  348 354 
+ COD  HN ES       1934 37.21                             109   -0.99 6  348 354 
+ COD  SZ I        1934 48.11        13.1 0.50            102            348 354 
+ SJC  HZ EP   4   1934  6.26                             106   -1.42 0  409 327 
+ SJC  HE ES   4   1934 46.52                             106   -4.56 0  409 327 
+ SJC  SZ I        1934 54.18        12.4 2.24            100            409 327 
+                                                                                

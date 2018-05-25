@@ -1,0 +1,29 @@
+ 2016  6 3 0924 15.5 L   6.791 -73.165144.1  RSN  6 0.4 1.5LRSN                1
+ GAP=181        0.97       3.7     5.8  6.9  0.1252E+00  0.3409E+01  0.3051E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-07-21 22:15 OP:rebc STATUS:               ID:20160603092415 L   I
+ OLDACT:UP  16-06-03 20:05 OP:ar   STATUS:               ID:20160603091744d    3
+ OLDACT:DUP 16-06-03 19:54 OP:ar   STATUS:               ID:20160603091744d    3
+ OLDACT:UP  16-06-03 19:53 OP:ar   STATUS:               ID:20160603091743     3
+ OLDACT:REG 16-06-03 13:14 OP:edw  STATUS:               ID:20160603091743     3
+ 2016-06-03-0917-43M.COL___319                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        924 34.72                             171   -0.2110 22.1 185 
+ BAR2 EZ ES        924 49.75                             171   -0.3110 22.1 185 
+ BAR2 EZ I         924 50.81         8.3 0.32                          22.1 185 
+ BRR  HZ EP        924 36.35                             153   -0.0610 69.8 300 
+ BRR  HN ES        924 53.24                             153    0.5410 69.8 300 
+ BRR  HZ I         924 53.90         6.9 0.28                          69.8 300 
+ RUS  HZ EP        924 39.13                             144    0.0810 99.8 175 
+ RUS  HN ES        924 57.48                             144    0.0810 99.8 175 
+ RUS  HZ I         924 57.91         1.9 0.26                          99.8 175 
+ PTB  HZ EP        924 42.15                             132    0.01 9  145 259 
+ PTB  HN ES        925  2.37                             132   -0.54 9  145 259 
+ PTB  HZ I         925  9.23         2.1 0.16                           145 259 
+ OCA  HN ES        925  5.50                             129   -0.31 9  161 354 
+ SPBC HZ EP        924 43.47                             129   -0.22 9  161 219 
+ SPBC HN ES        925  6.26                             129    0.60 9  161 219 
+ SPBC HZ I         925 10.30         4.5 0.22                           161 219 
+ OCA  HZ EP   2    924 45.17                             129    1.39 5  161 354 
+ OCA  HZ I         925  9.80         6.2 0.30                           161 354 
+                                                                                

@@ -1,0 +1,20 @@
+ 2015  9 8 0001 54.7 L   6.847 -73.089146.0  RSN  4 0.4 1.6LRSN                1
+ GAP=247        0.74      15.6    12.2  9.1  0.1591E+03 -0.1008E+02 -0.5136E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 15-10-28 16:24 OP:cam  STATUS:               ID:20150908000147 L   I
+ OLDACT:UP  15-09-08 19:54 OP:ar   STATUS:               ID:20150908000147 L   3
+ OLDACT:UP  15-09-08 19:30 OP:nlst STATUS:               ID:20150908000147 L   3
+ OLDACT:REG 15-09-08 13:04 OP:ar   STATUS:               ID:20150908000005     3
+ 2015-09-08-0000-05M.COL___356                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        0 2 14.20                             168   -0.3110 30.0 200 
+ BAR2 EZ ES        0 2 30.16                             168    0.2010 30.0 200 
+ BAR2 EZ I         0 2 30.27         7.6 0.36            159           30.0 200 
+ BRR  HZ EP   2    0 2 16.19                             151    0.13 5 74.6 293 
+ BRR  HN ES   4    0 2 33.40                             151    0.67 0 74.6 293 
+ RUS  HZ EP   2    0 2 18.38                             142   -0.45 5  106 180 
+ RUS  HN ES   2    0 2 37.87                             142    0.21 5  106 180 
+ ZAR  HZ EP   1    0 2 28.38                             122    0.81 6  208 290 
+ ZAR  HN ES        0 2 52.93                             122   -0.27 8  208 290 
+ ZAR  HZ I         0 3  0.60         3.5 0.40            119            208 290 
+                                                                                

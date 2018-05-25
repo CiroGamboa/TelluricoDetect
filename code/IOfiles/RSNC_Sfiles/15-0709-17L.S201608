@@ -1,0 +1,29 @@
+ 2016  815 0709 17.9 L   7.286 -73.460109.0  RSN  7 0.3 1.4LRSN                1
+ GAP=150        0.78       3.3     5.1  6.6 -0.5991E+01  0.5139E+01 -0.3316E+01E
+ Epicentro: SABANA DE TORRES - SANTANDER                                       3
+ ACTION:UPD 16-10-29 15:35 OP:rebc STATUS:               ID:20160815070917 L   I
+ OLDACT:DUP 16-08-15 16:05 OP:dnl  STATUS:               ID:20160815070631d    3
+ OLDACT:REG 16-08-15 12:35 OP:ak   STATUS:               ID:20160815070630     3
+ 2016-08-15-0707-00M.COL___371                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        7 9 33.44                             161    0.3410 34.1 235 
+ BRR  HN ES        7 9 45.43                             161    0.4410 34.1 235 
+ BRR  HZ I         7 9 48.84         5.1 0.36                          34.1 235 
+ BAR2 EZ EP   2    7 9 36.91                             141    0.53 5 82.6 158 
+ BAR2 EZ ES        7 9 50.40                             141   -0.4210 82.6 158 
+ BAR2 EZ I         7 9 52.22        12.4 0.42                          82.6 158 
+ OCA  HZ EP        7 9 38.23                             132   -0.0610  107   8 
+ OCA  HN ES        7 9 54.05                             132   -0.1710  107   8 
+ PTB  HZ EP        7 9 41.03                             124   -0.06 9  138 233 
+ PTB  HN ES        7 9 58.86                             124   -0.34 9  138 233 
+ PTB  HZ I         710  2.51         3.1 0.54                           138 233 
+ RUS  HZ EP   2    7 9 44.38                             120    0.40 5  160 165 
+ RUS  HE ES   4    7 9 59.92                             120   -4.43 0  160 165 
+ RUS  HZ I         710  6.13         1.5 0.38                           160 165 
+ SPBC HZ EP   4    7 9 48.13                             115    1.05 0  193 201 
+ SPBC HN ES   4    710 11.49                             115    1.62 0  193 201 
+ SPBC HZ I         710 16.97         4.1 0.22                           193 201 
+ URE  HZ EP   4    7 9 54.24                             110    2.55 0  235 283 
+ URE  HN ES   4    710 15.70                             110   -2.38 0  235 283 
+ URE  HZ I         710 26.43         2.8 0.24                           235 283 
+                                                                                

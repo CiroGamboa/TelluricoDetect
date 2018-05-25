@@ -1,0 +1,52 @@
+ 2012  9 6 2232 26.6 L   6.798 -73.149140.2  RSN 13 0.5 2.7LRSN 2.9WRSN        1
+ SPEC AVERAGE  MO 13.5 ST  8.9 OM  2.3 f0 5.66 R0.2661 AL 2.49 WI  5.5 MW  2.9 3
+ SPEC SD       MO  0.2 ST  5.1 OM  0.7 f00.831 R0.0426 AL      WI      MW  0.1 3
+ GAP= 71        0.90       3.9     3.3  5.8 -0.7004E+00  0.3681E+01  0.7119E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC PRA HH N MO 13.4 ST  9.5 OM  1.4 f0 6.56 R0.2241 AL 1.84 WI  4.3 MW  2.9 3
+ SPEC PRA HH N T2234 1 K 0.000 GD  416 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC NOR SH N MO 13.7 ST 18.5 OM  1.9 f0 6.42 R0.2290 AL 1.88 WI  6.5 MW  3.1 3
+ SPEC NOR SH N T223328 K 0.000 GD  272 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 13.4 ST  6.5 OM  1.7 f0 5.84 R0.2517 AL 2.56 WI  5.3 MW  2.9 3
+ SPEC PTB HH N T223312 K 0.000 GD  203 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.4 ST  4.2 OM  1.5 f0 5.12 R0.2871 AL 3.23 WI  8.0 MW  2.8 3
+ SPEC HEL HH N T223336 K 0.000 GD  306 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.7 ST  6.0 OM  1.9 f0 4.34 R0.3387 AL 2.92 WI  3.2 MW  3.1 3
+ SPEC CHI HH N T223332 K 0.000 GD  284 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-10-22 14:17 OP:ep   STATUS:               ID:20120906223226 L   I
+ 2012-09-06-2230-00M.COL___227                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       2232 45.60                             170    0.0910 23.1 189 
+ BAR2 SZ ES   1   2233  0.04                             170   -0.25 7 23.1 189 
+ BAR2 SZ I        2233  1.70       128.5 0.34                          23.1 189 
+ GIR2 SZ EP       2232 45.54                             167   -0.0310 31.4 351 
+ GIR2 SZ ES   2   2232 59.76                             167   -0.64 5 31.4 351 
+ BRR  HZ EP       2232 47.33                             152    0.2410 71.0 299 
+ BRR  HN ES   1   2233  4.15                             152    1.04 7 71.0 299 
+ BRR  HN I        2233  5.26       251.6 0.25                          71.0 299 
+ PAM  SZ EP   1   2232 48.32                             149    0.12 7 77.8  40 
+ PAM  SN ES   1   2233  5.39                             149    0.30 7 77.8  40 
+ PAM  SZ I        2233  7.47        72.2 0.54                          77.8  40 
+ RUS  HZ EP       2232 49.64                             143   -0.1110  100 176 
+ RUS  HZ I        2232 50.85        45.3 0.13                           100 176 
+ RUS  HN ES   1   2233  7.38                             143   -0.46 7  100 176 
+ PTB  HZ EP       2232 52.20                             131   -0.83 9  147 259 
+ PTB  HN ES   1   2233 12.70                             131   -0.99 7  147 259 
+ PTB  HZ I        2233 15.92        37.1 0.15                           147 259 
+ TAM  HZ EP       2232 53.97                             129    0.15 9  155 105 
+ TAM  HE ES   2   2233 15.18                             129    0.09 5  155 105 
+ ZAR  HZ EP   1   2232 58.33                             121   -0.28 6  204 292 
+ ZAR  HN ES   1   2233 23.33                             121   -0.29 6  204 292 
+ ZAR  HZ I        2233 29.61        46.4 0.35                           204 292 
+ NOR  SN ES   1   2233 29.90                             117    0.40 6  234 234 
+ CHI  HZ EP   1   2233  4.04                             116    0.13 6  248 195 
+ CHI  HN ES   1   2233 33.38                             116    0.32 6  248 195 
+ HEL  HZ EP   1   2233  6.75                             114    0.31 6  272 256 
+ HEL  HN ES   1   2233 38.10                             114    0.55 6  272 256 
+ HEL  HZ I        2233 45.04        16.1 0.57                           272 256 
+ ANIL HZ EP   1   2233 16.63                             107    0.53 5  357 224 
+ ANIL HN ES   1   2233 55.54                             107    0.80 5  357 224 
+ PRA  HZ EP       2233 19.57                             105   -0.27 6  392 210 
+ PRA  HN ES   1   2234  1.62                             105    0.21 4  392 210 
+ PRA  HN I        2234  6.50        22.1 0.51                           392 210 
+                                                                                

@@ -1,0 +1,33 @@
+ 2012 1114 1006 27.9 L   6.749 -73.162146.0  RSN  8 0.4 1.4LRSN 2.3WRSN        1
+ SPEC AVERAGE  MO 12.6 ST0.497 OM  2.0 f0 3.80 R0.4159 AL 2.72 WI 16.0 MW  2.3 3
+ SPEC SD       MO  0.2 ST0.419 OM  1.0 f00.995 R0.1091 AL      WI      MW  0.1 3
+ GAP=137        1.11       4.5     4.8  6.9  0.2089E+01  0.7802E+01 -0.2138E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC RUS HH N MO 12.4 ST0.078 OM  0.8 f0 2.80 R0.5250 AL 2.33 WI  9.3 MW  2.2 3
+ SPEC RUS HH N T10 7 8 K 0.000 GD  174 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 12.8 ST0.916 OM  1.2 f0 4.79 R0.3069 AL 3.11 WI 22.6 MW  2.5 3
+ SPEC BRR HH N T10 7 6 K 0.000 GD  163 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-12-05 15:33 OP:}ep  STATUS:               ID:20121114100627 L   I
+ 2012-11-14-1000-00M.COL___230                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       10 6 47.97                             173    0.5110 17.5 188 
+ BAR2 SZ I        10 7  4.43         5.7 0.26                          17.5 188 
+ GIR2 SZ EP       10 6 47.45                             165   -0.3110 36.6 354 
+ GIR2 SZ ES       10 7  3.04                             165   -0.2110 36.6 354 
+ BRR  HZ EP       10 6 49.77                             152    0.6110 72.6 303 
+ BRR  HN ES       10 7  6.49                             152    0.7610 72.6 303 
+ BRR  HN I        10 7  7.49         8.1 0.20                          72.6 303 
+ PAM  SZ EP       10 6 50.72                             149    0.2410 82.9  38 
+ PAM  SZ I        10 6 51.27         3.4 0.46                          82.9  38 
+ PAM  SN ES       10 7  7.98                             149   -0.1110 82.9  38 
+ RUS  HZ EP       10 6 51.15                             145   -0.1410 95.1 175 
+ RUS  HN ES       10 7  9.17                             145   -0.3610 95.1 175 
+ RUS  HN I        10 7 10.21         3.8 0.30                          95.1 175 
+ PTB  HZ EP       10 6 54.71                             133    0.06 9  145 261 
+ PTB  HN ES       10 7 14.84                             133   -0.66 9  145 261 
+ PTB  HN I        10 7 15.91         3.7 0.38                           145 261 
+ ZAR  HZ EP       10 7  0.40                             122   -0.02 9  205 294 
+ ZAR  HE ES       10 7 26.10                             122    0.31 9  205 294 
+ SML  HZ EP       10 7  4.77                             117   -0.25 8  248 336 
+ SML  HN ES       10 7 33.13                             117   -0.84 8  248 336 
+                                                                                

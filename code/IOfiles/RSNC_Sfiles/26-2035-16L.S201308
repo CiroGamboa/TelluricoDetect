@@ -1,0 +1,49 @@
+ 2013  826 2035 16.6 L   6.786 -73.170140.1  RSN  9 0.5 1.9LRSN 2.4WRSN        1
+ SPEC AVERAGE  MO 12.7 ST  2.9 OM  1.4 f0 6.94 R0.2514 AL 0.00 WI 20.0 MW  2.4 3
+ SPEC SD       MO  0.2 ST  3.3 OM  0.4 f0 2.72 R0.0743 AL      WI      MW  0.1 3
+ GAP=134        1.31       5.3     4.9  7.5 -0.4224E+01  0.7979E+01  0.5183E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 12.6 ST  1.3 OM  1.1 f0 6.33 R0.2455 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC BAR2SH Z T203548 K 0.000 GD  141 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH Z MO 12.9 ST  1.3 OM  1.3 f0 5.26 R0.2954 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC BRR HH Z T203552 K 0.000 GD  156 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 12.7 ST0.494 OM  1.1 f0 4.37 R0.3556 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC PAM SH Z T203553 K 0.000 GD  161 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 12.4 ST0.373 OM  0.8 f0 4.91 R0.3165 AL-0.00 WI 20.0 MW  2.2 3
+ SPEC RUS HH Z T203556 K 0.000 GD  171 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 12.6 ST 10.0 OM  0.9 f0 12.9 R0.1205 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC PTB HH Z T2036 1 K 0.000 GD  201 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH Z MO 12.9 ST  5.3 OM  1.1 f0 8.37 R0.1857 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC ZAR HH Z T203611 K 0.000 GD  245 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH Z MO 12.6 ST  1.3 OM  0.8 f0 6.45 R0.2409 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC NOR HH Z T203616 K 0.000 GD  271 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ OLDACT:REG 13-08-26 23:29 OP:stll STATUS:               ID:20130826202850     3
+ ACTION:UPD 14-01-14 09:07 OP:ep   STATUS:               ID:20130826203516 L   I
+ OLDACT:UP  13-08-27 00:51 OP:stll STATUS:               ID:20130826202850     3
+ 2013-08-26-2028-50M.COL___211                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       2035 35.53                             171    0.0410 21.4 184 
+ BAR2 SZ ES       2035 50.41                             171    0.1710 21.4 184 
+ BAR2 SZ I        2035 51.34        16.8 0.28            162           21.4 184 
+ BRR  HZ IP     D 2035 37.25                             152    0.2210 69.7 301 
+ BRR  HN ES       2035 53.98                             152    0.9910 69.7 301 
+ BRR  SZ I        2035 54.90        12.9 0.12            149           69.7 301 
+ PAM  SZ EP       2035 38.25                             149   -0.1310 80.3  40 
+ PAM  SN ES       2035 54.66                             149   -0.7210 80.3  40 
+ PAM  SZ I        2035 56.75        14.7 0.36            149           80.3  40 
+ RUS  HZ EP       2035 40.20                             143    0.5210 99.2 174 
+ RUS  HN ES       2035 57.68                             143   -0.0210 99.2 174 
+ RUS  SZ I        2036  0.70         5.9 0.48            134           99.2 174 
+ PTB  HZ EP       2035 42.23                             131   -0.59 9  145 259 
+ PTB  HN ES       2036  2.55                             131   -0.75 9  145 259 
+ PTB  SZ I        2036  5.40        13.0 0.14            125            145 259 
+ CAPV BZ EP       2035 43.43                             130   -0.36 9  152  38 
+ SPBC HZ EP       2035 44.63                             128    0.26 9  160 219 
+ SPBC SZ I        2036 12.58        12.0 0.22            121            160 219 
+ ZAR  HZ EP       2035 49.38                             121    0.91 9  202 293 
+ ZAR  HE ES       2036 13.14                             121   -0.20 9  202 293 
+ ZAR  SZ I        2036 17.13         7.7 0.28            117            202 293 
+ NOR  HZ EP       2035 51.74                             118    0.09 8  232 234 
+ NOR  HN ES       2036 18.41                             118   -0.60 8  232 234 
+ NOR  SZ I        2036 26.35         5.8 0.22            112            232 234 
+                                                                                

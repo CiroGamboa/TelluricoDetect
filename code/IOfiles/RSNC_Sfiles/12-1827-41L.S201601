@@ -1,0 +1,58 @@
+ 2016  112 1827 41.6 L   6.797 -73.163146.8  RSN 10 0.3 2.7LRSN 3.0WRSN        1
+ SPEC AVERAGE  MO 13.6 ST  1.2 OM  1.8 f0 3.45 R0.6648 AL 0.00 WI 30.0 MW  3.0 3
+ SPEC SD       MO  0.2 ST0.991 OM  0.3 f0 1.41 R0.2826 AL      WI      MW  0.1 3
+ GAP= 70        0.89       2.8     2.7  4.9 -0.6303E+00  0.1974E+01  0.2712E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2EH Z MO 13.7 ST0.822 OM  1.8 f0 3.02 R0.6371 AL-0.00 WI 30.0 MW  3.1 3
+ SPEC BAR2EH Z T182815 K 0.000 GD  148 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 1.00 3
+ SPEC BRR HH Z MO 13.5 ST  1.1 OM  1.6 f0 3.82 R0.5037 AL-0.00 WI 30.0 MW  3.0 3
+ SPEC BRR HH Z T182818 K 0.000 GD  162 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 1.00 3
+ SPEC PAM EH Z MO 13.7 ST0.179 OM  1.8 f0 1.75 R1.0994 AL-0.00 WI 30.0 MW  3.1 3
+ SPEC PAM EH Z T182819 K 0.000 GD  166 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 1.00 3
+ SPEC RUS HH Z MO 13.5 ST0.304 OM  1.5 f0 2.57 R0.7486 AL-0.00 WI 30.0 MW  2.9 3
+ SPEC RUS HH Z T182822 K 0.000 GD  177 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 1.00 3
+ SPEC PTB HH Z MO 13.3 ST  3.2 OM  1.3 f0 6.23 R0.3088 AL-0.00 WI 30.0 MW  2.8 3
+ SPEC PTB HH Z T182827 K 0.000 GD  207 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 1.00 3
+ SPEC TAM HH Z MO 13.8 ST0.224 OM  1.8 f0 1.73 R1.1121 AL-0.00 WI 30.0 MW  3.2 3
+ SPEC TAM HH Z T182830 K 0.000 GD  214 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 1.00 3
+ SPEC ZAR HH Z MO 13.6 ST  2.2 OM  1.5 f0 4.44 R0.4333 AL-0.00 WI 30.0 MW  3.0 3
+ SPEC ZAR HH Z T182837 K 0.000 GD  249 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 1.00 3
+ SPEC NOR HH Z MO 13.5 ST  1.2 OM  1.3 f0 4.05 R0.4751 AL-0.00 WI 30.0 MW  2.9 3
+ SPEC NOR HH Z T182843 K 0.000 GD  275 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 1.00 3
+ OLDACT:REG 16-01-12 21:26 OP:drio STATUS:               ID:20160112181751     3
+ ACTION:UPD 16-03-09 23:24 OP:cam  STATUS:               ID:20160112182741 L   I
+ OLDACT:UP  16-02-23 21:46 OP:cam  STATUS:               ID:20160112182741 L   3
+ OLDACT:UP  16-02-23 20:51 OP:AR   STATUS:               ID:20160112182741 L   3
+ 2016-01-12-1817-51M.COL___247                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     D 1828  1.35                             171   -0.0410 22.7 185 
+ BAR2 EZ ES       1828 16.62                             171   -0.1710 22.7 185 
+ BAR2 EZ I        1828 17.55       113.6 0.32            171           22.7 185 
+ BRR  HZ IP     C 1828  3.09                             153    0.2610 69.7 300 
+ BRR  HE ES       1828 20.17                             153    0.8210 69.7 300 
+ BRR  HZ I        1828 24.13        72.1 0.32            151           69.7 300 
+ PAM  EZ EP       1828  4.07                             151    0.0110 78.9  40 
+ PAM  EN ES       1828 21.33                             151   -0.2210 78.9  40 
+ PAM  EZ I        1828 23.55        72.1 0.52            147           78.9  40 
+ RUS  HZ EP       1828  5.34                             144   -0.1510  100 175 
+ RUS  HN ES       1828 23.89                             144   -0.1910  100 175 
+ RUS  HZ I        1828 25.62        39.2 0.46            142            100 175 
+ PTB  HZ EP       1828  8.15                             133   -0.38 9  146 259 
+ PTB  HN ES       1828 28.93                             133   -0.56 9  146 259 
+ PTB  HZ I        1828 35.72        47.9 0.36            130            146 259 
+ TAM  HZ IP     D 1828  9.83                             130    0.26 9  157 105 
+ TAM  HZ I        1828 30.64        28.6 0.46            127            157 105 
+ TAM  HN ES       1828 31.57                             130    0.22 9  157 105 
+ OCA  HZ EP     C 1828  9.39                             130   -0.66 9  160 354 
+ OCA  HN ES       1828 32.07                             130   -0.14 9  160 354 
+ OCA  HZ I        1828 39.86       121.2 0.24            127            160 354 
+ SPBC HZ EP       1828 10.25                             130    0.16 9  162 219 
+ SPBC HN ES       1828 32.48                             130    0.21 9  162 219 
+ SPBC HZ I        1828 37.00        92.6 0.30            127            162 219 
+ ZAR  HZ EP       1828 14.47                             123    0.48 9  202 292 
+ ZAR  HE ES       1828 39.33                             123    0.11 9  202 292 
+ ZAR  HZ I        1828 44.67        63.5 0.36            120            202 292 
+ NOR  HZ EP       1828 17.53                             119    0.28 8  233 234 
+ NOR  HN ES       1828 44.78                             119   -0.24 8  233 234 
+ NOR  HZ I        1828 51.27        32.7 0.24            117            233 234 
+                                                                                

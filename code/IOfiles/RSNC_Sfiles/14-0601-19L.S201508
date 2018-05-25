@@ -1,0 +1,33 @@
+ 2015  814 0601 19.8 L   6.813 -73.098143.9  RSN  8 0.3 1.9LRSN                1
+ GAP=188        0.83       3.1     5.4  5.7  0.2350E+01  0.3498E+01 -0.3584E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 15-09-15 23:02 OP:cam  STATUS:               ID:20150814060119 L   I
+ OLDACT:UP  15-08-14 16:49 OP:mh   STATUS:               ID:20150814055735     3
+ OLDACT:UP  15-08-14 16:48 OP:mh   STATUS:               ID:20150814055735     3
+ OLDACT:REG 15-08-14 12:59 OP:mh   STATUS:               ID:20150814055735     3
+ 2015-08-14-0557-35M.COL___328                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        6 1 39.47                             169    0.2410 26.2 201 
+ BAR2 EZ ES        6 1 54.27                             169   -0.1410 26.2 201 
+ BAR2 EZ I         6 1 54.90        14.3 0.16            172           26.2 201 
+ BRR  HZ EP   1    6 1 41.21                             151    0.26 7 75.3 296 
+ BRR  HN ES        6 1 57.94                             151    0.4710 75.3 296 
+ BRR  HZ I         6 2  1.94        15.4 0.14            143           75.3 296 
+ RUS  HZ EP   1    6 1 43.54                             143    0.12 7  102 179 
+ RUS  HN ES        6 2  2.04                             143    0.1610  102 179 
+ RUS  HZ I         6 2  2.39         6.7 0.52            138            102 179 
+ OCA  HZ EP   1    6 1 47.99                             129    0.13 7  160 351 
+ OCA  HN ES        6 2  9.15                             129   -0.62 9  160 351 
+ OCA  HZ I         6 2 12.64        18.5 0.46            119            160 351 
+ SPBC HZ EP        6 1 48.48                             128   -0.07 9  168 220 
+ SPBC HN ES        6 2 10.30                             128   -0.71 9  168 220 
+ SPBC HZ I         6 2 13.64         7.7 0.22            121            168 220 
+ ZAR  HZ EP   1    6 1 52.92                             121    0.37 6  208 291 
+ ZAR  HN ES        6 2 18.24                             121    0.13 8  208 291 
+ ZAR  HZ I         6 2 23.35         8.0 0.56            113            208 291 
+ SML  HZ EP        6 1 56.26                             117   -0.13 8  245 334 
+ SML  HZ I         6 2 32.22         8.4 0.10            108            245 334 
+ SJC  HZ EP   4    6 2 13.96                             105   -1.51 0  411 326 
+ SJC  HN ES   4    6 2 55.39                             105   -3.52 0  411 326 
+ SJC  HZ I         6 3  1.11         1.4 0.60             99            411 326 
+                                                                                

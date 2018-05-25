@@ -1,0 +1,26 @@
+ 2017 1017 0326 25.5 L   5.754 -73.858106.5  RSN  5 0.1 1.2LRSN                1
+ GAP=180        0.44       2.4     1.6  4.6 -0.5457E+00  0.1388E+00 -0.1447E+01E
+ Epicentro: ALBANIA - SANTANDER                                                3
+ ACTION:UPD 17-11-07 19:32 OP:rebc STATUS:               ID:20171017032625 L   I
+ OLDACT:UP  17-10-17 14:43 OP:dani STATUS:               ID:20171017031743d    3
+ OLDACT:UP  17-10-17 14:43 OP:dani STATUS:               ID:20171017031743d    3
+ OLDACT:DUP 17-10-17 14:31 OP:dani STATUS:               ID:20171017031743d    3
+ OLDACT:UP  17-10-17 14:28 OP:dani STATUS:               ID:20171017031742     3
+ OLDACT:UP  17-10-17 14:27 OP:dani STATUS:               ID:20171017031742     3
+ OLDACT:REG 17-10-17 12:25 OP:dani STATUS:               ID:20171017031742     3
+ 2017-10-17-0318-00M.COL___425                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ RUS  HZ EP        326 44.57                             138    0.0910 87.2  80 
+ RUS  HN ES        326 59.28                             138   -0.0210 87.2  80 
+ RUS  HZ I         327  1.61         2.4 0.28            140           87.2  80 
+ PTB  HZ EP        326 45.81                             130    0.0510  109 323 
+ PTB  HN ES        327  1.63                             130    0.0610  109 323 
+ PTB  HZ I         327  2.96         1.5 0.12            133            109 323 
+ NOR  HN ES        327  2.39                             129   -0.0610  114 259 
+ BAR2 EZ EP        326 47.20                             128    0.2010  119  39 
+ BAR2 EZ ES        327  3.62                             128   -0.1510  119  39 
+ BAR2 EZ I         327  5.17         8.3 0.32            130            119  39 
+ BRR  HZ EP        326 49.53                             121   -0.32 9  151   6 
+ BRR  HE ES        327  8.98                             121    0.13 9  151   6 
+ BRR  HZ I         327 11.01         2.1 0.21            123            151   6 
+                                                                                

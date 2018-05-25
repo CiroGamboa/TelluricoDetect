@@ -1,0 +1,28 @@
+ 2013 12 1 1648 18.1 L   6.793 -73.133152.2  RSN  7 0.3 1.9LRSN                1
+ GAP=155        0.81       6.2     4.8  7.1 -0.1724E+02 -0.2888E+01  0.1794E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 14-01-13 10:15 OP:ep   STATUS:               ID:20131201164818 L   I
+ OLDACT:UP  13-12-01 15:52 OP:cam  STATUS:               ID:20131201164001d    3
+ OLDACT:DUP 13-12-01 15:50 OP:cam  STATUS:               ID:20131201164001d    3
+ OLDACT:REG 13-12-01 14:42 OP:cam  STATUS:               ID:20131201164000     3
+ 2013-12-01-1640-00M.COL___282                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP     C 1648 38.36                             171   -0.1610 22.9 194 
+ BAR2 SZ ES   2   1648 54.39                             171   -0.04 5 22.9 194 
+ BAR2 SZ I        1648 55.03        22.0 0.24            170           22.9 194 
+ BRR  HZ EP       1648 40.41                             153    0.3510 72.8 299 
+ BRR  HN ES       1648 57.67                             153    0.5010 72.8 299 
+ BRR  HZ I        1649  4.38        12.7 0.42            150           72.8 299 
+ PAM  SZ EP       1648 41.19                             152    0.1810 77.1  38 
+ PAM  SN ES       1648 58.49                             152   -0.3810 77.1  38 
+ PAM  SZ I        1649  0.43        10.3 0.18            155           77.1  38 
+ PTB  HZ EP       1648 45.47                             133   -0.26 9  149 259 
+ PTB  HN ES       1649  6.59                             133   -0.68 9  149 259 
+ PTB  HZ I        1649 12.08        10.7 0.22            133            149 259 
+ SPBC HZ EP   1   1648 47.32                             130    0.17 7  163 220 
+ SPBC HN ES   1   1649 10.20                             130    0.41 7  163 220 
+ ZAR  HN ES   2   1649 17.07                             123    0.15 4  206 292 
+ NOR  HZ EP   1   1648 54.19                             120   -0.11 6  235 235 
+ NOR  HN ES       1649 22.62                             120    0.09 8  235 235 
+ NOR  HZ I        1649 29.49         5.9 0.22            121            235 235 
+                                                                                

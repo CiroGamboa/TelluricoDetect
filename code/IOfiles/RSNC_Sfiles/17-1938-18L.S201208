@@ -1,0 +1,68 @@
+ 2012  817 1938 18.8 L   6.774 -73.152144.0  RSN 18 0.4 4.0LRSN 3.7WRSN        1
+ SPEC AVERAGE  MO 14.7 ST 50.1 OM  3.4 f0 3.71 R0.4710 AL 2.02 WI 15.7 MW  3.7 3
+ SPEC SD       MO  0.3 ST 74.6 OM  0.5 f0 1.96 R0.1565 AL      WI      MW  0.2 3
+ GAP= 65        0.93       3.1     2.8  4.7  0.1471E+01  0.4124E+01  0.4772E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC ROSCBH Z MO 15.1 ST 49.1 OM  3.3 f0 2.98 R0.4933 AL 3.64 WI 13.1 MW  4.0 3
+ SPEC ROSCBH Z T193927 K 0.000 GD  288 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC TAM HH Z MO 14.8 ST  6.8 OM  3.1 f0 1.99 R0.7387 AL 1.75 WI 20.9 MW  3.8 3
+ SPEC TAM HH Z T1939 1 K 0.000 GD  211 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH Z MO 14.6 ST 22.2 OM  2.8 f0 3.37 R0.4362 AL 2.39 WI 14.2 MW  3.7 3
+ SPEC CHI HH Z T193923 K 0.000 GD  285 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH Z MO 14.5 ST230.1 OM  2.6 f0 8.36 R0.1758 AL 0.00 WI 18.4 MW  3.6 3
+ SPEC HEL HH Z T193929 K 0.000 GD  306 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC YOP SH Z MO 14.8 ST 17.8 OM  3.1 f0 2.68 R0.5485 AL 2.23 WI 18.8 MW  3.8 3
+ SPEC YOP SH Z T1939 7 K 0.000 GD  228 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 14.4 ST  9.1 OM  2.8 f0 2.95 R0.4983 AL 1.72 WI 11.4 MW  3.5 3
+ SPEC RUS HH Z T193857 K 0.000 GD  174 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 14.4 ST 15.9 OM  2.8 f0 3.62 R0.4061 AL 2.40 WI 13.2 MW  3.5 3
+ SPEC PAM SH Z T193857 K 0.000 GD  164 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-09-10 11:56 OP:ep   STATUS:               ID:20120817193818 L   I
+ 2012-08-17-1934-49M.COL___211                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP       1938 38.25                             172    0.1310 20.4 189 
+ BAR2 SZ ES   1   1938 53.02                             172   -0.20 7 20.4 189 
+ BAR2 SZ I        1938 56.29      2702.9 0.41                          20.4 189 
+ GIR2 SZ IP       1938 38.36                             166    0.0610 34.0 352 
+ GIR2 SZ ES       1938 53.75                             166    0.2210 34.0 352 
+ BRR  HZ IP     C 1938 40.18                             152    0.4210 71.9 301 
+ BRR  HE ES   1   1938 56.70                             152    0.56 7 71.9 301 
+ BRR  HZ I        1938 59.96      1207.7 0.16                          71.9 301 
+ PAM  SZ IP     D 1938 41.06                             150    0.1110 80.0  39 
+ PAM  SZ I        1938 41.34      1890.0 0.18                          80.0  39 
+ PAM  SE ES   1   1938 57.68                             150   -0.57 7 80.0  39 
+ RUS  HZ IP     D 1938 42.07                             144   -0.0710 97.8 176 
+ RUS  HE ES   1   1939  0.25                             144   -0.12 7 97.8 176 
+ PTB  HZ EP       1938 44.91                             132   -0.56 9  147 260 
+ PTB  HN ES   1   1939  5.81                             132   -0.49 7  147 260 
+ PTB  HZ I        1939 12.21       810.1 0.21                           147 260 
+ TAM  HZ IP     C 1938 46.41                             130    0.11 9  155 104 
+ TAM  HZ I        1939  7.34       782.6 0.40                           155 104 
+ TAM  HN ES       1939  8.03                             130    0.25 9  155 104 
+ OCA  HZ EP   1   1938 46.30                             129   -0.89 7  163 354 
+ OCA  HZ I        1939 14.28      2196.7 0.41                           163 354 
+ YOP  SZ IP     D 1938 48.74                             126    0.28 9  177 153 
+ YOP  SE ES       1939 11.16                             126   -0.47 9  177 153 
+ YOP  SZ I        1939 13.38       769.1 0.23                           177 153 
+ ZAR  HZ EP       1938 50.86                             122   -0.27 9  204 293 
+ ZAR  HN ES   1   1939 16.58                             122    0.20 6  204 293 
+ ZAR  HZ I        1939 22.77       951.7 0.31                           204 293 
+ NOR  SZ EP       1938 54.09                             118   -0.06 8  232 235 
+ NOR  SN ES   1   1939 21.77                             118    0.02 6  232 235 
+ NOR  SZ I        1939 26.14       901.8 0.29                           232 235 
+ CHI  HZ EP       1938 55.96                             117   -0.09 8  246 195 
+ CHI  HE ES   1   1939 25.07                             117   -0.05 6  246 195 
+ CHI  HZ I        1939 34.48       374.2 0.66                           246 195 
+ ROSC BZ IP     D 1938 57.68                             117    1.20 8  250 211 
+ ROSC BZ I        1939 36.08      1099.4 0.40                           250 211 
+ HEL  HZ EP       1938 58.27                             114   -0.46 8  271 256 
+ HEL  HN ES   1   1939 30.52                             114    0.62 6  271 256 
+ HEL  HZ I        1939 37.56       374.2 0.31                           271 256 
+ VIL  SZ EP   1   1939  1.35                             112   -0.42 5  300 192 
+ VIL  SE ES   1   1939 34.50                             112   -0.81 5  300 192 
+ VIL  SZ I        1939 46.77       460.7 0.52                           300 192 
+ DBB  SZ EP       1939  5.69                             109   -0.42 7  339 275 
+ DBB  SZ I        1939 45.14       431.8 0.48                           339 275 
+ TOL  SZ EP   1   1939  7.04                             109    0.38 5  341 225 
+ ANIL HZ EP       1939  8.95                             108    0.74 6  355 225 
+                                                                                

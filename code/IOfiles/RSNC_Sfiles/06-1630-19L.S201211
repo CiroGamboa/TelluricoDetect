@@ -1,0 +1,67 @@
+ 2012 11 6 1630 19.0 L   6.046 -73.700111.9  RSN 15 0.5 2.9LRSN 3.2WRSN        1
+ SPEC AVERAGE  MO 13.8 ST 25.2 OM  2.4 f0 5.44 R0.2917 AL 2.66 WI 17.3 MW  3.2 3
+ SPEC SD       MO  0.2 ST 31.4 OM  0.4 f0 1.51 R0.0821 AL      WI      MW  0.1 3
+ GAP= 77        1.01       2.7     3.6  7.9 -0.2806E+01  0.1379E+02  0.3059E+00E
+ Epicentro: BOLIVAR - SANTANDER                                                3
+ SPEC ZAR HH N MO 14.1 ST 78.1 OM  2.3 f0 7.87 R0.1868 AL 1.94 WI 14.8 MW  3.3 3
+ SPEC ZAR HH N T163112 K 0.000 GD  233 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC RREFHH Z MO 13.6 ST  5.5 OM  1.8 f0 4.66 R0.3155 AL 3.74 WI 20.5 MW  3.0 3
+ SPEC RREFHH Z T163117 K 0.000 GD  248 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC TAM HH N MO 14.1 ST  5.3 OM  2.3 f0 3.17 R0.4637 AL 1.12 WI 10.0 MW  3.3 3
+ SPEC TAM HH N T163115 K 0.000 GD  243 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 13.5 ST  7.0 OM  2.0 f0 5.37 R0.2737 AL 2.81 WI 13.9 MW  3.0 3
+ SPEC RUS HH N T163050 K 0.000 GD  132 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PRA HH N MO 13.7 ST 11.7 OM  1.8 f0 5.58 R0.2634 AL 1.53 WI 23.6 MW  3.1 3
+ SPEC PRA HH N T163131 K 0.000 GD  310 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC COD HH N MO 14.0 ST  9.4 OM  2.0 f0 3.94 R0.3731 AL 1.80 WI 29.1 MW  3.3 3
+ SPEC COD HH N T163156 K 0.000 GD  445 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.8 ST 10.7 OM  2.0 f0 5.12 R0.2871 AL 1.99 WI 18.9 MW  3.1 3
+ SPEC HEL HH N T163111 K 0.000 GD  231 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.7 ST  9.9 OM  2.0 f0 5.30 R0.2774 AL 3.15 WI 10.6 MW  3.1 3
+ SPEC CHI HH N T1631 4 K 0.000 GD  192 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 14.1 ST 89.1 OM  2.5 f0 7.97 R0.1844 AL 5.83 WI 14.0 MW  3.3 3
+ SPEC BRR HH N T163057 K 0.000 GD  161 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-12-05 15:31 OP:}ep  STATUS:               ID:20121106163019 L   I
+ 2012-11-06-1630-00M.COL___230                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ RUS  HZ IP     D 1630 37.37                             146    0.0710 70.4 104 
+ RUS  HN ES   1   1630 51.12                             146   -0.41 7 70.4 104 
+ RUS  HN I        1630 52.47        80.2 0.18                          70.4 104 
+ BAR2 SZ IP     C 1630 38.10                             141    0.2210 83.2  43 
+ BAR2 SZ ES   1   1630 52.57                             141    0.01 7 83.2  43 
+ BAR2 SZ I        1630 54.85       432.6 0.38                          83.2  43 
+ BRR  HZ EP       1630 40.53                             130    0.0510  117 359 
+ BRR  HN ES   1   1630 57.48                             130    0.28 7  117 359 
+ BRR  HN I        1631  0.32       456.1 0.18                           117 359 
+ GIR2 SZ IP       1630 41.75                             127    0.1410  127  26 
+ GIR2 SZ ES   1   1630 59.06                             127   -0.14 7  127  26 
+ CHI  HZ IP     D 1630 44.74                             121   -0.20 9  157 181 
+ CHI  HN ES   1   1631  5.11                             121   -0.02 7  157 181 
+ CHI  HN I        1631  9.32        77.7 0.22                           157 181 
+ PAM  SZ EP       1630 47.64                             117    0.05 9  181  38 
+ PAM  SN ES   1   1631  9.56                             117   -0.30 7  181  38 
+ PAM  SN I        1631 12.37        46.2 0.24                           181  38 
+ HEL  HZ EP       1630 49.94                             114    0.05 9  203 275 
+ HEL  HN ES   1   1631 12.87                             114   -1.08 6  203 275 
+ HEL  HN I        1631 17.78        58.1 0.36                           203 275 
+ ZAR  HZ EP       1630 48.74                             114   -0.89 9  205 321 
+ ZAR  HN ES   1   1631 13.13                             114   -0.35 6  205 321 
+ ZAR  HN I        1631 14.33       144.7 0.38                           205 321 
+ TAM  HZ EP   2   1630 50.32                             112   -0.55 4  216  78 
+ TAM  HN ES   2   1631 15.50                             112   -0.20 4  216  78 
+ TAM  HN I        1631 16.54       128.9 0.28                           216  78 
+ RREF HZ EP       1630 52.49                             112    0.12 8  222 235 
+ RREF HE ES   1   1631 19.23                             112    0.86 6  222 235 
+ RREF HZ I        1631 25.02        33.0 0.26                           222 235 
+ OCA  HN ES   1   1631 23.54                             109    1.39 6  246  10 
+ ANIL HZ EP   1   1630 56.90                             108    1.16 6  255 228 
+ ANIL HN ES   1   1631 25.20                             108    0.83 6  255 228 
+ PRA  HZ EP       1630 58.58                             105   -0.84 7  290 207 
+ PRA  HN ES   1   1631 31.19                             105    0.29 5  290 207 
+ PRA  HN I        1631 36.59        22.8 0.30                           290 207 
+ DBB  SZ EP       1630 59.90                             105   -0.52 7  298 291 
+ DBB  SZ ES   2   1631 33.43                             105    0.74 4  298 291 
+ COD  HZ EP       1631 16.94                              98    0.69 5  431   4 
+ COD  HN ES   2   1632  1.27                              98    0.40 3  431   4 
+ COD  HN I        1632  4.23        12.0 0.38                           431   4 
+                                                                                

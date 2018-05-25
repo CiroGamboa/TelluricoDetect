@@ -1,0 +1,60 @@
+ 2013  215 1417  5.4 L   7.435 -73.421117.8  RSN 13 0.5 3.6LRSN 3.6WRSN        1
+ SPEC AVERAGE  MO 14.4 ST 36.0 OM  3.3 f0 4.09 R0.3824 AL 2.70 WI 30.9 MW  3.6 3
+ SPEC SD       MO  0.2 ST 34.8 OM  0.7 f00.831 R0.1144 AL      WI      MW  0.2 3
+ GAP= 90        1.01       2.6     3.3  5.4  0.6408E+00  0.1740E+01 -0.1422E+01E
+ Epicentro: SABANA DE TORRES - SANTANDER                                       3
+ SPEC RUS HH N MO 14.1 ST 17.7 OM  2.4 f0 4.60 R0.3196 AL 2.59 WI 37.9 MW  3.4 3
+ SPEC RUS HH N T141752 K 0.000 GD  210 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 14.5 ST 25.6 OM  2.8 f0 3.95 R0.3722 AL 1.65 WI 32.2 MW  3.6 3
+ SPEC PTB HH N T141747 K 0.000 GD  191 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.9 ST110.9 OM  3.3 f0 4.78 R0.3075 AL 3.58 WI 27.5 MW  3.9 3
+ SPEC OCA HH N T141738 K 0.000 GD  148 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 14.1 ST 21.3 OM  2.6 f0 4.78 R0.3075 AL 3.35 WI 35.9 MW  3.4 3
+ SPEC PAM SH N T141738 K 0.000 GD  142 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.4 ST  3.8 OM  2.5 f0 2.19 R0.6712 AL 1.98 WI 33.7 MW  3.6 3
+ SPEC CHI HH N T141822 K 0.000 GD  333 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC COD HH E MO 14.3 ST 12.7 OM  2.4 f0 3.66 R0.4016 AL 2.40 WI 31.3 MW  3.5 3
+ SPEC COD HH E T141813 K 0.000 GD  300 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 14.4 ST 19.8 OM  2.5 f0 3.95 R0.3722 AL 2.40 WI 24.9 MW  3.5 3
+ SPEC HEL HH N T141814 K 0.000 GD  295 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 14.7 ST 75.8 OM  3.2 f0 4.78 R0.3075 AL 3.64 WI 23.8 MW  3.7 3
+ SPEC BRR HH N T141734 K 0.000 GD  127 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-03-12 09:33 OP:ep   STATUS:               ID:20130215141705 L   I
+ 2013-02-15-1410-00M.COL___238                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     D 1417 22.45                             156    0.1410 48.5 222 
+ BRR  HN ES       1417 35.59                             156    0.1210 48.5 222 
+ PAM  SZ EP       1417 25.19                             144    0.2210 80.3  98 
+ PAM  SN ES   1   1417 40.20                             144   -0.01 7 80.3  98 
+ OCA  HZ EP     D 1417 25.21                             140    0.0110 89.6   7 
+ OCA  HN ES       1417 40.31                             140   -0.3010 89.6   7 
+ BAR2 SZ EP       1417 25.92                             138    0.0210 96.9 164 
+ BAR2 SZ ES       1417 42.10                             138    0.2410 96.9 164 
+ BAR2 SZ I   L1   1417 42.51       743.5 0.42            138    0.65 7 96.9 164 
+ PTB  HZ EP     D 1417 30.20                             124   -0.45 9  151 229 
+ PTB  HN ES       1417 49.51                             124   -0.80 9  151 229 
+ PTB  HN I        1417 50.83       687.6 0.52            110            151 229 
+ ZAR  HZ EP     C 1417 31.74                             123    0.35 9  159 272 
+ ZAR  HN ES   1   1417 52.44                             123    0.80 7  159 272 
+ ZAR  HN I        1417 55.41       642.4 0.12            109            159 272 
+ SML  HZ EP       1417 31.80                             121   -0.45 9  167 335 
+ SML  HN ES   1   1417 52.58                             121   -0.59 7  167 335 
+ SML  HN I        1417 58.18      1578.3 0.12            110            167 335 
+ RUS  HZ EP     D 1417 32.87                             120   -0.81 9  175 168 
+ RUS  HN ES   1   1417 55.29                             120   -0.41 7  175 168 
+ TAM  HZ EP       1417 37.15                             115    0.08 8  211 121 
+ TAM  HN ES   1   1418  1.84                             115    0.09 6  211 121 
+ TAM  HN I        1418  3.05       246.7 0.44            105            211 121 
+ HEL  HZ EP   1   1417 44.83                             109    0.61 6  271 240 
+ HEL  HN ES   2   1418 15.00                             109    0.53 4  271 240 
+ HEL  HN I        1418 24.37       138.8 0.22            101            271 240 
+ COD  HZ EP       1417 44.43                             108    0.00 7  276 359 
+ COD  HN ES   1   1418 15.82                             108    0.98 6  276 359 
+ COD  HN I        1418 19.07       146.2 0.26            101            276 359 
+ CHI  HZ EP   1   1417 49.52                             106    0.40 5  312 186 
+ CHI  HN I        1418 29.78       152.7 0.38             99            312 186 
+ SJC  HN ES   4   1418 24.38                             104   -2.62 0  334 325 
+ RREF HZ EP   1   1417 55.38                             103    1.26 5  352 217 
+ RREF HN ES   4   1418 33.80                             103    1.72 0  352 217 
+ RREF HZ I        1418 43.34        81.3 0.32             98            352 217 
+                                                                                

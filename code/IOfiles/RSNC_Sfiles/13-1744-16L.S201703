@@ -1,0 +1,23 @@
+ 2017  313 1744 16.6 L   7.043 -73.733 94.5  RSN  5 0.3 1.3LRSN                1
+ GAP= 86        0.76       4.2     3.5  5.7  0.7214E+00 -0.9430E+00  0.3148E+00E
+ Epicentro: BARRANCABERMEJA - SANTANDER                                        3
+ ACTION:UPD 17-05-25 18:40 OP:jn   STATUS:               ID:20170313174416 L   I
+ OLDACT:REG 17-03-13 21:20 OP:dnl  STATUS:               ID:20170313173140     3
+ 2017-03-13-1738-00M.COL___409                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     D 1744 29.01                             175   -0.4110 7.51  18 
+ BRR  HN ES       1744 39.59                             175    0.1810 7.51  18 
+ BRR  HZ I        1744 39.90        15.0 0.30            175           7.51  18 
+ PTB  HZ EP       1744 34.49                             131   -0.3310 97.4 235 
+ PTB  HN ES       1744 48.97                             131   -0.0610 97.4 235 
+ PTB  HZ I        1744 50.89         2.5 0.32            129           97.4 235 
+ PAM  EZ EP       1744 37.45                             125   -0.0910  119  74 
+ PAM  EN ES   4   1744 51.70                             125   -2.17 0  119  74 
+ PAM  EZ I        1744 53.44         5.3 0.18            126            119  74 
+ ZAR  HZ EP       1744 38.99                             121    0.5210  134 292 
+ ZAR  HE ES   4   1744 57.62                             121    2.10 0  134 292 
+ ZAR  HZ I        1744 59.66         5.8 0.38            120            134 292 
+ RUS  HZ EP   2   1744 40.46                             119    0.05 5  146 150 
+ RUS  HE ES       1744 59.22                             119    0.25 9  146 150 
+ RUS  HZ I        1745  0.54         2.2 0.38            119            146 150 
+                                                                                

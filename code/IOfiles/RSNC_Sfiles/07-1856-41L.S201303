@@ -1,0 +1,66 @@
+ 2013  3 7 1856 41.8 L   6.810 -73.128142.6  RSN 17 0.5 3.1LRSN 3.4WRSN        1
+ SPEC AVERAGE  MO 14.2 ST 25.6 OM  2.5 f0 4.03 R0.3947 AL 2.10 WI 25.2 MW  3.4 3
+ SPEC SD       MO  0.2 ST 30.1 OM  0.6 f0 1.15 R0.1113 AL      WI      MW  0.2 3
+ GAP= 72        1.14       2.5     3.5  5.9 -0.7851E+00  0.7333E+01  0.7421E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC ZAR HH N MO 14.5 ST 89.3 OM  2.7 f0 5.92 R0.2483 AL 2.78 WI 37.4 MW  3.6 3
+ SPEC ZAR HH N T185739 K 0.000 GD  249 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC TAM HH Z MO 14.2 ST  7.4 OM  1.7 f0 3.26 R0.4509 AL 1.10 WI 18.0 MW  3.4 3
+ SPEC TAM HH Z T1857 9 K 0.000 GD  209 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PRA HH N MO 14.0 ST  4.8 OM  2.0 f0 3.21 R0.4579 AL 1.79 WI 21.7 MW  3.3 3
+ SPEC PRA HH N T185815 K 0.000 GD  419 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 14.3 ST 12.9 OM  1.8 f0 3.65 R0.4027 AL 1.11 WI 20.2 MW  3.5 3
+ SPEC PTB HH Z T1857 7 K 0.000 GD  206 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 13.8 ST  7.5 OM  1.4 f0 4.37 R0.3364 AL 1.33 WI 17.0 MW  3.2 3
+ SPEC RUS HH Z T1857 4 K 0.000 GD  175 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 14.1 ST  4.9 OM  2.2 f0 3.07 R0.4788 AL 1.88 WI 29.0 MW  3.3 3
+ SPEC HEL HH N T185753 K 0.000 GD  308 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 14.3 ST 51.7 OM  1.9 f0 5.83 R0.2521 AL 2.80 WI 11.1 MW  3.5 3
+ SPEC PAM SH Z T1857 3 K 0.000 GD  161 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC COD HH N MO 14.0 ST  6.6 OM  2.0 f0 3.71 R0.3962 AL 1.57 WI 36.8 MW  3.3 3
+ SPEC COD HH N T1858 6 K 0.000 GD  375 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH E MO 14.3 ST  3.2 OM  2.4 f0 2.34 R0.6282 AL 2.32 WI 32.7 MW  3.4 3
+ SPEC CHI HH E T185747 K 0.000 GD  287 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 14.6 ST 67.9 OM  3.0 f0 4.98 R0.2952 AL 4.36 WI 27.6 MW  3.7 3
+ SPEC BRR HH N T185718 K 0.000 GD  159 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-04-09 14:00 OP:ep   STATUS:               ID:20130307185641 L   I
+ 2013-03-07-1850-00M.COL___231                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C 1857  1.06                             170    0.0310 24.8 194 
+ BAR2 SZ ES   1   1857 15.89                             170   -0.18 7 24.8 194 
+ BAR2 SZ I        1857 16.67       544.9 0.26            168           24.8 194 
+ BRR  HZ IP     D 1857  3.01                             152    0.3810 72.4 297 
+ BRR  HZ I        1857  3.32       175.8 0.12            151           72.4 297 
+ BRR  HE ES   1   1857 19.73                             152    0.82 7 72.4 297 
+ PAM  SZ IP     D 1857  3.99                             151    0.4810 75.3  39 
+ PAM  SZ I        1857  4.36       246.7 0.24            153           75.3  39 
+ PAM  SN ES       1857 20.68                             151    0.2110 75.3  39 
+ RUS  HZ IP     C 1857  5.07                             143   -0.1910  102 177 
+ RUS  HE ES       1857 23.25                             143   -0.3510  102 177 
+ PTB  HZ EP       1857  7.67                             131   -0.99 9  150 259 
+ TAM  HZ IP     C 1857  9.44                             130    0.41 9  154 106 
+ TAM  HN ES       1857 30.40                             130    0.09 9  154 106 
+ OCA  HZ EP       1857  9.34                             129   -0.40 9  159 352 
+ OCA  HN ES       1857 30.79                             129   -0.77 9  159 352 
+ ZAR  HZ EP       1857 14.11                             121   -0.03 8  205 292 
+ ZAR  HE ES       1857 39.53                             121    0.14 8  205 292 
+ SML  HZ EP       1857 17.67                             117   -0.51 8  244 335 
+ SML  HN ES       1857 46.92                             117    0.32 8  244 335 
+ CHI  HZ EP       1857 19.30                             116   -0.15 8  250 196 
+ CHI  HE ES       1857 47.98                             116   -0.87 8  250 196 
+ ROSC BZ EP       1857 21.34                             116    1.43 8  255 211 
+ ROSC BN ES       1857 49.30                             116   -0.38 8  255 211 
+ ROSC BZ I        1857 54.73        51.4 0.35            115            255 211 
+ HEL  HZ EP       1857 22.32                             114    0.28 8  274 256 
+ HEL  HN ES       1857 53.49                             114    0.02 8  274 256 
+ RREF HZ EP       1857 28.57                             110    0.56 7  324 229 
+ RREF HN ES       1858  4.42                             110    0.33 7  324 229 
+ RREF HZ I        1858 15.04        36.2 0.32            110            324 229 
+ COD  HZ EP       1857 29.68                             108   -0.22 6  347 354 
+ COD  HN ES       1858  7.49                             108    0.03 6  347 354 
+ ANIL HE ES       1858 11.48                             108    0.85 6  359 225 
+ PRA  HZ EP       1857 34.93                             106   -0.46 6  394 210 
+ PRA  HE ES       1858 16.89                             106   -0.33 6  394 210 
+ SJC  HN IP   4 D 1857 35.62                             105   -1.61 0  409 327 
+ SMAR HZ EP       1857 47.16                             102   -0.31 4  496 346 
+                                                                                

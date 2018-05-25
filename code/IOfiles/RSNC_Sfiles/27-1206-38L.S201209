@@ -1,0 +1,48 @@
+ 2012  927 1206 38.1 L   7.062 -73.324114.2  RSN 12 0.4 2.9LRSN 3.0WRSN        1
+ SPEC AVERAGE  MO 13.6 ST  9.0 OM  2.8 f0 4.83 R0.3107 AL 2.78 WI  4.8 MW  3.0 3
+ SPEC SD       MO  0.2 ST  9.2 OM  0.9 f00.678 R0.0446 AL      WI      MW  0.2 3
+ GAP=140        0.73       3.3     3.1  4.9 -0.2515E+00  0.6461E+01  0.5270E+01E
+ Epicentro: LEBRIJA - SANTANDER                                                3
+ SPEC ZAR HH E MO 14.0 ST 25.0 OM  2.3 f0 5.70 R0.2579 AL 2.10 WI  6.6 MW  3.3 3
+ SPEC ZAR HH E T12 727 K 0.000 GD  209 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 13.4 ST  5.0 OM  1.9 f0 5.21 R0.2821 AL 4.07 WI  3.6 MW  2.9 3
+ SPEC PAM SH N T12 712 K 0.000 GD  136 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.4 ST  3.4 OM  1.6 f0 4.47 R0.3289 AL 3.18 WI  3.1 MW  2.9 3
+ SPEC CHI HH N T12 749 K 0.000 GD  295 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.5 ST  2.8 OM  1.7 f0 3.93 R0.3740 AL 1.77 WI  5.7 MW  3.0 3
+ SPEC HEL HH N T12 744 K 0.000 GD  285 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-10-22 14:21 OP:ep   STATUS:               ID:20120927120638 L   I
+ 2012-09-27-1200-00M.COL___217                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ GIR2 SZ EP       12 6 53.55                             172   -0.1010 14.5  82 
+ GIR2 SZ ES   1   12 7  5.27                             172   -0.48 7 14.5  82 
+ BRR  HZ IP     D 12 6 53.96                             158   -0.3810 43.2 277 
+ BRR  HN ES   1   12 7  6.97                             158   -0.02 7 43.2 277 
+ BRR  HN I        12 7  7.40       587.6 0.14                          43.2 277 
+ BAR2 SZ IP       12 6 55.28                             153    0.0210 54.2 163 
+ BAR2 SZ ES   1   12 7  8.42                             153   -0.19 7 54.2 163 
+ BAR2 SZ I        12 7  9.74       204.4 0.18                          54.2 163 
+ PAM  SZ EP       12 6 57.41                             144    0.4510 75.5  66 
+ PAM  SN ES   1   12 7 12.26                             144    0.61 7 75.5  66 
+ PAM  SN I        12 7 14.97       134.8 0.48                          75.5  66 
+ RUS  HZ EP   1   12 7  1.18                             127   -0.62 7  132 168 
+ RUS  HN ES   1   12 7 20.16                             127   -0.09 7  132 168 
+ ZAR  HZ EP   1   12 7  5.25                             118   -0.42 7  176 286 
+ ZAR  HE ES   1   12 7 27.61                             118    0.46 7  176 286 
+ ZAR  HE I        12 7 31.42       151.1 0.18                           176 286 
+ NOR  SN ES   1   12 7 39.91                             110    0.37 6  238 226 
+ HEL  HZ EP   1   12 7 15.91                             108    0.11 6  262 249 
+ HEL  HN ES   1   12 7 45.31                             108    0.14 6  262 249 
+ HEL  HN I        12 7 50.87        46.6 0.38                           262 249 
+ CHI  HZ EP   1   12 7 17.13                             107    0.05 6  273 190 
+ CHI  HN ES   1   12 7 48.35                             107    0.90 6  273 190 
+ CHI  HN I        12 7 49.92        30.9 0.50                           273 190 
+ GUY  SZ EP   1   12 7 21.12                             105    0.07 5  306 228 
+ GUY  SE ES   2   12 7 55.28                             105    0.76 4  306 228 
+ RREF HZ EP   1   12 7 23.37                             104   -0.42 5  328 223 
+ RREF HN ES   1   12 7 59.32                             104   -0.08 5  328 223 
+ RREF HZ I        12 8  8.64        24.6 0.24                           328 223 
+ PRA  HZ EP   1   12 7 32.29                             100   -0.46 4  409 205 
+ PRA  HN ES   2   12 8 15.02                             100   -0.33 3  409 205 
+ PRA  HN I        12 8 24.44        12.2 0.68                           409 205 
+                                                                                

@@ -1,0 +1,21 @@
+ 2017  718 0435  3.3 L   5.934 -73.797106.0  RSN  4 0.3 0.9LRSN                1
+ GAP=181        0.55       4.3     3.3  6.5 -0.4414E+01  0.1718E+01 -0.1256E+02E
+ Epicentro: SUCRE - SANTANDER                                                  3
+ ACTION:UPD 17-08-30 15:34 OP:rebc STATUS:               ID:20170718043503 L   I
+ OLDACT:UP  17-07-18 15:36 OP:dnl  STATUS:               ID:20170718042721d    3
+ OLDACT:DUP 17-07-18 15:34 OP:dnl  STATUS:               ID:20170718042721d    3
+ OLDACT:REG 17-07-18 13:44 OP:dnl  STATUS:               ID:20170718042720     3
+ 2017-07-18-0428-00M.COL___371                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ EP   2    435 18.58                             156   -0.15 5 43.6 224 
+ SPBC HN ES        435 30.87                             156    0.0910 43.6 224 
+ SPBC HZ I         435 32.48         2.0 0.22            163           43.6 224 
+ PTB  HZ EP        435 22.34                             134   -0.2510 99.0 313 
+ PTB  HE ES        435 37.71                             134    0.0610 99.0 313 
+ PTB  HZ I         435 39.23         0.8 0.38            135           99.0 313 
+ BAR2 EZ EP   2    435 22.86                             134   -0.08 5 99.6  43 
+ BAR2 EZ ES        435 38.24                             134   -0.0410 99.6  43 
+ BRR  HZ EP   2    435 26.35                             125    0.84 5  130   4 
+ BRR  HN ES   4    435 44.88                             125    2.03 0  130   4 
+ BRR  HZ I         435 48.12         3.6 0.36            127            130   4 
+                                                                                

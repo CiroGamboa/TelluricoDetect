@@ -1,0 +1,26 @@
+ 2013  9 1 0708 48.2 L   6.712 -73.161150.0  RSN  6 0.4 1.4LRSN                1
+ GAP=229        0.89       6.7     6.8  7.6  0.1819E+02  0.7449E+01  0.4503E+01E
+ Epicentro: VILLANUEVA - SANTANDER                                             3
+ ACTION:UPD 13-10-22 09:19 OP:ep   STATUS:               ID:20130901070848 L   I
+ OLDACT:REG 13-09-01 11:53 OP:mh   STATUS:               ID:20130901070737     3
+ 2013-09-01-0707-37M.COL___211                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP   1    7 9  8.18                             175    0.02 7 13.5 190 
+ BAR2 SZ ES   1    7 9 23.26                             175   -0.49 7 13.5 190 
+ BAR2 SZ I         7 9 24.38         3.6 0.40            170           13.5 190 
+ BRR  HZ EP   1    7 9 10.07                             152    0.08 7 74.9 306 
+ BRR  HN ES        7 9 27.64                             152    0.6410 74.9 306 
+ BRR  HN I         7 9 31.64        12.8 0.20            150           74.9 306 
+ RUS  HZ EP   1    7 9 11.91                             148    0.22 7 91.1 175 
+ RUS  HN ES   1    7 9 29.66                             148   -0.38 7 91.1 175 
+ RUS  HZ I         7 9 32.07         1.9 0.30            148           91.1 175 
+ PTB  HZ EP   1    7 9 15.07                             134   -0.13 7  144 262 
+ PTB  HN ES        7 9 35.89                             134   -0.39 9  144 262 
+ PTB  HN I         7 9 38.26         3.5 0.20            132            144 262 
+ SPBC HZ EP   1    7 9 16.87                             132    0.66 7  155 221 
+ SPBC HN ES   2    7 9 38.54                             132    0.46 5  155 221 
+ SPBC HZ I         7 9 43.60         3.1 0.20            131            155 221 
+ ZAR  HZ EP   1    7 9 20.40                             123   -0.73 6  206 295 
+ ZAR  HN ES   2    7 9 46.58                             123   -0.25 4  206 295 
+ ZAR  HN I         7 9 52.08         4.1 0.22            123            206 295 
+                                                                                

@@ -1,0 +1,26 @@
+ 2017 10 5 2327 26.3 L   6.771 -73.158142.0  RSN  5 0.5 1.6LRSN                1
+ GAP=136        0.67       3.3     4.2  5.4  0.9185E+00  0.6942E+01  0.2127E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-11-07 19:28 OP:rebc STATUS:               ID:20171005232726 L   I
+ OLDACT:UP  17-10-06 04:13 OP:dani STATUS:               ID:20171005231747d    3
+ OLDACT:UP  17-10-06 04:12 OP:dani STATUS:               ID:20171005231747d    3
+ OLDACT:DUP 17-10-06 04:01 OP:dani STATUS:               ID:20171005231747d    3
+ OLDACT:UP  17-10-06 04:01 OP:dani STATUS:               ID:20171005231746     3
+ OLDACT:REG 17-10-06 02:59 OP:dani STATUS:               ID:20171005231746     3
+ 2017-10-05-2318-00M.COL___441                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 HZ EP       2327 45.27                             172   -0.1710 19.9 188 
+ BAR2 HZ ES       2328  0.35                             172   -0.0010 19.9 188 
+ PAM  EZ EP       2327 48.38                             149    0.0210 80.7  39 
+ PAM  EN ES       2328  5.67                             149    0.1410 80.7  39 
+ PAM  EZ I        2328  6.55         5.9 0.13            155           80.7  39 
+ RUS  HZ EP       2327 49.14                             144   -0.3510 97.4 175 
+ RUS  HN ES       2328  7.78                             144    0.2310 97.4 175 
+ RUS  HZ I        2328 11.35         5.2 0.22            144           97.4 175 
+ ZAR  HZ EP   3   2328  0.04                             122    1.50 2  204 293 
+ ZAR  HE ES       2328 23.66                             122    0.01 9  204 293 
+ ZAR  HZ I        2328 29.07         5.9 0.30            122            204 293 
+ CHI  HZ EP       2328  3.38                             117   -0.06 8  245 195 
+ CHI  HN ES   3   2328 34.93                             117    2.54 2  245 195 
+ CHI  HZ I        2328 37.98         2.0 0.34            117            245 195 
+                                                                                

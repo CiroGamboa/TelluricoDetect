@@ -1,0 +1,24 @@
+ 2017  2 2 0629 46.6 L   6.772 -73.127148.5  RSN  5 0.3 1.0LRSN                1
+ GAP=140        0.83       4.5     4.4  6.1 -0.1892E+01  0.3201E+01  0.1093E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-05-24 15:31 OP:jn   STATUS:               ID:20170202062946 L   I
+ OLDACT:DUP 17-02-02 17:45 OP:ar   STATUS:               ID:20170202061748d    3
+ OLDACT:DUP 17-02-02 17:39 OP:ar   STATUS:               ID:20170202061746d    3
+ OLDACT:REG 17-02-02 13:13 OP:ar   STATUS:               ID:20170202061745     3
+ 2017-02-02-0618-00M.COL___319                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 HZ EP        630  6.35                             172   -0.1510 20.8 197 
+ BAR2 HZ ES        630 21.61                             172   -0.4210 20.8 197 
+ BRR  HZ EP        630  8.08                             152   -0.1410 74.5 300 
+ BRR  HN ES        630 25.47                             152    0.3810 74.5 300 
+ BRR  HZ I         630 26.07         2.2 0.28            152           74.5 300 
+ PAM  EZ EP        630  9.31                             151    0.1510 78.5  37 
+ PAM  EN ES        630 26.74                             151   -0.0310 78.5  37 
+ PAM  EZ I         630 31.97         2.1 0.46            152           78.5  37 
+ RUS  HZ EP        630 10.90                             145    0.5110 97.4 177 
+ RUS  HN ES        630 28.97                             145    0.0210 97.4 177 
+ RUS  HZ I         630 29.91         1.0 0.20            148           97.4 177 
+ PTB  HZ EP        630 13.37                             132   -0.54 9  149 260 
+ PTB  HN ES        630 35.40                             132    0.18 9  149 260 
+ PTB  HZ I         630 41.10         1.1 0.12            134            149 260 
+                                                                                

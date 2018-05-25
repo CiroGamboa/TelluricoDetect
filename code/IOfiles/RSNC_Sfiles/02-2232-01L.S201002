@@ -1,0 +1,45 @@
+ 2010  2 2 2232  1.1 L   6.808 -73.063152.6  RSN 16 0.7 5.0LRSN                1
+ GAP=132        1.36       4.9     7.6  7.9 -0.1320E+02  0.2183E+02 -0.6088E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ Evento Sentido                                                                2
+ Reportado como sentido:                                                       3
+ BUCARAMANGA,PIEDECUESTA,FLORIDABLANCA (SANTANDER),MEDELLIN,ENVIGADO,BELLO,    3
+ RIONEGRO,DARIEN,(ANTIOQUIA),BOGOTA,GIRARDOT,TENJO,(CUNDINAMARCA),TIBASOSA,    3
+ CHIQUINQUIRA,DUITAMA,TUNJA,(BOYACA),CUCUTA,BARRANCANBERMEJA (N.SANTANDER),    3
+ MANIZALES (CALDAS), IBAGUE,LIBANO (TOLIMA)                                    3
+ ACTION:UP  10-08-24 09:47 OP:vdl  STATUS:               ID:20100202223201 L   I
+ 2010-02-02-2230-20S.COL___097                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO SNR AR TRES W  DIS CAZ7
+ BAR2 SZ IP       2232 21.68                             169     0.110   27 209 
+ BAR2 SZ ES   1   2232 36.76                             169    -0.9 7   27 209 
+ GIR2 SZ IP       2232 21.77                             167     0.210   33 334 
+ GIR2 SZ ES   1   2232 37.40                             167    -0.2 7   33 334 
+ RUS  BZ IP       2232 25.48                             145    -0.110  101 181 
+ RUS  BN ES       2232 44.59                             145    -0.110  101 181 
+ RUS  BZ I        2232 46.50     17979.3 0.52                           101 181 
+ OCA  SZ EP       2232 30.02                             131     0.1 9  161 350 
+ OCA  SZ ES   1   2232 53.39                             131     0.9 7  161 350 
+ CHI  HZ EP   1   2232 39.61                             118     0.1 6  252 197 
+ CHI  HN ES       2233  9.82                             118     0.3 8  252 197 
+ CHI  HZ I        2233 19.46      7425.3 0.76                           252 197 
+ HEL  HZ EP   1   2232 41.52                             115    -1.1 6  281 256 
+ HEL  HN ES       2233 14.26                             115    -0.8 7  281 256 
+ HEL  HZ I        2233 20.28      8409.1 1.25                           281 256 
+ GUY  HZ EP       2232 46.64                             113     0.7 7  309 236 
+ RREF BZ EP       2232 47.88                             111    -0.5 7  329 230 
+ RREF BN ES       2233 27.18                             111     1.9 7  329 230 
+ RREF BZ I        2233 33.41      7172.7 0.22                           329 230 
+ DBB  SZ IP       2232 49.39                             110    -0.5 6  349 274 
+ TOL  SZ EP   1   2232 50.41                             110     0.0 5  351 226 
+ SDV  BZ IP       2232 50.86                             110     0.3 6  353  49 
+ SDV  BZ I        2232 52.30      2053.0 0.45                           353  49 
+ ANIL BZ EP   1   2232 51.73                             109    -0.2 5  364 225 
+ ANIL BN ES       2233 32.64                             109     1.0 6  364 225 
+ PRA  HZ EP       2232 54.44                             107    -1.0 6  397 211 
+ PRA  HE ES       2233 37.84                             107    -0.1 6  397 211 
+ SOL  SZ EP   1   2233  5.04                             104    -0.7 3  485 263 
+ BET  SZ EP       2233  9.70                             102    -1.1 4  527 210 
+ BET  SZ I        2234 10.22      1230.5 1.27                           527 210 
+ MAL  SZ EP       2233 15.55                             101     0.3 3  565 237 
+ MAL  SZ I        2233 18.26      1031.4 0.16                           565 237 
+                                                                                

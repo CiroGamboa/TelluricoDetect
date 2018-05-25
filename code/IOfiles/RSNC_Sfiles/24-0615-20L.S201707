@@ -1,0 +1,28 @@
+ 2017  724 0615 20.5 L   6.779 -73.165147.3  RSN  7 0.5 1.5LRSN                1
+ GAP=209        0.96       5.7     5.5  7.0  0.1012E+02 -0.3368E+01  0.2367E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-08-30 15:36 OP:rebc STATUS:               ID:20170724061520 L   I
+ OLDACT:UP  17-07-24 17:24 OP:and  STATUS:               ID:20170724060742     3
+ OLDACT:UP  17-07-24 17:24 OP:and  STATUS:               ID:20170724060742     3
+ OLDACT:REG 17-07-24 13:01 OP:and  STATUS:               ID:20170724060742     3
+ 2017-07-24-0608-00M.COL___380                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     C  615 39.99                             172   -0.2410 20.7 185 
+ BAR2 EZ ES        615 55.11                             172   -0.5410 20.7 185 
+ BAR2 EZ I         615 56.75         6.3 0.16            168           20.7 185 
+ BRR  HZ EP        615 41.86                             153    0.1210 70.5 301 
+ BRR  HN ES        615 59.08                             153    0.7410 70.5 301 
+ RUS  HZ EP        615 44.48                             145    0.2710 98.4 175 
+ RUS  HN ES        616  2.73                             145   -0.0110 98.4 175 
+ RUS  HZ I         616  3.89         7.5 0.32            143           98.4 175 
+ PTB  HZ EP        615 47.02                             133   -0.31 9  145 260 
+ PTB  HN ES        616  7.76                             133   -0.52 9  145 260 
+ PTB  HZ I         616 13.48         1.8 0.23            132            145 260 
+ SPBC HZ EP   3    615 50.12                             130    1.34 2  160 219 
+ SPBC HN ES        616 11.19                             130    0.32 9  160 219 
+ SPBC HZ I         616 13.59         6.3 0.34            128            160 219 
+ YPLC HZ EP        615 50.24                             127   -0.03 9  176 150 
+ YPLC HE ES   3    616 15.22                             127    1.69 2  176 150 
+ YPLC HZ I         616 15.75         4.8 0.24            127            176 150 
+ ZAR  HN ES   3    616 18.33                             123    0.14 2  203 293 
+                                                                                

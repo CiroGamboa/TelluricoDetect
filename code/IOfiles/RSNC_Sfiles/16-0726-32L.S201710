@@ -1,0 +1,32 @@
+ 2017 1016 0726 32.2 L   6.666 -73.645 95.7  RSN  7 0.5 1.6LRSN                1
+ GAP=108        1.10       4.4     4.3  7.6  0.6940E+01  0.1587E+02  0.1212E+02E
+ Epicentro: EL CARMEN - SANTANDER                                              3
+ ACTION:UPD 17-11-07 19:32 OP:rebc STATUS:               ID:20171016072632 L   I
+ OLDACT:UP  17-10-16 17:04 OP:dani STATUS:               ID:20171016070938d    3
+ OLDACT:UP  17-10-16 17:04 OP:dani STATUS:               ID:20171016070938d    3
+ OLDACT:UP  17-10-16 17:04 OP:dani STATUS:               ID:20171016070938d    3
+ OLDACT:DUP 17-10-16 17:00 OP:dani STATUS:               ID:20171016070938d    3
+ 2017-10-16-0718-00M.COL___411                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        726 46.16                             150   -0.5710 49.3 351 
+ BRR  HE ES        726 58.05                             150    0.0110 49.3 351 
+ BRR  HZ I         727  4.50         8.7 0.16            153           49.3 351 
+ BAR2 EZ EP        726 47.17                             149   -0.0510 51.8  99 
+ BAR2 EZ ES        726 59.27                             149    0.3510 51.8  99 
+ BAR2 EZ I         727  0.79        36.0 0.28            156           51.8  99 
+ PTB  HZ EP   9    726 48.29                             133   -1.65 0 90.8 261 
+ PTB  HN ES        727  1.86                             132   -0.2510 90.8 261 
+ PTB  HZ I         727  4.67         7.2 0.28            135           90.8 261 
+ RUS  HZ EP        726 51.80                             129   -0.1710  106 144 
+ RUS  HE ES        727  7.49                             129    0.1310  106 144 
+ RUS  HZ I         727  8.77         4.8 0.10            134            106 144 
+ ZAR  HZ EP        726 56.86                             116   -0.38 9  162 304 
+ ZAR  HE ES        727 17.30                             116    0.55 9  162 304 
+ ZAR  HZ I         727 20.09         9.6 0.37            119            162 304 
+ NOR  HZ EP        726 59.43                             113   -0.12 9  182 228 
+ NOR  HN ES        727 20.28                             113   -0.58 9  182 228 
+ NOR  HZ I         727 25.37         6.6 0.18            116            182 228 
+ GUY2CHZ EP        727  8.88                             107    1.13 8  248 230 
+ GUY2CHE ES   4    727 38.82                             107    3.36 0  248 230 
+ GUY2CHZ I         727 43.20         3.5 0.39                           248 230 
+                                                                                

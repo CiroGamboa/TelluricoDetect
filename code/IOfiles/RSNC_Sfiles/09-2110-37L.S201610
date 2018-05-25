@@ -1,0 +1,33 @@
+ 2016 10 9 2110 37.1 L   6.468 -73.474104.9  RSN  8 0.2 1.5LRSN                1
+ GAP=120        0.80       5.6     4.1  6.8 -0.4020E+01  0.7506E+01  0.1411E+02E
+ Epicentro: SIMACOTA - SANTANDER                                               3
+ ACTION:UPD 16-11-09 19:18 OP:rebc STATUS:               ID:20161009211037 L   I
+ OLDACT:UP  16-10-10 04:16 OP:edw  STATUS:               ID:20161009210749d    3
+ OLDACT:UP  16-10-10 04:14 OP:edw  STATUS:               ID:20161009210749d    3
+ OLDACT:UP  16-10-10 04:14 OP:edw  STATUS:               ID:20161009210749d    3
+ OLDACT:DUP 16-10-10 04:09 OP:edw  STATUS:               ID:20161009210749d    3
+ 2016-10-09-2108-00M.COL___360                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     D 2110 51.85                             160   -0.3710 35.1  67 
+ BAR2 EZ ES       2111  4.32                             160    0.2810 35.1  67 
+ RUS  HZ EP   2   2110 55.34                             141    0.23 5 77.0 146 
+ RUS  HN ES       2111  9.10                             141   -0.0810 77.0 146 
+ RUS  HZ I        2111 11.74         3.1 0.36            141           77.0 146 
+ PTB  HZ EP   9   2110 54.66                             130   -2.53 0  109 274 
+ PTB  HN ES       2111  9.69                             124   -0.6610  109 274 
+ PTB  HZ I        2111 13.08         5.0 0.16            132            109 274 
+ SPBC HZ EP   2   2110 57.47                             129   -0.10 5  112 216 
+ SPBC HN ES   2   2111 13.68                             129    0.12 5  112 216 
+ SPBC HZ I        2111 17.02        12.3 0.16            130            112 216 
+ NOR  HZ EP   2   2111  4.98                             114   -0.05 4  184 237 
+ NOR  HN ES   4   2111 25.25                             114   -1.60 0  184 237 
+ NOR  HZ I        2111 27.28         3.0 0.44            116            184 237 
+ ZAR  HZ EP   9   2111  4.13                             113   -1.55 0  190 307 
+ ZAR  HN ES       2111 27.09                             113    0.64 9  190 307 
+ ZAR  HZ I        2111 28.36         7.9 0.44            116            190 307 
+ CHI  HZ EP   2   2111  8.31                             112    0.43 4  205 188 
+ CHI  HE ES   2   2111 32.04                             112    0.12 4  205 188 
+ GUY2CHZ EP   4   2111 15.74                             107    2.57 0  250 237 
+ GUY2CHN ES       2111 41.34                             107    0.02 8  250 237 
+ GUY2CHZ I        2111 49.61         1.6 0.42                           250 237 
+                                                                                

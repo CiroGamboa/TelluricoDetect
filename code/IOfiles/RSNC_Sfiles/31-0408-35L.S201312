@@ -1,0 +1,27 @@
+ 2013 1231 0408 35.2 L   6.749 -73.156147.1  RSN  6 0.3 1.5LRSN                1
+ GAP=232        0.77       3.8     4.8  5.2  0.3823E+01  0.2695E+01  0.4792E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 14-01-13 10:22 OP:ep   STATUS:               ID:20131231040835 L   I
+ OLDACT:UP  14-01-08 10:28 OP:ep   STATUS:               ID:20131231040835 L   3
+ OLDACT:DUP 13-12-31 10:54 OP:stll STATUS:               ID:20131231035818d    3
+ 2013-12-31-0358-17M.COL___237                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP        4 8 54.75                             173   -0.1610 17.6 190 
+ BAR2 SZ I         4 8 54.82        10.0 0.18            167           17.6 190 
+ BAR2 SZ ES        4 9 10.34                             173    0.0710 17.6 190 
+ BRR  HZ EP        4 8 56.82                             152    0.2010 73.1 303 
+ BRR  HE ES        4 9 13.72                             152    0.4010 73.1 303 
+ BRR  HZ I         4 9 18.33         4.6 0.14            149           73.1 303 
+ RUS  HZ EP        4 8 58.34                             146   -0.3710 95.0 175 
+ RUS  HZ I         4 8 59.49         2.5 0.42            145           95.0 175 
+ RUS  HN ES        4 9 16.83                             146   -0.2110 95.0 175 
+ PTB  HZ EP        4 9  1.87                             133   -0.24 9  146 261 
+ PTB  HN ES        4 9 22.66                             133   -0.43 9  146 261 
+ PTB  HZ I         4 9 30.26         5.4 0.36            130            146 261 
+ SPBC HZ EP        4 9  3.72                             130    0.37 9  158 220 
+ SPBC HZ I         4 9  3.91         7.1 0.20            128            158 220 
+ SPBC HN ES        4 9 25.19                             130   -0.10 9  158 220 
+ CHI  HZ EP        4 9 12.51                             118    0.14 8  243 195 
+ CHI  HN ES        4 9 41.87                             118    0.52 8  243 195 
+ CHI  HZ I         4 9 50.23         1.1 0.48            118            243 195 
+                                                                                

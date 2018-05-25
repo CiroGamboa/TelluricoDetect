@@ -1,0 +1,24 @@
+ 2010 11 3 1120 55.2 L   6.800 -73.043139.0  RSN  7 0.2 1.7LRSN                1
+ GAP=170        0.45       2.7     5.6  5.3  0.2509E+01 -0.1114E+02 -0.5975E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UP  10-12-17 16:50 OP:REBC STATUS:               ID:20101103112055 L   I
+ 2010-11-03-1118-50S.COL___129                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO SNR AR TRES W  DIS CAZ7
+ BAR2 SZ IP       1121 14.16                             168     0.010   28 214 
+ BTL  SZ EP       1121 14.15                             168     0.010   28 298 
+ BAR2 SZ I        1121 14.45        13.9 0.10                            28 214 
+ BAR2 SZ ES   2   1121 28.86                             168     0.0 5   28 214 
+ GIR2 SZ EP   3   1121 14.27                             165     0.1 2   35 332 
+ GIR2 SZ ES   3   1121 28.90                             165    -0.1 2   35 332 
+ BRR  HZ EP       1121 15.96                             148    -0.310   81 295 
+ BRR  HZ I        1121 16.12        15.2 0.14                            81 295 
+ BRR  HE ES   1   1121 32.88                             148     0.2 7   81 295 
+ RUS  HZ EP   1   1121 18.56                             142     0.3 7  100 183 
+ RUS  HN ES   1   1121 36.13                             142    -0.2 7  100 183 
+ RUS  HZ I        1121 38.14         5.8 0.33                           100 183 
+ GRA  SZ EP       1121 19.74                             136     0.110  123  12 
+ GRA  SZ ES   2   1121 38.56                             136    -0.1 5  123  12 
+ GRA  SZ I        1121 40.64         4.3 0.63                           123  12 
+ OCA  SZ EP       1121 23.21                             128     0.0 9  162 349 
+ OCA  SZ I        1121 55.70        13.1 0.41                           162 349 
+                                                                                

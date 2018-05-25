@@ -1,0 +1,33 @@
+ 2016 1020 0134 50.2 L   7.418 -73.181130.0  RSN  8 0.3 1.7LRSN                1
+ GAP=135        0.64       2.5     3.7  4.9 -0.2119E+01 -0.5662E+01  0.2812E+01E
+ Epicentro: EL PLAYON - SANTANDER                                              3
+ ACTION:UPD 16-11-09 19:21 OP:rebc STATUS:               ID:20161020013450 L   I
+ OLDACT:UP  16-10-20 14:33 OP:e    STATUS:               ID:20161020012747d    3
+ OLDACT:UP  16-10-20 14:29 OP:e    STATUS:               ID:20161020012747d    3
+ OLDACT:UP  16-10-20 14:27 OP:e    STATUS:               ID:20161020012747d    3
+ OLDACT:DUP 16-10-20 14:26 OP:e    STATUS:               ID:20161020012747d    3
+ 2016-10-20-0128-00M.COL___344                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        135  9.48                             151   -0.0110 67.9 240 
+ BRR  HN ES        135 24.77                             151    0.2510 67.9 240 
+ BRR  HZ I         135 25.40        17.6 0.10            149           67.9 240 
+ BAR2 EZ EP        135 11.42                             143    0.0210 91.3 180 
+ BAR2 EZ ES        135 27.79                             143   -0.1310 91.3 180 
+ BAR2 EZ I         135 28.86        20.6 0.10            142           91.3 180 
+ OCA  HZ EP        135 11.28                             143   -0.0610 92.0 351 
+ OCA  HE ES        135 27.89                             143    0.0910 92.0 351 
+ OCA  HZ I         135 30.13        13.6 0.30            144           92.0 351 
+ RUS  HZ EP        135 18.41                             125   -0.27 9  169 176 
+ RUS  HE ES   2    135 40.44                             125   -0.43 5  169 176 
+ RUS  HZ I         135 43.65         1.4 0.21            125            169 176 
+ PTB  HZ EP        135 18.12                             124   -0.14 9  171 235 
+ PTB  HN ES        135 39.68                             124   -0.45 9  171 235 
+ PTB  HZ I         135 43.64         5.3 0.12            123            171 235 
+ TAM  HZ EP        135 20.14                             121    0.08 9  188 125 
+ SPBC HZ EP   2    135 24.11                             117    0.73 4  219 207 
+ SPBC HN ES        135 49.87                             117    0.63 8  219 207 
+ SPBC HZ I         135 54.71         2.9 0.08            117            219 207 
+ GUY2CHZ EP   9    135 40.66                             107    2.73 0  342 225 
+ GUY2CHN ES        136 17.85                                   -0.02 7  342 225 
+ GUY2CHZ I         136 24.18         2.0 0.52                           342 225 
+                                                                                

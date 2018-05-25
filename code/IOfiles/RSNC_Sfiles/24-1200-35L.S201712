@@ -1,0 +1,22 @@
+ 2017 1224 1200 35.0 L   7.443 -73.302124.3  RSN  5 0.3 1.4LRSN                1
+ GAP=105        0.75       3.2     3.4  7.7 -0.2830E+01  0.1299E+02 -0.1159E+02E
+ Epicentro: EL PLAYON - SANTANDER                                              3
+ ACTION:UPD 18-01-04 13:23 OP:rebc STATUS:               ID:20171224120035 L   I
+ OLDACT:REG 17-12-24 21:16 OP:osc  STATUS:               ID:20171224115429     3
+ 2017-12-24-1158-00M.COL___462                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  EZ EP       12 0 54.62                             150    0.3210 67.5 100 
+ PAM  EE ES       12 1  9.50                             150    0.1110 67.5 100 
+ PAM  EZ I        12 1 11.00         4.6 0.18            156           67.5 100 
+ BAR2 EZ EP       12 0 56.01                             140    0.1410 95.0 172 
+ BAR2 EZ ES       12 1 11.87                             140   -0.3210 95.0 172 
+ BAR2 EZ I        12 1 13.35        10.5 0.28            144           95.0 172 
+ PTB  HZ EP       12 1  1.78                             124    0.09 9  162 232 
+ PTB  HN ES       12 1 22.11                             124   -0.42 9  162 232 
+ PTB  HZ I        12 1 26.63         1.9 0.20            126            162 232 
+ ZAR  HZ EP       12 1  2.88                             122    0.20 9  172 272 
+ ZAR  HN ES       12 1 24.70                             122    0.40 9  172 272 
+ ZAR  HZ I        12 1 28.34         3.9 0.12            124            172 272 
+ DRL03HZ EP       12 1  6.91                             116   -0.51 8  216 355 
+ DRL03HE ES       12 1 32.59                             116   -0.15 8  216 355 
+                                                                                

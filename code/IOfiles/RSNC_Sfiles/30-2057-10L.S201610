@@ -1,0 +1,33 @@
+ 2016 1030 2057 10.3 L   6.840 -73.128147.2  RSN  8 0.2 1.6LRSN                1
+ GAP=137        0.69       3.1     3.8  4.1 -0.4000E+01 -0.1669E+00  0.3600E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-11-09 19:24 OP:rebc STATUS:               ID:20161030205710 L   I
+ OLDACT:UP  16-10-31 07:42 OP:and  STATUS:               ID:20161030204744d    3
+ OLDACT:DUP 16-10-31 07:35 OP:and  STATUS:               ID:20161030204744d    3
+ OLDACT:UP  16-10-31 07:33 OP:and  STATUS:               ID:20161030204743     3
+ OLDACT:UP  16-10-31 07:30 OP:and  STATUS:               ID:20161030204743     3
+ OLDACT:REG 16-10-31 06:57 OP:and  STATUS:               ID:20161030204743     3
+ 2016-10-30-2048-00M.COL___325                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ ES       2057 45.81                             168    0.1210 28.1 192 
+ BRR  HZ EP       2057 31.54                             153   -0.0110 70.9 295 
+ BRR  HN ES       2057 48.35                             153    0.2010 70.9 295 
+ PAM  EZ EP       2057 32.31                             153   -0.0510 72.7  41 
+ PAM  EN ES       2057 49.40                             153   -0.2010 72.7  41 
+ PAM  EZ I        2057 51.25         4.7 0.22            156           72.7  41 
+ RUS  HZ EP       2057 34.37                             143   -0.1010  105 177 
+ RUS  HN ES       2057 53.43                             143    0.0810  105 177 
+ RUS  HZ I        2057 54.73         5.3 0.34            143            105 177 
+ PTB  HZ EP   9   2057 36.62                             132   -0.98 0  151 257 
+ PTB  HN ES       2057 57.72                             128   -0.22 9  151 257 
+ PTB  HZ I        2058  5.01         8.7 0.18            130            151 257 
+ NOR  HZ EP       2057 46.58                             118    0.06 8  239 234 
+ NOR  HE ES       2058 14.36                             118   -0.45 8  239 234 
+ NOR  HZ I        2058 20.98         3.8 0.13            118            239 234 
+ CHI  HZ EP       2057 48.83                             117    0.27 8  253 195 
+ CHI  HN ES       2058 18.52                             117    0.08 8  253 195 
+ CHI  HZ I        2058 20.97         1.8 0.27            117            253 195 
+ GUY2CHZ EP   9   2057 56.48                             112    2.07 0  305 234 
+ GUY2CHN ES       2058 31.88                                    0.97 7  305 234 
+ GUY2CHZ I        2058 38.12         2.6 0.40                           305 234 
+                                                                                

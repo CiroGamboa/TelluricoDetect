@@ -1,0 +1,28 @@
+ 2016  9 5 0658 28.1 L   6.786 -73.138150.1  RSN  7 0.3 1.3LRSN                1
+ GAP=138        0.65       3.2     3.2  5.7 -0.1330E+01  0.1573E+01  0.6902E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-08-17 21:07 OP:lp   STATUS:               ID:20160905065828 L   I
+ OLDACT:UP  16-09-05 15:05 OP:dani STATUS:               ID:20160905065736     3
+ OLDACT:REG 16-09-05 12:47 OP:dani STATUS:               ID:20160905065736     3
+ 2016-09-05-0658-00M.COL___339                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        658 49.86                             153    0.0210 72.7 299 
+ BRR  HN ES        659  6.93                             153    0.1610 72.7 299 
+ BRR  HZ I         659  7.52         5.8 0.10            156           72.7 299 
+ PAM  EZ EP        658 51.03                             152    0.1810 78.0  38 
+ PAM  EN ES        659  8.35                             152   -0.2210 78.0  38 
+ PAM  EZ I         659 10.79         3.6 0.39            157           78.0  38 
+ RUS  HZ EP        658 52.23                             145    0.0310 98.9 177 
+ RUS  HE ES   2    659 11.04                             145    0.07 5 98.9 177 
+ RUS  HZ I         659 12.08         2.0 0.15            144           98.9 177 
+ PTB  HZ EP        658 55.11                             133   -0.41 9  148 260 
+ PTB  HN ES   2    659 15.84                             133   -1.03 5  148 260 
+ PTB  HZ I         659 18.53         2.8 0.15            135            148 260 
+ SPBC HZ EP        658 57.06                             130    0.15 9  163 220 
+ SPBC HN ES        659 19.71                             130    0.36 9  163 220 
+ SPBC HZ I         659 27.01         3.8 0.20            131            163 220 
+ ZAR  HN ES        659 26.74                             123    0.08 8  205 292 
+ CHI  HZ EP   2    659  6.14                             118    0.20 4  247 195 
+ CHI  HN ES   2    659 34.72                             118   -0.71 4  247 195 
+ CHI  HZ I         659 41.79         1.2 0.19            119            247 195 
+                                                                                

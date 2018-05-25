@@ -1,0 +1,53 @@
+ 2016 11 6 0230 12.5 L   6.404 -72.937  4.0  RSN 11 0.6 1.7LRSN                1
+ GAP= 74        1.26       3.3     3.5  6.6 -0.1647E+01  0.9042E+01  0.2376E+01E
+ Epicentro: SAN JOAQUIN - SANTANDER                                            3
+ ACTION:UPD 17-10-26 21:05 OP:lp   STATUS:               ID:20161106023012 L   I
+ OLDACT:UP  16-11-06 14:51 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:43 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:43 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:42 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:42 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:42 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:39 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:38 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:38 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:36 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:36 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:33 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:32 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:32 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:32 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:31 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:31 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:UP  16-11-06 14:29 OP:dani STATUS:               ID:20161106022744     3
+ OLDACT:REG 16-11-06 12:28 OP:dani STATUS:               ID:20161106022744     3
+ 2016-11-06-0228-00M.COL___346                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 HZ EP        230 17.52                              47   -1.0110 34.3 308 
+ BAR2 HN ES        230 22.85                              47   -0.3810 34.3 308 
+ BAR2 HZ I         230 23.29        70.6 0.22             47           34.3 308 
+ PAM  EZ EP        230 29.61                              47   -0.1610  107  14 
+ PAM  EN ES        230 43.24                              47   -0.0110  107  14 
+ PAM  EZ I         230 49.44         6.9 0.16             47            107  14 
+ BRR  HZ EP        230 31.09                              47    0.4610  116 312 
+ BRR  HN ES   3    230 43.39                              47   -1.38 2  116 312 
+ BRR  HZ I         230 47.99         7.2 0.25             47            116 312 
+ TAM  HZ EP        230 32.64                              47    0.3010  127  88 
+ SPBC HZ EP   4    230 34.14                              47   -1.88 0  151 237 
+ SPBC HN ES   4    230 50.88                              47   -3.48 0  151 237 
+ SPBC HZ I         230 53.20        16.8 0.26             47            151 237 
+ PTB  HZ EP     D  230 38.65                              47   -0.03 9  169 275 
+ PTB  HN ES        230 59.82                              47    0.72 9  169 275 
+ PTB  HZ I         231  2.08        17.8 0.38             47            169 275 
+ CHI  HZ EP        230 45.06                              37   -0.07 8  215 204 
+ CHI  HE ES        231  9.66                              37   -0.93 8  215 204 
+ CHI  HZ I         231 13.30         3.6 0.28             37            215 204 
+ NOR  HE ES        231 14.13                              37    0.26 8  233 247 
+ ZAR  HZ EP        230 49.22                              37    0.95 8  244 300 
+ ZAR  HN ES   3    231 17.61                              37    1.43 2  244 300 
+ ZAR  HZ I         231 18.26        13.2 0.17             37            244 300 
+ PTGC HN ES   3    231 21.04                              37    1.44 2  259 160 
+ HEL  HZ EP        230 54.84                              37    0.67 7  288 265 
+ HEL  HN ES        231 26.34                              37   -0.34 7  288 265 
+ HEL  HZ I         231 30.96         4.8 0.37             37            288 265 
+                                                                                

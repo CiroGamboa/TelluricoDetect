@@ -1,0 +1,47 @@
+ 2012 1114 1056 25.3 L   5.867 -73.749116.4  RSN 13 0.5 2.1LRSN 2.6WRSN        1
+ SPEC AVERAGE  MO 13.1 ST0.512 OM  2.1 f0 3.14 R0.4795 AL 1.88 WI 21.7 MW  2.6 3
+ SPEC SD       MO  0.1 ST0.223 OM  0.7 f00.522 R0.0714 AL      WI      MW  0.0 3
+ GAP= 91        1.21       3.3     3.4  8.1 -0.2355E+01  0.1088E+02 -0.2085E+01E
+ Epicentro: JESUS MARIA - SANTANDER                                            3
+ SPEC RUS HH N MO 13.0 ST0.821 OM  1.5 f0 3.88 R0.3789 AL 2.44 WI 15.5 MW  2.6 3
+ SPEC RUS HH N T105657 K 0.000 GD  137 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.1 ST0.416 OM  1.4 f0 2.81 R0.5231 AL 1.44 WI 30.4 MW  2.7 3
+ SPEC HEL HH N T105719 K 0.000 GD  231 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.0 ST0.299 OM  1.4 f0 2.74 R0.5365 AL 1.77 WI 19.2 MW  2.6 3
+ SPEC CHI HH N T1057 7 K 0.000 GD  179 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-12-05 15:33 OP:}ep  STATUS:               ID:20121114105625 L   I
+ 2012-11-14-1050-00M.COL___230                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ RUS  HZ EP       1056 44.30                             146    0.0410 73.8  88 
+ RUS  HN ES       1056 58.42                             146   -0.6110 73.8  88 
+ RUS  HN I        1057  1.13        28.4 0.40                          73.8  88 
+ BAR2 SZ EP       1056 46.44                             136    0.3710  102  38 
+ BAR2 SZ ES       1057  2.47                             136    0.2210  102  38 
+ BAR2 SZ I        1057  3.85       121.5 0.24                           102  38 
+ PTB  HZ EP       1056 45.62                             134   -0.6710  108 314 
+ PTB  HN ES       1057  2.90                             134    0.2510  108 314 
+ PTB  HN I        1057  3.49        20.2 0.14                           108 314 
+ CHI  HZ EP       1056 49.15                             127   -0.37 9  137 179 
+ CHI  HZ I        1056 50.07         7.8 0.14                           137 179 
+ CHI  HN ES       1057  8.10                             127   -0.29 9  137 179 
+ BRR  HZ EP       1056 49.25                             126    0.25 9  137   2 
+ GIR2 SZ EP       1056 50.53                             124    0.33 9  147  25 
+ GIR2 SZ ES       1057  9.85                             124    0.24 9  147  25 
+ GUY  SZ EP       1056 55.95                             116    0.27 9  195 249 
+ GUY  SN ES       1057 20.53                             116    1.18 9  195 249 
+ GUY  SN I        1057 23.15        47.7 0.32                           195 249 
+ HEL  HN ES   1   1057 19.11                             116   -0.97 6  200 280 
+ PAM  SZ EP       1056 56.22                             116    0.02 9  200  35 
+ PAM  SZ I        1056 57.72        15.0 0.34                           200  35 
+ PAM  SN ES       1057 20.35                             116    0.06 9  200  35 
+ PAM  SN I        1057 24.90         7.8 0.18                           200  35 
+ HEL  HZ EP       1056 56.89                             116    0.81 9  200 280 
+ HEL  HZ I        1057 25.54         8.9 0.46                           200 280 
+ RREF HZ EP       1056 57.33                             115    0.18 8  207 239 
+ RREF HZ I        1057 27.00         9.4 0.22                           207 239 
+ ZAR  HZ EP       1056 57.14                             113   -0.40 8  218 326 
+ ZAR  HE ES       1057 22.55                             113   -0.13 8  218 326 
+ ZAR  HN I        1057 31.34        12.4 0.24                           218 326 
+ DBB  SZ ES       1057 38.85                             106   -0.96 7  300 295 
+ SML  HZ EP       1057  9.36                             104   -0.75 7  326 354 
+                                                                                

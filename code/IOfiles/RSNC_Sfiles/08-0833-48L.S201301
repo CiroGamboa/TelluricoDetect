@@ -1,0 +1,42 @@
+ 2013  1 8 0833 47.7 L   6.820 -73.103150.8  RSN  8 0.5 2.9LRSN 3.1WRSN        1
+ SPEC AVERAGE  MO 13.8 ST  1.9 OM  2.5 f0 2.83 R0.6025 AL 2.00 WI 20.0 MW  3.1 3
+ SPEC SD       MO  0.2 ST0.910 OM  0.6 f00.944 R0.2579 AL      WI      MW  0.1 3
+ GAP=205        1.26       4.9     6.7  8.0 -0.1702E+01  0.6258E+01  0.5161E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC ZAR HH N MO 14.1 ST0.453 OM  2.3 f0 1.37 R1.0730 AL 0.81 WI 18.8 MW  3.3 3
+ SPEC ZAR HH N T 83445 K 0.000 GD  256 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 13.7 ST  2.4 OM  2.0 f0 3.21 R0.4579 AL 1.48 WI 19.0 MW  3.1 3
+ SPEC PTB HH N T 83433 K 0.000 GD  214 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH E MO 13.7 ST  2.6 OM  1.8 f0 3.37 R0.4362 AL 2.31 WI 23.1 MW  3.1 3
+ SPEC HEL HH E T 835 0 K 0.000 GD  315 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH Z MO 13.5 ST  2.8 OM  1.6 f0 4.03 R0.3648 AL 2.90 WI 25.9 MW  2.9 3
+ SPEC HEL HH Z T 83459 K 0.000 GD  315 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.0 ST  1.3 OM  2.1 f0 2.16 R0.6806 AL 2.49 WI 13.2 MW  3.3 3
+ SPEC CHI HH N T 83454 K 0.000 GD  293 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:12 OP:ep   STATUS:               ID:20130108083348dL   I
+ 2013-01-08-0830-00M.COL___238                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP        834  8.26                             170    0.2410 26.7 199 
+ BAR2 SZ ES        834 23.70                             170   -0.1510 26.7 199 
+ BAR2 SZ I         834 25.05        92.6 0.40            167           26.7 199 
+ BRR  HZ IP     C  834 10.16                             152    0.5810 74.4 295 
+ BRR  HN ES        834 27.41                             152    0.7710 74.4 295 
+ BRR  HN I         834 27.77       201.4 0.30            141           74.4 295 
+ PTB  HZ EP        834 14.76                             132   -0.79 9  153 258 
+ PTB  HN ES        834 36.36                             132   -0.90 9  153 258 
+ PTB  HN I         834 41.71       132.6 0.16            123            153 258 
+ OCA  HZ EP        834 15.95                             131   -0.32 9  159 351 
+ OCA  HN ES        834 38.18                             131   -0.36 9  159 351 
+ OCA  HN I         834 42.25       201.8 0.26            121            159 351 
+ ZAR  HZ EP        834 20.62                             123   -0.23 8  208 291 
+ ZAR  HN ES        834 46.78                             123    0.08 8  208 291 
+ ZAR  HN I         834 51.75       101.5 0.42            114            208 291 
+ CHI  HZ EP        834 26.33                             118    0.27 8  252 196 
+ CHI  HN ES        834 55.71                             118   -0.27 8  252 196 
+ CHI  HN I         834 57.86        41.5 0.28            111            252 196 
+ HEL  HZ EP        834 29.60                             115    0.85 7  277 256 
+ HEL  HN ES        835  1.15                             115    0.39 7  277 256 
+ HEL  HN I         835  6.56        18.4 0.48            108            277 256 
+ URE  HZ EP   4    834 27.98                             114   -1.45 0  287 291 
+ URE  HN I         835  9.07        72.0 0.26            107            287 291 
+                                                                                

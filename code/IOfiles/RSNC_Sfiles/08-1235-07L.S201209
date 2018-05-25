@@ -1,0 +1,37 @@
+ 2012  9 8 1235  7.2 L   6.775 -73.131147.4  RSN 10 0.4 2.4LRSN 3.0WRSN        1
+ SPEC AVERAGE  MO 13.6 ST  3.7 OM  3.6 f0 3.67 R0.4093 AL 2.22 WI 38.8 MW  3.0 3
+ SPEC SD       MO  0.2 ST  2.7 OM  1.7 f00.555 R0.0618 AL      WI      MW  0.1 3
+ GAP=140        0.71       4.9     5.2  5.7 -0.1870E+01  0.8812E+01  0.1012E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC PTB HH N MO 13.4 ST  1.0 OM  1.7 f0 3.12 R0.4712 AL 2.04 WI 51.7 MW  2.9 3
+ SPEC PTB HH N T123553 K 0.000 GD  209 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.8 ST  6.4 OM  2.2 f0 4.23 R0.3475 AL 2.40 WI 25.9 MW  3.1 3
+ SPEC BRR HH N T123544 K 0.000 GD  164 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-10-22 14:17 OP:ep   STATUS:               ID:20120908123507 L   I
+ 2012-09-08-1230-00M.COL___227                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP       1235 27.09                             172    0.1610 21.0 196 
+ BAR2 SZ ES   1   1235 41.75                             172   -0.61 7 21.0 196 
+ GIR2 SZ EP   3   1235 27.55                             166    0.45 2 34.3 348 
+ GIR2 SZ ES   3   1235 42.02                             166   -0.64 2 34.3 348 
+ BRR  HZ EP       1235 28.92                             152    0.2810 74.0 300 
+ BRR  HN ES   1   1235 46.13                             152    0.74 7 74.0 300 
+ BRR  HN I        1235 48.93        74.7 0.18                          74.0 300 
+ PAM  SZ EP       1235 29.54                             151   -0.0710 78.5  37 
+ PAM  SN ES   1   1235 47.08                             151   -0.05 7 78.5  37 
+ PAM  SN I        1235 48.12        30.5 0.46                          78.5  37 
+ RUS  HZ EP   3   1235 31.06                             145    0.20 2 97.7 177 
+ RUS  HE ES   3   1235 49.62                             145    0.27 2 97.7 177 
+ PTB  HZ EP       1235 33.72                             132   -0.63 9  149 260 
+ PTB  HN ES   3   1235 55.30                             132   -0.27 2  149 260 
+ PTB  HN I        1236  0.68        29.5 0.42                           149 260 
+ ZAR  HZ EP       1235 39.77                             122   -0.20 8  207 293 
+ ZAR  HE ES   3   1236  5.13                             122   -0.44 2  207 293 
+ NOR  SN ES   3   1236 11.82                             119    0.95 2  234 235 
+ NOR  SN I        1236 15.52        27.4 0.18                           234 235 
+ CHI  HZ EP       1235 44.98                             118    0.28 8  246 196 
+ CHI  HN ES   3   1236 13.80                             118   -0.18 2  246 196 
+ CHI  HN I        1236 17.06         9.7 0.34                           246 196 
+ PRA  HZ EP       1236  0.77                             107    0.23 6  390 210 
+ PRA  HN I        1236 47.44         4.0 0.32                           390 210 
+                                                                                

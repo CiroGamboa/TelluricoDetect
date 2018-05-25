@@ -1,0 +1,66 @@
+ 2011  513 1518 25.9 L   6.778 -73.120151.7  RSN 21 0.4 5.2LRSN                1
+ GAP= 72        0.99       3.5     5.5  4.4 -0.8821E+01  0.4248E+01  0.2129E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC SD       MO  1.1 ST238.8 OM  1.7 f00.875 R0.2897 AL      WI      MW  0.7 3
+ SPEC RUS HH Z MO 16.3 ST467.1 OM  4.7 f0 2.47 R0.5951 AL 2.53 WI  8.0 MW  4.8 3
+ SPEC RUS HH Z T1519 8 K 0.020 GD  179 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH Z MO 15.8 ST339.2 OM  3.1 f0 3.48 R0.4224 AL 3.08 WI 60.0 MW  4.5 3
+ SPEC HEL HH Z T151835 K 0.020 GD  313 VP 7.60 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC MON HH Z MO 16.6 ST 82.4 OM  4.6 f0 1.16 R1.2672 AL 1.59 WI 32.0 MW  5.0 3
+ SPEC MON HH Z T151948 K 0.020 GD  385 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC SJC HH Z MO 16.5 ST242.7 OM  4.5 f0 1.72 R0.8547 AL 1.58 WI 22.1 MW  5.0 3
+ SPEC SJC HH Z T151958 K 0.020 GD  438 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC RREFHH Z MO 16.7 ST407.6 OM  4.8 f0 1.74 R0.8448 AL 2.53 WI 32.8 MW  5.1 3
+ SPEC RREFHH Z T151946 K 0.020 GD  356 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ Evento sentido                                                                2
+ Reportado como sentido                                                        3
+ BUCARAMANGA, MALAGA, FLORIDABLANCA, GIRON, BARRANCABERMEJA (SANTANDER)        3
+ ACTION:UP  11-06-29 08:53 OP:tino STATUS:               ID:20110513151826 L   I
+ 2011-05-13-1514-57S.COL___141                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO SNR AR TRES W  DIS CAZ7
+ SAN  SZ IP       1518 46.85                             178     0.810    5 105 
+ SAN  SZ ES   1   1519  2.15                             178     0.5 7    5 105 
+ BAR2 SZ IP       1518 46.31                             171     0.010   22 199 
+ BAR2 SZ ES   1   1519  1.40                             171    -0.7 7   22 199 
+ BAR2 SZ I        1519  2.76     21216.1 0.30                            22 199 
+ BTL  SZ IP       1518 46.50                             171     0.210   23 314 
+ BTL  SZ ES   1   1519  1.75                             171    -0.4 7   23 314 
+ GIR2 SZ IP       1518 46.45                             166     0.010   34 346 
+ GIR2 SZ ES   1   1519  2.25                             166    -0.1 7   34 346 
+ BRR  HZ IP       1518 48.25                             152     0.310   75 299 
+ BRR  HN ES   1   1519  5.71                             152     0.6 7   75 299 
+ BRR  HZ I        1519  8.85     14916.7 0.37                            75 299 
+ PAM  SZ IP       1518 49.15                             152     0.310   78  37 
+ PAM  SN ES   1   1519  6.31                             152    -0.3 7   78  37 
+ RUS  HZ IP     D 1518 50.11                             146     0.010   98 178 
+ RUS  HN ES   1   1519  8.90                             146    -0.1 7   98 178 
+ RUS  HZ I        1519 11.96     18322.5 0.42                            98 178 
+ BRI  SZ IP     C 1518 50.92                             142     0.410  110  19 
+ BRI  SZ ES   1   1519  8.94                             142    -0.7 7  110  19 
+ GUE  SZ EP       1518 51.36                             140     0.010  118  10 
+ GRA  SZ IP       1518 52.16                             138     0.310  127  16 
+ GRA  SZ ES   1   1519 11.92                             138    -0.1 7  127  16 
+ GRA  SZ I        1519 13.57     30997.2 0.38                           127  16 
+ OCA  SZ IP       1518 54.72                             130    -0.3 9  163 352 
+ OCA  SZ ES   1   1519 16.79                             130    -0.9 7  163 352 
+ OCA  SZ I        1519 21.92     31999.3 0.28                           163 352 
+ NOR  SZ IP       1519  1.86                             119    -0.3 8  236 235 
+ NOR  SN ES   1   1519 30.04                             119    -0.3 6  236 235 
+ HEL  HZ EP   2   1519  6.83                             115     0.1 4  274 256 
+ HEL  HZ I        1519 44.50      4753.5 0.56                           274 256 
+ VIL  SZ EP   1   1519  9.26                             113    -0.2 5  302 192 
+ VIL  SN ES   2   1519 43.21                             113    -0.1 4  302 192 
+ VIL  SZ I        1519 46.72      6078.3 0.35                           302 192 
+ GUY  SZ EP       1519  9.89                             113    -0.3 7  304 236 
+ GUY  SZ I        1519 52.32     13488.2 0.56                           304 236 
+ RREF HZ EP   1   1519 12.27                             112    -0.1 5  322 230 
+ RREF HZ I        1519 58.38     11102.3 0.63                           322 230 
+ DBB  SZ IP       1519 14.20                             110     0.2 7  342 275 
+ TOL  SZ EP   1   1519 14.87                             110     0.4 5  344 225 
+ SDV  BZ IP       1519 15.56                             109    -0.6 6  360  50 
+ SDV  BZ I        1519 59.24      2657.1 0.52                           360  50 
+ PRA  HZ IP     C 1519 18.92                             107    -0.7 6  391 210 
+ SJA  SZ IP       1519 19.91                             107    -0.6 6  398 193 
+ SJA  SZ ES   2   1520  3.16                             107     0.1 3  398 193 
+ SJA  SZ I        1520  9.58      8167.9 0.28                           398 193 
+                                                                                

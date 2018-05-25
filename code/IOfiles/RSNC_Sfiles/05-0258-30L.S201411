@@ -1,0 +1,27 @@
+ 2014 11 5 0258 30.5 L   6.800 -73.164148.3  RSN  6 0.4 1.5LRSN                1
+ GAP=134        1.00       4.8     5.5  6.9 -0.6877E+01  0.5842E+01  0.3272E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 14-12-19 15:39 OP:nd   STATUS:               ID:20141105025830 L   I
+ OLDACT:DUP 14-11-05 14:14 OP:cam  STATUS:               ID:20141105025820d    3
+ OLDACT:UP  14-11-05 14:13 OP:cam  STATUS:               ID:20141105025819     3
+ OLDACT:REG 14-11-05 13:06 OP:cam  STATUS:               ID:20141105025819     3
+ 2014-11-05-0258-19M.COL___274                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP        258 49.74                             171   -0.7110 23.1 185 
+ BAR2 SZ ES        259  5.79                             171   -0.2010 23.1 185 
+ BAR2 SZ I         259  8.86         5.1 0.32            171           23.1 185 
+ BRR  HZ EP        258 51.48                             154   -0.3610 69.4 299 
+ BRR  HE ES        259  8.99                             154    0.5110 69.4 299 
+ PAM  SZ EP        258 52.96                             151   -0.1210 78.7  41 
+ PAM  SN ES        259 10.86                             151    0.1810 78.7  41 
+ PAM  SN I         259 11.69         9.5 0.44            154           78.7  41 
+ RUS  HZ EP        258 54.93                             144    0.4010  101 175 
+ RUS  HN ES        259 13.36                             144    0.1010  101 175 
+ RUS  HZ I         259 14.05         2.5 0.26            146            101 175 
+ PTB  HZ EP        258 57.48                             133   -0.03 9  146 259 
+ PTB  HN ES   1    259 18.35                             133   -0.22 7  146 259 
+ PTB  HZ I         259 20.82         2.5 0.12            134            146 259 
+ SPBC HZ EP        258 59.78                             130    0.69 9  162 218 
+ SPBC HE ES        259 21.09                             130   -0.29 9  162 218 
+ SPBC HN I         259 23.32         8.4 0.32            131            162 218 
+                                                                                

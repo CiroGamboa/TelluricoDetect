@@ -1,0 +1,23 @@
+ 2017  1 2 1001 10.5 L   7.291 -73.900 32.6  RSN  6 0.3 1.3LRSN                1
+ GAP=162        0.77       3.9     2.1  6.6  0.1593E+00  0.5618E+01 -0.7379E+01E
+ Epicentro: PUERTO WILCHES - SANTANDER                                         3
+ ACTION:UPD 17-05-22 15:54 OP:jn   STATUS:               ID:20170102100110 L   I
+ OLDACT:REG 17-01-02 21:07 OP:ndl  STATUS:               ID:20170102095740     3
+ 2017-01-02-0958-00M.COL___366                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     C 10 1 17.19                             128   -0.0810 29.1 134 
+ BRR  HN ES       10 1 22.67                             128    0.0910 29.1 134 
+ BRR  HZ I        10 1 24.38        34.7 0.10             47           29.1 134 
+ PTB  HZ EP       10 1 25.77                              91   -0.6010  103 217 
+ PTB  HZ I        10 1 37.42         1.4 0.22             47            103 217 
+ PTB  HE ES       10 1 38.91                              91    0.1310  103 217 
+ ZAR  HZ EP       10 1 27.01                              91    0.0610  108 282 
+ ZAR  HE ES       10 1 39.93                              91    0.1210  108 282 
+ ZAR  HZ I        10 1 41.28        10.4 0.22             47            108 282 
+ BAR2 EZ EP       10 1 27.95                              91    0.3910  111 134 
+ PAM  EE ES       10 1 46.22                              91   -0.1010  133  88 
+ PAM  EZ I        10 1 48.13         7.6 0.22             47            133  88 
+ URE  HZ EP   9   10 1 38.38                              91    1.52 0  187 286 
+ URE  HN ES       10 1 59.40                                    0.43 9  187 286 
+ URE  HZ I        10 2  3.65         2.5 0.14             37            187 286 
+                                                                                

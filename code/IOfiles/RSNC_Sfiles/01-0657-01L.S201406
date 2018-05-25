@@ -1,0 +1,124 @@
+ 2014  6 1 0657  1.1 L   6.791 -73.164142.0  RSN 23 0.5 2.7LRSN 3.1WRSN        1
+ SPEC AVERAGE  MO 13.8 ST  1.3 OM  1.8 f0 2.76 R1.0080 AL 0.00 WI 60.0 MW  3.1 3
+ SPEC SD       MO  3.1 ST  2.3 OM  0.5 f0 2.07 R0.5562 AL      WI      MW  0.7 3
+ GAP= 70        1.03       2.5     3.0  4.8 -0.8836E+00  0.5117E+01  0.1208E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 13.5 ST  1.5 OM  1.6 f0 4.38 R0.4393 AL-0.00 WI 60.0 MW  2.9 3
+ SPEC BAR2SH Z T 65734 K 0.000 GD  143 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PAM SH Z MO 13.5 ST0.434 OM  1.6 f0 2.76 R0.6971 AL-0.00 WI 60.0 MW  3.0 3
+ SPEC PAM SH Z T 65738 K 0.000 GD  162 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PTB HH Z MO 13.4 ST  8.9 OM  1.4 f0 8.18 R0.2352 AL-0.00 WI 60.0 MW  2.9 3
+ SPEC PTB HH Z T 65746 K 0.000 GD  203 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC TAM HH Z MO 13.8 ST0.168 OM  1.8 f0 1.58 R1.2177 AL-0.00 WI 60.0 MW  3.2 3
+ SPEC TAM HH Z T 65748 K 0.000 GD  211 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC OCA HH Z MO 13.7 ST  1.1 OM  1.7 f0 3.13 R0.6147 AL-0.00 WI 60.0 MW  3.1 3
+ SPEC OCA HH Z T 65749 K 0.000 GD  214 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC SPBCHH Z MO 13.7 ST  4.5 OM  1.7 f0 5.09 R0.3780 AL-0.00 WI 60.0 MW  3.1 3
+ SPEC SPBCHH Z T 65749 K 0.000 GD  214 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ZAR HH Z MO 13.4 ST  5.8 OM  1.3 f0 7.16 R0.2687 AL-0.00 WI 60.0 MW  2.9 3
+ SPEC ZAR HH Z T 65756 K 0.000 GD  247 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC NOR HH Z MO 13.5 ST  1.2 OM  1.4 f0 3.77 R0.5103 AL-0.00 WI 60.0 MW  3.0 3
+ SPEC NOR HH Z T 658 1 K 0.000 GD  272 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC CHI HH Z MO 13.5 ST0.293 OM  1.3 f0 2.53 R0.7605 AL-0.00 WI 60.0 MW  2.9 3
+ SPEC CHI HH Z T 658 5 K 0.000 GD  284 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ROSCBH Z MO 14.2 ST0.088 OM  2.0 f00.987 R1.9493 AL-0.00 WI 60.0 MW  3.4 3
+ SPEC ROSCBH Z T 658 9 K 0.000 GD  288 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC HEL HH Z MO 13.9 ST0.125 OM  1.7 f0 1.37 R1.4044 AL-0.00 WI 60.0 MW  3.2 3
+ SPEC HEL HH Z T 65812 K 0.000 GD  305 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPECGUY2CHH Z MO 14.2 ST  0.1 OM  1.9 f00.976 R  1.97 AL-0.00 WI 60.0 MW  3.4 3
+ SPECGUY2CHH Z T 65818 K       GD331.0 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC VIL SH Z MO 13.7 ST0.654 OM  1.5 f0 2.69 R0.7152 AL-0.00 WI 60.0 MW  3.1 3
+ SPEC VIL SH Z T 65818 K 0.000 GD  333 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PTGCHH Z MO 13.9 ST0.222 OM  1.7 f0 1.60 R1.2025 AL-0.00 WI 60.0 MW  3.2 3
+ SPEC PTGCHH Z T 65814 K 0.000 GD  339 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC RREFHH Z MO 14.1 ST0.119 OM  1.8 f0 1.19 R1.6168 AL-0.00 WI 60.0 MW  3.3 3
+ SPEC RREFHH Z T 65822 K 0.000 GD  350 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC CBOCHH Z MO 13.9 ST0.051 OM  1.6 f0 1.04 R1.8500 AL-0.00 WI 60.0 MW  3.2 3
+ SPEC CBOCHH Z T 65822 K 0.000 GD  360 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC TOL SH Z MO 14.4 ST0.406 OM  2.1 f0 1.40 R1.3743 AL-0.00 WI 60.0 MW  3.5 3
+ SPEC TOL SH Z T 65827 K 0.000 GD  369 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ANILHH Z MO 14.3 ST0.334 OM  2.0 f0 1.40 R1.3743 AL-0.00 WI 60.0 MW  3.5 3
+ SPEC ANILHH Z T 65829 K 0.000 GD  382 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PRA HH Z MO 13.9 ST0.129 OM  1.6 f0 1.35 R1.4252 AL-0.00 WI 60.0 MW  3.2 3
+ SPEC PRA HH Z T 65834 K 0.000 GD  415 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ORTCHH Z MO 13.8 ST0.210 OM  1.5 f0 1.71 R1.1251 AL-0.00 WI 60.0 MW  3.2 3
+ SPEC ORTCHH Z T 65835 K 0.000 GD  417 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC SJC HH Z MO 13.4 ST0.123 OM  1.1 f0 1.92 R1.0021 AL-0.00 WI 60.0 MW  2.9 3
+ SPEC SJC HH Z T 65834 K 0.000 GD  432 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:UP  14-06-01 20:03 OP:cam  STATUS:               ID:20140601064818     3
+ OLDACT:REG 14-06-01 15:38 OP:stll STATUS:               ID:20140601064818     3
+ ACTION:UPD 14-07-01 22:49 OP:nd   STATUS:               ID:20140601065701 L   I
+ OLDACT:UP  14-06-01 20:06 OP:cam  STATUS:               ID:20140601064818     3
+ OLDACT:UP  14-06-01 20:06 OP:cam  STATUS:               ID:20140601064818     3
+ 2014-06-01-0648-18M.COL___247                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP     D  657 20.21                             171   -0.0610 22.0 185 
+ BAR2 SZ ES        657 35.52                             171    0.3110 22.0 185 
+ BAR2 SZ I         657 37.92        90.5 0.18            165           22.0 185 
+ PAM  SZ EP        657 23.11                             150    0.0410 79.4  40 
+ PAM  SN ES        657 40.49                             150    0.3110 79.4  40 
+ PAM  SZ I         657 42.62        62.7 0.64            143           79.4  40 
+ RUS  HZ EP        657 24.14                             143   -0.3010 99.7 175 
+ RUS  HE ES        657 42.66                             143    0.0310 99.7 175 
+ RUS  HZ I         657 44.19        46.6 0.22            133           99.7 175 
+ PTB  HZ EP        657 26.75                             132   -0.84 9  146 259 
+ PTB  HN ES        657 48.27                             132    0.04 9  146 259 
+ PTB  HZ I         657 50.75        58.7 0.10            123            146 259 
+ TAM  HZ IP     D  657 28.37                             130   -0.29 9  157 104 
+ TAM  HZ I         657 49.18        22.9 0.36            120            157 104 
+ TAM  HN ES        657 50.17                             130    0.03 9  157 104 
+ SPBC HZ EP     C  657 29.09                             129   -0.05 9  161 219 
+ SPBC HN ES        657 51.19                             129    0.20 9  161 219 
+ SPBC HZ I         657 58.11        92.0 0.40            119            161 219 
+ OCA  HZ EP        657 28.65                             129   -0.57 9  161 354 
+ OCA  HN ES        657 51.21                             129    0.07 9  161 354 
+ OCA  HZ I         657 54.74        59.8 0.40            121            161 354 
+ ZAR  HZ EP        657 32.68                             122   -0.50 9  203 293 
+ ZAR  HE ES        657 58.14                             122   -0.04 9  203 293 
+ ZAR  HZ I         658  4.22        47.2 0.30            114            203 293 
+ NOR  HZ EP        657 36.22                             118   -0.18 8  232 234 
+ NOR  HN ES        658  3.13                             118   -0.78 8  232 234 
+ NOR  HZ I         658  7.62        44.4 0.20            110            232 234 
+ SML  HZ EP        657 36.95                             117   -0.60 8  244 336 
+ SML  HE ES        658  6.74                             117    0.77 8  244 336 
+ SML  HZ I         658 10.24        68.1 0.10            110            244 336 
+ CHI  HZ EP        657 38.21                             117   -0.24 8  247 195 
+ CHI  HN ES        658  7.27                             117   -0.29 8  247 195 
+ CHI  HZ I         658 15.94        16.9 0.56            108            247 195 
+ ROSC BZ EP        657 39.87                             116    1.04 8  251 211 
+ ROSC BE ES   4    658 10.79                             116    2.55 0  251 211 
+ ROSC BZ I         658 14.78        41.6 0.50            108            251 211 
+ HEL  HZ EP        657 41.78                             114    0.88 8  270 256 
+ HEL  HN ES   4    658 13.75                             114    1.82 0  270 256 
+ HEL  HZ I         658 20.57        24.9 0.38            107            270 256 
+ URE  HZ EP   4    657 39.99                             113   -1.86 0  282 292 
+ URE  HE ES   4    658 11.53                             113   -2.09 0  282 292 
+ URE  HZ I         658 18.83        25.4 0.14            106            282 292 
+ GUY2CHZ EP        657 45.01                             112    0.70 7  299 235 
+ GUY2CHN ES   4    658 20.47                             112    2.48 0  299 235 
+ GUY2CHZ I         658 26.68        26.1 0.74                           299 235 
+ VIL  SZ EP   4    657 43.76                             111   -0.45 0  302 191 
+ VIL  SE ES   4    658 20.39                             111    2.57 0  302 191 
+ VIL  SZ I         658 27.49        24.1 0.40            104            302 191 
+ PTGC HZ EP   4    657 43.14                             111   -1.65 0  308 158 
+ RREF HZ EP        657 47.74                             110    0.88 7  320 229 
+ RREF HZ I         658 30.86        27.5 0.30            103            320 229 
+ CBOC HZ EP        657 47.83                             109    0.20 7  331 252 
+ CBOC HN ES        658 23.67                             109   -0.24 7  331 252 
+ CBOC HZ I         658 30.33         7.2 0.52            103            331 252 
+ TOL  SZ EP        657 49.61                             109    0.63 7  341 225 
+ TOL  SN ES   4    658 28.94                             109    2.63 0  341 225 
+ TOL  SZ I         658 34.39        40.3 0.42            102            341 225 
+ ANIL HZ EP   4    657 51.80                             108    1.26 0  355 224 
+ ANIL HE ES   4    658 31.31                             108    2.23 0  355 224 
+ ANIL HZ I         658 39.94        48.7 0.38            101            355 224 
+ PRA  HZ EP        657 53.70                             106   -0.60 6  390 209 
+ PRA  HE ES        658 35.68                             106   -0.09 6  390 209 
+ PRA  HZ I         658 40.82        16.7 0.52             99            390 209 
+ ORTC HZ EP        657 55.02                             106    0.34 6  393 216 
+ ORTC HE ES        658 36.70                             106    0.25 6  393 216 
+ ORTC HZ I         658 43.87        15.4 0.36             99            393 216 
+ PAL  HZ EP        657 55.89                             105   -0.01 6  403 239 
+ PAL  HZ I         658 44.52        22.7 0.20             99            403 239 
+ SJC  HZ EP   4    657 54.40                             105   -2.14 0  409 327 
+                                                                                

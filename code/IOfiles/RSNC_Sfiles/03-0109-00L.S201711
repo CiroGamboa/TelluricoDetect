@@ -1,0 +1,45 @@
+ 2017 11 3 0109  0.8 L   5.992 -73.955  0.0  RSN 11 0.5 1.6LRSN                1
+ GAP= 88        1.37       2.8     3.3  5.8 -0.3745E+01  0.3042E+01 -0.1971E+00E
+ Epicentro: LA BELLEZA - SANTANDER                                             3
+ ACTION:UPD 17-12-12 19:51 OP:rebc STATUS:               ID:20171103010900 L   I
+ OLDACT:UP  17-11-03 14:59 OP:dnl  STATUS:               ID:20171103010736     3
+ OLDACT:UP  17-11-03 14:57 OP:dnl  STATUS:               ID:20171103010736     3
+ OLDACT:UP  17-11-03 14:56 OP:dnl  STATUS:               ID:20171103010736     3
+ OLDACT:UP  17-11-03 14:56 OP:dnl  STATUS:               ID:20171103010736     3
+ OLDACT:REG 17-11-03 13:06 OP:dnl  STATUS:               ID:20171103010736     3
+ 2017-11-03-0108-00M.COL___441                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ EP        1 9  8.03                              47   -0.0910 39.8 199 
+ SPBC HE ES        1 9 13.50                              47   -0.3110 39.8 199 
+ SPBC HZ I         1 9 15.64        59.2 0.10             47           39.8 199 
+ PTB  HZ IP     D  1 9 14.08                              47   -0.3810 82.1 318 
+ PTB  HE ES        1 9 24.07                              47   -1.0110 82.1 318 
+ PTB  HZ I         1 9 26.95        42.7 0.12             47           82.1 318 
+ RUS  HZ IP     C  1 9 16.43                              47   -0.8010 97.2  96 
+ RUS  HE ES   4    1 9 26.98                              47   -3.04 0 97.2  96 
+ RUS  HZ I         1 9 28.73        13.0 0.32             47           97.2  96 
+ NOR  HZ EP        1 9 19.66                              47    0.6610  112 245 
+ NOR  HN ES        1 9 33.51                              47    0.3510  112 245 
+ NOR  HZ I         1 9 34.46        14.3 0.34             47            112 245 
+ BRR  HZ EP        1 9 21.01                              47   -0.1110  126  12 
+ BRR  HE ES        1 9 37.80                              47    0.8610  126  12 
+ BRR  HZ I         1 9 39.74        13.9 0.20             47            126  12 
+ CHI  HZ EP   4    1 9 29.03                              47    3.46 0  153 171 
+ CHI  HE ES   4    1 9 49.40                              47    4.55 0  153 171 
+ CHI  HZ I         1 9 52.36         3.1 0.38             47            153 171 
+ GUY2CHZ IP   4 D  1 9 30.65                              47    1.22 0  178 242 
+ GUY2CHN ES        1 9 51.70                              47   -0.04 9  178 242 
+ GUY2CHZ I         1 9 54.57         3.3 0.30                           178 242 
+ YPLC HZ EP   9    1 9 33.06                              37    2.90 0  186 111 
+ YPLC HE ES        1 9 55.83                              37   -0.10 9  186 111 
+ YPLC HZ I         1 9 58.86         7.6 0.32             37            186 111 
+ ZAR  HZ EP   4    1 9 32.18                              37    1.21 0  194 329 
+ ZAR  HN ES   4    1 9 50.90                              37   -3.57 0  194 329 
+ ZAR  HZ I         1 9 57.66         5.4 0.62             37            194 329 
+ ELA  HZ EP   4    1 9 34.39                              37    1.59 0  203 232 
+ ELA  HN ES        1 9 58.31                              37    0.57 9  203 232 
+ ELA  HZ I         110  2.84         5.0 0.26             37            203 232 
+ PAM  EZ EP        1 9 33.24                              37    0.44 9  204  43 
+ PAM  EN ES        1 9 58.02                              37    0.28 9  204  43 
+ PAM  EZ I         110  0.30        18.1 0.28             37            204  43 
+                                                                                

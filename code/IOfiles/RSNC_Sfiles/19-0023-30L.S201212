@@ -1,0 +1,102 @@
+ 2012 1219 0023 30.6 L   6.826 -73.158147.0  RSN 28 0.4 4.3LRSN 4.2WRSN        1
+ SPEC AVERAGE  MO 15.5 ST148.5 OM  4.0 f0 2.96 R0.5588 AL 2.47 WI 18.9 MW  4.2 3
+ SPEC SD       MO  0.1 ST126.9 OM  0.3 f00.906 R0.2239 AL      WI      MW  0.1 3
+ GAP= 67        0.78       1.9     2.4  3.4 -0.3638E+00  0.1518E+01  0.1169E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC URE HH Z MO 15.5 ST222.3 OM  3.6 f0 3.71 R0.3962 AL 1.75 WI 25.6 MW  4.3 3
+ SPEC URE HH Z T 02442 K 0.000 GD  318 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH Z MO 15.6 ST159.9 OM  3.8 f0 3.09 R0.4757 AL 3.51 WI 17.0 MW  4.3 3
+ SPEC ZAR HH Z T 02428 K 0.000 GD  249 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ROSCBH Z MO 15.6 ST 81.2 OM  3.7 f0 2.52 R0.5833 AL 3.64 WI 25.9 MW  4.3 3
+ SPEC ROSCBH Z T 02436 K 0.000 GD  294 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH Z MO 15.3 ST  6.0 OM  3.4 f0 1.34 R1.0970 AL 2.41 WI 26.8 MW  4.1 3
+ SPEC CHI HH Z T 02432 K 0.000 GD  290 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH Z MO 15.2 ST 28.8 OM  3.6 f0 2.35 R0.6255 AL 1.55 WI 17.3 MW  4.1 3
+ SPEC BRR HH Z T 024 6 K 0.000 GD  162 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH E MO 15.6 ST119.7 OM  3.8 f0 2.71 R0.5424 AL 2.49 WI 15.6 MW  4.4 3
+ SPEC NOR HH E T 02433 K 0.000 GD  277 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 15.5 ST436.7 OM  3.8 f0 4.54 R0.3238 AL 1.85 WI  8.2 MW  4.3 3
+ SPEC OCA HH N T 02419 K 0.000 GD  215 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BAR2SH Z MO 15.4 ST133.0 OM  3.8 f0 3.45 R0.4261 AL 2.58 WI 14.4 MW  4.2 3
+ SPEC BAR2SH Z T 024 4 K 0.000 GD  149 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ Evento sentido                                                                2
+ Reportado como sentido en:                                                    3
+ RIONEGRO, MEDELLIN (ANTIOQUIA), FLORIDABLANCA (SANTANDER)                     3
+ ACTION:UPD 13-01-04 14:28 OP:ep   STATUS:               ID:20121219002330 L   I
+ 2012-12-19-0020-00M.COL___243                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP        023 50.60                             169    0.1510 26.0 186 
+ BAR2 SZ ES   1    024  5.64                             169   -0.28 7 26.0 186 
+ BAR2 SZ I         024  6.87      3973.0 0.41                          26.0 186 
+ GIR2 SZ IP        023 50.61                             169    0.2610 28.2 352 
+ GIR2 SZ ES        024  5.42                             169   -0.3310 28.2 352 
+ GIR2 SZ I         024  7.62      4405.3 0.42                          28.2 352 
+ BRR  HZ IP     C  023 52.40                             154    0.6510 68.7 297 
+ BRR  HN ES   1    024  8.51                             154    0.26 7 68.7 297 
+ BRR  HZ I         024 12.29      4143.2 0.34                          68.7 297 
+ PAM  SZ EP   1    023 53.37                             151    0.49 7 76.1  42 
+ PAM  SN ES   1    024 10.15                             151   -0.10 7 76.1  42 
+ PAM  SZ I         024 12.56      3080.7 0.46                          76.1  42 
+ RUS  HZ EP     C  023 54.57                             143   -0.1310  104 175 
+ RUS  HN ES   1    024 13.08                             143   -0.41 7  104 175 
+ RUS  HZ I         024 14.62      1396.0 0.32                           104 175 
+ PTB  HZ EP   1    023 57.20                             132   -0.41 7  147 258 
+ PTB  HN ES   1    024 18.31                             132   -0.36 7  147 258 
+ PTB  HZ I         024 20.26      2547.3 0.52                           147 258 
+ TAM  HE ES   1    024 20.59                             130    0.20 7  157 106 
+ TAM  HZ I         024 21.32      1716.7 0.28                           157 106 
+ OCA  HZ EP   1    023 58.74                             130    0.01 7  157 354 
+ OCA  HN ES   1    024 20.07                             130   -0.60 7  157 354 
+ OCA  HZ I         024 25.30      2356.3 0.40                           157 354 
+ TAM  HZ IP     C  023 59.04                             130    0.46 9  157 106 
+ ZAR  HZ EP        024  3.00                             123    0.10 9  202 292 
+ ZAR  HN ES        024 28.61                             123    0.53 9  202 292 
+ ZAR  HZ I         024 34.26      3372.1 0.42                           202 292 
+ CTAB SZ EP   4    024  8.06                             119    1.44 0  232 210 
+ NOR  HZ EP   1    024  6.57                             119    0.10 6  235 234 
+ NOR  HE ES   1    024 34.52                             119    0.07 6  235 234 
+ NOR  HZ I         024 38.34      1662.7 0.28                           235 234 
+ SML  HZ EP        024  6.87                             118   -0.09 8  241 335 
+ SML  HE ES   1    024 35.68                             118    0.37 6  241 335 
+ SML  HZ I         024 39.06      2272.0 0.05                           241 335 
+ CHI  HZ EP        024  8.68                             117    0.04 8  251 195 
+ CHI  HN ES   1    024 38.21                             117   -0.10 6  251 195 
+ CHI  HZ I         024 46.17       662.3 0.50                           251 195 
+ ROSC BZ EP   4 C  024 10.52                             117    1.53 0  255 210 
+ ROSC BN ES        024 39.19                             117    0.26 8  255 210 
+ ROSC BZ I         024 45.11      1765.3 0.56                           255 210 
+ HEL  HZ EP        024 10.72                             115   -0.10 8  271 255 
+ HEL  HN ES   1    024 42.05                             115   -0.13 6  271 255 
+ HEL  HZ I         024 48.99      1593.0 0.34                           271 255 
+ URE  HZ EP        024 10.49                             114   -0.99 7  282 291 
+ URE  HN ES   4    024 41.90                             114   -1.46 0  282 291 
+ URE  HZ I         024 52.99      1857.3 0.24                           282 291 
+ VIL  SZ EP        024 14.11                             112   -0.26 7  306 191 
+ VIL  SE ES        024 48.16                             112   -0.35 7  306 191 
+ VIL  SZ I         024 58.54      1002.7 0.46                           306 191 
+ TOL  SZ EP        024 19.47                             109    0.43 7  345 224 
+ COD  HZ EP        024 18.36                             109   -0.33 7  345 355 
+ TOL  SZ I         025  5.16       589.3 0.49                           345 224 
+ COD  HN ES   1    024 55.52                             109   -0.67 5  345 355 
+ COD  HZ I         025  5.53       172.6 0.58                           345 355 
+ MON  HZ EP   4    024 17.74                             109   -1.59 0  351 308 
+ ANIL HZ EP   1    024 21.17                             108    0.58 5  358 224 
+ ANIL HN ES   1    024 59.15                             108   -0.43 5  358 224 
+ SDV  BZ EP        024 20.21                             108   -0.39 6  360  51 
+ PRA  HZ EP        024 24.02                             107   -0.37 6  394 209 
+ PRA  HN ES        025  6.11                             107   -0.23 6  394 209 
+ PRA  HZ I         025 10.96       823.3 0.29                           394 209 
+ SJA  SZ EP        024 26.41                             106    0.91 6  403 193 
+ PAL  HZ EP        024 26.54                             106    0.69 6  406 239 
+ YOT  HZ EP        024 33.45                             103   -0.34 5  473 228 
+ GUA  SZ EP        024 33.19                             103   -0.96 5  477 173 
+ GUA  SZ I         025 27.18       639.9 0.37                           477 173 
+ SMAR HZ EP   2    024 36.05                             103   -0.09 2  494 346 
+ PTA  HZ EP   4    024 37.94                             102   -0.72 0  515 274 
+ MARA HZ EP   4    024 41.32                             101   -0.53 0  539 215 
+ URI  HZ EP   4    024 41.17                             101   -2.17 0  554  13 
+ MAL  SZ EP   4    024 45.27                             101    1.52 0  558 236 
+ PCON HZ EP   1    024 51.74                              99    0.55 2  614 216 
+ POP2 HZ EP        024 50.35                              99   -0.46 3  614 220 
+ SOTA HZ EP   4    024 55.70                              99    0.87 0  645 217 
+                                                                                

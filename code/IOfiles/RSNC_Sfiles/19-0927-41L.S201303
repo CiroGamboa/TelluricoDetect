@@ -1,0 +1,61 @@
+ 2013  319 0927 41.9 L   6.803 -73.139145.6  RSN 13 0.5 3.2LRSN 3.5WRSN        1
+ SPEC AVERAGE  MO 14.3 ST 12.5 OM  2.3 f0 3.34 R0.4501 AL 1.97 WI 22.9 MW  3.5 3
+ SPEC SD       MO  0.3 ST 14.8 OM  0.5 f00.571 R0.0631 AL      WI      MW  0.2 3
+ GAP= 71        0.95       2.9     4.4  5.7  0.6314E+00  0.6791E+01  0.3305E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC PTB HH N MO  0.0 ST0.000 OM  1.7 f0 2.53 R0.6152 AL 1.23 WI 20.8 MW  0.0 3
+ SPEC PTB HH N T 928 7 K 0.000 GD  212 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC TAM HH N MO 14.3 ST  6.8 OM  1.8 f0 2.92 R0.5034 AL 2.31 WI 21.2 MW  3.5 3
+ SPEC TAM HH N T 928 8 K 0.000 GD  212 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 14.0 ST  3.1 OM  1.3 f0 2.92 R0.5034 AL 1.36 WI 30.0 MW  3.3 3
+ SPEC HEL HH N T 92819 K 0.000 GD  309 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.4 ST  7.8 OM  1.9 f0 2.81 R0.5231 AL 1.17 WI 21.7 MW  3.5 3
+ SPEC OCA HH N T 928 9 K 0.000 GD  216 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 14.4 ST 24.3 OM  2.0 f0 4.17 R0.3525 AL 2.92 WI 17.1 MW  3.5 3
+ SPEC PAM SH N T 928 2 K 0.000 GD  164 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.4 ST 19.6 OM  1.8 f0 3.75 R0.3920 AL 2.34 WI 29.4 MW  3.6 3
+ SPEC CHI HH N T 92818 K 0.000 GD  288 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH Z MO 14.4 ST 13.6 OM  2.0 f0 3.45 R0.4261 AL 1.69 WI 17.9 MW  3.5 3
+ SPEC BRR HH Z T 928 2 K 0.000 GD  162 VP 7.60 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-04-09 14:03 OP:ep   STATUS:               ID:20130319092741 L   I
+ 2013-03-19-0920-00M.COL___244                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP        928  1.56                             170    0.0310 23.8 192 
+ BAR2 SZ ES   1    928 16.07                             170   -0.76 7 23.8 192 
+ BAR2 SZ I         928 19.31       219.0 0.42            167           23.8 192 
+ BRR  HZ IP     C  928  3.45                             152    0.3910 71.6 298 
+ BRR  HN ES   1    928 20.55                             152    0.98 7 71.6 298 
+ BRR  HN I         928 25.02       269.6 0.26            150           71.6 298 
+ PAM  SZ EP     C  928  4.34                             151    0.2810 76.6  39 
+ PAM  SN ES   1    928 21.43                             151    0.09 7 76.6  39 
+ PAM  SN I         928 22.99       169.4 0.44            157           76.6  39 
+ RUS  HZ EP     D  928  5.48                             144   -0.1810  101 176 
+ RUS  HN ES   1    928 23.82                             144   -0.38 7  101 176 
+ RUS  HN I         928 25.72       236.2 0.46            146            101 176 
+ TAM  HZ EP     C  928  9.73                             131    0.22 9  155 105 
+ TAM  HN ES   2    928 31.24                             131    0.19 5  155 105 
+ TAM  HN I         928 32.13       205.3 0.48            137            155 105 
+ OCA  HZ EP        928  9.84                             130   -0.33 9  160 353 
+ OCA  HN ES   1    928 31.71                             130   -0.52 7  160 353 
+ OCA  HN I         928 35.49       677.1 0.34            133            160 353 
+ CTAU SZ EP   4    928 16.36                             123    1.43 0  203 210 
+ ZAR  HZ EP        928 14.10                             122   -0.29 9  205 292 
+ ZAR  HN ES   2    928 39.89                             122    0.16 4  205 292 
+ ZAR  HN I         928 47.97       138.2 0.14            123            205 292 
+ CTAB SZ EP        928 18.95                             119    1.23 8  231 211 
+ SML  HZ EP        928 18.28                             117   -0.23 8  244 335 
+ SML  HN ES   1    928 46.79                             117   -0.28 6  244 335 
+ SML  HN I         928 50.97       256.1 0.10            120            244 335 
+ CHI  HZ EP        928 19.61                             117   -0.04 8  249 195 
+ CHI  HN ES   1    928 48.64                             117   -0.46 6  249 195 
+ CHI  HN I         928 54.38        74.3 0.28            119            249 195 
+ HEL  HZ EP        928 22.13                             115   -0.06 8  273 256 
+ HEL  HN ES   2    928 53.22                             115   -0.40 4  273 256 
+ HEL  HN I         929  1.12        61.0 0.30            116            273 256 
+ VIL  SZ EP        928 25.04                             112   -0.33 7  304 192 
+ VIL  SN ES   4    928 59.34                             112    0.06 0  304 192 
+ VIL  SN I         929  6.31       208.2 0.56            114            304 192 
+ PRA  HZ EP        928 35.01                             106   -0.49 6  393 210 
+ PRA  HN ES        929 17.37                             106    0.07 6  393 210 
+ PRA  HN I         929 22.14        25.8 0.20            108            393 210 
+                                                                                

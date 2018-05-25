@@ -1,0 +1,53 @@
+ 2013  828 2047 53.7 L   6.741 -73.190142.6  RSN 11 0.5 1.8LRSN 2.5WRSN        1
+ SPEC AVERAGE  MO 12.8 ST  2.6 OM  1.4 f0 6.43 R0.3281 AL 0.00 WI 20.0 MW  2.5 3
+ SPEC SD       MO  0.3 ST  2.8 OM  0.3 f0 3.29 R0.1863 AL      WI      MW  0.2 3
+ GAP=133        1.23       4.0     4.5  6.4 -0.3429E+01  0.5273E+01  0.2665E+01E
+ Epicentro: VILLANUEVA - SANTANDER                                             3
+ SPEC BAR2SH Z MO 12.6 ST  1.9 OM  1.0 f0 7.73 R0.2010 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC BAR2SH Z T204825 K 0.000 GD  143 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH Z MO 12.8 ST  1.3 OM  1.2 f0 5.59 R0.2780 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC BRR HH Z T204830 K 0.000 GD  159 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 12.8 ST0.205 OM  1.2 f0 2.99 R0.5197 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC PAM SH Z T204831 K 0.000 GD  166 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 12.6 ST  8.4 OM  0.9 f0 12.2 R0.1274 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC PTB HH Z T204838 K 0.000 GD  201 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH Z MO 12.8 ST  3.2 OM  1.0 f0 7.65 R0.2031 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC ZAR HH Z T204848 K 0.000 GD  247 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH Z MO 13.4 ST0.446 OM  1.6 f0 2.43 R0.6395 AL-0.00 WI 20.0 MW  2.9 3
+ SPEC NOR HH Z T204853 K 0.000 GD  268 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPECGUY2CHH Z MO 14.1 ST  0.0 OM  2.2 f00.620 R  2.51 AL-0.00 WI 20.0 MW  3.3 3
+ SPECGUY2CHH Z T2049 9 K       GD326.6 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ 2013-08-28-2038-35M.COL___215                                                 6
+ OLDACT:DUP 13-08-29 00:49 OP:stll STATUS:               ID:20130828203836d    3
+ ACTION:UPD 14-01-14 09:08 OP:ep   STATUS:               ID:20130828204753 L   I
+ OLDACT:UP  13-08-29 02:25 OP:stll STATUS:               ID:20130828203836d    3
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ ES       2048 27.48                             173   -0.2210 16.5 177 
+ BAR2 SZ I        2048 28.99        18.8 0.20            168           16.5 177 
+ BRR  HZ IP     D 2048 14.88                             152    0.4710 70.4 305 
+ BRR  HN ES       2048 31.75                             152    1.1410 70.4 305 
+ BRR  SZ I        2048 34.81        18.8 0.16            157           70.4 305 
+ PAM  SZ IP     D 2048 16.02                             148   -0.0210 85.6  39 
+ PAM  SN ES       2048 32.83                             148   -0.6810 85.6  39 
+ PAM  SZ I        2048 34.94        12.9 0.58            157           85.6  39 
+ RUS  HZ EP       2048 17.10                             145    0.4410 94.6 173 
+ RUS  HN ES       2048 34.72                             145    0.1110 94.6 173 
+ RUS  SZ I        2048 55.91         4.6 3.74            145           94.6 173 
+ PTB  HZ EP       2048 19.69                             132   -0.13 9  142 261 
+ PTB  HN ES       2048 39.88                             132   -0.34 9  142 261 
+ PTB  SZ I        2048 46.08        11.2 0.40            136            142 261 
+ SPBC HZ EP       2048 21.60                             130    0.47 9  155 219 
+ SPBC HN ES       2048 41.94                             130   -0.63 9  155 219 
+ SPBC SZ I        2048 46.32         7.9 0.30            132            155 219 
+ CAPV BZ EP       2048 21.05                             129   -0.50 9  157  38 
+ ZAR  HZ EP       2048 25.88                             122    0.19 9  202 294 
+ ZAR  HN ES       2048 50.28                             122   -0.39 9  202 294 
+ ZAR  SZ I        2048 59.78        11.6 0.28            127            202 294 
+ NOR  HZ EP       2048 28.57                             119    0.21 8  227 235 
+ NOR  HN ES       2048 55.11                             119   -0.32 8  227 235 
+ NOR  SZ I        2049  3.20         4.0 0.18            122            227 235 
+ CHI  HZ EP       2048 30.97                             117    0.62 8  241 194 
+ CHI  HN ES       2048 58.88                             117   -0.10 8  241 194 
+ CHI  HZ I        2049  7.38         2.8 0.64            120            241 194 
+ GUY2CHZ EP       2048 35.50                             112   -0.73 7  293 235 
+                                                                                

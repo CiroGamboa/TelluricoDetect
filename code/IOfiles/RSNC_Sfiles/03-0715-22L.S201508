@@ -1,0 +1,54 @@
+ 2015  8 3 0715 22.7 L   6.819 -73.091148.7  RSN 12 0.5 1.7LRSN                1
+ GAP=189        1.17       4.0     5.9  7.5  0.4409E+00  0.1172E+02 -0.6282E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 15-09-15 22:59 OP:cam  STATUS:               ID:20150803071522 L   I
+ OLDACT:UP  15-08-03 16:23 OP:mh   STATUS:               ID:20150803070748d    3
+ OLDACT:UP  15-08-03 16:15 OP:mh   STATUS:               ID:20150803070748d    3
+ OLDACT:UP  15-08-03 16:14 OP:mh   STATUS:               ID:20150803070748d    3
+ OLDACT:UP  15-08-03 16:14 OP:mh   STATUS:               ID:20150803070748d    3
+ OLDACT:UP  15-08-03 16:13 OP:mh   STATUS:               ID:20150803070748d    3
+ OLDACT:UP  15-08-03 16:13 OP:mh   STATUS:               ID:20150803070748d    3
+ OLDACT:UP  15-08-03 16:10 OP:mh   STATUS:               ID:20150803070748d    3
+ OLDACT:UP  15-08-03 16:10 OP:mh   STATUS:               ID:20150803070748d    3
+ OLDACT:DUP 15-08-03 16:03 OP:mh   STATUS:               ID:20150803070748d    3
+ OLDACT:UP  15-08-03 16:02 OP:mh   STATUS:               ID:20150803070747     3
+ OLDACT:UP  15-08-03 15:53 OP:mh   STATUS:               ID:20150803070747     3
+ OLDACT:REG 15-08-03 13:12 OP:mh   STATUS:               ID:20150803070747     3
+ 2015-08-03-0707-47M.COL___349                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        715 42.62                             169   -0.1510 27.0 202 
+ BAR2 EZ ES        715 58.18                             169   -0.2410 27.0 202 
+ BAR2 EZ I         716  0.39         6.0 0.26            167           27.0 202 
+ BRR  HZ IP     D  715 44.55                             152    0.1210 75.7 295 
+ BRR  HN ES        716  1.91                             152    0.5310 75.7 295 
+ BRR  HZ I         716  4.20         5.2 0.18            148           75.7 295 
+ RUS  HZ EP        715 46.84                             144   -0.0310  102 180 
+ RUS  HN ES        716  5.37                             144   -0.3610  102 180 
+ RUS  HZ I         716  7.55         2.9 0.62            146            102 180 
+ OCA  HZ EP        715 51.96                             130    0.83 9  159 351 
+ OCA  HN ES        716 13.90                             130    0.59 9  159 351 
+ OCA  HZ I         716 18.32         9.3 0.40            131            159 351 
+ ZAR  HZ EP        715 55.33                             122   -0.51 8  209 291 
+ ZAR  HE ES        716 21.07                             122   -0.63 8  209 291 
+ ZAR  HZ I         716 26.71         7.0 0.54            122            209 291 
+ NOR  HN ES        716 27.85                             118    0.07 8  241 235 
+ SML  HZ EP        715 59.09                             118   -0.49 8  244 334 
+ SML  HN ES        716 27.45                             118   -0.89 8  244 334 
+ SML  HZ I         716 32.42         8.2 0.11            118            244 334 
+ HEL  HZ EP        716  4.20                             115    0.43 7  278 256 
+ HEL  HN ES        716 36.41                             115    0.60 7  278 256 
+ HEL  HZ I         716 43.04         2.8 0.28            115            278 256 
+ URE  HZ EP   4    716  2.66                             114   -1.80 0  289 291 
+ URE  HN ES   4    716 35.71                             114   -1.33 0  289 291 
+ URE  HZ I         716 39.81         2.9 0.37            114            289 291 
+ GUY2CHZ EP   4    716  8.73                             112    1.59 0  307 235 
+ GUY2CHN ES   4    716 43.24                             112    1.44 0  307 235 
+ GUY2CHZ I         716 49.41         2.6 0.40                           307 235 
+ TOL  SE ES   4    716 51.38                             109    1.40 0  349 225 
+ TOL  SZ I         716 55.85         2.3 0.48            110            349 225 
+ MON  HZ EP   4    716  7.45                             109   -4.78 0  357 308 
+ MON  HN ES   4    716 47.94                             109   -2.92 0  357 308 
+ MON  HZ I         716 56.92         1.0 0.48            109            357 308 
+ SJC  HZ EP   4    716 16.69                             106   -1.86 0  411 326 
+ SJC  HN ES   4    716 57.67                             106   -4.45 0  411 326 
+                                                                                

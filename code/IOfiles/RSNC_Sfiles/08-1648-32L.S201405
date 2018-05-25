@@ -1,0 +1,32 @@
+ 2014  5 8 1648 32.9 L   6.790 -73.177144.6  RSN  8 0.4 2.0LRSN                1
+ GAP=133        0.96       3.1     4.1  7.1 -0.2243E+01  0.8951E+01 -0.5535E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 15-03-16 16:56 OP:nd   STATUS:               ID:20140508164832 L   I
+ OLDACT:UP  14-05-08 22:22 OP:mh   STATUS:               ID:20140508164647     3
+ OLDACT:UP  14-05-08 22:21 OP:mh   STATUS:               ID:20140508164647     3
+ OLDACT:UP  14-05-08 22:21 OP:mh   STATUS:               ID:20140508164647     3
+ OLDACT:REG 14-05-08 19:57 OP:mh   STATUS:               ID:20140508164647     3
+ 2014-05-08-1646-47M.COL___242                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ EP       1648 55.38                             149    0.2510 80.4  41 
+ PAM  SN ES       1649 12.46                             149   -0.0410 80.4  41 
+ PAM  SZ I        1649 14.76        13.9 0.19            156           80.4  41 
+ RUS  HZ EP       1648 56.73                             144    0.3010 99.8 174 
+ RUS  HN ES       1649 14.71                             144   -0.1110 99.8 174 
+ PTB  HZ EP       1648 59.19                             132   -0.21 9  144 259 
+ PTB  HN ES       1649 20.20                             132    0.09 9  144 259 
+ PTB  HZ I        1649 26.53         9.3 0.07            133            144 259 
+ SPBC HZ EP       1649  1.53                             129    0.55 9  160 218 
+ SPBC HE ES       1649 22.24                             129   -0.68 9  160 218 
+ SPBC HZ I        1649 28.73        13.9 0.07            132            160 218 
+ ZAR  HN ES       1649 30.51                             122    0.54 9  201 293 
+ ZAR  HZ I        1649 36.98         7.1 0.23            124            201 293 
+ NOR  HZ EP       1649  8.71                             118    0.56 8  231 234 
+ NOR  HN ES       1649 35.69                             118    0.01 8  231 234 
+ NOR  HZ I        1649 44.92         7.7 0.09            121            231 234 
+ SML  HZ EP       1649  8.59                             117   -0.78 8  243 336 
+ SML  HN ES       1649 37.50                             117   -0.35 8  243 336 
+ SML  HZ I        1649 42.45        15.0 0.09            120            243 336 
+ PRA  HZ EP       1649 25.84                             106   -0.19 6  389 209 
+ PRA  HN ES       1650  6.98                             106   -0.52 6  389 209 
+                                                                                

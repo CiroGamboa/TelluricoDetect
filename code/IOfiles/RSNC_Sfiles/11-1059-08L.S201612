@@ -1,0 +1,23 @@
+ 2016 1211 1059  8.2 L   6.745 -73.206146.7  RSN  5 0.4 1.4LRSN                1
+ GAP=226        1.05       7.9     7.2  7.6  0.3541E+02  0.8195E+01 -0.3862E+01E
+ Epicentro: VILLANUEVA - SANTANDER                                             3
+ ACTION:UPD 17-01-11 20:14 OP:rebc STATUS:               ID:20161211105908 L   I
+ OLDACT:REG 16-12-11 20:57 OP:dnl  STATUS:               ID:20161211105744     3
+ 2016-12-11-1058-00M.COL___373                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       1059 27.58                             173   -0.3010 17.0 171 
+ BAR2 EZ ES       1059 42.47                             173   -0.7210 17.0 171 
+ BAR2 EZ I        1059 43.79         7.3 0.30            170           17.0 171 
+ BRR  HZ IP     C 1059 29.36                             153   -0.0010 68.8 306 
+ BRR  HN ES       1059 46.62                             153    0.7910 68.8 306 
+ BRR  HZ I        1059 52.31         3.9 0.60            150           68.8 306 
+ RUS  HZ EP       1059 31.97                             146    0.2610 95.2 172 
+ RUS  HE ES       1059 50.33                             146    0.3310 95.2 172 
+ RUS  HZ I        1059 51.14         1.7 0.52            148           95.2 172 
+ PTB  HZ EP       1059 34.48                             134   -0.13 9  140 261 
+ PTB  HN ES       1059 55.05                             134   -0.12 9  140 261 
+ PTB  HZ I        11 0  2.45         3.4 0.44            132            140 261 
+ ZAR  HZ EP       1059 40.51                             123    0.14 9  200 294 
+ ZAR  HE ES       11 0  5.10                             123   -0.33 9  200 294 
+ ZAR  HZ I        11 0 12.15         3.6 0.38            123            200 294 
+                                                                                
