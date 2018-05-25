@@ -11,6 +11,8 @@ CON EL FIN DE SACAR ESTADISTICAS
 
 Fuente: http://stackabuse.com/python-list-files-in-a-directory/
 """
+import os
+import re
 
 class SfileAnalyzer:
     
@@ -131,9 +133,15 @@ class SfileAnalyzer:
         max_value3 = 9
         
         for sfile in self.sfiles:
-            mag = float(sfile.type_1['TYPE_OF_MAGNITUDE_1'])
-            print(mag)
-                
+            mag_string = sfile.type_1['TYPE_OF_MAGNITUDE_1']
+            #print(mag_string)
+            
+            try:  
+                mag = float(mag_string)
+            except:
+                badgroup.append(sfile.filename)
+            
+            '''   
             if(mag >= min_value1 and mag < max_value1):
                 group1.append(sfile)
             elif(mag >= min_value2 and mag < max_value2):
@@ -143,6 +151,10 @@ class SfileAnalyzer:
             else:
                 badgroup.append(sfile)
                 
+            '''
+            
+        
+                
         print("GROUP 1:")
         print(len(group1))
         print("GROUP 2:")
@@ -151,6 +163,60 @@ class SfileAnalyzer:
         print(len(group3))
         print("SAD GROUP:")
         print(len(badgroup))
+        print(badgroup)
+        
+        
+    def clear_corrupt(self):
+        
+        # List containing the names of corrupt files
+        corrupt_files = []
+        
+        # List containing the names of repeated files
+        repeated_files = []
+        
+        # Flag for avoid including the same file in many cases
+        included = None
+        for sfile in self.sfiles:
+            
+            included = False
+            # Check if the magnitude can be parsed to float   
+            try:  
+                mag = float(sfile.type_1['TYPE_OF_MAGNITUDE_1'])
+                
+            except:
+                corrupt_files.append(sfile.filename)
+                included = True
+                
+            # Check if there are repeated files
+            pattern = re.compile("\.[1-9]+")
+            pattern.search("dog")
+            if(re.match(,sfile.filename) is None and not included):
+                repeated_files.append(sfile.filename)
+                included = True
+                
+        # Take out repeated Sfiles and Corrupt Sfiles in different folders
+        if(len(corrupt_files) > 0):
+            corrupt_path = "IOfiles/CorruptSfiles/"
+            if not os.path.exists(corrupt_path):
+                os.makedirs(corrupt_path)
+                
+            for file in corrupt_files:
+                os.rename(self.path+file, corrupt_path+file)
+                
+        print("CORRUPT FILES FOUND:"+str(len(corrupt_files)))
+            
+        if(len(repeated_files) > 0):
+            repeated_path = "IOfiles/RepeatedSfiles/"
+            if not os.path.exists(repeated_path):
+                os.makedirs(repeated_path)
+                
+            for file in repeated_files:
+                os.rename(self.path+file, repeated_path+file)
+                
+        print("REPEATED FILES FOUND:"+str(len(repeated_files)))
+        
+        print(repeated_files)
+            
         
             
                     
@@ -161,7 +227,54 @@ class SfileAnalyzer:
 path = "IOfiles/RSNC_Sfiles/"
 analyzer = SfileAnalyzer(path)
 analyzer.get_sfiles()
-analyzer.group_by_magnitude()
+#analyzer.group_by_magnitude()
+
+#def clear_corrupt(sfiles):
+#    
+#    # List containing the names of corrupt files
+#    corrupt_files = []
+#    
+#    # List containing the names of repeated files
+#    repeated_files = []
+#    
+#    # Flag for avoid including the same file in many cases
+#    included = None
+#    for sfile in sfiles:
+#        
+#        included = False
+##        # Check if the magnitude can be parsed to float   
+##        try:  
+##            mag = float(sfile.type_1['TYPE_OF_MAGNITUDE_1'])
+##            
+##        except:
+##            corrupt_files.append(sfile.filename)
+##            included = True
+#            
+#        # Check if there are repeated files
+#        if(re.match('^.[1-9]+',sfile.filename) is not None and not included):
+#            repeated_files.append(sfile.filename)
+#            included = True
+#            
+#    # Take out repeated Sfiles and Corrupt Sfiles in different folders
+##        if(len(corrupt_files) > 0):
+##            corrupt_path = "IOfiles/CorruptSfiles/"
+##            if not os.path.exists(corrupt_path):
+##                os.makedirs(corrupt_path)
+##                
+##            for file in corrupt_files:
+##                os.rename(self.path+file, corrupt_path+file)
+#            
+#    print("CORRUPT FILES FOUND:"+str(len(corrupt_files)))
+#        
+##        if(len(repeated_files) > 0):
+##            repeated_path = "IOfiles/RepeatedSfiles/"
+##            if not os.path.exists(repeated_path):
+##                os.makedirs(repeated_path)
+##                
+##            for file in repeated_files:
+##                os.rename(self.path+file, repeated_path+file)
+#            
+#    print("REPEATED FILES FOUND:"+str(len(repeated_files)))
 
 
 
