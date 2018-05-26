@@ -15,7 +15,7 @@ import os, fnmatch
 import re
 import matplotlib.pyplot as plt
 import numpy as np
-from shutil import copyfile
+from shutil import copy
 from tools import TelluricoTools
 from Sfile import Sfile
 
@@ -317,6 +317,7 @@ Example on input data:
     file_paths = ['/media/administrador/Tellurico_Dataset1/','/media/administrador/Tellurico_Dataset2/']
      
 '''
+#%% DEFINES BLOCKS OF CODE ---> Tomalo Julito
 def copy_file(filename,file_paths, destination_path):
     # Create the destination directory
     if not os.path.exists(destination_path):
@@ -324,31 +325,28 @@ def copy_file(filename,file_paths, destination_path):
         
     found = False
     
-    
-    
     for file_path in file_paths:
         try:
             list_of_files = os.listdir(file_path)
             pattern = '*'+filename+'*' 
-            #pattern = filename
             for file_iter in list_of_files:  
                 print(file_iter)
                 if fnmatch.fnmatch(file_iter, pattern):
-                    print("Entro")
-                    copyfile(file_path+file_iter, destination_path)
+                    copy(file_path+file_iter, destination_path)
                     found = True
                     break
         except:
-            print("Error")
             found = False
             
     if(found):
         print("FILE SUCCESFULLY COPIED")
     else:
         print("FILE NOT FOUND")
-            
-        
-        
+                    
+  
+
+
+      
 #list_of_files = os.listdir(path)  
 #        pattern = "*.S*"  
 #        for filename in list_of_files:  
