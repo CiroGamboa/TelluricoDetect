@@ -11,11 +11,13 @@ CON EL FIN DE SACAR ESTADISTICAS
 
 Fuente: http://stackabuse.com/python-list-files-in-a-directory/
 """
-import os
+import os, fnmatch
 import re
 import matplotlib.pyplot as plt
 import numpy as np
+from shutil import copyfile
 from tools import TelluricoTools
+from Sfile import Sfile
 
 class SfileAnalyzer:
     
@@ -24,9 +26,6 @@ class SfileAnalyzer:
         self.sfiles = []
         
     def get_sfiles(self):
-        import os, fnmatch
-        from Sfile import Sfile
-        
         list_of_files = os.listdir(path)  
         pattern = "*.S*"  
         for filename in list_of_files:  
@@ -242,7 +241,8 @@ def plot_by_magnitude(sfiles):
     plt.show()
     return [magnitudes,hist]
     #np.histogram(magnitudes)
-    
+
+# Group by the magnitude value
 def group_by_magnitude(sfiles,ranges):
     
     groups = []
@@ -270,7 +270,98 @@ def group_by_magnitude(sfiles,ranges):
             damaged_group.append(sfile.filename)
            
     return [groups,undefined_group,damaged_group]
+
+
+
+# Group by the magnitude value and copy files
+def arrange_by_magnitude(sfiles,ranges,waveform_paths):
+    
+    groups = []
+    for couple in ranges:
+        path = "IOfiles/Groups/"+str(couple[0])+"-"+str(couple[1])+"/"
+        if not os.path.exists(path):
+            os.makedirs(path)
+            os.makedirs(path+"/Sfiles/")
+            os.makedirs(path+"/Waveforms/")
+        groups.append(([],couple,path))
+    
+    undefined_group = []
+    damaged_group = []
+    
+    for sfile in sfiles:
+        mag_string = sfile.type_1['TYPE_OF_MAGNITUDE_1']
+        grouped = False
+        try:  
+            mag = float(mag_string)
+            
+            for group in groups:
+                if(mag >= group[1][0] and mag < group[1][1]):
+                    
+                    copyfile(src, dst)
+                    group[0].append((sfile.filename,mag))
+                    grouped = True
+            
+            if(not grouped):
+                undefined_group.append(mag)
+            
+        except:
+            damaged_group.append(sfile.filename)
+           
+    return [groups,undefined_group,damaged_group]
         
+
+# Check in different directories for a file and copy to another location
+'''
+Example on input data:
+    filename = '2015-05-05-2237-50M.COL___276'
+    file_paths = ['/media/administrador/Tellurico_Dataset1/','/media/administrador/Tellurico_Dataset2/']
+     
+'''
+def copy_file(filename,file_paths, destination_path):
+    # Create the destination directory
+    if not os.path.exists(destination_path):
+        os.makedirs(destination_path)
+        
+    found = False
+    
+    
+    
+    for file_path in file_paths:
+        try:
+            list_of_files = os.listdir(file_path)
+            pattern = '*'+filename+'*' 
+            #pattern = filename
+            for file_iter in list_of_files:  
+                print(file_iter)
+                if fnmatch.fnmatch(file_iter, pattern):
+                    print("Entro")
+                    copyfile(file_path+file_iter, destination_path)
+                    found = True
+                    break
+        except:
+            print("Error")
+            found = False
+            
+    if(found):
+        print("FILE SUCCESFULLY COPIED")
+    else:
+        print("FILE NOT FOUND")
+            
+        
+        
+#list_of_files = os.listdir(path)  
+#        pattern = "*.S*"  
+#        for filename in list_of_files:  
+#            if fnmatch.fnmatch(filename, pattern):
+#                    
+#                sfile = Sfile(filename = filename, path = self.path)
+#                sfile.get_params()
+#                self.sfiles.append(sfile)
+#        
+#        print("Files found: ")
+#        print(len(self.sfiles))
+            
+    
         
 
 
