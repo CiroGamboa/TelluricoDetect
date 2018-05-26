@@ -394,11 +394,13 @@ def copy_file(filename,file_paths, destination_path):
         except:
            found = False
             
-    if(found):
-        print("FILE SUCCESFULLY COPIED")
-    else:
-        print("FILE NOT FOUND")    
-        print(filename+'\n')
+    if(not found):
+        #print("FILE SUCCESFULLY COPIED")
+        #print(".")
+    #else:
+        #print("FILE NOT FOUND")    
+        #print(filename+'\n')
+        print(filename+" "+destination_path)
         
     return found
 

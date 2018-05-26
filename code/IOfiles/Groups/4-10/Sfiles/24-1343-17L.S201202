@@ -1,0 +1,82 @@
+ 2012  224 1343 17.9 L   6.799 -73.129153.2  RSN 24 0.5 5.7LRSN 5.2WRSN        1
+ SPEC AVERAGE  MO 16.9 ST869.7 OM  5.4 f0 2.48 R0.6282 AL 2.37 WI 32.2 MW  5.2 3
+ SPEC SD       MO  0.1 ST217.2 OM  1.1 f00.557 R0.1573 AL      WI      MW  0.1 3
+ GAP=115        0.98       2.9     3.6  5.0 -0.1538E+01  0.4094E+01  0.2970E+01E
+ SPEC COD HH Z MO 17.0 ST999.9 OM  5.0 f0 2.64 R0.5568 AL 2.02 WI 54.7 MW  5.3 3
+ SPEC COD HH Z T134440 K 0.020 GD  381 VS 4.20 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH Z MO 16.9 ST999.9 OM  4.3 f0 2.59 R0.5676 AL 2.27 WI 27.5 MW  5.2 3
+ SPEC CHI HH Z T134355 K 0.020 GD  292 VP 7.60 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC RREFHH Z MO 16.9 ST999.9 OM  4.2 f0 3.14 R0.4682 AL 2.92 WI 40.6 MW  5.2 3
+ SPEC RREFHH Z T1344 1 K 0.020 GD  357 VP 7.60 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC ROSCBH Z MO 16.8 ST999.9 OM  4.2 f0 3.02 R0.4868 AL 3.21 WI 23.5 MW  5.2 3
+ SPEC ROSCBH Z T134357 K 0.020 GD  296 VP 7.60 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 17.0 ST809.1 OM  4.6 f0 1.76 R0.8352 AL 2.18 WI 15.7 MW  5.3 3
+ SPEC RUS HH Z T134341 K 0.020 GD  182 VP 7.60 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH Z MO 16.8 ST409.8 OM  4.1 f0 1.72 R0.8547 AL 1.61 WI 31.2 MW  5.1 3
+ SPEC HEL HH Z T134357 K 0.020 GD  313 VP 7.60 DE 3.20 Q0230.0 QA 0.60 VS 4.20 3
+ Evento Sentido                                                                2
+ Reportado como sentido en:                                                    3
+ BUCARAMANGA, GIRON, FLORIDA BLANCA, BARRANCABERMEJA, VELEZ, PUERTO WILCHES,   3
+ BARBOSA (SANTANDER) CUCUTA, OCANA, VILLAS DEL ROSARIO, (NORTE DE SANTANDER)   3
+ MEDELLIN, ITAGUI, BELLO, YARUMAL, SAN CARLOS, RIONEGRO, SANTA ROSA DE OSOS    3
+ (ANTIOQUIA), MANIZALEZ, LA DORADA, SAMANA, CHINCHINA (CALDAS), IBAGUE, LIBANO 3
+ (TOLIMA), TUNJA, VIRACACHA, SOGAMOSO, DUITAMA (BOYACA), AGUACHICA (CESAR),    3
+ LA MESA, LA VEGA, GIRADOT (CUNDINAMARCA), BOGOTA DC, VILLAVICENCIO, RESTREPO  3
+ (META), PEREIRA (RISARALDA), ARMENIA (QUINDIO), MONTERIA (CORDOBA)            3
+ ACTION:UP  12-03-07 16:33 OP:epov STATUS:               ID:20120224134317 L   I
+ 2012-02-24-1340-00M.COL___193                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP       1343 38.53                             171    0.1010 23.7 194 
+ BAR2 SZ ES   1   1343 54.26                             171   -0.19 7 23.7 194 
+ BAR2 SZ I        1343 55.85      11.1e4 0.44                          23.7 194 
+ GIR2 SZ IP       1343 38.63                             167    0.1610 31.7 347 
+ GIR2 SZ ES   2   1343 53.85                             167   -0.67 5 31.7 347 
+ BRR  HZ IP     C 1343 40.43                             153    0.4810 72.8 298 
+ BRR  HN ES   1   1343 57.85                             153    0.70 7 72.8 298 
+ BRR  HZ I        1344  1.75      10.1e4 0.59                          72.8 298 
+ PAM  SZ IP       1343 41.27                             152    0.4210 76.3  38 
+ PAM  SN ES   1   1343 58.40                             152   -0.35 7 76.3  38 
+ RUS  HZ IP     C 1343 42.30                             145   -0.0810  100 177 
+ RUS  HN ES   1   1344  1.02                             145   -0.45 7  100 177 
+ RUS  HZ I        1344  2.64     45405.3 0.42                           100 177 
+ GUE  SZ EP       1343 43.56                             141    0.2710  116  11 
+ PTB  HZ IP     C 1343 44.90                             133   -0.74 9  150 259 
+ PTB  HN ES   1   1344  6.59                             133   -0.69 7  150 259 
+ OCA  SZ IP       1343 47.18                             131    0.36 9  161 353 
+ YOP  SZ IP       1343 48.97                             128    0.56 9  178 154 
+ YOP  SE ES   1   1344 12.08                             128   -0.12 7  178 154 
+ NOR  SZ IP       1343 54.05                             120   -0.18 8  236 235 
+ NOR  SN ES   1   1344 21.56                             120   -1.00 6  236 235 
+ CHI  HZ EP       1343 56.21                             119    0.14 8  249 196 
+ CHI  HN ES   1   1344 25.78                             119   -0.06 6  249 196 
+ CHI  HZ I        1344 35.90     28672.6 0.58                           249 196 
+ ROSC BZ EP   9   1343 58.00                             118    1.47 0  254 211 
+ ROSC BN ES   9   1344 27.16                                   -0.97 0  254 211 
+ ROSC BZ I        1344 33.59     53242.2 0.50                           254 211 
+ HEL  HZ EP       1343 58.38                             116   -0.31 8  274 256 
+ HEL  HE ES   1   1344 31.90                             116    1.39 6  274 256 
+ HEL  HZ I        1344 37.71     25688.6 0.33                           274 256 
+ VIL  SZ IP       1344  1.43                             113   -0.27 7  304 192 
+ VIL  SN ES   1   1344 35.65                             113   -0.22 5  304 192 
+ VIL  SZ I        1344 41.49     18891.2 0.61                           304 192 
+ GUY  SZ EP   1   1344  2.45                             113    0.16 5  305 235 
+ GUY  SE ES   1   1344 36.86                             113   -0.05 5  305 235 
+ GUY  SZ I        1344 44.96     38989.3 0.55                           305 235 
+ RREF HZ EP       1344  4.23                             112   -0.30 7  323 230 
+ RREF HN ES   1   1344 40.98                             112    0.08 5  323 230 
+ DBB  SZ IP       1344  6.41                             111    0.51 7  341 274 
+ DBB  SZ ES   1   1344 42.61                             111   -0.72 5  341 274 
+ TOL  SZ EP   1   1344  7.02                             110    0.41 5  345 225 
+ TOL  SZ ES   2   1344 45.26                             110    0.66 3  345 225 
+ COD  HZ IP     D 1344  5.54                             110   -1.07 6  349 354 
+ COD  HZ I        1344 51.82     24644.3 0.83                           349 354 
+ ANIL HZ EP       1344  9.06                             110    0.92 6  359 225 
+ ANIL HN ES   2   1344 47.85                             110    0.52 3  359 225 
+ PRA  HZ IP       1344 11.03                             108   -0.75 6  393 210 
+ PRA  HE ES   1   1344 54.37                             108    0.55 4  393 210 
+ SJA  SZ IP       1344 11.99                             107   -0.76 6  400 193 
+ SJA  SZ I        1345  4.60     20482.5 0.93                           400 193 
+ GUA  SZ EP   1   1344 21.11                             104   -0.12 4  474 173 
+ GUA  SZ ES   1   1345 10.97                             104    0.34 4  474 173 
+ BET  SZ EP   1   1344 25.80                             102   -1.29 3  523 209 
+                                                                                
