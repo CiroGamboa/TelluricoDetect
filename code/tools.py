@@ -11,7 +11,8 @@ from obspy import read
 from obspy.signal.polarization import eigval
 import numpy as np
 import matplotlib.pyplot as ml
-from TraceClass import TraceClass
+from TraceComponent import TraceComponent
+import math
 
 class TelluricoTools:
     
@@ -34,30 +35,21 @@ class TelluricoTools:
                 return True
         return False
 
-    # 
-    def cumulative(trace):
-        output = []
-        acumula = 0.0
-        for sample in trace:
-            acumula += (sample*sample)
-            output.append(acumula)
-        return output
-    
+    # Trace to array
     def toArray(trace):
         output = []
         for sample in trace:
             output.append(sample)
         return output
     
-    def normalice(trace):
-        output = []
-        mean= np.mean(trace)
-        for sample in trace:
-            output.append(sample - mean)
+    def sub_trace(trace, inf_limit, sup_limit):
+        output = [trace[x] for x in range(inf_limit, sup_limit)]
         return output
     
-    def FFT(trace):
-        Fs = trace.stats.sampling_rate;  # sampling rate
+    # Fast Fourier Transform
+    def FFT(traceComp):
+        trace = traceComp.waveform
+        Fs = traceComp.sampling_rate;  # sampling rate
         Ts = 1.0/Fs; # sampling interval
         t = np.arange(0,(len(trace)/Fs),Ts) # time vector
         n = len(trace) # length of the signal
@@ -74,13 +66,27 @@ class TelluricoTools:
         ax[0].plot(t,trace)
         ax[0].set_xlabel('Time')
         ax[0].set_ylabel('Amplitude')
+        ml.suptitle('Sation: ' + traceComp.station + ', SR: ' + 
+                    str(traceComp.sampling_rate), fontsize=20)
         ax[1].plot(frq,abs(Y),'r') # plotting the spectrum
         ax[1].set_xlabel('Freq (Hz)')
         ax[1].set_ylabel('|Y(freq)|')
 
+class Attributes:
+    
+    # DOP Calculation
+    def DOP(datax, datay, dataz):
+        eigvalues = eigval(datax = datax, datay = datay, dataz = dataz,
+             fk = [1, 1, 1, 1, 1], normf = 1.0)
+        l1 = (eigvalues[0])[0]
+        l2 = (eigvalues[1])[0]
+        l3 = (eigvalues[2])[0]
+        return (math.pow((l1-l2),2) + math.pow((l2-l3),2) + math.pow((l3-l1),2))/(2*math.pow((l1+l2+l3),2))
+
+
 class SeismicInfo:
     
-    # Print metadata al traces
+    # Print metadata all traces
     def printMedata(st):
         for trace in st:
             if(TelluricoTools.check_trace(trace)):
