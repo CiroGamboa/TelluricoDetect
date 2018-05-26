@@ -11,14 +11,16 @@ CON EL FIN DE SACAR ESTADISTICAS
 
 Fuente: http://stackabuse.com/python-list-files-in-a-directory/
 """
+
+#%%
 import os, fnmatch
 import re
 import matplotlib.pyplot as plt
 import numpy as np
-from shutil import copy
+import shutil
 from tools import TelluricoTools
 from Sfile import Sfile
-
+#%%
 class SfileAnalyzer:
     
     def __init__(self,path):
@@ -274,16 +276,29 @@ def group_by_magnitude(sfiles,ranges):
 
 
 # Group by the magnitude value and copy files
-def arrange_by_magnitude(sfiles,ranges,waveform_paths):
+'''
+    Input data example:
+        sfiles = analyzer.sfiles
+        ranges = [(0,4),(4,5.9),(5.9,10)]
+        waveform_paths = []
+        total_files = 100
+        copy = False
+'''
+
+#%%
+def arrange_by_magnitude(sfiles,ranges,waveform_paths,sfile_paths, total_files, copy_flag):
     
     groups = []
+    filtered_groups = []
     for couple in ranges:
         path = "IOfiles/Groups/"+str(couple[0])+"-"+str(couple[1])+"/"
         if not os.path.exists(path):
             os.makedirs(path)
             os.makedirs(path+"/Sfiles/")
             os.makedirs(path+"/Waveforms/")
+            
         groups.append(([],couple,path))
+        filtered_groups.append(([],couple,path))
     
     undefined_group = []
     damaged_group = []
@@ -297,8 +312,8 @@ def arrange_by_magnitude(sfiles,ranges,waveform_paths):
             for group in groups:
                 if(mag >= group[1][0] and mag < group[1][1]):
                     
-                    copyfile(src, dst)
-                    group[0].append((sfile.filename,mag))
+                    #copyfile(src, dst)
+                    group[0].append((sfile.filename,sfile.type_6['BINARY_FILENAME'],mag))
                     grouped = True
             
             if(not grouped):
@@ -307,9 +322,47 @@ def arrange_by_magnitude(sfiles,ranges,waveform_paths):
         except:
             damaged_group.append(sfile.filename)
            
-    return [groups,undefined_group,damaged_group]
+    transfered_sfiles = 0
+    transfered_waveforms = 0
+    
+    if(total_files != -1):
+        random_indexes = []
+        for group,filtered_group in zip(groups,filtered_groups):
+            index = 0
+            #print(len(group[0]))
+            
+            amount_records = len(group[0])
+            files_per_group = int(total_files/len(groups))
+            
+            if(amount_records < files_per_group):
+                files_per_group = amount_records
+            
+            random_indexes = np.random.choice(amount_records,files_per_group , replace=False)
+            
+            #print(len(random_indexes))
+            #print(random_indexes)
+                    
+            for index in random_indexes:
+                actual_record = group[0][index]
+                filtered_group[0].append(actual_record)
+                if(copy_flag):
+                    sfile_copied = copy_file(actual_record[0],sfile_paths,filtered_group[2]+"Sfiles/")
+                    waveform_copied = copy_file(actual_record[1],waveform_paths,filtered_group[2]+"Waveforms/")
+                    if(sfile_copied):
+                        transfered_sfiles += 1
+                    if(waveform_copied):
+                        transfered_waveforms += 1
+                    #print(actual_record[0])
+                    #print(filtered_group[2])
+    
+    if(copy_flag):
+        print("FILES TRANSFERED:")
+        print(str(transfered_sfiles)+"/"+str(total_files)+" sfiles")
+        print(str(transfered_waveforms)+"/"+str(total_files)+" waveforms")
+    
+    return [groups,filtered_groups,undefined_group,damaged_group]
         
-
+#%%
 # Check in different directories for a file and copy to another location
 '''
 Example on input data:
@@ -317,9 +370,10 @@ Example on input data:
     file_paths = ['/media/administrador/Tellurico_Dataset1/','/media/administrador/Tellurico_Dataset2/']
      
 '''
-#%% DEFINES BLOCKS OF CODE ---> Tomalo Julito
 def copy_file(filename,file_paths, destination_path):
     # Create the destination directory
+    #print(file_paths)
+    #print(destination_path)
     if not os.path.exists(destination_path):
         os.makedirs(destination_path)
         
@@ -330,19 +384,25 @@ def copy_file(filename,file_paths, destination_path):
             list_of_files = os.listdir(file_path)
             pattern = '*'+filename+'*' 
             for file_iter in list_of_files:  
-                print(file_iter)
+                #print(file_iter)
                 if fnmatch.fnmatch(file_iter, pattern):
-                    copy(file_path+file_iter, destination_path)
+                    shutil.copy(file_path+file_iter, destination_path)
+                    #print(file_path+file_iter)
                     found = True
-                    break
+                    break #Helps avoiding repeated files
+                
         except:
-            found = False
+           found = False
             
     if(found):
         print("FILE SUCCESFULLY COPIED")
     else:
-        print("FILE NOT FOUND")
-                    
+        print("FILE NOT FOUND")    
+        print(filename+'\n')
+        
+    return found
+
+#%%              
   
 
 
