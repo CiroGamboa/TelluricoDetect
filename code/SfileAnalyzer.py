@@ -13,6 +13,9 @@ Fuente: http://stackabuse.com/python-list-files-in-a-directory/
 """
 import os
 import re
+import matplotlib.pyplot as plt
+import numpy as np
+from tools import TelluricoTools
 
 class SfileAnalyzer:
     
@@ -155,7 +158,7 @@ class SfileAnalyzer:
         print(len(group3))
         print("UNDEFINED GROUP: mag < 0")
         print(len(undefined_group))
-        print("DAMAGED GROUP: CORRUPT FILES)
+        print("DAMAGED GROUP: CORRUPT FILES")
         print(len(damaged_group))
         
         
@@ -216,6 +219,60 @@ path = "IOfiles/RSNC_Sfiles/"
 analyzer = SfileAnalyzer(path)
 analyzer.get_sfiles()
 #analyzer.group_by_magnitude()
+
+
+def plot_by_magnitude(sfiles):
+    undefined_group = []
+    magnitudes = []
+    for sfile in sfiles:
+            
+        try:  
+            mag = float(sfile.type_1['TYPE_OF_MAGNITUDE_1'])
+            if(mag is not None):
+                magnitudes.append(mag*10)
+                
+        except:
+            undefined_group.append(sfile)
+    print(magnitudes)
+    #plt.hist(range(0,6.5), weights=magnitudes,bins = magnitudes)
+    
+    
+    x_axis = np.arange(0,66,1)
+    hist = plt.hist(magnitudes,bins = x_axis)
+    plt.show()
+    return [magnitudes,hist]
+    #np.histogram(magnitudes)
+    
+def group_by_magnitude(sfiles,ranges):
+    
+    groups = []
+    for couple in ranges:
+        groups.append(([],couple))
+    
+    undefined_group = []
+    damaged_group = []
+    
+    for sfile in sfiles:
+        mag_string = sfile.type_1['TYPE_OF_MAGNITUDE_1']
+        grouped = False
+        try:  
+            mag = float(mag_string)
+            
+            for group in groups:
+                if(mag >= group[1][0] and mag < group[1][1]):
+                    group[0].append(mag)
+                    grouped = True
+            
+            if(not grouped):
+                undefined_group.append(mag)
+            
+        except:
+            damaged_group.append(sfile.filename)
+           
+    return [groups,undefined_group,damaged_group]
+        
+        
+
 
 
 
