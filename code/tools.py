@@ -47,9 +47,8 @@ class TelluricoTools:
         return output
     
     # Fast Fourier Transform
-    def FFT(traceComp):
-        trace = traceComp.waveform
-        Fs = traceComp.sampling_rate;  # sampling rate
+    def FFT(trace, SR, station):
+        Fs = SR;  # sampling rate
         Ts = 1.0/Fs; # sampling interval
         t = np.arange(0,(len(trace)/Fs),Ts) # time vector
         n = len(trace) # length of the signal
@@ -66,8 +65,7 @@ class TelluricoTools:
         ax[0].plot(t,trace)
         ax[0].set_xlabel('Time')
         ax[0].set_ylabel('Amplitude')
-        ml.suptitle('Sation: ' + traceComp.station + ', SR: ' + 
-                    str(traceComp.sampling_rate), fontsize=20)
+        ml.suptitle('Station: ' + station + ', SR: ' + str(SR), fontsize=20)
         ax[1].plot(frq,abs(Y),'r') # plotting the spectrum
         ax[1].set_xlabel('Freq (Hz)')
         ax[1].set_ylabel('|Y(freq)|')
@@ -124,12 +122,19 @@ waveform_stations = []
 for trace in st:
     waveform_stations.append(trace.stats.station)
     print(trace.stats.station)
-    
-
-
-            
+                
 '''
 
-
+class Temps:
+    def graphComponents(traces, inf_limit, sup_limit):
+        components = len(traces)
+        if(inf_limit == None):
+            inf_limit = 0
+        if(sup_limit == None):
+            sup_limit = len(traces[0].waveform) - 1
+        fig, ax = ml.subplots(components, 1)
+        for i in range(0, components):
+            ax[i].set_title('Channel: ' + traces[i].channel, fontsize=16)
+            ax[i].plot(TelluricoTools.sub_trace(traces[i].waveform,inf_limit,sup_limit))
 
 

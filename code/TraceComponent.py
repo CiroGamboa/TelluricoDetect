@@ -11,6 +11,8 @@ from obspy.signal.polarization import eigval
 import numpy as np
 import matplotlib.pyplot as ml
 import math
+import obspy.core.utcdatetime as dt
+import obspy.signal.filter as filt
 
 class TraceComponent:
         
@@ -20,14 +22,15 @@ class TraceComponent:
         self.station = trace.stats.station
         self.location = trace.stats.location
         self.channel = trace.stats.channel
-        self.starttime = trace.stats.starttime
-        self.endtime = trace.stats.endtime
+        self.starttime = dt.UTCDateTime(trace.stats.starttime)
+        self.endtime = dt.UTCDateTime(trace.stats.endtime)
         self.sampling_rate = trace.stats.sampling_rate
         self.delta = trace.stats.delta
         self.npts = trace.stats.npts
         self.calib = trace.stats.calib
         self.formatseed = trace.stats._format
         self.mseed = trace.stats.mseed
+        self.filter_wave = self.bandpass_filter(self.waveform, self.sampling_rate)
     
     # Normalice the trace, deleting d.c. level
     def normalice(self, trace):
@@ -36,6 +39,10 @@ class TraceComponent:
         for sample in trace:
             output.append(sample - mean)
         return output
+    
+    # Normalice the trace, deleting d.c. level
+    def bandpass_filter(self, waveform, SR):
+        return filt.bandpass(waveform, 1, 8, SR, corners=4, zerophase=False)
     
     # Check if the trace contains information different from zero
     def check_trace(self, trace):

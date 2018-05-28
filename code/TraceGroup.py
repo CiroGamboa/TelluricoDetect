@@ -12,6 +12,7 @@ class TraceGroup:
     
     def __init__(self, codeStation):
         self.codeStation = codeStation
+        self.P_Wave = 0
         self.traces = []
     
     # Add a new trace to the trace group
@@ -35,5 +36,6 @@ class TraceGroup:
         components = len(self.traces)
         fig, ax = ml.subplots(components, 1)
         for i in range(0, components):
+            ax[i].set_title('Channel: ' + self.traces[i].channel, fontsize=16)
             ax[i].plot(self.traces[i].waveform)
         
