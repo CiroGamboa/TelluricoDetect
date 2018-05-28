@@ -404,7 +404,199 @@ def copy_file(filename,file_paths, destination_path):
         
     return found
 
-#%%              
+#%%      PLOTS
+# Plot the events registered by stations in descendent order
+def seisms_per_station(sfiles,group_factor,save_graphs,include_comps):
+        import matplotlib.pyplot as plt
+        import operator
+        
+        
+        events_per_station = {}
+        for sfile in sfiles:
+            last_station_name = " "
+            stations = sfile.type_7
+            for station in stations:
+                station_name = station['STAT']
+                
+                if station_name not in events_per_station:
+                    events_per_station[station_name] = 1
+                else:
+                    if station_name != last_station_name:
+                        events_per_station[station_name] = events_per_station[station_name] + 1
+                        last_station_name = station_name
+                        
+        # This is a workaround, should be improved
+        event_list = sorted(events_per_station.items(), key=operator.itemgetter(1))
+        event_list.reverse()
+        event_dict = {}
+        
+        segmented_graphs = []
+        index = 0
+        list_index = -1
+        for event in event_list:
+            
+            if(index%group_factor == 0):
+                segmented_graphs.append({})
+                list_index += 1
+                
+            event_dict[event[0]] = event[1]
+            segmented_graphs[list_index][event[0]] = event[1]
+            index += 1
+            
+        #print(segmented_graphs)  
+        
+        plt.figure()
+        plt.title("Seisms per station 2010-2017")
+        plt.bar(range(len(event_dict)), event_dict.values(), align='center')
+        plt.xlabel("Station index")
+        plt.ylabel("Amount of events")
+        
+        path = "IOfiles/Graphs/"
+        if(save_graphs):   
+            if not os.path.exists(path):
+                os.makedirs(path)           
+            plt.savefig(path+"SeismsXstationAll.png")
+        
+        index = 0
+        for graph in segmented_graphs:
+            plt.figure()
+            group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+            plt.title("Seisms per station 2010-2017 ["+group_name+"]")
+            plt.bar(range(len(graph)), graph.values(), align='center')
+            plt.xticks(range(len(graph)), graph.keys())
+            plt.xlabel("Station name")
+            plt.ylabel("Amount of events")
+            index += 1
+            
+            if(save_graphs):
+                plt.savefig(path+"SeismsXstation"+group_name+".png")
+            
+            
+        # Es buena idea verificar la fecha minima y la maxima para ponerlas como
+        # parametro de entrada
+        
+        #print("Events per Station between 2010 and 2017") 
+        #for event in event_dict:
+         #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
+            
+        return event_dict
+
+#%% Components in station
+def components_per_station(sfiles,group_factor,save_graphs):
+        import matplotlib.pyplot as plt
+
+        import operator
+        
+        
+        events_per_station = {}
+        comps_per_station = {}
+        for sfile in sfiles:
+            last_station_name = " "
+            stations = sfile.type_7
+            for station in stations:
+                station_name = station['STAT']
+                station_comp = station['SP']
+                
+                if station_name not in events_per_station:
+                    events_per_station[station_name] = 1
+                    comps_per_station[station_name] = []
+                else:
+                    if station_name != last_station_name:
+                        events_per_station[station_name] = events_per_station[station_name] + 1
+                        last_station_name = station_name
+                        
+                comps_per_station[station_name].append(station_comp)
+        #print(comps_per_station)
+                        
+        # This is a workaround, should be improved
+        event_list = sorted(events_per_station.items(), key=operator.itemgetter(1))
+        event_list.reverse()
+        event_dict = {}
+        
+        segmented_graphs = []
+        index = 0
+        list_index = -1
+        for (event,comp_dict_key) in zip(event_list,comps_per_station):
+            
+            #print(comp_dict_key)
+            comps_per_station[comp_dict_key] = TelluricoTools.remove_duplicates(comps_per_station[comp_dict_key])
+            
+            if(index%group_factor == 0):
+                segmented_graphs.append({})
+                list_index += 1
+                
+            event_dict[event[0]] = event[1]
+            segmented_graphs[list_index][event[0]] = event[1]
+            index += 1
+            
+        #print(segmented_graphs)  
+        #print(comps_per_station)
+        plt.figure()
+        plt.title("Seisms per station 2010-2017")
+        plt.bar(range(len(event_dict)), event_dict.values(), align='center')
+        plt.xlabel("Station index")
+        plt.ylabel("Amount of events")
+        
+        path = "IOfiles/Graphs/"
+        if(save_graphs):   
+            if not os.path.exists(path):
+                os.makedirs(path)           
+            plt.savefig(path+"SeismsXstationAll.png")
+        
+        index = 0
+        
+        
+        
+        
+        
+        
+        for graph in segmented_graphs:
+            
+            # Concat station components to station name
+            new_keys = []
+            string_name = ""
+            for station_name in graph:
+                string_name = station_name + '\n'
+                comps = comps_per_station[station_name]
+                for comp in comps:
+                    string_name += comp + '\n'
+                
+                #print(string_name)
+                #graph[station_name] = graph.pop(string_name)
+                new_keys.append(string_name)
+                
+            group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+            #print(graph.keys())
+            plt.figure()
+            plt.title("Seisms per station 2010-2017 ["+group_name+"]")
+            plt.bar(range(len(graph)), graph.values(), align='center')
+            #plt.xticks(range(len(graph)), graph.keys())
+            plt.xticks(range(len(graph)), new_keys)
+            plt.xlabel("Station name")
+            plt.ylabel("Amount of events")
+            index += 1
+            
+            if(save_graphs):
+                plt.savefig(path+"SeismsXstation"+group_name+".png")
+            
+            
+        # Es buena idea verificar la fecha minima y la maxima para ponerlas como
+        # parametro de entrada
+        
+        #print("Events per Station between 2010 and 2017") 
+        #for event in event_dict:
+         #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
+            
+        return [event_dict,comps_per_station]
+    
+    
+    
+    
+    
+    
+    
+    
+#%%
   
 
 
@@ -460,7 +652,11 @@ def copy_file(filename,file_paths, destination_path):
 #plt.scatter(x, y, s=area, c=colors, alpha=0.5)
 #plt.show()
 
-
+#plt.figure()
+#plt.bar(range(2), [3,5], align='center')
+#plt.xticks(range(2), ['bra\nkj','vdd'])
+#plt.xlabel("Station name")
+#plt.ylabel("Amount of events")
 
         
         
