@@ -28,7 +28,7 @@ class SfileAnalyzer:
         self.sfiles = []
         
     def get_sfiles(self):
-        list_of_files = os.listdir(path)  
+        list_of_files = os.listdir(self.path)  
         pattern = "*.S*"  
         for filename in list_of_files:  
             if fnmatch.fnmatch(filename, pattern):
@@ -213,14 +213,21 @@ class SfileAnalyzer:
         print("REPEATED FILES FOUND:"+str(len(repeated_files)))
         
         print(repeated_files)
-            
         
-#### Testing
-path = "IOfiles/RSNC_Sfiles/"
-analyzer = SfileAnalyzer(path)
-analyzer.get_sfiles()
-#analyzer.group_by_magnitude()
+        
+        def export_obj(path,analyzer):
+            import pickle
+            file_handler = open(path,'wr')
+            pickle.dump(analyzer,file_handler)
+            
 
+#%%        
+#### Testing
+#path = "IOfiles/RSNC_Sfiles/"
+#analyzer = SfileAnalyzer(path)
+#analyzer.get_sfiles()
+#analyzer.group_by_magnitude()
+#%%
 
 def plot_by_magnitude(sfiles):
     undefined_group = []
