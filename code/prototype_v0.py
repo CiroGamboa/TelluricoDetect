@@ -26,6 +26,8 @@ from Sfile import Sfile
 import math
 import obspy.core.utcdatetime as dt
 import obspy.signal.filter as filt
+from obspy.signal.trigger import classic_sta_lta
+from obspy.signal.trigger import plot_trigger
 
 events = []
 
@@ -77,7 +79,7 @@ for station in sfile.type_7:
 stats_delete = []
 for station_wave in events[0].trace_groups:
     if(events[0].trace_groups[station_wave].P_Wave == 0):
-        stats_delete.append(station_wave)
+        stats_delete.append(station_wave)                                                                   
 for stat in stats_delete:
         events[0].trace_groups.pop(stat)
 
@@ -176,6 +178,7 @@ noise = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].waveform
 ml.figure(), ml.plot(TelluricoTools.FFT(noise, events[0].trace_groups[stat].traces[0].sampling_rate, 'Noise'))
     
 
+
 # Station classification by ammount of components
 compClassif = []
 comp1 = []; comp2 = []; comp3 = []; comp4 = []
@@ -184,6 +187,8 @@ for group in events[0].trace_groups:
     compClassif[len(events[0].trace_groups[group].traces) - 1].append(group)
 total = len(compClassif[0]) + len(compClassif[1]) + len(compClassif[2])
 print("Total: " + str(total))
+
+
 
 # DOP Calculation For all stations
 for stat in events[0].trace_groups:
@@ -196,9 +201,9 @@ for stat in events[0].trace_groups:
             init = events[0].trace_groups[stat].P_Wave
             inf_limit = init - sub
             sup_limit = init + sub
-            dataX = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].waveform,inf_limit,sup_limit)
-            dataY = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[1].waveform,inf_limit,sup_limit)
-            dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].waveform,inf_limit,sup_limit)
+            dataX = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,inf_limit,sup_limit)
+            dataY = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[1].filter_wave,inf_limit,sup_limit)
+            dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].filter_wave,inf_limit,sup_limit)
             DOPs.append(Attributes.DOP(dataX,dataY,dataZ))
         ml.plot(samples,DOPs)
     
@@ -216,8 +221,84 @@ for i in range(10, 5001):
 #    init = int((2*60*SR)+(50.50*SR)) #COD
     inf_limit = init - sub
     sup_limit = init + sub
-    dataX = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].waveform,inf_limit,sup_limit)
-    dataY = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[1].waveform,inf_limit,sup_limit)
-    dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].waveform,inf_limit,sup_limit)
+    dataX = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,inf_limit,sup_limit)
+    dataY = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[1].filter_wave,inf_limit,sup_limit)
+    dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].filter_wave,inf_limit,sup_limit)
     DOPs.append(Attributes.DOP(dataX,dataY,dataZ))
 ml.plot(samples,DOPs)
+
+
+
+# STA/LTA individual
+stat = 'BRR'
+df = events[0].trace_groups[stat].traces[0].sampling_rate
+init = events[0].trace_groups[stat].P_Wave
+sub = 1000
+inf_limit = init - sub
+sup_limit = init + sub
+trace = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,inf_limit,sup_limit)
+npts = len(events[0].trace_groups[stat].traces[0].filter_wave)
+cft = classic_sta_lta(trace, int(5 * df), int(10 *df))
+on_off = plot_trigger(trace, events[0].trace_groups['BRR'].traces[0].sampling_rate, npts, cft, 1.75, 0.5)
+TelluricoTools.FFT(cft, df, stat)
+
+# STA/LTA all stations
+for stat in events[0].trace_groups:
+    df = events[0].trace_groups[stat].traces[0].sampling_rate
+    cft = classic_sta_lta(events[0].trace_groups[stat].traces[0].filter_wave, int(5 * df), int(10 *df))
+    #plot_trigger(events[0].trace_groups['BRR'].traces[0], cft, 2.5, 0.5)
+    fig, ax = ml.subplots(2, 1)
+    ax[0].plot(events[0].trace_groups[stat].traces[0].filter_wave)
+    ax[1].plot(cft)
+
+
+
+#Attributes per window calculation for one station
+slope = 50
+stat = 'BRR'; 
+window_size = 100 #window_size in samples
+size = int(events[0].trace_groups[stat].traces[0].npts/slope)
+DOPs = []
+RV2Ts = []
+for i in range(0, size-1):
+    dataX = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,(slope*i),((slope*i)+window_size-1))
+    dataY = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[1].filter_wave,(slope*i),((slope*i)+window_size-1))
+    dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].filter_wave,(slope*i),((slope*i)+window_size-1))
+    DOPs.append(Attributes.DOP(dataX,dataY,dataZ))
+    RV2Ts.append(Attributes.RV2T(dataX,dataY,dataZ))
+#    print(str(slope*i) + " to " + str((slope*i)+window_size-1))
+fig, ax = ml.subplots(2, 1)
+ax[0].plot(DOPs)
+ax[1].plot(RV2Ts)
+
+#Attributes per window calculation for all stations
+for stat in events[0].trace_groups:
+    if(len(events[0].trace_groups[stat].traces) == 3):
+        DOPs = []
+        RV2Ts = []
+        for i in range(0, size-1):
+            window_size = int(events[0].trace_groups[stat].traces[0].sampling_rate)
+            slope = int(window_size/2)
+            size = int(events[0].trace_groups[stat].traces[0].npts/slope)
+            dataX = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,(slope*i),((slope*i)+window_size-1))
+            dataY = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[1].filter_wave,(slope*i),((slope*i)+window_size-1))
+            dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].filter_wave,(slope*i),((slope*i)+window_size-1))
+            DOPs.append(Attributes.DOP(dataX,dataY,dataZ))
+            RV2Ts.append(Attributes.RV2T(dataX,dataY,dataZ))
+        fig, ax = ml.subplots(2, 1)
+        ax[0].set_title('DOP per window - Station: ' + stat)
+        ax[0].plot(DOPs)
+        ax[1].set_title('RV2T per window - Station: ' + stat)
+        ax[1].plot(RV2Ts)
+    
+    
+
+# Envelope for one station
+Attributes.envelope(events[0].trace_groups[stat].traces[0].filter_wave, 
+                    events[0].trace_groups[stat].traces[0].sampling_rate)
+
+
+# Entropy for one station, one trace
+Attributes.envelope(events[0].trace_groups[stat].traces[0].filter_wave, 
+                    events[0].trace_groups[stat].traces[0].sampling_rate)
+    

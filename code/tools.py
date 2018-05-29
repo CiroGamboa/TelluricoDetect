@@ -13,6 +13,11 @@ import numpy as np
 import matplotlib.pyplot as ml
 from TraceComponent import TraceComponent
 import math
+from obspy.signal.trigger import classic_sta_lta
+from obspy.signal.trigger import plot_trigger
+from scipy.signal import hilbert
+import pandas as pd
+import scipy as sc
 
 class TelluricoTools:
     
@@ -80,7 +85,49 @@ class Attributes:
         l2 = (eigvalues[1])[0]
         l3 = (eigvalues[2])[0]
         return (math.pow((l1-l2),2) + math.pow((l2-l3),2) + math.pow((l3-l1),2))/(2*math.pow((l1+l2+l3),2))
-
+    
+    def STA_LTA(trace, SR):
+        cft = classic_sta_lta(trace, int(5 * SR), int(10 * SR))
+        plot_trigger(trace, cft, 1.5, 0.5)
+    
+    # RV2T Calculus
+    def RV2T(dataX, dataY, dataZ):
+        size = len(dataX)
+        num = 0; den = 0
+        for i in range(0, size):
+            num += math.pow(dataX[i], 2)
+            den += math.pow(dataX[i], 2) + math.pow(dataY[i], 2) + math.pow(dataZ[i], 2)
+        return num/den
+    
+    # Signal envelope calculation
+    def envelope(trace, fs):
+        samples = len(trace)
+        t = np.arange(samples) / fs
+        
+        analytic_signal = hilbert(trace)
+        amplitude_envelope = np.abs(analytic_signal)
+        instantaneous_phase = np.unwrap(np.angle(analytic_signal))
+        instantaneous_frequency = (np.diff(instantaneous_phase)/(2.0*np.pi)*fs)
+        
+        fig = ml.figure()
+        ax0 = fig.add_subplot(211)
+        ax0.plot(t, trace, label='signal')
+        ax0.plot(t, amplitude_envelope, label='envelope')
+        ax0.set_xlabel("time in seconds")
+        ax0.legend()
+        ax1 = fig.add_subplot(212)
+        ax1.plot(t[1:], instantaneous_frequency)
+        ax1.set_xlabel("time in seconds")
+        ax1.set_ylim(0.0, 120.0)
+        
+        fig = ml.figure()
+        ml.plot(t, amplitude_envelope)
+    
+    # Signal entropy calculation
+    def entropy(trace):
+        p_trace = trace.value_counts()/len(trace) # calculates the probabilities
+        entropy=sc.stats.entropy(p_trace)  # input probabilities to get the entropy 
+        return entropy
 
 class SeismicInfo:
     
