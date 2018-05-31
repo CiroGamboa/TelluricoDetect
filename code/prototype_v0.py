@@ -28,6 +28,7 @@ import obspy.core.utcdatetime as dt
 import obspy.signal.filter as filt
 from obspy.signal.trigger import classic_sta_lta
 from obspy.signal.trigger import plot_trigger
+from obspy.imaging import spectrogram as spec
 
 events = []
 
@@ -61,8 +62,9 @@ newEvent.addTraceGroup(trace_group, station_name)
 events.append(newEvent)
         
 for station in sfile.type_7:
-    if(station['PHAS'] == 'P'):
-        if(station['STAT'] in events[0].trace_groups):
+    if(station['STAT'] in events[0].trace_groups):
+        events[0].trace_groups[station['STAT']].epicentral_dist = station['DIS']
+        if(station['PHAS'] == 'P'):
             year = events[0].trace_groups[station['STAT']].traces[0].starttime.year
             month = events[0].trace_groups[station['STAT']].traces[0].starttime.month
             day = events[0].trace_groups[station['STAT']].traces[0].starttime.day
@@ -72,16 +74,48 @@ for station in sfile.type_7:
                   int(station['HR']),int(station['MM']),float(station['SECON'])) - 
                   events[0].trace_groups[station['STAT']].traces[0].starttime)*
                   events[0].trace_groups[station['STAT']].traces[0].sampling_rate)
-#            print(station['STAT'] + ": " + str(events[0].trace_groups[station['STAT']].P_Wave))
-        else:
-            print(station['STAT'])
+#            print("P-Wave: " + station['STAT'] + ": " + str(events[0].trace_groups[station['STAT']].P_Wave))
+        if(station['PHAS'] == 'S'):
+            year = events[0].trace_groups[station['STAT']].traces[0].starttime.year
+            month = events[0].trace_groups[station['STAT']].traces[0].starttime.month
+            day = events[0].trace_groups[station['STAT']].traces[0].starttime.day
+            if int(station['HR']) < int(events[0].trace_groups[station['STAT']].traces[0].starttime.hour):
+                day += 1
+            events[0].trace_groups[station['STAT']].S_Wave = int((dt.UTCDateTime(year,month,day,
+                  int(station['HR']),int(station['MM']),float(station['SECON'])) - 
+                  events[0].trace_groups[station['STAT']].traces[0].starttime)*
+                  events[0].trace_groups[station['STAT']].traces[0].sampling_rate)
+#            print("S-Wave: " + station['STAT'] + ": " + str(events[0].trace_groups[station['STAT']].S_Wave))
+    else:
+        print(station['STAT'])
 
 stats_delete = []
+stats_sort = {}
 for station_wave in events[0].trace_groups:
     if(events[0].trace_groups[station_wave].P_Wave == 0):
-        stats_delete.append(station_wave)                                                                   
+        stats_delete.append(station_wave)   
+    elif(events[0].trace_groups[station_wave].S_Wave > 0):
+        stats_sort[station_wave] = float(events[0].trace_groups[station_wave].epicentral_dist)
+        events[0].trace_groups[station_wave].alert_time =  (events[0].trace_groups[station_wave].S_Wave -
+            events[0].trace_groups[station_wave].P_Wave)/events[0].trace_groups[station_wave].traces[0].sampling_rate 
+#    else:
+#        ml.plot(events[0].trace_groups[station_wave].traces[0].filter_wave)
+        
+#        print("Alert time " + station_wave + ": " + str(events[0].trace_groups[station_wave].alert_time))                                         
 for stat in stats_delete:
         events[0].trace_groups.pop(stat)
+
+# Station classification by ammount of components
+compClassif = []
+comp1 = []; comp2 = []; comp3 = []; comp4 = []
+compClassif.append(comp1); compClassif.append(comp2); compClassif.append(comp3); compClassif.append(comp4)
+for group in events[0].trace_groups:
+    compClassif[len(events[0].trace_groups[group].traces) - 1].append(group)
+total = len(compClassif[0]) + len(compClassif[1]) + len(compClassif[2])
+
+stats_sort = TelluricoTools.sort(stats_sort)
+
+#print("Total: " + str(total))
 
 #Butterworth-Bandpass Filter
 #for station_wave in events[0].trace_groups:        
@@ -108,7 +142,36 @@ for station in events[0].trace_groups:
                            events[0].trace_groups[station].traces[0].sampling_rate,
                            events[0].trace_groups[station].traces[0].station)
 
-# Print sampling rates of station
+# Plot FFT for all P-wave traces of an specific Event
+for stat in events[0].trace_groups:
+        sub = 100
+        init = events[0].trace_groups[stat].P_Wave
+        inf_limit = init - sub
+        sup_limit = init + sub
+        TelluricoTools.FFT(TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,inf_limit,sup_limit), 
+                           events[0].trace_groups[station].traces[0].sampling_rate,
+                           events[0].trace_groups[station].traces[0].station)
+
+# Plot FFT for all noise traces of an specific Event
+for stat in events[0].trace_groups:
+        sub = 50
+        init = events[0].trace_groups[stat].P_Wave
+        inf_limit = 0
+        sup_limit = init - sub - 1
+        TelluricoTools.FFT(TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,inf_limit,sup_limit), 
+                           events[0].trace_groups[stat].traces[0].sampling_rate,
+                           events[0].trace_groups[stat].traces[0].station)
+        
+# Plot FFT for all P-wave to S-wave traces of an specific Event
+for stat in events[0].trace_groups:
+    if(events[0].trace_groups[stat].S_Wave > 0):
+        inf_limit = events[0].trace_groups[stat].P_Wave
+        sup_limit = events[0].trace_groups[stat].S_Wave
+        TelluricoTools.FFT(TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,inf_limit,sup_limit), 
+                           events[0].trace_groups[stat].traces[0].sampling_rate,
+                           events[0].trace_groups[stat].traces[0].station)
+
+# Print components and sampling rates of stations
 for group in events[0].trace_groups:
     comp = len(events[0].trace_groups[group].traces)
     print(group + "\n")
@@ -137,22 +200,14 @@ DOP = Attributes.DOP(events[0].trace_groups['YOP'].traces[0].waveform,
                events[0].trace_groups['YOP'].traces[1].waveform,
                events[0].trace_groups['YOP'].traces[2].waveform)
 
-signal = TelluricoTools.toArray(test_trace[2])
-cumulative_signal = TelluricoTools.cumulative(test_trace[2])
-ml.plot(cumulative_signal)
-ml.show()
-ml.plot(signal)
-ml.show()
-
-for i in range(0, 3):
-    cumulative_signal = TelluricoTools.cumulative(test_trace[i])
-    ml.plot(cumulative_signal)
+# Cumulative signal for all stations
+for stat in events[0].trace_groups:
+    signal = events[0].trace_groups[stat].traces[0].filter_wave
+    cumulative_signal = events[0].trace_groups[stat].traces[0].cumulative()
+    fig, ax = ml.subplots(2, 1)
+    ax[0].plot(cumulative_signal)
+    ax[1].plot(signal)
     
-#st.spectrogram(wlen=60, log=True, title='BW.RJOB ' + str(st[0].stats.starttime))
-
-TelluricoTools.FFT(TelluricoTools.toArray([(test_trace[1])[x] for x in range(0, 16000)]))
-
-
 
 
 
@@ -177,17 +232,6 @@ ml.figure(), ml.plot(TelluricoTools.FFT(dataX, events[0].trace_groups[stat].trac
 noise = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].waveform,0,inf_limit)
 ml.figure(), ml.plot(TelluricoTools.FFT(noise, events[0].trace_groups[stat].traces[0].sampling_rate, 'Noise'))
     
-
-
-# Station classification by ammount of components
-compClassif = []
-comp1 = []; comp2 = []; comp3 = []; comp4 = []
-compClassif.append(comp1); compClassif.append(comp2); compClassif.append(comp3); compClassif.append(comp4)
-for group in events[0].trace_groups:
-    compClassif[len(events[0].trace_groups[group].traces) - 1].append(group)
-total = len(compClassif[0]) + len(compClassif[1]) + len(compClassif[2])
-print("Total: " + str(total))
-
 
 
 # DOP Calculation For all stations
@@ -236,10 +280,13 @@ init = events[0].trace_groups[stat].P_Wave
 sub = 1000
 inf_limit = init - sub
 sup_limit = init + sub
+inf_limit = 0
+sup_limit = events[0].trace_groups[stat].traces[0].npts
 trace = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,inf_limit,sup_limit)
 npts = len(events[0].trace_groups[stat].traces[0].filter_wave)
 cft = classic_sta_lta(trace, int(5 * df), int(10 *df))
-on_off = plot_trigger(trace, events[0].trace_groups['BRR'].traces[0].sampling_rate, npts, cft, 1.75, 0.5)
+on_off = plot_trigger(trace, events[0].trace_groups['BRR'].traces[0].sampling_rate, npts, cft, 1.5, 0.5)
+
 TelluricoTools.FFT(cft, df, stat)
 
 # STA/LTA all stations
@@ -277,6 +324,30 @@ for stat in events[0].trace_groups:
         DOPs = []
         RV2Ts = []
         for i in range(0, size-1):
+            window_size = 2*int(events[0].trace_groups[stat].traces[0].sampling_rate)
+            slope = int(window_size/2)
+            size = int(events[0].trace_groups[stat].traces[0].npts/slope)
+            dataX = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,(slope*i),((slope*i)+window_size-1))
+            dataY = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[1].filter_wave,(slope*i),((slope*i)+window_size-1))
+            dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].filter_wave,(slope*i),((slope*i)+window_size-1))
+            DOPs.append(Attributes.DOP(dataX,dataY,dataZ))
+            RV2Ts.append(Attributes.RV2T(dataX,dataY,dataZ))
+            print(str(slope*i) + " " + str((slope*i)+window_size-1))
+        fig, ax = ml.subplots(3, 1)
+        ax[0].set_title('P_wave window - Station: ' + stat)
+        ax[0].plot(DOPs)
+        ax[0].set_title('DOP per window - Station: ' + stat)
+        ax[0].plot(DOPs)
+        ax[1].set_title('RV2T per window - Station: ' + stat)
+        ax[1].plot(RV2Ts)
+
+#Attributes per window calculation for all stations in order of epicentral distance
+for tuple_sort in stats_sort:
+    stat = (tuple_sort[0])
+    if(len(events[0].trace_groups[stat].traces) == 3):
+        DOPs = []
+        RV2Ts = []
+        for i in range(0, size-1):
             window_size = int(events[0].trace_groups[stat].traces[0].sampling_rate)
             slope = int(window_size/2)
             size = int(events[0].trace_groups[stat].traces[0].npts/slope)
@@ -285,6 +356,7 @@ for stat in events[0].trace_groups:
             dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].filter_wave,(slope*i),((slope*i)+window_size-1))
             DOPs.append(Attributes.DOP(dataX,dataY,dataZ))
             RV2Ts.append(Attributes.RV2T(dataX,dataY,dataZ))
+            print(str(slope*i) + " " + str((slope*i)+window_size-1))
         fig, ax = ml.subplots(2, 1)
         ax[0].set_title('DOP per window - Station: ' + stat)
         ax[0].plot(DOPs)
@@ -298,7 +370,26 @@ Attributes.envelope(events[0].trace_groups[stat].traces[0].filter_wave,
                     events[0].trace_groups[stat].traces[0].sampling_rate)
 
 
+
 # Entropy for one station, one trace
-Attributes.envelope(events[0].trace_groups[stat].traces[0].filter_wave, 
-                    events[0].trace_groups[stat].traces[0].sampling_rate)
-    
+ml.plot(TelluricoTools.toIntArray(events[0].trace_groups['BRR'].traces[0].filter_wave))
+ml.plot(events[0].trace_groups['BRR'].traces[0].filter_wave)
+print(Attributes.entropy(TelluricoTools.toIntArray(events[0].trace_groups['BRR'].traces[0].filter_wave)))
+
+
+
+# Spectrogram for one signal, one station
+stat = 'BRR'
+sub = 50
+init = events[0].trace_groups[stat].P_Wave
+inf_limit = init - sub
+sup_limit = init + sub
+spec.spectrogram(data = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,inf_limit,sup_limit), samp_rate = events[0].trace_groups[stat].traces[0].sampling_rate)
+
+# Spectrogram for all stations, one component
+for stat in events[0].trace_groups:
+    sub = 50
+    init = events[0].trace_groups[stat].P_Wave
+    inf_limit = init - sub
+    sup_limit = init + sub
+    spec.spectrogram(data = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,inf_limit,sup_limit), samp_rate = events[0].trace_groups[stat].traces[0].sampling_rate)

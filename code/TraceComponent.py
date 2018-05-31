@@ -52,10 +52,10 @@ class TraceComponent:
         return False
     
     # Cumulative distribution of traces
-    def cumulative(self, trace):
+    def cumulative(self):
         output = []
         acumula = 0.0
-        for sample in trace:
+        for sample in self.filter_wave:
             acumula += math.pow(sample, 2)
             output.append(acumula)
         return output

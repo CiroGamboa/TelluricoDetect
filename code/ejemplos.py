@@ -98,3 +98,19 @@ ax1 = fig.add_subplot(212)
 ax1.plot(t[1:], instantaneous_frequency)
 ax1.set_xlabel("time in seconds")
 ax1.set_ylim(0.0, 120.0)
+#%%ENtropy Calculation
+import numpy as np
+#import pandas as pd
+#import perfplot
+from scipy.stats import itemfreq
+x = [3.6, 2, 1, 1, 1, 1, 1, 1, 3, 3]
+y = np.bincount(x)/len(x)
+ii = np.nonzero(y)[0]
+out = np.vstack((ii, y[ii])).T
+entropy=sc.stats.entropy(out)  # input probabilities to get the entropy
+print(entropy) 
+#%% Sorting a dictionary by value
+import operator
+x = {'e': 2.23, 'as': 4.53, 'we': 3.87, 'fd': 1.23, 'brr': 0.71, 'BAR2': 3.26}
+sorted_x = sorted(x.items(), key=operator.itemgetter(1))
+print(sorted_x)

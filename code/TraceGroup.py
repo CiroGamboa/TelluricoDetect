@@ -12,7 +12,10 @@ class TraceGroup:
     
     def __init__(self, codeStation):
         self.codeStation = codeStation
-        self.P_Wave = 0
+        self.P_Wave = 0 # in samples
+        self.S_Wave = 0 # in samples
+        self.alert_time = 0.0 # in seconds
+        self.epicentral_dist = -1.0
         self.traces = []
     
     # Add a new trace to the trace group

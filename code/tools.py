@@ -18,6 +18,7 @@ from obspy.signal.trigger import plot_trigger
 from scipy.signal import hilbert
 import pandas as pd
 import scipy as sc
+import operator
 
 class TelluricoTools:
     
@@ -41,10 +42,10 @@ class TelluricoTools:
         return False
 
     # Trace to array
-    def toArray(trace):
+    def toIntArray(trace):
         output = []
         for sample in trace:
-            output.append(sample)
+            output.append(int(sample))
         return output
     
     def sub_trace(trace, inf_limit, sup_limit):
@@ -74,6 +75,11 @@ class TelluricoTools:
         ax[1].plot(frq,abs(Y),'r') # plotting the spectrum
         ax[1].set_xlabel('Freq (Hz)')
         ax[1].set_ylabel('|Y(freq)|')
+    
+    # Dictionary sorting by value
+    def sort(dictionary):
+        sorted_dict = sorted(dictionary.items(), key=operator.itemgetter(1))
+        return sorted_dict # (sorted_dict[0])[1] how to access a value in a tuple
 
 class Attributes:
     
@@ -86,6 +92,7 @@ class Attributes:
         l3 = (eigvalues[2])[0]
         return (math.pow((l1-l2),2) + math.pow((l2-l3),2) + math.pow((l3-l1),2))/(2*math.pow((l1+l2+l3),2))
     
+    # STA/LTA trigger function
     def STA_LTA(trace, SR):
         cft = classic_sta_lta(trace, int(5 * SR), int(10 * SR))
         plot_trigger(trace, cft, 1.5, 0.5)
@@ -125,8 +132,10 @@ class Attributes:
     
     # Signal entropy calculation
     def entropy(trace):
-        p_trace = trace.value_counts()/len(trace) # calculates the probabilities
-        entropy=sc.stats.entropy(p_trace)  # input probabilities to get the entropy 
+        y = np.bincount(trace)/len(trace)
+        ii = np.nonzero(y)[0]
+        out = np.vstack((ii, y[ii])).T
+        entropy=sc.stats.entropy(out)  # input probabilities to get the entropy
         return entropy
 
 class SeismicInfo:
