@@ -29,13 +29,15 @@ import obspy.signal.filter as filt
 from obspy.signal.trigger import classic_sta_lta
 from obspy.signal.trigger import plot_trigger
 from obspy.imaging import spectrogram as spec
+import time
 
 events = []
 
 # Read seismograms
-st = read('IOfiles/2013_06_2013-06-18-0559-59M.COL___261')
-#st = read('IOfiles/2015-03-10-2049-48M.COL___284')
-sfile = Sfile('18-0602-02L.S201306.txt', '/home/administrador/Tellurico/TelluricoDetect/code/IOfiles/')
+#st = read('IOfiles/2013_06_2013-06-18-0559-59M.COL___261')
+#sfile = Sfile('18-0602-02L.S201306.txt', '/home/administrador/Tellurico/TelluricoDetect/code/IOfiles/')
+st = read('IOfiles/2015-03-10-2049-48M.COL___284')
+sfile = Sfile('10-2055-44L.S201503', '/home/administrador/Tellurico/TelluricoDetect/code/IOfiles/')
 #sfile.print_params()
 
 #SeismicInfo.printMedata(st)
@@ -75,6 +77,7 @@ for station in sfile.type_7:
                   events[0].trace_groups[station['STAT']].traces[0].starttime)*
                   events[0].trace_groups[station['STAT']].traces[0].sampling_rate)
 #            print("P-Wave: " + station['STAT'] + ": " + str(events[0].trace_groups[station['STAT']].P_Wave))
+#            print(dt.UTCDateTime(year,month,day,int(station['HR']),int(station['MM']),float(station['SECON'])))
         if(station['PHAS'] == 'S'):
             year = events[0].trace_groups[station['STAT']].traces[0].starttime.year
             month = events[0].trace_groups[station['STAT']].traces[0].starttime.month
@@ -98,6 +101,8 @@ for station_wave in events[0].trace_groups:
         stats_sort[station_wave] = float(events[0].trace_groups[station_wave].epicentral_dist)
         events[0].trace_groups[station_wave].alert_time =  (events[0].trace_groups[station_wave].S_Wave -
             events[0].trace_groups[station_wave].P_Wave)/events[0].trace_groups[station_wave].traces[0].sampling_rate 
+    if(len(events[0].trace_groups[station_wave].traces) != 3 and station_wave not in stats_delete):
+        stats_delete.append(station_wave)
 #    else:
 #        ml.plot(events[0].trace_groups[station_wave].traces[0].filter_wave)
         
@@ -172,13 +177,16 @@ for stat in events[0].trace_groups:
                            events[0].trace_groups[stat].traces[0].station)
 
 # Print components and sampling rates of stations
+index = 0
 for group in events[0].trace_groups:
     comp = len(events[0].trace_groups[group].traces)
     print(group + "\n")
+    index += 1
     for i in range(0, comp):
         print("\t" + events[0].trace_groups[group].traces[i].channel + " - " + 
               str(events[0].trace_groups[group].traces[i].sampling_rate))
-        
+print(index)
+
 # Print accelerometers
 index = 0
 for group in events[0].trace_groups:
@@ -301,67 +309,95 @@ for stat in events[0].trace_groups:
 
 
 #Attributes per window calculation for one station
-slope = 50
+slope = 20
 stat = 'BRR'; 
-window_size = 100 #window_size in samples
+window_size = 200 #window_size in samples
 size = int(events[0].trace_groups[stat].traces[0].npts/slope)
 DOPs = []
 RV2Ts = []
-for i in range(0, size-1):
-    dataX = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,(slope*i),((slope*i)+window_size-1))
-    dataY = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[1].filter_wave,(slope*i),((slope*i)+window_size-1))
-    dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].filter_wave,(slope*i),((slope*i)+window_size-1))
+DOPs_RV2T = []
+for i in range(0, size-window_size):
+    [dataX, dataY, dataZ] = TelluricoTools.xyz_array(events[0].trace_groups[stat])
+    dataX = TelluricoTools.sub_trace(dataX.filter_wave,(slope*i),((slope*i)+window_size-1))
+    dataY = TelluricoTools.sub_trace(dataY.filter_wave,(slope*i),((slope*i)+window_size-1))
+    dataZ = TelluricoTools.sub_trace(dataZ.filter_wave,(slope*i),((slope*i)+window_size-1))
     DOPs.append(Attributes.DOP(dataX,dataY,dataZ))
     RV2Ts.append(Attributes.RV2T(dataX,dataY,dataZ))
+    DOPs_RV2T.append(DOPs[i]*RV2Ts[i])
 #    print(str(slope*i) + " to " + str((slope*i)+window_size-1))
-fig, ax = ml.subplots(2, 1)
-ax[0].plot(DOPs)
-ax[1].plot(RV2Ts)
+fig = ml.figure()
+ax1 = fig.add_subplot(311)
+ax2 = fig.add_subplot(312, sharex=ax1)
+ax3 = fig.add_subplot(313, sharex=ax1)
+ax1.set_title('DOP per window - Station: ' + stat)
+ax1.plot(DOPs)
+ax2.set_title('RV2T per window - Station: ' + stat)
+ax2.plot(RV2Ts)
+ax3.set_title('RV2T*DOP per window - Station: ' + stat)
+ax3.plot(DOPs_RV2T)
 
-#Attributes per window calculation for all stations
-for stat in events[0].trace_groups:
-    if(len(events[0].trace_groups[stat].traces) == 3):
-        DOPs = []
-        RV2Ts = []
-        for i in range(0, size-1):
-            window_size = 2*int(events[0].trace_groups[stat].traces[0].sampling_rate)
-            slope = int(window_size/2)
-            size = int(events[0].trace_groups[stat].traces[0].npts/slope)
-            dataX = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,(slope*i),((slope*i)+window_size-1))
-            dataY = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[1].filter_wave,(slope*i),((slope*i)+window_size-1))
-            dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].filter_wave,(slope*i),((slope*i)+window_size-1))
-            DOPs.append(Attributes.DOP(dataX,dataY,dataZ))
-            RV2Ts.append(Attributes.RV2T(dataX,dataY,dataZ))
-            print(str(slope*i) + " " + str((slope*i)+window_size-1))
-        fig, ax = ml.subplots(3, 1)
-        ax[0].set_title('P_wave window - Station: ' + stat)
-        ax[0].plot(DOPs)
-        ax[0].set_title('DOP per window - Station: ' + stat)
-        ax[0].plot(DOPs)
-        ax[1].set_title('RV2T per window - Station: ' + stat)
-        ax[1].plot(RV2Ts)
+#Temporal complexity for attributes calculation per window for one station, increasing
+# moving window and slope of one sample
+stat = 'BRR'; 
+DOPs_RV2T = []
+window = []
+time_list = []
+init = events[0].trace_groups[stat].P_Wave
+iterations = 50
+max_window = 1000
+acumul = 0.0
+for i in range(5, int(max_window/2)):
+    window_size = 2*i
+    inf_limit = init - i
+    sup_limit = init + i
+    for ii in range(0, iterations):
+        start = time.time()
+        [dataX, dataY, dataZ] = TelluricoTools.xyz_array(events[0].trace_groups[stat])
+        dataX = TelluricoTools.sub_trace(dataX.filter_wave,inf_limit,sup_limit)
+        dataY = TelluricoTools.sub_trace(dataY.filter_wave,inf_limit,sup_limit)
+        dataZ = TelluricoTools.sub_trace(dataZ.filter_wave,inf_limit,sup_limit)
+        result = Attributes.DOP(dataX,dataY,dataZ)*Attributes.RV2T(dataX,dataY,dataZ)
+        end = time.time()
+        acumul += (end - start)
+    DOPs_RV2T.append(result)
+    window.append(window_size)
+    time_list.append(acumul/iterations)
+ml.plot(window, time_list)
+ml.title('Temporal complexity')
+ml.xlabel('Window size (samples)')
+ml.ylabel('Time (seconds)')
+ml.grid(True)
 
 #Attributes per window calculation for all stations in order of epicentral distance
 for tuple_sort in stats_sort:
     stat = (tuple_sort[0])
-    if(len(events[0].trace_groups[stat].traces) == 3):
+    if(stat in events[0].trace_groups):
         DOPs = []
         RV2Ts = []
-        for i in range(0, size-1):
-            window_size = int(events[0].trace_groups[stat].traces[0].sampling_rate)
-            slope = int(window_size/2)
-            size = int(events[0].trace_groups[stat].traces[0].npts/slope)
-            dataX = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wave,(slope*i),((slope*i)+window_size-1))
-            dataY = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[1].filter_wave,(slope*i),((slope*i)+window_size-1))
-            dataZ = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[2].filter_wave,(slope*i),((slope*i)+window_size-1))
+        DOPs_RV2T = []
+        window_size = 2*int(events[0].trace_groups[stat].traces[0].sampling_rate)
+#        slope = int(window_size/2)
+        slope = int(window_size/10)
+        size = int(events[0].trace_groups[stat].traces[0].npts/slope)
+        for i in range(0, size-window_size):
+            [dataX, dataY, dataZ] = TelluricoTools.xyz_array(events[0].trace_groups[stat])
+            dataX = TelluricoTools.sub_trace(dataX.filter_wave,(slope*i),((slope*i)+window_size-1))
+            dataY = TelluricoTools.sub_trace(dataY.filter_wave,(slope*i),((slope*i)+window_size-1))
+            dataZ = TelluricoTools.sub_trace(dataZ.filter_wave,(slope*i),((slope*i)+window_size-1))
             DOPs.append(Attributes.DOP(dataX,dataY,dataZ))
             RV2Ts.append(Attributes.RV2T(dataX,dataY,dataZ))
-            print(str(slope*i) + " " + str((slope*i)+window_size-1))
-        fig, ax = ml.subplots(2, 1)
-        ax[0].set_title('DOP per window - Station: ' + stat)
-        ax[0].plot(DOPs)
-        ax[1].set_title('RV2T per window - Station: ' + stat)
-        ax[1].plot(RV2Ts)
+            DOPs_RV2T.append(DOPs[i]*RV2Ts[i])
+#            print(str(slope*i) + " " + str((slope*i)+window_size-1))
+        fig = ml.figure()
+        ax1 = fig.add_subplot(311)
+        ax2 = fig.add_subplot(312)
+        ax3 = fig.add_subplot(313)
+        ax1.set_title('DOP per window - Station: ' + stat)
+        ax1.plot(DOPs)
+        ax2.set_title('RV2T per window - Station: ' + stat)
+        ax2.plot(RV2Ts)
+        ax3.set_title('RV2T*DOP per window - Station: ' + stat)
+        ax3.plot(DOPs_RV2T)
     
     
 

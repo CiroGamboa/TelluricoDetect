@@ -55,7 +55,7 @@ class Sfile:
                                     'WP'            : line[14:15].strip(),
                                     'D'             : line[16],
                                     'HR'            : line[18:20].strip(),
-                                    'MM'            : line[21:22].strip(),
+                                    'MM'            : line[20:22].strip(),
                                     'SECON'         : line[23:28].strip(),
                                     'CODA'          : line[29:33].strip(),
                                     'AMPLIT'        : line[34:40].strip(),

@@ -76,10 +76,20 @@ class TelluricoTools:
         ax[1].set_xlabel('Freq (Hz)')
         ax[1].set_ylabel('|Y(freq)|')
     
-    # Dictionary sorting by value
+    # Dictionary sorting by value / Timsort algorithm
     def sort(dictionary):
         sorted_dict = sorted(dictionary.items(), key=operator.itemgetter(1))
         return sorted_dict # (sorted_dict[0])[1] how to access a value in a tuple
+    
+    def xyz_array(traceGroup):
+        for trace in traceGroup.traces:
+            if(trace.channel[2] == 'Z'):
+                dataX = trace
+            elif(trace.channel[2] == 'N'):
+                dataY = trace
+            elif(trace.channel[2] == 'E'):
+                dataZ = trace
+        return [dataX, dataY, dataZ]
 
 class Attributes:
     
@@ -182,15 +192,26 @@ for trace in st:
 '''
 
 class Temps:
-    def graphComponents(traces, inf_limit, sup_limit):
-        components = len(traces)
-        if(inf_limit == None):
-            inf_limit = 0
-        if(sup_limit == None):
-            sup_limit = len(traces[0].waveform) - 1
-        fig, ax = ml.subplots(components, 1)
-        for i in range(0, components):
-            ax[i].set_title('Channel: ' + traces[i].channel, fontsize=16)
-            ax[i].plot(TelluricoTools.sub_trace(traces[i].waveform,inf_limit,sup_limit))
+#    def graphComponents(traces, inf_limit, sup_limit):
+#        components = len(traces)
+#        if(inf_limit == None):
+#            inf_limit = 0
+#        if(sup_limit == None):
+#            sup_limit = len(traces[0].waveform) - 1
+#        fig, ax = ml.subplots(components, 1)
+#        for i in range(0, components):
+#            ax[i].set_title('Channel: ' + traces[i].channel, fontsize=16)
+#            ax[i].plot(TelluricoTools.sub_trace(traces[i].waveform,inf_limit,sup_limit))
+    def graphComponents(traces):
+        comps = len(traces)
+        components = str(comps) + '11'
+        fig = ml.figure()
+        ax1 = fig.add_subplot(int(components))
+        ax1.set_title('Channel: ' + traces[0].channel, fontsize=16)
+        ax1.plot(traces[0].waveform)
+        for i in range(1, comps):
+            ax = fig.add_subplot(int(str(comps) + '1' + str(i + 1)), sharex=ax1)
+            ax.set_title('Channel: ' + traces[i].channel, fontsize=16)
+            ax.plot(traces[i].waveform)
 
 

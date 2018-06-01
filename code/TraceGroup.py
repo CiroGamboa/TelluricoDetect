@@ -35,10 +35,22 @@ class TraceGroup:
             resultantTrace.append(result)
         return resultantTrace
     
+#    def graphComponents(self):
+#        components = len(self.traces)
+#        fig, ax = ml.subplots(components, 1)
+#        for i in range(0, components):
+#            ax[i].set_title('Channel: ' + self.traces[i].channel, fontsize=16)
+#            ax[i].plot(self.traces[i].waveform)
+        
     def graphComponents(self):
-        components = len(self.traces)
-        fig, ax = ml.subplots(components, 1)
-        for i in range(0, components):
-            ax[i].set_title('Channel: ' + self.traces[i].channel, fontsize=16)
-            ax[i].plot(self.traces[i].waveform)
+        comps = len(self.traces)
+        components = str(comps) + '11'
+        fig = ml.figure()
+        ax1 = fig.add_subplot(int(components))
+        ax1.set_title('Channel: ' + self.traces[0].channel, fontsize=16)
+        ax1.plot(self.traces[0].waveform)
+        for i in range(1, comps):
+            ax = fig.add_subplot(int(str(comps) + '1' + str(i + 1)), sharex=ax1)
+            ax.set_title('Channel: ' + self.traces[i].channel, fontsize=16)
+            ax.plot(self.traces[i].waveform)
         

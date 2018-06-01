@@ -69,7 +69,7 @@ from obspy.signal.trigger import plot_trigger
 trace = read("https://examples.obspy.org/ev0_6.a01.gse2")[0]
 df = trace.stats.sampling_rate
 cft = classic_sta_lta(trace.data, int(5 * df), int(10 * df))
-plot_trigger(trace, cft, 1.5, 0.5)
+plot_trigger(trace, df, len(trace), cft, 1.5, 0.5)
 #%% Signal envelope
 import numpy as np
 import matplotlib.pyplot as plt
@@ -114,3 +114,55 @@ import operator
 x = {'e': 2.23, 'as': 4.53, 'we': 3.87, 'fd': 1.23, 'brr': 0.71, 'BAR2': 3.26}
 sorted_x = sorted(x.items(), key=operator.itemgetter(1))
 print(sorted_x)
+#%% Time elapsed
+import time
+
+start = time.time()
+print("hello")
+end = time.time()
+print(str(end - start) + " seconds")
+print("%.6f  seconds" % (end - start))
+#%% Ejemplo de plot
+fig = ml.figure()
+ax1 = fig.add_subplot(211)
+t = np.arange(0, 100)
+y = np.arange(100, 200)
+z = np.arange(300, 400)
+ax1.plot(t, y, 'k')
+ax2 = fig.add_subplot(212, sharex=ax1)
+ax2.plot(t, z, 'k')
+#%% Ejemplo de mapa
+from mpl_toolkits.basemap import Basemap
+import numpy as np
+import matplotlib.pyplot as plt
+
+from obspy import read_inventory, read_events
+
+# Set up a custom basemap, example is taken from basemap users' manual
+fig, ax = plt.subplots()
+
+# setup albers equal area conic basemap
+# lat_1 is first standard parallel.
+# lat_2 is second standard parallel.
+# lon_0, lat_0 is central point.
+m = Basemap(llcrnrlon = 3.75, llcrnrlat = 39.75, urcrnrlon = 4.35 , urcrnrlat = 40.15, resolution = 'f', epsg = 5520)
+m.drawcoastlines()
+m.drawcountries()
+m.fillcontinents(color='wheat', lake_color='skyblue')
+# draw parallels and meridians.
+m.drawparallels(np.arange(-80., 81., 20.))
+m.drawmeridians(np.arange(-180., 181., 20.))
+m.drawmapboundary(fill_color='skyblue')
+ax.set_title("Albers Equal Area Projection")
+
+# we need to attach the basemap object to the figure, so that obspy knows about
+# it and reuses it
+fig.bmap = m
+
+# now let's plot some data on the custom basemap:
+#inv = read_inventory()
+#inv.plot(fig=fig, show=False)
+#cat = read_events()
+#cat.plot(fig=fig, show=False, title="", colorbar=False)
+
+plt.show()
