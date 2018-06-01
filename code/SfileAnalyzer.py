@@ -223,10 +223,10 @@ class SfileAnalyzer:
 
 #%%        
 #### Testing
-#path = "IOfiles/RSNC_Sfiles/"
-#analyzer = SfileAnalyzer(path)
-#analyzer.get_sfiles()
-#analyzer.group_by_magnitude()
+path = "IOfiles/Filtered_RSNC_Sfiles/"
+analyzer = SfileAnalyzer(path)
+analyzer.get_sfiles()
+analyzer.group_by_magnitude()
 #%%
 
 def plot_by_magnitude(sfiles):
@@ -603,68 +603,58 @@ def components_per_station(sfiles,group_factor,save_graphs):
     
     
     
-#%%
-  
+#%% Plot Events in Map
+def plot_events():
+    from mpl_toolkits.basemap import Basemap
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    from obspy import read_inventory, read_events
+    
+    # Set up a custom basemap, example is taken from basemap users' manual
+    fig, ax = plt.subplots()
+    
+    # setup albers equal area conic basemap
+    # lat_1 is first standard parallel.
+    # lat_2 is second standard parallel.
+    # lon_0, lat_0 is central point.
+#    m = Basemap(width=8000000, height=7000000,
+#                resolution='c', projection='aea',
+#                lat_1=40., lat_2=60, lon_0=25, lat_0=40, ax=ax)
+    
+    #m = Basemap(llcrnrlon=3.75,llcrnrlat=39.75,urcrnrlon=4.35,urcrnrlat=40.15, resolution = 'h', epsg=5520)
+    #m = Basemap(llcrnrlon= -75,llcrnrlat= -2,urcrnrlon=-72,urcrnrlat=-12, resolution = 'h', epsg=5520)
+   
+    m = Basemap(llcrnrlon = -75.343051, llcrnrlat = 5.605886, urcrnrlon = -71.360507
+,urcrnrlat = 8.179697,  resolution = 'h'  )
+
+    m.drawcoastlines()
+    m.drawcountries()
+    m.drawstates()
+    m.fillcontinents(color='wheat', lake_color='skyblue')
+    # draw parallels and meridians.
+    m.drawparallels(np.arange(-80., 81., 20.))
+    m.drawmeridians(np.arange(-180., 181., 20.))
+    m.drawmapboundary(fill_color='skyblue')
+    ax.set_title("Albers Equal Area Projection")
+    
+    # we need to attach the basemap object to the figure, so that obspy knows about
+    # it and reuses it
+    fig.bmap = m
+    plt.show()
 
 
       
-#list_of_files = os.listdir(path)  
-#        pattern = "*.S*"  
-#        for filename in list_of_files:  
-#            if fnmatch.fnmatch(filename, pattern):
-#                    
-#                sfile = Sfile(filename = filename, path = self.path)
-#                sfile.get_params()
-#                self.sfiles.append(sfile)
-#        
-#        print("Files found: ")
-#        print(len(self.sfiles))
-            
+
+        
+#%% Export in txt location of seismic events
+def export_seismic_locations(sfiles):
+    with open('event_locations.txt', 'a') as the_file:
+        for sfile in sfiles:
+            lat = sfile.type_1['LATITUDE']
+            lon = sfile.type_1['LONGITUDE']
+            the_file.write(lat+','+lon+'\n')
     
-        
 
 
-
-
-
-####### Bar chart
-#import matplotlib.pyplot as plt
-#import plotly.plotly as py
-#
-#dictionary = plt.figure()
-#
-#D = {u'Label0':26, u'Label1': 17, u'Label2':30}
-#
-#plt.bar(range(len(D)), D.values(), align='center')
-#plt.xticks(range(len(D)), D.keys())
-#
-##plot_url = py.plot_mpl(dictionary, filename='mpl-dictionary')
-
-
-
-##### Scatter plot
-#import numpy as np
-#import matplotlib.pyplot as plt
-#
-## Fixing random state for reproducibility
-#np.random.seed(19680801)
-#
-#
-#N = 50
-#x = np.random.rand(N)
-#y = np.random.rand(N)
-#colors = np.random.rand(N)
-#area = np.pi * (15 * np.random.rand(N))**2  # 0 to 15 point radii
-#
-#plt.scatter(x, y, s=area, c=colors, alpha=0.5)
-#plt.show()
-
-#plt.figure()
-#plt.bar(range(2), [3,5], align='center')
-#plt.xticks(range(2), ['bra\nkj','vdd'])
-#plt.xlabel("Station name")
-#plt.ylabel("Amount of events")
-
-        
-        
     
