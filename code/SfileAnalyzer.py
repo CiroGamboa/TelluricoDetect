@@ -654,6 +654,118 @@ def export_seismic_locations(sfiles):
             lat = sfile.type_1['LATITUDE']
             lon = sfile.type_1['LONGITUDE']
             the_file.write(lat+','+lon+'\n')
+            
+            
+#%%
+def plot_mean_epicenter_dis(sfiles,group_factor,save_graphs):
+    import matplotlib.pyplot as plt
+    import operator
+    
+    events_per_station = {}
+    cont_bar = 0
+    for sfile in sfiles:
+        last_station_name = " "
+        stations = sfile.type_7
+        for station in stations:
+            station_name = station['STAT']
+#            if(station_name == 'TEIG'):
+#                print(sfile.filename)
+            
+            try: # There are empty DIS fields
+                station_dis = float(station['DIS'])
+                if station_name not in events_per_station:
+                    
+                    #print(station['DIS'])
+                    #print(sfile.filename)
+                    #print(station_name)
+                    
+#                    if(station_dis > 250 and station_name == 'BAR2'):
+#                        print("PELIGRO")
+#                        print(sfile.filename)
+#                        print(station_name)
+#                        print(station_dis+'\n')
+                    
+                    events_per_station[station_name] = [1,station_dis]
+                else:
+                    if station_name != last_station_name:
+                        events_per_station[station_name][0] = events_per_station[station_name][0] + 1
+                        events_per_station[station_name][1] = events_per_station[station_name][1] + station_dis
+                        last_station_name = station_name
+                        
+#                        if(station_name == 'BAR2'):
+#                            cont_bar += 1
+            
+            except:
+                pass
+                    
+            
+#    print(cont_bar)
+    # This is a workaround, should be improved
+    event_list = sorted(events_per_station.items(), key=operator.itemgetter(1))
+    event_list.reverse()
+#    print(events_per_station)
+    event_dict = {}
+    
+    segmented_graphs = []
+    index = 0
+    list_index = -1
+    for event in event_list:
+        
+        if(index%group_factor == 0):
+            segmented_graphs.append({})
+            list_index += 1
+            
+        event_dict[event[0]] = event[1][1]/event[1][0]
+        segmented_graphs[list_index][event[0]] = event[1][1]/event[1][0]
+        index += 1
+        
+        #print(event)
+        
+#        print("Data")
+#        print(event[1][1])
+#        print(event[1][0])
+        
+    #print(segmented_graphs)  
+    
+##########    
+    plt.figure()
+    plt.title("Mean epicenter distance per station 2010-2017")
+    plt.bar(range(len(event_dict)), event_dict.values(), align='center')
+    plt.xlabel("Station index")
+    plt.ylabel("Mean epicenter distance")
+    
+    path = "IOfiles/Graphs/"
+    if(save_graphs):   
+        if not os.path.exists(path):
+            os.makedirs(path)           
+        plt.savefig(path+"MeanEpicDisXstationAll.png")
+    
+    index = 0
+    for graph in segmented_graphs:
+        plt.figure()
+        group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+        plt.title("Mean epicenter distance per station 2010-2017 ["+group_name+"]")
+        plt.bar(range(len(graph)), graph.values(), align='center')
+        plt.xticks(range(len(graph)), graph.keys())
+        plt.xlabel("Station name")
+        plt.ylabel("Mean epicenter distance")
+        index += 1
+        
+        if(save_graphs):
+            plt.savefig(path+"MeanEpicDisXstation"+group_name+".png")
+###########       
+        
+    # Es buena idea verificar la fecha minima y la maxima para ponerlas como
+    # parametro de entrada
+    
+    #print("Events per Station between 2010 and 2017") 
+    #for event in event_dict:
+     #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
+        
+    return event_dict
+
+    
+    
     
 
 

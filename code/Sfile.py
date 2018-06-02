@@ -49,7 +49,7 @@ class Sfile:
                 
                 if station_flag and line[1] is not ' ':
                     station_info = {
-                                    'STAT'          : line[1:5].strip(),
+                                    'STAT'          : line[1:6].strip(),
                                     'SP'            : line[6:8].strip(),
                                     'IPHASW'        : line[9:15].strip(),
                                     'D'             : line[16],
@@ -64,7 +64,7 @@ class Sfile:
                                     'AR'            : line[61:63].strip(),
                                     'TRES'          : line[64:68].strip(),
                                     'W'             : line[69],
-                                    'DIS'           : line[71:75].strip(),
+                                    'DIS'           : line[70:75].strip(),
                                     'CAS'           : line[76:79].strip()
                                 }
                     
