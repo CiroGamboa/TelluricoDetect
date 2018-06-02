@@ -656,7 +656,7 @@ def export_seismic_locations(sfiles):
             the_file.write(lat+','+lon+'\n')
             
             
-#%%
+#%% DEJAR QUE ESTE SEA ORDENADO POR DISTANCIA EPICENTRAL
 def plot_mean_epicenter_dis(sfiles,group_factor,save_graphs):
     import matplotlib.pyplot as plt
     import operator
@@ -764,9 +764,224 @@ def plot_mean_epicenter_dis(sfiles,group_factor,save_graphs):
         
     return event_dict
 
+
+#%% Plot seisms per station and mean epicenter distance per station
+def plot_magDis_per_station(sfiles,group_factor,save_graphs, order_by_mag = True):
+    import matplotlib.pyplot as plt
+    import operator
+    
+    events_per_station = {}
+    for sfile in sfiles:
+        last_station_name = " "
+        stations = sfile.type_7
+        for station in stations:
+            station_name = station['STAT']
+#            if(station_name == 'TEIG'):
+#                print(sfile.filename)
+            
+            try: # There are empty DIS fields
+                station_dis = float(station['DIS'])
+                if station_name not in events_per_station:
+                    
+                    #print(station['DIS'])
+                    #print(sfile.filename)
+                    #print(station_name)
+                    
+#                    if(station_dis > 250 and station_name == 'BAR2'):
+#                        print("PELIGRO")
+#                        print(sfile.filename)
+#                        print(station_name)
+#                        print(station_dis+'\n')
+                    
+                    events_per_station[station_name] = [1,station_dis]
+                else:
+                    if station_name != last_station_name:
+                        events_per_station[station_name][0] = events_per_station[station_name][0] + 1
+                        events_per_station[station_name][1] = events_per_station[station_name][1] + station_dis
+                        last_station_name = station_name
+                        
+#                        if(station_name == 'BAR2'):
+#                            cont_bar += 1
+            
+            except:
+                pass
+                    
+            
+#    print(cont_bar)
+    # This is a workaround, should be improved
+    event_list = sorted(events_per_station.items(), key=operator.itemgetter(1))
+    event_list.reverse()
+#    print(events_per_station)
+    dis_dict = {}
+    amount_dict = {}
+    
+    segmented_graphs = []
+    amount_graphs = []
+    index = 0
+    list_index = -1
+    for event in event_list:
+        
+        if(index%group_factor == 0):
+            segmented_graphs.append({})
+            amount_graphs.append({})
+            list_index += 1
+            
+        dis_dict[event[0]] = event[1][1]/event[1][0]
+        amount_dict[event[0]] = event[1][0]
+        
+        segmented_graphs[list_index][event[0]] = event[1][1]/event[1][0]
+        amount_graphs[list_index][event[0]] = event[1][0]
+        index += 1
+        
+##########
+    fig, ax1 = plt.subplots()
+    
+    x1 = [x - 0.4 for x in range(len(dis_dict))]
+    
+    color = 'tab:red'
+    ax1.set_xlabel('Station Index: Ordered by amount of seisms')
+    ax1.set_ylabel('Amount of Seisms', color=color)
+    ax1.bar(x1, amount_dict.values(), color=color, width = 0.4, align = 'edge')
+    ax1.tick_params(axis='y', labelcolor=color)
+    
+    ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
     
     
+    color = 'tab:blue'
+    ax2.set_ylabel('Mean epicenter distance', color=color)  # we already handled the x-label with ax1
+    ax2.bar(range(len(dis_dict)),dis_dict.values(), color=color, width = 0.4, align = 'edge')
+    ax2.tick_params(axis='y', labelcolor=color)
     
+    fig.tight_layout()  # otherwise the right y-label is slightly clipped
+    plt.title("Mean Dis VS Amount of Seisms per station 2010-2017")
+    #plt.show()
+    
+    path = "IOfiles/Graphs/"
+    if(save_graphs):   
+        if not os.path.exists(path):
+            os.makedirs(path)           
+        plt.savefig(path+"MeanDisVSamountXstationAll.png")
+        
+        
+        
+    index = 0
+    for (graph_dis,graph_amount) in zip(segmented_graphs,amount_graphs):
+        #plt.figure()
+        group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+        
+        fig, ax1 = plt.subplots()
+        plt.title("Mean Dis VS Amount of Seisms per station 2010-2017 ["+group_name+"]")
+        
+        x1 = [x - 0.4 for x in range(len(graph_dis))]
+        color = 'tab:red'
+        ax1.set_ylabel('Amount of Seisms', color=color)
+        ax1.bar(x1, graph_amount.values(), color=color, width = 0.4, align = 'edge')
+        ax1.tick_params(axis='y', labelcolor=color)
+        ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
+        
+        
+        color = 'tab:blue'
+        ax2.set_ylabel('Mean epicenter distance', color=color)  # we already handled the x-label with ax1
+        ax2.bar(range(len(graph_dis)),graph_dis.values(), color=color, width = 0.4, align = 'edge')
+        ax2.tick_params(axis='y', labelcolor=color)
+        
+        fig.tight_layout()  # otherwise the right y-label is slightly clipped
+        
+        
+#        plt.bar(range(len(graph)), graph.values(), align='center')
+        plt.xticks(range(len(graph_dis)), graph_dis.keys())
+#        plt.xlabel("Station name")
+#        plt.ylabel("Mean epicenter distance")
+        index += 1
+        
+
+        
+        
+        #ax1.set_xlabel('Station Index: Ordered by amount of seisms')
+        
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        if(save_graphs):
+            plt.savefig(path+"MeanDisVSamountXstation"+group_name+".png")
+
+##########        
+        
+        
+
+##########    
+#    plt.figure()
+#    plt.title("Mean epicenter distance per station 2010-2017")
+#    plt.bar(range(len(dis_dict)), dis_dict.values(), align='center')
+#    plt.xlabel("Station index")
+#    plt.ylabel("Mean epicenter distance")
+#    
+#    path = "IOfiles/Graphs/"
+#    if(save_graphs):   
+#        if not os.path.exists(path):
+#            os.makedirs(path)           
+#        plt.savefig(path+"MeanEpicDisXstationAll.png")
+#    
+#    index = 0
+#    for graph in segmented_graphs:
+#        plt.figure()
+#        group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+#        plt.title("Mean epicenter distance per station 2010-2017 ["+group_name+"]")
+#        plt.bar(range(len(graph)), graph.values(), align='center')
+#        plt.xticks(range(len(graph)), graph.keys())
+#        plt.xlabel("Station name")
+#        plt.ylabel("Mean epicenter distance")
+#        index += 1
+#        
+#        if(save_graphs):
+#            plt.savefig(path+"MeanEpicDisXstation"+group_name+".png")
+###########       
+        
+    # Es buena idea verificar la fecha minima y la maxima para ponerlas como
+    # parametro de entrada
+    
+    #print("Events per Station between 2010 and 2017") 
+    #for event in event_dict:
+     #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
+        
+    return dis_dict,amount_dict
+
+    
+#%%
+#import numpy as np
+#import matplotlib.pyplot as plt
+#
+## Create some mock data
+#t = np.arange(0.01, 10.0, 0.01)
+#data1 = np.exp(t)
+#data2 = np.sin(2 * np.pi * t)
+#
+#fig, ax1 = plt.subplots()
+#
+#color = 'tab:red'
+#ax1.set_xlabel('time (s)')
+#ax1.set_ylabel('exp', color=color)
+#ax1.plot(t, data1, color=color)
+#ax1.tick_params(axis='y', labelcolor=color)
+#
+#ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
+#
+#color = 'tab:blue'
+#ax2.set_ylabel('sin', color=color)  # we already handled the x-label with ax1
+#ax2.plot(t, data2, color=color)
+#ax2.tick_params(axis='y', labelcolor=color)
+#
+#fig.tight_layout()  # otherwise the right y-label is slightly clipped
+#plt.show()
 
 
     
