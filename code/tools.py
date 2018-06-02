@@ -15,10 +15,12 @@ from TraceComponent import TraceComponent
 import math
 from obspy.signal.trigger import classic_sta_lta
 from obspy.signal.trigger import plot_trigger
+from scipy.signal import resample
 from scipy.signal import hilbert
 import pandas as pd
 import scipy as sc
 import operator
+from scipy.stats import pearsonr
 
 class TelluricoTools:
     
@@ -51,6 +53,10 @@ class TelluricoTools:
     def sub_trace(trace, inf_limit, sup_limit):
         output = [trace[x] for x in range(inf_limit, sup_limit)]
         return output
+    
+    def resample(trace, actual_df, new_df):
+        total_samples = int(len(trace)*(new_df/actual_df))
+        return resample(trace, total_samples, t=None, axis=0, window=None)
     
     # Fast Fourier Transform
     def FFT(trace, SR, station):
@@ -141,12 +147,25 @@ class Attributes:
         ml.plot(t, amplitude_envelope)
     
     # Signal entropy calculation
-    def entropy(trace):
+    def entropy(trace): # revisar
         y = np.bincount(trace)/len(trace)
         ii = np.nonzero(y)[0]
         out = np.vstack((ii, y[ii])).T
         entropy=sc.stats.entropy(out)  # input probabilities to get the entropy
         return entropy
+    
+    #Correlation between signals
+    def cross_correlation(t1, t2):
+        if(len(t1) == len(t2)):
+            return sc.correlate(t1, t2, mode='same') / len(t1)
+        else:
+            return 0
+    
+    def pearson_correlation(t1, t2):
+        if(len(t1) == len(t2)):
+            return pearsonr(t1, t2)
+        else:
+            return 2.0
 
 class SeismicInfo:
     

@@ -13,9 +13,11 @@ import matplotlib.pyplot as ml
 import math
 import obspy.core.utcdatetime as dt
 import obspy.signal.filter as filt
+from scipy.signal import resample
 
 class TraceComponent:
-        
+    
+    # Filter, normalice and resample signals
     def __init__(self, trace):
         self.waveform = self.normalice(trace)
         self.network = trace.stats.network
@@ -24,13 +26,16 @@ class TraceComponent:
         self.channel = trace.stats.channel
         self.starttime = dt.UTCDateTime(trace.stats.starttime)
         self.endtime = dt.UTCDateTime(trace.stats.endtime)
-        self.sampling_rate = trace.stats.sampling_rate
+#        self.sampling_rate = trace.stats.sampling_rate
+        self.sampling_rate = 100.0
+        self.original_sampling_rate = trace.stats.sampling_rate
         self.delta = trace.stats.delta
         self.npts = trace.stats.npts
         self.calib = trace.stats.calib
         self.formatseed = trace.stats._format
         self.mseed = trace.stats.mseed
-        self.filter_wave = self.bandpass_filter(self.waveform, self.sampling_rate)
+        self.filter_wave = self.resample_trace(self.bandpass_filter(self.waveform, 
+                    self.sampling_rate), self.original_sampling_rate, 100.0)
     
     # Normalice the trace, deleting d.c. level
     def normalice(self, trace):
@@ -43,6 +48,13 @@ class TraceComponent:
     # Normalice the trace, deleting d.c. level
     def bandpass_filter(self, waveform, SR):
         return filt.bandpass(waveform, 1, 8, SR, corners=4, zerophase=False)
+    
+    def resample_trace(self, trace, actual_df, new_df):
+        if(actual_df != new_df):
+            total_samples = int(len(trace)*(new_df/actual_df))
+            return resample(trace, total_samples, t=None, axis=0, window=None)
+        else:
+            return trace
     
     # Check if the trace contains information different from zero
     def check_trace(self, trace):

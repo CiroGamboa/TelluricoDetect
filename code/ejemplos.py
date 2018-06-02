@@ -131,6 +131,17 @@ z = np.arange(300, 400)
 ax1.plot(t, y, 'k')
 ax2 = fig.add_subplot(212, sharex=ax1)
 ax2.plot(t, z, 'k')
+#%%
+from scipy.signal import resample
+from obspy import read
+import matplotlib.pyplot as ml
+st = read('IOfiles/2015-03-10-2049-48M.COL___284')
+ml.plot(st[0].data)
+actual_df = st[0].stats.sampling_rate
+new_df = 100.0
+total_samples = int(len(trace)*(new_df/actual_df))
+sampled = resample(st[0].data, total_samples, t=None, axis=0, window=None)
+ml.plot(sampled)
 #%% Ejemplo de mapa
 from mpl_toolkits.basemap import Basemap
 import numpy as np
@@ -166,3 +177,22 @@ fig.bmap = m
 #cat.plot(fig=fig, show=False, title="", colorbar=False)
 
 plt.show()
+#%% Correlation between signals
+from scipy import signal
+import matplotlib.pyplot as ml
+
+sig = np.repeat([0., 1., 1., 0., 1., 0., 0., 1.], 128)
+sig_noise = sig + np.random.randn(len(sig))
+corr = signal.correlate(sig_noise, np.ones(128), mode='same')
+#ml.plot(corr)
+sig1 = np.zeros(1000); sig1[400:601] = 1
+sig2 = np.zeros(1000); sig2[400:601] = np.arange(0, (1+1/200), 1/200)
+corr = signal.correlate(sig1, sig1, mode='same')/len(sig1)
+ml.plot(corr); ml.plot(sig1); ml.plot(sig2)
+
+#%%
+from scipy.stats import pearsonr
+
+sig1 = np.zeros(1000); sig1[400:601] = 1
+sig2 = np.zeros(1000); sig2[400:601] = np.arange(0, (1+1/200), 1/200)
+print(pearsonr(sig1, sig2)[0])
