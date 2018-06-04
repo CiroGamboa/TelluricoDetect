@@ -51,7 +51,8 @@ class Sfile:
                     station_info = {
                                     'STAT'          : line[1:6].strip(),
                                     'SP'            : line[6:8].strip(),
-                                    'IPHASW'        : line[9:15].strip(),
+                                    'IPHAS'        : line[9:14].strip(),
+                                    'W1'             : line[15],
                                     'D'             : line[16],
                                     'HRMM'          : line[18:22].strip(),
                                     'SECON'         : line[23:28].strip(),
@@ -63,7 +64,7 @@ class Sfile:
                                     'AIN'           : line[57:60].strip(),
                                     'AR'            : line[61:63].strip(),
                                     'TRES'          : line[64:68].strip(),
-                                    'W'             : line[69],
+                                    'W2'             : line[69],
                                     'DIS'           : line[70:75].strip(),
                                     'CAS'           : line[76:79].strip()
                                 }

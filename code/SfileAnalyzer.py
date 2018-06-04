@@ -783,15 +783,6 @@ def plot_magDis_per_station(sfiles,group_factor,save_graphs, order_by_mag = True
                 station_dis = float(station['DIS'])
                 if station_name not in events_per_station:
                     
-                    #print(station['DIS'])
-                    #print(sfile.filename)
-                    #print(station_name)
-                    
-#                    if(station_dis > 250 and station_name == 'BAR2'):
-#                        print("PELIGRO")
-#                        print(sfile.filename)
-#                        print(station_name)
-#                        print(station_dis+'\n')
                     
                     events_per_station[station_name] = [1,station_dis]
                 else:
@@ -799,9 +790,6 @@ def plot_magDis_per_station(sfiles,group_factor,save_graphs, order_by_mag = True
                         events_per_station[station_name][0] = events_per_station[station_name][0] + 1
                         events_per_station[station_name][1] = events_per_station[station_name][1] + station_dis
                         last_station_name = station_name
-                        
-#                        if(station_name == 'BAR2'):
-#                            cont_bar += 1
             
             except:
                 pass
@@ -895,93 +883,141 @@ def plot_magDis_per_station(sfiles,group_factor,save_graphs, order_by_mag = True
         index += 1
         
 
-        
-        
-        #ax1.set_xlabel('Station Index: Ordered by amount of seisms')
-        
-
-        
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
         if(save_graphs):
             plt.savefig(path+"MeanDisVSamountXstation"+group_name+".png")
 
 ##########        
         
-        
-
-##########    
-#    plt.figure()
-#    plt.title("Mean epicenter distance per station 2010-2017")
-#    plt.bar(range(len(dis_dict)), dis_dict.values(), align='center')
-#    plt.xlabel("Station index")
-#    plt.ylabel("Mean epicenter distance")
-#    
-#    path = "IOfiles/Graphs/"
-#    if(save_graphs):   
-#        if not os.path.exists(path):
-#            os.makedirs(path)           
-#        plt.savefig(path+"MeanEpicDisXstationAll.png")
-#    
-#    index = 0
-#    for graph in segmented_graphs:
-#        plt.figure()
-#        group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
-#        plt.title("Mean epicenter distance per station 2010-2017 ["+group_name+"]")
-#        plt.bar(range(len(graph)), graph.values(), align='center')
-#        plt.xticks(range(len(graph)), graph.keys())
-#        plt.xlabel("Station name")
-#        plt.ylabel("Mean epicenter distance")
-#        index += 1
-#        
-#        if(save_graphs):
-#            plt.savefig(path+"MeanEpicDisXstation"+group_name+".png")
-###########       
-        
-    # Es buena idea verificar la fecha minima y la maxima para ponerlas como
-    # parametro de entrada
-    
-    #print("Events per Station between 2010 and 2017") 
-    #for event in event_dict:
-     #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
-        
     return dis_dict,amount_dict
 
     
-#%%
-#import numpy as np
-#import matplotlib.pyplot as plt
-#
-## Create some mock data
-#t = np.arange(0.01, 10.0, 0.01)
-#data1 = np.exp(t)
-#data2 = np.sin(2 * np.pi * t)
-#
-#fig, ax1 = plt.subplots()
-#
-#color = 'tab:red'
-#ax1.set_xlabel('time (s)')
-#ax1.set_ylabel('exp', color=color)
-#ax1.plot(t, data1, color=color)
-#ax1.tick_params(axis='y', labelcolor=color)
-#
-#ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
-#
-#color = 'tab:blue'
-#ax2.set_ylabel('sin', color=color)  # we already handled the x-label with ax1
-#ax2.plot(t, data2, color=color)
-#ax2.tick_params(axis='y', labelcolor=color)
-#
-#fig.tight_layout()  # otherwise the right y-label is slightly clipped
-#plt.show()
+#%% Check if the record of P wave is attached only to the Z component
+def check_Pcomponent2(sfiles):
+    z = 0
+    Z_st = {}
+    z_files = []
+    e = 0
+    E_st = {}
+    e_files = []
+    n = 0
+    N_st = {}
+    n_files = []
+    for sfile in sfiles:
+        stations = sfile.type_7
+        for station in stations:
+            sp = station['SP']
+            iphas = station['IPHAS']
+            station_name = station['STAT']
+            
+            if('P' in iphas):
+                if(sp[1] =='Z'):
+                    z+=1
+                    if(station_name in Z_st):
+                        Z_st[station_name] += 1
+                    else:
+                        Z_st[station_name] = 1
+                        
+                    z_files.append(sfile.filename)
+                elif(sp[1] =='N'):
+                    n+=1
+                    if(station_name in N_st):
+                        N_st[station_name] += 1
+                    else:
+                        N_st[station_name] = 1
+                        
+                    n_files.append(sfile.filename)
+                elif(sp[1] =='E'):
+                    e+=1
+                    if(station_name in E_st):
+                        E_st[station_name] += 1
+                    else:
+                        E_st[station_name] = 1
+                        
+                    e_files.append(sfile.filename)
+                    
+    print('P in comp Z:'+str(z))
+    print('P in comp E:'+str(e))
+    print('P in comp N:'+str(n))
+    
+    z_files = TelluricoTools.remove_duplicates(z_files)
+    e_files = TelluricoTools.remove_duplicates(e_files)
+    n_files = TelluricoTools.remove_duplicates(n_files)
+    
+    return z_files,e_files,n_files
 
+#%% Check if the record of P wave is attached only to the Z component
+def check_Pcomponent(sfiles):
+    z = {}
+    n = {}
+    e = {}
+    for sfile in sfiles:
+        stations = sfile.type_7
+        for station in stations:
+            sp = station['SP']
+            iphas = station['IPHAS']
+            station_name = station['STAT']
+            mag = sfile.type_1['TYPE_OF_MAGNITUDE_1']
+            
+            if('P' in iphas):
+                if(sp[1] == 'Z'):
+                    if(sfile.filename in z):
+                        if(station_name not in z[sfile.filename]):
+                            z[sfile.filename][1].append(station_name)
+                    else:
+                        z[sfile.filename] = (mag,[])
+                        
+                if(sp[1] == 'N'):
+                    if(sfile.filename in n):
+                        if(station_name not in n[sfile.filename]):
+                            n[sfile.filename][1].append(station_name)
+                    else:
+                        n[sfile.filename] = (mag,[])
+                if(sp[1] == 'E'):
+                    if(sfile.filename in e):
+                        if(station_name not in e[sfile.filename]):
+                            e[sfile.filename][1].append(station_name)
+                    else:
+                        e[sfile.filename] = (mag,[])
+                    
+#    print('P in comp Z:'+str(z))
+#    print('P in comp E:'+str(e))
+#    print('P in comp N:'+str(n))
+    
+#    z_files = TelluricoTools.remove_duplicates(z_files)
+#    e_files = TelluricoTools.remove_duplicates(e_files)
+#    n_files = TelluricoTools.remove_duplicates(n_files)
+                        
+    with open('z_Pwave.csv', 'a') as the_file:
+        the_file.write('Filename,Magnitude,Stations\n')
+        for zfile in z:
+            stats = ""
+            for stat in z[zfile][1]:
+                stats+="/"+stat
+            the_file.write(zfile+','+z[zfile][0]+','+stats+'\n')
+            
+            
+    with open('n_Pwave.csv', 'a') as the_file:
+        the_file.write('Filename,Magnitude,Stations\n')
+        for nfile in n:
+            stats = ""
+            for stat in n[nfile][1]:
+                stats+="/"+stat
+            the_file.write(nfile+','+n[nfile][0]+','+stats+'\n')
+            
+            
+    with open('e_Pwave.csv', 'a') as the_file:
+        the_file.write('Filename,Magnitude,Stations\n')
+        for efile in e:
+            stats = ""
+            for stat in e[efile][1]:
+                stats+=" / "+stat
+            the_file.write(efile+','+e[efile][0]+','+stats+'\n')
+
+    
+    return z,e,n
+
+            
+            
+        
 
     
