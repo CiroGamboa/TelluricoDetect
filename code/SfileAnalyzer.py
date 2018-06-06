@@ -909,7 +909,12 @@ def check_Pcomponent2(sfiles):
             iphas = station['IPHAS']
             station_name = station['STAT']
             
-            if('P' in iphas):
+            if(sp == 'E'):
+                print(station_name)
+                print(sfile.filename)
+            
+            if('P' in iphas and len(sp) > 1):
+                #print(sp)
                 if(sp[1] =='Z'):
                     z+=1
                     if(station_name in Z_st):
@@ -958,26 +963,26 @@ def check_Pcomponent(sfiles):
             station_name = station['STAT']
             mag = sfile.type_1['TYPE_OF_MAGNITUDE_1']
             
-            if('P' in iphas):
+            if('P' in iphas and len(sp) > 1):
                 if(sp[1] == 'Z'):
                     if(sfile.filename in z):
-                        if(station_name not in z[sfile.filename]):
+                        if(station_name not in z[sfile.filename][1]):
                             z[sfile.filename][1].append(station_name)
                     else:
-                        z[sfile.filename] = (mag,[])
+                        z[sfile.filename] = (mag,[station_name])
                         
                 if(sp[1] == 'N'):
                     if(sfile.filename in n):
-                        if(station_name not in n[sfile.filename]):
+                        if(station_name not in n[sfile.filename][1]):
                             n[sfile.filename][1].append(station_name)
                     else:
-                        n[sfile.filename] = (mag,[])
+                        n[sfile.filename] = (mag,[station_name])
                 if(sp[1] == 'E'):
                     if(sfile.filename in e):
-                        if(station_name not in e[sfile.filename]):
+                        if(station_name not in e[sfile.filename][1]):
                             e[sfile.filename][1].append(station_name)
                     else:
-                        e[sfile.filename] = (mag,[])
+                        e[sfile.filename] = (mag,[station_name])
                     
 #    print('P in comp Z:'+str(z))
 #    print('P in comp E:'+str(e))
