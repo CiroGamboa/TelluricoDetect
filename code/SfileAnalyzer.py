@@ -1021,8 +1021,180 @@ def check_Pcomponent(sfiles):
     
     return z,e,n
 
-            
-            
+
+#%%
+def concat_files(file1, file2):
+    input_file = open(file2, 'r') 
+    with open(file1, 'a') as the_file:
+        for line in input_file:
+            the_file.write(line)
+
+#%%
+def concat_mul_files(list_files):
+    with open(list_files.pop(0),'a') as final_file:
+        for file in list_files:
+            input_file = open(file, 'r')
+            for line in input_file:
+                final_file.write(line)
+                
+
+#%% Example 3D graph
+'''
+======================
+3D surface (color map)
+======================
+
+Demonstrates plotting a 3D surface colored with the coolwarm color map.
+The surface is made opaque by using antialiased=False.
+
+Also demonstrates using the LinearLocator and custom formatting for the
+z axis tick labels.
+'''
+
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+from matplotlib import cm
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
+import numpy as np
+
+
+fig = plt.figure()
+ax = fig.gca(projection='3d')
+
+# Make data.
+X = np.arange(-5, 5, 0.25)
+Y = np.arange(-5, 5, 0.25)
+X, Y = np.meshgrid(X, Y)
+R = np.sqrt(X**2 + Y**2)
+Z = np.sin(R)
+
+# Plot the surface.
+surf = ax.plot_surface(X, Y, Z, cmap=cm.coolwarm,
+                       linewidth=0, antialiased=False)
+
+# Customize the z axis.
+ax.set_zlim(-1.01, 1.01)
+ax.zaxis.set_major_locator(LinearLocator(10))
+ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
+
+# Add a color bar which maps values to colors.
+fig.colorbar(surf, shrink=0.5, aspect=5)
+
+plt.show()
+
+
+
+#%%
+'''
+==============
+3D scatterplot
+==============
+
+Demonstration of a basic scatterplot in 3D.
+'''
+
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+def randrange(n, vmin, vmax):
+    '''
+    Helper function to make an array of random numbers having shape (n, )
+    with each number distributed Uniform(vmin, vmax).
+    '''
+    return (vmax - vmin)*np.random.rand(n) + vmin
+
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+n = 100
+
+# For each set of style and range settings, plot n random points in the box
+# defined by x in [23, 32], y in [0, 100], z in [zlow, zhigh].
+for c, m, zlow, zhigh in [('r', 'o', -50, -25), ('b', '^', -30, -5)]:
+    xs = randrange(n, 23, 32)
+    ys = randrange(n, 0, 100)
+    zs = randrange(n, zlow, zhigh)
+    ax.scatter(xs, ys, zs, c=c, marker=m)
+
+ax.set_xlabel('X Label')
+ax.set_ylabel('Y Label')
+ax.set_zlabel('Z Label')
+
+plt.show()
+
+#%% Graph Lat vs Lon vs Depth
+def graph_LatLonDepth(sfiles):
+    
+    from mpl_toolkits.mplot3d import Axes3D
+    import matplotlib.pyplot as plt
+    import numpy as np
+    
+    lats = []
+    lons = []
+    depths = []
+    
+    for sfile in sfiles:
+        lat = sfile.type_1['LATITUDE']
+        lon = sfile.type_1['LONGITUDE']
+        depth = sfile.type_1['DEPTH']
         
+        lats.append(float(lat))
+        lons.append(float(lon))
+        depths.append(float(depth))
+         
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+    
+    n = 100
+    
+    # For each set of style and range settings, plot n random points in the box
+    # defined by x in [23, 32], y in [0, 100], z in [zlow, zhigh].
+#    for c, m, zlow, zhigh in [('r', 'o', -50, -25), ('b', '^', -30, -5)]:
+#        xs = randrange(n, 23, 32)
+#        ys = randrange(n, 0, 100)
+#        zs = randrange(n, zlow, zhigh)
+#        ax.scatter(xs, ys, zs, c=c, marker=m)
+    
+#    xs = np.asarray(lats)
+#    ys = np.asarray(lons)
+#    zs = np.asarray(depths)
+    
+    xs = lats
+    ys = lons
+    zs = depths
+    
+    c = 'r'
+    m = 'o'
+    ax.scatter(xs, ys, zs, c=c, marker=m, norm = True)
+    
+    ax.set_xlabel('X Label')
+    ax.set_ylabel('Y Label')
+    ax.set_zlabel('Z Label')
+    
+    plt.show()
+
+    
+    
+#%% Epicenters
+def get_epi_loc(sfiles):
+    epis = {}
+    weird_sfiles = []
+    for sfile in sfiles:
+        try:
+            epistring = sfile.type_3['EPICENTER_LOCATION']
+            if(epistring not in epis):
+                epis[epistring] = 1
+            else:
+                epis[epistring] += 1
+        except:
+            weird_sfiles.append(sfile.filename)
+    
+    return [TelluricoTools.remove_duplicates(epis),weird_sfiles]
+    
+        
+        
+
 
     

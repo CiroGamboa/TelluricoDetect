@@ -138,13 +138,14 @@ class Sfile:
                     # Type 3: Epicenter location
                     elif line[79] == '3':
                         # THERE MAY BE MORE FIELDS, FIELD THEM IN THE DIC
-                        self.type_3 = {
-                                       'EPICENTER_LOCATION'     :   line[12:79].strip()
-                                }
-                        
-                        # Avoid saving unused information
-                        lines.append(line)
-                        self.lines_info.append({'TYPE_3':self.type_3})
+                        if('Epicentro' in line):
+                            self.type_3 = {
+                                           'EPICENTER_LOCATION'     :   line[12:79].strip()
+                                    }
+                            
+                            # Avoid saving unused information
+                            lines.append(line)
+                            self.lines_info.append({'TYPE_3':self.type_3})
                         
                     # Type 6: File name
                     elif line[79] == '6':
