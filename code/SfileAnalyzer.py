@@ -1179,6 +1179,7 @@ def graph_LatLonDepth(sfiles):
     
 #%% Epicenters
 def get_epi_loc(sfiles):
+    import operator
     epis = {}
     weird_sfiles = []
     for sfile in sfiles:
@@ -1191,10 +1192,205 @@ def get_epi_loc(sfiles):
         except:
             weird_sfiles.append(sfile.filename)
     
-    return [TelluricoTools.remove_duplicates(epis),weird_sfiles]
+    epis_nums = sorted(epis.items(), key=operator.itemgetter(1))
+    return [epis_nums[::-1],weird_sfiles]
     
+
+#%%
+# Plot the events registered by stations in descendent order
+def seisms_per_stationEpis(sfiles,group_factor=10,num_epis=10,save_graphs=False):
+        import matplotlib.pyplot as plt
+        import operator
         
         
+        epis = get_epi_loc(sfiles)[0]
+        used_epis = epis[:num_epis]
+        used_epis = [x[0] for x in used_epis]
+        #print(used_epis)
+        
+        events_per_station = {}
+        events_quant = {}
+        for sfile in sfiles:
+            last_station_name = " "
+            stations = sfile.type_7
+            
+            # There are Sfiles without this attribute, shall ignore them
+            try:
+                epistring = sfile.type_3['EPICENTER_LOCATION']
+
+                for station in stations:
+                    station_name = station['STAT']
+                    
+                    if station_name not in events_per_station:
+                        events_per_station[station_name] = {x:0 for x in used_epis}
+                        events_quant[station_name] = 1
+                        
+                    else:
+                        if station_name != last_station_name:
+                            if epistring in used_epis:
+#                                if epistring not in events_per_station[station_name]:
+#                                    events_per_station[station_name][epistring] = 1
+#                                else:
+                                events_per_station[station_name][epistring] += 1
+                                events_quant[station_name] += 1
+                                last_station_name = station_name                       
+            except:
+                pass
+                        
+        # This is a workaround, should be improved
+#        event_list = sorted(events_quant.items(), key=operator.itemgetter(1))
+#        event_list.reverse()
+#        event_dict = {}
+#        
+#        segmented_graphs = []
+#        index = 0
+#        list_index = -1
+#        for event in event_list:
+#            
+#            if(index%group_factor == 0):
+#                segmented_graphs.append({})
+#                list_index += 1
+#                
+#            event_dict[event[0]] = event[1]
+#            segmented_graphs[list_index][event[0]] = event[1]
+#            index += 1
+            
+        #print(segmented_graphs)  
+        
+        plt.figure()
+        plt.title("Seisms per station 2010-2017")
+        plt.bar(range(len(event_dict)), event_dict.values(), align='center')
+        plt.xlabel("Station index")
+        plt.ylabel("Amount of events")
+        
+        
+ fig, ax1 = plt.subplots()
+    
+    x1 = [x - 0.4 for x in range(len(dis_dict))]
+    
+    color = 'tab:red'
+    ax1.set_xlabel('Station Index: Ordered by amount of seisms')
+    ax1.set_ylabel('Amount of Seisms', color=color)
+    ax1.bar(x1, amount_dict.values(), color=color, width = 0.4, align = 'edge')
+    ax1.tick_params(axis='y', labelcolor=color)
+    
+    ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
+    
+    
+    color = 'tab:blue'
+    ax2.set_ylabel('Mean epicenter distance', color=color)  # we already handled the x-label with ax1
+    ax2.bar(range(len(dis_dict)),dis_dict.values(), color=color, width = 0.4, align = 'edge')
+    ax2.tick_params(axis='y', labelcolor=color)
+    
+    fig.tight_layout()  # otherwise the right y-label is slightly clipped
+    plt.title("Mean Dis VS Amount of Seisms per station 2010-2017")
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+#        
+#        path = "IOfiles/Graphs/"
+#        if(save_graphs):   
+#            if not os.path.exists(path):
+#                os.makedirs(path)           
+#            plt.savefig(path+"SeismsXstationAll.png")
+#        
+#        index = 0
+#        for graph in segmented_graphs:
+#            plt.figure()
+#            group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+#            plt.title("Seisms per station 2010-2017 ["+group_name+"]")
+#            plt.bar(range(len(graph)), graph.values(), align='center')
+#            plt.xticks(range(len(graph)), graph.keys())
+#            plt.xlabel("Station name")
+#            plt.ylabel("Amount of events")
+#            index += 1
+#            
+#            if(save_graphs):
+#                plt.savefig(path+"SeismsXstation"+group_name+".png")
+            
+    
+        return events_per_station
+    
+    
+#%%
+        """
+========
+Barchart
+========
+
+A bar plot with errorbars and height labels on individual bars
+"""
+import numpy as np
+import matplotlib.pyplot as plt
+
+num_epis = 2
+epis = {'EST1':{'A':3,'B':4},'EST2':{'A':1,'B':7},'EST3':{'A':8,'B':5}}
+
+width = (1/num_epis) - 0.1*num_epis
+epi_means = [epis[est][epi] for est in epis for epi in epis[est]]
+ind = np.arange(len(epis))
+
+fig, ax = plt.subplots()
+
+rects = []
+delta_width = 0
+for x in range(0,num_epis):
+    epistring = []
+    for i in range(0,len(epi_means)):
+        if i%num_epis == 0 :
+            epistring.append(epi_means[i])
+
+
+    rects.append(ax.bar(ind, epistring, width + delta_width, color='r'))
+    delta_width += width
+
+ax.set_ylabel('Scores')
+ax.set_title('Scores by group and gender')
+ax.set_xticks(ind + width / num_epis)
+ax.set_xticklabels(est for est in epis)
+
+
+
+
+#N = 5
+#men_means = (20, 35, 30, 35, 27)
+#men_std = (2, 3, 4, 1, 2)
+#
+#ind = np.arange(N)  # the x locations for the groups
+#width = 0.35       # the width of the bars
+#
+#fig, ax = plt.subplots()
+#rects1 = ax.bar(ind, men_means, width, color='r')
+#
+#women_means = (25, 32, 34, 20, 25)
+#women_std = (3, 5, 2, 3, 3)
+#rects2 = ax.bar(ind + width, women_means, width, color='y')
+#
+## add some text for labels, title and axes ticks
+#ax.set_ylabel('Scores')
+#ax.set_title('Scores by group and gender')
+#ax.set_xticks(ind + width / 2)
+#ax.set_xticklabels(('G1', 'G2', 'G3', 'G4', 'G5'))
+#
+#ax.legend((rects1[0], rects2[0]), ('Men', 'Women'))
 
 
     
