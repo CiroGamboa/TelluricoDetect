@@ -1286,25 +1286,6 @@ def seisms_per_stationEpis(sfiles,group_factor=10,num_epis=10,save_graphs=False)
     plt.title("Mean Dis VS Amount of Seisms per station 2010-2017")
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
 #        
 #        path = "IOfiles/Graphs/"
 #        if(save_graphs):   
@@ -1330,46 +1311,11 @@ def seisms_per_stationEpis(sfiles,group_factor=10,num_epis=10,save_graphs=False)
         return events_per_station
     
     
+
+
+
+
 #%%
-        """
-========
-Barchart
-========
-
-A bar plot with errorbars and height labels on individual bars
-"""
-import numpy as np
-import matplotlib.pyplot as plt
-
-num_epis = 2
-epis = {'EST1':{'A':3,'B':4},'EST2':{'A':1,'B':7},'EST3':{'A':8,'B':5}}
-
-width = (1/num_epis) - 0.1*num_epis
-epi_means = [epis[est][epi] for est in epis for epi in epis[est]]
-ind = np.arange(len(epis))
-
-fig, ax = plt.subplots()
-
-rects = []
-delta_width = 0
-for x in range(0,num_epis):
-    epistring = []
-    for i in range(0,len(epi_means)):
-        if i%num_epis == 0 :
-            epistring.append(epi_means[i])
-
-
-    rects.append(ax.bar(ind, epistring, width + delta_width, color='r'))
-    delta_width += width
-
-ax.set_ylabel('Scores')
-ax.set_title('Scores by group and gender')
-ax.set_xticks(ind + width / num_epis)
-ax.set_xticklabels(est for est in epis)
-
-
-
-
 #N = 5
 #men_means = (20, 35, 30, 35, 27)
 #men_std = (2, 3, 4, 1, 2)
@@ -1391,6 +1337,56 @@ ax.set_xticklabels(est for est in epis)
 #ax.set_xticklabels(('G1', 'G2', 'G3', 'G4', 'G5'))
 #
 #ax.legend((rects1[0], rects2[0]), ('Men', 'Women'))
+        
+
+#%%
+        """
+========
+Barchart
+========
+
+A bar plot with errorbars and height labels on individual bars
+"""
+def mul_bar_example():
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    
+    epis = {'EST1':{'A':3,'B':4,'C':1},'EST2':{'A':1,'B':7,'C':1},'EST3':{'A':8,'B':5,'C':1}}
+    #epis = {'EST1':{'A':3,'B':4,'C':2,'D':6},'EST2':{'A':1,'B':7,'C':8,'D':6},'EST3':{'A':8,'B':5,'C':1,'D':6}}
+    
+    epi_groups = {}
+    num_epis = 0
+    for est in epis:
+        actual_length = len(epis[est])
+        if num_epis < actual_length:
+            num_epis = actual_length
+        for epi in epis[est]:
+            if epi in epi_groups:
+                epi_groups[epi].append(epis[est][epi])
+            else:
+                epi_groups[epi] = [epis[est][epi]]
+        
+    
+    width = 0.9/num_epis
+    ind = np.arange(len(epis))
+    
+    fig, ax = plt.subplots()
+    
+    rects = []
+    delta_width = -(width*(num_epis)/2)
+    print(width)
+    print(delta_width)
+    
+    for key in epi_groups:
+        rects.append(ax.bar(ind  + delta_width, epi_groups[key], width, color=np.random.rand(3,), align='edge'))
+        delta_width += width
+    
+    
+    ax.set_ylabel('Scores')
+    ax.set_title('Scores by group and gender')
+    ax.set_xticks((ind + (width*num_epis) / num_epis)-width)
+    ax.set_xticklabels(est for est in epis)
 
 
     
