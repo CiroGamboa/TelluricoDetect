@@ -1401,11 +1401,13 @@ def mul_bar_graph(epis = None,colors = None):
         color_index += 1
     
     
+    ax.grid(True)
     ax.set_ylabel('Seisms per epicenter')
     ax.set_title('Seisms per epicenter per station')
     ax.set_xticks((ind + (width*num_epis) / num_epis)-width)
     ax.set_xticklabels(est for est in epis)
     ax.legend([rect[0] for rect in rects],[epi for epi in epi_groups])
+    
 
 
 
