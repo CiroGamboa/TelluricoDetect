@@ -15,7 +15,6 @@ Fuente: http://stackabuse.com/python-list-files-in-a-directory/
 #%%
 import os, fnmatch
 import re
-import matplotlib.pyplot as plt
 import numpy as np
 import shutil
 from tools import TelluricoTools
@@ -24,6 +23,12 @@ from Sfile import Sfile
 class SfileAnalyzer:
     
     def __init__(self,path):
+#        import os, fnmatch
+#        import re
+#        import numpy as np
+#        import shutil
+#        from tools import TelluricoTools
+#        from Sfile import Sfile
         self.path = path
         self.sfiles = []
         
@@ -227,30 +232,8 @@ path = "IOfiles/Filtered_RSNC_Sfiles/"
 analyzer = SfileAnalyzer(path)
 analyzer.get_sfiles()
 analyzer.group_by_magnitude()
+
 #%%
-
-def plot_by_magnitude(sfiles):
-    undefined_group = []
-    magnitudes = []
-    for sfile in sfiles:
-            
-        try:  
-            mag = float(sfile.type_1['TYPE_OF_MAGNITUDE_1'])
-            if(mag is not None):
-                magnitudes.append(mag*10)
-                
-        except:
-            undefined_group.append(sfile)
-    print(magnitudes)
-    #plt.hist(range(0,6.5), weights=magnitudes,bins = magnitudes)
-    
-    
-    x_axis = np.arange(0,66,1)
-    hist = plt.hist(magnitudes,bins = x_axis)
-    plt.show()
-    return [magnitudes,hist]
-    #np.histogram(magnitudes)
-
 # Group by the magnitude value
 def group_by_magnitude(sfiles,ranges):
     
@@ -279,8 +262,6 @@ def group_by_magnitude(sfiles,ranges):
             damaged_group.append(sfile.filename)
            
     return [groups,undefined_group,damaged_group]
-
-
 
 # Group by the magnitude value and copy files
 '''
@@ -410,243 +391,7 @@ def copy_file(filename,file_paths, destination_path):
         print(filename+" "+destination_path)
         
     return found
-
-#%%      PLOTS
-# Plot the events registered by stations in descendent order
-def seisms_per_station(sfiles,group_factor,save_graphs,include_comps):
-        import matplotlib.pyplot as plt
-        import operator
-        
-        
-        events_per_station = {}
-        for sfile in sfiles:
-            last_station_name = " "
-            stations = sfile.type_7
-            for station in stations:
-                station_name = station['STAT']
-                
-                if station_name not in events_per_station:
-                    events_per_station[station_name] = 1
-                else:
-                    if station_name != last_station_name:
-                        events_per_station[station_name] = events_per_station[station_name] + 1
-                        last_station_name = station_name
-                        
-        # This is a workaround, should be improved
-        event_list = sorted(events_per_station.items(), key=operator.itemgetter(1))
-        event_list.reverse()
-        event_dict = {}
-        
-        segmented_graphs = []
-        index = 0
-        list_index = -1
-        for event in event_list:
-            
-            if(index%group_factor == 0):
-                segmented_graphs.append({})
-                list_index += 1
-                
-            event_dict[event[0]] = event[1]
-            segmented_graphs[list_index][event[0]] = event[1]
-            index += 1
-            
-        #print(segmented_graphs)  
-        
-        plt.figure()
-        plt.title("Seisms per station 2010-2017")
-        plt.bar(range(len(event_dict)), event_dict.values(), align='center')
-        plt.xlabel("Station index")
-        plt.ylabel("Amount of events")
-        
-        path = "IOfiles/Graphs/"
-        if(save_graphs):   
-            if not os.path.exists(path):
-                os.makedirs(path)           
-            plt.savefig(path+"SeismsXstationAll.png")
-        
-        index = 0
-        for graph in segmented_graphs:
-            plt.figure()
-            group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
-            plt.title("Seisms per station 2010-2017 ["+group_name+"]")
-            plt.bar(range(len(graph)), graph.values(), align='center')
-            plt.xticks(range(len(graph)), graph.keys())
-            plt.xlabel("Station name")
-            plt.ylabel("Amount of events")
-            index += 1
-            
-            if(save_graphs):
-                plt.savefig(path+"SeismsXstation"+group_name+".png")
-            
-            
-        # Es buena idea verificar la fecha minima y la maxima para ponerlas como
-        # parametro de entrada
-        
-        #print("Events per Station between 2010 and 2017") 
-        #for event in event_dict:
-         #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
-            
-        return event_dict
-
-#%% Components in station
-def components_per_station(sfiles,group_factor,save_graphs):
-        import matplotlib.pyplot as plt
-
-        import operator
-        
-        
-        events_per_station = {}
-        comps_per_station = {}
-        for sfile in sfiles:
-            last_station_name = " "
-            stations = sfile.type_7
-            for station in stations:
-                station_name = station['STAT']
-                station_comp = station['SP']
-                
-                if station_name not in events_per_station:
-                    events_per_station[station_name] = 1
-                    comps_per_station[station_name] = []
-                else:
-                    if station_name != last_station_name:
-                        events_per_station[station_name] = events_per_station[station_name] + 1
-                        last_station_name = station_name
-                        
-                comps_per_station[station_name].append(station_comp)
-        #print(comps_per_station)
-                        
-        # This is a workaround, should be improved
-        event_list = sorted(events_per_station.items(), key=operator.itemgetter(1))
-        event_list.reverse()
-        event_dict = {}
-        
-        segmented_graphs = []
-        index = 0
-        list_index = -1
-        for (event,comp_dict_key) in zip(event_list,comps_per_station):
-            
-            #print(comp_dict_key)
-            comps_per_station[comp_dict_key] = TelluricoTools.remove_duplicates(comps_per_station[comp_dict_key])
-            
-            if(index%group_factor == 0):
-                segmented_graphs.append({})
-                list_index += 1
-                
-            event_dict[event[0]] = event[1]
-            segmented_graphs[list_index][event[0]] = event[1]
-            index += 1
-            
-        #print(segmented_graphs)  
-        #print(comps_per_station)
-        plt.figure()
-        plt.title("Seisms per station 2010-2017")
-        plt.bar(range(len(event_dict)), event_dict.values(), align='center')
-        plt.xlabel("Station index")
-        plt.ylabel("Amount of events")
-        
-        path = "IOfiles/Graphs/"
-        if(save_graphs):   
-            if not os.path.exists(path):
-                os.makedirs(path)           
-            plt.savefig(path+"SeismsXstationAll.png")
-        
-        index = 0
-        
-        
-        
-        
-        
-        
-        for graph in segmented_graphs:
-            
-            # Concat station components to station name
-            new_keys = []
-            string_name = ""
-            for station_name in graph:
-                string_name = station_name + '\n'
-                comps = comps_per_station[station_name]
-                for comp in comps:
-                    string_name += comp + '\n'
-                
-                #print(string_name)
-                #graph[station_name] = graph.pop(string_name)
-                new_keys.append(string_name)
-                
-            group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
-            #print(graph.keys())
-            plt.figure()
-            plt.title("Seisms per station 2010-2017 ["+group_name+"]")
-            plt.bar(range(len(graph)), graph.values(), align='center')
-            #plt.xticks(range(len(graph)), graph.keys())
-            plt.xticks(range(len(graph)), new_keys)
-            plt.xlabel("Station name")
-            plt.ylabel("Amount of events")
-            index += 1
-            
-            if(save_graphs):
-                plt.savefig(path+"SeismsXstation"+group_name+".png")
-            
-            
-        # Es buena idea verificar la fecha minima y la maxima para ponerlas como
-        # parametro de entrada
-        
-        #print("Events per Station between 2010 and 2017") 
-        #for event in event_dict:
-         #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
-            
-        return [event_dict,comps_per_station]
     
-    
-    
-    
-    
-    
-    
-    
-#%% Plot Events in Map
-def plot_events():
-    from mpl_toolkits.basemap import Basemap
-    import numpy as np
-    import matplotlib.pyplot as plt
-    
-    from obspy import read_inventory, read_events
-    
-    # Set up a custom basemap, example is taken from basemap users' manual
-    fig, ax = plt.subplots()
-    
-    # setup albers equal area conic basemap
-    # lat_1 is first standard parallel.
-    # lat_2 is second standard parallel.
-    # lon_0, lat_0 is central point.
-#    m = Basemap(width=8000000, height=7000000,
-#                resolution='c', projection='aea',
-#                lat_1=40., lat_2=60, lon_0=25, lat_0=40, ax=ax)
-    
-    #m = Basemap(llcrnrlon=3.75,llcrnrlat=39.75,urcrnrlon=4.35,urcrnrlat=40.15, resolution = 'h', epsg=5520)
-    #m = Basemap(llcrnrlon= -75,llcrnrlat= -2,urcrnrlon=-72,urcrnrlat=-12, resolution = 'h', epsg=5520)
-   
-    m = Basemap(llcrnrlon = -75.343051, llcrnrlat = 5.605886, urcrnrlon = -71.360507
-,urcrnrlat = 8.179697,  resolution = 'h'  )
-
-    m.drawcoastlines()
-    m.drawcountries()
-    m.drawstates()
-    m.fillcontinents(color='wheat', lake_color='skyblue')
-    # draw parallels and meridians.
-    m.drawparallels(np.arange(-80., 81., 20.))
-    m.drawmeridians(np.arange(-180., 181., 20.))
-    m.drawmapboundary(fill_color='skyblue')
-    ax.set_title("Albers Equal Area Projection")
-    
-    # we need to attach the basemap object to the figure, so that obspy knows about
-    # it and reuses it
-    fig.bmap = m
-    plt.show()
-
-
-      
-
-        
 #%% Export in txt location of seismic events
 def export_seismic_locations(sfiles):
     with open('event_locations.txt', 'a') as the_file:
@@ -655,240 +400,55 @@ def export_seismic_locations(sfiles):
             lon = sfile.type_1['LONGITUDE']
             the_file.write(lat+','+lon+'\n')
             
-            
-#%% DEJAR QUE ESTE SEA ORDENADO POR DISTANCIA EPICENTRAL
-def plot_mean_epicenter_dis(sfiles,group_factor,save_graphs):
-    import matplotlib.pyplot as plt
-    import operator
-    
-    events_per_station = {}
-    cont_bar = 0
-    for sfile in sfiles:
-        last_station_name = " "
-        stations = sfile.type_7
-        for station in stations:
-            station_name = station['STAT']
-#            if(station_name == 'TEIG'):
-#                print(sfile.filename)
-            
-            try: # There are empty DIS fields
-                station_dis = float(station['DIS'])
-                if station_name not in events_per_station:
-                    
-                    #print(station['DIS'])
-                    #print(sfile.filename)
-                    #print(station_name)
-                    
-#                    if(station_dis > 250 and station_name == 'BAR2'):
-#                        print("PELIGRO")
-#                        print(sfile.filename)
-#                        print(station_name)
-#                        print(station_dis+'\n')
-                    
-                    events_per_station[station_name] = [1,station_dis]
-                else:
-                    if station_name != last_station_name:
-                        events_per_station[station_name][0] = events_per_station[station_name][0] + 1
-                        events_per_station[station_name][1] = events_per_station[station_name][1] + station_dis
-                        last_station_name = station_name
-                        
-#                        if(station_name == 'BAR2'):
-#                            cont_bar += 1
-            
-            except:
-                pass
-                    
-            
-#    print(cont_bar)
-    # This is a workaround, should be improved
-    event_list = sorted(events_per_station.items(), key=operator.itemgetter(1))
-    event_list.reverse()
-#    print(events_per_station)
-    event_dict = {}
-    
-    segmented_graphs = []
-    index = 0
-    list_index = -1
-    for event in event_list:
-        
-        if(index%group_factor == 0):
-            segmented_graphs.append({})
-            list_index += 1
-            
-        event_dict[event[0]] = event[1][1]/event[1][0]
-        segmented_graphs[list_index][event[0]] = event[1][1]/event[1][0]
-        index += 1
-        
-        #print(event)
-        
-#        print("Data")
-#        print(event[1][1])
-#        print(event[1][0])
-        
-    #print(segmented_graphs)  
-    
-##########    
-    plt.figure()
-    plt.title("Mean epicenter distance per station 2010-2017")
-    plt.bar(range(len(event_dict)), event_dict.values(), align='center')
-    plt.xlabel("Station index")
-    plt.ylabel("Mean epicenter distance")
-    
-    path = "IOfiles/Graphs/"
-    if(save_graphs):   
-        if not os.path.exists(path):
-            os.makedirs(path)           
-        plt.savefig(path+"MeanEpicDisXstationAll.png")
-    
-    index = 0
-    for graph in segmented_graphs:
-        plt.figure()
-        group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
-        plt.title("Mean epicenter distance per station 2010-2017 ["+group_name+"]")
-        plt.bar(range(len(graph)), graph.values(), align='center')
-        plt.xticks(range(len(graph)), graph.keys())
-        plt.xlabel("Station name")
-        plt.ylabel("Mean epicenter distance")
-        index += 1
-        
-        if(save_graphs):
-            plt.savefig(path+"MeanEpicDisXstation"+group_name+".png")
-###########       
-        
-    # Es buena idea verificar la fecha minima y la maxima para ponerlas como
-    # parametro de entrada
-    
-    #print("Events per Station between 2010 and 2017") 
-    #for event in event_dict:
-     #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
-        
-    return event_dict
-
-
-#%% Plot seisms per station and mean epicenter distance per station
-def plot_magDis_per_station(sfiles,group_factor,save_graphs, order_by_mag = True):
-    import matplotlib.pyplot as plt
-    import operator
-    
-    events_per_station = {}
-    for sfile in sfiles:
-        last_station_name = " "
-        stations = sfile.type_7
-        for station in stations:
-            station_name = station['STAT']
-#            if(station_name == 'TEIG'):
-#                print(sfile.filename)
-            
-            try: # There are empty DIS fields
-                station_dis = float(station['DIS'])
-                if station_name not in events_per_station:
-                    
-                    
-                    events_per_station[station_name] = [1,station_dis]
-                else:
-                    if station_name != last_station_name:
-                        events_per_station[station_name][0] = events_per_station[station_name][0] + 1
-                        events_per_station[station_name][1] = events_per_station[station_name][1] + station_dis
-                        last_station_name = station_name
-            
-            except:
-                pass
-                    
-            
-#    print(cont_bar)
-    # This is a workaround, should be improved
-    event_list = sorted(events_per_station.items(), key=operator.itemgetter(1))
-    event_list.reverse()
-#    print(events_per_station)
-    dis_dict = {}
-    amount_dict = {}
-    
-    segmented_graphs = []
-    amount_graphs = []
-    index = 0
-    list_index = -1
-    for event in event_list:
-        
-        if(index%group_factor == 0):
-            segmented_graphs.append({})
-            amount_graphs.append({})
-            list_index += 1
-            
-        dis_dict[event[0]] = event[1][1]/event[1][0]
-        amount_dict[event[0]] = event[1][0]
-        
-        segmented_graphs[list_index][event[0]] = event[1][1]/event[1][0]
-        amount_graphs[list_index][event[0]] = event[1][0]
-        index += 1
-        
-##########
-    fig, ax1 = plt.subplots()
-    
-    x1 = [x - 0.4 for x in range(len(dis_dict))]
-    
-    color = 'tab:red'
-    ax1.set_xlabel('Station Index: Ordered by amount of seisms')
-    ax1.set_ylabel('Amount of Seisms', color=color)
-    ax1.bar(x1, amount_dict.values(), color=color, width = 0.4, align = 'edge')
-    ax1.tick_params(axis='y', labelcolor=color)
-    
-    ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
-    
-    
-    color = 'tab:blue'
-    ax2.set_ylabel('Mean epicenter distance', color=color)  # we already handled the x-label with ax1
-    ax2.bar(range(len(dis_dict)),dis_dict.values(), color=color, width = 0.4, align = 'edge')
-    ax2.tick_params(axis='y', labelcolor=color)
-    
-    fig.tight_layout()  # otherwise the right y-label is slightly clipped
-    plt.title("Mean Dis VS Amount of Seisms per station 2010-2017")
-    #plt.show()
-    
-    path = "IOfiles/Graphs/"
-    if(save_graphs):   
-        if not os.path.exists(path):
-            os.makedirs(path)           
-        plt.savefig(path+"MeanDisVSamountXstationAll.png")
-        
-        
-        
-    index = 0
-    for (graph_dis,graph_amount) in zip(segmented_graphs,amount_graphs):
-        #plt.figure()
-        group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
-        
-        fig, ax1 = plt.subplots()
-        plt.title("Mean Dis VS Amount of Seisms per station 2010-2017 ["+group_name+"]")
-        
-        x1 = [x - 0.4 for x in range(len(graph_dis))]
-        color = 'tab:red'
-        ax1.set_ylabel('Amount of Seisms', color=color)
-        ax1.bar(x1, graph_amount.values(), color=color, width = 0.4, align = 'edge')
-        ax1.tick_params(axis='y', labelcolor=color)
-        ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
-        
-        
-        color = 'tab:blue'
-        ax2.set_ylabel('Mean epicenter distance', color=color)  # we already handled the x-label with ax1
-        ax2.bar(range(len(graph_dis)),graph_dis.values(), color=color, width = 0.4, align = 'edge')
-        ax2.tick_params(axis='y', labelcolor=color)
-        
-        fig.tight_layout()  # otherwise the right y-label is slightly clipped
-        
-        
-#        plt.bar(range(len(graph)), graph.values(), align='center')
-        plt.xticks(range(len(graph_dis)), graph_dis.keys())
-#        plt.xlabel("Station name")
-#        plt.ylabel("Mean epicenter distance")
-        index += 1
         
 
-        if(save_graphs):
-            plt.savefig(path+"MeanDisVSamountXstation"+group_name+".png")
 
-##########        
-        
-    return dis_dict,amount_dict
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 #%% Check if the record of P wave is attached only to the Z component
@@ -1038,376 +598,6 @@ def concat_mul_files(list_files):
                 final_file.write(line)
                 
 
-#%% Example 3D graph
-'''
-======================
-3D surface (color map)
-======================
-
-Demonstrates plotting a 3D surface colored with the coolwarm color map.
-The surface is made opaque by using antialiased=False.
-
-Also demonstrates using the LinearLocator and custom formatting for the
-z axis tick labels.
-'''
-
-from mpl_toolkits.mplot3d import Axes3D
-import matplotlib.pyplot as plt
-from matplotlib import cm
-from matplotlib.ticker import LinearLocator, FormatStrFormatter
-import numpy as np
-
-
-fig = plt.figure()
-ax = fig.gca(projection='3d')
-
-# Make data.
-X = np.arange(-5, 5, 0.25)
-Y = np.arange(-5, 5, 0.25)
-X, Y = np.meshgrid(X, Y)
-R = np.sqrt(X**2 + Y**2)
-Z = np.sin(R)
-
-# Plot the surface.
-surf = ax.plot_surface(X, Y, Z, cmap=cm.coolwarm,
-                       linewidth=0, antialiased=False)
-
-# Customize the z axis.
-ax.set_zlim(-1.01, 1.01)
-ax.zaxis.set_major_locator(LinearLocator(10))
-ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
-
-# Add a color bar which maps values to colors.
-fig.colorbar(surf, shrink=0.5, aspect=5)
-
-plt.show()
-
-
-
-#%%
-'''
-==============
-3D scatterplot
-==============
-
-Demonstration of a basic scatterplot in 3D.
-'''
-
-from mpl_toolkits.mplot3d import Axes3D
-import matplotlib.pyplot as plt
-import numpy as np
-
-
-def randrange(n, vmin, vmax):
-    '''
-    Helper function to make an array of random numbers having shape (n, )
-    with each number distributed Uniform(vmin, vmax).
-    '''
-    return (vmax - vmin)*np.random.rand(n) + vmin
-
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-
-n = 100
-
-# For each set of style and range settings, plot n random points in the box
-# defined by x in [23, 32], y in [0, 100], z in [zlow, zhigh].
-for c, m, zlow, zhigh in [('r', 'o', -50, -25), ('b', '^', -30, -5)]:
-    xs = randrange(n, 23, 32)
-    ys = randrange(n, 0, 100)
-    zs = randrange(n, zlow, zhigh)
-    ax.scatter(xs, ys, zs, c=c, marker=m)
-
-ax.set_xlabel('X Label')
-ax.set_ylabel('Y Label')
-ax.set_zlabel('Z Label')
-
-plt.show()
-
-#%% Graph Lat vs Lon vs Depth
-def graph_LatLonDepth(sfiles):
-    
-    from mpl_toolkits.mplot3d import Axes3D
-    import matplotlib.pyplot as plt
-    import numpy as np
-    
-    lats = []
-    lons = []
-    depths = []
-    
-    for sfile in sfiles:
-        lat = sfile.type_1['LATITUDE']
-        lon = sfile.type_1['LONGITUDE']
-        depth = sfile.type_1['DEPTH']
-        
-        lats.append(float(lat))
-        lons.append(float(lon))
-        depths.append(float(depth))
-         
-    fig = plt.figure()
-    ax = fig.add_subplot(111, projection='3d')
-    
-    n = 100
-    
-    # For each set of style and range settings, plot n random points in the box
-    # defined by x in [23, 32], y in [0, 100], z in [zlow, zhigh].
-#    for c, m, zlow, zhigh in [('r', 'o', -50, -25), ('b', '^', -30, -5)]:
-#        xs = randrange(n, 23, 32)
-#        ys = randrange(n, 0, 100)
-#        zs = randrange(n, zlow, zhigh)
-#        ax.scatter(xs, ys, zs, c=c, marker=m)
-    
-#    xs = np.asarray(lats)
-#    ys = np.asarray(lons)
-#    zs = np.asarray(depths)
-    
-    xs = lats
-    ys = lons
-    zs = depths
-    
-    c = 'r'
-    m = 'o'
-    ax.scatter(xs, ys, zs, c=c, marker=m, norm = True)
-    
-    ax.set_xlabel('X Label')
-    ax.set_ylabel('Y Label')
-    ax.set_zlabel('Z Label')
-    
-    plt.show()
-
-    
-    
-#%% Epicenters
-def get_epi_loc(sfiles):
-    import operator
-    epis = {}
-    weird_sfiles = []
-    for sfile in sfiles:
-        try:
-            epistring = sfile.type_3['EPICENTER_LOCATION']
-            if(epistring not in epis):
-                epis[epistring] = 1
-            else:
-                epis[epistring] += 1
-        except:
-            weird_sfiles.append(sfile.filename)
-    
-    epis_nums = sorted(epis.items(), key=operator.itemgetter(1))
-    return [epis_nums[::-1],weird_sfiles]
-    
-
-#%%
-# Plot the events registered by stations in descendent order
-def seisms_per_stationEpis(sfiles,group_factor=10,num_epis=10,save_graphs=False):
-    import matplotlib.pyplot as plt
-    import operator
-    import numpy as np
-    
-    
-    epis = get_epi_loc(sfiles)[0]
-    used_epis = epis[:num_epis]
-    used_epis = [x[0] for x in used_epis]
-    #print(used_epis)
-    
-    events_per_station = {}
-    events_quant = {}
-    for sfile in sfiles:
-        last_station_name = " "
-        stations = sfile.type_7
-        
-        # There are Sfiles without this attribute, shall ignore them
-        try:
-            epistring = sfile.type_3['EPICENTER_LOCATION']
-
-            for station in stations:
-                station_name = station['STAT']
-                
-                if station_name not in events_per_station:
-                    events_per_station[station_name] = {x:0 for x in used_epis}
-                    events_quant[station_name] = 1
-                    
-                else:
-                    if station_name != last_station_name:
-                        if epistring in used_epis:
-#                                if epistring not in events_per_station[station_name]:
-#                                    events_per_station[station_name][epistring] = 1
-#                                else:
-                            events_per_station[station_name][epistring] += 1
-                            events_quant[station_name] += 1
-                            last_station_name = station_name                       
-        except:
-            pass
-        
-    #return events_quant
-                        
-        # This is a workaround, should be improved
-    event_list = sorted(events_quant.items(), key=operator.itemgetter(1))
-    event_list.reverse()
-    event_dict = {}
-    
-    segmented_graphs = []
-    index = 0
-    list_index = -1
-    for event in event_list:
-        
-        if(index%group_factor == 0):
-            segmented_graphs.append({})
-            list_index += 1
-            
-        event_dict[event[0]] = event[1]
-        segmented_graphs[list_index][event[0]] = event[1]
-        index += 1
-        
-    #print(segmented_graphs)  
-    
-    colors = [np.random.rand(3,) for i in range(0,num_epis)]
-    for segmented_graph in segmented_graphs:
-        epis = {}
-        for station in segmented_graph:
-            if station not in epis:
-                epis[station] = events_per_station[station]
-
-        mul_bar_graph(epis, colors)
-                
-            
-        
-#        plt.figure()
-#        plt.title("Seisms per station 2010-2017")
-#        plt.bar(range(len(event_dict)), event_dict.values(), align='center')
-#        plt.xlabel("Station index")
-#        plt.ylabel("Amount of events")
-#        
-#        
-# fig, ax1 = plt.subplots()
-#    
-#    x1 = [x - 0.4 for x in range(len(dis_dict))]
-#    
-#    color = 'tab:red'
-#    ax1.set_xlabel('Station Index: Ordered by amount of seisms')
-#    ax1.set_ylabel('Amount of Seisms', color=color)
-#    ax1.bar(x1, amount_dict.values(), color=color, width = 0.4, align = 'edge')
-#    ax1.tick_params(axis='y', labelcolor=color)
-#    
-#    ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
-#    
-#    
-#    color = 'tab:blue'
-#    ax2.set_ylabel('Mean epicenter distance', color=color)  # we already handled the x-label with ax1
-#    ax2.bar(range(len(dis_dict)),dis_dict.values(), color=color, width = 0.4, align = 'edge')
-#    ax2.tick_params(axis='y', labelcolor=color)
-#    
-#    fig.tight_layout()  # otherwise the right y-label is slightly clipped
-#    plt.title("Mean Dis VS Amount of Seisms per station 2010-2017")
-        
-        
-#        
-#        path = "IOfiles/Graphs/"
-#        if(save_graphs):   
-#            if not os.path.exists(path):
-#                os.makedirs(path)           
-#            plt.savefig(path+"SeismsXstationAll.png")
-#        
-#        index = 0
-#        for graph in segmented_graphs:
-#            plt.figure()
-#            group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
-#            plt.title("Seisms per station 2010-2017 ["+group_name+"]")
-#            plt.bar(range(len(graph)), graph.values(), align='center')
-#            plt.xticks(range(len(graph)), graph.keys())
-#            plt.xlabel("Station name")
-#            plt.ylabel("Amount of events")
-#            index += 1
-#            
-#            if(save_graphs):
-#                plt.savefig(path+"SeismsXstation"+group_name+".png")
-            
-    
-    
-    
-    return events_per_station
-
-
-
-#%%
-#N = 5
-#men_means = (20, 35, 30, 35, 27)
-#men_std = (2, 3, 4, 1, 2)
-#
-#ind = np.arange(N)  # the x locations for the groups
-#width = 0.35       # the width of the bars
-#
-#fig, ax = plt.subplots()
-#rects1 = ax.bar(ind, men_means, width, color='r')
-#
-#women_means = (25, 32, 34, 20, 25)
-#women_std = (3, 5, 2, 3, 3)
-#rects2 = ax.bar(ind + width, women_means, width, color='y')
-#
-## add some text for labels, title and axes ticks
-#ax.set_ylabel('Scores')
-#ax.set_title('Scores by group and gender')
-#ax.set_xticks(ind + width / 2)
-#ax.set_xticklabels(('G1', 'G2', 'G3', 'G4', 'G5'))
-#
-#ax.legend([rects1[0], rects2[0]], ['Men', 'Women'])
-        
-
-#%%
-"""
-========
-Barchart
-========
-
-A bar plot with errorbars and height labels on individual bars
-"""
-def mul_bar_graph(epis = None,colors = None):
-    import numpy as np
-    import matplotlib.pyplot as plt
-    
-    
-        #epis = {'EST1':{'A':3,'B':4,'C':2,'D':6},'EST2':{'A':1,'B':7,'C':8,'D':6},'EST3':{'A':8,'B':5,'C':1,'D':6}}
-    if(epis == None):
-        epis = {'EST1':{'A':3,'B':4,'C':1},'EST2':{'A':1,'B':7,'C':1},'EST3':{'A':8,'B':5,'C':1}}
-
-    
-    epi_groups = {}
-    num_epis = 0
-    for est in epis:
-        actual_length = len(epis[est])
-        if num_epis < actual_length:
-            num_epis = actual_length
-        for epi in epis[est]:
-            if epi in epi_groups:
-                epi_groups[epi].append(epis[est][epi])
-            else:
-                epi_groups[epi] = [epis[est][epi]]
-        
-    
-    width = 0.9/num_epis
-    ind = np.arange(len(epis))
-    
-    fig, ax = plt.subplots()
-    
-    rects = []
-    delta_width = -(width*(num_epis)/2)
-    
-    
-    if(colors == None):
-        colors = [np.random.rand(3,) for i in range(0,len(epi_groups))]
-    color_index = 0
-    for key in epi_groups:
-        rects.append(ax.bar(ind  + delta_width, epi_groups[key], width, color=colors[color_index], align='edge'))
-        delta_width += width
-        color_index += 1
-    
-    
-    ax.grid(True)
-    ax.set_ylabel('Seisms per epicenter')
-    ax.set_title('Seisms per epicenter per station')
-    ax.set_xticks((ind + (width*num_epis) / num_epis)-width)
-    ax.set_xticklabels(est for est in epis)
-    ax.legend([rect[0] for rect in rects],[epi for epi in epi_groups])
-    
 
 
 
