@@ -577,13 +577,171 @@ def events_map():
 #%%
 '''
 9. Depth vs Epicenter (range, mean)
+INCOMPLETO: ORDENAR POR CANTIDAD DE EVENTOS
 '''
+def box_depth_perEpi(sfiles,group_factor=5,save_graphs=False):
+#    import matplotlib.pyplot as plt
+#    import numpy as np
+#    from matplotlib.patches import Polygon
+#    
+#    # Fixing random state for reproducibility
+#    np.random.seed(19680801)
+#    
+#    data = [[14,6,3,2,4,15,11,8,1,7,2,1,3,4,10,22,20],[14,6,3,2,4,15,11,8,1,7,2,1,3,4,10,22,20]]
+#    
+#    # Multiple box plots on one Axes
+#    fig, ax = plt.subplots()
+#    ax.boxplot(data)
+#    
+#    plt.show()
+    
+    import matplotlib.pyplot as plt
+    import operator
+    import os
+    epis = {}
+    weird_sfiles = []
+    for sfile in sfiles:
+        try:
+            epistring = sfile.type_3['EPICENTER_LOCATION']
+            depth = float(sfile.type_1['DEPTH'])
+            
+            if(epistring not in epis):
+                epis[epistring] = [depth]
+            else:
+                epis[epistring].append(depth)
+        except:
+            weird_sfiles.append(sfile.filename)
+    
+    event_list = sorted(epis.items(), key=operator.itemgetter(1))
+    event_list.reverse()
+    
+    event_dict = {}
+        
+    segmented_graphs = []
+    index = 0
+    list_index = -1
+    for event in event_list:
+        
+        if(index%group_factor == 0):
+            segmented_graphs.append({})
+            list_index += 1
+            
+        event_dict[event[0]] = event[1]
+        segmented_graphs[list_index][event[0]] = event[1]
+        index += 1
+        
+    #print(segmented_graphs)  
+      
+    path = "IOfiles/Graphs/"
+    if(save_graphs):   
+        if not os.path.exists(path):
+            os.makedirs(path)           
+        plt.savefig(path+"SeismsXstationAll.png")
+    
+    index = 0
+    for graph in segmented_graphs:
+        plt.figure()
+        group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+        plt.title("Seisms per station 2010-2017 ["+group_name+"]")
+#        plt.bar(range(len(graph)), graph.values(), align='center')
+#        print(graph.values())
+        plt.boxplot(graph.values())
+        plt.xticks(range(len(graph)), graph.keys())
+        plt.xlabel("Epicenter name")
+        plt.xticks(rotation=45)
+        plt.ylabel("Amount of events")
+        index += 1
+        
+        if(save_graphs):
+            plt.savefig(path+"SeismsXstation"+group_name+".png")
+        
+        
+    # Es buena idea verificar la fecha minima y la maxima para ponerlas como
+    # parametro de entrada
+    
+    #print("Events per Station between 2010 and 2017") 
+    #for event in event_dict:
+     #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
+        
+    return event_dict
 
 
 #%%
 '''
 10. Magnitude vs Epicenter (range, mean)
 '''
+def box_mag_perEpi(sfiles,group_factor=5,save_graphs=False):
+    
+    import matplotlib.pyplot as plt
+    import operator
+    import os
+    epis = {}
+    weird_sfiles = []
+    for sfile in sfiles:
+        try:
+            epistring = sfile.type_3['EPICENTER_LOCATION']
+#            depth = float(sfile.type_1['DEPTH'])
+            mag = float(sfile.type_1['TYPE_OF_MAGNITUDE_1'])
+            
+            if(epistring not in epis):
+                epis[epistring] = [mag]
+            else:
+                epis[epistring].append(mag)
+        except:
+            weird_sfiles.append(sfile.filename)
+    
+    event_list = sorted(epis.items(), key=operator.itemgetter(1))
+    event_list.reverse()
+    
+    event_dict = {}
+        
+    segmented_graphs = []
+    index = 0
+    list_index = -1
+    for event in event_list:
+        
+        if(index%group_factor == 0):
+            segmented_graphs.append({})
+            list_index += 1
+            
+        event_dict[event[0]] = event[1]
+        segmented_graphs[list_index][event[0]] = event[1]
+        index += 1
+        
+    #print(segmented_graphs)  
+      
+    path = "IOfiles/Graphs/"
+    if(save_graphs):   
+        if not os.path.exists(path):
+            os.makedirs(path)           
+        plt.savefig(path+"SeismsXstationAll.png")
+    
+    index = 0
+    for graph in segmented_graphs:
+        plt.figure()
+        group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+        plt.title("Seisms per station 2010-2017 ["+group_name+"]")
+#        plt.bar(range(len(graph)), graph.values(), align='center')
+#        print(graph.values())
+        plt.boxplot(graph.values())
+        plt.xticks(range(len(graph)), graph.keys())
+        plt.xlabel("Epicenter name")
+        plt.xticks(rotation=45)
+        plt.ylabel("Amount of events")
+        index += 1
+        
+        if(save_graphs):
+            plt.savefig(path+"SeismsXstation"+group_name+".png")
+        
+        
+    # Es buena idea verificar la fecha minima y la maxima para ponerlas como
+    # parametro de entrada
+    
+    #print("Events per Station between 2010 and 2017") 
+    #for event in event_dict:
+     #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
+        
+    return event_dict
 
 #%%
 '''
@@ -592,7 +750,7 @@ INCOMPLETO: FALTA ORDENAR POR DISTANCIA, ESTA ORDENADO POR CANTIDAD DE SISMOS
 '''
 def epiDis_per_station(sfiles,group_factor=10,save_graphs=False,path = "IOfiles/Graphs/"):
     import matplotlib.pyplot as plt
-    
+    import os
     events_per_station = {}
     for sfile in sfiles:
         last_station_name = " "
@@ -678,6 +836,7 @@ def epiDis_per_station(sfiles,group_factor=10,save_graphs=False,path = "IOfiles/
         group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
         plt.title("Mean epicenter distance per station 2010-2017 ["+group_name+"]")
         plt.bar(range(len(graph)), graph.values(), align='center')
+        print(graph.values())
         plt.xticks(range(len(graph)), graph.keys())
         plt.xlabel("Station name")
         plt.ylabel("Mean epicenter distance")
@@ -695,6 +854,7 @@ def epiDis_per_station(sfiles,group_factor=10,save_graphs=False,path = "IOfiles/
 def magDis_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag = True, path = "IOfiles/Graphs/"):
     import matplotlib.pyplot as plt
     import operator
+    import os 
     
     events_per_station = {}
     for sfile in sfiles:
@@ -834,8 +994,9 @@ TODOS LOS COMPONENTES BIEN SIN CORTARSE
 
 def components_per_station(sfiles,group_factor=10,save_graphs=False):
         import matplotlib.pyplot as plt
-
+        import os
         import operator
+        import TelluricoTools
         
         events_per_station = {}
         comps_per_station = {}
@@ -1014,6 +1175,135 @@ z axis tick labels.
 #
 ## Add a color bar which maps values to colors.
 #fig.colorbar(surf, shrink=0.5, aspect=5)
+#
+#plt.show()
+
+'''
+Boxplot demo 1
+'''
+#import matplotlib.pyplot as plt
+#import numpy as np
+#from matplotlib.patches import Polygon
+#
+#
+## Fixing random state for reproducibility
+#np.random.seed(19680801)
+#
+## fake up some data
+#spread = np.random.rand(50) * 100
+#center = np.ones(25) * 50
+#flier_high = np.random.rand(10) * 100 + 100
+#flier_low = np.random.rand(10) * -100
+#data = np.concatenate((spread, center, flier_high, flier_low), 0)
+#
+#fig, axs = plt.subplots(2, 3)
+#
+## basic plot
+#axs[0, 0].boxplot(data)
+#axs[0, 0].set_title('basic plot')
+#
+## notched plot
+#axs[0, 1].boxplot(data, 1)
+#axs[0, 1].set_title('notched plot')
+#
+## change outlier point symbols
+#axs[0, 2].boxplot(data, 0, 'gD')
+#axs[0, 2].set_title('change outlier\npoint symbols')
+#
+## don't show outlier points
+#axs[1, 0].boxplot(data, 0, '')
+#axs[1, 0].set_title("don't show\noutlier points")
+#
+## horizontal boxes
+#axs[1, 1].boxplot(data, 0, 'rs', 0)
+#axs[1, 1].set_title('horizontal boxes')
+#
+## change whisker length
+#axs[1, 2].boxplot(data, 0, 'rs', 0, 0.75)
+#axs[1, 2].set_title('change whisker length')
+#
+#fig.subplots_adjust(left=0.08, right=0.98, bottom=0.05, top=0.9,
+#                    hspace=0.4, wspace=0.3)
+#
+## fake up some more data
+#spread = np.random.rand(50) * 100
+#center = np.ones(25) * 40
+#flier_high = np.random.rand(10) * 100 + 100
+#flier_low = np.random.rand(10) * -100
+#d2 = np.concatenate((spread, center, flier_high, flier_low), 0)
+#data.shape = (-1, 1)
+#d2.shape = (-1, 1)
+## Making a 2-D array only works if all the columns are the
+## same length.  If they are not, then use a list instead.
+## This is actually more efficient because boxplot converts
+## a 2-D array into a list of vectors internally anyway.
+#data = [data, d2, d2[::2, 0]]
+#
+## Multiple box plots on one Axes
+#fig, ax = plt.subplots()
+#ax.boxplot(data)
+#
+#plt.show()
+
+
+'''
+Boxplot demo 2
+'''
+#import matplotlib.pyplot as plt
+#import numpy as np
+#from matplotlib.patches import Polygon
+#
+#
+## Fixing random state for reproducibility
+#np.random.seed(19680801)
+#
+## fake up some data
+#spread = np.random.rand(50) * 100
+#center = np.ones(25) * 50
+#flier_high = np.random.rand(10) * 100 + 100
+#flier_low = np.random.rand(10) * -100
+#data = np.concatenate((spread, center, flier_high, flier_low), 0)
+#
+#
+#
+## fake up some more data
+#spread = np.random.rand(50) * 100
+#center = np.ones(25) * 40
+#flier_high = np.random.rand(10) * 100 + 100
+#flier_low = np.random.rand(10) * -100
+#d2 = np.concatenate((spread, center, flier_high, flier_low), 0)
+#data.shape = (-1, 1)
+#d2.shape = (-1, 1)
+## Making a 2-D array only works if all the columns are the
+## same length.  If they are not, then use a list instead.
+## This is actually more efficient because boxplot converts
+## a 2-D array into a list of vectors internally anyway.
+#data = [data, d2, d2[::2, 0]]
+#
+## Multiple box plots on one Axes
+#fig, ax = plt.subplots()
+#ax.boxplot(data,0,'')
+#
+#plt.show()
+
+'''
+Boxplot demo 3
+'''
+
+#import matplotlib.pyplot as plt
+#import numpy as np
+#from matplotlib.patches import Polygon
+#
+#
+## Fixing random state for reproducibility
+#np.random.seed(19680801)
+#
+#
+#data = [[14,6,3,2,4,15,11,8,1,7,2,1,3,4,10,22,20],[14,6,3,2,4,15,11,8,1,7,2,1,3,4,10,22,20]]
+#
+## Multiple box plots on one Axes
+#fig, ax = plt.subplots()
+#ax.boxplot(data)
 #
 #plt.show()
 
