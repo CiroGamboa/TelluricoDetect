@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+SI EL FACTOR DE AGRUPACION ES 5 O MENOS, PONER VALORES EN LA PUNTA D ELAS BARRAS
+
 """
 
 #%%
@@ -265,7 +267,10 @@ def mul_bar_graph(epis = None,colors = None):
     ax.set_xticks((ind + (width*num_epis) / num_epis)-width)
     ax.set_xticklabels(est for est in epis)
     ax.legend([rect[0] for rect in rects],[epi for epi in epi_groups])
-    
+
+'''
+ESTAS WEIRD FILES DEBEN SER UNA VALIDACION ADICIONAL EN SFILEANALYZER
+'''
 def get_epi_loc(sfiles):
     import operator
     epis = {}
@@ -287,7 +292,69 @@ def get_epi_loc(sfiles):
 #%%
 '''
 3. Amount of seisms vs Epicenter
+INCOMPLETO: TAL VEZ ES BUENA IDEA ACORTAR LOS NOMBRES QUITANDO 'SANTANDER',
+PERO HABRIA QUE TENER CUIDADO CON EPICENTROS FUERA DE SANTANDER 
 '''
+def events_per_epicenter(sfiles,group_factor=5,save_graphs=False):
+        import matplotlib.pyplot as plt
+        import os
+
+    
+        event_list = get_epi_loc(sfiles)[0]
+        print(event_list)
+        event_dict = {}
+        
+        segmented_graphs = []
+        index = 0
+        list_index = -1
+        for event in event_list:
+            
+            if(index%group_factor == 0):
+                segmented_graphs.append({})
+                list_index += 1
+                
+            event_dict[event[0]] = event[1]
+            segmented_graphs[list_index][event[0]] = event[1]
+            index += 1
+            
+        #print(segmented_graphs)  
+        
+        plt.figure()
+        plt.title("Seisms per Epicenter 2010-2017")
+        plt.bar(range(len(event_dict)), event_dict.values(), align='center')
+        plt.xlabel("Epicenter index")
+        plt.ylabel("Amount of events")
+        
+        path = "IOfiles/Graphs/"
+        if(save_graphs):   
+            if not os.path.exists(path):
+                os.makedirs(path)           
+            plt.savefig(path+"SeismsXstationAll.png")
+        
+        index = 0
+        for graph in segmented_graphs:
+            plt.figure()
+            group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+            plt.title("Seisms per station 2010-2017 ["+group_name+"]")
+            plt.bar(range(len(graph)), graph.values(), align='center')
+            plt.xticks(range(len(graph)), graph.keys())
+            plt.xlabel("Epicenter name")
+            plt.xticks(rotation=45)
+            plt.ylabel("Amount of events")
+            index += 1
+            
+            if(save_graphs):
+                plt.savefig(path+"SeismsXstation"+group_name+".png")
+            
+            
+        # Es buena idea verificar la fecha minima y la maxima para ponerlas como
+        # parametro de entrada
+        
+        #print("Events per Station between 2010 and 2017") 
+        #for event in event_dict:
+         #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
+            
+        return event_dict
 
 
 
@@ -320,7 +387,85 @@ def magnitude_values(sfiles):
 #%%
 '''
 5. Mean depth vs Epicenter
+INCOMPLETO: DETALLES ESTETICOS MENORES, CAMBIAR NOMBRES A EJES, CORREGIR
+LONGITUD DE NOMBRES EN EJE X
 '''
+def meanDepth_per_epicenter(sfiles,group_factor=5,save_graphs=False):
+    import matplotlib.pyplot as plt
+    import operator
+    import os
+    epis = {}
+    weird_sfiles = []
+    for sfile in sfiles:
+        try:
+            epistring = sfile.type_3['EPICENTER_LOCATION']
+            depth = float(sfile.type_1['DEPTH'])
+            
+            if(epistring not in epis):
+                epis[epistring] = depth
+            else:
+                epis[epistring] += depth
+                epis[epistring] /= 2
+        except:
+            weird_sfiles.append(sfile.filename)
+    
+    event_list = sorted(epis.items(), key=operator.itemgetter(1))
+    event_list.reverse()
+    
+    event_dict = {}
+        
+    segmented_graphs = []
+    index = 0
+    list_index = -1
+    for event in event_list:
+        
+        if(index%group_factor == 0):
+            segmented_graphs.append({})
+            list_index += 1
+            
+        event_dict[event[0]] = event[1]
+        segmented_graphs[list_index][event[0]] = event[1]
+        index += 1
+        
+    #print(segmented_graphs)  
+    
+    plt.figure()
+    plt.title("Seisms per Epicenter 2010-2017")
+    plt.bar(range(len(event_dict)), event_dict.values(), align='center')
+    plt.xlabel("Epicenter index")
+    plt.ylabel("Amount of events")
+    
+    path = "IOfiles/Graphs/"
+    if(save_graphs):   
+        if not os.path.exists(path):
+            os.makedirs(path)           
+        plt.savefig(path+"SeismsXstationAll.png")
+    
+    index = 0
+    for graph in segmented_graphs:
+        plt.figure()
+        group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+        plt.title("Seisms per station 2010-2017 ["+group_name+"]")
+        plt.bar(range(len(graph)), graph.values(), align='center')
+        plt.xticks(range(len(graph)), graph.keys())
+        plt.xlabel("Epicenter name")
+        plt.xticks(rotation=45)
+        plt.ylabel("Amount of events")
+        index += 1
+        
+        if(save_graphs):
+            plt.savefig(path+"SeismsXstation"+group_name+".png")
+        
+        
+    # Es buena idea verificar la fecha minima y la maxima para ponerlas como
+    # parametro de entrada
+    
+    #print("Events per Station between 2010 and 2017") 
+    #for event in event_dict:
+     #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
+        
+    return event_dict
+
 
 #%%
 '''
@@ -434,6 +579,7 @@ def events_map():
 9. Depth vs Epicenter (range, mean)
 '''
 
+
 #%%
 '''
 10. Magnitude vs Epicenter (range, mean)
@@ -444,7 +590,7 @@ def events_map():
 11. Mean epicenter distance vs Station
 INCOMPLETO: FALTA ORDENAR POR DISTANCIA, ESTA ORDENADO POR CANTIDAD DE SISMOS
 '''
-def mean_epicenter_dis(sfiles,group_factor=10,save_graphs=False,path = "IOfiles/Graphs/"):
+def epiDis_per_station(sfiles,group_factor=10,save_graphs=False,path = "IOfiles/Graphs/"):
     import matplotlib.pyplot as plt
     
     events_per_station = {}
@@ -673,7 +819,6 @@ def magDis_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag = 
 '''
 13. Station sampling rate vs Time
 '''
-
 
 #%%
 '''
