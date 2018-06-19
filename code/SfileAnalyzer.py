@@ -393,13 +393,24 @@ def copy_file(filename,file_paths, destination_path):
     return found
     
 #%% Export in txt location of seismic events
-def export_seismic_locations(sfiles):
-    with open('event_locations.txt', 'a') as the_file:
+def export_seismic_locations2D(sfiles):
+    with open('event_locations2D.csv', 'a') as the_file:
+        the_file.write('Latitude,Longitude\n')
         for sfile in sfiles:
             lat = sfile.type_1['LATITUDE']
             lon = sfile.type_1['LONGITUDE']
             the_file.write(lat+','+lon+'\n')
             
+
+#%% Export in txt locations of seismic events, including depth
+def export_seismic_locations3D(sfiles):
+    with open('event_locations3D.csv', 'a') as the_file:
+        the_file.write('Latitude,Longitude,Depth\n')
+        for sfile in sfiles:
+            lat = sfile.type_1['LATITUDE']
+            lon = sfile.type_1['LONGITUDE']
+            depth = sfile.type_1['DEPTH']
+            the_file.write(lat+','+lon+','+depth+'\n')           
         
 
 
