@@ -30,7 +30,7 @@ class SfileAnalyzer:
             if fnmatch.fnmatch(filename, pattern):
                     
                 sfile = Sfile(filename = filename, path = self.path)
-                sfile.get_params()
+#                sfile.get_params()
                 self.sfiles.append(sfile)
         
         print("Files found: ")

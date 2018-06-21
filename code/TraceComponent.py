@@ -23,7 +23,7 @@ class TraceComponent:
         self.network = trace.stats.network
         self.station = trace.stats.station
         self.location = trace.stats.location
-        self.channel = trace.stats.channel
+        self.channel = trace.stats.channel + trace.stats.location
         self.starttime = dt.UTCDateTime(trace.stats.starttime)
         self.endtime = dt.UTCDateTime(trace.stats.endtime)
 #        self.sampling_rate = trace.stats.sampling_rate
@@ -33,7 +33,10 @@ class TraceComponent:
         self.npts = trace.stats.npts
         self.calib = trace.stats.calib
         self.formatseed = trace.stats._format
-        self.mseed = trace.stats.mseed
+        try:
+            self.mseed = trace.stats.mseed
+        except:
+            pass
         self.filter_wave = self.resample_trace(self.bandpass_filter(self.waveform, 
                     self.sampling_rate), self.original_sampling_rate, 100.0)
     
@@ -45,10 +48,11 @@ class TraceComponent:
             output.append(sample - mean)
         return output
     
-    # Normalice the trace, deleting d.c. level
+    # Bandpass Butterworth filter
     def bandpass_filter(self, waveform, SR):
         return filt.bandpass(waveform, 1, 8, SR, corners=4, zerophase=False)
     
+    # Resample the trace
     def resample_trace(self, trace, actual_df, new_df):
         if(actual_df != new_df):
             total_samples = int(len(trace)*(new_df/actual_df))
