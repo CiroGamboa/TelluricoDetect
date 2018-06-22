@@ -243,7 +243,7 @@ def separate_sfiles(sfiles,path,selected_stations=['BRR','RUS','PAM','PTB']):
 
 
     # List containing the names of corrupt files
-    corrupt_files = []
+#    corrupt_files = []
     
     corr_files = {}
     
@@ -254,22 +254,22 @@ def separate_sfiles(sfiles,path,selected_stations=['BRR','RUS','PAM','PTB']):
     included = None
     for sfile in sfiles:
         
-        included = False # ESTO SE VA
+#        included = False # ESTO SE VA
         
         ################################################################
         # TYPE_1 PARAMETERS
         ################################################################
         # Check Latitude and Longitude
         # Use this: https://stackoverflow.com/questions/7861196/check-if-a-geopoint-with-latitude-and-longitude-is-within-a-shapefile
-        param = 'LATITUDE-LONGITUDE'
-        try:
-#            print(':)')
-            a = 1
-        except:
-            if param not in corr_files:
-                corr_files[param] = [sfile.filename]
-            else:
-                corr_files[param].append(sfile.filename)
+#        param = 'LATITUDE-LONGITUDE'
+#        try:
+##            print(':)')
+#            a = 1
+#        except:
+#            if param not in corr_files:
+#                corr_files[param] = [sfile.filename]
+#            else:
+#                corr_files[param].append(sfile.filename)
         
         # Check Depth
         # Add threshold above 10? 20? --> Ask Edward 
@@ -333,7 +333,7 @@ def separate_sfiles(sfiles,path,selected_stations=['BRR','RUS','PAM','PTB']):
                 corr_files[param] = [sfile.filename]
             else:
                 corr_files[param].append(sfile.filename)
-            print(sfile.filename)
+#            print(sfile.filename)
         
         ################################################################
         # TYPE_6 PARAMETERS
@@ -354,7 +354,7 @@ def separate_sfiles(sfiles,path,selected_stations=['BRR','RUS','PAM','PTB']):
         # Check if there are repeated files
         if(re.search( r'[.][1-9]+', sfile.filename, re.M|re.I) is not None and not included):
             repeated_files.append(sfile.filename)
-            included = True
+#            included = True
             
     # Take out repeated Sfiles and Corrupt Sfiles in different folders
 #    if(len(corrupt_files) > 0):
@@ -375,6 +375,16 @@ def separate_sfiles(sfiles,path,selected_stations=['BRR','RUS','PAM','PTB']):
             
         for file in repeated_files:
             os.rename(path+file, repeated_path+file)
+            
+    for error_type in corr_files:
+        error_path = "IOfiles/"+error_type+"/"
+        if not os.path.exists(error_path):
+            os.makedirs(error_path)
+            
+        for file in corr_files[error_type]:
+            os.rename(path+file, error_path+file)
+#            print(file)
+#        print(error_path)
             
     print("REPEATED FILES FOUND:"+str(len(repeated_files)))
     
