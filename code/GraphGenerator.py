@@ -467,6 +467,109 @@ def magnitude_values(sfiles):
 
 #%%
 '''
+4. Amount of seisms vs Magnitude value
+INCOMPLETO: LOS VALORES EN EL EJE X ESTAN MULTIPLICADOS POR 10 (6.0-->60),
+DETALLES ESTETICOS
+- NOMBRES
+- DEGRADADO EN EL COLOR
+- DIVIDIR EN 10
+- PONER LINEA DE LA MEDIA
+- ENVOLVENTE
+- CAMBIAR EJE POR PORCENTAJE
+- 
+'''
+def depth_values(sfiles):
+#    https://matplotlib.org/gallery/statistics/hist.html
+    import matplotlib.pyplot as plt
+    import numpy as np
+    from matplotlib import colors
+#    from matplotlib.ticker import PercentFormatter
+
+    # Fixing random state for reproducibility
+    np.random.seed(19680801)
+    depths = []
+    for sfile in sfiles:
+            
+        try:  
+            depth = float(sfile.type_1['DEPTH'])
+            depths.append(depth)
+                
+        except:
+            pass
+
+    fig, axs = plt.subplots(tight_layout=True)
+    x_axis = np.arange(0,200,0.1)
+#    N, bins, patches = plt.hist(depths,bins = x_axis)
+#    fracs = N / N.max()
+#    norm = colors.Normalize(fracs.min(), fracs.max())
+#    for thisfrac, thispatch in zip(fracs, patches):
+#        color = plt.cm.viridis(norm(thisfrac))
+#        thispatch.set_facecolor(color)
+    
+    axs.grid(True)
+    axs.hist(depths,bins = x_axis, density=True)
+#    plt.plot(magnitudes)
+#    axs.yaxis.set_major_formatter(PercentFormatter(xmax=1))
+    plt.xlabel("Seismic depths [Km]")
+    plt.ylabel("% of occurrency")
+    plt.title("Distribution of Seismic Depths in Santander [2010-2017]")
+
+#%%
+'''
+4. Amount of seisms vs Magnitude value
+INCOMPLETO: LOS VALORES EN EL EJE X ESTAN MULTIPLICADOS POR 10 (6.0-->60),
+DETALLES ESTETICOS
+- NOMBRES
+- DEGRADADO EN EL COLOR
+- DIVIDIR EN 10
+- PONER LINEA DE LA MEDIA
+- ENVOLVENTE
+- CAMBIAR EJE POR PORCENTAJE
+- 
+'''
+def cumulative_depth_values(sfiles):
+#    https://matplotlib.org/gallery/statistics/hist.html
+    import matplotlib.pyplot as plt
+    import numpy as np
+    from matplotlib import colors
+#    from matplotlib.ticker import PercentFormatter
+
+    # Fixing random state for reproducibility
+    np.random.seed(19680801)
+    depths = []
+    for sfile in sfiles:
+            
+        try:  
+            depth = float(sfile.type_1['DEPTH'])
+            depths.append(depth)
+                
+        except:
+            pass
+
+    fig, axs = plt.subplots(tight_layout=True)
+    x_axis = np.arange(0,200,0.1)
+#    N, bins, patches = plt.hist(depths,bins = x_axis)
+#    fracs = N / N.max()
+#    norm = colors.Normalize(fracs.min(), fracs.max())
+#    for thisfrac, thispatch in zip(fracs, patches):
+#        color = plt.cm.viridis(norm(thisfrac))
+#        thispatch.set_facecolor(color)
+    
+    axs.grid(True)
+    axs.hist(depths,bins = x_axis, density=True,cumulative=1)
+#    plt.plot(magnitudes)
+#    axs.yaxis.set_major_formatter(PercentFormatter(xmax=1))
+    plt.xlabel("Seismic depths [Km]")
+    plt.ylabel("% of occurrency")
+    plt.title("Distribution of Seismic Depths in Santander [2010-2017]")
+
+
+
+
+
+
+#%%
+'''
 5. Mean depth vs Epicenter
 INCOMPLETO: DETALLES ESTETICOS MENORES, CAMBIAR NOMBRES A EJES, CORREGIR
 LONGITUD DE NOMBRES EN EJE X

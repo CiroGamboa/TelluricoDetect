@@ -169,7 +169,6 @@ class SfileAnalyzer:
         
         
     def clear_corrupt(self):
-        
         # List containing the names of corrupt files
         corrupt_files = []
         
@@ -225,7 +224,164 @@ class SfileAnalyzer:
             file_handler = open(path,'wr')
             pickle.dump(analyzer,file_handler)
             
+#%%
+'''
+JULIAN VA A PASAR EL CODIGO PARA VALIDAR Wrong-P-Picking'
+ES BUENA IDEA CHEQUEAR QUE LAS ESTACIONES REGISTRADAS ESTEN
+DENTRO DE UNA LISTA DE ESTACIONES OFICIALES EN UNA BASE DE DATOS
+TAMBIEN EL TIPO DE COMPONENTE U OTROS DATOS DE RELEVANCIA
+'''
+def separate_sfiles(sfiles,path,selected_stations=['BRR','RUS','PAM','PTB']):
+#    cases = ['Repeated','Wrong-TYPE_OF_MAGNITUDE_1','Wrong-STAT','Wrong-EPICENTER_LOCATION',
+#             'Wrong-DEPTH','Wrong-LATITUDE','Wrong-LONGITUDE','Wrong-DIS','Wrong-SP','Wrong-P_Picking']
+#
+#    
+#    type_1 = ['LATITUDE','LONGITUDE','DEPTH','TYPE_OF_MAGNITUDE_1']
+#    type_7 = ['STAT','SP','DIS'] # AQUI VA LO QUE ANALIZO JULIAN
+#    type_3 = ['EPICENTER_LOCATION']
+#    type_6 = ['BINARY_FILENAME']
 
+
+    # List containing the names of corrupt files
+    corrupt_files = []
+    
+    corr_files = {}
+    
+    # List containing the names of repeated files
+    repeated_files = []
+    
+    # Flag for avoid including the same file in many cases
+    included = None
+    for sfile in sfiles:
+        
+        included = False # ESTO SE VA
+        
+        ################################################################
+        # TYPE_1 PARAMETERS
+        ################################################################
+        # Check Latitude and Longitude
+        # Use this: https://stackoverflow.com/questions/7861196/check-if-a-geopoint-with-latitude-and-longitude-is-within-a-shapefile
+        param = 'LATITUDE-LONGITUDE'
+        try:
+#            print(':)')
+            a = 1
+        except:
+            if param not in corr_files:
+                corr_files[param] = [sfile.filename]
+            else:
+                corr_files[param].append(sfile.filename)
+        
+        # Check Depth
+        # Add threshold above 10? 20? --> Ask Edward 
+        param = 'DEPTH'
+        try:
+            depth = float(sfile.type_1[param])
+        except:
+            if param not in corr_files:
+                corr_files[param] = [sfile.filename]
+            else:
+                corr_files[param].append(sfile.filename)
+        
+        param = 'TYPE_OF_MAGNITUDE_1'
+        
+        
+        # Check if the magnitude can be parsed to float   
+        try:  
+            mag = float(sfile.type_1[param])
+            
+        except:
+            if param not in corr_files:
+                corr_files[param] = [sfile.filename]
+            else:
+                corr_files[param].append(sfile.filename)
+          
+        ################################################################
+        # TYPE_7 PARAMETERS
+        # PARA CHEQUEAR QUE EL NOMBRE DE LA ESTACION SEA CORRECTO
+        # SERIA NECESARIO TENER UNA BASE DE DATOS CON LOS NOMBRES
+        # DE LAS ESTACIONES, POR ENDE, POR AHORA, SE DA DE ENTRADA UN GRUPO
+        # DE ESTACIONES DE INTERES, ASUMIENDO QUE DESDE QUE LOS DATOS
+        # ASOCIADOS A ESAS ESTACIONES ESPECIFICAS NO ESTEN CORRUPTOS
+        # NO SE DEBE DESCARTAR EL ARCHIVO
+        ################################################################
+        stations = sfile.type_7
+        for station in stations:
+            if selected_stations != 'all':
+                param = 'STAT'
+                station_name = station[param]
+                if station_name in selected_stations:
+                    # QUE PASO CON LOS COMPONENTES?????? -->SP
+                    
+                    param = 'DIS'
+                    try:
+                        station_dis = float(station[param])
+                    except:
+                        if param not in corr_files:
+                            corr_files[param] = [sfile.filename]
+                        else:
+                            corr_files[param].append(sfile.filename)                        
+             
+            
+        ################################################################
+        # TYPE_3 PARAMETERS
+        ################################################################
+        param = 'EPICENTER_LOCATION'
+        try:  
+            epi = (len(sfile.type_3[param])>1)
+        except:
+            if param not in corr_files:
+                corr_files[param] = [sfile.filename]
+            else:
+                corr_files[param].append(sfile.filename)
+            print(sfile.filename)
+        
+        ################################################################
+        # TYPE_6 PARAMETERS
+        ################################################################
+        param = 'BINARY_FILENAME'
+        try:  
+            filename = (len(sfile.type_6[param])>20)
+        except:
+            if param not in corr_files:
+                corr_files[param] = [sfile.filename]
+            else:
+                corr_files[param].append(sfile.filename)        
+            
+            
+#            corrupt_files.append(sfile.filename)
+#            included = True
+            
+        # Check if there are repeated files
+        if(re.search( r'[.][1-9]+', sfile.filename, re.M|re.I) is not None and not included):
+            repeated_files.append(sfile.filename)
+            included = True
+            
+    # Take out repeated Sfiles and Corrupt Sfiles in different folders
+#    if(len(corrupt_files) > 0):
+#        corrupt_path = "IOfiles/CorruptSfiles/"
+#        if not os.path.exists(corrupt_path):
+#            os.makedirs(corrupt_path)
+#            
+#        for file in corrupt_files:
+#            os.rename(path+file, corrupt_path+file)
+            
+#    print("CORRUPT FILES FOUND:"+str(len(corrupt_files)))
+#    print(corr_files)
+        
+    if(len(repeated_files) > 0):
+        repeated_path = "IOfiles/RepeatedSfiles/"
+        if not os.path.exists(repeated_path):
+            os.makedirs(repeated_path)
+            
+        for file in repeated_files:
+            os.rename(path+file, repeated_path+file)
+            
+    print("REPEATED FILES FOUND:"+str(len(repeated_files)))
+    
+    return corr_files
+    
+#    print(repeated_files)
+    
 #%%        
 #### Testing
 path = "IOfiles/Filtered_RSNC_Sfiles/"
@@ -356,7 +512,7 @@ def arrange_by_magnitude(sfiles,ranges,waveform_paths,sfile_paths, total_files, 
 Example on input data:
     filename = '2015-05-05-2237-50M.COL___276'
     file_paths = ['/media/administrador/Tellurico_Dataset1/','/media/administrador/Tellurico_Dataset2/']
-     
+     ESTE METODO DEBE IR A TELLURICOTOOLS
 '''
 def copy_file(filename,file_paths, destination_path):
     # Create the destination directory
@@ -607,7 +763,22 @@ def concat_mul_files(list_files):
             input_file = open(file, 'r')
             for line in input_file:
                 final_file.write(line)
-                
+
+#%%
+
+def check_len_sfiles(sfiles, threeshold):
+    corrupt = 0
+    for sfile in sfiles:
+        try:
+            name = sfile.type_6['BINARY_FILENAME']
+            l = len(name)
+            if l <= threeshold:
+                print(l+'-->'+name)
+        except:
+            print(sfile.filename)
+            corrupt += 1
+    
+    print("Corrupt:"+str(corrupt))
 
 
 

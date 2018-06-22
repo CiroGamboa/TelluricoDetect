@@ -137,7 +137,7 @@ class Sfile:
                     
                     # Type 3: Epicenter location
                     elif line[79] == '3':
-                        # THERE MAY BE MORE FIELDS, FIELD THEM IN THE DIC
+                        # THERE MAY BE MORE FIELDS, FILL THEM IN THE DIC
                         if('Epicentro' in line):
                             self.type_3 = {
                                            'EPICENTER_LOCATION'     :   line[12:79].strip()
