@@ -22,6 +22,7 @@ class Waveform:
         self.waveform_path = waveform_path
         self.waveform_filename = waveform_filename
         self.sfile = sfile
+#        self.stations_ev = ['RUS','BRR','PAM','PTB']
         
     def get_event(self):
         st = read(self.waveform_path + self.waveform_filename)
@@ -40,6 +41,7 @@ class Waveform:
                 newEvent.trace_groups[trace.stats.station].addTrace(TraceComponent(trace))
                 
         for station in self.sfile.type_7:
+#                if(station['STAT'] in newEvent.trace_groups and station in self.stations_ev):
                 if(station['STAT'] in newEvent.trace_groups):
                     newEvent.trace_groups[station['STAT']].epicentral_dist = station['DIS']
                     if(station['PHAS'] == 'P'):
@@ -73,6 +75,7 @@ class Waveform:
                 result = newEvent.trace_groups[station_wave].p_wave_mark()
                 if(not result):
                     stats_delete.append(station_wave)
+                    print('No P-wave existent for this station: ' + station_wave)
 #                print(station_wave)
                 if(newEvent.trace_groups[station_wave].epicentral_dist.strip() != ''):
                         stats_sort[station_wave] = float(newEvent.trace_groups[station_wave].epicentral_dist)
@@ -81,6 +84,7 @@ class Waveform:
                                 newEvent.trace_groups[station_wave].P_Wave)/newEvent.trace_groups[station_wave].traces[0].sampling_rate
             else:
                 stats_delete.append(station_wave)
+                print('Not a 3-component station: ' + station_wave)
                                               
         for stat in stats_delete:
                 newEvent.trace_groups.pop(stat)

@@ -47,9 +47,9 @@ events = []
 #sfile = Sfile('18-0602-02L.S201306.txt', '/home/administrador/Tellurico/TelluricoDetect/code/IOfiles/')
 #[newEvent, stats_sort] = Waveform('IOfiles/', '2013_06_2013-06-18-0559-59M.COL___261', sfile).get_event()
 #events.append(newEvent)
-sfile = Sfile('10-2055-44L.S201503', '/home/administrador/Tellurico/TelluricoDetect/code/IOfiles/')
-[newEvent, stats_sort] = Waveform('IOfiles/', '2015-03-10-2049-48M.COL___284', sfile).get_event()
-events.append(newEvent)
+#sfile = Sfile('10-2055-44L.S201503', '/home/tellurico-admin/TelluricoDetect/code/IOfiles/')
+#[newEvent, stats_sort] = Waveform('IOfiles/', '2015-03-10-2049-48M.COL___284', sfile).get_event()
+#events.append(newEvent)
 #sfile = Sfile('04-2028-23L.S201709', '/home/administrador/Tellurico/TelluricoDetect/code/IOfiles/')
 #[newEvent, stats_sort] = Waveform('IOfiles/', '2017-09-04-2028-00M.COL___426', sfile).get_event()
 #events.append(newEvent)
@@ -59,6 +59,9 @@ events.append(newEvent)
 #sfile = Sfile('16-2230-55L.S201104', '/home/administrador/Tellurico/TelluricoDetect/code/IOfiles/')
 #[newEvent, stats_sort] = Waveform('IOfiles/', '2011-04-16-2228-33S.COL___140', sfile).get_event()
 #events.append(newEvent)
+sfile = Sfile('30-0429-45L.S201709', '/home/tellurico-admin/TelluricoDetect/code/IOfiles/')
+[newEvent, stats_sort] = Waveform('IOfiles/', '2017-09-30-0428-00M.COL___441', sfile).get_event()
+events.append(newEvent)
 
 ''' DATASET ATRIBUTES '''
 
@@ -1559,7 +1562,70 @@ for tuple_sort in stats_sort[:5]:
         ax7.vlines(vline, i, j, color='r', lw=1)
         ax7.vlines(vline-(0.9*(window_size/2)), i, j, color='k', lw=1)
 
-
+## TODO: ALL FEATURES FOR CERTAIN STATIONS IN ORDER OF EPICENTRAL DISTANCE
+# DOP, RV2T, Entropy, Kurtosis, Skewness, Max Lyapunov Exp, Correlation Dimension
+stations = ['RUS','BRR','PAM']
+for stat in stations:
+    if(stat in events[0].trace_groups):
+        observ_signal = {'DOP':[],'RV2T':[],'Entropy':[],'Kurtosis':[],'Skew':[],'Lyapunov':[],'CD':[]}
+        window_size = 50
+        p_mark = events[0].trace_groups[stat].P_Wave
+        windows = 2
+        init = p_mark - (windows*window_size) - int(window_size/2)
+        fin = p_mark + (windows*window_size) + int(window_size/2)
+        for i in range(init, fin+1):
+            [dataX, dataY, dataZ] = TelluricoTools.xyz_array(events[0].trace_groups[stat])
+            dataX = TelluricoTools.sub_trace(dataX.filter_wave,i,i+window_size)
+            dataY = TelluricoTools.sub_trace(dataY.filter_wave,i,i+window_size)
+            dataZ = TelluricoTools.sub_trace(dataZ.filter_wave,i,i+window_size)
+            resultant = TelluricoTools.getResultantTrace(dataX,dataY,dataZ)
+            
+            observ_signal['DOP'].append(TimeDomain_Attributes.DOP(dataX,dataY,dataZ))
+            observ_signal['RV2T'].append(TimeDomain_Attributes.RV2T(dataX,dataY,dataZ))
+            observ_signal['Entropy'].append(NonLinear_Attributes.signal_entropy(resultant)[1])
+            observ_signal['Kurtosis'].append(TimeDomain_Attributes.signal_kurtosis(resultant))
+            observ_signal['Skew'].append(TimeDomain_Attributes.signal_skew(resultant))
+            observ_signal['CD'].append(NonLinear_Attributes.corr_CD(resultant, 1))
+        
+        vline = (windows*window_size)
+        fig = ml.figure()
+        ax1 = fig.add_subplot(331)
+        ax2 = fig.add_subplot(334, sharex=ax1)
+        ax3 = fig.add_subplot(337, sharex=ax1)
+        ax4 = fig.add_subplot(332, sharex=ax1)
+        ax5 = fig.add_subplot(335, sharex=ax1)
+        ax6 = fig.add_subplot(333, sharex=ax1)
+        
+        ax1.set_title('DOP - ' + stat)
+        ax1.plot(observ_signal['DOP'])
+        i, j = ax1.get_ylim()
+        ax1.vlines(vline, i, j, color='r', lw=1)
+        ax1.vlines(vline-(0.9*(window_size/2)), i, j, color='k', lw=1)
+        ax2.set_title('RV2T - ' + stat)
+        ax2.plot(observ_signal['RV2T'])
+        i, j = ax2.get_ylim()
+        ax2.vlines(vline, i, j, color='r', lw=1)
+        ax2.vlines(vline-(0.9*(window_size/2)), i, j, color='k', lw=1)
+        ax3.set_title('Entropy - ' + stat)
+        ax3.plot(observ_signal['Entropy'])
+        i, j = ax3.get_ylim()
+        ax3.vlines(vline, i, j, color='r', lw=1)
+        ax3.vlines(vline-(0.9*(window_size/2)), i, j, color='k', lw=1)
+        ax4.set_title('Kurtosis - ' + stat)
+        ax4.plot(observ_signal['Kurtosis'])
+        i, j = ax4.get_ylim()
+        ax4.vlines(vline, i, j, color='r', lw=1)
+        ax4.vlines(vline-(0.9*(window_size/2)), i, j, color='k', lw=1)
+        ax5.set_title('Skewness - ' + stat)
+        ax5.plot(observ_signal['Skew'])
+        i, j = ax5.get_ylim()
+        ax5.vlines(vline, i, j, color='r', lw=1)
+        ax5.vlines(vline-(0.9*(window_size/2)), i, j, color='k', lw=1)
+        ax6.set_title('Correlation Dimension - ' + stat)
+        ax6.plot(observ_signal['CD'])
+        i, j = ax6.get_ylim()
+        ax6.vlines(vline, i, j, color='r', lw=1)
+        ax6.vlines(vline-(0.9*(window_size/2)), i, j, color='k', lw=1)
 
 
 from SfileAnalyzer import SfileAnalyzer

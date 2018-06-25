@@ -451,3 +451,18 @@ data = TelluricoTools.sub_trace(events[0].trace_groups[stat].traces[0].filter_wa
 
 lexp = nolds.corr_dim(data, 1)
 print(lexp)
+
+#%% Save variables
+import pickle
+
+a = {'a':1,'b':'t'}
+b = {'c':1,'d':'t'}
+toSave = [a, b]
+
+f = open('store.pckl', 'wb')
+pickle.dump(toSave, f)
+f.close()
+
+f = open('store.pckl', 'rb')
+toRead = pickle.load(f)
+f.close()

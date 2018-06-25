@@ -12,6 +12,7 @@ Toda la documentacion debe ser en ingles
 # Import the libraries
 from obspy import read
 from tools import TelluricoTools
+import numpy as np
 #from tools import SeismicInfo 
 #from tools import Transformations
 from tools import TimeDomain_Attributes
@@ -37,6 +38,8 @@ from SfileAnalyzer import SfileAnalyzer
 from Waveform import Waveform
 import gc
 from multiprocessing import Process
+import copy
+import pickle
 
 class prototype_v0:
     
@@ -47,8 +50,10 @@ class prototype_v0:
 
         ''' DATASET READING AND PRE-PROCESSING '''
         
-        waveforms_path = '/home/administrador/Tellurico/Archivos_Prueba/PrototipoV0_1/Waveforms/'
-        sfiles_path = '/home/administrador/Tellurico/Archivos_Prueba/PrototipoV0_1/Sfiles/'
+        waveforms_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Waveforms/' #CCA
+        # waveforms_path = '/home/administrador/Tellurico/Archivos_Prueba/PrototipoV0_1/Waveforms/'
+        sfiles_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Sfiles/' #CCA
+        # sfiles_path = '/home/administrador/Tellurico/Archivos_Prueba/PrototipoV0_1/Sfiles/'
         sfileAnalyzer = SfileAnalyzer(sfiles_path)
         sfileAnalyzer.get_sfiles()
         sfiles = sfileAnalyzer.sfiles
@@ -85,7 +90,8 @@ class prototype_v0:
         for i in range(0, cores):
             p[i].join()
         
-        self.concat_attrs_files('/home/administrador/Tellurico/TelluricoDetect/code/')
+#        self.concat_attrs_files('/home/administrador/Tellurico/TelluricoDetect/code/')
+        self.concat_attrs_files('/home/tellurico-admin/TelluricoDetect/code/') #CCA
     
     # Feature extraction
     def attributes(self,filename, waveforms_valid, stat, begin, core):     
@@ -157,18 +163,311 @@ class prototype_v0:
     def concat_attrs_files(self, path):
         list_of_files = os.listdir(path)
         pattern = "att_p*"  
-        for filename in list_of_files:  
-            if fnmatch.fnmatch(filename, pattern):
-                input_file = open(filename, 'r')
-                with open('attributes_matrix_6.txt','a') as final_file:
+        with open('attributes_matrix_prot03.txt','a') as final_file:
+            final_file.write('DOP; RV2T; EntropyZ; EntropyN; EntropyE; KurtosisZ; KurtosisN; KurtosisE; SkewZ; SkewN; SkewE; CDZ; CDN; CDE')
+            for filename in list_of_files:  
+                if fnmatch.fnmatch(filename, pattern):
+                    input_file = open(filename, 'r')
                     for line in input_file:
                         final_file.write(line)
+                
+                
+                
+class prototype_v3:
+    
+    def __init__(self):
+#        self.stations = ['RUS','BRR','PAM','PTB']
+        self.stations = ['RUS','BRR','PAM']
+        file_var_name = self.read_files()
+        self.cores_distr(file_var_name)
+    
+    def read_files(self):
+
+        ''' DATASET READING AND PRE-PROCESSING '''
+        
+        waveforms_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Waveforms/' #CCA
+        sfiles_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Sfiles/' #CCA
+        sfileAnalyzer = SfileAnalyzer(sfiles_path)
+        sfileAnalyzer.get_sfiles()
+        sfiles = sfileAnalyzer.sfiles
+        waveforms = []
+        stations_prov = copy.copy(self.stations)
+        
+        if 'ALL' in stations_prov: # If all stations are analyzed
+            for sfile in sfiles:
+                waveforms.append(Waveform(waveforms_path, sfile.type_6['BINARY_FILENAME'], sfile))
+        else: # If certain stations are analyzed
+            for sfile in sfiles:
+                if(hasattr(sfile, 'type_6')):
+                    for station in sfile.type_7:
+                        if station['STAT'] in stations_prov and station['PHAS'].strip() == 'P':
+                            stations_prov.pop(stations_prov.index(station['STAT']))
+                        if len(stations_prov) == 0:
+                            waveforms.append(Waveform(waveforms_path, sfile.type_6['BINARY_FILENAME'], sfile))
+                            break
+                stations_prov = copy.copy(self.stations)
+        
+        index = 0
+        waveforms_valid = {}
+        weights = []
+        
+        # Validate waveforms
+        for waveform in waveforms:
+            try:
+                st = read(waveform.waveform_path + waveform.waveform_filename)
+                for trace in st:
+                    if(trace.stats.station in stations_prov):
+                        stations_prov.pop(stations_prov.index(trace.stats.station))
+                    if len(stations_prov) == 0:
+                        file_weigth = os.stat(waveform.waveform_path + waveform.waveform_filename).st_size
+                        waveforms_valid[waveform] = file_weigth
+                        weights.append(file_weigth)
+                        break
+                stations_prov = copy.copy(self.stations)
+            except:
+                index += 1
+        waveforms_valid = TelluricoTools.sort(waveforms_valid)
+        waveforms_valid.reverse()
+        print(str(len(waveforms_valid)) + ' valid files with stations')
+        
+        file_var_name =  'waveforms_valid_prot03.pckl'
+        toSave = [waveforms_valid, weights]
+        f = open(file_var_name, 'wb')
+        pickle.dump(toSave, f)
+        f.close()
+        
+        return file_var_name
+        
+    def cores_distr(self, file_var_name):
+        
+        f = open(file_var_name, 'rb')
+        toRead = pickle.load(f)
+        f.close()
+        
+        waveforms_valid = toRead[0]
+        weights = toRead[1]
+        
+        ''' DATASET DISTRIBUTION IN CORES '''
+        
+        cores_quant = os.cpu_count() - 1 # CPU cores
+        cores = []
+        for i in range(0, cores_quant): cores.append([])
+        
+        w_flag = False
+        max_weigth = 1.15*(np.sum(weights)/cores_quant)
+        if(max_weigth < max(weights)): 
+            max_weigth = max(weights)
+            w_flag = True
+        
+        space = max_weigth
+        for i in range(0, len(cores)):    
+            for waveform in waveforms_valid:
+                if(waveform[1] <= space):
+                    cores[i].append(waveform[0])
+                    space -= waveform[1]
+                    waveforms_valid.pop(waveforms_valid.index(waveform))
+                    weights.pop(weights.index(waveform[1]))
+                    if(w_flag):
+                        max_weigth = 1.15*(np.sum(weights)/(cores_quant-i))
+                        if(max_weigth < max(weights)): 
+                            max_weigth = max(weights)
+                            w_flag = True
+                        else:
+                            w_flag = False
+            space = max_weigth
+        
+        ''' DATASET FEATURES EXTRACTION '''
+        
+        p = []
+        for i in range(0, cores_quant): p.append(None)
+        
+        for i in range(0, cores_quant):
+            p[i] = Process(target=self.attributes, args=(('att_p' + str(i+1) + '.txt'), 
+             cores[i], self.stations, len(cores[i]), (i+1)))
+            
+        for i in range(0, cores_quant):
+            p[i].start()
+        
+        for i in range(0, cores_quant):
+            p[i].join()
+        
+#        self.concat_attrs_files('/home/administrador/Tellurico/TelluricoDetect/code/')
+        self.concat_attrs_files('/home/tellurico-admin/TelluricoDetect/code/') #CCA
+    
+    # Feature extraction
+    def attributes(self,filename, waveforms_valid, stations, total, core):     
+        index = 1
+        observ_signal = ''
+        observ_noise = ''
+        with open(filename, 'a') as the_file:
+            for waveform in waveforms_valid:
+                [newEvent, stats_sort] = waveform.get_event()
+                for stat in stations:
+                    if(stat in newEvent.trace_groups):
+                        [dataX, dataY, dataZ] = TelluricoTools.xyz_array(newEvent.trace_groups[stat])
+                        [p_signal_X, noise_X] = TelluricoTools.p_noise_extraction(dataX.filter_wave, 200, newEvent.trace_groups[stat].P_Wave, 0.9)
+                        [p_signal_Y, noise_Y] = TelluricoTools.p_noise_extraction(dataY.filter_wave, 200, newEvent.trace_groups[stat].P_Wave, 0.9)
+                        [p_signal_Z, noise_Z] = TelluricoTools.p_noise_extraction(dataZ.filter_wave, 200, newEvent.trace_groups[stat].P_Wave, 0.9)
+                        
+                        observ_signal += str(TimeDomain_Attributes.DOP(p_signal_X,p_signal_Y,p_signal_Z)) + ','
+                        observ_signal += str(TimeDomain_Attributes.RV2T(p_signal_X,p_signal_Y,p_signal_Z)) + ','
+                        observ_signal += str(NonLinear_Attributes.signal_entropy(p_signal_X)[1]) + ','
+                        observ_signal += str(NonLinear_Attributes.signal_entropy(p_signal_Y)[1]) + ','
+                        observ_signal += str(NonLinear_Attributes.signal_entropy(p_signal_Z)[1]) + ','
+                        observ_signal += str(TimeDomain_Attributes.signal_kurtosis(p_signal_X)) + ','
+                        observ_signal += str(TimeDomain_Attributes.signal_kurtosis(p_signal_Y)) + ','
+                        observ_signal += str(TimeDomain_Attributes.signal_kurtosis(p_signal_Z)) + ','
+                        observ_signal += str(TimeDomain_Attributes.signal_skew(p_signal_X)) + ','
+                        observ_signal += str(TimeDomain_Attributes.signal_skew(p_signal_Y)) + ','
+                        observ_signal += str(TimeDomain_Attributes.signal_skew(p_signal_Z)) + ','
+                        observ_signal += str(NonLinear_Attributes.corr_CD(p_signal_X, 1)) + ','
+                        observ_signal += str(NonLinear_Attributes.corr_CD(p_signal_Y, 1)) + ','
+                        observ_signal += str(NonLinear_Attributes.corr_CD(p_signal_Z, 1)) + ','
+                        
+                        observ_noise += str(TimeDomain_Attributes.DOP(noise_X,noise_Y,noise_Z)) + ','
+                        observ_noise += str(TimeDomain_Attributes.RV2T(noise_X,noise_Y,noise_Z)) + ','
+                        observ_noise += str(NonLinear_Attributes.signal_entropy(noise_X)[1]) + ','
+                        observ_noise += str(NonLinear_Attributes.signal_entropy(noise_Y)[1]) + ','
+                        observ_noise += str(NonLinear_Attributes.signal_entropy(noise_Z)[1]) + ','
+                        observ_noise += str(TimeDomain_Attributes.signal_kurtosis(noise_X)) + ','
+                        observ_noise += str(TimeDomain_Attributes.signal_kurtosis(noise_Y)) + ','
+                        observ_noise += str(TimeDomain_Attributes.signal_kurtosis(noise_Z)) + ','
+                        observ_noise += str(TimeDomain_Attributes.signal_skew(noise_X)) + ','
+                        observ_noise += str(TimeDomain_Attributes.signal_skew(noise_Y)) + ','
+                        observ_noise += str(TimeDomain_Attributes.signal_skew(noise_Z)) + ','
+                        observ_noise += str(NonLinear_Attributes.corr_CD(noise_X, 1)) + ','
+                        observ_noise += str(NonLinear_Attributes.corr_CD(noise_Y, 1)) + ','
+                        observ_noise += str(NonLinear_Attributes.corr_CD(noise_Z, 1)) + ','
+
+                observ_signal += str(1)
+                the_file.write(waveform.waveform_filename + ',' + observ_signal+'\n')
+                observ_noise += str(0)
+                the_file.write(waveform.waveform_filename + ',' + observ_noise+'\n')
+                observ_signal = ''
+                observ_noise = ''
+                        
+                print('Waveform ' + str(index) + '/' + str(total) + ' done - core ' + str(core))
+                index += 1
+                gc.collect()
+            print('Core ' + str(core) + ' DONE')
+        
+    # Concat feature extraction files into one
+    def concat_attrs_files(self, path):
+        list_of_files = os.listdir(path)
+        pattern = "att_p*"  
+        with open('attributes_matrix_prot03_3stats.txt','a') as final_file:
+            final_file.write('Filename; DOP; RV2T; EntropyZ; EntropyN; EntropyE; KurtosisZ; KurtosisN; KurtosisE; SkewZ; SkewN; SkewE; CDZ; CDN; CDE')
+            for filename in list_of_files:  
+                if fnmatch.fnmatch(filename, pattern):
+                    input_file = open(filename, 'r')
+                    for line in input_file:
+                        final_file.write(line)
+                    os.remove(filename)
                             
 
 
 
 
 
+
+## FIXME Prueba de distribucion de cores
+# 1. Corregir cuando se aproxima por debajo de 0.5 y cuando se aproxima por encima de 0.5
+# 2. Algoritmo de distribucion de los cores por el peso del archivo
+                        
+#''' DATASET READING AND PRE-PROCESSING '''
+#
+#waveforms_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Waveforms/' #CCA
+#sfiles_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Sfiles/' #CCA
+#sfileAnalyzer = SfileAnalyzer(sfiles_path)
+#sfileAnalyzer.get_sfiles()
+#sfiles = sfileAnalyzer.sfiles
+#waveforms = []
+#for sfile in sfiles:
+#    waveforms.append(Waveform(waveforms_path, sfile.type_6['BINARY_FILENAME'], sfile))
+#
+#index = 0
+#waveforms_valid = {}
+#weights = []
+#for waveform in waveforms: #[32:64]
+#    try:
+#        read(waveform.waveform_path + waveform.waveform_filename)
+#        file_weigth = os.stat(waveform.waveform_path + waveform.waveform_filename).st_size
+#        waveforms_valid[waveform] = file_weigth
+#        weights.append(file_weigth)
+#    except:
+#        index += 1
+#waveforms_valid = TelluricoTools.sort(waveforms_valid)
+#waveforms_valid.reverse()
+#
+#''' DATASET DISTRIBUTION TO CORES '''
+#
+#cores_quant = os.cpu_count() - 1 # CPU cores
+#cores = []
+#for i in range(0, cores_quant): cores.append([])
+#
+#w_flag = False
+#max_weigth = 1.15*(np.sum(weights)/cores_quant)
+#if(max_weigth < max(weights)): 
+#    max_weigth = max(weights)
+#    w_flag = True
+#
+#space = max_weigth
+#for i in range(0, len(cores)):    
+#    for waveform in waveforms_valid:
+#        if(waveform[1] <= space):
+##            cores[i].append(waveform[1])
+#            cores[i].append(waveform[0])
+#            space -= waveform[1]
+#            waveforms_valid.pop(waveforms_valid.index(waveform))
+#            weights.pop(weights.index(waveform[1]))
+#            if(w_flag):
+#                max_weigth = 1.15*(np.sum(weights)/(cores_quant-i))
+#                if(max_weigth < max(weights)): 
+#                    max_weigth = max(weights)
+#                    w_flag = True
+#                else:
+#                    w_flag = False
+##            print(max_weigth)
+#    space = max_weigth
+#
+#total = 0
+#for core in cores:
+##    print(np.sum(core))
+#    total += len(core)
+#print(total)
+#
+#''' DATASET ATRIBUTES '''
+#
+#step = int(len(waveforms_valid)/cores)
+#stat = 'BRR'
+#p = [None]*cores
+#
+#for i in range(1, (cores+1)):
+#    p[i-1] = Process(target=self.attributes, args=(('att_p' + str(i) + '.txt'),
+#         waveforms_valid[(i-1)*step:(((i!=cores)*(i*step))+((i==cores)*(len(waveforms_valid)-1)))],
+#         stat,(i-1)*step,i))
+########################################################################################
+#
+#
+#
+#
+### Paradoja del cumpleaños para probabilidad de encontrar dos archivos con igual peso
+#print ('Num. probabilidad')
+#p = 1.0
+#i=0
+#for i in range(1, 500):
+#    index = i*50
+#    p = p * (100000001 - index) / 100000000
+#    print ('%3d : %10.6f' % (index, 1-p))
+                        
+                        
+                        
+
+
+#from sys import getsizeof
+    
+    
+    
 
 #p[cores-1] = Process(target=self.attributes, args=(('att_p' + str(cores) + '.txt'),waveforms_valid[(cores-1)*step:len(waveforms_valid)-1],stat,(cores-1)*step,cores))
 

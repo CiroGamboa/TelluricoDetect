@@ -17,8 +17,10 @@ from multiprocessing import Process
 import copy
 
 
-waveforms_path = '/home/administrador/Tellurico/Filtered_RSNC_Files/Filtered_RSNC_Waveforms/'
-sfiles_path = '/home/administrador/Tellurico/Filtered_RSNC_Files/Filtered_RSNC_Sfiles/'
+#waveforms_path = '/home/administrador/Tellurico/Filtered_RSNC_Files/Filtered_RSNC_Waveforms/'
+#sfiles_path = '/home/administrador/Tellurico/Filtered_RSNC_Files/Filtered_RSNC_Sfiles/'
+waveforms_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Waveforms/' #CCA
+sfiles_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Sfiles/' #CCA
 stations = ['RUS','BRR','PAM','PTB']
 stations_prov = copy.copy(stations)
 waveforms_stations = []
@@ -42,3 +44,4 @@ for sfile in sfiles:
     else:
         delete_sfile.append(sfile.filename)
     stations_prov = copy.copy(stations)
+print('Total with req stations: ' + str(len(waveforms_stations)))
