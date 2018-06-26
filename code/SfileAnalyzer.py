@@ -397,7 +397,7 @@ def separate_sfiles(sfiles,path,selected_stations=['BRR','RUS','PAM','PTB']):
 path = "IOfiles/Filtered_RSNC_Sfiles/"
 analyzer = SfileAnalyzer(path)
 analyzer.get_sfiles()
-analyzer.group_by_magnitude()
+#analyzer.group_by_magnitude()
 
 #%%
 # Group by the magnitude value

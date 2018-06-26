@@ -110,7 +110,7 @@ def seisms_per_stationEpis(sfiles,group_factor=10,num_epis=10,save_graphs=False,
     import operator
     import numpy as np
     
-    
+    soft_colors = ['silver','tomato','purple','aqua','teal','khaki','orange','turquoise','yellowgreen','pink',]
     epis_in = get_epi_loc(sfiles)[0]
     used_epis = epis_in[:num_epis]
     used_epis = [x[0] for x in used_epis]
@@ -174,7 +174,8 @@ def seisms_per_stationEpis(sfiles,group_factor=10,num_epis=10,save_graphs=False,
         
     #print(segmented_graphs)  
     
-    colors = [np.random.rand(3,) for i in range(0,num_epis)]
+#    colors = [np.random.rand(3,) for i in range(0,num_epis)]
+    colors = soft_colors[:num_epis]
     for segmented_graph in segmented_graphs:
         epis = {}
         for station in segmented_graph:
