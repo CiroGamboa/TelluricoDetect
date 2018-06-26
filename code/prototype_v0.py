@@ -40,6 +40,7 @@ import gc
 from multiprocessing import Process
 import copy
 import pickle
+from pathlib import Path
 
 class prototype_v0:
     
@@ -572,6 +573,92 @@ class prototype_v4:
                         final_file.write(line)
                     os.remove(filename)
                     
+                    
+class waveforms_read:
+    
+    def __init__(self):
+        self.read_files()
+    
+    def read_files(self):
+
+        ''' WAVEFORMS READING '''
+
+        #file_var_name =  '/home/administrador/Tellurico/Variables/Total_InitialWaveforms.pckl' ## TODO: variable name to be exported
+        file_var_name =  '/home/tellurico-admin/Variables/Total_InitialWaveforms.pckl' ## variable name to be exported CCA
+        
+        f = open(file_var_name, 'rb')
+        waveforms = pickle.load(f)
+        f.close()
+        total = 0
+        
+        path_names = []
+        
+        for waveform in waveforms:
+            waveform.waveform_path = '/run/user/1000/gvfs/sftp:host=10.154.12.15/media/administrador/Tellurico_Dataset2/' ## Only for CCA
+            waveform_path_and_name = waveform.waveform_path + 'download.php?file=' + waveform.waveform_filename[0:4] + '%2F' + waveform.waveform_filename[5:7]+ '%2F' + waveform.waveform_filename
+            if not Path(waveform_path_and_name).exists():
+                waveforms.pop(waveforms.index(waveform))
+                total += 1
+            elif waveform_path_and_name not in path_names:
+                path_names.append(waveform_path_and_name)
+        
+        print('Total files in HD2: ' + str(len(waveforms)))
+        print('Total files rejected in HD2: ' + str(total))
+        print('Non repeated Total files in HD2: ' + str(len(path_names)))
+        
+#        ''' WAVEFORM IMPORT '''
+#        
+#        divisions = 4
+#        current_division = 4 ## Modify by block
+#        step = int(len(waveforms)/divisions)
+#        
+#        waveforms = waveforms[(current_division-1)*step:(((current_division!=divisions)*(current_division*step))+((current_division==divisions)*(len(waveforms)-1)))]
+#        cores = os.cpu_count() - 1 # CPU cores
+#        step = int(len(waveforms)/cores)
+#        p = [None]*cores
+#        
+#        for i in range(1, (cores+1)):
+#            p[i-1] = Process(target=self.waveform_import, args=(waveforms[(i-1)*step:(((i!=cores)*(i*step))+((i==cores)*(len(waveforms)-1)))],i,current_division))
+#            
+#        for i in range(0, cores):
+#            p[i].start()
+#        
+#        for i in range(0, cores):
+#            p[i].join()
+    
+    # 
+    def waveform_import(self,waveforms,core,div):     
+        
+        total = len(waveforms)
+        index_wrong = 0
+        index_total = 0
+        waveforms_valid = {}
+        weights = []
+        
+        for waveform in waveforms:
+            try:
+                waveform.waveform_path = '/run/user/1000/gvfs/sftp:host=10.154.12.15/media/administrador/Tellurico_Dataset2/' ## Only for CCA
+                waveform_path_and_name = waveform.waveform_path + 'download.php?file=' + waveform.waveform_filename[0:4] + '%2F' + waveform.waveform_filename[5:7]+ '%2F' + waveform.waveform_filename
+                st = read(waveform_path_and_name)
+                waveform.set_st(st)
+                file_weigth = os.stat(waveform_path_and_name).st_size
+                waveforms_valid[waveform] = file_weigth
+                weights.append(file_weigth)
+                gc.collect()
+            except:
+                index_wrong += 1
+            index_total += 1
+            print('Waveform ' + str(index_total) + '/' + str(total) + ' included - ' + str(core))
+        
+        waveforms_valid = TelluricoTools.sort(waveforms_valid)
+        waveforms_valid.reverse()
+        
+        file_var_name =  '/home/tellurico-admin/Variables/Total_ProcWaveforms_C' + str(core) + '_D' + str(div) + '_HD2.pckl' ## variable name to be exported CCA
+        toSave = [waveforms_valid, weights]
+        f = open(file_var_name, 'wb')
+        pickle.dump(toSave, f)
+        f.close()
+        
                     
                     
 #class prototype_v4:

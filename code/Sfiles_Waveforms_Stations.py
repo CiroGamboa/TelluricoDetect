@@ -73,7 +73,9 @@ for sfile in sfiles:
 
 print('Total sfiles: ' + str(total_sfiles))
 
-file_var_name =  '/home/administrador/Tellurico/Variables/Total_InitialWaveforms.pckl' ## TODO: variable name to be exported
+#file_var_name =  '/home/administrador/Tellurico/Variables/Total_InitialWaveforms.pckl' ## TODO: variable name to be exported
+file_var_name =  '/home/tellurico-admin/Variables/Total_InitialWaveforms.pckl' ## variable name to be exported CCA
+
 f = open(file_var_name, 'wb')
 pickle.dump(waveforms, f)
 f.close()
@@ -97,7 +99,9 @@ error_flag = '0'
 
 not_exists = []
 
-file_var_name =  '/home/administrador/Tellurico/Variables/Total_InitialWaveforms.pckl' ## TODO: variable name to be exported
+#file_var_name =  '/home/administrador/Tellurico/Variables/Total_InitialWaveforms.pckl' ## TODO: variable name to be exported
+file_var_name =  '/home/tellurico-admin/Variables/Total_InitialWaveforms.pckl' ## variable name to be exported CCA
+
 f = open(file_var_name, 'rb')
 waveforms = pickle.load(f)
 f.close()
@@ -105,6 +109,7 @@ f.close()
 # Validate waveforms
 for waveform in waveforms:
     try:
+        waveform.waveform_path = '/run/user/1000/gvfs/sftp:host=10.154.12.15/media/administrador/Tellurico_Dataset2/' ## Only for CCA
         waveform_path_and_name = waveform.waveform_path + 'download.php?file=' + waveform.waveform_filename[0:4] + '%2F' + waveform.waveform_filename[5:7]+ '%2F' + waveform.waveform_filename
         if Path(waveform_path_and_name).exists():
             st = read(waveform_path_and_name)
@@ -131,8 +136,53 @@ waveforms_valid = TelluricoTools.sort(waveforms_valid)
 waveforms_valid.reverse()
 print(str(len(waveforms_valid)) + ' valid files with stations')
 
-file_var_name =  '/home/administrador/Tellurico/Variables/Total_ProcessedWaveforms_HD1.pckl' ## TODO: variable name to be exported
+#file_var_name =  '/home/administrador/Tellurico/Variables/Total_ProcessedWaveforms_HD1.pckl' ## TODO: variable name to be exported
+file_var_name =  '/home/tellurico-admin/Variables/Total_ProcessedWaveforms_HD1.pckl' ## variable name to be exported CCA
+
 toSave = [waveforms_valid, weights]
 f = open(file_var_name, 'wb')
 pickle.dump(toSave, f)
 f.close()
+
+#%% Validate same waveform-name in sfiles and save list again
+
+file_var_name =  '/home/tellurico-admin/Variables/Total_InitialWaveforms.pckl' ## variable name to be exported CCA
+        
+f = open(file_var_name, 'rb')
+waveforms = pickle.load(f)
+f.close()
+total = 0
+
+path_names = []
+waveforms_valid = []
+
+for i in range(0,len(waveforms)):
+    waveforms[i].waveform_path = '/run/user/1000/gvfs/sftp:host=10.154.12.15/media/administrador/Tellurico_Dataset2/' ## Only for CCA
+    waveform_path_and_name = waveforms[i].waveform_path + 'download.php?file=' + waveforms[i].waveform_filename[0:4] + '%2F' + waveforms[i].waveform_filename[5:7]+ '%2F' + waveforms[i].waveform_filename
+    if waveform_path_and_name not in path_names:
+        path_names.append(waveform_path_and_name)
+        waveforms_valid.append(waveforms[i])
+
+print('Non repeated Total files: ' + str(len(path_names)))
+print('Waveforms length: ' + str(len(waveforms_valid)))
+
+f = open(file_var_name, 'wb')
+pickle.dump(waveforms_valid, f)
+f.close()
+
+waveforms = copy.copy(waveforms_valid)
+waveforms_valid = []
+
+for i in range(0,len(waveforms)):
+    waveforms[i].waveform_path = '/run/user/1000/gvfs/sftp:host=10.154.12.15/media/administrador/Tellurico_Dataset2/' ## Only for CCA
+    waveform_path_and_name = waveforms[i].waveform_path + 'download.php?file=' + waveforms[i].waveform_filename[0:4] + '%2F' + waveforms[i].waveform_filename[5:7]+ '%2F' + waveforms[i].waveform_filename
+    if Path(waveform_path_and_name).exists():
+        waveforms_valid.append(waveforms[i])
+        
+print('Total waveforms in HD2: ' + str(len(waveforms_valid)))
+
+file_var_name =  '/home/tellurico-admin/Variables/Total_InitialWaveforms_HD2.pckl'
+f = open(file_var_name, 'wb')
+pickle.dump(waveforms_valid, f)
+f.close()
+    

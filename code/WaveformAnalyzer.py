@@ -59,8 +59,11 @@ events = []
 #sfile = Sfile('16-2230-55L.S201104', '/home/administrador/Tellurico/TelluricoDetect/code/IOfiles/')
 #[newEvent, stats_sort] = Waveform('IOfiles/', '2011-04-16-2228-33S.COL___140', sfile).get_event()
 #events.append(newEvent)
-sfile = Sfile('30-0429-45L.S201709', '/home/tellurico-admin/TelluricoDetect/code/IOfiles/')
-[newEvent, stats_sort] = Waveform('IOfiles/', '2017-09-30-0428-00M.COL___441', sfile).get_event()
+#sfile = Sfile('30-0429-45L.S201709', '/home/tellurico-admin/TelluricoDetect/code/IOfiles/')
+#[newEvent, stats_sort] = Waveform('IOfiles/', '2017-09-30-0428-00M.COL___441', sfile).get_event()
+#events.append(newEvent)
+sfile = Sfile('18-0602-02L.S201306.txt', '/home/administrador/Tellurico/TelluricoDetect/code/IOfiles/')
+[newEvent, stats_sort] = Waveform('IOfiles/', '2013_06_2013-06-18-0559-59M.COL___261', sfile).get_event()
 events.append(newEvent)
 
 ''' DATASET ATRIBUTES '''
