@@ -466,3 +466,10 @@ f.close()
 f = open('store.pckl', 'rb')
 toRead = pickle.load(f)
 f.close()
+
+#%% Read HTTP Files
+
+from obspy import read
+
+st = read("https://bdrsnc.sgc.gov.co/paginas1/catalogo/Consulta_Experta/download.php?file=2010/01/2010-01-01-0416-47S.COL___097")
+print(st)  
