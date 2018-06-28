@@ -730,20 +730,23 @@ class waveforms_read_v3:
         self.read_files()
     
     def read_files(self):
-
+        
+        file_var_name_import = '/home/administrador/Tellurico/Variables/CCA/Total_InitialWaveforms_HD2.pckl'
+        
         ''' WAVEFORMS READING '''
 
         #file_var_name =  '/home/administrador/Tellurico/Variables/Total_InitialWaveforms.pckl' ## TODO: variable name to be exported
-        file_var_name =  '/home/tellurico-admin/Variables/Total_InitialWaveforms_HD2.pckl' ## variable name to be exported CCA
+#        file_var_name =  '/home/tellurico-admin/Variables/Total_InitialWaveforms_HD2.pckl' ## variable name to be exported CCA
+#        file_var_name =  '/home/administrador/Tellurico/Variables/CCA/Total_InitialWaveforms_HD2.pckl' ## variable name to be exported Locally
         
-        f = open(file_var_name, 'rb')
+        f = open(file_var_name_import, 'rb')
         waveforms = pickle.load(f)
         f.close()
 
         ''' WAVEFORM IMPORT '''
         
         divisions = 2
-        current_division = 1 ## Modify by block
+        current_division = 2 ## Modify by block
         step = int(len(waveforms)/divisions)
         
         waveforms = waveforms[(current_division-1)*step:(((current_division!=divisions)*(current_division*step))+((current_division==divisions)*(len(waveforms)-1)))]
@@ -763,6 +766,9 @@ class waveforms_read_v3:
     # 
     def waveform_import(self,waveforms,core,div):     
         
+        waveform_path_name = '/media/administrador/Tellurico_Dataset2/'
+        filename_variables_export = '/home/administrador/Tellurico/Variables/HD2_Files/'
+        
         total = len(waveforms)
         index_wrong = 0
         index_total = 0
@@ -770,7 +776,8 @@ class waveforms_read_v3:
         
         for waveform in waveforms:
             try:
-                waveform.waveform_path = '/run/user/1000/gvfs/sftp:host=10.154.12.15/media/administrador/Tellurico_Dataset2/' ## Only for CCA
+#                waveform.waveform_path = '/run/user/1000/gvfs/sftp:host=10.154.12.15/media/administrador/Tellurico_Dataset2/' ## Only for CCA
+                waveform.waveform_path = waveform_path_name ## TODO: Only local
                 waveform_path_and_name = waveform.waveform_path + 'download.php?file=' + waveform.waveform_filename[0:4] + '%2F' + waveform.waveform_filename[5:7]+ '%2F' + waveform.waveform_filename
                 st = read(waveform_path_and_name)
                 stats = []
@@ -784,7 +791,7 @@ class waveforms_read_v3:
             print('Waveform ' + str(index_total) + '/' + str(total) + ' included - ' + str(core))
             
             if(index_total%20 == 0):
-                file_var_name =  '/home/tellurico-admin/Variables/Total_ProcWaveforms_C' + str(core) + '_D' + str(div) + '_HD2.pckl' ## variable name to be exported CCA
+                file_var_name =  filename_variables_export + 'Total_ProcWaveforms_C' + str(core) + '_D' + str(div) + '_HD2.pckl' ## TODO: variable name to be exported CCA
                 toSave = waveforms_valid
                 f = open(file_var_name, 'wb')
                 pickle.dump(toSave, f)
@@ -793,7 +800,7 @@ class waveforms_read_v3:
 #        waveforms_valid = TelluricoTools.sort(waveforms_valid)
 #        waveforms_valid.reverse()
         
-        file_var_name =  '/home/tellurico-admin/Variables/Total_ProcWaveforms_C' + str(core) + '_D' + str(div) + '_HD2.pckl' ## variable name to be exported CCA
+        file_var_name =  filename_variables_export + 'Total_ProcWaveforms_C' + str(core) + '_D' + str(div) + '_HD2.pckl' ## TODO: variable name to be exported CCA
         toSave = waveforms_valid
         f = open(file_var_name, 'wb')
         pickle.dump(toSave, f)
