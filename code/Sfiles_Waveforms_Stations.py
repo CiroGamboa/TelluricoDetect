@@ -19,8 +19,11 @@ import copy
 
 #waveforms_path = '/home/administrador/Tellurico/Filtered_RSNC_Files/Filtered_RSNC_Waveforms/'
 #sfiles_path = '/home/administrador/Tellurico/Filtered_RSNC_Files/Filtered_RSNC_Sfiles/'
-waveforms_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Waveforms/' #CCA
-sfiles_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Sfiles/' #CCA
+#waveforms_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Waveforms/' #CCA
+#sfiles_path = '/home/tellurico-admin/Tellurico_Archivos/Archivos_Prueba/PrototipoV0_1/Sfiles/' #CCA
+waveforms_path = '/home/tellurico/Tellurico/Archivos/Waveforms/' # CCA
+sfiles_path = '/home/tellurico/Tellurico/Archivos/Sfiles/' # CCA
+
 stations = ['RUS','BRR','PAM','PTB']
 stations_prov = copy.copy(stations)
 waveforms_stations = []
@@ -31,6 +34,7 @@ sfileAnalyzer = SfileAnalyzer(sfiles_path)
 sfileAnalyzer.get_sfiles()
 sfiles = sfileAnalyzer.sfiles
 waveforms = []
+waveform_names = []
 
 for sfile in sfiles:
     if(hasattr(sfile, 'type_6')):
@@ -38,9 +42,11 @@ for sfile in sfiles:
             if station['STAT'] in stations_prov:
                 stations_prov.pop(stations_prov.index(station['STAT']))
             if len(stations_prov) == 0:
-                waveforms_stations.append(Waveform(waveforms_path, sfile.type_6['BINARY_FILENAME'], sfile))
-                total_size += os.stat(sfiles_path + sfile.filename).st_size
-                break
+                if sfile.type_6['BINARY_FILENAME'] not in waveform_names:
+                    waveform_names.append(sfile.type_6['BINARY_FILENAME'])
+                    waveforms_stations.append(Waveform(waveforms_path, sfile.type_6['BINARY_FILENAME'], sfile))
+                    total_size += os.stat(sfiles_path + sfile.filename).st_size
+                    break
     else:
         delete_sfile.append(sfile.filename)
     stations_prov = copy.copy(stations)
@@ -198,6 +204,7 @@ import pickle
 from pathlib import Path
 import numpy as np
 import copy
+import matplotlib.pyplot as ml
 
 #file_var_name =  '/home/tellurico/Tellurico/Variables/HD2_Files/Total_ProcWaveforms_HD2.pckl' ## CCA
 #        
@@ -211,13 +218,88 @@ import copy
 statistics = {}
 comps = np.zeros(len(waveform_filenames))
 sr = np.zeros(len(waveform_filenames))
+total_components = []
+comps_station = {}
 
 for waveform_filename in waveform_filenames:
     stats = waveform_stats[waveform_filename]
     for stat in stats:
         if(stat.station not in statistics):
             dictio = {'SP': copy.copy(comps), 'SR': copy.copy(sr)}
+            comps_station[stat.station] = []
             statistics[stat.station] = dictio
+        if(stat.channel not in total_components):
+            total_components.append(stat.channel)
 
+comps_station_copy = copy.copy(comps_station)
+index = 0
+w = []
 
-    
+for waveform_filename in waveform_filenames:
+    stats = waveform_stats[waveform_filename]
+    for stat in stats:
+        ((statistics[stat.station])['SR'])[index] = stat.sampling_rate
+        if(stat.channel[1] == 'H' and len(stat.channel) == 3 and stat.channel not in comps_station_copy[stat.station]):
+            comps_station_copy[stat.station].append(stat.channel)
+    for stat in comps_station_copy:
+        ((statistics[stat])['SP'])[index] = len(comps_station_copy[stat])
+    if index == 4600:
+        print(comps_station_copy)
+    comps_station_copy = copy.copy(comps_station)
+    index += 1
+
+stations_quant = len(statistics)
+fig = ml.figure()
+ax1 = fig.add_subplot(211)
+ax2 = fig.add_subplot(212)
+for station in statistics:
+    if stations_quant > 0:
+        ax1.plot((statistics[station])['SP'])
+        ax2.plot((statistics[station])['SR'])
+        stations_quant -= 1
+
+fig = ml.figure()
+ax1 = fig.add_subplot(211)
+ax2 = fig.add_subplot(212)
+ax1.set_title('Components')
+ax1.plot((statistics['BRR'])['SP'])
+ax1.plot((statistics['RUS'])['SP'])
+ax1.plot((statistics['PTB'])['SP'])
+ax1.plot((statistics['PAM'])['SP'])
+ax2.set_title('Sampling Rate')
+ax2.plot((statistics['BRR'])['SR'])
+ax2.plot((statistics['RUS'])['SR'])
+ax2.plot((statistics['PTB'])['SR'])
+ax2.plot((statistics['PAM'])['SR'])
+
+fig = ml.figure()
+ax1 = fig.add_subplot(211)
+ax2 = fig.add_subplot(212)
+ax1.set_title('Components - BRR')
+ax1.plot((statistics['BRR'])['SP'])
+ax2.set_title('Sampling Rate - BRR')
+ax2.plot((statistics['BRR'])['SR'])
+
+fig = ml.figure()
+ax1 = fig.add_subplot(211)
+ax2 = fig.add_subplot(212)
+ax1.set_title('Components - RUS')
+ax1.plot((statistics['RUS'])['SP'])
+ax2.set_title('Sampling Rate - RUS')
+ax2.plot((statistics['RUS'])['SR'])
+
+fig = ml.figure()
+ax1 = fig.add_subplot(211)
+ax2 = fig.add_subplot(212)
+ax1.set_title('Components - PAM')
+ax1.plot((statistics['PAM'])['SP'])
+ax2.set_title('Sampling Rate - PAM')
+ax2.plot((statistics['PAM'])['SR'])
+
+fig = ml.figure()
+ax1 = fig.add_subplot(211)
+ax2 = fig.add_subplot(212)
+ax1.set_title('Components - PTB')
+ax1.plot((statistics['PTB'])['SP'])
+ax2.set_title('Sampling Rate - PTB')
+ax2.plot((statistics['PTB'])['SR'])
