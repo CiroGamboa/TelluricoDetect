@@ -186,3 +186,38 @@ f = open(file_var_name, 'wb')
 pickle.dump(waveforms_valid, f)
 f.close()
     
+#%% Waveform stats analyzer
+
+from obspy import read
+import os
+from SfileAnalyzer import SfileAnalyzer
+from Waveform import Waveform
+import gc
+import copy
+import pickle
+from pathlib import Path
+import numpy as np
+import copy
+
+#file_var_name =  '/home/tellurico/Tellurico/Variables/HD2_Files/Total_ProcWaveforms_HD2.pckl' ## CCA
+#        
+#f = open(file_var_name, 'rb')
+#waveform_stats = pickle.load(f)
+#f.close()
+#
+#waveform_filenames = list(waveform_stats)
+#waveform_filenames.sort()
+
+statistics = {}
+comps = np.zeros(len(waveform_filenames))
+sr = np.zeros(len(waveform_filenames))
+
+for waveform_filename in waveform_filenames:
+    stats = waveform_stats[waveform_filename]
+    for stat in stats:
+        if(stat.station not in statistics):
+            dictio = {'SP': copy.copy(comps), 'SR': copy.copy(sr)}
+            statistics[stat.station] = dictio
+
+
+    

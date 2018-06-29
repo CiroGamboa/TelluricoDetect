@@ -733,13 +733,10 @@ class waveforms_read_v3:
     def read_files(self):
         
 #        file_var_name_import = '/home/administrador/Tellurico/Variables/CCA/Total_InitialWaveforms_HD2.pckl' #TODO: Lab K
-        file_var_name_import = '/home/i201-20/Tellurico/Variables/CCA/Total_InitialWaveforms_HD2.pckl' # I201
+#        file_var_name_import = '/home/i201-20/Tellurico/Variables/CCA/Total_InitialWaveforms_HD2.pckl' # I201
+        file_var_name_import = '/home/tellurico/Tellurico/Variables/CCA/Total_InitialWaveforms_HD2.pckl' # CCA
         
         ''' WAVEFORMS READING '''
-
-        #file_var_name =  '/home/administrador/Tellurico/Variables/Total_InitialWaveforms.pckl' ## TODO: variable name to be exported
-#        file_var_name =  '/home/tellurico-admin/Variables/Total_InitialWaveforms_HD2.pckl' ## variable name to be exported CCA
-#        file_var_name =  '/home/administrador/Tellurico/Variables/CCA/Total_InitialWaveforms_HD2.pckl' ## variable name to be exported Locally
         
         f = open(file_var_name_import, 'rb')
         waveforms = pickle.load(f)
@@ -827,6 +824,7 @@ class waveforms_read_v3:
         f = open(path + 'Total_ProcWaveforms_HD2.pckl', 'wb')
         pickle.dump(final_dict, f)
         f.close()
+
 
 
 
