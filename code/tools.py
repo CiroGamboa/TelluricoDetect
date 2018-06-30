@@ -81,15 +81,19 @@ class TelluricoTools:
         return sorted_dict # (sorted_dict[0])[1] how to access a value in a tuple
     
     #Extract Z, N and E components from a group of traces
-    def xyz_array(traceGroup):
+    def xyz_array(traceGroup):        
+        dataX = None; dataY = None; dataZ = None
         for trace in traceGroup.traces:
             if(trace.channel[2] == 'Z'):
                 dataX = trace
-            elif(trace.channel[2] == 'N'):
+            elif(trace.channel[2] == 'N' or trace.channel[2] == '1'):
                 dataY = trace
-            elif(trace.channel[2] == 'E'):
+            elif(trace.channel[2] == 'E' or trace.channel[2] == '2'):
                 dataZ = trace
-        return [dataX, dataY, dataZ]
+        if(dataX == None or dataY == None or dataZ == None):
+            return [None, None, None]
+        else:
+            return [dataX, dataY, dataZ]
     
      # Get the resultant trace from all components
     def getResultantTrace(dataX, dataY, dataZ):
