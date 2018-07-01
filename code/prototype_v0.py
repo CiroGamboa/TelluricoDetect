@@ -573,6 +573,113 @@ class prototype_v4:
                         final_file.write(line)
                     os.remove(filename)
 
+class prototype_v4_2:
+    
+    def __init__(self):
+
+        self.read_files()
+    
+    def read_files(self):
+
+        ''' DATASET READING AND PRE-PROCESSING '''
+        
+        p_wave_path = '/home/tellurico/Tellurico/Variables/HD2_Files/P_Waves_Noise/Total_P-wave-noise_HD2.pckl'
+        f = open(p_wave_path, 'rb')
+        waveform_dict = pickle.load(f)
+        f.close()
+        
+        ''' DATASET ATRIBUTES '''
+        
+        cores = os.cpu_count() - 1 # CPU cores
+        p = [None]*cores
+        
+        for stats in waveform_dict.keys():
+            for percent in waveform_dict[stats].keys():
+                waveforms_valid = copy.copy(waveform_dict[stats][percent])
+                step = int(len(waveforms_valid)/cores)
+                
+                for i in range(1, (cores+1)):
+                    p[i-1] = Process(target=self.attributes, args=(('att_p' + str(i) + '.txt'),
+                         waveforms_valid[(i-1)*step:(((i!=cores)*(i*step))+((i==cores)*(len(waveforms_valid)-1)))],int(len(waveforms_valid)/cores),i))
+                    
+                for i in range(0, cores):
+                    p[i].start()
+                
+                for i in range(0, cores):
+                    p[i].join()
+                
+                self.concat_attrs_files('/home/tellurico/Tellurico/TelluricoDetect/code/',stats,percent) #CCA
+    
+    # Feature extraction
+    def attributes(self,filename, waveforms_valid, total, core):     
+        index = 1
+        observ_signal = ''
+        observ_noise = ''
+        with open(filename, 'a') as the_file:
+            for waveform in waveforms_valid:
+                for stat in waveform.keys():
+                    p_signal_X = waveform[stat]['Px']
+                    p_signal_Y = waveform[stat]['Py']
+                    p_signal_Z = waveform[stat]['Pz']
+                    noise_X = waveform[stat]['Nx']
+                    noise_Y = waveform[stat]['Ny']
+                    noise_Z = waveform[stat]['Nz']
+                    
+                    observ_signal += str(TimeDomain_Attributes.DOP(p_signal_X,p_signal_Y,p_signal_Z)) + ','
+                    observ_signal += str(TimeDomain_Attributes.RV2T(p_signal_X,p_signal_Y,p_signal_Z)) + ','
+                    observ_signal += str(NonLinear_Attributes.signal_entropy(p_signal_X)[1]) + ','
+                    observ_signal += str(NonLinear_Attributes.signal_entropy(p_signal_Y)[1]) + ','
+                    observ_signal += str(NonLinear_Attributes.signal_entropy(p_signal_Z)[1]) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_kurtosis(p_signal_X)) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_kurtosis(p_signal_Y)) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_kurtosis(p_signal_Z)) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_skew(p_signal_X)) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_skew(p_signal_Y)) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_skew(p_signal_Z)) + ','
+                    observ_signal += str(NonLinear_Attributes.corr_CD(p_signal_X, 1)) + ','
+                    observ_signal += str(NonLinear_Attributes.corr_CD(p_signal_Y, 1)) + ','
+                    observ_signal += str(NonLinear_Attributes.corr_CD(p_signal_Z, 1)) + ','
+                    
+                    observ_noise += str(TimeDomain_Attributes.DOP(noise_X,noise_Y,noise_Z)) + ','
+                    observ_noise += str(TimeDomain_Attributes.RV2T(noise_X,noise_Y,noise_Z)) + ','
+                    observ_noise += str(NonLinear_Attributes.signal_entropy(noise_X)[1]) + ','
+                    observ_noise += str(NonLinear_Attributes.signal_entropy(noise_Y)[1]) + ','
+                    observ_noise += str(NonLinear_Attributes.signal_entropy(noise_Z)[1]) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_kurtosis(noise_X)) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_kurtosis(noise_Y)) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_kurtosis(noise_Z)) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_skew(noise_X)) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_skew(noise_Y)) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_skew(noise_Z)) + ','
+                    observ_noise += str(NonLinear_Attributes.corr_CD(noise_X, 1)) + ','
+                    observ_noise += str(NonLinear_Attributes.corr_CD(noise_Y, 1)) + ','
+                    observ_noise += str(NonLinear_Attributes.corr_CD(noise_Z, 1)) + ','
+
+                observ_signal += str(1)
+                the_file.write(observ_signal+'\n')
+                observ_noise += str(0)
+                the_file.write(observ_noise+'\n')
+                observ_signal = ''
+                observ_noise = ''
+                        
+                print('Waveform ' + str(index) + '/' + str(total) + ' done - core ' + str(core))
+                index += 1
+                gc.collect()
+            print('Core ' + str(core) + ' DONE')
+        
+    # Concat feature extraction files into one
+    def concat_attrs_files(self, path, stats, percent):
+        list_of_files = os.listdir(path)
+        pattern = "att_p*"  
+        with open('attributes_matrix_prot04_' + str(stats) + 'stats_' + str(percent) + '.txt','a') as final_file:
+            final_file.write('Filename; DOP; RV2T; EntropyZ; EntropyN; EntropyE; KurtosisZ; KurtosisN; KurtosisE; SkewZ; SkewN; SkewE; CDZ; CDN; CDE')
+            for filename in list_of_files:  
+                if fnmatch.fnmatch(filename, pattern):
+                    input_file = open(filename, 'r')
+                    for line in input_file:
+                        final_file.write(line)
+                    os.remove(filename)
+
 
 
 class p_wave_extractor:
@@ -618,8 +725,6 @@ class p_wave_extractor:
         
         for i in range(0, cores):
             p[i].join()
-        
-        self.p_wave_extractor(['RUS','BRR','PAM','PTB'],200,0.9)
     
     # Feature extraction
     def p_wave_noise_extraction(self, waveforms, stations, window, percent, core):
@@ -660,13 +765,13 @@ class p_wave_extractor:
                             waveforms_extract_copy[stat]['Ny'] = noise_Y
                             waveforms_extract_copy[stat]['Nz'] = noise_Z
                 
-                total_waveforms.append(waveforms_extract_copy)
+                total_waveforms.append(copy.copy(waveforms_extract_copy))
                 waveforms_extract_copy = copy.copy(waveforms_extract)
                 index_total += 1
                 print('Waveform ' + str(index_total) + '/' + str(total) + ' included - ' + str(core))
                 waveform.set_st(None)
                 
-                if(index_total%10 == 0):
+                if(index_total%20 == 0):
                     file_var_name =  filename_variables_export + 'Total_P-wave-noise_C' + str(core) + '_P' + str(index_part) + '_HD2.pckl' ## TODO: variable name to be exported CCA
                     toSave = total_waveforms
                     f = open(file_var_name, 'wb')

@@ -371,3 +371,54 @@ ax2.plot((statistics['PTB'])['SR'])
 from prototype_v0 import p_wave_extractor
 
 p_wave_extractor(['RUS','BRR','PAM','PTB'],200,0.5)
+
+#%% Concat all stations and P & Noise wave windows
+
+from obspy import read
+import os
+from SfileAnalyzer import SfileAnalyzer
+from Waveform import Waveform
+import gc
+import copy
+import pickle
+from pathlib import Path
+import numpy as np
+import copy
+import matplotlib.pyplot as ml
+import fnmatch
+
+percents = [0.5, 0.9]
+stats_quant = [3, 4]
+
+total_waveforms = []
+wave_stats = {} # Stations key dictionary
+wave_percent = {} 
+
+for stats in stats_quant:
+    for percent in percents:
+        wave_percent[percent] = []
+    wave_stats[stats] = copy.copy(wave_percent)
+
+p_wave_path = '/home/tellurico/Tellurico/Variables/HD2_Files/P_Waves_Noise/'
+
+for stats in stats_quant:
+    for percent in percents:
+        path = p_wave_path + str(stats) + 'stat/' + str(percent) + '/'
+        list_of_files = os.listdir(path)
+        pattern = "Total_P-wave*"
+        final_dict = {}
+        for filename in list_of_files:  
+            if fnmatch.fnmatch(filename, pattern):
+                file_var_name =  path + filename
+                f = open(file_var_name, 'rb')
+                waveform_dict = pickle.load(f)
+                for array in waveform_dict:
+                    total_waveforms.append(array)
+                f.close()
+        (wave_stats[stats])[percent] = copy.copy(total_waveforms)
+        total_waveforms = []
+
+p_wave_path += 'Total_P-wave-noise_HD2.pckl'
+f = open(p_wave_path, 'wb')
+pickle.dump(wave_stats, f)
+f.close()
