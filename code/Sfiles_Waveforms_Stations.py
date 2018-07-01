@@ -365,3 +365,9 @@ ax1.set_title('Components - PTB')
 ax1.plot((statistics['PTB'])['SP'])
 ax2.set_title('Sampling Rate - PTB')
 ax2.plot((statistics['PTB'])['SR'])
+
+#%% Execute prototypes
+
+from prototype_v0 import p_wave_extractor
+
+p_wave_extractor(['RUS','BRR','PAM','PTB'],200,0.5)
