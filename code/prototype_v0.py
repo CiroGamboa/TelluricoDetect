@@ -681,7 +681,10 @@ class prototype_v4_2:
                     os.remove(filename)
 
 
-
+# p_wave_extractor(['BRR','RUS','PAM'],200,0.5)
+# p_wave_extractor(['BRR','RUS','PAM'],200,0.9)
+# p_wave_extractor(['BRR','RUS','PAM','PTB'],200,0.5)
+# p_wave_extractor(['BRR','RUS','PAM','PTB'],200,0.9)
 class p_wave_extractor:
     
     def __init__(self,stations,window,percent):
@@ -714,6 +717,7 @@ class p_wave_extractor:
         
         waveforms = waveforms[(current_division-1)*step:(((current_division!=divisions)*(current_division*step))+((current_division==divisions)*(len(waveforms)-1)))]
         cores = os.cpu_count() - 1 # CPU cores
+#        cores = 3 ## QUITAR ESTA LINEAAAAA
         step = int(len(waveforms)/cores)
         p = [None]*cores
         
@@ -771,7 +775,7 @@ class p_wave_extractor:
                 print('Waveform ' + str(index_total) + '/' + str(total) + ' included - ' + str(core))
                 waveform.set_st(None)
                 
-                if(index_total%20 == 0):
+                if(index_total%1 == 0):
                     file_var_name =  filename_variables_export + 'Total_P-wave-noise_C' + str(core) + '_P' + str(index_part) + '_HD2.pckl' ## TODO: variable name to be exported CCA
                     toSave = total_waveforms
                     f = open(file_var_name, 'wb')
@@ -790,6 +794,101 @@ class p_wave_extractor:
         f = open(file_var_name, 'wb')
         pickle.dump(toSave, f)
         f.close()
+        
+class p_wave_extractor_2:
+    
+    def __init__(self,stations,window,percent):
+#        self.stations = ['RUS','BRR','PAM','PTB']
+#        self.stations = ['RUS','BRR','PAM']
+        self.stations = stations
+        self.window = window
+        self.percent = percent
+        self.read_files()
+    
+    def read_files(self):
+
+        ''' DATASET READING AND PRE-PROCESSING '''
+        
+#        file_var_name_import = '/home/administrador/Tellurico/Variables/CCA/Total_InitialWaveforms_HD2.pckl' #TODO: Lab K
+        file_var_name_import = '/home/i201-20/Tellurico/Variables/CCA/Total_InitialWaveforms_HD2_' + str(len(self.stations)) + 'stat.pckl' # I201
+#        file_var_name_import = '/home/tellurico/Tellurico/Variables/CCA/Total_InitialWaveforms_HD2.pckl' # CCA
+        
+        ''' WAVEFORMS READING '''
+        
+        f = open(file_var_name_import, 'rb')
+        waveforms = pickle.load(f)
+        f.close()
+
+        ''' WAVEFORM IMPORT '''
+        
+        divisions = 1
+        current_division = 1 ## Modify by block
+        step = int(len(waveforms)/divisions)
+        
+        waveforms = waveforms[(current_division-1)*step:(((current_division!=divisions)*(current_division*step))+((current_division==divisions)*(len(waveforms)-1)))]
+        cores = os.cpu_count() - 1 # CPU cores
+#        cores = 3 ## QUITAR ESTA LINEAAAAA
+        step = int(len(waveforms)/cores)
+        p = [None]*cores
+        
+        for i in range(1, (cores+1)):
+            p[i-1] = Process(target=self.p_wave_noise_extraction, args=(waveforms[(i-1)*step:(((i!=cores)*(i*step))+((i==cores)*(len(waveforms)-1)))],self.stations,self.window,self.percent,i))
+            
+        for i in range(0, cores):
+            p[i].start()
+        
+        for i in range(0, cores):
+            p[i].join()
+    
+    # Feature extraction
+    def p_wave_noise_extraction(self, waveforms, stations, window, percent, core):
+        waveforms_path_HD2 = '/media/i201-20/Tellurico_Dataset2/' # External HD2 - Local
+        filename_variables_export = '/home/i201-20/Tellurico/Variables/HD2_Files/P_Waves_Noise/' + str(len(stations)) + 'stat/' + str(percent) + '/'
+        total = len(waveforms)
+        
+        waveforms_extract = {} # Stations key dictionary
+        wave_type = {'Px':[],'Py':[],'Pz':[],'Nx':[],'Ny':[],'Nz':[]} # Type of wave key dictionary
+#        
+        for stat in stations:
+            waveforms_extract[stat] = copy.copy(wave_type)
+            
+        waveforms_extract_copy = copy.copy(waveforms_extract)
+        
+        index_total = 0
+        for waveform in waveforms:
+            try:
+                waveform.waveform_path = waveforms_path_HD2 ## TODO: Only local
+                waveform_path_and_name = waveform.waveform_path + 'download.php?file=' + waveform.waveform_filename[0:4] + '%2F' + waveform.waveform_filename[5:7]+ '%2F' + waveform.waveform_filename
+                st = read(waveform_path_and_name)
+                waveform.set_stations(self.stations)
+                waveform.set_st(st)
+                [newEvent, stats_sort] = waveform.get_event_spec_stats()
+                for stat in stations:
+                    [dataX, dataY, dataZ] = TelluricoTools.xyz_array(newEvent.trace_groups[stat])
+                    if(dataX != None and dataY != None and dataZ != None):
+                        [p_signal_X, noise_X] = TelluricoTools.p_noise_extraction(dataX.filter_wave, window, newEvent.trace_groups[stat].P_Wave, percent)
+                        [p_signal_Y, noise_Y] = TelluricoTools.p_noise_extraction(dataY.filter_wave, window, newEvent.trace_groups[stat].P_Wave, percent)
+                        [p_signal_Z, noise_Z] = TelluricoTools.p_noise_extraction(dataZ.filter_wave, window, newEvent.trace_groups[stat].P_Wave, percent)
+                        waveforms_extract_copy[stat]['Px'] = p_signal_X
+                        waveforms_extract_copy[stat]['Py'] = p_signal_Y
+                        waveforms_extract_copy[stat]['Pz'] = p_signal_Z
+                        waveforms_extract_copy[stat]['Nx'] = noise_X
+                        waveforms_extract_copy[stat]['Ny'] = noise_Y
+                        waveforms_extract_copy[stat]['Nz'] = noise_Z
+                
+                file_var_name =  filename_variables_export + 'Total_P-wave-noise_C' + str(core) + '_P' + str(index_total) + '_HD2.pckl' ## TODO: variable name to be exported CCA
+                toSave = copy.copy(waveforms_extract_copy)
+                f = open(file_var_name, 'wb')
+                pickle.dump(toSave, f)
+                f.close()
+                waveforms_extract_copy = copy.copy(waveforms_extract)
+                index_total += 1
+                waveform.set_st(None)
+                print('Waveform ' + str(index_total) + '/' + str(total) + ' included - ' + str(core))
+                gc.collect()
+            except:
+                pass
+            gc.collect()
                     
 class waveforms_read:
     
