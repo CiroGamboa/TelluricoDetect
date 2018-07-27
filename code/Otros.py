@@ -117,3 +117,275 @@ Created on Fri Jun  1 19:22:41 2018
 ##    fig, ax = ml.subplots(2, 1)
 ##    ax[0].plot(events[0].trace_groups[station_wave].traces[0].waveform)
 ##    ax[1].plot(events[0].trace_groups[station_wave].traces[0].filter_wave)
+
+
+#%% MD2 - Lab 3
+import numpy as np
+import matplotlib.pyplot as ml
+import random, math, pickle
+
+# Easy
+path = '/home/tellurico/Descargas/'
+path_in = path + 'lab3_easy_in.txt'
+path_out = path + 'lab3_easy_out.txt'
+
+cases = 50
+total = 0.0
+str_in = ""
+str_out = ""
+
+str_in += str(cases) + "\n\n"
+for i in range(0, cases):
+    totalVertices = int(random.randint(3, 10))
+    p1x = 0
+    p1y = 0
+    str_in += str(p1x) + " " + str(p1y) + "\n"
+    for ii in range(0, totalVertices):
+        p2x = int(random.randint(-100, 100))*100
+        p2y = int(random.randint(-100, 100))*100
+        while(p2x == 0 and p2y == 0):
+            p2x = int(random.randint(-100, 100))*100
+            p2y = int(random.randint(-100, 100))*100
+        str_in += str(p1x) + " " + str(p1y) + " " + str(p2x) + " " + str(p2y) + "\n"
+        total += math.sqrt(math.pow(p2x-p1x, 2) + math.pow(p2y-p1y, 2))
+        p1x = p2x
+        p1y = p2y
+        
+        with open(path_in, 'a') as the_file:
+            the_file.write(str_in) 
+        str_in = ""
+        
+    str_in += "\n"
+    total *= 2
+    total /= 20000
+    str_out = str(int(total)) + ":" + str(round(60*(total-int(total)))) + "\n"
+    total = 0
+
+    with open(path_out, 'a') as the_file:
+        the_file.write(str_out)
+    
+    str_out = ""
+
+# Hard
+path = '/home/tellurico/Descargas/'
+path_in = path + 'lab3_hard_in.txt'
+path_out = path + 'lab3_hard_out.txt'
+
+cases = 5000
+total = 0.0
+str_in = ""
+str_out = ""
+
+str_in += str(cases) + "\n\n"
+for i in range(0, cases):
+    totalVertices = int(random.randint(10, 50))
+    p1x = 0
+    p1y = 0
+    str_in += str(p1x) + " " + str(p1y) + "\n"
+    for ii in range(0, totalVertices):
+        p2x = int(random.randint(-100, 100))*100
+        p2y = int(random.randint(-100, 100))*100
+        while(p2x == 0 and p2y == 0):
+            p2x = int(random.randint(-100, 100))*100
+            p2y = int(random.randint(-100, 100))*100
+        str_in += str(p1x) + " " + str(p1y) + " " + str(p2x) + " " + str(p2y) + "\n"
+        total += math.sqrt(math.pow(p2x-p1x, 2) + math.pow(p2y-p1y, 2))
+        p1x = p2x
+        p1y = p2y
+        
+        with open(path_in, 'a') as the_file:
+            the_file.write(str_in) 
+        str_in = ""
+        
+    str_in += "\n"
+    total *= 2
+    total /= 20000
+    str_out = str(int(total)) + ":" + str(round(60*(total-int(total)))) + "\n"
+    total = 0
+
+    with open(path_out, 'a') as the_file:
+        the_file.write(str_out)
+    
+    str_out = ""
+
+#%% MD1 - Lab 1
+import numpy as np
+import matplotlib.pyplot as ml
+import random, math, pickle
+
+# Easy
+path = '/home/tellurico/Descargas/MD1/'
+path_in = path + 'lab1_easy_in.txt'
+path_out = path + 'lab1_easy_out.txt'
+
+total = 0.0
+str_in = ""
+str_out = ""
+fibo_values = []
+up_to = 500
+
+for n in range(0, up_to):
+    fibo_values.append(int(((1+math.sqrt(5))**n-(1-math.sqrt(5))**n)/(2**n*math.sqrt(5))))
+
+cont = 3
+ulam_i = [1,2,3]
+ulam_j = [1,2,3]
+cand = 4
+while(cont <= up_to):
+    res = []
+    for i in ulam_i:
+        for j in ulam_j:
+            if i == j or j > i: pass
+            else:
+                res.append(i+j)
+    if res.count(cand) == 1:
+        ulam_i.append(cand)
+        ulam_j.append(cand)
+        cont += 1
+    cand += 1
+
+# Easy
+limit = 100
+cases = 25
+numbers = []
+for i in range(0, cases):
+    number = random.randint(1, limit)
+    while(number in numbers):
+        number = int(random.randint(1, limit))
+    numbers.append(number)
+    with open(path_in, 'a') as the_file_in:
+        the_file_in.write(str(number) + "\n") 
+    with open(path_out, 'a') as the_file_out:
+        the_file_out.write(str(fibo_values[number] + ulam_i[number-1]) + "\n")
+with open(path_in, 'a') as the_file_in:
+    the_file_in.write(str(-1) + "\n")
+        
+path_in = path + 'lab1_hard_in.txt'
+path_out = path + 'lab1_hard_out.txt'
+        
+# Hard
+limit = 500
+cases = 250
+numbers = []
+for i in range(0, cases):
+    number = random.randint(1, limit)
+    while(number in numbers):
+        number = int(random.randint(1, limit))
+    numbers.append(number)
+    with open(path_in, 'a') as the_file_in:
+        the_file_in.write(str(number) + "\n") 
+    with open(path_out, 'a') as the_file_out:
+        the_file_out.write(str(fibo_values[number] + ulam_i[number-1]) + "\n")
+with open(path_in, 'a') as the_file_in:
+    the_file_in.write(str(-1) + "\n")
+    
+#%% MD1 - Lab 2
+import numpy as np
+import matplotlib.pyplot as ml
+import random, math, pickle
+import sys, copy
+
+# Easy
+path = '/home/tellurico/Descargas/MD1/'
+path_in = path + 'lab2_easy_in.txt'
+path_out = path + 'lab2_easy_out.txt'
+    
+number_limit = 100
+N_limit = 100
+K_limit = 20
+cases = 25
+numbers = []
+str_numbers = ""
+
+with open(path_in, 'a') as the_file_in:
+    the_file_in.write(str(cases) + "\n")
+
+    for i in range(0, cases):
+        N = random.randint(1, N_limit)
+        K = random.randint(2, K_limit)
+        str_NyK = str(N) + " " + str(K)
+        the_file_in.write(str_NyK + "\n")
+        
+        for ii in range(0, N):
+            number = random.randint(-number_limit, number_limit)
+            str_numbers += str(number) + " "
+            numbers.append(number)
+        
+        str_numbers = str_numbers[0:(len(str_numbers) - 1)]
+        the_file_in.write(str_numbers + "\n")
+        
+        # Operation ------------------------------------
+        n = len(numbers)
+
+        rem = [[False]*K for _ in range(n)]
+        rem[0][numbers[0]%K] = True
+    
+        for i in range(1, n):
+            for j in range(K):
+                if rem[i-1][j]:
+                    rem[i][(j+numbers[i])%K] = True
+                    rem[i][(j+K-numbers[i])%K] = True
+        # End Operation ------------------------------------
+        
+        if rem[n-1][0]:
+            with open(path_out, 'a') as the_file_out:
+                the_file_out.write("Divisible\n")
+        else:
+            with open(path_out, 'a') as the_file_out:
+                the_file_out.write("Not divisible\n")
+        
+        numbers = []
+        str_numbers = ""
+
+#Hard
+        
+path = '/home/tellurico/Descargas/MD1/'
+path_in = path + 'lab2_hard_in.txt'
+path_out = path + 'lab2_hard_out.txt'
+        
+number_limit = 10000
+N_limit = 10000
+K_limit = 100
+cases = 200
+numbers = []
+str_numbers = ""
+
+with open(path_in, 'a') as the_file_in:
+    the_file_in.write(str(cases) + "\n")
+
+    for i in range(0, cases):
+        N = random.randint(1, N_limit)
+        K = random.randint(2, K_limit)
+        str_NyK = str(N) + " " + str(K)
+        the_file_in.write(str_NyK + "\n")
+        
+        for ii in range(0, N):
+            number = random.randint(-number_limit, number_limit)
+            str_numbers += str(number) + " "
+            numbers.append(number)
+        
+        str_numbers = str_numbers[0:(len(str_numbers) - 1)]
+        the_file_in.write(str_numbers + "\n")
+        
+        # Operation ------------------------------------
+        n = len(numbers)
+
+        rem = [[False]*K for _ in range(n)]
+        rem[0][numbers[0]%K] = True
+    
+        for i in range(1, n):
+            for j in range(K):
+                if rem[i-1][j]:
+                    rem[i][(j+numbers[i])%K] = True
+                    rem[i][(j+K-numbers[i])%K] = True
+        # End Operation ------------------------------------
+        
+        if rem[n-1][0]:
+            with open(path_out, 'a') as the_file_out:
+                the_file_out.write("Divisible\n")
+        else:
+            with open(path_out, 'a') as the_file_out:
+                the_file_out.write("Not divisible\n")
+        
+        numbers = []
+        str_numbers = ""

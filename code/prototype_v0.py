@@ -600,8 +600,8 @@ class prototype_v4_2:
                 
                 for i in range(1, (cores+1)):
                     p[i-1] = Process(target=self.attributes, args=(('att_p' + str(i) + '.txt'),
-                         waveforms_valid[(i-1)*step:(((i!=cores)*(i*step))+((i==cores)*(len(waveforms_valid)-1)))],int(len(waveforms_valid)/cores),i))
-                    
+                         copy.copy(waveforms_valid[(i-1)*step:(((i!=cores)*(i*step))+((i==cores)*(len(waveforms_valid)-1)))]),int(len(waveforms_valid)/cores),i))
+                
                 for i in range(0, cores):
                     p[i].start()
                 
@@ -609,6 +609,7 @@ class prototype_v4_2:
                     p[i].join()
                 
                 self.concat_attrs_files('/home/tellurico/Tellurico/TelluricoDetect/code/',stats,percent) #CCA
+                print(str(stats) + 'stat - ' + str(percent) + ' done')
     
     # Feature extraction
     def attributes(self,filename, waveforms_valid, total, core):     
@@ -665,6 +666,7 @@ class prototype_v4_2:
                 print('Waveform ' + str(index) + '/' + str(total) + ' done - core ' + str(core))
                 index += 1
                 gc.collect()
+            gc.collect()
             print('Core ' + str(core) + ' DONE')
         
     # Concat feature extraction files into one
@@ -672,7 +674,118 @@ class prototype_v4_2:
         list_of_files = os.listdir(path)
         pattern = "att_p*"  
         with open('attributes_matrix_prot04_' + str(stats) + 'stats_' + str(percent) + '.txt','a') as final_file:
-            final_file.write('Filename; DOP; RV2T; EntropyZ; EntropyN; EntropyE; KurtosisZ; KurtosisN; KurtosisE; SkewZ; SkewN; SkewE; CDZ; CDN; CDE')
+            final_file.write('Filename; DOP; RV2T; EntropyZ; EntropyN; EntropyE; KurtosisZ; KurtosisN; KurtosisE; SkewZ; SkewN; SkewE; CDZ; CDN; CDE\n')
+            for filename in list_of_files:  
+                if fnmatch.fnmatch(filename, pattern):
+                    input_file = open(filename, 'r')
+                    for line in input_file:
+                        final_file.write(line)
+                    os.remove(filename)
+                    
+class prototype_v4_3:
+    
+    def __init__(self):
+
+        self.percents = [0.5, 0.9]
+        self.stats_quant = [3, 4]
+        self.read_files()
+    
+    def read_files(self):
+
+        base_p_wave_path = '/home/tellurico/Tellurico/Variables/HD2_Files/P_Waves_Noise/'
+        
+        ''' DATASET ATRIBUTES '''
+        
+        cores = os.cpu_count() - 1 # CPU cores
+        p = [None]*cores
+        
+        for stat in self.stats_quant:
+            for percent in self.percents:
+                
+                p_wave_path = base_p_wave_path + 'Total_P-wave-noise_' + str(stat) + 'stat' + str(percent) + '_HD2.pckl'
+                f = open(p_wave_path, 'rb')
+                waveforms_valid = pickle.load(f)
+                f.close()
+                print(p_wave_path + '\n')
+                step = int(len(waveforms_valid)/cores)
+                
+                for i in range(1, (cores+1)):
+                    p[i-1] = Process(target=self.attributes, args=(('att_p' + str(i) + '.txt'),
+                         copy.copy(waveforms_valid[(i-1)*step:(((i!=cores)*(i*step))+((i==cores)*(len(waveforms_valid)-1)))]),int(len(waveforms_valid)/cores),i))
+                
+                for i in range(0, cores):
+                    p[i].start()
+                
+                for i in range(0, cores):
+                    p[i].join()
+                
+                self.concat_attrs_files('/home/tellurico/Tellurico/TelluricoDetect/code/',stat,percent) #CCA
+                print(str(stat) + 'stat - ' + str(percent) + ' done')
+    
+    # Feature extraction
+    def attributes(self,filename, waveforms_valid, total, core):     
+        index = 1
+        observ_signal = ''
+        observ_noise = ''
+        with open(filename, 'a') as the_file:
+            for waveform in waveforms_valid:
+                for stat in waveform.keys():
+                    p_signal_X = waveform[stat]['Px']
+                    p_signal_Y = waveform[stat]['Py']
+                    p_signal_Z = waveform[stat]['Pz']
+                    noise_X = waveform[stat]['Nx']
+                    noise_Y = waveform[stat]['Ny']
+                    noise_Z = waveform[stat]['Nz']
+                    
+                    observ_signal += str(TimeDomain_Attributes.DOP(p_signal_X,p_signal_Y,p_signal_Z)) + ','
+                    observ_signal += str(TimeDomain_Attributes.RV2T(p_signal_X,p_signal_Y,p_signal_Z)) + ','
+                    observ_signal += str(NonLinear_Attributes.signal_entropy(p_signal_X)[1]) + ','
+                    observ_signal += str(NonLinear_Attributes.signal_entropy(p_signal_Y)[1]) + ','
+                    observ_signal += str(NonLinear_Attributes.signal_entropy(p_signal_Z)[1]) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_kurtosis(p_signal_X)) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_kurtosis(p_signal_Y)) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_kurtosis(p_signal_Z)) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_skew(p_signal_X)) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_skew(p_signal_Y)) + ','
+                    observ_signal += str(TimeDomain_Attributes.signal_skew(p_signal_Z)) + ','
+                    observ_signal += str(NonLinear_Attributes.corr_CD(p_signal_X, 1)) + ','
+                    observ_signal += str(NonLinear_Attributes.corr_CD(p_signal_Y, 1)) + ','
+                    observ_signal += str(NonLinear_Attributes.corr_CD(p_signal_Z, 1)) + ','
+                    
+                    observ_noise += str(TimeDomain_Attributes.DOP(noise_X,noise_Y,noise_Z)) + ','
+                    observ_noise += str(TimeDomain_Attributes.RV2T(noise_X,noise_Y,noise_Z)) + ','
+                    observ_noise += str(NonLinear_Attributes.signal_entropy(noise_X)[1]) + ','
+                    observ_noise += str(NonLinear_Attributes.signal_entropy(noise_Y)[1]) + ','
+                    observ_noise += str(NonLinear_Attributes.signal_entropy(noise_Z)[1]) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_kurtosis(noise_X)) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_kurtosis(noise_Y)) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_kurtosis(noise_Z)) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_skew(noise_X)) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_skew(noise_Y)) + ','
+                    observ_noise += str(TimeDomain_Attributes.signal_skew(noise_Z)) + ','
+                    observ_noise += str(NonLinear_Attributes.corr_CD(noise_X, 1)) + ','
+                    observ_noise += str(NonLinear_Attributes.corr_CD(noise_Y, 1)) + ','
+                    observ_noise += str(NonLinear_Attributes.corr_CD(noise_Z, 1)) + ','
+
+                observ_signal += str(1)
+                the_file.write(observ_signal+'\n')
+                observ_noise += str(0)
+                the_file.write(observ_noise+'\n')
+                observ_signal = ''
+                observ_noise = ''
+                        
+                print('Waveform ' + str(index) + '/' + str(total) + ' done - core ' + str(core))
+                index += 1
+                gc.collect()
+            gc.collect()
+            print('Core ' + str(core) + ' DONE')
+        
+    # Concat feature extraction files into one
+    def concat_attrs_files(self, path, stat, percent):
+        list_of_files = os.listdir(path)
+        pattern = "att_p*"  
+        with open('attributes_matrix_prot04_' + str(stat) + 'stats_' + str(percent) + '.txt','a') as final_file:
+            final_file.write('Filename; DOP; RV2T; EntropyZ; EntropyN; EntropyE; KurtosisZ; KurtosisN; KurtosisE; SkewZ; SkewN; SkewE; CDZ; CDN; CDE\n')
             for filename in list_of_files:  
                 if fnmatch.fnmatch(filename, pattern):
                     input_file = open(filename, 'r')
