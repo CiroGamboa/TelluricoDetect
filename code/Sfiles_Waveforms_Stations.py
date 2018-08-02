@@ -512,3 +512,67 @@ p_wave_path += 'Total_' + str(stats) + 'stat_' + str(percent) + '_P-wave-noise_H
 f = open(p_wave_path, 'wb')
 pickle.dump(total_waveforms, f)
 f.close()
+
+#%% Sfile names of 3 stations files
+
+import pickle, copy
+
+stats = ['RUS','BRR','PAM']
+stats_copy = copy.copy(stats)
+flag = False
+names = []
+
+path_var = '/home/tellurico/Tellurico/Variables/CCA/'
+file_var_name =  path_var + 'Total_InitialWaveforms_HD2.pckl'
+f = open(file_var_name, 'rb')
+waveforms = pickle.load(f)
+
+for waveform in waveforms:
+    waveform.sfile.path = '/home/tellurico/Tellurico/Archivos/Sfiles/'
+    for stat in waveform.sfile.type_7:
+        if(stat['PHAS'] == 'P' and stat['STAT'] in stats_copy):
+            stats_copy.remove(stat['STAT'])
+        if(len(stats_copy) == 0):
+            flag = True
+            break
+    if(flag):
+        names.append(waveform.sfile.filename)
+    flag = False
+    stats_copy = copy.copy(stats)
+
+path_var += 'Total_3stat_names.pckl'
+f = open(p_wave_path, 'wb')
+pickle.dump(total_waveforms, f)
+f.close()
+    
+#%% Sfile names of 4 stations files
+
+import pickle, copy
+
+stats = ['RUS','BRR','PAM', 'PTB']
+stats_copy = copy.copy(stats)
+flag = False
+names = []
+
+path_var = '/home/tellurico/Tellurico/Variables/CCA/'
+file_var_name =  path_var + 'Total_InitialWaveforms_HD2.pckl'
+f = open(file_var_name, 'rb')
+waveforms = pickle.load(f)
+
+for waveform in waveforms:
+    waveform.sfile.path = '/home/tellurico/Tellurico/Archivos/Sfiles/'
+    for stat in waveform.sfile.type_7:
+        if(stat['PHAS'] == 'P' and stat['STAT'] in stats_copy):
+            stats_copy.remove(stat['STAT'])
+        if(len(stats_copy) == 0):
+            flag = True
+            break
+    if(flag):
+        names.append(waveform.sfile.filename)
+    flag = False
+    stats_copy = copy.copy(stats)
+            
+path_var += 'Total_4stat_names.pckl'
+f = open(p_wave_path, 'wb')
+pickle.dump(total_waveforms, f)
+f.close()
