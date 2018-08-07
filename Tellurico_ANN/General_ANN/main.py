@@ -19,6 +19,8 @@ REALIZAR LO INDICADO EN EL APARTADO ANTERIOR
 """
 
 from TelluricoANN import TelluricoANN
+from numpy.random import seed
+seed(1)
 #import gc
 
 if __name__ == "__main__":
