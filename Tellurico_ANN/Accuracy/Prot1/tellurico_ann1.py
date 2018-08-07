@@ -65,19 +65,20 @@ def build_classifier():
     classifier.add(Dense(units = 1, kernel_initializer = 'uniform', activation = 'sigmoid'))
     classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
     return classifier
-classifier = KerasClassifier(build_fn = build_classifier, batch_size = 10, epochs = 100)
-accuracies = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 10, n_jobs = -1)
+classifier = KerasClassifier(build_fn = build_classifier, batch_size = 10, epochs = 50)
+accuracies = cross_val_score(estimator = classifier, X = X_train, y = y_train, cv = 2, n_jobs = -1)
 mean = accuracies.mean()
 variance = accuracies.std()
 
 
 #%% Predicting the Test set results
-#y_pred = classifier.predict(X_test)
-#y_pred = (y_pred > 0.5)
-#
-##%% Making the Confusion Matrix
-#from sklearn.metrics import confusion_matrix
-#cm = confusion_matrix(y_test, y_pred)
+classifier.fit(X_train, y_train)
+y_pred = classifier.predict(X_test)
+y_pred = (y_pred > 0.5)
+
+#%% Making the Confusion Matrix
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test, y_pred)
 #
 ##%% Predict a single new observation
 #"""
