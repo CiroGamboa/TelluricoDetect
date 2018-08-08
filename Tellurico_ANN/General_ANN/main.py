@@ -200,7 +200,27 @@ if __name__ == "__main__":
     
 
     
-    
+#%% Export metric variables
+import pickle
+filename = 'metrics_3s_05'
+outfile = open(filename,'wb')
+pickle.dump(metrics_3s_05,outfile)
+outfile.close()
+
+filename = 'metrics_3s_09'
+outfile = open(filename,'wb')
+pickle.dump(metrics_3s_09,outfile)
+outfile.close()
+
+filename = 'metrics_4s_05'
+outfile = open(filename,'wb')
+pickle.dump(metrics_4s_05,outfile)
+outfile.close()
+
+filename = 'metrics_4s_09'
+outfile = open(filename,'wb')
+pickle.dump(metrics_4s_09,outfile)
+outfile.close()
     
     
     
