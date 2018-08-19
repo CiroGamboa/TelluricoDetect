@@ -25,10 +25,154 @@ seed(1)
 
 if __name__ == "__main__":
     
-    dataset_folder = 'datasets/'
+    dataset_folder = 'ultimate_datasets/'
     computed_anns_folder = 'computed_anns/'
     retrain = 10
+
+    #%% 1 station - 0.5 of phase
+    ann_1s_05 = {   'init_info' : {
+                        'dataset_filename' : 'attributes_matrix_prot04_1stats_0.5.csv',
+                        'X_rows'           : (0,14),
+                        'y_rows'           : (14,15)  
+                    },
+                    'proc_params' : {
+                                'test_size'       : 0.2,
+                                'validation_size' : 0.2,
+                                'metric'          : 'accuracy',
+                                'arch'            : (14, 7, 4, 1),
+                                'hidden_act_fn'    : 'relu',
+                                'output_act_fn'    : 'sigmoid',
+                                'loss_fn'         : 'binary_crossentropy',
+                                'cv'              : 10,
+                    },
+                    
+                    'best_params' : {
+                        'batch_size'      : 25,
+                        'epochs'          : 500,
+                        'optimizer'       : 'rmsprop'
+                    }
+                }
+                    
     
+    metrics_1s_05 = []
+    for train in range(0,retrain):
+        classifier_1s_05 = TelluricoANN(filename = dataset_folder+ann_1s_05['init_info']['dataset_filename'],
+                                X_rows = ann_1s_05['init_info']['X_rows'], 
+                                y_rows = ann_1s_05['init_info']['y_rows'])
+        kfold_output = classifier_1s_05.kfold_train(ann_1s_05,random_state = train)
+        metrics_1s_05.append(kfold_output[1]['metrics'])
+    ann_1s_05['TelluricoANN'] = classifier_1s_05
+    ann_1s_05['metrics'] = metrics_1s_05
+
+
+    #%% 1 station - 0.9 of phase
+    ann_1s_09 = {   'init_info' : {
+                        'dataset_filename' : 'attributes_matrix_prot04_1stats_0.9.csv',
+                        'X_rows'           : (0,14),
+                        'y_rows'           : (14,15)  
+                    },
+                    'proc_params' : {
+                                'test_size'       : 0.2,
+                                'validation_size' : 0.2,
+                                'metric'          : 'accuracy',
+                                'arch'            : (14, 7, 4, 1),
+                                'hidden_act_fn'    : 'relu',
+                                'output_act_fn'    : 'sigmoid',
+                                'loss_fn'         : 'binary_crossentropy',
+                                'cv'              : 10,
+                    },
+                    
+                    'best_params' : {
+                        'batch_size'      : 10,
+                        'epochs'          : 500,
+                        'optimizer'       : 'adam'
+                    }
+                }
+                    
+    
+    metrics_1s_09 = []
+    for train in range(0,retrain):
+        classifier_1s_09 = TelluricoANN(filename = dataset_folder+ann_1s_09['init_info']['dataset_filename'],
+                                X_rows = ann_1s_09['init_info']['X_rows'], 
+                                y_rows = ann_1s_09['init_info']['y_rows'])
+        kfold_output = classifier_1s_09.kfold_train(ann_1s_09,random_state = train)
+        metrics_1s_09.append(kfold_output[1]['metrics'])
+    ann_1s_09['TelluricoANN'] = classifier_1s_09
+    ann_1s_09['metrics'] = metrics_1s_09
+
+
+
+    #%% 2 stations - 0.5 of phase
+    ann_2s_05 = {   'init_info' : {
+                        'dataset_filename' : 'attributes_matrix_prot04_2stats_0.5.csv',
+                        'X_rows'           : (0,28),
+                        'y_rows'           : (28,29)  
+                    },
+                    'proc_params' : {
+                                'test_size'       : 0.2,
+                                'validation_size' : 0.2,
+                                'metric'          : 'accuracy',
+                                'arch'            : (28, 14, 7, 1),
+                                'hidden_act_fn'    : 'relu',
+                                'output_act_fn'    : 'sigmoid',
+                                'loss_fn'         : 'binary_crossentropy',
+                                'cv'              : 10,
+                    },
+                    
+                    'best_params' : {
+                        'batch_size'      : 32,
+                        'epochs'          : 100,
+                        'optimizer'       : 'rmsprop'
+                    }
+                }
+                    
+    
+    metrics_2s_05 = []
+    for train in range(0,retrain):
+        classifier_2s_05 = TelluricoANN(filename = dataset_folder+ann_2s_05['init_info']['dataset_filename'],
+                                X_rows = ann_2s_05['init_info']['X_rows'], 
+                                y_rows = ann_2s_05['init_info']['y_rows'])
+        kfold_output = classifier_2s_05.kfold_train(ann_2s_05,random_state = train)
+        metrics_2s_05.append(kfold_output[1]['metrics'])
+    ann_2s_05['TelluricoANN'] = classifier_2s_05
+    ann_2s_05['metrics'] = metrics_2s_05
+    
+    
+    #%% 2 stations - 0.9 of phase
+    ann_2s_09 = {   'init_info' : {
+                        'dataset_filename' : 'attributes_matrix_prot04_2stats_0.9.csv',
+                        'X_rows'           : (0,28),
+                        'y_rows'           : (28,29)  
+                    },
+                    'proc_params' : {
+                                'test_size'       : 0.2,
+                                'validation_size' : 0.2,
+                                'metric'          : 'accuracy',
+                                'arch'            : (28, 14, 7, 1),
+                                'hidden_act_fn'    : 'relu',
+                                'output_act_fn'    : 'sigmoid',
+                                'loss_fn'         : 'binary_crossentropy',
+                                'cv'              : 10,
+                    },
+                    
+                    'best_params' : {
+                        'batch_size'      : 25,
+                        'epochs'          : 50,
+                        'optimizer'       : 'rmsprop'
+                    }
+                }
+                    
+    
+    metrics_2s_09 = []
+    for train in range(0,retrain):
+        classifier_2s_09 = TelluricoANN(filename = dataset_folder+ann_2s_09['init_info']['dataset_filename'],
+                                X_rows = ann_2s_09['init_info']['X_rows'], 
+                                y_rows = ann_2s_09['init_info']['y_rows'])
+        kfold_output = classifier_2s_09.kfold_train(ann_2s_09,random_state = train)
+        metrics_2s_09.append(kfold_output[1]['metrics'])
+    ann_2s_09['TelluricoANN'] = classifier_2s_09
+    ann_2s_09['metrics'] = metrics_2s_09
+'''
     #%% 3 stations - 0.5 of phase
     ann_3s_05 = {   'init_info' : {
                         'dataset_filename' : 'attributes_matrix_prot04_3stats_0.5.csv',
@@ -68,22 +212,7 @@ if __name__ == "__main__":
         metrics_3s_05.append(kfold_output[1]['metrics'])
     ann_3s_05['TelluricoANN'] = classifier_3s_05
     ann_3s_05['metrics'] = metrics_3s_05
-    
-
-#    classifier_3s_05.import_ann(filename = computed_anns_folder + 'tellurico_ann_3s_05',
-#                                loss_fn = 'binary_crossentropy',
-#                                optimizer = 'rmsprop',
-#                                metric = 'accuracy')
-    
-#    ann_3s_05['metrics'] = classifier_3s_05.re_train(classifier = classifier_3s_05.get_imported_ann(), 
-#             test_size = 0.2, 
-#             scoring = 'accuracy',
-#             iters = 2, 
-#             cv = 2, 
-#             n_jobs = 1)
-    
-
-    
+        
 
     
     #%% 3 stations - 0.9 of phase
@@ -254,4 +383,4 @@ outfile.close()
 #                    }
 #            }
                     
-                    
+'''                   
