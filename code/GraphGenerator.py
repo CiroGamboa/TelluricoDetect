@@ -64,27 +64,27 @@ def seisms_per_station(sfiles,group_factor=10,save_graphs=False):
         #print(segmented_graphs)  
         
         plt.figure()
-        plt.title("Seisms per station 2010-2017, Catalog: "+str(amount_events)+" events", weight='bold')
+        plt.title("Sismos por estación 2010-2017, total eventos: "+str(amount_events), weight='bold')
         plt.bar(range(len(event_dict)), event_dict.values(), align='center',color=color)
-        plt.xlabel("Station index",weight='bold')
-        plt.ylabel("Amount of events",weight='bold')
+        plt.xlabel("Indice de la estación",weight='bold')
+        plt.ylabel("Cantidad de eventos",weight='bold')
         plt.grid(True)
         
         path = "IOfiles/Graphs/"
         if(save_graphs):   
             if not os.path.exists(path):
                 os.makedirs(path)           
-            plt.savefig(path+"SeismsXstationAll.png")
+            plt.savefig(path+"SeismsXstationAll.png", dpi = 500)
         
         index = 0
         for graph in segmented_graphs:
             plt.figure()
             group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
-            plt.title("Seisms per station 2010-2017 ["+group_name+"], Catalog: "+str(amount_events)+" events",weight='bold')
+            plt.title("Sismos por estación 2010-2017 ["+group_name+"], total eventos: "+str(amount_events),weight='bold')
             rects = plt.bar(range(len(graph)), graph.values(), align='center',color=color)
             plt.xticks(range(len(graph)), graph.keys())
-            plt.xlabel("Station name",weight='bold')
-            plt.ylabel("Amount of events",weight='bold')
+            plt.xlabel("Indice de la estación",weight='bold')
+            plt.ylabel("Cantidad de eventos",weight='bold')
             plt.grid(True)
             index += 1
             
@@ -97,7 +97,7 @@ def seisms_per_station(sfiles,group_factor=10,save_graphs=False):
                 
             
             if(save_graphs):
-                plt.savefig(path+"SeismsXstation"+group_name+".png")
+                plt.savefig(path+"SeismsXstation"+group_name+".png", dpi = 500)
             
 #%%
 '''
