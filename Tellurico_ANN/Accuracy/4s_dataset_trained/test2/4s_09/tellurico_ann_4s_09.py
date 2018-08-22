@@ -9,7 +9,13 @@ Created on Tue Jun  5 14:38:18 2018
 ########################### DATA PRE-PROCESSING ###############################
 #%% Importing the libraries
 #import multiprocessing
-    
+
+
+from numpy.random import seed
+seed(0)
+from tensorflow import set_random_seed
+set_random_seed(0)
+
 if __name__ == "__main__":
     import pandas as pd
 

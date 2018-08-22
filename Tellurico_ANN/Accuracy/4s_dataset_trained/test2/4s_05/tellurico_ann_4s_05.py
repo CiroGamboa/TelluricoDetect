@@ -9,6 +9,11 @@ Created on Tue Jun  5 14:38:18 2018
 ########################### DATA PRE-PROCESSING ###############################
 #%% Importing the libraries
     
+from numpy.random import seed
+seed(0)
+from tensorflow import set_random_seed
+set_random_seed(0)
+
 if __name__ == "__main__":
     import pandas as pd
     
@@ -56,15 +61,15 @@ if __name__ == "__main__":
     
     
     classifier = KerasClassifier(build_fn = build_classifier)
-    parameters = {'batch_size' : [10, 25, 32],
-                  'epochs' : [100, 50, 500],
-                  'optimizer' : ['adam', 'rmsprop']}
+    parameters = {'batch_size' : [8, 16, 32, 64, 128],
+                  'epochs' : [10, 50, 100, 250, 500],
+                  'optimizer' : ['adam', 'rmsprop','adadelta']}
     
     grid_search = GridSearchCV(estimator = classifier,
                                param_grid = parameters,
                                scoring = 'accuracy',
                                cv = 10,
-                               n_jobs = -2,
+                               n_jobs = -1,
                                refit = True)
     
     # Fitting the ANN to the training set
