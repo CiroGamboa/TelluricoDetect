@@ -1,0 +1,100 @@
+ 2013  8 4 1101 50.7 L   6.817 -73.136147.9  RSN 25 0.5 3.3LRSN 3.6WRSN        1
+ SPEC AVERAGE  MO 14.4 ST140.0 OM  2.8 f0 6.56 R0.2931 AL 0.00 WI 38.0 MW  3.6 3
+ SPEC SD       MO  0.2 ST133.3 OM  0.3 f0 2.73 R0.1440 AL      WI      MW  0.1 3
+ GAP= 86        1.14       2.6     3.1  4.5 -0.1342E+01  0.2354E+01  0.2064E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC MACCHH E MO 14.5 ST240.6 OM  2.4 f0 8.46 R0.1837 AL 0.00 WI 67.5 MW  3.6 3
+ SPEC MACCHH E T11 349 K 0.000 GD  543 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SJC HH N MO 14.3 ST111.5 OM  2.3 f0 7.62 R0.2039 AL 0.00 WI 50.5 MW  3.5 3
+ SPEC SJC HH N T11 324 K 0.000 GD  433 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ORTCHH E MO 14.6 ST 43.9 OM  2.6 f0 4.47 R0.3477 AL 0.00 WI 60.5 MW  3.7 3
+ SPEC ORTCHH E T11 327 K 0.000 GD  424 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC COD HH N MO 14.1 ST 13.1 OM  2.1 f0 4.56 R0.3408 AL 0.00 WI 71.6 MW  3.3 3
+ SPEC COD HH N T11 314 K 0.000 GD  377 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH E MO 14.4 ST 52.0 OM  2.5 f0 5.66 R0.2746 AL 0.00 WI 37.0 MW  3.5 3
+ SPEC HEL HH E T11 3 0 K 0.000 GD  311 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH E MO 14.5 ST  6.8 OM  2.6 f0 2.72 R0.5713 AL 0.00 WI 21.1 MW  3.6 3
+ SPEC CHI HH E T11 258 K 0.000 GD  291 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SML HH N MO 14.1 ST165.2 OM  2.3 f0 10.0 R0.1554 AL 0.00 WI 38.2 MW  3.4 3
+ SPEC SML HH N T11 254 K 0.000 GD  284 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SPBCHH N MO 14.5 ST407.0 OM  2.8 f0 10.0 R0.1554 AL 0.00 WI 37.0 MW  3.6 3
+ SPEC SPBCHH N T11 240 K 0.000 GD  221 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.8 ST167.6 OM  3.1 f0 5.95 R0.2612 AL 0.00 WI 36.4 MW  3.8 3
+ SPEC OCA HH N T11 239 K 0.000 GD  217 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC TAM HH E MO 14.4 ST  6.8 OM  2.7 f0 2.79 R0.5570 AL 0.00 WI 27.0 MW  3.6 3
+ SPEC TAM HH E T11 239 K 0.000 GD  214 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 14.3 ST211.9 OM  2.6 f0 9.55 R0.1627 AL 0.00 WI 15.9 MW  3.5 3
+ SPEC PTB HH N T11 236 K 0.000 GD  209 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 14.4 ST 13.3 OM  2.8 f0 3.52 R0.4415 AL 0.00 WI 14.1 MW  3.6 3
+ SPEC PAM SH N T11 229 K 0.000 GD  165 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 14.5 ST379.6 OM  2.9 f0 10.0 R0.1554 AL 0.00 WI 17.0 MW  3.6 3
+ SPEC BRR HH N T11 227 K 0.000 GD  164 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 14-01-14 08:59 OP:ep   STATUS:               ID:20130804110150 L   I
+ OLDACT:UP  13-08-04 16:25 OP:cam  STATUS:               ID:20130804105959     3
+ OLDACT:UP  13-08-04 16:23 OP:cam  STATUS:               ID:20130804105959     3
+ OLDACT:UP  13-08-04 16:19 OP:cam  STATUS:               ID:20130804105959     3
+ OLDACT:UP  13-08-04 16:19 OP:cam  STATUS:               ID:20130804105959     3
+ OLDACT:REG 13-08-04 14:46 OP:cam  STATUS:               ID:20130804105959     3
+ 2013-08-04-1059-59M.COL___270                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C 11 2 10.65                             170    0.0310 25.3 192 
+ BAR2 SZ ES       11 2 25.45                             170   -0.7210 25.3 192 
+ BAR2 SZ I        11 2 27.00       787.8 0.12            168           25.3 192 
+ GIR2 SZ IP     D 11 2 10.76                             168    0.1810 29.7 348 
+ GIR2 SZ ES       11 2 25.86                             168   -0.2410 29.7 348 
+ GIR2 SZ I        11 2 28.17       414.6 0.23            166           29.7 348 
+ BRR  HZ EP       11 2 12.54                             153    0.4610 71.3 297 
+ BRR  HN ES       11 2 29.51                             153    0.7410 71.3 297 
+ BRR  HZ I        11 2 30.60       450.7 0.14            149           71.3 297 
+ PAM  SZ EP       11 2 13.07                             152    0.0510 75.3  40 
+ PAM  SZ I        11 2 13.90       786.4 0.18            152           75.3  40 
+ PAM  SN ES       11 2 30.45                             152    0.0210 75.3  40 
+ PTB  HZ EP       11 2 17.18                             132   -0.79 9  149 258 
+ PTB  HN ES       11 2 38.35                             132   -0.89 9  149 258 
+ PTB  HZ I        11 2 45.44       242.7 0.16            128            149 258 
+ TAM  HZ IP     D 11 2 19.00                             131    0.51 9  155 106 
+ TAM  HZ I        11 2 19.18       296.2 0.38            130            155 106 
+ TAM  HE ES       11 2 40.33                             131    0.16 9  155 106 
+ OCA  HZ EP       11 2 19.02                             130    0.01 9  159 353 
+ OCA  HN ES       11 2 40.74                             130   -0.37 9  159 353 
+ OCA  HZ I        11 2 44.84       269.2 0.36            128            159 353 
+ SPBC HZ EP       11 2 19.52                             129   -0.04 9  165 219 
+ SPBC HN ES       11 2 42.28                             129    0.21 9  165 219 
+ SPBC HZ I        11 2 46.62       339.3 0.26            126            165 219 
+ ZAR  HE ES       11 2 49.64                             123    0.88 9  204 292 
+ NOR  HZ EP       11 2 26.66                             119   -0.10 8  237 234 
+ NOR  HE ES       11 2 54.39                             119   -0.50 8  237 234 
+ NOR  HZ I        11 2 59.55       295.8 0.18            116            237 234 
+ SML  HZ EP       11 2 26.90                             118   -0.41 8  243 335 
+ SML  HN ES       11 2 56.26                             118    0.39 8  243 335 
+ SML  HZ I        11 3  3.06       176.2 0.22            116            243 335 
+ CHI  HZ EP       11 2 28.92                             117    0.19 8  251 195 
+ CHI  HE ES       11 2 59.00                             117    0.60 8  251 195 
+ CHI  HZ I        11 3  4.70        81.9 0.24            115            251 195 
+ HEL  HZ EP       11 2 31.11                             115   -0.07 8  274 255 
+ HEL  HE ES       11 3  3.47                             115    0.70 8  274 255 
+ HEL  HZ I        11 3  9.33       122.0 0.34            112            274 255 
+ URE  HZ EP       11 2 30.78                             114   -1.13 7  284 291 
+ GUY2CHZ EP       11 2 34.94                             113    0.32 7  303 235 
+ VIL  SZ EP       11 2 34.79                             112    0.36 7  305 192 
+ VIL  SN ES       11 3  8.01                             112   -0.54 7  305 192 
+ VIL  SZ I        11 3 12.57       110.1 0.26            110            305 192 
+ DBB  SZ EP       11 2 38.59                             110    0.22 7  340 274 
+ COD  HZ EP       11 2 38.27                             109   -0.69 6  347 354 
+ COD  HN ES   1   11 3 17.36                             109    0.76 5  347 354 
+ COD  HZ I        11 3 28.32        17.9 0.32            108            347 354 
+ SDV  BZ EP       11 2 40.45                             109   -0.13 6  358  50 
+ PRA  HZ EP       11 2 43.98                             107   -0.56 6  394 210 
+ PRA  HZ I        11 3 32.27        95.4 0.24            105            394 210 
+ ORTC HZ EP       11 2 45.07                             107    0.14 6  398 216 
+ ORTC HE ES       11 3 28.10                             107    0.86 6  398 216 
+ ORTC HZ I        11 3 31.97        85.6 0.42            105            398 216 
+ PAL  HZ EP       11 2 46.57                             106    0.43 6  408 239 
+ SJC  HZ EP   4   11 2 44.81                             106   -1.41 0  408 327 
+ SJC  HN ES   4   11 3 26.56                             106   -2.97 0  408 327 
+ SJC  HZ I        11 3 34.62        27.1 0.28            104            408 327 
+ YOT  HZ EP       11 2 52.98                             103   -1.06 5  474 229 
+ MACC HZ EP   4   11 2 57.61                             102   -2.08 0  523 189 
+ MACC HE ES   4   11 3 50.39                             102   -3.12 0  523 189 
+ MACC HZ I        11 3 54.00        18.6 0.44            100            523 189 
+                                                                                

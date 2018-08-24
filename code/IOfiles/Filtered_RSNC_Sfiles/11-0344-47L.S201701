@@ -1,0 +1,37 @@
+ 2017  111 0344 47.6 L   7.349 -73.120 11.2  RSN  6 0.4 1.2LRSN                1
+ GAP=176        1.06       3.9     2.4  4.8 -0.1029E+01  0.4437E+01  0.1283E+01E
+ Epicentro: RIONEGRO - SANTANDER                                               3
+ ACTION:UPD 17-05-22 15:58 OP:jn   STATUS:               ID:20170111034447 L   I
+ OLDACT:UP  17-01-11 14:56 OP:and  STATUS:               ID:20170111033752d    3
+ OLDACT:UP  17-01-11 14:55 OP:and  STATUS:               ID:20170111033752d    3
+ OLDACT:UP  17-01-11 14:53 OP:and  STATUS:               ID:20170111033752d    3
+ OLDACT:DUP 17-01-11 14:51 OP:and  STATUS:               ID:20170111033752d    3
+ OLDACT:UP  17-01-11 14:51 OP:and  STATUS:               ID:20170111033751d    3
+ OLDACT:DUP 17-01-11 14:48 OP:and  STATUS:               ID:20170111033751d    3
+ OLDACT:UP  17-01-11 14:47 OP:and  STATUS:               ID:20170111033750d    3
+ OLDACT:UP  17-01-11 14:46 OP:and  STATUS:               ID:20170111033750d    3
+ OLDACT:DUP 17-01-11 14:44 OP:and  STATUS:               ID:20170111033750d    3
+ OLDACT:UP  17-01-11 14:43 OP:and  STATUS:               ID:20170111033749     3
+ OLDACT:UP  17-01-11 14:43 OP:and  STATUS:               ID:20170111033749     3
+ OLDACT:UP  17-01-11 14:42 OP:and  STATUS:               ID:20170111033749     3
+ OLDACT:UP  17-01-11 14:41 OP:and  STATUS:               ID:20170111033749     3
+ OLDACT:UP  17-01-11 14:40 OP:and  STATUS:               ID:20170111033749     3
+ OLDACT:UP  17-01-11 14:40 OP:and  STATUS:               ID:20170111033749     3
+ OLDACT:REG 17-01-11 12:38 OP:and  STATUS:               ID:20170111033749     3
+ 2017-01-11-0338-00M.COL___346                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  EZ IP     D  344 55.86                             101   -0.0310 46.4  91 
+ PAM  EN ES        345  1.97                             101   -0.3410 46.4  91 
+ PAM  EZ I         345  2.98        15.1 0.20             98           46.4  91 
+ BRR  HZ EP        344 59.14                              96    0.1410 70.6 248 
+ BRR  HN ES        345  7.95                              96    0.1010 70.6 248 
+ BAR2 EZ EP        345  1.68                              95    0.4210 83.9 185 
+ BAR2 EZ ES        345 11.39                              95   -0.4810 83.9 185 
+ RUS  HZ EP        345 13.81                              56    0.80 9  161 179 
+ RUS  HN ES        345 32.96                              56    0.17 9  161 179 
+ RUS  HZ I         345 34.20         1.7 0.24             56            161 179 
+ PTB  HN ES        345 33.60                              56   -0.75 9  173 239 
+ PTB  HZ I         345 34.81         3.1 0.28             56            173 239 
+ ZAR  HN ES        345 38.72                              56   -0.03 9  193 275 
+ ZAR  HZ I         345 40.73         4.4 0.24             56            193 275 
+                                                                                

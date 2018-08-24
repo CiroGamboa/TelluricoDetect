@@ -1,0 +1,28 @@
+ 2016 1016 1945 32.9 L   6.797 -73.094147.3  RSN  8 0.5 1.6LRSN                1
+ GAP=143        0.92       4.2     5.3  7.0 -0.8795E+01  0.6457E+01  0.7078E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-11-09 19:20 OP:rebc STATUS:               ID:20161016194532 L   I
+ OLDACT:UP  16-10-17 00:02 OP:and  STATUS:               ID:20161016193740     3
+ OLDACT:REG 16-10-16 21:01 OP:dnl  STATUS:               ID:20161016193740     3
+ 2016-10-16-1938-00M.COL___368                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  EZ EP       1945 55.26                             152    0.1710 74.2  36 
+ PAM  EN ES       1946 12.47                             152    0.0710 74.2  36 
+ BRR  HZ EP       1945 54.47                             151   -0.0410 76.4 297 
+ BRR  HN ES       1946 11.62                             151    0.2610 76.4 297 
+ RUS  HZ EP       1945 56.37                             144   -0.3810  100 179 
+ RUS  HE ES       1946 15.29                             144   -0.0810  100 179 
+ RUS  HZ I        1946 16.34         2.3 0.38            145            100 179 
+ PTB  HZ EP       1945 59.86                             131   -0.63 9  153 259 
+ PTB  HN ES   3   1946 20.51                             131   -1.50 2  153 259 
+ PTB  HZ I        1946 25.65         3.0 0.23            131            153 259 
+ SPBC HZ EP       1946  1.37                             129   -0.46 9  167 221 
+ SPBC HN ES       1946 24.56                             129    0.16 9  167 221 
+ SPBC HZ I        1946 29.53         7.4 0.18            129            167 221 
+ NOR  HE ES       1946 37.48                             118   -0.02 8  239 235 
+ ROSC BZ EP       1946 12.33                             117    0.94 8  255 212 
+ ROSC BN ES       1946 41.84                             117    0.43 8  255 212 
+ ROSC BZ I        1946 43.14         8.8 0.25            118            255 212 
+ GUY2CHZ EP   3   1946 18.01                             112    0.94 2  306 235 
+ GUY2CHN ES   4   1946 55.00                             112    3.46 0  306 235 
+                                                                                

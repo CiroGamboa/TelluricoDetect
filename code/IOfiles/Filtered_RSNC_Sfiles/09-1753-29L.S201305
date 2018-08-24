@@ -1,0 +1,26 @@
+ 2013  5 9 1753 29.7 L   6.816 -72.781  3.2  RSN  8 0.6 2.1LRSN                1
+ GAP=189        1.35       3.7     5.9  9.0 -0.5410E+01  0.2225E+02 -0.3930E+01E
+ Epicentro: SAN ANDRES - SANTANDER                                             3
+ ACTION:UPD 13-06-20 09:49 OP:ep   STATUS:               ID:20130509175329 L   I
+ OLDACT:UP  13-05-10 00:40 OP:MHER STATUS:               ID:20130509175329 L   3
+ 2013-05-09-1750-00M.COL___256                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C 1753 37.69                              47   -0.6410 50.8 241 
+ GIR2 SZ IP     C 1753 37.99                              47   -0.7410 54.0 303 
+ PAM  SZ EP       1753 39.94                              47    0.1610 58.6   9 
+ PAM  SN ES   1   1753 47.49                              47   -0.15 7 58.6   9 
+ RUS  HZ EP       1753 47.88                              47    0.7110  107 198 
+ RUS  HN ES   1   1754  0.07                              47   -0.74 7  107 198 
+ RUS  HZ I        1754  2.04        30.0 0.28             47            107 198 
+ BRR  HZ EP   1   1753 47.39                              47    0.67 7  108 287 
+ BRR  HZ I        1753 48.29        27.7 0.36             47            108 287 
+ BRR  HN ES       1753 59.79                              47   -0.2210  108 287 
+ PTB  HZ EP   1 D 1753 59.59                              37    1.03 7  188 261 
+ PTB  HN ES   1   1754 21.76                              37    0.69 7  188 261 
+ PTB  HZ I        1754 23.45        40.7 0.18             37            188 261 
+ NOR  HZ EP   4   1754 12.54                              37    3.73 0  269 239 
+ NOR  HZ I        1754 44.22         7.5 0.30             37            269 239 
+ HEL  HZ EP   4   1754 16.32                              36    1.87 0  312 257 
+ HEL  HN ES   1   1754 49.80                              36    0.44 5  312 257 
+ HEL  HZ I        1754 53.36         8.7 0.34             36            312 257 
+                                                                                

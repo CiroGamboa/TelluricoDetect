@@ -1,0 +1,57 @@
+ 2010  3 3 0751 30.7 L   6.793 -73.093153.2  RSN 20 0.4 5.0LRSN                1
+ GAP=124        0.75       2.8     4.1  4.2 -0.3101E+01  0.1155E+01  0.2978E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ Evento Sentido                                                                2
+ Reportado como Sentido:                                                       3
+ BUCARAMANGA, FLORIDABLANCA, BARRANCABERMEJA, SAN GIL, GIRON (SANTANDER),      3
+ (QUINDIO), RISARALDA (PEREIRA), MEDELLIN, YALI, DOSQUEBRADAS, PUERTO BERRIO   3
+ (ANTIOQUIA), BOGOTA D.C.                                                      3
+ ACTION:UP  10-08-24 09:51 OP:vdl  STATUS:               ID:20100303075130 L   I
+ 2010-03-03-0750-15S.COL___094                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO SNR AR TRES W  DIS CAZ7
+ BAR2 SZ IP        751 51.34                             171     0.110   24 204 
+ BAR2 SZ ES   1    752  6.34                             171    -0.9 7   24 204 
+ BRR  HZ IP        751 53.17                             152     0.210   77 297 
+ BRR  HN ES        752 10.56                             152     0.210   77 297 
+ BRR  HZ I         752 13.13     19877.0 0.37                            77 297 
+ RUS  BZ IP        751 55.21                             146     0.110  100 179 
+ RUS  BE ES   2    752 14.26                             146     0.1 5  100 179 
+ RUS  BZ I         752 16.04     24073.9 0.39                           100 179 
+ OCA  SZ EP        751 59.68                             131    -0.1 9  162 351 
+ OCA  SZ ES   1    752 22.43                             131     0.0 7  162 351 
+ NOR  SZ EP        752  6.89                             119    -0.5 8  239 236 
+ NOR  SZ ES   1    752 36.29                             119     0.4 6  239 236 
+ CHI  HZ IP        752  9.10                             118     0.2 8  250 197 
+ CHI  HN ES        752 39.13                             118     0.4 8  250 197 
+ CHI  HZ I         752 42.88      7706.8 0.53                           250 197 
+ HEL  HZ EP   1    752 12.29                             116     0.4 6  278 256 
+ HEL  HE ES   2    752 43.99                             116     0.0 4  278 256 
+ HEL  HZ I         752 49.09      7672.6 0.40                           278 256 
+ GUY  HZ EP        752 15.50                             113     0.3 7  306 236 
+ GUY  HN ES   2    752 49.63                             113    -0.2 4  306 236 
+ RREF BZ EP        752 17.44                             112    -0.2 7  326 230 
+ RREF BN ES   1    752 54.11                             112    -0.1 5  326 230 
+ RREF BZ I         753  3.33     12731.1 0.41                           326 230 
+ DBB  SZ IP        752 18.91                             110    -0.2 7  345 274 
+ TOL  SZ EP        752 18.91                             110    -0.8 6  347 225 
+ SDV  BZ IP        752 20.76                             110     0.2 6  356  49 
+ SDV  BZ I         753  1.37      1520.2 0.32                           356  49 
+ ANIL BZ EP        752 21.51                             109     0.3 6  361 225 
+ ANIL BN ES   2    753  1.48                             109     0.9 3  361 225 
+ ANIL BZ I         753  7.79     10560.7 0.42                           361 225 
+ PRA  HZ EP        752 24.14                             108    -0.6 6  394 210 
+ PRA  HE ES   1    753  6.83                             108    -0.1 4  394 210 
+ PRA  HZ I         753 11.70      5669.0 0.61                           394 210 
+ GUA  SZ EP   1    752 34.27                             104     0.4 4  473 174 
+ GUA  SZ ES   3    753 22.92                             104    -0.3 1  473 174 
+ SOL  SZ EP        752 34.61                             104    -0.3 5  481 263 
+ SOL  SZ I         753 58.11       761.0 0.79                           481 263 
+ PCON BZ EP        752 51.14                             100    -0.4 3  615 217 
+ PCON BZ I         754 20.61       416.5 0.65                           615 217 
+ POP2 HZ EP        752 50.66                             100    -0.6 3  616 220 
+ POP2 HZ I         752 54.78       381.0 0.48                           616 220 
+ SOTA BZ EP        752 55.36                             100     0.1 2  646 217 
+ SOTA BZ I         753  2.78       146.3 0.68                           646 217 
+ GCAL SZ EP        753 11.36                              97     0.0 0  782 218 
+ GCAL SZ I         753 13.60       645.0 1.12                           782 218 
+                                                                                

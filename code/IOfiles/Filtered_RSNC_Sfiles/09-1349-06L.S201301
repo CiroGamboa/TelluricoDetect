@@ -1,0 +1,32 @@
+ 2013  1 9 1349  6.8 L   6.798 -73.128147.7  RSN  7 0.5 2.2LRSN 3.0WRSN        1
+ SPEC AVERAGE  MO 13.6 ST  4.5 OM  3.5 f0 4.16 R0.3536 AL 2.35 WI 20.9 MW  3.0 3
+ SPEC SD       MO  0.3 ST  2.8 OM  1.7 f00.185 R0.0157 AL      WI      MW  0.2 3
+ GAP=185        1.36       5.1     7.8  9.0  0.2216E+01  0.1181E+02  0.1080E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC NOR HH N MO 13.8 ST  7.4 OM  2.0 f0 4.35 R0.3379 AL 3.05 WI 18.5 MW  3.2 3
+ SPEC NOR HH N T135010 K 0.000 GD  278 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 13.3 ST  1.7 OM  1.6 f0 3.98 R0.3693 AL 1.65 WI 23.2 MW  2.8 3
+ SPEC PTB HH N T134953 K 0.000 GD  210 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:13 OP:ep   STATUS:               ID:20130109134906 L   I
+ 2013-01-09-1348-48M.COL___199                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1349 26.91                             171    0.2410 23.5 195 
+ BAR2 SZ ES       1349 42.20                             171    0.0410 23.5 195 
+ BAR2 SZ I        1349 44.63        26.2 0.28            166           23.5 195 
+ BRR  HZ EP       1349 28.98                             152    0.7210 73.0 298 
+ BRR  HN ES       1349 45.95                             152    0.9510 73.0 298 
+ BRR  HN I        1349 47.43        30.3 0.22            150           73.0 298 
+ RUS  HZ EP       1349 30.27                             144   -0.4410  100 177 
+ RUS  HN ES       1349 48.78                             144   -0.5910  100 177 
+ RUS  HN I        1349 51.40         9.8 0.42            144            100 177 
+ PTB  HZ EP       1349 33.94                             132   -0.15 9  150 259 
+ PTB  HN ES       1349 54.62                             132   -0.76 9  150 259 
+ PTB  HN I        1350  0.57        25.0 0.30            131            150 259 
+ OCA  HE ES       1349 56.88                             130   -0.67 9  161 352 
+ NOR  HZ EP       1349 42.69                             119   -0.11 8  236 235 
+ NOR  HN ES       1350 10.67                             119   -0.20 8  236 235 
+ NOR  HN I        1350 17.28        18.0 0.18            119            236 235 
+ CHI  HZ EP       1349 44.93                             117    0.30 8  249 196 
+ CHI  HN ES       1350 14.85                             117    0.71 8  249 196 
+ CHI  HN I        1350 18.14        10.5 0.22            118            249 196 
+                                                                                

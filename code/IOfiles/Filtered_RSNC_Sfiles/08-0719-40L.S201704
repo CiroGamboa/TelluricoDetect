@@ -1,0 +1,40 @@
+ 2017  4 8 0719 40.0 L   6.800 -73.189143.2  RSN 10 0.4 1.4LRSN                1
+ GAP=116        0.67       3.4     3.2  4.8 -0.4238E+01  0.2366E+01  0.3008E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 17-05-30 21:09 OP:jn   STATUS:               ID:20170408071940 L   I
+ OLDACT:UP  17-04-08 16:47 OP:and  STATUS:               ID:20170408071749     3
+ OLDACT:UP  17-04-08 16:47 OP:and  STATUS:               ID:20170408071749     3
+ OLDACT:UP  17-04-08 16:46 OP:and  STATUS:               ID:20170408071749     3
+ OLDACT:UP  17-04-08 16:46 OP:and  STATUS:               ID:20170408071749     3
+ OLDACT:UP  17-04-08 16:45 OP:and  STATUS:               ID:20170408071749     3
+ OLDACT:UP  17-04-08 16:44 OP:and  STATUS:               ID:20170408071749     3
+ OLDACT:REG 17-04-08 13:00 OP:and  STATUS:               ID:20170408071749     3
+ 2017-04-08-0718-00M.COL___371                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        719 59.29                             170    0.0210 22.9 178 
+ BAR2 EZ ES        720 14.50                             170    0.1710 22.9 178 
+ BAR2 EZ I         720 15.80         5.0 0.16            169           22.9 178 
+ BRR  HN ES   2    720 17.06                             154    0.37 5 67.0 301 
+ PAM  EZ IP     D  720  2.09                             149   -0.0010 80.6  42 
+ PAM  EN ES        720 19.21                             149   -0.1510 80.6  42 
+ PAM  EZ I         720 21.34         4.7 0.42            153           80.6  42 
+ RUS  HZ EP        720  3.35                             143   -0.1310  101 173 
+ RUS  HN ES   2    720 22.17                             143    0.34 5  101 173 
+ RUS  HZ I         720 22.97         3.1 0.40            144            101 173 
+ PTB  HZ EP        720  5.95                             132   -0.34 9  143 258 
+ PTB  HN ES        720 26.49                             132   -0.33 9  143 258 
+ PTB  HZ I         720 31.98         2.4 0.14            130            143 258 
+ SPBC HZ EP   2    720  8.35                             129    0.38 5  160 218 
+ SPBC HN ES        720 30.05                             129    0.23 9  160 218 
+ SPBC HZ I         720 32.84         4.1 0.19            128            160 218 
+ ZAR  HN ES   2    720 37.54                             122    0.94 4  200 293 
+ ZAR  HZ I         720 43.31         1.7 0.22            122            200 293 
+ NOR  HZ EP   2    720 15.98                             118    0.86 4  231 234 
+ NOR  HN ES        720 42.20                             118   -0.34 8  231 234 
+ NOR  HZ I         720 51.01         2.1 0.16            118            231 234 
+ CHI  HZ EP        720 17.55                             117    0.17 8  247 194 
+ CHI  HN ES   3    720 47.53                             117    0.97 2  247 194 
+ CHI  HZ I         720 52.85         1.4 0.30            117            247 194 
+ PTGC HZ EP   9    720 22.22                             111   -1.68 0  310 158 
+ PTGC HN ES        720 55.93                             112   -0.56 7  310 158 
+                                                                                

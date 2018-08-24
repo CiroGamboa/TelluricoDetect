@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Aug 23 18:28:37 2018
+
+@author: CiroGamJr
+"""
+
+from mpl_toolkits.basemap import Basemap
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.patches import Polygon
+from matplotlib.collections import PatchCollection
+from matplotlib.patches import PathPatch
+
+#    from obspy import read_inventory, read_events
+
+# Set up a custom basemap, example is taken from basemap users' manual
+fig, ax = plt.subplots()
+
+# setup albers equal area conic basemap
+# lat_1 is first standard parallel.
+# lat_2 is second standard parallel.
+# lon_0, lat_0 is central point.
+#    m = Basemap(width=8000000, height=7000000,
+#                resolution='c', projection='aea',
+#                lat_1=40., lat_2=60, lon_0=25, lat_0=40, ax=ax)
+
+#m = Basemap(llcrnrlon=3.75,llcrnrlat=39.75,urcrnrlon=4.35,urcrnrlat=40.15, resolution = 'h', epsg=5520)
+#m = Basemap(llcrnrlon= -75,llcrnrlat= -2,urcrnrlon=-72,urcrnrlat=-12, resolution = 'h', epsg=5520)
+   
+m = Basemap(llcrnrlon = -75.343051, llcrnrlat = 5.605886, urcrnrlon = -71.360507
+,urcrnrlat = 8.179697,  resolution = 'h'  )
+
+#m.drawcoastlines()
+#m.drawcountries()
+#m.drawstates()
+
+# https://basemaptutorial.readthedocs.io/en/latest/shapefile.html
+# https://gadm.org/download_country_v3.html
+
+#m.fillcontinents(color='wheat', lake_color='skyblue')
+## draw parallels and meridians.
+#m.drawparallels(np.arange(-80., 81., 20.))
+#m.drawmeridians(np.arange(-180., 181., 20.))
+#m.drawmapboundary(fill_color='skyblue')
+#
+#m.readshapefile('gadm36_COL_shp/gadm36_COL_2', 'comarques')
+#ax.set_title("Sismos en Santander")
+
+
+m.fillcontinents(color='wheat', lake_color='skyblue')
+# draw parallels and meridians.
+m.drawparallels(np.arange(-80., 81., 20.))
+m.drawmeridians(np.arange(-180., 181., 20.))
+m.drawmapboundary(fill_color='skyblue')
+
+m.readshapefile('gadm36_COL_shp/gadm36_COL_2', 'comarques', drawbounds = False)
+ax.set_title("Sismos en Santander")
+
+municipios_santander   = []
+otros_municipios = []
+
+for info, shape in zip(m.comarques_info, m.comarques):
+#    if info['nombre'] == 'Selva':
+    if info['NAME_1'] == 'Santander':
+        municipios_santander.append( Polygon(np.array(shape), True) )
+    else:
+        otros_municipios.append( Polygon(np.array(shape), True) )
+        
+ax.add_collection(PatchCollection(municipios_santander, facecolor= 'palegreen', edgecolor='k', linewidths=1., zorder=2))
+ax.add_collection(PatchCollection(otros_municipios, facecolor= 'green', edgecolor='k', linewidths=1., zorder=2))
+
+
+# we need to attach the basemap object to the figure, so that obspy knows about
+# it and reuses it
+fig.bmap = m
+plt.show()

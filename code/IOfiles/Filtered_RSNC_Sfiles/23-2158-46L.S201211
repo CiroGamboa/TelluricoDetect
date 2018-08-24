@@ -1,0 +1,34 @@
+ 2012 1123 2158 46.9 L   6.749 -73.177142.5  RSN  9 0.3 2.1LRSN 2.8WRSN        1
+ SPEC AVERAGE  MO 13.2 ST  5.9 OM  2.7 f0 5.63 R0.2917 AL 2.48 WI 13.9 MW  2.8 3
+ SPEC SD       MO  0.0 ST  4.7 OM  1.6 f0 1.82 R0.0941 AL      WI      MW  0.0 3
+ GAP= 71        0.79       3.7     3.2  4.6 -0.2050E+00  0.2404E+01  0.4104E+01E
+ Epicentro: VILLANUEVA - SANTANDER                                             3
+ SPEC RUS HH N MO 13.2 ST  1.2 OM  1.6 f0 3.81 R0.3858 AL 2.68 WI  8.0 MW  2.7 3
+ SPEC RUS HH N T215928 K 0.000 GD  171 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH Z MO 13.3 ST 10.6 OM  0.7 f0 7.44 R0.1976 AL 2.28 WI 19.7 MW  2.8 3
+ SPEC NOR HH Z T215921 K 0.000 GD  269 VP 7.60 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-12-05 15:35 OP:}ep  STATUS:               ID:20121123215846 L   I
+ 2012-11-23-2150-00M.COL___233                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       2159  5.79                             173   -0.2310 17.3 182 
+ BAR2 SZ ES       2159 20.78                             173   -0.1610 17.3 182 
+ BAR2 SZ I        2159 22.11        38.2 0.22                          17.3 182 
+ GIR2 SZ EP       2159  6.61                             165    0.2810 36.5 357 
+ GIR2 SZ ES       2159 21.32                             165   -0.1810 36.5 357 
+ GIR2 SZ I        2159 23.08        12.1 0.16                          36.5 357 
+ PAM  SZ EP       2159  9.25                             148    0.0810 83.9  39 
+ PAM  SZ I        2159  9.54        18.5 0.40                          83.9  39 
+ PAM  SN ES       2159 26.56                             148    0.0110 83.9  39 
+ RUS  HZ EP       2159  9.85                             145   -0.0910 95.2 174 
+ RUS  HN ES       2159 28.45                             145    0.5310 95.2 174 
+ RUS  HN I        2159 29.95        36.3 0.32                          95.2 174 
+ PTB  HZ EP       2159 12.82                             132   -0.37 9  143 261 
+ PTB  HE ES       2159 33.26                             132   -0.45 9  143 261 
+ PTB  HN I        2159 35.97        19.7 0.22                           143 261 
+ TAM  HZ IP     C 2159 14.35                             129   -0.15 9  157 103 
+ ZAR  HE ES       2159 44.77                             122    0.68 9  203 294 
+ NOR  HZ EP       2159 21.80                             118    0.02 8  229 235 
+ NOR  HN I        2159 57.00        22.8 0.16                           229 235 
+ CHI  HZ EP       2159 23.89                             117    0.17 8  242 195 
+ CHI  HZ I        2159 24.71         2.7 0.28                           242 195 
+                                                                                

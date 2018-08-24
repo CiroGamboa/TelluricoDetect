@@ -1,0 +1,27 @@
+ 2014  217 0534 40.4 L   6.805 -73.198146.7  RSN  6 0.3 1.8LRSN                1
+ GAP=130        0.69       2.8     3.9  6.0 -0.1089E+01  0.6198E+01  0.4181E+00E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 14-03-10 08:10 OP:ep   STATUS:               ID:20140217053440 L   I
+ OLDACT:UP  14-02-17 12:46 OP:cam  STATUS:               ID:20140217053001d    3
+ OLDACT:DUP 14-02-17 11:42 OP:cam  STATUS:               ID:20140217053001d    3
+ 2014-02-17-0530-00M.COL___212                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP     C  535  0.34                             170    0.1510 23.5 176 
+ BAR2 SZ ES   2    535 15.91                             170    0.31 5 23.5 176 
+ BAR2 SZ I         535 18.00        23.1 0.30            170           23.5 176 
+ PAM  SZ EP        535  3.17                             150    0.2010 80.8  43 
+ PAM  SN ES        535 20.49                             150   -0.0410 80.8  43 
+ PAM  SZ I         535 22.38         8.9 0.44            153           80.8  43 
+ RUS  HZ EP   1    535  4.25                             144   -0.12 7  102 173 
+ RUS  HN ES   1    535 22.44                             144   -0.59 7  102 173 
+ RUS  HZ I         535 24.09         7.7 0.28            145            102 173 
+ PTB  HZ EP   1    535  6.35                             133   -0.65 7  142 258 
+ PTB  HN ES        535 27.93                             133    0.23 9  142 258 
+ PTB  HZ I         535 30.54         6.2 0.16            134            142 258 
+ SML  HZ EP   1    535 16.34                             118   -0.48 6  241 336 
+ SML  HN ES        535 45.22                             118    0.03 8  241 336 
+ SML  HZ I         535 48.54         9.7 0.26            119            241 336 
+ CHI  HZ EP     C  535 18.54                             117    0.45 8  248 194 
+ CHI  HN ES   1    535 47.49                             117    0.03 6  248 194 
+ CHI  HZ I         535 53.64         2.4 0.62            118            248 194 
+                                                                                

@@ -1,0 +1,26 @@
+ 2014  519 1807  0.5 L   6.808 -73.152152.0  RSN  6 0.4 2.0LRSN                1
+ GAP=155        1.04       8.8     6.7 11.3 -0.2890E+02 -0.1724E+02  0.5867E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 15-03-16 16:59 OP:nd   STATUS:               ID:20140519180700 L   I
+ OLDACT:UP  14-05-20 00:13 OP:cam  STATUS:               ID:20140519180000     3
+ OLDACT:REG 14-05-19 23:27 OP:cam  STATUS:               ID:20140519180000     3
+ 2014-05-19-1800-00M.COL___252                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     D 18 7 22.64                             154    0.3710 70.1 298 
+ BRR  HN ES       18 7 39.89                             154    0.6410 70.1 298 
+ BRR  HN I        18 7 41.19        32.3 0.16            161           70.1 298 
+ PAM  SZ IP     C 18 7 23.46                             152    0.0910 77.1  40 
+ PAM  SN ES       18 7 40.77                             152   -0.4310 77.1  40 
+ PAM  SZ I        18 7 42.54        10.6 0.52            159           77.1  40 
+ PTB  HZ EP       18 7 27.46                             133   -0.47 9  147 258 
+ PTB  HN ES       18 7 48.84                             133   -0.50 9  147 258 
+ PTB  HZ I        18 7 50.68        12.4 0.18            136            147 258 
+ CHI  HZ EP   1   18 7 39.09                             118    0.47 6  249 195 
+ CHI  HN ES   1   18 8  8.38                             118    0.02 6  249 195 
+ CHI  HZ I        18 8 17.91         3.5 0.36            118            249 195 
+ GUY2CHZ EP   4   18 7 46.04                             113    1.65 0  301 235 
+ GUY2CHE ES   4   18 8 21.46                             113    2.82 0  301 235 
+ GUY2CHZ I        18 8 27.20         4.6 0.26                           301 235 
+ RREF HN ES   4   18 8 25.57                             112    2.43 0  322 229 
+ RREF HZ I        18 8 31.62         3.7 0.20            114            322 229 
+                                                                                

@@ -1,0 +1,28 @@
+ 2011  5 1 0446 23.6 L   7.510 -73.053150.4  RSN  8 0.2 2.2LRSN                1
+ GAP= 98        0.51       2.9     4.2  4.1 -0.1628E+01  0.4605E+01  0.3573E+01E
+ Epicentro: SURATA - SANTANDER                                                 3
+ ACTION:UP  11-06-29 08:49 OP:tino STATUS:               ID:20110501044623 L   I
+ 2011-05-01-0444-01S.COL___128                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO SNR AR TRES W  DIS CAZ7
+ BRI  SZ EP   1    446 44.35                             166     0.3 7   36  51 
+ BRI  SZ I         446 44.65        46.1 0.12                            36  51 
+ BRI  SZ ES   1    446 59.73                             166    -0.2 7   36  51 
+ PAM  SZ EP   1    446 44.84                             163     0.1 7   43 116 
+ PAM  SN ES   1    447  1.14                             163     0.0 7   43 116 
+ PAM  SZ I         447  2.64        15.6 0.17                            43 116 
+ GRA  SZ IP        446 44.52                             161     0.110   50  34 
+ GRA  SZ ES   1    447  0.58                             161    -0.1 7   50  34 
+ GRA  SZ I         447  5.33        30.3 0.39                            50  34 
+ BRR  HZ EP        446 46.17                             149     0.110   85 239 
+ BRR  HN ES   1    447  3.69                             149     0.1 7   85 239 
+ BRR  HZ I         447  7.11        28.6 0.06                            85 239 
+ OCA  SZ EP   1    446 45.86                             149    -0.5 7   86 340 
+ OCA  SZ I         446 46.31        71.0 0.16                            86 340 
+ OCA  SZ ES   1    447  4.21                             149     0.2 7   86 340 
+ BAR2 SZ EP   1    446 47.63                             144     0.1 7  102 188 
+ BAR2 SZ I         447  8.31        21.6 0.20                           102 188 
+ RUS  HZ EP   1    446 54.35                             128    -0.1 7  179 181 
+ RUS  HN ES   1    447 18.48                             128    -0.1 7  179 181 
+ HEL  HZ EP   1    447  8.09                             112    -0.2 5  310 242 
+ HEL  HZ I         447 53.38         3.8 0.35                           310 242 
+                                                                                

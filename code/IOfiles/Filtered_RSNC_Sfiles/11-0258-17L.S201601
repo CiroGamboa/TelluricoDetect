@@ -1,0 +1,60 @@
+ 2016  111 0258 17.4 L   6.813 -73.163145.1  RSN 12 0.4 2.0LRSN                1
+ GAP=134        1.05       2.6     4.0  5.5 -0.6893E+00  0.5606E+01  0.1631E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-03-09 23:24 OP:cam  STATUS:               ID:20160111025817 L   I
+ OLDACT:DUP 16-01-11 15:01 OP:mh   STATUS:               ID:20160111024756d    3
+ OLDACT:UP  16-01-11 15:01 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 15:01 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:49 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:49 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:48 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:46 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:46 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:46 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:UP  16-01-11 14:44 OP:mh   STATUS:               ID:20160111024755     3
+ OLDACT:REG 16-01-11 12:20 OP:mh   STATUS:               ID:20160111024755     3
+ 2016-01-11-0247-55M.COL___247                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP     D  258 37.15                             170    0.1510 24.5 185 
+ BAR2 EZ ES        258 51.78                             170   -0.4910 24.5 185 
+ BAR2 EZ I         258 53.77        21.4 0.22            169           24.5 185 
+ BRR  HZ IP        258 39.01                             153    0.6310 68.9 298 
+ BRR  HN ES        258 55.08                             153    0.3710 68.9 298 
+ BRR  HZ I         258 59.85        24.3 0.48            150           68.9 298 
+ PAM  EZ EP        258 40.08                             151    0.5010 77.5  41 
+ PAM  EN ES        258 57.08                             151    0.2210 77.5  41 
+ PAM  EZ I         258 59.18        29.0 0.52            156           77.5  41 
+ RUS  HZ EP        258 41.14                             143   -0.0910  102 175 
+ RUS  HN ES        258 59.74                             143   -0.0510  102 175 
+ RUS  HZ I         259  0.87         6.7 0.26            147            102 175 
+ PTB  HZ EP        258 43.77                             132   -0.43 9  146 258 
+ PTB  HE ES        259  5.28                             132    0.20 9  146 258 
+ PTB  HZ I         259 11.70         8.4 0.24            132            146 258 
+ OCA  HZ EP        258 45.29                             130   -0.24 9  159 354 
+ OCA  HN ES        259  6.83                             130   -0.62 9  159 354 
+ OCA  HZ I         259 12.17        14.7 0.18            132            159 354 
+ SPBC HZ EP        258 45.92                             129    0.05 9  163 218 
+ SPBC HN ES        259  7.97                             129   -0.09 9  163 218 
+ SPBC HZ I         259 12.54        11.6 0.16            130            163 218 
+ ZAR  HZ EP        258 50.67                             122    1.07 9  202 292 
+ ZAR  HE ES        259 15.02                             122    0.33 9  202 292 
+ ZAR  HZ I         259 21.56        10.8 0.36            123            202 292 
+ SML  HZ EP        258 53.34                             117   -0.45 8  242 336 
+ SML  HN ES        259 21.43                             117   -0.72 8  242 336 
+ SML  HZ I         259 25.35        17.6 0.26            119            242 336 
+ CHI  HZ EP        258 54.92                             117   -0.27 8  250 195 
+ CHI  HE ES        259 24.54                             117   -0.10 8  250 195 
+ CHI  HE ISg       259 24.54                             117   -0.10 8  250 195 
+ CHI  HZ I         259 28.23         7.0 0.38            119            250 195 
+ HEL  HZ EP        258 57.62                             115    0.17 8  271 255 
+ HEL  HN ES        259 28.04                             115   -0.62 8  271 255 
+ HEL  HZ I         259 37.98         3.4 0.48            116            271 255 
+ GUY2CHZ EP   4    259  2.46                             112    1.53 0  300 234 
+ GUY2CHN ES   4    259 38.63                             112    3.77 0  300 234 
+ GUY2CHZ I         259 44.40         3.3 0.36                           300 234 
+                                                                                

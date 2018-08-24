@@ -1,0 +1,62 @@
+ 2017  425 0747  9.6 L   6.794 -73.072147.0  RSN 14 0.7 1.7LRSN                1
+ GAP=126        1.06       4.0     4.5  6.1  0.1479E+01  0.3246E+01  0.1032E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-05-30 21:15 OP:jn   STATUS:               ID:20170425074709 L   I
+ OLDACT:UP  17-04-25 16:17 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:17 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:16 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:15 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:15 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:14 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:14 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:14 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:13 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:12 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:12 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:11 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:11 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:11 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:DUP 17-04-25 16:09 OP:and  STATUS:               ID:20170425073743d    3
+ OLDACT:UP  17-04-25 16:05 OP:and  STATUS:               ID:20170425073740     3
+ OLDACT:UP  17-04-25 16:04 OP:and  STATUS:               ID:20170425073740     3
+ OLDACT:UP  17-04-25 16:04 OP:and  STATUS:               ID:20170425073740     3
+ OLDACT:REG 17-04-25 12:26 OP:and  STATUS:               ID:20170425073740     3
+ 2017-04-25-0738-00M.COL___361                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        747 29.65                             170    0.2710 25.4 209 
+ BAR2 EZ ES        747 44.44                             170   -0.4110 25.4 209 
+ BAR2 EZ I         747 45.10        13.5 0.26            163           25.4 209 
+ PAM  EZ EP        747 32.24                             151    0.5910 73.0  34 
+ PAM  EN ES        747 49.00                             151    0.1110 73.0  34 
+ PAM  EZ I         747 51.28         5.8 0.54            158           73.0  34 
+ BRR  HZ EP        747 31.33                             149    0.0510 78.8 296 
+ BRR  HN ES        747 48.12                             149   -0.1110 78.8 296 
+ BRR  HZ I         747 52.84        11.7 0.32            146           78.8 296 
+ PTB  HZ EP   9    747 36.36                             130   -0.99 0  156 260 
+ PTB  HN ES        747 57.18                             130   -0.86 9  156 260 
+ SPBC HN ES   2    748  1.05                             128   -0.20 5  168 221 
+ SPBC HZ I         748 10.15         5.9 0.10            126            168 221 
+ ZAR  HZ EP        747 42.68                             121   -0.21 8  212 291 
+ ZAR  HE ES        748  8.63                             121   -0.27 8  212 291 
+ ZAR  HZ I         748 14.30         6.9 0.32            120            212 291 
+ NOR  HN ES   4    748 17.12                             117    2.63 0  241 236 
+ NOR  HZ I         748 19.33         3.8 0.20            117            241 236 
+ CHI  HN ES        748 16.82                             117   -0.27 8  250 197 
+ HEL  HZ EP   2    747 51.13                             114    0.44 4  280 256 
+ HEL  HN ES   2    748 23.16                             114    0.38 4  280 256 
+ HEL  HZ I         748 36.19         2.0 0.39            113            280 256 
+ PTGC HZ EP        747 52.70                             111   -0.37 7  305 160 
+ PTGC HN ES        748 25.87                             111   -1.14 7  305 160 
+ CBOC HZ EP   2    747 57.84                             109    0.45 3  341 253 
+ CBOC HN ES   3    748 34.83                             109    0.13 2  341 253 
+ CBOC HZ I         748 40.53         0.8 0.22            109            341 253 
+ PRA  HZ EP        748  4.07                             106    0.54 6  395 211 
+ PRA  HN ES        748 45.87                             106    0.25 6  395 211 
+ PRA  HZ I         748 49.84         2.1 0.24            107            395 211 
+ ORTC HZ EP        748  4.80                             106    0.78 6  400 217 
+ ORTC HN ES   2    748 49.24                             106    2.74 3  400 217 
+ ORTC HZ I         748 52.74         1.3 0.28            106            400 217 
+ SJC  HZ EP   3    748  4.26                             105   -1.50 1  414 326 
+ SJC  HN ES   3    748 45.46                             105   -4.13 1  414 326 
+ SJC  HZ I         748 49.73         1.9 0.36            106            414 326 
+                                                                                

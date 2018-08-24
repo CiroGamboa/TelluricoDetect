@@ -1,0 +1,30 @@
+ 2016 1118 1352 12.1 L   6.780 -73.141156.0  RSN  7 0.3 1.4LRSN                1
+ GAP=154        0.68       4.4     3.3  4.6 -0.5164E+01  0.3467E+01  0.1556E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-10-26 21:09 OP:lp   STATUS:               ID:20161118135212 L   I
+ OLDACT:UP  16-11-18 23:29 OP:edw  STATUS:               ID:20161118134747     3
+ OLDACT:UP  16-11-18 23:29 OP:edw  STATUS:               ID:20161118134747     3
+ OLDACT:UP  16-11-18 23:28 OP:edw  STATUS:               ID:20161118134747     3
+ OLDACT:REG 16-11-18 20:37 OP:edw  STATUS:               ID:20161118134747     3
+ 2016-11-18-1348-00M.COL___340                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       1352 32.95                             172    0.0710 21.2 192 
+ BAR2 EZ ES       1352 48.95                             172   -0.1710 21.2 192 
+ BAR2 EZ I        1352 51.83         3.8 0.10            172           21.2 192 
+ BRR  HZ EP       1352 34.90                             154    0.5010 72.7 300 
+ BRR  HN ES       1352 51.98                             154    0.1510 72.7 300 
+ PAM  EZ EP       1352 35.60                             152    0.1510 78.8  38 
+ PAM  EN ES       1352 53.48                             152   -0.2210 78.8  38 
+ PAM  EZ I        1352 58.37         2.1 0.20            154           78.8  38 
+ PTB  HZ EP       1352 39.84                             134   -0.04 9  148 260 
+ PTB  HN ES       1353  1.31                             134   -0.28 9  148 260 
+ PTB  HZ I        1353  3.59         4.2 0.16            135            148 260 
+ ZAR  HZ EP   4   1352 43.84                             124   -1.48 0  205 293 
+ ZAR  HN ES       1353 11.40                             124    0.13 8  205 293 
+ ZAR  HZ I        1353 17.05         3.2 0.22            125            205 293 
+ NOR  HZ EP       1352 48.31                             121    0.00 8  234 235 
+ NOR  HN ES       1353 16.57                             121   -0.01 8  234 235 
+ NOR  HZ I        1353 22.79         3.1 0.20            122            234 235 
+ SJC  HZ EP       1353  7.29                             107   -0.93 6  411 327 
+ SJC  HN ES   4   1353 48.06                             107   -3.97 0  411 327 
+                                                                                

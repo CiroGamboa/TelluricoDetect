@@ -1,0 +1,24 @@
+ 2010  7 6 0829 57.9 L   7.011 -73.166128.4  RSN  8 0.3 1.7LRSN                1
+ GAP=148        0.66       3.5     6.5  7.2 -0.6245E+01  0.4644E+01 -0.5066E+00E
+ Epicentro: GIRON - SANTANDER                                                  3
+ ACTION:UPD 10-12-01 15:15 OP:pat  STATUS:               ID:20100706082957 L   I
+ 2010-07-06-0825-29S.COL___118                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     D  830 16.20                             159     0.010   46 182 
+ BAR2 SZ ES   2    830 30.28                             159    -0.2 5   46 182 
+ BRR  HZ IP     C  830 16.42                             153    -0.210   61 280 
+ BRR  HN ES   2    830 31.59                             153     0.4 5   61 280 
+ BRR  HZ I         830 34.99        20.3 0.15                            61 280 
+ BRI  SZ EP   1    830 18.93                             143     0.3 7   88  28 
+ GUE  SZ EP   1    830 19.20                             141    -0.1 7   94  16 
+ GUE  SZ ES   2    830 36.24                             141     0.3 5   94  16 
+ GRA  SZ EP   1    830 20.13                             138     0.3 7  105  22 
+ GRA  SZ ES   2    830 37.28                             138     0.3 5  105  22 
+ RUS  HZ EP   1    830 21.85                             133    -0.1 7  124 176 
+ RUS  HN ES   2    830 40.52                             133    -0.2 5  124 176 
+ RUS  HZ I         830 41.72         3.4 0.47                           124 176 
+ OCA  SZ EP   1    830 22.04                             130    -0.6 7  137 353 
+ OCA  SZ ES   2    830 41.44                             130    -0.5 5  137 353 
+ HEL  HZ EP   1    830 38.43                             111     0.6 6  277 251 
+ HEL  HZ I         831 14.63         2.9 0.34                           277 251 
+                                                                                

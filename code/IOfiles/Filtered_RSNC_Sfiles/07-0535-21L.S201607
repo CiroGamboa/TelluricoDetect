@@ -1,0 +1,33 @@
+ 2016  7 7 0535 21.8 L   6.784 -73.027133.3  RSN  7 0.6 1.4LRSN                1
+ GAP=248        1.42       8.0     8.4  9.4  0.1036E+02  0.5262E+01  0.1117E+02E
+ Epicentro: CEPITA - SANTANDER                                                 3
+ ACTION:UPD 17-03-29 16:47 OP:lp   STATUS:               ID:20160707053521 L   I
+ OLDACT:UP  16-07-07 17:41 OP:dani STATUS:               ID:20160707052742d    3
+ OLDACT:UP  16-07-07 17:40 OP:dani STATUS:               ID:20160707052742d    3
+ OLDACT:UP  16-07-07 17:40 OP:dani STATUS:               ID:20160707052742d    3
+ OLDACT:UP  16-07-07 17:39 OP:dani STATUS:               ID:20160707052742d    3
+ OLDACT:UP  16-07-07 17:39 OP:dani STATUS:               ID:20160707052742d    3
+ OLDACT:DUP 16-07-07 17:37 OP:dani STATUS:               ID:20160707052742d    3
+ OLDACT:UP  16-07-07 17:36 OP:dani STATUS:               ID:20160707052741     3
+ OLDACT:REG 16-07-07 13:22 OP:dani STATUS:               ID:20160707052741     3
+ 2016-07-07-0527-41M.COL___316                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        535 40.16                             169    0.1710 27.3 219 
+ BAR2 EZ ES        535 53.48                             169   -0.7310 27.3 219 
+ BAR2 EZ I         535 57.54         4.7 0.26            165           27.3 219 
+ BRR  HZ EP        535 42.01                             146   -0.3810 83.7 295 
+ BRR  HN ES        535 59.16                             146    0.6910 83.7 295 
+ BRR  HZ I         535 59.98         3.1 0.22            140           83.7 295 
+ RUS  HZ EP        535 44.42                             142    0.2510 98.8 184 
+ RUS  HE ES        536  2.36                             142    0.7110 98.8 184 
+ RUS  HZ I         536  3.60         3.0 0.30            131           98.8 184 
+ PTB  HZ EP   9    535 47.16                             127   -1.80 0  160 260 
+ PTB  HN ES        536  7.66                             128   -0.71 9  160 260 
+ PTB  HZ I         536  9.96         3.1 0.10            119            160 260 
+ SPBC HZ EP        535 49.41                             125   -0.65 9  170 223 
+ SPBC HE ES        536 11.47                             125   -0.66 9  170 223 
+ SPBC HZ I         536 13.73         4.7 0.10            116            170 223 
+ HEL  HE ES        536 35.47                             111    0.71 7  284 257 
+ PRA  HZ EP        536 15.40                             104   -0.09 6  397 211 
+ PRA  HZ I         537  4.02         1.4 0.26            100            397 211 
+                                                                                

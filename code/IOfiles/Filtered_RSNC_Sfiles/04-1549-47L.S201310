@@ -1,0 +1,61 @@
+ 2013 10 4 1549 47.6 L   6.807 -73.146140.4  RSN 13 0.5 2.1LRSN 2.6WRSN        1
+ SPEC AVERAGE  MO 13.0 ST192.7 OM  1.2 f0 26.0 R0.0910 AL 0.00 WI 20.0 MW  2.6 3
+ SPEC SD       MO  0.2 ST187.8 OM  0.3 f0 10.3 R0.0487 AL      WI      MW  0.1 3
+ GAP=119        1.32       3.8     4.4  6.4 -0.2968E+01  0.4305E+01  0.3218E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 13.2 ST 93.7 OM  1.4 f0 20.8 R0.0925 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC BAR2SH Z T155019 K 0.050 GD  142 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PAM SH Z MO 13.0 ST  5.0 OM  1.1 f0 9.51 R0.2023 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC PAM SH Z T155024 K 0.050 GD  160 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC RUS HH Z MO 12.5 ST 20.5 OM  0.6 f0 21.7 R0.0887 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC RUS HH Z T155027 K 0.050 GD  172 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PTB HH Z MO 13.1 ST478.5 OM  1.1 f0 40.0 R0.0481 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC PTB HH Z T155032 K 0.050 GD  204 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC SPBCHH Z MO 13.2 ST228.1 OM  1.2 f0 28.4 R0.0677 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC SPBCHH Z T155036 K 0.050 GD  215 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ZAR HH Z MO 13.1 ST461.4 OM  1.0 f0 40.0 R0.0481 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC ZAR HH Z T155043 K 0.050 GD  247 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC NOR HH Z MO 13.0 ST 62.0 OM  0.9 f0 21.4 R0.0899 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC NOR HH Z T155049 K 0.050 GD  273 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPECGUY2CHH Z MO 13.2 ST  0.2 OM  1.0 f0 2.89 R 0.666 AL-0.00 WI 20.0 MW  2.8 3
+ SPECGUY2CHH Z T1551 3 K 0.050 GD333.0 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:DUP 13-10-04 21:02 OP:stll STATUS:               ID:20131004154849d    3
+ ACTION:UPD 13-11-25 09:19 OP:ep   STATUS:               ID:20131004154947 L   I
+ OLDACT:UP  13-10-04 21:13 OP:stll STATUS:               ID:20131004154849d    3
+ 2013-10-04-1548-48M.COL___235                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     D 1550  6.76                             170    0.2110 24.0 190 
+ BAR2 SZ ES       1550 20.61                             170   -0.7610 24.0 190 
+ BAR2 SZ I        1550 22.87        58.7 0.14            166           24.0 190 
+ BRR  HZ IP     D 1550  8.61                             152    0.5110 70.8 298 
+ BRR  HE ES       1550 25.02                             152    0.9010 70.8 298 
+ BRR  SZ I        1550 29.26        24.3 0.12            149           70.8 298 
+ PAM  SZ EP       1550  9.69                             150    0.5210 76.8  40 
+ PAM  SN ES       1550 26.21                             150    0.1910 76.8  40 
+ PAM  SZ I        1550 28.00        18.2 0.42            152           76.8  40 
+ RUS  HZ IP     C 1550 10.81                             142   -0.0210  101 176 
+ RUS  HN ES       1550 29.17                             142    0.1810  101 176 
+ RUS  SZ I        1550 31.44         7.7 0.84            140            101 176 
+ PTB  HZ EP       1550 13.50                             131   -0.60 9  148 259 
+ PTB  HN ES       1550 33.82                             131   -0.98 9  148 259 
+ PTB  SZ I        1550 40.18        15.5 0.16            128            148 259 
+ CAPV BZ IP     D 1550 14.77                             131    0.30 9  149  38 
+ SPBC HZ EP       1550 16.05                             128    0.35 9  164 219 
+ SPBC SZ I        1550 45.13        16.7 0.54            125            164 219 
+ ZAR  HZ EP       1550 19.73                             121    0.11 9  204 292 
+ ZAR  HN ES       1550 44.89                             121    0.26 9  204 292 
+ ZAR  SZ I        1550 51.01        16.3 0.32            119            204 292 
+ NOR  HZ EP       1550 23.51                             117    0.49 8  235 234 
+ NOR  HN ES       1550 50.53                             117   -0.15 8  235 234 
+ NOR  SZ I        1550 53.68        12.4 0.26            115            235 234 
+ SML  HZ EP       1550 23.46                             116   -0.35 8  243 335 
+ SML  HN ES       1550 51.14                             116   -0.94 8  243 335 
+ SML  SZ I        1550 56.74        11.9 0.08            115            243 335 
+ CHI  HZ EP       1550 24.88                             116   -0.16 8  249 195 
+ CHI  HN ES       1550 53.57                             116   -0.70 8  249 195 
+ CHI  HZ I        1551  2.20         6.8 0.38            114            249 195 
+ SOCV BZ EP       1550 29.30                             111   -1.02 7  301  57 
+ GUY2CHZ EP       1550 31.74                             111    0.78 7  302 235 
+ GUY2CHN ES       1551  4.95                             111    0.13 7  302 235 
+ GUY2CSZ I        1551 11.46         7.1 1.04                           302 235 
+                                                                                

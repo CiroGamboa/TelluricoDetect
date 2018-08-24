@@ -1,0 +1,37 @@
+ 2013  824 1353 13.6 L   6.784 -73.170144.2  RSN  6 0.4 1.6LRSN 2.9WRSN        1
+ SPEC AVERAGE  MO 13.5 ST  1.4 OM  2.3 f0 4.87 R3.7312 AL 0.00 WI 20.0 MW  2.9 3
+ SPEC SD       MO  1.1 ST  2.2 OM  1.2 f0 5.67 R3.5990 AL      WI      MW  0.8 3
+ GAP=134        1.05       5.3     5.0  8.1  0.3811E+01  0.8901E+01  0.3238E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BRR HH Z MO 12.5 ST0.452 OM  0.9 f0 4.96 R0.3133 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC BRR HH Z T135350 K 0.000 GD  160 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 14.5 ST0.003 OM  2.9 f00.187 R8.3102 AL-0.00 WI 20.0 MW  3.6 3
+ SPEC RUS HH Z T135353 K 0.000 GD  174 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 12.2 ST  5.3 OM  0.5 f0 14.1 R0.1102 AL-0.00 WI 20.0 MW  2.1 3
+ SPEC PTB HH Z T135358 K 0.000 GD  204 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH Z MO 14.7 ST0.009 OM  2.9 f00.251 R6.1912 AL-0.00 WI 20.0 MW  3.7 3
+ SPEC ZAR HH Z T1354 9 K 0.000 GD  248 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ 2013-08-24-1348-50M.COL___220                                                 6
+ OLDACT:REG 13-08-24 17:11 OP:stll STATUS:               ID:20130824134850     3
+ ACTION:UPD 14-01-14 09:06 OP:ep   STATUS:               ID:20130824135313 L   I
+ OLDACT:UP  13-08-24 18:34 OP:stll STATUS:               ID:20130824134850     3
+ OLDACT:UP  13-08-24 18:34 OP:stll STATUS:               ID:20130824134850     3
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP   1   1353 32.88                             171   -0.13 7 21.3 184 
+ BAR2 SZ ES   1   1353 47.72                             171   -0.42 7 21.3 184 
+ BAR2 SZ I        1353 48.68         6.5 0.66            171           21.3 184 
+ BRR  HZ EP       1353 34.63                             153    0.1310 69.7 301 
+ BRR  HN ES       1353 51.62                             153    0.8210 69.7 301 
+ BRR  SZ I        1353 57.14         7.0 1.94            149           69.7 301 
+ PAM  SZ EP       1353 35.72                             150   -0.1210 80.5  40 
+ PAM  SZ I        1353 35.91         9.3 0.18            153           80.5  40 
+ PAM  SN ES       1353 52.82                             150   -0.3710 80.5  40 
+ RUS  HZ EP       1353 37.70                             144    0.6110 99.1 174 
+ RUS  HN ES       1353 55.37                             144   -0.0510 99.1 174 
+ PTB  HZ EP   1   1353 39.58                             132   -0.59 7  145 259 
+ PTB  HN ES   1   1354  0.12                             132   -0.77 7  145 259 
+ PTB  HZ I        1354  5.47         3.8 0.18            131            145 259 
+ ZAR  HZ EP   1   1353 45.51                             122   -0.24 6  202 293 
+ ZAR  HN ES       1354 10.91                             122    0.08 9  202 293 
+ ZAR  HZ I        1354 17.78         4.6 0.44            122            202 293 
+                                                                                

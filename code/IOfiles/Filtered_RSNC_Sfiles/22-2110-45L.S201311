@@ -1,0 +1,50 @@
+ 2013 1122 2110 45.0 L   6.815 -73.184137.5  RSN 10 0.5 1.9LRSN 2.6WRSN        1
+ SPEC AVERAGE  MO 13.0 ST  1.3 OM  1.7 f0 4.82 R0.5429 AL 0.00 WI 20.0 MW  2.6 3
+ SPEC SD       MO  0.1 ST  1.6 OM  0.7 f0 2.52 R0.2788 AL      WI      MW  0.1 3
+ GAP=131        1.26       3.7     4.6  6.6 -0.6118E+01  0.7194E+01  0.5940E+00E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ SPEC RUS HH Z MO 12.8 ST  1.1 OM  0.9 f0 6.51 R0.2955 AL-0.00 WI 20.0 MW  2.5 3
+ SPEC RUS HH Z T211124 K 0.050 GD  171 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PTB HH Z MO 13.1 ST0.079 OM  1.1 f0 2.21 R0.8706 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC PTB HH Z T211129 K 0.050 GD  199 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC NOR HH Z MO 13.1 ST  4.1 OM  1.0 f0 8.05 R0.2390 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC NOR HH Z T211145 K 0.050 GD  269 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC CHI HH Z MO 13.0 ST0.104 OM  0.9 f0 2.51 R0.7665 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC CHI HH Z T211149 K 0.050 GD  284 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPECGUY2CHH Z MO 13.1 ST  0.2 OM  0.9 f0 3.02 R 0.638 AL-0.00 WI 20.0 MW  2.6 3
+ SPECGUY2CHH Z T211159 K 0.050 GD329.1 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ 2013-11-22-2108-09M.COL___244                                                 6
+ OLDACT:REG 13-11-23 01:09 OP:stll STATUS:               ID:20131122210809     3
+ ACTION:UPD 14-01-09 16:30 OP:ep   STATUS:               ID:20131122211045 L   I
+ OLDACT:UP  13-11-23 02:33 OP:stll STATUS:               ID:20131122210809     3
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       2111  4.05                             169    0.3510 24.6 179 
+ BAR2 SZ ES       2111 17.47                             169   -0.7910 24.6 179 
+ BAR2 SZ I        2111 21.39        33.8 0.72            170           24.6 179 
+ BRR  HZ EP       2111  5.94                             153    0.9010 66.7 299 
+ BRR  HN ES       2111 21.18                             153    0.5410 66.7 299 
+ BRR  SZ I        2111 30.26        12.7 0.44            150           66.7 299 
+ PAM  SZ EP       2111  7.09                             149    0.6110 79.0  43 
+ PAM  SN ES       2111 23.56                             149    0.3610 79.0  43 
+ PAM  SZ I        2111 26.05        16.5 0.48            154           79.0  43 
+ RUS  HZ EP       2111  8.19                             141    0.0510  103 174 
+ RUS  HN ES       2111 26.38                             141    0.2310  103 174 
+ RUS  SZ I        2111 27.83        13.8 0.24            147            103 174 
+ PTB  HZ EP       2111 10.29                             131   -0.70 9  144 258 
+ PTB  HN ES       2111 31.20                             131   -0.02 9  144 258 
+ PTB  SZ I        2111 38.73         8.7 0.28            132            144 258 
+ CAPV BZ EP       2111 11.74                             130   -0.17 9  151  40 
+ CAPV BZ ES       2111 31.86                             130   -1.00 9  151  40 
+ NOR  HZ EP       2111 20.39                             117    0.36 8  232 234 
+ NOR  HN ES       2111 46.82                             117   -0.50 8  232 234 
+ NOR  SZ I        2111 55.20         6.6 0.46            120            232 234 
+ SML  HZ EP       2111 20.58                             116   -0.28 8  240 336 
+ SML  HE ES       2111 48.51                             116   -0.29 8  240 336 
+ SML  SZ I        2111 53.69        12.9 0.08            119            240 336 
+ CHI  HZ EP       2111 22.38                             115    0.03 8  249 194 
+ CHI  HZ I        2111 22.72         4.5 0.36            119            249 194 
+ CHI  HN ES       2111 51.20                             115   -0.25 8  249 194 
+ GUY2CHZ EP       2111 28.33                             111    0.34 7  299 234 
+ GUY2CHN ES       2112  1.12                             111   -0.37 7  299 234 
+ GUY2CSZ I        2112  8.75         4.5 0.90                           299 234 
+                                                                                

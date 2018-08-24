@@ -1,0 +1,26 @@
+ 2016 1124 2145 12.6 L   6.742 -73.102145.3  RSN  6 0.3 2.0LRSN                1
+ GAP=174        0.86       5.9     4.6  6.4 -0.7677E+01  0.1064E+02  0.1404E+01E
+ Epicentro: JORDAN - SANTANDER                                                 3
+ ACTION:UPD 17-10-26 21:11 OP:lp   STATUS:               ID:20161124214512 L   I
+ OLDACT:UP  16-11-25 04:18 OP:and  STATUS:               ID:20161124213749d    3
+ OLDACT:UP  16-11-25 04:17 OP:and  STATUS:               ID:20161124213749d    3
+ OLDACT:DUP 16-11-25 04:13 OP:and  STATUS:               ID:20161124213749d    3
+ 2016-11-24-2138-00M.COL___355                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     C 2145 32.40                             172    0.2710 18.8 208 
+ BAR2 EZ ES       2145 47.13                             172   -0.2010 18.8 208 
+ BAR2 EZ I        2145 48.14        20.9 0.17            171           18.8 208 
+ BRR  HZ EP       2145 34.42                             150    0.2510 78.6 301 
+ BRR  HN ES       2145 51.27                             150    0.3110 78.6 301 
+ PAM  EZ EP       2145 35.30                             150    0.3710 79.6  34 
+ PAM  EN ES       2145 51.97                             150   -0.3610 79.6  34 
+ PAM  EZ I        2145 54.78        14.9 0.42            149           79.6  34 
+ PTB  HZ EP       2145 39.22                             131   -0.68 9  151 262 
+ PTB  HN ES   4   2146  0.05                             131   -1.12 0  151 262 
+ PTB  HZ I        2146  2.39        15.7 0.20            130            151 262 
+ ZAR  HZ EP       2145 45.51                             121   -0.26 8  211 293 
+ ZAR  HN ES       2146 11.62                             121    0.01 8  211 293 
+ ZAR  HZ I        2146 20.30         9.7 0.11            120            211 293 
+ NOR  HN ES       2146 16.45                             118    0.19 8  235 236 
+ NOR  HZ I        2146 18.35         6.5 0.16            119            235 236 
+                                                                                

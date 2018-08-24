@@ -1,0 +1,31 @@
+ 2016 1012 1251 36.9 L   6.397 -73.394 21.4  RSN  7 0.4 1.2LRSN                1
+ GAP=101        1.12       2.6     3.5  4.2  0.1048E+01  0.2411E+01 -0.1980E+01E
+ Epicentro: CHIMA - SANTANDER                                                  3
+ ACTION:UPD 16-11-09 19:18 OP:rebc STATUS:               ID:20161012125136 L   I
+ OLDACT:UP  16-10-12 22:13 OP:edw  STATUS:               ID:20161012124749d    3
+ OLDACT:UP  16-10-12 22:04 OP:edw  STATUS:               ID:20161012124749d    3
+ OLDACT:DUP 16-10-12 21:53 OP:edw  STATUS:               ID:20161012124749d    3
+ OLDACT:REG 16-10-12 19:56 OP:edw  STATUS:               ID:20161012124748     3
+ 2016-10-12-1248-00M.COL___366                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       1251 43.42                             123    0.0210 31.8  47 
+ BAR2 EZ ES       1251 47.92                             123   -0.5110 31.8  47 
+ BAR2 EZ I        1251 48.46        19.1 0.08            119           31.8  47 
+ RUS  HZ EP       1251 48.69                             107    0.3210 65.5 148 
+ RUS  HN ES       1251 57.00                             107   -0.2710 65.5 148 
+ RUS  HZ I        1251 58.46         8.3 0.22            103           65.5 148 
+ BRR  HZ EP       1251 51.23                             102    0.3710 86.1 336 
+ BRR  HN ES       1252  1.82                             102    0.1110 86.1 336 
+ SPBC HZ EP       1251 54.75                              99    0.0110  111 222 
+ SPBC HN ES   4   1252 11.38                              99    2.77 0  111 222 
+ SPBC HZ I        1252 11.61         4.6 0.10             97            111 222 
+ PTB  HZ EP   9 D 1251 55.69                              56    0.14 0  119 278 
+ PTB  HN ES       1252  9.53                              56   -0.6710  119 278 
+ PTB  HZ I        1252  9.93         8.9 0.20             97            119 278 
+ PAM  EZ EP     D 1251 58.21                              56    0.7310  129  36 
+ PAM  EN ES       1252 13.25                              56   -0.2410  129  36 
+ PAM  EZ I        1252 14.48         4.3 0.20             97            129  36 
+ ZAR  HZ EP       1252  5.30                              56   -0.69 9  202 307 
+ ZAR  HN ES   4   1252 22.46                              56   -6.18 0  202 307 
+ ZAR  HZ I        1252 30.82         1.6 0.32             56            202 307 
+                                                                                

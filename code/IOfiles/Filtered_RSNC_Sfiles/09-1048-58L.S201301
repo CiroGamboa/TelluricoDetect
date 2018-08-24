@@ -1,0 +1,45 @@
+ 2013  1 9 1048 58.9 L   6.863 -73.300122.3  RSN  9 0.6 2.6LRSN 3.1WRSN        1
+ SPEC AVERAGE  MO 13.8 ST 12.7 OM  2.7 f0 4.23 R0.4132 AL 2.41 WI 18.7 MW  3.1 3
+ SPEC SD       MO  0.3 ST 12.0 OM  0.7 f0 1.61 R0.1850 AL      WI      MW  0.2 3
+ GAP=104        1.36       4.1     5.0  7.4  0.1986E+01  0.4640E+01 -0.8754E-01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ SPEC HEL HH N MO 13.5 ST0.346 OM  1.7 f0 1.96 R0.7500 AL 1.24 WI 20.5 MW  3.0 3
+ SPEC HEL HH N T1050 5 K 0.000 GD  284 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.5 ST  1.6 OM  1.7 f0 3.30 R0.4455 AL 2.32 WI 16.1 MW  3.0 3
+ SPEC CHI HH N T1050 2 K 0.000 GD  280 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH N MO 13.9 ST 33.5 OM  2.2 f0 6.65 R0.2211 AL 2.90 WI 20.2 MW  3.2 3
+ SPEC ZAR HH N T104950 K 0.000 GD  222 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.3 ST 15.8 OM  2.6 f0 3.98 R0.3693 AL 2.58 WI 17.0 MW  3.4 3
+ SPEC OCA HH N T104944 K 0.000 GD  195 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.8 ST 12.4 OM  2.3 f0 5.25 R0.2800 AL 3.00 WI 19.8 MW  3.1 3
+ SPEC BRR HH N T104931 K 0.000 GD  133 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:13 OP:ep   STATUS:               ID:20130109104858 L   I
+ 2013-01-09-1038-48M.COL___189                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C 1049 16.36                             164    0.3610 32.6 156 
+ BAR2 SZ I        1049 16.42       224.1 0.34            163           32.6 156 
+ BAR2 SZ ES       1049 29.61                             164    0.2810 32.6 156 
+ BRR  HZ IP     D 1049 16.77                             155    0.2510 52.9 301 
+ BRR  HZ I        1049 17.01        48.0 0.28            153           52.9 301 
+ BRR  HN ES       1049 30.65                             155    0.4110 52.9 301 
+ RUS  HZ EP       1049 21.29                             136    0.0710  110 167 
+ RUS  HN ES       1049 38.63                             136    0.0110  110 167 
+ RUS  HN I        1049 39.88        30.6 0.22            134            110 167 
+ PTB  HZ EP       1049 21.72                             129   -0.9110  133 254 
+ PTB  HE ES       1049 39.88                             129   -1.2510  133 254 
+ PTB  HZ I        1049 43.60        49.8 0.42            127            133 254 
+ PTB  HN I        1049 43.93        79.2 0.18                           133 254 
+ OCA  HZ EP       1049 24.50                             125   -0.21 9  152 359 
+ OCA  HN ES       1049 44.35                             125   -0.47 9  152 359 
+ OCA  HN I        1049 45.22       248.7 0.18            126            152 359 
+ ZAR  HZ EP       1049 28.17                             119    0.20 9  186 292 
+ ZAR  HN ES       1049 51.36                             119    0.73 9  186 292 
+ ZAR  HN I        1049 54.63        56.1 0.34            118            186 292 
+ CHI  HZ EP       1049 36.38                             112    0.62 8  252 191 
+ CHI  HN ES       1050  4.01                             112   -0.49 8  252 191 
+ CHI  HN I        1050 11.65        15.9 0.32            110            252 191 
+ HEL  HZ EP       1049 37.24                             111    0.86 8  257 253 
+ HEL  HE ES       1050  5.71                             111    0.12 8  257 253 
+ HEL  HN I        1050 10.46        14.6 0.24            110            257 253 
+ SDV  BZ EP       1049 48.68                             103   -0.56 6  369  53 
+                                                                                

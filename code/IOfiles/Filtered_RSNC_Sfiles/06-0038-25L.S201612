@@ -1,0 +1,24 @@
+ 2016 12 6 0038 29.4 L   7.088 -73.135131.5  RSN  4 0.6 1.2LRSN                1
+ GAP=137        1.45       8.0     7.6 13.3  0.7720E+01  0.3435E+02  0.3948E+01E
+ Epicentro: BUCARAMANGA - SANTANDER                                            3
+ ACTION:UPD 17-01-11 20:12 OP:rebc STATUS:               ID:20161206003825 L   I
+ OLDACT:UP  16-12-09 13:58 OP:nlst STATUS:               ID:20161206003825 L   3
+ OLDACT:UP  16-12-06 16:44 OP:ar   STATUS:               ID:20161206002745d    3
+ OLDACT:DUP 16-12-06 16:40 OP:ar   STATUS:               ID:20161206002745d    3
+ OLDACT:UP  16-12-06 16:39 OP:ar   STATUS:               ID:20161206002744     3
+ OLDACT:REG 16-12-06 13:10 OP:ar   STATUS:               ID:20161206002744     3
+ 2016-12-06-0028-00M.COL___343                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  EZ EP        038 47.88                             156   -1.0010 55.5  60 
+ PAM  HN ES        039  4.65                             156    0.5910 55.5  60 
+ PAM  EZ I         039  6.50         4.5 0.16            171           55.5  60 
+ RUS  HZ EP        038 55.24                             132    0.7710  132 178 
+ RUS  HN ES        039 13.56                             132   -0.4510  132 178 
+ RUS  HZ I         039 15.41         0.8 0.32            136            132 178 
+ PTB  HZ EP   9    038 59.79                             126    3.52 0  158 248 
+ PTB  HE ES        039 20.97                             129    0.24 9  158 248 
+ PTB  HZ I         039 34.63         1.8 0.38            127            158 248 
+ ZAR  HZ EP        039  0.36                             120    0.29 9  195 283 
+ ZAR  HE ES        039 23.83                             120   -0.14 9  195 283 
+ ZAR  HZ I         039 28.16         3.1 0.22            122            195 283 
+                                                                                

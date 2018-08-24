@@ -1,0 +1,26 @@
+ 2014  114 0317 53.2 L   6.784 -73.145148.1  RSN  6 0.5 1.7LRSN                1
+ GAP=221        1.06       7.6     5.5  9.2 -0.1542E+02  0.5580E+01 -0.4383E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 14-03-13 09:55 OP:ep   STATUS:               ID:20140114031753 L   I
+ OLDACT:UP  14-01-14 10:24 OP:cam  STATUS:               ID:20140114031001d    3
+ OLDACT:DUP 14-01-14 10:16 OP:cam  STATUS:               ID:20140114031001d    3
+ OLDACT:REG 14-01-14 08:26 OP:cam  STATUS:               ID:20140114031000     3
+ 2014-01-14-0310-00M.COL___285                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        318 15.16                             152    0.4710 72.2 300 
+ BRR  HE ES        318 31.75                             152    0.3210 72.2 300 
+ BRR  HZ I         318 33.09         7.0 0.42            150           72.2 300 
+ PAM  SZ EP        318 16.13                             151    0.3510 78.7  39 
+ PAM  SN ES        318 33.10                             151   -0.2710 78.7  39 
+ PAM  SZ I         318 35.09         9.2 0.56            151           78.7  39 
+ PTB  HZ EP   1    318 20.28                             132   -0.09 7  148 260 
+ PTB  HN ES        318 40.73                             132   -0.81 9  148 260 
+ PTB  HZ I         318 46.41         4.2 0.32            133            148 260 
+ OCA  HZ EP   1    318 21.37                             130   -0.53 7  162 353 
+ OCA  HN ES   1    318 43.85                             130   -0.40 7  162 353 
+ OCA  HZ I         318 48.52         6.1 0.42            129            162 353 
+ ZAR  HN ES        318 52.11                             123    0.71 9  205 293 
+ SML  HZ EP   1    318 29.84                             118   -0.34 6  245 335 
+ SML  HN ES   1    318 58.79                             118   -0.20 6  245 335 
+ SML  HZ I         319  3.69         4.6 0.10            118            245 335 
+                                                                                

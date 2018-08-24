@@ -1,0 +1,30 @@
+ 2016 1116 0903 52.0 L   6.756 -73.159154.0  RSN  8 0.4 1.5LRSN                1
+ GAP=120        1.05       5.4     4.6  6.9  0.5653E+01  0.1865E+01  0.1073E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-10-26 21:08 OP:lp   STATUS:               ID:20161116090352 L   I
+ OLDACT:UP  16-11-16 18:20 OP:e    STATUS:               ID:20161116085742     3
+ OLDACT:REG 16-11-16 12:58 OP:and  STATUS:               ID:20161116085742     3
+ 2016-11-16-0858-00M.COL___332                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        9 4 12.77                             173    0.2110 18.3 188 
+ BAR2 EZ ES        9 4 27.98                             173   -0.6010 18.3 188 
+ BAR2 EZ I         9 4 28.62         9.1 0.26            170           18.3 188 
+ BRR  HZ EP        9 4 14.71                             153    0.5810 72.4 302 
+ BRR  HN ES        9 4 32.01                             153    0.6310 72.4 302 
+ PAM  EZ IP     C  9 4 15.67                             150    0.2810 82.0  38 
+ PAM  EN ES        9 4 33.21                             150   -0.4110 82.0  38 
+ PAM  EZ I         9 4 34.81         3.9 0.42            152           82.0  38 
+ PTB  HZ EP        9 4 19.44                             134   -0.03 9  145 261 
+ PTB  HE ES        9 4 40.63                             134   -0.26 9  145 261 
+ PTB  HZ I         9 4 42.73         3.1 0.14            133            145 261 
+ ZAR  HZ EP   4    9 4 26.25                             124    1.18 0  205 294 
+ ZAR  HN ES        9 4 50.54                             124   -0.31 9  205 294 
+ ZAR  HZ I         9 4 52.90         2.5 0.14            123            205 294 
+ PTGC HZ EP        9 4 36.09                             113    0.27 7  305 158 
+ PTGC HN ES        9 5  9.86                             113   -0.12 7  305 158 
+ PRA  HZ EP   4    9 4 47.25                             108    1.98 0  387 210 
+ PRA  HN ES   4    9 5 30.02                             108    3.22 0  387 210 
+ PRA  HZ I         9 5 34.76         1.1 0.51            107            387 210 
+ SJC  HZ EP        9 4 47.33                             107   -0.92 6  412 327 
+ SJC  HN ES   4    9 5 29.76                             107   -2.34 0  412 327 
+                                                                                

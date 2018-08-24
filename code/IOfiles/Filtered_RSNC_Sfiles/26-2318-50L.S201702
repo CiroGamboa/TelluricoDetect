@@ -1,0 +1,34 @@
+ 2017  226 2318 50.5 L   6.464 -73.788 84.1  RSN  6 0.3 1.2LRSN                1
+ GAP=198        0.83       6.6     3.2  8.0 -0.2533E+01 -0.2433E+01  0.9210E+01E
+ Epicentro: SANTA HELENA DEL OPON - SANTANDER                                  3
+ *BAR2-BRR-PTB-PAM-NOR-ZAR                                                     3
+ ACTION:UPD 17-05-24 15:41 OP:jn   STATUS:               ID:20170226231850 L   I
+ OLDACT:UP  17-04-19 15:57 OP:nlst STATUS:               ID:20170226231850 L   3
+ OLDACT:UP  17-02-27 04:38 OP:e    STATUS:               ID:20170226231742     3
+ OLDACT:UP  17-02-27 04:37 OP:e    STATUS:               ID:20170226231742     3
+ OLDACT:UP  17-02-27 04:37 OP:e    STATUS:               ID:20170226231742     3
+ OLDACT:UP  17-02-27 04:35 OP:e    STATUS:               ID:20170226231742     3
+ OLDACT:UP  17-02-27 04:35 OP:e    STATUS:               ID:20170226231742     3
+ OLDACT:UP  17-02-27 04:34 OP:e    STATUS:               ID:20170226231742     3
+ OLDACT:UP  17-02-27 04:34 OP:e    STATUS:               ID:20170226231742     3
+ OLDACT:UP  17-02-27 04:34 OP:e    STATUS:               ID:20170226231742     3
+ OLDACT:UP  17-02-27 04:29 OP:e    STATUS:               ID:20170226231742     3
+ OLDACT:REG 17-02-27 03:00 OP:and  STATUS:               ID:20170226231742     3
+ 2017-02-26-2318-00M.COL___378                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       2319  5.28                             138   -0.3110 68.4  78 
+ BAR2 EZ ES       2319 17.63                             138    0.3010 68.4  78 
+ BAR2 EZ I        2319 18.48         9.8 0.20            141           68.4  78 
+ BRR  HZ EP   4   2319  4.46                             137   -1.07 0 71.6   7 
+ BRR  HN ES       2319 16.86                             137   -0.3610 71.6   7 
+ BRR  HZ I        2319 19.85         4.6 0.15            139           71.6   7 
+ PTB  HZ IP     C 2319  5.47                             135   -0.3310 74.4 276 
+ PTB  HN ES       2319 18.03                             135    0.3310 74.4 276 
+ PTB  HZ I        2319 20.05         5.1 0.07            131           74.4 276 
+ PAM  EZ EP       2319 15.03                             114    0.35 9  154  51 
+ NOR  HZ EP   4   2319 16.63                             113    2.34 0  156 230 
+ NOR  HE ES   4   2319 34.12                             113    1.31 0  156 230 
+ NOR  HZ I        2319 40.68         2.2 0.12            111            156 230 
+ ZAR  HN ES   2   2319 34.77                             112    0.38 5  164 314 
+ ZAR  HZ I        2319 38.29         2.6 0.21            111            164 314 
+                                                                                

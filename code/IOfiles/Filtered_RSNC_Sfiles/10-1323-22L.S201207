@@ -1,0 +1,19 @@
+ 2012  710 1323 22.2 L   6.779 -73.212137.7  RSN  5 0.1 1.5LRSN                1
+ GAP=228        0.43       4.6     3.6  4.7  0.9861E+01  0.1560E+01 -0.5409E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UP  12-08-14 11:44 OP:ep   STATUS:               ID:20120710132322 L   I
+ 2012-07-10-1320-00M.COL___201                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1323 40.93                             171     0.110   21 171 
+ BAR2 SZ ES   1   1323 55.22                             171    -0.1 7   21 171 
+ BAR2 SZ I        1323 57.39         9.1 0.24            176             21 171 
+ BRR  HZ EP   1   1323 42.15                             153    -0.1 7   66 303 
+ BRR  HZ I        1323 43.48        14.5 0.10            149             66 303 
+ RUS  HZ EP       1323 44.99                             143    -0.110   99 172 
+ RUS  HN ES   1   1324  3.07                             143     0.2 7   99 172 
+ PTB  HZ EP       1323 47.64                             132    -0.2 9  140 259 
+ PTB  HN ES   1   1324  7.84                             132     0.0 7  140 259 
+ PTB  HZ I        1324 10.51         1.8 0.29            133            140 259 
+ ZAR  HZ EP   1   1323 53.84                             121     0.3 6  198 294 
+ ZAR  HN ES   1   1324 18.02                             121     0.0 6  198 294 
+ ZAR  HZ I        1324 26.04         3.4 0.30            122            198 294 

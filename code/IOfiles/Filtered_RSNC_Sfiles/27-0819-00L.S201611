@@ -1,0 +1,27 @@
+ 2016 1127 0819  0.3 L   6.778 -73.220142.0  RSN  6 0.3 1.3LRSN                1
+ GAP=126        0.73       4.1     3.3  4.9 -0.1984E+01  0.3993E+01  0.5056E+01E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 17-10-26 21:12 OP:lp   STATUS:               ID:20161127081900 L   I
+ OLDACT:DUP 16-11-27 15:01 OP:cara STATUS:               ID:20161127081747d    3
+ OLDACT:UP  16-11-27 15:00 OP:cara STATUS:               ID:20161127081746     3
+ OLDACT:REG 16-11-27 13:04 OP:dani STATUS:               ID:20161127081746     3
+ 2016-11-27-0818-00M.COL___349                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        819 19.50                             171    0.0910 20.9 168 
+ BAR2 EZ ES        819 34.07                             171   -0.2710 20.9 168 
+ BAR2 EZ I         819 36.59         8.1 0.88            171           20.9 168 
+ BRR  HZ EP        819 20.36                             154   -0.3410 65.4 304 
+ BRR  HN ES        819 37.27                             154    0.6410 65.4 304 
+ PAM  EZ EP        819 22.58                             148    0.0210 84.7  43 
+ PAM  EN ES        819 39.92                             148   -0.0110 84.7  43 
+ PAM  EZ I         819 41.72         3.1 0.48            153           84.7  43 
+ PTB  HZ EP        819 26.38                             133    0.21 9  139 259 
+ PTB  HN ES        819 46.09                             133   -0.27 9  139 259 
+ PTB  HZ I         819 54.23         1.6 0.44            133            139 259 
+ ZAR  HZ EP        819 31.52                             123   -0.28 9  197 294 
+ ZAR  HN ES        819 56.31                             123   -0.07 9  197 294 
+ ZAR  HZ I         820  3.61         1.3 0.22            123            197 294 
+ PRA  HZ EP        819 53.39                             106    0.44 6  386 209 
+ PRA  HN ES        820 34.14                             106    0.10 6  386 209 
+ PRA  HZ I         820 37.66         0.6 0.26            108            386 209 
+                                                                                

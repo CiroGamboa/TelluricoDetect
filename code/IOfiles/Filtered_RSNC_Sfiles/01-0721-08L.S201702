@@ -1,0 +1,29 @@
+ 2017  2 1 0721  8.0 L   6.819 -73.165144.4  RSN  5 0.3 0.9LRSN                1
+ GAP=133        0.64       5.6     4.4  6.7  0.3234E-01  0.2235E+01 -0.1744E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-05-24 15:31 OP:jn   STATUS:               ID:20170201072108 L   I
+ OLDACT:UP  17-02-01 18:00 OP:dnl  STATUS:               ID:20170201071745d    3
+ OLDACT:DUP 17-02-01 17:57 OP:dnl  STATUS:               ID:20170201071745d    3
+ OLDACT:UP  17-02-01 17:57 OP:dnl  STATUS:               ID:20170201071744d    3
+ OLDACT:UP  17-02-01 17:56 OP:dnl  STATUS:               ID:20170201071744d    3
+ OLDACT:DUP 17-02-01 17:53 OP:dnl  STATUS:               ID:20170201071744d    3
+ OLDACT:UP  17-02-01 17:52 OP:dnl  STATUS:               ID:20170201071743     3
+ OLDACT:REG 17-02-01 15:11 OP:dnl  STATUS:               ID:20170201071743     3
+ 2017-02-01-0718-00M.COL___313                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP   2    721 27.28                             170   -0.22 5 25.1 184 
+ BAR2 EZ ES        721 43.05                             170    0.3310 25.1 184 
+ BAR2 EZ I         721 45.51         1.6 0.42            172           25.1 184 
+ BRR  HZ EP        721 29.11                             154    0.2710 68.3 298 
+ BRR  HN ES        721 45.07                             154   -0.0310 68.3 298 
+ BRR  HZ I         721 50.71         1.9 0.28            154           68.3 298 
+ PAM  EZ EP   2    721 30.18                             151    0.13 5 77.2  42 
+ PAM  EE ES   2    721 46.47                             151   -0.79 5 77.2  42 
+ PAM  EZ I         721 49.38         1.5 0.22            154           77.2  42 
+ RUS  HZ EP   2    721 31.58                             143   -0.20 5  103 175 
+ RUS  HE ES   2    721 50.19                             143   -0.14 5  103 175 
+ RUS  HZ I         721 52.21         0.7 0.52            148            103 175 
+ PTB  HZ EP   4    721 31.89                             132   -2.81 0  146 258 
+ PTB  HE ES        721 55.22                             132   -0.31 9  146 258 
+ PTB  HZ I         721 58.88         1.1 0.16            135            146 258 
+                                                                                

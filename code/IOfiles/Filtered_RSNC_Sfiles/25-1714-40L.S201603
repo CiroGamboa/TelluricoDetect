@@ -1,0 +1,24 @@
+ 2016  325 1714 41.1 L   6.909 -72.758 29.6  RSN  5 0.1 1.0LRSN                1
+ GAP=272        0.32       3.5     6.4 13.4  0.1871E+02  0.6972E+02  0.3881E+02E
+ Epicentro: CERRITO - SANTANDER                                                3
+ ACTION:UPD 16-05-13 21:27 OP:cam  STATUS:               ID:20160325171440 L   I
+ OLDACT:UP  16-03-30 16:32 OP:cam  STATUS:               ID:20160325171440 L   3
+ OLDACT:UP  16-03-30 16:31 OP:cam  STATUS:               ID:20160325171440 L   3
+ OLDACT:UP  16-03-29 11:53 OP:dnl  STATUS:               ID:20160325171440 L   3
+ OLDACT:DUP 16-03-26 00:57 OP:dnl  STATUS:               ID:20160325170750d    3
+ OLDACT:REG 16-03-25 21:52 OP:dnl  STATUS:               ID:20160325170749     3
+ 2016-03-25-1707-49M.COL___298                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ RUS  HN ES   1   1715 13.97                              61   -0.04 8  118 198 
+ RUS  HZ I        1715 25.48         1.1 0.16                           118 198 
+ PTB  HZ EP   1   1715  8.37                              61    0.07 7  192 258 
+ PTB  HN ES       1715 29.39                              61   -0.1010  192 258 
+ PTB  HZ I        1715 31.40         2.1 0.19            124            192 258 
+ SPBC HZ EP   4   1715 10.70                              61    1.19 0  201 226 
+ SPBC HE ES       1715 31.73                              61    0.0810  201 226 
+ ZAR  HZ EP       1715 14.31                              61   -0.05 9  241 286 
+ ZAR  HE ES       1715 40.36                              61    0.07 9  241 286 
+ ZAR  HZ I        1715 45.19         0.9 0.16            116            241 286 
+ NOR  HN ES   4   1715 43.75                              60   -4.63 0  277 238 
+ NOR  HZ I        1715 49.87         1.0 0.24            113            277 238 
+                                                                                

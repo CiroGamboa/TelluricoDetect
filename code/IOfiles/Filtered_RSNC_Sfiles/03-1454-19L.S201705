@@ -1,0 +1,32 @@
+ 2017  5 3 1454 19.0 L   6.801 -73.135147.0  RSN  8 0.4 2.0LRSN                1
+ GAP=113        0.83       3.2     3.5  6.0  0.1206E+01  0.5323E+01  0.3465E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-06-16 13:32 OP:jn   STATUS:               ID:20170503145419 L   I
+ OLDACT:UP  17-05-03 23:00 OP:and  STATUS:               ID:20170503144740     3
+ OLDACT:UP  17-05-03 23:00 OP:and  STATUS:               ID:20170503144740     3
+ OLDACT:UP  17-05-03 22:59 OP:and  STATUS:               ID:20170503144740     3
+ OLDACT:REG 17-05-03 20:46 OP:and  STATUS:               ID:20170503144740     3
+ 2017-05-03-1448-00M.COL___383                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     D 1454 40.44                             152    0.1010 72.2 298 
+ BRR  HN ES       1454 57.37                             152    0.3810 72.2 298 
+ BRR  HZ I        1455  1.43        20.7 0.11            152           72.2 298 
+ PAM  EZ IP     D 1454 41.37                             151    0.0710 76.5  39 
+ PAM  EN ES       1454 58.35                             151   -0.3510 76.5  39 
+ PAM  EZ I        1455  0.79        25.2 0.64            154           76.5  39 
+ RUS  HZ EP   9   1454 42.48                             144   -0.40 0  101 177 
+ RUS  HN ES       1455  0.70                             144   -0.4110  101 177 
+ RUS  HZ I        1455  1.86        14.1 0.26            145            101 177 
+ PTB  HZ EP       1454 45.93                             132   -0.25 9  149 259 
+ PTB  HN ES   2   1455  6.23                             132   -1.15 5  149 259 
+ PTB  HZ I        1455  8.61        11.3 0.16            132            149 259 
+ YPLC HZ EP   2   1454 48.95                             127    0.11 4  176 152 
+ YPLC HN ES       1455 12.20                             127    0.08 9  176 152 
+ ZAR  HZ EP       1454 51.40                             122   -0.24 9  205 292 
+ ZAR  HN ES       1455 17.68                             122    0.58 9  205 292 
+ ZAR  HZ I        1455 22.96        14.1 0.34            123            205 292 
+ NOR  HN ES       1455 22.59                             118   -0.34 8  236 235 
+ NOR  HZ I        1455 24.32         7.8 0.38            120            236 235 
+ CHI  HN ES       1455 26.57                             117    0.26 8  249 195 
+ CHI  HZ I        1455 32.66         4.6 0.62            119            249 195 
+                                                                                

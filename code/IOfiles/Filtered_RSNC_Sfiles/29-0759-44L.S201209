@@ -1,0 +1,53 @@
+ 2012  929 0759 44.6 L   6.817 -73.138145.1  RSN 15 0.5 3.1LRSN 3.4WRSN        1
+ SPEC AVERAGE  MO 14.1 ST  8.3 OM  3.3 f0 3.16 R0.5028 AL 3.00 WI  9.6 MW  3.4 3
+ SPEC SD       MO  0.2 ST  6.5 OM  1.0 f00.786 R0.1535 AL      WI      MW  0.1 3
+ GAP= 66        1.02       3.7     3.6  6.2  0.1293E+01  0.3338E+01  0.6547E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC PRA HH N MO 14.0 ST  6.9 OM  2.0 f0 3.70 R0.3973 AL 3.01 WI  6.9 MW  3.3 3
+ SPEC PRA HH N T 8 120 K 0.000 GD  419 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC ROSCBH Z MO 14.3 ST 18.9 OM  2.5 f0 3.98 R0.3693 AL 4.14 WI 17.8 MW  3.5 3
+ SPEC ROSCBH Z T 8 049 K 0.000 GD  293 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 14.0 ST0.967 OM  2.4 f0 1.94 R0.7577 AL 2.06 WI  4.4 MW  3.3 3
+ SPEC PAM SH N T 8 023 K 0.000 GD  163 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.2 ST  6.5 OM  2.4 f0 3.02 R0.4868 AL 2.78 WI  9.5 MW  3.4 3
+ SPEC CHI HH N T 8 051 K 0.000 GD  289 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-10-22 14:21 OP:ep   STATUS:               ID:20120929075944 L   I
+ 2012-09-29-0800-00M.COL___220                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP        8 0  3.99                             170   -0.1710 25.3 191 
+ BAR2 SZ ES   1    8 0 19.22                             170   -0.22 7 25.3 191 
+ BAR2 SZ I         8 0 20.84       429.1 0.34                          25.3 191 
+ GIR2 SZ EP        8 0  4.10                             168   -0.0210 29.6 348 
+ GIR2 SZ ES   1    8 0 19.31                             168   -0.05 7 29.6 348 
+ BRR  HZ EP        8 0  5.85                             152    0.2110 71.0 297 
+ BRR  HN ES   1    8 0 22.91                             152    0.84 7 71.0 297 
+ BRR  HZ I         8 0 26.87       242.7 0.28                          71.0 297 
+ PAM  SZ EP   1    8 0  6.81                             151    0.21 7 75.4  40 
+ PAM  SN ES   1    8 0 23.90                             151    0.12 7 75.4  40 
+ PAM  SZ I         8 0 26.30       249.1 0.46                          75.4  40 
+ RUS  HZ EP        8 0  7.84                             143   -0.5510  102 177 
+ RUS  HE ES   1    8 0 26.71                             143   -0.26 7  102 177 
+ PTB  HN ES   1    8 0 31.88                             132   -0.78 7  149 258 
+ PTB  HN I         8 0 37.62        96.6 0.30                           149 258 
+ TAM  HZ IP     D  8 0 12.29                             130    0.12 9  155 106 
+ TAM  HZ I         8 0 12.45       126.1 0.30                           155 106 
+ TAM  HE ES   1    8 0 33.16                             130   -0.54 7  155 106 
+ YOP  SZ EP   1    8 0 14.68                             126   -0.02 7  180 154 
+ YOP  SN ES        8 0 38.98                             126    0.78 9  180 154 
+ ZAR  HE ES   1    8 0 41.68                             122   -0.57 6  204 292 
+ ZAR  HN I         8 0 48.71       189.9 0.42                           204 292 
+ CHI  HZ EP   1    8 0 21.87                             117   -0.58 6  251 195 
+ CHI  HN ES   1    8 0 51.07                             117   -0.93 6  251 195 
+ CHI  HZ I         8 0 54.93        47.6 0.42                           251 195 
+ CHI  HN I         8 0 56.03       143.4 0.44                           251 195 
+ ROSC BZ EP   1    8 0 23.68                             116    0.80 6  255 211 
+ ROSC BN ES   1    8 0 54.13                             116    1.37 6  255 211 
+ HEL  HZ EP   1    8 0 25.30                             114    0.41 6  273 255 
+ HEL  HE ES   1    8 0 56.73                             114    0.40 6  273 255 
+ HEL  HZ I         8 1  3.12        42.0 0.15                           273 255 
+ RREF HZ EP   1    8 0 31.41                             111    0.52 5  324 229 
+ COD  HN ES   1    8 1 10.14                             109   -0.12 5  346 354 
+ PRA  HZ EP   1    8 0 37.50                             106   -0.81 4  394 210 
+ PRA  HN ES   1    8 1 19.71                             106   -0.51 4  394 210 
+ PRA  HN I         8 1 25.13        43.4 0.76                           394 210 
+                                                                                

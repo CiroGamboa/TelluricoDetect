@@ -1,0 +1,20 @@
+ 2015  311 1045 22.7 L   6.847 -72.921138.1  RSN  4 0.1 1.1LRSN                1
+ GAP=220        0.32       4.2     8.2  5.3  0.3040E+02 -0.3348E+02 -0.1730E+02E
+ Epicentro: GUACA - SANTANDER                                                  3
+ ACTION:UPD 15-04-30 16:25 OP:nd   STATUS:               ID:20150311104522 L   I
+ OLDACT:UP  15-03-12 00:21 OP:spq  STATUS:               ID:20150311103749d    3
+ OLDACT:DUP 15-03-11 22:36 OP:spq  STATUS:               ID:20150311103749d    3
+ 2015-03-11-1037-48M.COL___284                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       1045 42.01                             163    0.1110 40.4 226 
+ BAR2 EZ ES   1   1045 56.74                             163   -0.13 7 40.4 226 
+ BAR2 EZ I        1045 58.15         2.7 0.20            173           40.4 226 
+ BRR  HZ EP   1   1045 44.24                             144   -0.14 7 92.0 288 
+ BRR  HN ES       1046  1.33                             144    0.0310 92.0 288 
+ RUS  HZ EP   1   1045 46.16                             140   -0.04 7  107 190 
+ RUS  HE ES   1   1046  4.58                             140    0.05 7  107 190 
+ RUS  HZ I        1046  5.72         1.2 0.46            146            107 190 
+ SML  HZ EP   1   1045 59.59                             115   -0.07 6  251 330 
+ SML  HE ES   1   1046 28.56                             115    0.07 6  251 330 
+ SML  HZ I        1046 33.56         1.7 0.24            116            251 330 
+                                                                                

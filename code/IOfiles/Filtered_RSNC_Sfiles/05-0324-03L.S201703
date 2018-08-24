@@ -1,0 +1,23 @@
+ 2017  3 5 0324  3.2 L   7.303 -73.257125.4  RSN  5 0.5 1.5LRSN                1
+ GAP=169        1.16       8.5     4.8  9.2 -0.4329E+01  0.1679E+02 -0.1793E+02E
+ Epicentro: RIONEGRO - SANTANDER                                               3
+ ACTION:UPD 17-05-25 18:36 OP:jn   STATUS:               ID:20170305032403 L   I
+ OLDACT:REG 17-03-05 12:00 OP:ar   STATUS:               ID:20170305031742     3
+ 2017-03-05-0318-00M.COL___387                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     C  324 20.79                             155   -0.4610 54.7 247 
+ BRR  HN ES        324 34.61                             155   -0.7010 54.7 247 
+ BRR  HZ I         324 35.18        12.0 0.12            153           54.7 247 
+ PAM  EZ EP        324 22.66                             152    0.3110 61.7  86 
+ PAM  EN ES        324 37.37                             152    0.1110 61.7  86 
+ PAM  EZ I         324 38.84         6.4 0.54            155           61.7  86 
+ BAR2 EZ EP        324 23.29                             146    0.2210 79.0 174 
+ BAR2 EZ ES        324 38.75                             146    0.2010 79.0 174 
+ BAR2 EZ I         324 39.65         8.8 0.16            146           79.0 174 
+ PTB  HZ EP        324 28.90                             125   -0.64 9  157 238 
+ PTB  HN ES        324 50.56                             125    0.50 9  157 238 
+ PTB  HZ I         324 55.04         2.8 0.24            125            157 238 
+ ZAR  HZ EP        324 31.49                             121   -0.17 9  178 277 
+ ZAR  HE ES        324 54.54                             121    0.71 9  178 277 
+ ZAR  HZ I         324 57.42         4.7 0.12            121            178 277 
+                                                                                

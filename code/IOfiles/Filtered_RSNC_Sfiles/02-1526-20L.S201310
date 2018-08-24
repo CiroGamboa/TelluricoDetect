@@ -1,0 +1,49 @@
+ 2013 10 2 1526 20.2 L   6.795 -73.164145.4  RSN  8 0.4 2.2LRSN 2.8WRSN        1
+ SPEC AVERAGE  MO 13.3 ST134.2 OM  1.5 f0 16.4 R0.2984 AL 0.00 WI 20.0 MW  2.8 3
+ SPEC SD       MO  0.1 ST188.4 OM  0.2 f0 13.8 R0.2646 AL      WI      MW  0.1 3
+ GAP=134        0.94       2.9     4.5  5.4 -0.1311E+01  0.4260E+01  0.4140E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 13.3 ST 60.8 OM  1.5 f0 16.5 R0.1166 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC BAR2SH Z T152652 K 0.050 GD  147 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC BRR HH Z MO 13.2 ST 23.6 OM  1.3 f0 13.6 R0.1415 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC BRR HH Z T152656 K 0.050 GD  161 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PAM SH Z MO 13.5 ST0.629 OM  1.6 f0 3.20 R0.6012 AL-0.00 WI 20.0 MW  2.9 3
+ SPEC PAM SH Z T152658 K 0.050 GD  165 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC RUS HH Z MO 13.1 ST  1.2 OM  1.2 f0 5.34 R0.3603 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC RUS HH Z T1527 0 K 0.050 GD  176 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PTB HH Z MO 13.1 ST483.3 OM  1.1 f0 40.0 R0.0481 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC PTB HH Z T1527 5 K 0.050 GD  206 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC SPBCHH Z MO 13.2 ST369.6 OM  1.2 f0 33.3 R0.0578 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC SPBCHH Z T1527 9 K 0.050 GD  216 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC CHI HH Z MO 13.3 ST0.212 OM  1.2 f0 2.52 R0.7635 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC CHI HH Z T152725 K 0.050 GD  287 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:REG 13-10-02 13:54 OP:stll STATUS:               ID:20131002151843     3
+ ACTION:UPD 13-11-25 09:18 OP:ep   STATUS:               ID:20131002152620 L   I
+ OLDACT:UP  13-10-02 20:21 OP:stll STATUS:               ID:20131002151843     3
+ 2013-10-02-1518-43M.COL___234                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1526 39.80                             171    0.0610 22.5 185 
+ BAR2 SZ ES       1526 54.29                             171   -0.7210 22.5 185 
+ BAR2 SZ I        1526 55.91        51.2 0.22            169           22.5 185 
+ BRR  HZ EP       1526 41.60                             153    0.4010 69.7 300 
+ BRR  HE ES       1526 58.36                             153    0.7610 69.7 300 
+ BRR  SZ I        1527 14.10        19.0 0.38            149           69.7 300 
+ PAM  SZ EP       1526 42.64                             150    0.1810 79.2  40 
+ PAM  SN ES       1526 59.69                             150   -0.1510 79.2  40 
+ PAM  SZ I        1527  1.67        32.6 0.48            156           79.2  40 
+ RUS  HZ EP       1526 43.93                             144    0.0710  100 175 
+ RUS  HN ES       1527  2.49                             144    0.1610  100 175 
+ RUS  SZ I        1527  3.43        21.1 0.28            150            100 175 
+ PTB  HZ EP       1526 46.33                             132   -0.59 9  146 259 
+ PTB  HN ES       1527  7.46                             132   -0.32 9  146 259 
+ PTB  SZ I        1527 14.08        13.8 0.32            133            146 259 
+ SPBC HZ EP       1526 48.59                             129    0.11 9  161 219 
+ SPBC HN ES       1527 10.79                             129    0.23 9  161 219 
+ SPBC SZ I        1527 13.12        29.4 0.28            132            161 219 
+ SML  HZ EP       1526 56.47                             117   -0.27 8  243 336 
+ SML  HN ES       1527 25.11                             117   -0.16 8  243 336 
+ SML  SZ I        1527 28.06        35.3 0.08            120            243 336 
+ CHI  HZ EP       1526 57.89                             117    0.16 8  248 195 
+ CHI  HN ES       1527 26.88                             117   -0.15 8  248 195 
+ CHI  SZ I        1527 29.80         8.2 1.04            122            248 195 
+                                                                                

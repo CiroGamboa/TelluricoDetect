@@ -1,0 +1,35 @@
+ 2016 11 2 0226 40.5 L   5.943 -73.798116.6  RSN  8 0.4 1.3LRSN                1
+ GAP=112        0.93       4.0     3.7  6.5  0.1192E+01  0.3420E+01 -0.2001E+01E
+ Epicentro: SUCRE - SANTANDER                                                  3
+ ACTION:UPD 17-10-26 21:03 OP:lp   STATUS:               ID:20161102021747dL   I
+ OLDACT:UP  16-11-02 14:59 OP:dani STATUS:               ID:20161102021747dL   3
+ OLDACT:UP  16-11-02 14:57 OP:dani STATUS:               ID:20161102021747dL   3
+ OLDACT:UP  16-11-02 14:57 OP:dani STATUS:               ID:20161102021747dL   3
+ OLDACT:UP  16-11-02 14:57 OP:dani STATUS:               ID:20161102021747dL   3
+ OLDACT:UP  16-11-02 14:57 OP:dani STATUS:               ID:20161102021747dL   3
+ OLDACT:DUP 16-11-02 14:54 OP:dani STATUS:               ID:20161102021747dL   3
+ 2016-11-02-0218-00M.COL___343                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ EP        226 57.42                             158    0.2310 44.2 223 
+ SPBC HN ES        227 10.10                             158   -0.0910 44.2 223 
+ SPBC HZ I         227 11.14         9.1 0.17            155           44.2 223 
+ RUS  HZ EP        226 59.87                             144    0.0010 79.3  94 
+ RUS  HE ES        227 14.52                             144   -0.4410 79.3  94 
+ RUS  HZ I         227 15.56         2.7 0.37            144           79.3  94 
+ PTB  HZ EP        226 59.99                             137   -0.7010 98.3 312 
+ PTB  HE ES        227 16.91                             137    0.4910 98.3 312 
+ PTB  HZ I         227 17.68         2.9 0.09            133           98.3 312 
+ BAR2 EZ EP        227  1.35                             137    0.3010 99.0  43 
+ BAR2 EZ ES        227 17.31                             137    0.2510 99.0  43 
+ BRR  HZ EP        227  3.58                             128    0.1510  129   4 
+ BRR  HN ES   4    227 23.74                             128    2.44 0  129   4 
+ BRR  HZ I         227 25.48         5.6 0.14            126            129   4 
+ GUY2CHZ EP   4    227  7.82                             117   -2.59 0  191 245 
+ GUY2CHE ES   4    227 36.33                             117    2.60 0  191 245 
+ GUY2CHZ I         227 40.01         1.5 0.29                           191 245 
+ ZAR  HN ES        227 35.51                             115   -0.41 8  208 326 
+ ZAR  HZ I         227 43.36         2.5 0.10            112            208 326 
+ PRA  HZ EP        227 19.36                             108    0.07 8  274 206 
+ PRA  HN ES   3    227 51.42                             108    1.90 2  274 206 
+ PRA  HZ I         227 56.37         1.6 0.24            106            274 206 
+                                                                                

@@ -1,0 +1,34 @@
+ 2014  928 1133 26.7 L   6.791 -73.147146.8  RSN  7 0.4 2.1LRSN                1
+ GAP=137        0.94       4.0     4.0  6.0 -0.4592E+00  0.6128E+01  0.2517E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ OLDACT:UP  14-09-28 21:54 OP:cam  STATUS:               ID:20140928113000     3
+ OLDACT:UP  14-09-28 21:50 OP:cam  STATUS:               ID:20140928113000     3
+ OLDACT:REG 14-09-28 20:06 OP:cam  STATUS:               ID:20140928113000     3
+ ACTION:UPD 14-10-03 23:09 OP:nd   STATUS:               ID:20140928113326 L   I
+ OLDACT:UP  14-09-28 21:59 OP:cam  STATUS:               ID:20140928113001d    3
+ OLDACT:DUP 14-09-28 21:55 OP:cam  STATUS:               ID:20140928113001d    3
+ OLDACT:UP  14-09-28 21:55 OP:cam  STATUS:               ID:20140928113000     3
+ 2014-09-28-1130-00M.COL___252                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP     D 1133 46.40                             171   -0.0210 22.3 190 
+ BAR2 SZ ES       1134  1.44                             171   -0.3710 22.3 190 
+ BAR2 SZ I        1134  2.79        23.6 0.18            169           22.3 190 
+ BRR  HZ IP     C 1133 48.13                             153    0.1710 71.5 299 
+ BRR  HE ES       1134  5.24                             153    0.6810 71.5 299 
+ BRR  HZ I        1134  5.92        28.5 0.30            151           71.5 299 
+ PAM  SZ EP       1133 49.33                             151    0.2710 78.3  39 
+ PAM  SN ES       1134  6.17                             151   -0.3410 78.3  39 
+ PAM  SZ I        1134  8.26        27.1 0.48            155           78.3  39 
+ RUS  HZ EP       1133 50.16                             144   -0.3110 99.6 176 
+ RUS  HN ES       1134  9.33                             144    0.3210 99.6 176 
+ RUS  HZ I        1134 10.68        12.7 0.30            145           99.6 176 
+ PTB  HZ EP       1133 53.25                             132   -0.45 9  147 259 
+ PTB  HN ES       1134 14.14                             132   -0.64 9  147 259 
+ PTB  HZ I        1134 21.47        19.2 0.40            132            147 259 
+ SPBC HZ EP       1133 55.43                             129    0.25 9  162 219 
+ SPBC HN ES       1134 17.66                             129    0.26 9  162 219 
+ SPBC HZ I        1134 23.57        19.8 0.20            130            162 219 
+ ZAR  HZ EP       1133 59.36                             123    0.14 9  204 292 
+ ZAR  HE ES       1134 24.62                             123    0.03 9  204 292 
+ ZAR  HZ I        1134 30.39        19.2 0.18            123            204 292 
+                                                                                

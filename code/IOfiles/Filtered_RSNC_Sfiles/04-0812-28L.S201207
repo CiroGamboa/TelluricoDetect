@@ -1,0 +1,19 @@
+ 2012  7 4 0812 28.5 L   5.949 -73.925 94.7  RSN  5 0.4 1.0LRSN                1
+ GAP=224        0.81       8.5     5.8 11.3  0.3290E+02  0.1604E+02  0.4869E+01E
+ Epicentro: SUCRE - SANTANDER                                                  3
+ ACTION:UPD 12-08-14 11:42 OP:ep   STATUS:               ID:20120704081228 L   I
+ 2012-07-04-0810-00M.COL___200                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PTB  HZ EP   1    812 45.71                             134    -0.1 7   88 318 
+ PTB  HN ES   1    812 59.61                             134     0.2 7   88 318 
+ PTB  HZ I         813  4.27         1.7 0.13            118             88 318 
+ RUS  HZ EP   1    812 47.14                             132     0.2 7   93  94 
+ RUS  HZ I         812 47.59         1.8 0.11            118             93  94 
+ RUS  HN ES   1    813  1.28                             132    -0.1 7   93  94 
+ BAR2 SZ ES   2    813  2.67                             128    -0.7 5  109  49 
+ BRR  HZ EP   1    812 50.46                             122     0.5 7  130  10 
+ BRR  HZ I         813  7.39         3.6 0.46            108            130  10 
+ BRR  HN ES   2    813  7.39                             122     0.7 5  130  10 
+ ZAR  HZ EP   1    812 57.43                             111    -0.2 6  199 329 
+ ZAR  HZ I         812 58.68         1.6 0.12            102            199 329 
+ ZAR  HN ES   1    813 19.90                             111    -0.5 6  199 329 

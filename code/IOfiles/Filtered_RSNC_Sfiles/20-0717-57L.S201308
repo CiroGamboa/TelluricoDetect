@@ -1,0 +1,45 @@
+ 2013  820 0717 57.5 L   6.823 -73.115142.0  RSN  6 0.4 1.8LRSN 2.2WRSN        1
+ SPEC AVERAGE  MO 12.3 ST  4.6 OM  1.7 f0 10.6 R0.1724 AL 0.00 WI 20.0 MW  2.2 3
+ SPEC SD       MO  0.2 ST  5.2 OM  1.1 f0 4.77 R0.0603 AL      WI      MW  0.1 3
+ GAP=186        1.00       3.9     6.2 10.0  0.2930E+01  0.7545E+01 -0.3206E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BRR HH Z MO 12.3 ST  1.3 OM  0.7 f0 8.26 R0.1881 AL-0.00 WI 20.0 MW  2.1 3
+ SPEC BRR HH Z T 71833 K 0.000 GD  159 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 12.0 ST0.252 OM  0.4 f0 5.81 R0.2675 AL-0.00 WI 20.0 MW  2.0 3
+ SPEC RUS HH Z T 71837 K 0.000 GD  175 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 12.2 ST 14.6 OM  0.5 f0 19.7 R0.0789 AL-0.00 WI 20.0 MW  2.1 3
+ SPEC PTB HH Z T 71843 K 0.000 GD  208 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SPBCHH Z MO 12.5 ST  3.3 OM  0.8 f0 9.35 R0.1662 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC SPBCHH Z T 71847 K 0.000 GD  219 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH Z MO 12.5 ST  3.3 OM  0.7 f0 9.64 R0.1612 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC ZAR HH Z T 71853 K 0.000 GD  250 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ 2013-08-20-0709-59M.COL___269                                                 6
+ OLDACT:UP  13-08-20 13:08 OP:mh   STATUS:               ID:20130820070960d    3
+ OLDACT:DUP 13-08-20 13:01 OP:mh   STATUS:               ID:20130820070960d    3
+ OLDACT:UP  13-08-20 12:59 OP:mh   STATUS:               ID:20130820070959     3
+ OLDACT:REG 13-08-20 09:42 OP:mh   STATUS:               ID:20130820070959     3
+ ACTION:UPD 14-01-14 09:05 OP:ep   STATUS:               ID:20130820071757 L   I
+ OLDACT:UP  13-08-20 13:08 OP:mh   STATUS:               ID:20130820070960d    3
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        718 19.11                             151    0.7410 73.1 295 
+ BRR  HN ES   1    718 35.20                             151    0.57 7 73.1 295 
+ BRR  HZ I         718 39.40         7.8 0.26            151           73.1 295 
+ RUS  HZ EP   1    718 21.29                             142    0.21 7  103 178 
+ RUS  HN ES        718 39.18                             142   -0.2710  103 178 
+ RUS  HN I         718 40.45         4.9 0.40            149            103 178 
+ RUS  HZ I         718 43.78         3.7 1.64                           103 178 
+ PTB  HZ EP        718 23.93                             130   -0.61 9  152 258 
+ PTB  HN ES        718 45.35                             130   -0.26 9  152 258 
+ PTB  HN I         718 49.92        14.9 0.50            133            152 258 
+ PTB  HZ I         718 52.27         5.2 0.38                           152 258 
+ OCA  HN ES        718 46.55                             129   -0.48 9  158 352 
+ OCA  HN I         718 53.81        19.4 0.40            132            158 352 
+ SPBC HZ EP   1    718 26.08                             127   -0.05 7  167 219 
+ SPBC HN ES        718 48.60                             127    0.15 9  167 219 
+ SPBC HZ I         718 52.49         4.8 0.10            132            167 219 
+ SPBC HN I         718 56.64        18.1 0.10                           167 219 
+ ZAR  HZ EP   1    718 30.40                             121    0.45 6  206 291 
+ ZAR  HN ES        718 55.20                             121   -0.05 8  206 291 
+ ZAR  HN I         719  0.52         9.7 0.18            124            206 291 
+ ZAR  HZ I         719  5.42         4.1 0.64                           206 291 
+                                                                                

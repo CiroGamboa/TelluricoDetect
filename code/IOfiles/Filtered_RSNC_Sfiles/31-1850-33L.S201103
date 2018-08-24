@@ -1,0 +1,24 @@
+ 2011  331 1850 33.6 L   7.007 -72.951  4.3  RSN  7 0.5 2.2LRSN                1
+ GAP=172        1.11       3.5     4.0  7.9 -0.7049E+01  0.3979E+01 -0.4638E+01E
+ Epicentro: SANTA BARBARA - SANTANDER                                          3
+ ACTION:UP  11-06-16 14:37 OP:jfem STATUS:               ID:20110331185033 L   I
+ 2011-03-31-1850-09S.COL___138                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO SNR AR TRES W  DIS CAZ7
+ GIR2 SZ IP       1850 38.11                              47    -0.410   28 286 
+ GIR2 SZ ES   3   1850 40.94                              47    -1.5 2   28 286 
+ BTL  SZ IP       1850 39.63                              47    -0.310   36 254 
+ PAM  SZ EP       1850 41.97                              47     0.310   46  37 
+ PAM  SN ES   1   1850 47.45                              47    -0.5 7   46  37 
+ PAM  SZ I        1850 48.26       141.1 0.25                            46  37 
+ BAR2 SZ EP       1850 42.65                              47     0.210   53 209 
+ BAR2 SZ ES   1   1850 49.04                              47    -0.2 7   53 209 
+ BAR2 SZ I        1850 50.03       168.8 0.15                            53 209 
+ BRR  HZ IP     D 1850 47.62                              47     0.610   85 278 
+ BRR  HE ES   1   1850 57.51                              47     0.0 7   85 278 
+ BRR  HZ I        1850 59.28        52.0 0.08                            85 278 
+ GRA  SZ EP   1   1850 48.73                              47    -0.5 7   98  10 
+ GRA  SZ I        1851  2.27        57.8 0.24                            98  10 
+ OCA  SZ EP   1   1850 56.30                              47     0.4 7  142 343 
+ OCA  SZ ES   1   1851 13.68                              47     0.4 7  142 343 
+ OCA  SZ I        1851 15.71        44.8 0.30                           142 343 
+                                                                                

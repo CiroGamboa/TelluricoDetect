@@ -1,0 +1,26 @@
+ 2016 1112 0322 27.0 L   6.763 -73.120149.0  RSN  7 0.4 1.4LRSN                1
+ GAP=123        0.91       4.6     3.6  6.7  0.9017E+00  0.1318E+01  0.1307E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-10-26 21:07 OP:lp   STATUS:               ID:20161112032227 L   I
+ OLDACT:DUP 16-11-12 15:27 OP:and  STATUS:               ID:20161112031745d    3
+ 2016-11-12-0318-00M.COL___340                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        322 47.27                             172    0.3010 20.1 200 
+ BAR2 EZ ES        323  2.43                             172   -0.1010 20.1 200 
+ BAR2 EZ I         323  3.62         8.0 0.16            170           20.1 200 
+ BRR  HZ EP        322 49.00                             152    0.2410 75.7 300 
+ BRR  HN ES        323  6.04                             152    0.3110 75.7 300 
+ BRR  HZ I         323  9.06         4.9 0.27            149           75.7 300 
+ PAM  EZ IP     D  322 50.00                             151    0.3410 78.9  36 
+ PAM  EE ES        323  7.03                             151   -0.2910 78.9  36 
+ PAM  EZ I         323  9.98         4.1 0.40            153           78.9  36 
+ PTB  HZ EP        322 53.84                             132   -0.59 9  150 261 
+ PTB  HE ES        323 15.58                             132   -0.23 9  150 261 
+ PTB  HZ I         323 18.05         2.4 0.14            131            150 261 
+ ZAR  HN ES        323 25.45                             122   -0.46 8  208 293 
+ ZAR  HZ I         323 33.04         2.7 0.11            122            208 293 
+ NOR  HE ES        323 31.59                             119    0.65 8  235 236 
+ NOR  HZ I         323 38.85         2.1 0.15            119            235 236 
+ PTGC HZ EP        323 10.56                             112    0.10 7  304 159 
+ PTGC HN ES        323 43.89                             112   -0.46 7  304 159 
+                                                                                

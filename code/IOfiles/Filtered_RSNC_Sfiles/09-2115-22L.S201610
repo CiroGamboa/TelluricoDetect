@@ -1,0 +1,40 @@
+ 2016 10 9 2115 22.5 L   7.116 -73.874 80.0  RSN  7 0.2 1.5LRSN                1
+ GAP=196        0.61       2.9     2.1  6.5  0.2951E+01 -0.3527E+00 -0.1386E+01E
+ Epicentro: BARRANCABERMEJA - SANTANDER                                        3
+ ACTION:UPD 16-11-09 19:18 OP:rebc STATUS:               ID:20161009211522 L   I
+ OLDACT:UP  16-10-10 04:28 OP:edw  STATUS:               ID:20161009210751d    3
+ OLDACT:UP  16-10-10 04:27 OP:edw  STATUS:               ID:20161009210751d    3
+ OLDACT:UP  16-10-10 04:26 OP:edw  STATUS:               ID:20161009210751d    3
+ OLDACT:DUP 16-10-10 04:23 OP:edw  STATUS:               ID:20161009210751d    3
+ OLDACT:UP  16-10-10 04:23 OP:edw  STATUS:               ID:20161009210750d    3
+ OLDACT:UP  16-10-10 04:20 OP:edw  STATUS:               ID:20161009210750d    3
+ OLDACT:DUP 16-10-10 04:17 OP:edw  STATUS:               ID:20161009210750d    3
+ OLDACT:UP  16-10-10 04:16 OP:edw  STATUS:               ID:20161009210749d    3
+ OLDACT:UP  16-10-10 04:14 OP:edw  STATUS:               ID:20161009210749d    3
+ OLDACT:UP  16-10-10 04:14 OP:edw  STATUS:               ID:20161009210749d    3
+ OLDACT:DUP 16-10-10 04:09 OP:edw  STATUS:               ID:20161009210749d    3
+ 2016-10-09-2108-00M.COL___360                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PTB  HZ EP       2115 38.36                             127   -0.5910 90.6 225 
+ PTB  HN ES       2115 51.88                             127    0.1110 90.6 225 
+ PTB  HZ I        2115 55.24        10.2 0.26                          90.6 225 
+ BAR2 EZ EP       2115 40.08                             125    0.3110 95.9 127 
+ BAR2 EZ ES       2115 53.17                             125   -0.0710 95.9 127 
+ BAR2 EZ I        2115 59.30         7.5 0.52                          95.9 127 
+ ZAR  HZ EP       2115 41.42                             119   -0.1810  116 291 
+ ZAR  HE ES       2115 56.67                             119    0.1810  116 291 
+ ZAR  HZ I        2115 59.27        17.5 0.24             90            116 291 
+ RUS  HZ EP       2115 47.25                             111    0.02 9  161 147 
+ RUS  HN ES       2116  6.49                             111   -0.02 9  161 147 
+ RUS  HZ I        2116  8.43         2.8 0.16             90            161 147 
+ SPBC HN ES       2116  6.11                             111    0.03 9  163 188 
+ SPBC HZ I        2116  9.39         8.1 0.22                           163 188 
+ URE  HZ EP   4   2115 50.69                             107   -0.03 0  196 291 
+ URE  HN ES   4   2116 10.93                             107   -1.79 0  196 291 
+ NOR  HZ EP   4   2115 49.54                             106   -2.16 0  204 213 
+ NOR  HN ES   2   2116 14.59                             106    0.12 4  204 213 
+ NOR  HZ I        2116 17.51         3.8 0.20                           204 213 
+ HEL  HZ EP       2115 52.98                             106    0.22 8  210 241 
+ HEL  HN ES   2   2116 16.61                             106    0.25 4  210 241 
+ HEL  HZ I        2116 22.57         2.5 0.22                           210 241 
+                                                                                

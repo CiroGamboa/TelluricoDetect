@@ -1,0 +1,23 @@
+ 2014  929 0105 43.9 L   6.410 -72.796  0.0  RSN  5 0.5 1.3LRSN                1
+ GAP=261        1.08       6.5    19.2 13.6  0.1113E+03  0.2303E+03  0.7247E+02E
+ Epicentro: ONZAGA - SANTANDER                                                 3
+ ACTION:UPD 14-10-03 23:09 OP:nd   STATUS:               ID:20140929010544 L   I
+ OLDACT:UP  14-10-01 07:24 OP:SPQ  STATUS:               ID:20140929010544 L   3
+ OLDACT:REG 14-09-29 13:57 OP:stll STATUS:               ID:20140929005819     3
+ 2014-09-29-0058-19M.COL___295                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C  1 5 52.07                              47   -0.4010 47.3 295 
+ BAR2 SZ I         1 5 52.42        12.3 0.62             47           47.3 295 
+ BAR2 SZ ES        1 5 58.90                              47   -0.2510 47.3 295 
+ RUS  HZ EP        1 5 54.98                              47   -0.5110 65.5 209 
+ RUS  HN ES        1 6  4.28                              47   -0.2610 65.5 209 
+ BRR  HZ EP        1 6  4.88                              47    0.5310  127 307 
+ BRR  HN ES        1 6 20.25                              47   -0.0510  127 307 
+ BRR  HZ I         1 6 23.91         7.9 0.34             47            127 307 
+ PTB  HZ EP   2    1 6 13.28                              37    0.41 4  184 275 
+ PTB  HN ES        1 6 35.85                              37    0.38 9  184 275 
+ PTB  HZ I         1 6 39.34         5.6 0.16             37            184 275 
+ CHI  HZ EP   4    1 6 19.87                              37    1.73 0  223 208 
+ CHI  HZ I         1 6 21.62         1.6 0.40             37            223 208 
+ CHI  HE ES        1 6 45.72                              37    0.88 8  223 208 
+                                                                                

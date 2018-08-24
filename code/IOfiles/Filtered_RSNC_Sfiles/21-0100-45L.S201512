@@ -1,0 +1,29 @@
+ 2015 1221 0100 45.4 L   6.773 -73.105149.7  RSN  7 0.3 1.5LRSN                1
+ GAP=143        0.69       2.7     3.6  4.5 -0.2141E+01  0.4504E+01 -0.2639E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-02-04 15:06 OP:cam  STATUS:               ID:20151221010045 L   I
+ OLDACT:DUP 15-12-21 15:17 OP:cara STATUS:               ID:20151221005751d    3
+ OLDACT:REG 15-12-21 13:58 OP:cara STATUS:               ID:20151221005750     3
+ 2015-12-21-0057-50M.COL___329                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        1 1  5.61                             171    0.1710 21.7 203 
+ BAR2 EZ ES        1 1 21.23                             171    0.1410 21.7 203 
+ BAR2 EZ I         1 1 22.30         9.0 0.16            172           21.7 203 
+ BRR  HZ EP        1 1  7.70                             151    0.4510 76.6 299 
+ BRR  HN ES        1 1 24.59                             151    0.2810 76.6 299 
+ BRR  HZ I         1 1 28.55         7.3 0.60            151           76.6 299 
+ PAM  EZ EP        1 1  8.14                             152    0.1610 77.1  36 
+ PAM  EN ES        1 1 25.27                             152   -0.3510 77.1  36 
+ PAM  EZ I         1 1 28.07         5.0 0.46            154           77.1  36 
+ RUS  HE ES        1 1 27.68                             145   -0.2510 97.3 179 
+ RUS  HZ I         1 1 30.18         3.2 0.28            148           97.3 179 
+ PTB  HZ EP        1 1 12.56                             132   -0.44 9  152 260 
+ PTB  HE ES        1 1 34.39                             132   -0.17 9  152 260 
+ PTB  HZ I         1 1 35.47         2.3 0.42            133            152 260 
+ SPBC HZ EP        1 1 14.42                             130    0.20 9  164 221 
+ SPBC HN ES        1 1 36.66                             130   -0.06 9  164 221 
+ SPBC HZ I         1 1 41.46         7.1 0.36            132            164 221 
+ SML  HZ EP        1 1 22.61                             118   -0.11 8  248 335 
+ SML  HN ES        1 1 51.65                             118   -0.20 8  248 335 
+ SML  HZ I         1 1 56.45         3.2 0.12            119            248 335 
+                                                                                

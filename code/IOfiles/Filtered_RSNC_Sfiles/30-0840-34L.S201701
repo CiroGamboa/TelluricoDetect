@@ -1,0 +1,26 @@
+ 2017  130 0840 34.7 L   6.790 -73.162147.6  RSN  7 0.3 1.3LRSN                1
+ GAP=100        0.69       3.7     3.2  4.6 -0.7604E+00 -0.1133E+01  0.1408E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-05-22 16:04 OP:jn   STATUS:               ID:20170130084034 L   I
+ OLDACT:UP  17-01-30 17:25 OP:and  STATUS:               ID:20170130083451     3
+ OLDACT:REG 17-01-30 14:33 OP:ar   STATUS:               ID:20170130083451     3
+ 2017-01-30-0838-00M.COL___318                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        840 54.62                             171    0.0910 22.0 186 
+ BAR2 EZ ES        841 10.07                             171    0.0810 22.0 186 
+ BRR  HZ EP        840 56.08                             153    0.0910 70.1 300 
+ BRR  HN ES        841 13.06                             153    0.4610 70.1 300 
+ BRR  HZ I         841 13.68         4.0 0.15            152           70.1 300 
+ PAM  EZ IP     D  840 57.22                             150   -0.0210 79.4  40 
+ PAM  EN ES        841 14.43                             150   -0.3810 79.4  40 
+ RUS  HZ EP        840 58.86                             144    0.2910 99.6 175 
+ RUS  HN ES        841 17.01                             144   -0.1710 99.6 175 
+ RUS  HZ I         841 18.97         2.4 0.20            144           99.6 175 
+ PTB  HZ EP        841  1.29                             133   -0.35 9  146 259 
+ PTB  HN ES        841 22.39                             133   -0.26 9  146 259 
+ PTB  HZ I         841 24.35         2.9 0.14            132            146 259 
+ TAM  HZ IP     C  841  2.77                             131    0.10 9  157 104 
+ ZAR  HZ EP   4    841  8.24                             123    1.10 0  203 293 
+ ZAR  HN ES   4    841 32.45                             123    0.01 0  203 293 
+ ZAR  HZ I         841 35.13         2.7 0.19            123            203 293 
+                                                                                

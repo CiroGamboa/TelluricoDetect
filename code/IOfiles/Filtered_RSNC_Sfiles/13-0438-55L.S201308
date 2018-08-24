@@ -1,0 +1,21 @@
+ 2013  813 0438 55.6 L   7.427 -73.011135.1  RSN  4 0.3 1.5LRSN                1
+ GAP=276        0.81       4.6     8.5  8.9 -0.4515E+01 -0.2109E+02 -0.8360E+01E
+ Epicentro: SURATA - SANTANDER                                                 3
+ ACTION:UPD 14-01-14 09:01 OP:ep   STATUS:               ID:20130813043855 L   I
+ OLDACT:DUP 13-08-13 18:08 OP:cam  STATUS:               ID:20130813042847d    3
+ OLDACT:DUP 13-08-13 18:00 OP:cam  STATUS:               ID:20130813042846d    3
+ OLDACT:REG 13-08-13 08:18 OP:stll STATUS:               ID:20130813042845     3
+ 2013-08-13-0428-45M.COL___218                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        439 16.49                             146    0.0210 85.1 245 
+ BRR  HE ES        439 32.91                             146    0.1410 85.1 245 
+ BRR  HZ I         439 33.47         4.8 0.14            141           85.1 245 
+ PTB  HZ EP        439 25.01                             122   -0.60 9  187 239 
+ PTB  HN ES        439 48.97                             122   -0.08 9  187 239 
+ PTB  HZ I         439 50.58         2.8 0.30            120            187 239 
+ SML  HZ EP        439 26.43                             122    0.40 9  192 323 
+ SML  HE ES        439 49.32                             122   -0.46 9  192 323 
+ ZAR  HZ EP        439 27.72                             120    0.39 9  204 272 
+ ZAR  HN ES        439 52.27                             120    0.16 9  204 272 
+ ZAR  HZ I         439 55.84         3.8 0.50            118            204 272 
+                                                                                

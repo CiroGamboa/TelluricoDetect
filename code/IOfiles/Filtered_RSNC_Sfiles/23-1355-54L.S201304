@@ -1,0 +1,55 @@
+ 2013  423 1355 54.7 L   6.783 -73.153143.9  RSN 11 0.4 2.4LRSN 2.7WRSN        1
+ SPEC AVERAGE  MO 13.1 ST  2.3 OM  1.7 f0 4.33 R0.4047 AL 2.40 WI 11.6 MW  2.7 3
+ SPEC SD       MO  0.2 ST  3.4 OM  0.4 f0 2.31 R0.1318 AL      WI      MW  0.1 3
+ GAP= 71        0.83       3.4     3.2  5.5 -0.1760E+01  0.2303E+01  0.2780E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC HEL HH Z MO 13.2 ST0.777 OM  1.3 f0 3.33 R0.4414 AL 1.90 WI 16.2 MW  2.7 3
+ SPEC HEL HH Z T1357 5 K 0.000 GD  306 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH Z MO 13.3 ST  1.9 OM  1.5 f0 4.03 R0.3648 AL 1.28 WI 13.9 MW  2.8 3
+ SPEC NOR HH Z T135656 K 0.000 GD  273 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 12.9 ST 10.4 OM  1.2 f0 9.76 R0.1506 AL 6.10 WI 13.9 MW  2.5 3
+ SPEC PTB HH Z T135641 K 0.000 GD  205 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 13.1 ST0.330 OM  1.5 f0 2.59 R0.5676 AL 2.17 WI  8.2 MW  2.7 3
+ SPEC RUS HH Z T135635 K 0.000 GD  174 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 12.9 ST0.234 OM  1.3 f0 2.75 R0.5345 AL 1.92 WI 10.6 MW  2.6 3
+ SPEC PAM SH Z T135632 K 0.000 GD  164 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH Z MO 13.0 ST  1.4 OM  1.4 f0 4.65 R0.3161 AL 1.66 WI  8.8 MW  2.6 3
+ SPEC BRR HH Z T135632 K 0.000 GD  160 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BAR2SH Z MO 13.3 ST0.829 OM  1.7 f0 3.21 R0.4579 AL 1.79 WI  9.4 MW  2.8 3
+ SPEC BAR2SH Z T135628 K 0.000 GD  145 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-05-22 14:40 OP:EP   STATUS:               ID:20130423135554 L   I
+ 2013-04-23-1350-00M.COL___249                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     D 1356 14.08                             171   -0.0310 21.3 189 
+ BAR2 SZ ES   1   1356 28.99                             171   -0.23 7 21.3 189 
+ BAR2 SZ I        1356 30.15        68.9 0.28            170           21.3 189 
+ BRR  HZ IP     C 1356 16.13                             152    0.4210 71.5 300 
+ BRR  HN ES   1   1356 32.77                             152    0.71 7 71.5 300 
+ BRR  HZ I        1356 34.06        57.5 0.18            150           71.5 300 
+ PAM  SZ IP     C 1356 17.11                             150    0.2310 79.3  39 
+ PAM  SN ES   1   1356 34.29                             150    0.14 7 79.3  39 
+ PAM  SZ I        1356 36.70        33.2 0.72            153           79.3  39 
+ RUS  HZ IP     C 1356 17.95                             144   -0.2310 98.8 176 
+ RUS  HN ES   1   1356 36.64                             144    0.18 7 98.8 176 
+ RUS  HZ I        1356 37.98        30.6 0.28            145           98.8 176 
+ PTB  HZ EP       1356 20.99                             132   -0.47 9  147 259 
+ PTB  HN ES   1   1356 41.49                             132   -0.81 7  147 259 
+ PTB  HZ I        1356 44.23        40.0 0.14            131            147 259 
+ TAM  HZ IP     C 1356 22.34                             130    0.04 9  155 104 
+ TAM  HN ES   1   1356 43.46                             130   -0.33 7  155 104 
+ OCA  HZ EP       1356 22.99                             129   -0.09 9  162 353 
+ OCA  HN ES   1   1356 44.80                             129   -0.38 7  162 353 
+ OCA  HZ I        1356 49.75        38.1 0.34            130            162 353 
+ NOR  HZ EP       1356 30.16                             118   -0.03 8  233 235 
+ NOR  HN ES   1   1356 57.46                             118   -0.37 6  233 235 
+ NOR  HZ I        1357  4.52        25.4 0.36            118            233 235 
+ HEL  HZ EP   4   1356 36.26                             114    1.53 0  271 256 
+ HEL  HN ES   1   1357  6.45                             114    0.53 6  271 256 
+ HEL  HZ I        1357 14.12        10.9 0.24            114            271 256 
+ PRA  HZ EP       1356 48.35                             106    0.38 6  390 210 
+ PRA  HN ES   1   1357 30.60                             106    1.12 4  390 210 
+ PRA  HZ I        1357 35.23         4.4 0.16            107            390 210 
+ SJC  HZ EP   4   1356 48.93                             105   -1.46 0  410 327 
+ SJC  HN ES   4   1357 30.43                             105   -3.35 0  410 327 
+ SJC  HZ I        1357 34.40         5.2 0.40            106            410 327 
+                                                                                

@@ -1,0 +1,48 @@
+ 2017  727 0855 36.3 L   6.517 -73.491112.4  RSN 10 0.5 1.2LRSN                1
+ GAP= 97        1.07       3.9     4.4  7.0  0.2705E+01  0.1094E+02  0.3622E+01E
+ Epicentro: SIMACOTA - SANTANDER                                               3
+ ACTION:UPD 17-08-30 15:37 OP:rebc STATUS:               ID:20170727085536 L   I
+ OLDACT:UP  17-07-27 16:57 OP:and  STATUS:               ID:20170727084738d    3
+ OLDACT:UP  17-07-27 16:56 OP:and  STATUS:               ID:20170727084738d    3
+ OLDACT:UP  17-07-27 16:55 OP:and  STATUS:               ID:20170727084738d    3
+ OLDACT:UP  17-07-27 16:55 OP:and  STATUS:               ID:20170727084738d    3
+ OLDACT:UP  17-07-27 16:55 OP:and  STATUS:               ID:20170727084738d    3
+ OLDACT:UP  17-07-27 16:55 OP:and  STATUS:               ID:20170727084738d    3
+ OLDACT:DUP 17-07-27 16:52 OP:and  STATUS:               ID:20170727084738d    3
+ OLDACT:UP  17-07-27 16:52 OP:and  STATUS:               ID:20170727084737d    3
+ OLDACT:UP  17-07-27 16:52 OP:and  STATUS:               ID:20170727084737d    3
+ OLDACT:UP  17-07-27 16:52 OP:and  STATUS:               ID:20170727084737d    3
+ OLDACT:DUP 17-07-27 16:50 OP:and  STATUS:               ID:20170727084737d    3
+ OLDACT:UP  17-07-27 16:48 OP:and  STATUS:               ID:20170727084736     3
+ OLDACT:UP  17-07-27 16:48 OP:and  STATUS:               ID:20170727084736     3
+ OLDACT:UP  17-07-27 16:48 OP:and  STATUS:               ID:20170727084736     3
+ OLDACT:UP  17-07-27 16:48 OP:and  STATUS:               ID:20170727084736     3
+ OLDACT:UP  17-07-27 16:48 OP:and  STATUS:               ID:20170727084736     3
+ OLDACT:REG 17-07-27 12:35 OP:and  STATUS:               ID:20170727084736     3
+ 2017-07-27-0848-00M.COL___368                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        855 52.41                             160    0.0710 35.2  76 
+ BAR2 EZ ES        856  4.66                             160   -0.1810 35.2  76 
+ BRR  HZ EP   2    855 53.23                             145   -0.65 5 69.6 340 
+ BRR  HN ES        856  7.45                             145   -0.1210 69.6 340 
+ RUS  HZ EP   2    855 56.37                             140    0.87 5 82.5 147 
+ RUS  HN ES        856 10.71                             140    0.2410 82.5 147 
+ RUS  HZ I         856 11.33         3.4 0.22            141           82.5 147 
+ PTB  HZ IP   9 C  855 55.15                             132   -1.71 0  107 271 
+ PTB  HN ES        856 10.31                             133   -0.8610  107 271 
+ PTB  HZ I         856 13.97         2.5 0.18            131            107 271 
+ SPBC HZ EP        855 57.54                             130   -0.1910  115 214 
+ SPBC HE ES        856 13.94                             130   -0.4910  115 214 
+ SPBC HZ I         856 20.87         3.9 0.07            129            115 214 
+ YPLC HZ EP   2    856  4.53                             117    0.83 4  175 135 
+ NOR  HZ EP   9    856  4.04                             116   -0.80 0  185 235 
+ NOR  HN ES   2    856 25.76                             116   -0.53 4  185 235 
+ NOR  HZ I         856 30.53         2.0 0.34            116            185 235 
+ ZAR  HZ EP        856  4.41                             115   -0.39 9  186 306 
+ ZAR  HE ES        856 27.84                             115    0.83 9  186 306 
+ ZAR  HZ I         856 29.50         3.2 0.60            117            186 306 
+ GUY2CHZ EP   4    856 14.39                             108    1.52 0  252 236 
+ GUY2CHN ES        856 41.66                             108    0.27 8  252 236 
+ GUY2CHZ I         856 47.60         1.0 0.64                           252 236 
+ PTGC HZ EP   2    856 16.88                             104   -0.68 4  297 150 
+                                                                                

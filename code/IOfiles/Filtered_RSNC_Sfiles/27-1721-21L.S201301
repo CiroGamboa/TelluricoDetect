@@ -1,0 +1,58 @@
+ 2013  127 1721 21.5 L   6.360 -73.555113.5  RSN 15 0.4 3.1LRSN 3.3WRSN        1
+ SPEC AVERAGE  MO 14.0 ST  6.8 OM  2.7 f0 2.75 R0.6162 AL 1.56 WI 16.2 MW  3.3 3
+ SPEC SD       MO  0.2 ST  9.8 OM  0.4 f0 1.07 R0.2267 AL      WI      MW  0.2 3
+ GAP= 49        0.97       2.9     2.6  5.2 -0.3887E+00  0.3321E+01  0.1862E+01E
+ Epicentro: SANTA HELENA DEL OPON - SANTANDER                                  3
+ SPEC PAM SH N MO 14.1 ST0.454 OM  2.4 f0 1.42 R1.0352 AL 1.06 WI  7.3 MW  3.3 3
+ SPEC PAM SH N T1722 5 K 0.000 GD  183 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 13.8 ST  1.5 OM  2.2 f0 2.62 R0.5611 AL 0.70 WI 20.6 MW  3.1 3
+ SPEC PTB HH N T172156 K 0.000 GD  152 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 13.6 ST0.615 OM  2.1 f0 2.19 R0.6712 AL 1.31 WI 23.1 MW  3.0 3
+ SPEC RUS HH N T172153 K 0.000 GD  135 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.8 ST0.652 OM  2.1 f0 1.89 R0.7778 AL 1.20 WI 20.0 MW  3.2 3
+ SPEC CHI HH N T172212 K 0.000 GD  223 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH N MO 14.3 ST 29.1 OM  2.6 f0 4.70 R0.3128 AL 2.96 WI 15.7 MW  3.5 3
+ SPEC NOR HH N T1722 9 K 0.000 GD  204 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 14.1 ST 11.8 OM  2.6 f0 3.93 R0.3740 AL 2.36 WI 16.4 MW  3.4 3
+ SPEC BRR HH N T172154 K 0.000 GD  141 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BAR2SH Z MO 14.2 ST  3.4 OM  2.7 f0 2.53 R0.5810 AL 1.32 WI 10.3 MW  3.4 3
+ SPEC BAR2SH Z T172150 K 0.000 GD  123 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:17 OP:ep   STATUS:               ID:20130127172121 L   I
+ 2013-01-27-1720-00M.COL___241                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP       1721 38.42                             155    0.2010 48.6  58 
+ BAR2 SZ ES       1721 51.43                             155    0.1510 48.6  58 
+ BAR2 SZ I        1721 52.79       764.0 0.26            152           48.6  58 
+ RUS  HZ IP       1721 39.93                             145   -0.1610 73.5 135 
+ RUS  HN ES       1721 54.44                             145   -0.1810 73.5 135 
+ BRR  HZ EP       1721 40.17                             140   -0.0410 84.5 348 
+ BRR  HN ES       1721 55.25                             140    0.4210 84.5 348 
+ BRR  HN I        1721 56.01       305.2 0.16            139           84.5 348 
+ PTB  HZ IP     D 1721 40.96                             135   -0.6810  102 281 
+ PTB  HZ I        1721 41.13       156.7 0.18            132            102 281 
+ PTB  HN ES       1721 56.55                             135   -0.8310  102 281 
+ PAM  SZ EP       1721 46.25                             124    0.00 9  144  41 
+ PAM  SN ES       1722  5.73                             124    0.16 9  144  41 
+ PAM  SN I        1722  7.78       122.3 0.58            121            144  41 
+ NOR  HZ EP       1721 48.04                             119   -0.35 9  170 239 
+ NOR  HN ES       1722  9.76                             119    0.37 9  170 239 
+ ROSC BZ EP   1   1721 51.54                             117    0.76 7  188 207 
+ ZAR  HZ EP       1721 50.65                             116    0.07 9  191 311 
+ ZAR  HN ES       1722 13.64                             116    0.36 9  191 311 
+ ZAR  HN I        1722 17.92       262.6 0.28            113            191 311 
+ CHI  HZ EP       1721 51.58                             116    0.32 9  192 186 
+ CHI  HN I        1722 16.80        76.9 0.50            111            192 186 
+ TAM  HZ IP     C 1721 50.86                             115   -0.26 9  195  87 
+ TAM  HZ I        1721 51.17       150.6 0.32            111            195  87 
+ OCA  HZ EP   1   1721 52.65                             113   -0.18 6  209   7 
+ OCA  HN ES   1   1722 17.72                             113    0.43 6  209   7 
+ OCA  HZ I        1722 22.67        70.9 0.32            110            209   7 
+ HEL  HZ EP   1   1721 54.35                             113    0.16 6  219 265 
+ HEL  HE ES   1   1722 19.89                             113    0.18 6  219 265 
+ VIL  SZ EP   1   1721 57.83                             109    0.54 6  249 184 
+ URE  HZ EP   1   1721 58.12                             108   -1.13 6  267 305 
+ ANIL HZ EP   4   1722  3.85                             106    1.49 0  291 225 
+ ANIL HE ES   4   1722 36.46                             106    2.20 0  291 225 
+ DBB  SZ EP   1   1722  3.14                             105   -0.31 5  302 284 
+ DBB  SZ ES   1   1722 37.22                             105    1.03 5  302 284 
+                                                                                

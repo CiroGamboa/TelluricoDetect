@@ -1,0 +1,23 @@
+ 2012  7 9 1032 20.7 L   7.263 -73.087 11.9  RSN  6 0.4 1.6LRSN                1
+ GAP=161        1.05       4.0     3.4  7.2 -0.4074E+01  0.1487E+02 -0.8746E+01E
+ Epicentro: RIONEGRO - SANTANDER                                               3
+ ACTION:UPD 12-08-14 11:43 OP:ep   STATUS:               ID:20120709103220 L   I
+ 2012-07-09-1030-00M.COL___201                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ EP       1032 28.78                             102     0.310   44  79 
+ PAM  SN ES   1   1032 33.93                             102    -0.7 7   44  79 
+ BRR  HZ EP       1032 32.29                              97     0.210   71 256 
+ BRR  HE ES   1   1032 40.76                              97    -0.3 7   71 256 
+ BRR  HZ I        1032 42.43        16.2 0.19                            71 256 
+ BAR2 SZ EP   1   1032 33.39                              97     0.5 7   75 188 
+ BAR2 SZ ES   1   1032 41.89                              97    -0.6 7   75 188 
+ BAR2 SZ I        1032 46.37        14.3 0.16                            75 188 
+ RUS  HZ EP   1   1032 45.49                              93     0.7 7  152 180 
+ RUS  HE ES   1   1033  3.31                              93    -0.3 7  152 180 
+ RUS  HZ I        1033  9.78         4.8 0.22                           152 180 
+ PTB  HZ EP       1032 47.05                              56     0.4 9  171 242 
+ PTB  HN ES   1   1033  6.92                              56     0.0 7  171 242 
+ PTB  HZ I        1033  9.10        11.2 0.29                           171 242 
+ ZAR  HZ EP       1032 49.79                              56    -0.1 9  197 278 
+ ZAR  HE ES   1   1033 12.17                              56    -0.6 6  197 278 
+ ZAR  HZ I        1033 14.05        11.0 0.25                           197 278 

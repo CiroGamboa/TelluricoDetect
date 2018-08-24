@@ -1,0 +1,23 @@
+ 2014  917 1121 26.8 L   6.800 -73.003143.7  RSN  6 0.3 1.3LRSN                1
+ GAP=213        0.57       4.3     4.9  6.3  0.1257E+02 -0.2882E+01 -0.7217E+01E
+ Epicentro: CEPITA - SANTANDER                                                 3
+ ACTION:UPD 14-10-03 23:06 OP:nd   STATUS:               ID:20140917112126 L   I
+ OLDACT:UP  14-09-17 22:41 OP:spq  STATUS:               ID:20140917111818     3
+ OLDACT:REG 14-09-17 20:11 OP:spq  STATUS:               ID:20140917111818     3
+ 2014-09-17-1118-18M.COL___293                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1121 46.47                             168    0.1310 30.4 221 
+ BAR2 SZ ES   1   1122  1.70                             168    0.12 7 30.4 221 
+ BAR2 SZ I        1122  2.70         9.6 0.24            161           30.4 221 
+ BRR  HZ EP   1   1121 48.49                             148   -0.10 7 85.4 293 
+ BRR  HE ES       1122  5.71                             148    0.1210 85.4 293 
+ RUS  HZ EP   1   1121 50.62                             143    0.27 7  101 185 
+ RUS  HE ES   1   1122  8.20                             143   -0.53 7  101 185 
+ RUS  HZ I        1122 12.45         1.2 0.45            140            101 185 
+ PTB  HE ES   1   1122 17.39                             129    0.31 7  163 260 
+ PTB  HZ I        1122 21.37         1.8 0.40            125            163 260 
+ ZAR  HN ES       1122 26.74                             120   -0.30 8  219 291 
+ ZAR  HZ I        1122 31.23         1.5 0.32            118            219 291 
+ SML  HN ES   1   1122 32.97                             116   -0.16 6  251 332 
+ SML  HZ I        1122 34.61         1.7 0.10            116            251 332 
+                                                                                

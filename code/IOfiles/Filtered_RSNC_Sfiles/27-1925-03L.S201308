@@ -1,0 +1,40 @@
+ 2013  827 1925  3.9 L   6.786 -73.151142.4  RSN  7 0.4 1.6LRSN 2.2WRSN        1
+ SPEC AVERAGE  MO 12.4 ST  2.0 OM  1.2 f0 8.33 R0.1976 AL 0.00 WI 20.0 MW  2.2 3
+ SPEC SD       MO  0.3 ST  1.3 OM  0.5 f0 2.09 R0.0454 AL      WI      MW  0.2 3
+ GAP=137        0.92       3.8     3.9  5.9 -0.4324E+00  0.5967E+01  0.2732E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BRR HH Z MO 12.5 ST0.776 OM  0.9 f0 5.95 R0.2612 AL-0.00 WI 20.0 MW  2.3 3
+ SPEC BRR HH Z T192539 K 0.000 GD  159 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH Z MO 12.0 ST0.594 OM  0.4 f0 7.93 R0.1960 AL-0.00 WI 20.0 MW  1.9 3
+ SPEC PAM SH Z T192541 K 0.000 GD  162 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 12.3 ST  3.8 OM  0.6 f0 11.7 R0.1328 AL-0.00 WI 20.0 MW  2.1 3
+ SPEC PTB HH Z T192549 K 0.000 GD  204 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH Z MO 12.7 ST  2.7 OM  0.9 f0 7.75 R0.2005 AL-0.00 WI 20.0 MW  2.4 3
+ SPEC ZAR HH Z T192559 K 0.000 GD  248 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ 2013-08-27-1919-59M.COL___270                                                 6
+ OLDACT:REG 13-08-27 16:08 OP:nd   STATUS:               ID:20130827191959     3
+ ACTION:UPD 14-01-14 09:07 OP:ep   STATUS:               ID:20130827192503 L   I
+ OLDACT:UP  13-08-28 00:17 OP:stll STATUS:               ID:20130827191959     3
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1925 22.80                             171   -0.3210 21.7 189 
+ BAR2 SZ ES       1925 38.08                             171   -0.0110 21.7 189 
+ BAR2 SZ I        1925 41.01         6.5 0.44            166           21.7 189 
+ BRR  HZ EP       1925 24.80                             152    0.0710 71.5 300 
+ BRR  HN ES       1925 41.10                             152    0.1510 71.5 300 
+ BRR  SZ I        1925 46.02         7.3 0.28            156           71.5 300 
+ PAM  SZ EP       1925 25.70                             150   -0.1810 78.9  39 
+ PAM  SN ES       1925 42.93                             150   -0.0710 78.9  39 
+ PAM  SZ I        1925 44.48         4.4 0.38            159           78.9  39 
+ RUS  HZ EP       1925 27.33                             144    0.0910 99.1 176 
+ RUS  HN ES       1925 45.83                             144    0.4110 99.1 176 
+ RUS  SZ I        1925 58.25         5.3 4.28            144           99.1 176 
+ PTB  HZ EP       1925 29.98                             131   -0.56 9  147 259 
+ PTB  HN ES       1925 50.80                             131   -0.50 9  147 259 
+ PTB  SZ I        1925 55.62         6.9 0.26            134            147 259 
+ SPBC HZ EP       1925 31.85                             129   -0.17 9  162 219 
+ SPBC HN ES       1925 54.02                             129    0.09 9  162 219 
+ SPBC SZ I        1926  0.82         6.2 0.54            131            162 219 
+ ZAR  HZ EP       1925 37.13                             122    0.97 9  204 293 
+ ZAR  HN ES       1926  1.49                             122    0.19 9  204 293 
+ ZAR  SZ I        1926  5.03         4.1 1.10            126            204 293 
+                                                                                

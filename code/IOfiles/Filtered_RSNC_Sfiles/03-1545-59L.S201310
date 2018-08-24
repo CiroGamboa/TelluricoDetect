@@ -1,0 +1,52 @@
+ 2013 10 3 1545 59.5 L   6.833 -73.143141.4  RSN 12 0.6 2.1LRSN 2.8WRSN        1
+ SPEC AVERAGE  MO 13.2 ST 17.5 OM  1.5 f0 9.53 R0.3229 AL 0.00 WI 20.0 MW  2.8 3
+ SPEC SD       MO  0.3 ST293.3 OM  0.4 f0 15.3 R0.1811 AL      WI      MW  0.2 3
+ GAP=119        1.30       4.2     5.3  6.9 -0.4696E+01 -0.1030E+01  0.8351E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 13.6 ST  8.4 OM  1.8 f0 6.82 R0.2821 AL-0.00 WI 20.0 MW  3.0 3
+ SPEC BAR2SH Z T154631 K 0.050 GD  143 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC BRR HH Z MO 13.3 ST  9.9 OM  1.4 f0 9.50 R0.2025 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC BRR HH Z T154635 K 0.050 GD  157 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PTB HH Z MO 13.0 ST0.499 OM  1.0 f0 4.37 R0.4403 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC PTB HH Z T154645 K 0.050 GD  205 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC NOR HH Z MO 12.9 ST 68.3 OM  0.8 f0 23.8 R0.0808 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC NOR HH Z T154660 K 0.050 GD  275 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPECGUY2CHH Z MO 13.3 ST  0.1 OM  1.1 f0 2.20 R 0.874 AL-0.00 WI 20.0 MW  2.8 3
+ SPECGUY2CHH Z T154717 K 0.050 GD335.3 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PRA HH Z MO 13.3 ST0.385 OM  1.0 f0 3.16 R0.6089 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC PRA HH Z T154733 K 0.050 GD  419 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:REG 13-10-03 13:51 OP:stll STATUS:               ID:20131003153842     3
+ ACTION:UPD 13-11-25 09:19 OP:ep   STATUS:               ID:20131003154559 L   I
+ OLDACT:UP  13-10-03 20:56 OP:stll STATUS:               ID:20131003153842     3
+ 2013-10-03-1538-42M.COL___241                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1546 18.84                             169    0.1210 27.0 189 
+ BAR2 SZ ES       1546 33.19                             169   -0.5010 27.0 189 
+ BAR2 SZ I        1546 36.23        37.2 0.48            163           27.0 189 
+ BRR  HZ EP       1546 20.58                             152    0.4510 69.8 296 
+ BRR  HN ES       1546 36.83                             152    0.6310 69.8 296 
+ BRR  SZ I        1546 38.31        24.4 0.40            148           69.8 296 
+ RUS  HZ EP       1546 23.15                             142    0.0210  104 176 
+ RUS  HN ES       1546 41.77                             142    0.2410  104 176 
+ RUS  SZ I        1546 42.55         9.8 0.64            136            104 176 
+ CAPV BZ EP       1546 26.69                             131    0.40 9  146  39 
+ PTB  HZ EP       1546 25.54                             131   -0.71 9  149 257 
+ PTB  HN ES       1546 46.74                             131   -0.35 9  149 257 
+ PTB  SZ I        1546 50.69         9.8 0.46            126            149 257 
+ SPBC HZ EP       1546 28.13                             128    0.13 9  166 218 
+ SPBC HN ES       1546 50.03                             128   -0.17 9  166 218 
+ SPBC SZ I        1546 56.86        17.0 0.18            122            166 218 
+ NOR  HZ EP       1546 35.13                             117   -0.14 8  237 234 
+ NOR  HN ES       1547  1.75                             117   -1.40 8  237 234 
+ NOR  SZ I        1547  9.04        10.0 0.34            113            237 234 
+ SML  HE ES       1547  3.52                             117   -0.16 8  241 335 
+ CHI  HZ EP       1546 37.67                             116    0.28 8  252 195 
+ CHI  HN ES       1547  7.05                             116    0.13 8  252 195 
+ CHI  SZ I        1547  9.74         8.0 0.48            112            252 195 
+ SOCV BZ EP       1546 41.39                             111   -0.73 7  299  57 
+ GUY2CHZ EP       1546 43.46                             111    0.25 7  304 234 
+ GUY2CHN ES       1547 18.87                             111    1.58 7  304 234 
+ GUY2CSZ I        1547 26.15         6.3 0.68                           304 234 
+ PRA  HZ EP       1546 53.15                             106   -0.15 6  395 209 
+ PRA  SZ I        1547 38.98         9.4 0.60            103            395 209 
+                                                                                

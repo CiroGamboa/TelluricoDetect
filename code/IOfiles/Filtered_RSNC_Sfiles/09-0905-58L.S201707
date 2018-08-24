@@ -1,0 +1,37 @@
+ 2017  7 9 0905 58.9 L   6.780 -73.124146.0  RSN  9 0.5 1.8LRSN                1
+ GAP=258        1.24       6.4     7.0  8.1 -0.4279E+01  0.1510E+02  0.9464E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-08-30 15:31 OP:rebc STATUS:               ID:20170709090558 L   I
+ OLDACT:UP  17-07-09 18:30 OP:dnl  STATUS:               ID:20170709085739     3
+ OLDACT:UP  17-07-09 18:29 OP:dnl  STATUS:               ID:20170709085739     3
+ OLDACT:REG 17-07-09 14:22 OP:ar   STATUS:               ID:20170709085739     3
+ 2017-07-09-0858-00M.COL___362                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ IP     C  9 6 18.42                             171   -0.0810 21.7 197 
+ BAR2 EZ ES        9 6 33.49                             171   -0.3210 21.7 197 
+ BAR2 EZ I         9 6 34.67        17.5 0.12            165           21.7 197 
+ BRR  HZ IP     C  9 6 20.31                             152    0.0810 74.3 299 
+ BRR  HE ES        9 6 37.62                             152    0.7310 74.3 299 
+ BRR  HZ I         9 6 41.30         7.2 0.14            146           74.3 299 
+ PTB  HZ EP        9 6 25.00                             132   -1.03 9  150 260 
+ PTB  HE ES        9 6 46.53                             132   -0.69 9  150 260 
+ PTB  HZ I         9 6 52.25         6.6 0.62            129            150 260 
+ SPBC HZ EP        9 6 27.38                             129    0.01 9  163 220 
+ SPBC HE ES        9 6 50.41                             129    0.81 9  163 220 
+ SPBC HZ I         9 6 56.45         9.6 0.18            129            163 220 
+ ZAR  HZ EP        9 6 31.86                             122    0.21 8  207 292 
+ ZAR  HN ES        9 6 57.31                             122    0.10 8  207 292 
+ ZAR  HZ I         9 7  4.94         7.7 0.34            121            207 292 
+ NOR  HZ EP        9 6 34.63                             119   -0.06 8  235 235 
+ NOR  HE ES        9 7  2.03                             119   -0.59 8  235 235 
+ NOR  HZ I         9 7  8.69         5.4 0.32            119            235 235 
+ URE  HZ EP   4    9 6 36.45                             113   -3.85 0  287 292 
+ URE  HE ES   4    9 7 10.03                             113   -2.57 0  287 292 
+ URE  HZ I         9 7 18.30         3.2 0.14            114            287 292 
+ GUY2CHZ EP        9 6 43.27                             112    0.70 7  302 235 
+ GUY2CHN ES        9 7 17.12                             112    0.47 7  302 235 
+ GUY2CHZ I         9 7 24.96         4.8 0.42                           302 235 
+ CBOC HZ EP   4    9 6 46.56                             110    0.58 0  335 253 
+ CBOC HN ES        9 7 22.70                             110   -0.02 7  335 253 
+ CBOC HZ I         9 7 30.69         1.0 0.40            110            335 253 
+                                                                                

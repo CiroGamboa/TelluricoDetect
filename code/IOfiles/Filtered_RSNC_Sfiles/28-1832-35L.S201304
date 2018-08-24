@@ -1,0 +1,65 @@
+ 2013  428 1832 35.6 L   6.787 -73.121147.2  RSN 13 0.5 2.7LRSN 2.9WRSN        1
+ SPEC AVERAGE  MO 13.4 ST0.937 OM  2.0 f0 2.89 R0.5243 AL 1.71 WI 12.2 MW  2.9 3
+ SPEC SD       MO  0.3 ST0.509 OM  0.5 f00.509 R0.0900 AL      WI      MW  0.2 3
+ GAP=185        0.97       3.4     5.5  5.9 -0.3001E+01  0.9831E+01 -0.1791E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC PRA HH Z MO 13.7 ST  1.7 OM  1.7 f0 2.88 R0.5104 AL 1.97 WI 14.5 MW  3.1 3
+ SPEC PRA HH Z T183410 K 0.000 GD  418 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC URE HH Z MO 13.4 ST  1.6 OM  1.5 f0 3.57 R0.4118 AL 1.33 WI 19.9 MW  2.9 3
+ SPEC URE HH Z T183346 K 0.000 GD  322 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH Z MO 13.2 ST  1.2 OM  1.3 f0 3.79 R0.3879 AL 2.27 WI  9.8 MW  2.7 3
+ SPEC HEL HH Z T183352 K 0.000 GD  311 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ROSCBH Z MO 13.9 ST  1.0 OM  2.0 f0 2.16 R0.6806 AL 3.00 WI 13.4 MW  3.2 3
+ SPEC ROSCBH Z T183342 K 0.000 GD  292 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH Z MO 13.4 ST  1.2 OM  1.6 f0 3.17 R0.4637 AL 1.32 WI 14.8 MW  2.9 3
+ SPEC NOR HH Z T183339 K 0.000 GD  278 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH Z MO 13.3 ST0.666 OM  1.6 f0 2.85 R0.5158 AL 0.92 WI 12.6 MW  2.8 3
+ SPEC PTB HH Z T183322 K 0.000 GD  210 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH Z MO 13.2 ST0.467 OM  1.6 f0 2.68 R0.5485 AL 1.77 WI  9.3 MW  2.8 3
+ SPEC RUS HH Z T183317 K 0.000 GD  177 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC GIR2SH Z MO 12.9 ST0.174 OM  1.3 f0 2.56 R0.5742 AL 0.93 WI  6.6 MW  2.5 3
+ SPEC GIR2SH Z T183311 K 0.000 GD  150 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BAR2SH Z MO 13.4 ST0.419 OM  1.8 f0 2.35 R0.6255 AL 1.92 WI  8.7 MW  2.9 3
+ SPEC BAR2SH Z T1833 9 K 0.000 GD  148 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-05-22 14:41 OP:EP   STATUS:               ID:20130428183235 L   I
+ 2013-04-28-1830-00M.COL___248                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP     C 1832 55.70                             171    0.3110 22.6 197 
+ BAR2 SZ ES       1833 10.19                             171   -0.6410 22.6 197 
+ BAR2 SZ I        1833 12.40        84.3 0.22            169           22.6 197 
+ GIR2 SZ EP       1832 55.81                             167    0.3110 33.2 346 
+ GIR2 SZ I        1833 12.88        46.4 0.13            163           33.2 346 
+ BRR  HZ IP     C 1832 57.60                             152    0.5210 74.3 298 
+ BRR  HN ES   1   1833 14.31                             152    0.48 7 74.3 298 
+ BRR  HZ I        1833 18.97        59.0 0.22            148           74.3 298 
+ RUS  HZ IP     D 1832 59.51                             144    0.1310 99.0 178 
+ RUS  HN ES   1   1833 17.88                             144   -0.05 7 99.0 178 
+ RUS  HZ I        1833 19.49        39.2 0.40            147           99.0 178 
+ PTB  HZ EP       1833  2.34                             132   -0.57 9  150 260 
+ PTB  HN ES   1   1833 23.37                             132   -0.83 7  150 260 
+ PTB  HZ I        1833 29.67        60.1 0.36            130            150 260 
+ OCA  HZ EP       1833  4.31                             129    0.12 9  162 352 
+ OCA  HN ES   1   1833 26.57                             129    0.08 7  162 352 
+ OCA  HZ I        1833 30.61        66.7 0.32            130            162 352 
+ NOR  HZ EP       1833 11.46                             119   -0.11 8  236 235 
+ NOR  HN ES   1   1833 40.12                             119    0.50 6  236 235 
+ NOR  HZ I        1833 46.81        43.3 0.26            119            236 235 
+ SML  HZ EP       1833 11.96                             117   -0.61 8  246 335 
+ SML  HN ES   1   1833 42.16                             117    0.75 6  246 335 
+ SML  HZ I        1833 49.52        64.8 0.22            118            246 335 
+ ROSC BZ EP   2   1833 13.96                             117    0.14 4  253 212 
+ ROSC BN ES   1   1833 43.95                             117    0.32 6  253 212 
+ ROSC BZ I        1833 50.19        52.6 0.40            118            253 212 
+ HEL  HZ EP   1   1833 16.34                             115    0.20 6  274 256 
+ HEL  HN ES   1   1833 48.21                             115    0.45 6  274 256 
+ HEL  HZ I        1833 56.32        24.1 0.30            115            274 256 
+ URE  HZ EP       1833 16.15                             114   -0.93 7  287 292 
+ URE  HN ES   4   1833 46.43                             114   -3.01 0  287 292 
+ URE  HZ I        1833 56.49        40.8 0.32            113            287 292 
+ PRA  HZ EP       1833 29.32                             107    0.13 6  392 210 
+ PRA  HN ES   1   1834 11.06                             107    0.08 4  392 210 
+ PRA  HZ I        1834 16.35        23.1 0.56            108            392 210 
+ SJC  HZ EP   4 C 1833 29.91                             106   -1.62 0  412 327 
+ SJC  HN ES   4   1834 10.92                             106   -4.22 0  412 327 
+ SJC  HZ I        1834 16.31         7.2 0.24            106            412 327 
+                                                                                

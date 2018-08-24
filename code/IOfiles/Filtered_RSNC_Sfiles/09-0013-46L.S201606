@@ -1,0 +1,33 @@
+ 2016  6 9 0013 46.0 L   6.799 -73.141149.1  RSN  8 0.4 1.7LRSN                1
+ GAP=137        0.86       3.9     4.2  6.0 -0.5282E+01  0.2892E+01  0.6466E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-07-21 22:16 OP:rebc STATUS:               ID:20160609001346 L   I
+ OLDACT:UP  16-06-09 13:57 OP:dani STATUS:               ID:20160609000741     3
+ OLDACT:REG 16-06-09 12:33 OP:dani STATUS:               ID:20160609000741     3
+ 2016-06-09-0007-41M.COL___337                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        014  8.03                             153    0.4710 71.7 298 
+ BRR  HE ES        014 24.82                             153    0.4610 71.7 298 
+ BRR  HZ I         014 27.22         8.1 0.30                          71.7 298 
+ PAM  EZ EP        014  8.70                             151    0.1310 77.1  39 
+ PAM  EE ES        014 25.92                             151   -0.2410 77.1  39 
+ PAM  EZ I         014 29.00         5.7 0.35                          77.1  39 
+ RUS  HZ EP        014  9.94                             145   -0.1510  100 176 
+ RUS  HN ES        014 28.90                             145    0.0310  100 176 
+ RUS  HZ I         014 29.84         4.5 0.20                           100 176 
+ PTB  HZ EP        014 12.66                             133   -0.65 9  148 259 
+ PTB  HN ES        014 34.43                             133   -0.17 9  148 259 
+ PTB  HZ I         014 36.11         5.2 0.16                           148 259 
+ SPBC HZ EP        014 14.95                             130    0.14 9  163 219 
+ SPBC HN ES        014 36.94                             130   -0.32 9  163 219 
+ SPBC HZ I         014 41.70         7.0 0.17                           163 219 
+ NOR  HZ EP        014 22.28                             119    0.29 8  235 235 
+ NOR  HN ES        014 49.67                             119   -0.38 8  235 235 
+ NOR  HZ I         014 56.59         3.2 0.27                           235 235 
+ CHI  HZ EP   4    014 20.20                             118   -3.72 0  249 195 
+ CHI  HE ES   2    014 53.75                             118    0.28 4  249 195 
+ CHI  HZ I         014 59.47         2.4 0.34                           249 195 
+ PRA  HZ EP        014 39.76                             107    0.07 6  392 210 
+ PRA  HE ES   2    015 23.38                             107    1.84 3  392 210 
+ PRA  HZ I         015 28.00         3.5 0.40                           392 210 
+                                                                                

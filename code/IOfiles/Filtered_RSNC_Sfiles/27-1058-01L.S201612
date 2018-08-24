@@ -1,0 +1,28 @@
+ 2016 1227 1058  1.6 L   7.056 -73.405118.4  RSN  6 0.4 1.2LRSN                1
+ GAP=141        0.96       4.6     3.6  8.8  0.1278E+01  0.9974E+01 -0.6198E+01E
+ Epicentro: SAN VICENTE DE CHUCURI - SANTANDER                                 3
+ ACTION:UPD 17-01-11 20:19 OP:rebc STATUS:               ID:20161227105801 L   I
+ OLDACT:UP  16-12-28 20:19 OP:nlst STATUS:               ID:20161227105801 L   3
+ OLDACT:UP  16-12-27 21:28 OP:cog  STATUS:               ID:20161227104746d    3
+ OLDACT:DUP 16-12-27 21:21 OP:cog  STATUS:               ID:20161227104746d    3
+ 2016-12-27-1048-00M.COL___372                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP       1058 17.31                             163   -0.6010 34.3 279 
+ BRR  HZ I        1058 32.34         8.2 0.24            158           34.3 279 
+ BAR2 EZ EP       1058 19.67                             153    0.3610 56.9 154 
+ BAR2 EZ ES       1058 33.11                             153   -0.0310 56.9 154 
+ BAR2 EZ I        1058 34.02         9.3 0.50            146           56.9 154 
+ PAM  EZ EP       1058 20.80                             143   -0.6410 84.0  68 
+ PAM  EE ES       1058 37.31                             143    0.3810 84.0  68 
+ PAM  EZ I        1058 40.20         2.1 0.14            137           84.0  68 
+ PTB  HZ EP   3   1058 23.75                             129   -0.93 2  129 244 
+ PTB  HZ I        1058 41.07         1.7 0.27            121            129 244 
+ PTB  HN ES   3   1058 42.09                             129   -0.61 2  129 244 
+ PTB  HZ ES       1058 42.60                             129   -0.1010  129 244 
+ RUS  HZ EP       1058 25.80                             128    0.1010  134 165 
+ RUS  HZ ES       1058 44.57                             128    0.0510  134 165 
+ RUS  HZ I        1058 51.52         1.6 0.32            121            134 165 
+ ZAR  HZ EP       1058 29.14                             121    0.66 9  168 287 
+ ZAR  HZ ES       1058 49.50                             121    0.04 9  168 287 
+ ZAR  HZ I        1058 50.38         2.8 0.38            115            168 287 
+                                                                                

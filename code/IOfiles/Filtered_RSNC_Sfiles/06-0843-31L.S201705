@@ -1,0 +1,69 @@
+ 2017  5 6 0843 31.0 L   6.798 -73.142148.6  RSN 17 0.6 2.1LRSN                1
+ GAP=112        0.99       3.2     3.2  6.0  0.1156E+01  0.3693E+01  0.4002E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-06-16 13:33 OP:jn   STATUS:               ID:20170506084331 L   I
+ OLDACT:UP  17-05-06 16:52 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:51 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:50 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:49 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:49 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:48 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:47 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:44 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:44 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:44 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:44 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:42 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:41 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:UP  17-05-06 16:40 OP:and  STATUS:               ID:20170506083743     3
+ OLDACT:REG 17-05-06 12:49 OP:and  STATUS:               ID:20170506083743     3
+ 2017-05-06-0838-00M.COL___346                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ IP     C  843 52.67                             153    0.1510 71.7 299 
+ BRR  HN ES        844  9.73                             153    0.4510 71.7 299 
+ BRR  HZ I         844 11.07        22.0 0.14            152           71.7 299 
+ PAM  EZ EP        843 53.70                             152    0.1510 77.3  39 
+ PAM  EN ES        844 10.77                             152   -0.3410 77.3  39 
+ PAM  EZ I         844 13.07        31.6 0.56            161           77.3  39 
+ RUS  HZ EP        843 54.80                             144   -0.2510  100 176 
+ RUS  HN ES        844 13.55                             144   -0.2310  100 176 
+ RUS  HZ I         844 14.49        13.2 0.28            143            100 176 
+ PTB  HZ EP        843 58.07                             133   -0.20 9  148 259 
+ PTB  HN ES   3    844 18.38                             133   -1.13 2  148 259 
+ PTB  HZ I         844 24.14        11.1 0.44            132            148 259 
+ SPBC HN ES        844 21.62                             130   -0.55 9  163 219 
+ SPBC HZ I         844 26.56        28.1 0.34            129            163 219 
+ YPLC HZ IP     D  844  1.29                             127    0.29 9  176 151 
+ YPLC HN ES        844 25.29                             127    0.92 9  176 151 
+ YPLC HZ I         844 28.01        10.7 0.32            130            176 151 
+ ZAR  HZ EP        844  3.34                             123   -0.38 9  205 292 
+ ZAR  HN ES        844 28.65                             123   -0.56 9  205 292 
+ ZAR  HZ I         844 34.25        17.8 0.40            125            205 292 
+ TABC EZ EP   3    844  8.69                             120    1.73 2  230 211 
+ TABC EZ ES   4    844 37.70                             120    2.72 0  230 211 
+ TABC EZ I         844 43.10        19.1 0.42            121            230 211 
+ NOR  HZ EP        844  7.01                             119    0.05 8  235 235 
+ NOR  HN ES        844 35.36                             119    0.39 8  235 235 
+ NOR  HZ I         844 42.57         9.6 0.26            120            235 235 
+ CHI  HN ES        844 38.53                             118    0.13 8  248 195 
+ ROSC BZ EP   9    844 10.86                             117    1.54 0  253 211 
+ ROSC BN ES        844 41.16                             116    0.45 8  253 211 
+ ROSC BZ I         844 45.53        20.5 0.45            118            253 211 
+ HEL  HZ EP   3    844 12.91                             115    1.47 2  272 256 
+ HEL  HN ES        844 43.30                             115    0.35 8  272 256 
+ HEL  HZ I         844 49.86         6.9 0.44            117            272 256 
+ PTGC HZ IP     D  844 14.01                             112   -0.97 7  308 159 
+ PTGC HN ES   3    844 47.69                             112   -1.56 2  308 159 
+ PTGC HZ I         844 49.33         6.0 0.48            114            308 159 
+ LL6C HN EP   9    843 56.52                             111   -20.4 0  325 358 
+ LL6C HE ES        844 32.32                                    0.04 7  325 358 
+ LL6C HN I         844 38.43         6.8 0.30            115            325 358 
+ CBOC HZ EP   3    844 19.23                             110    1.12 2  334 252 
+ CBOC HE ES        844 55.37                             110    0.54 7  334 252 
+ CBOC HZ I         845  1.04         2.1 0.47            112            334 252 
+ ARGC HZ EP   4    844 18.09                             109   -2.76 0  360 340 
+ ARGC HE ES   3    845  1.78                             109    2.08 2  360 340 
+ SJC  HZ EP   9    844 25.10                             106   -1.65 0  410 327 
+ SJC  HN ES        845  7.72                             107   -0.83 6  410 327 
+ SJC  HZ I         845 14.02         3.4 0.42            109            410 327 
+                                                                                

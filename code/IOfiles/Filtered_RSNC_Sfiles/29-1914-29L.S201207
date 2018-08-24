@@ -1,0 +1,41 @@
+ 2012  729 1914 29.8 L   7.162 -73.094155.2  RSN 11 0.3 2.6LRSN                1
+ GAP= 78        0.77       3.8     3.4  5.2  0.2485E+00  0.2615E+01  0.2476E+01E
+ Epicentro: BUCARAMANGA - SANTANDER                                            3
+ SPEC SD       MO  0.1 ST  4.2 OM  0.9 f00.344 R0.0231 AL      WI      MW  0.1 3
+ SPEC PTB HH N MO 13.6 ST  7.8 OM  1.9 f0 5.12 R0.2871 AL 2.06 WI 20.5 MW  3.0 3
+ SPEC PTB HH N T191521 K 0.000 GD  227 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 13.7 ST  7.9 OM  2.0 f0 4.89 R0.3006 AL 1.67 WI 22.6 MW  3.1 3
+ SPEC RUS HH N T191516 K 0.000 GD  209 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.0 ST 17.0 OM  2.3 f0 5.12 R0.2871 AL 2.41 WI 15.4 MW  3.3 3
+ SPEC OCA HH N T191514 K 0.000 GD  197 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.8 ST  6.6 OM  1.9 f0 4.28 R0.3435 AL 2.48 WI 35.6 MW  3.1 3
+ SPEC HEL HH N T191544 K 0.000 GD  328 VS 4.20 DE 3.00 Q0230.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 12-08-14 11:46 OP:ep   STATUS:               ID:20120729191429 L   I
+ 2012-07-29-1910-00M.COL___215                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ EP       1914 51.52                             162    -0.110   48  66 
+ PAM  SN ES   1   1915  8.16                             162    -0.5 7   48  66 
+ BAR2 SZ EP       1914 51.98                             157     0.010   64 189 
+ BAR2 SZ ES   1   1915  9.33                             157     0.1 7   64 189 
+ BAR2 SZ I        1915 10.73        96.5 0.35            157             64 189 
+ BRR  HZ EP       1914 52.12                             155     0.310   69 265 
+ BRR  HZ I        1914 52.59       148.8 0.14            151             69 265 
+ BRR  HN ES   1   1915  9.26                             155     0.2 7   69 265 
+ OCA  HZ EP   1   1914 55.70                             140     0.1 7  122 348 
+ OCA  HN ES   1   1915 16.10                             140     0.4 7  122 348 
+ OCA  HZ I        1915 20.26        72.4 0.44            140            122 348 
+ RUS  HZ EP       1914 57.25                             136    -0.3 9  140 179 
+ RUS  HN ES   1   1915 19.48                             136     0.2 7  140 179 
+ RUS  HZ I        1915 21.28        15.3 0.31            138            140 179 
+ TAM  HZ EP       1914 59.41                             131     0.3 9  165 119 
+ PTB  HZ IP     C 1914 58.90                             131    -0.3 9  166 245 
+ PTB  HN ES   1   1915 21.76                             131    -0.3 7  166 245 
+ PTB  HZ I        1915 23.91        43.0 0.27            130            166 245 
+ ZAR  HZ EP   1   1915  1.72                             125    -0.6 6  198 281 
+ ZAR  HE ES   1   1915 27.54                             125    -0.1 6  198 281 
+ ZAR  HZ I        1915 35.15        29.3 0.32            124            198 281 
+ NOR  SZ EP   1   1915 10.13                             117     0.9 6  264 228 
+ HEL  HZ EP   1   1915 12.66                             115     0.2 5  290 248 
+ HEL  HN ES   1   1915 45.92                             115     0.2 5  290 248 
+ HEL  HZ I        1915 57.52        18.3 0.50            115            290 248 
+ DBB  SZ EP   1   1915 18.02                             111    -0.2 5  345 268 

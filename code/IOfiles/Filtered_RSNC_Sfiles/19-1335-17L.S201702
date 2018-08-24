@@ -1,0 +1,83 @@
+ 2017  219 1335 17.1 L   6.789 -73.124145.1  RSN 16 0.6 3.0LRSN 3.4WRSN        1
+ SPEC AVERAGE  MO 14.2 ST0.573 OM  2.4 f0 1.61 R1.4530 AL 0.00 WI 30.0 MW  3.4 3
+ SPEC SD       MO  0.2 ST0.695 OM  0.4 f00.787 R0.5719 AL      WI      MW  0.1 3
+ GAP= 99        1.31       4.0     3.7  6.3  0.1218E+01  0.5534E+01  0.1031E+02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BRR HH Z MO 14.0 ST  1.4 OM  2.1 f0 2.75 R0.6996 AL-0.00 WI 30.0 MW  3.3 3
+ SPEC BRR HH Z T133553 K 0.000 GD  162 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC RUS HH Z MO 14.2 ST0.398 OM  2.2 f0 1.65 R1.1661 AL-0.00 WI 30.0 MW  3.4 3
+ SPEC RUS HH Z T133557 K 0.000 GD  175 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ZAR HH Z MO 14.0 ST  2.4 OM  1.9 f0 3.33 R0.5778 AL-0.00 WI 30.0 MW  3.3 3
+ SPEC ZAR HH Z T133613 K 0.000 GD  252 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC CHI HH Z MO 14.5 ST0.137 OM  2.3 f00.908 R2.1189 AL-0.00 WI 30.0 MW  3.6 3
+ SPEC CHI HH Z T133621 K 0.000 GD  287 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC VIL EH Z MO 14.2 ST0.306 OM  2.0 f0 1.42 R1.3549 AL-0.00 WI 30.0 MW  3.4 3
+ SPEC VIL EH Z T133633 K 0.000 GD  335 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ELA HH Z MO 14.5 ST0.091 OM  2.2 f00.794 R2.4232 AL-0.00 WI 30.0 MW  3.6 3
+ SPEC ELA HH Z T133638 K 0.000 GD  360 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC CBOCHH Z MO 14.0 ST0.064 OM  1.7 f0 1.03 R1.8680 AL-0.00 WI 30.0 MW  3.3 3
+ SPEC CBOCHH Z T133639 K 0.000 GD  365 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ANILHH Z MO 14.2 ST0.560 OM  1.9 f0 1.79 R1.0749 AL-0.00 WI 30.0 MW  3.4 3
+ SPEC ANILHH Z T133645 K 0.000 GD  386 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC PRA HH Z MO 14.5 ST0.244 OM  2.2 f0 1.05 R1.8324 AL-0.00 WI 30.0 MW  3.6 3
+ SPEC PRA HH Z T133650 K 0.000 GD  417 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC ORTCHH Z MO 14.1 ST0.213 OM  1.8 f0 1.36 R1.4147 AL-0.00 WI 30.0 MW  3.4 3
+ SPEC ORTCHH Z T133651 K 0.000 GD  421 VS 5.20 DE 3.50 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:UP  17-02-19 23:35 OP:cog  STATUS:               ID:20170219132743     3
+ OLDACT:REG 17-02-19 21:02 OP:cog  STATUS:               ID:20170219132743     3
+ OLDACT:UP  17-02-19 23:35 OP:cog  STATUS:               ID:20170219132743     3
+ ACTION:UPD 17-05-24 15:38 OP:jn   STATUS:               ID:20170219133517 L   I
+ OLDACT:UP  17-02-19 23:36 OP:cog  STATUS:               ID:20170219132743     3
+ 2017-02-19-1328-00M.COL___346                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       1335 36.71                             171    0.0510 22.6 196 
+ BAR2 HN ES       1335 52.14                             171    0.2410 22.6 196 
+ BAR2 EZ I        1335 54.55       288.0 0.30            167           22.6 196 
+ BRR  HZ EP       1335 38.51                             151    0.1510 73.9 299 
+ BRR  HE ES       1335 55.40                             151    0.4910 73.9 299 
+ BRR  HZ I        1335 56.35       114.0 0.12            152           73.9 299 
+ PAM  EZ EP       1335 39.52                             151    0.2810 76.9  38 
+ PAM  EN ES       1335 56.65                             151    0.1610 76.9  38 
+ PAM  EZ I        1335 58.92        90.0 0.56            156           76.9  38 
+ RUS  HZ EP       1335 40.41                             144   -0.3010 99.2 177 
+ RUS  HN ES       1335 59.27                             144    0.1710 99.2 177 
+ RUS  HZ I        1336  0.57       165.2 0.42            143           99.2 177 
+ PTB  HZ EP       1335 43.18                             131   -1.05 9  150 259 
+ PTB  HN ES       1336  4.45                             131   -0.92 9  150 259 
+ PTB  HZ I        1336 10.55        92.4 0.34            131            150 259 
+ TAM  HZ EP       1335 45.14                             131    0.63 9  152 105 
+ TAM  HE ES       1336  5.28                             131   -0.58 9  152 105 
+ TAM  HZ I        1336  6.01        45.6 0.46            134            152 105 
+ ZAR  HZ EP       1335 49.22                             122   -0.59 8  207 292 
+ ZAR  HN ES       1336 14.81                             122   -0.48 8  207 292 
+ ZAR  HZ I        1336 19.87       112.4 0.36            123            207 292 
+ CHI  HZ EP       1335 54.82                             117    0.09 8  248 196 
+ CHI  HE ES       1336 23.31                             117   -0.74 8  248 196 
+ CHI  HZ I        1336 27.33        60.2 0.44            118            248 196 
+ ROSC BZ EP       1335 55.86                             116    0.63 8  253 212 
+ ROSC BE ES       1336 25.63                             116    0.68 8  253 212 
+ ROSC HZ I        1336 31.20       151.0 0.40            117            253 212 
+ ROSC BZ I        1336 31.40       157.1 0.40                           253 212 
+ VIL  EZ EP       1336  0.43                             112   -0.00 7  303 192 
+ VIL  EN ES       1336 34.87                             112    0.66 7  303 192 
+ VIL  HZ I        1336 40.00       102.7 0.40            113            303 192 
+ VIL  EZ I        1336 40.24        98.6 0.34                           303 192 
+ PTGC HZ EP       1335 59.80                             112   -0.93 7  307 159 
+ PTGC HE ES       1336 34.02                             112   -0.71 7  307 159 
+ PTGC HZ I        1336 44.41        26.5 0.28            113            307 159 
+ RECRCHE ES   4   1336 40.91                             111    2.46 0  319 231 
+ ELA  HZ EP       1336  5.70                             110    1.63 7  330 230 
+ ELA  HE ES   4   1336 39.50                             110   -1.17 0  330 230 
+ ELA  HZ I        1336 48.94        38.5 0.58            111            330 230 
+ CBOC HZ EP       1336  4.59                             110    0.36 7  335 252 
+ CBOC HE ES       1336 41.43                             110    0.46 7  335 252 
+ CBOC HZ I        1336 49.11        13.7 0.62            110            335 252 
+ ANIL HZ EP       1336  8.04                             108    1.04 6  358 225 
+ ANIL HE ES   3   1336 47.22                             108    1.33 2  358 225 
+ PRA  HZ EP       1336 10.00                             106   -0.64 6  392 210 
+ PRA  HE ES       1336 52.01                             106   -0.36 6  392 210 
+ PRA  HZ I        1336 56.73        58.7 0.60            107            392 210 
+ ORTC HZ EP       1336 11.19                             106    0.12 6  396 217 
+ ORTC HN ES       1336 53.23                             106    0.08 6  396 217 
+ ORTC HZ I        1336 57.91        28.6 0.28            107            396 217 
+                                                                                

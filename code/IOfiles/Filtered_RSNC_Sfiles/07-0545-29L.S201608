@@ -1,0 +1,44 @@
+ 2016  8 7 0545 29.9 L   6.793 -73.120143.4  RSN 10 0.6 2.1LRSN                1
+ GAP=103        1.36       5.2     5.0  7.6  0.3621E+01 -0.4236E+01  0.6205E-02E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-10-29 15:33 OP:rebc STATUS:               ID:20160807054529 L   I
+ OLDACT:DUP 16-08-07 18:03 OP:dani STATUS:               ID:20160807053736d    3
+ OLDACT:UP  16-08-07 18:01 OP:dani STATUS:               ID:20160807053735     3
+ OLDACT:UP  16-08-07 18:00 OP:dani STATUS:               ID:20160807053735     3
+ OLDACT:UP  16-08-07 18:00 OP:dani STATUS:               ID:20160807053735     3
+ OLDACT:UP  16-08-07 17:59 OP:dani STATUS:               ID:20160807053735     3
+ OLDACT:UP  16-08-07 17:56 OP:dani STATUS:               ID:20160807053735     3
+ OLDACT:UP  16-08-07 17:48 OP:dani STATUS:               ID:20160807053735     3
+ OLDACT:UP  16-08-07 17:43 OP:dani STATUS:               ID:20160807053735     3
+ OLDACT:UP  16-08-07 17:43 OP:dani STATUS:               ID:20160807053735     3
+ OLDACT:UP  16-08-07 17:42 OP:dani STATUS:               ID:20160807053735     3
+ OLDACT:REG 16-08-07 13:00 OP:dani STATUS:               ID:20160807053735     3
+ 2016-08-07-0538-00M.COL___353                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        545 49.51                             170    0.2910 23.2 197 
+ BAR2 EZ ES        546  4.51                             170    0.2010 23.2 197 
+ BAR2 EZ I         546  6.86        41.7 0.64                          23.2 197 
+ BRR  HE ES        546  6.60                             151   -0.7710 74.1 298 
+ BRR  HZ I         546 11.07        14.2 0.36                          74.1 298 
+ PAM  EZ EP        545 52.40                             151    0.6310 76.2  37 
+ PAM  EZ I         546 11.04        25.8 0.72                          76.2  37 
+ RUS  HZ EP        545 53.55                             144    0.2310 99.6 178 
+ RUS  HE ES        546 12.15                             144    0.5410 99.6 178 
+ RUS  HZ I         546 13.18        10.0 0.31                          99.6 178 
+ PTB  HZ EP        545 56.02                             131   -0.87 9  150 259 
+ PTB  HE ES        546 17.82                             131   -0.15 9  150 259 
+ PTB  HZ I         546 22.39        14.4 0.48                           150 259 
+ SPBC HZ EP        545 58.43                             128    0.12 9  164 220 
+ SPBC HN ES        546 19.90                             128   -0.59 9  164 220 
+ SPBC HZ I         546 22.25        11.6 0.22                           164 220 
+ ZAR  HZ EP        546  2.81                             122    0.34 8  207 292 
+ ZAR  HE ES        546 27.72                             122   -0.18 8  207 292 
+ ZAR  HZ I         546 33.22        17.0 0.44                           207 292 
+ NOR  HZ EP        546  6.07                             118    0.40 8  237 235 
+ NOR  HE ES        546 34.69                             118    1.10 8  237 235 
+ NOR  HZ I         546 39.79         8.8 0.28                           237 235 
+ SOCV BZ EP        546 12.43                             112   -0.16 7  299  56 
+ PTGC HZ EP        546 12.81                             111   -0.61 7  307 159 
+ PTGC HN ES        546 46.26                             111   -1.13 7  307 159 
+ PTGC HZ I         546 48.12         5.1 0.44                           307 159 
+                                                                                

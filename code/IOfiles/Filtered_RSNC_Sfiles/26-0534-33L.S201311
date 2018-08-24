@@ -1,0 +1,24 @@
+ 2013 1126 0534 33.6 L   6.781 -73.160145.6  RSN  6 0.3 1.2LRSN                1
+ GAP=136        0.71       3.0     3.4  6.2 -0.4153E+00  0.2847E+01  0.1507E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 14-01-09 16:31 OP:ep   STATUS:               ID:20131126053433 L   I
+ OLDACT:UP  13-11-26 09:48 OP:mh   STATUS:               ID:20131126053000     3
+ OLDACT:REG 13-11-26 08:14 OP:mh   STATUS:               ID:20131126053000     3
+ 2013-11-26-0530-00M.COL___282                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        534 55.06                             152    0.3210 70.8 301 
+ BRR  HN ES        535 11.62                             152    0.4110 70.8 301 
+ BRR  HZ I         535 16.35         4.0 0.12            153           70.8 301 
+ PAM  SZ EP        534 56.14                             150    0.1510 80.1  39 
+ PAM  SN ES        535 13.19                             150   -0.2410 80.1  39 
+ PAM  SZ I         535 15.17         3.3 0.38            153           80.1  39 
+ RUS  HZ EP        534 57.30                             144    0.0810 98.6 175 
+ RUS  HN ES        535 15.35                             144   -0.2710 98.6 175 
+ RUS  HZ I         535 16.35         0.7 0.13            149           98.6 175 
+ PTB  HZ EP        535  0.25                             132   -0.15 9  146 260 
+ PTB  HN ES        535 21.32                             132    0.04 9  146 260 
+ PTB  HZ I         535 23.69         2.9 0.19            135            146 260 
+ OCA  HN ES        535 24.22                             129   -0.10 9  162 354 
+ OCA  HZ I         535 26.72         2.7 0.21            132            162 354 
+ ZAR  HN ES   1    535 30.56                             122   -0.68 6  203 293 
+                                                                                

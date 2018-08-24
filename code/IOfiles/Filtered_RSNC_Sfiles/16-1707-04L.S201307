@@ -1,0 +1,105 @@
+ 2013  716 1707  4.3 L   6.814 -73.141147.9  RSN 20 0.5 2.8LRSN 3.2WRSN        1
+ SPEC AVERAGE  MO 13.8 ST  8.8 OM  2.1 f0 4.44 R0.3668 AL 2.74 WI 12.5 MW  3.2 3
+ SPEC SD       MO  0.3 ST  9.4 OM  0.3 f00.993 R0.0773 AL      WI      MW  0.2 3
+ GAP=159        1.15       2.4     3.9  4.7  0.5518E+00  0.3068E+01  0.1047E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC SJC HH N MO 13.8 ST  6.9 OM  1.8 f0 4.43 R0.3508 AL 2.21 WI 15.3 MW  3.2 3
+ SPEC SJC HH N T17 837 K 0.000 GD  433 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ORTCHH N MO 14.2 ST 16.5 OM  2.2 f0 4.39 R0.3540 AL 3.88 WI 23.6 MW  3.4 3
+ SPEC ORTCHH N T17 838 K 0.000 GD  423 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PRA HH N MO 13.8 ST  4.7 OM  1.8 f0 3.93 R0.3954 AL 2.67 WI 14.7 MW  3.2 3
+ SPEC PRA HH N T17 838 K 0.000 GD  420 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC COD HH N MO 13.8 ST  2.9 OM  1.8 f0 3.49 R0.4453 AL 2.55 WI 22.1 MW  3.1 3
+ SPEC COD HH N T17 829 K 0.000 GD  377 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC DBB SH Z MO 13.7 ST  5.8 OM  1.7 f0 4.76 R0.3265 AL 3.73 WI 10.1 MW  3.1 3
+ SPEC DBB SH Z T17 827 K 0.000 GD  370 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC VIL SH N MO 14.3 ST  5.5 OM  2.4 f0 2.81 R0.5530 AL 2.85 WI  9.6 MW  3.5 3
+ SPEC VIL SH N T17 820 K 0.000 GD  338 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPECGUY2CHH N MO 14.0 ST  2.2 OM 2.13 f0 2.56 R0.6081 AL 2.84 WI 17.2 MW  3.3 3
+ SPECGUY2CHH N T17 825 K 0.000 GD  337 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 13.7 ST  3.9 OM  1.8 f0 4.08 R0.3809 AL 3.11 WI 19.5 MW  3.1 3
+ SPEC HEL HH N T17 815 K 0.000 GD  310 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.0 ST  3.4 OM  2.1 f0 3.17 R0.4902 AL 2.66 WI  7.7 MW  3.3 3
+ SPEC CHI HH N T17 811 K 0.000 GD  290 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC SML HH N MO 13.8 ST 11.1 OM  2.0 f0 5.12 R0.3035 AL 2.98 WI 13.0 MW  3.2 3
+ SPEC SML HH N T17 810 K 0.000 GD  284 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH N MO 14.1 ST 42.8 OM  2.3 f0 6.42 R0.2421 AL 5.49 WI 15.3 MW  3.4 3
+ SPEC NOR HH N T17 8 7 K 0.000 GD  278 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ZAR HH E MO 14.2 ST 12.9 OM  2.4 f0 4.12 R0.3772 AL 2.53 WI 11.0 MW  3.4 3
+ SPEC ZAR HH E T17 8 1 K 0.000 GD  251 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.1 ST 11.1 OM  2.4 f0 4.12 R0.3772 AL 2.36 WI 14.5 MW  3.4 3
+ SPEC OCA HH N T17 753 K 0.000 GD  217 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 13.9 ST  8.1 OM  2.2 f0 4.38 R0.3548 AL 2.13 WI 12.4 MW  3.2 3
+ SPEC PTB HH N T17 751 K 0.000 GD  209 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 13.6 ST  2.8 OM  2.0 f0 3.79 R0.4100 AL 2.40 WI  7.4 MW  3.0 3
+ SPEC RUS HH N T17 745 K 0.000 GD  179 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 13.7 ST  5.6 OM  2.1 f0 4.54 R0.3423 AL 2.19 WI  6.5 MW  3.1 3
+ SPEC BRR HH N T17 742 K 0.000 GD  164 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC GIR2SH Z MO 12.8 ST  2.3 OM  1.2 f0 6.88 R0.2259 AL 1.39 WI  3.3 MW  2.5 3
+ SPEC GIR2SH Z T17 739 K 0.000 GD  150 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BAR2SH Z MO 13.3 ST  2.8 OM  1.7 f0 5.06 R0.3071 AL 1.37 WI  6.7 MW  2.8 3
+ SPEC BAR2SH Z T17 738 K 0.000 GD  149 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-08-12 10:38 OP:ep   STATUS:               ID:20130716170704 L   I
+ OLDACT:UP  13-07-16 19:00 OP:nd   STATUS:               ID:20130716165959     3
+ OLDACT:REG 13-07-16 16:44 OP:nd   STATUS:               ID:20130716165959     3
+ 2013-07-16-1659-59M.COL___266                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     C 17 7 24.28                             170    0.0310 24.9 191 
+ BAR2 SZ ES       17 7 39.02                             170   -0.7710 24.9 191 
+ BAR2 SZ I        17 7 40.98       132.2 0.18            168           24.9 191 
+ GIR2 SZ EP       17 7 24.33                             168    0.1010 29.9 349 
+ GIR2 SZ ES       17 7 39.92                             168    0.1810 29.9 349 
+ GIR2 SZ I        17 7 40.70       115.0 0.12            165           29.9 349 
+ BRR  HZ IP     C 17 7 26.09                             153    0.3910 71.0 297 
+ BRR  HN ES       17 7 43.25                             153    0.8810 71.0 297 
+ BRR  HZ I        17 7 46.41       117.8 0.28            147           71.0 297 
+ RUS  HZ EP       17 7 28.15                             144   -0.2510  102 176 
+ RUS  HN ES       17 7 46.85                             144   -0.3210  102 176 
+ RUS  HZ I        17 7 48.04        58.2 0.24            142            102 176 
+ PTB  HZ EP       17 7 30.81                             132   -0.74 9  149 258 
+ PTB  HN ES       17 7 51.85                             132   -0.93 9  149 258 
+ PTB  HZ I        17 7 57.06        68.6 0.34            128            149 258 
+ OCA  HZ EP       17 7 32.38                             130   -0.30 9  159 353 
+ OCA  HN ES       17 7 54.37                             130   -0.42 9  159 353 
+ OCA  HZ I        17 8  2.52        61.1 0.44            127            159 353 
+ SPBC HZ EP       17 7 33.16                             129    0.02 9  165 219 
+ SPBC HN ES       17 7 56.08                             129    0.47 9  165 219 
+ YOP  SZ EP       17 7 34.93                             127    0.29 9  180 154 
+ YOP  SN ES       17 7 59.23                             127    0.95 9  180 154 
+ YOP  SZ I        17 8  2.66        29.6 0.46            125            180 154 
+ ZAR  HZ EP       17 7 36.78                             123   -0.13 9  204 292 
+ ZAR  HE ES       17 8  2.23                             123   -0.10 9  204 292 
+ ZAR  HZ I        17 8  8.65        70.7 0.36            119            204 292 
+ NOR  HZ EP       17 7 40.42                             119    0.09 8  236 234 
+ NOR  HN ES       17 8  8.32                             119   -0.09 8  236 234 
+ NOR  HZ I        17 8 17.86        30.9 0.18            116            236 234 
+ SML  HZ EP       17 7 40.70                             118   -0.26 8  243 335 
+ SML  HN ES       17 8 10.45                             118    0.93 8  243 335 
+ SML  HZ I        17 8 14.86        55.6 0.22            115            243 335 
+ CHI  HZ EP       17 7 42.05                             117   -0.27 8  250 195 
+ CHI  HN ES       17 8 11.72                             117   -0.24 8  250 195 
+ CHI  HZ I        17 8 16.92        33.5 0.42            115            250 195 
+ HEL  HZ EP       17 7 45.91                             115    1.16 8  273 256 
+ HEL  HN ES       17 8 16.84                             115    0.56 8  273 256 
+ HEL  HZ I        17 8 22.37        33.7 0.28            112            273 256 
+ GUY2CHZ EP   4   17 7 48.96                             113    0.77 0  303 235 
+ GUY2CHN ES   4   17 8 25.96                             113    3.56 0  303 235 
+ GUY2CHZ I        17 8 30.55        39.5 0.32                           303 235 
+ VIL  SZ EP       17 7 47.94                             112   -0.09 7  305 192 
+ VIL  SN ES       17 8 21.91                             112   -0.20 7  305 192 
+ VIL  SZ I        17 8 32.49        47.5 0.58            110            305 192 
+ DBB  SZ EP       17 7 51.66                             110   -0.29 7  340 274 
+ DBB  SZ I        17 8 29.85        25.5 0.34            107            340 274 
+ COD  HZ EP       17 7 52.05                             109   -0.58 6  347 354 
+ COD  HN ES       17 8 30.37                             109    0.07 6  347 354 
+ COD  HZ I        17 8 40.81        10.2 0.50            107            347 354 
+ PRA  HZ EP       17 7 57.91                             107   -0.20 6  394 210 
+ PRA  HN ES       17 8 39.87                             107   -0.19 6  394 210 
+ PRA  HZ I        17 8 46.22        29.7 0.34            105            394 210 
+ ORTC HZ EP       17 7 58.70                             107    0.20 6  397 216 
+ ORTC HN ES       17 8 40.96                             107    0.20 6  397 216 
+ ORTC HZ I        17 8 45.72        20.6 0.26            105            397 216 
+ SJC  HZ IP   4 C 17 7 58.48                             106   -1.37 0  408 327 
+ SJC  HN ES   4   17 8 38.53                             106   -4.63 0  408 327 
+ SJC  HZ I        17 8 43.63        10.5 0.54            104            408 327 
+                                                                                

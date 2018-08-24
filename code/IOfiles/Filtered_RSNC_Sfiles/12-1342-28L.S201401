@@ -1,0 +1,25 @@
+ 2014  112 1342 28.5 L   6.543 -73.587116.1  RSN  5 0.4 1.9LRSN                1
+ GAP=128        0.99       5.9     4.6  9.5  0.9008E-01 -0.4736E+01  0.6438E+01E
+ Epicentro: EL CARMEN DE CHUCURI - SANTANDER                                   3
+ ACTION:UPD 14-03-13 09:54 OP:ep   STATUS:               ID:20140112134228 L   I
+ OLDACT:UP  14-01-13 11:47 OP:ep   STATUS:               ID:20140112134228 L   3
+ OLDACT:UP  14-01-13 05:38 OP:MIGU STATUS:               ID:20140112134228 L   3
+ OLDACT:REG 14-01-12 16:16 OP:stll STATUS:               ID:20140112133816     3
+ 2014-01-12-1338-16M.COL___243                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1342 45.55                             157    0.2310 45.1  83 
+ BAR2 SZ ES   1   1342 58.38                             157   -0.09 7 45.1  83 
+ BAR2 SZ I        1342 59.18       175.5 0.42            161           45.1  83 
+ BRR  HZ EP   1   1342 46.37                             149    0.37 7 63.9 348 
+ BRR  HE ES       1343  0.28                             149    0.5910 63.9 348 
+ BRR  HZ I        1343  5.83        14.9 0.12            150           63.9 348 
+ RUS  HZ EP   1   1342 48.66                             140    0.02 7 91.0 142 
+ RUS  HN ES   1   1343  4.48                             140    0.10 7 91.0 142 
+ RUS  HZ I        1343  5.64         6.2 0.36            145           91.0 142 
+ PTB  HZ EP   1   1342 48.38                             138   -0.01 7 96.2 270 
+ PTB  HZ I        1342 48.61        20.8 0.18            140           96.2 270 
+ PTB  HN ES       1343  3.43                             138   -0.5210 96.2 270 
+ PAM  SZ EP   1   1342 52.29                             128    0.06 7  132  48 
+ PAM  SN ES   1   1343  9.71                             128   -1.07 7  132  48 
+ PAM  SZ I        1343 11.09         4.9 0.46            132            132  48 
+                                                                                

@@ -1,0 +1,23 @@
+ 2016 1028 2027 35.5 L   6.775 -73.112144.3  RSN  5 0.3 1.5LRSN                1
+ GAP=142        0.56       4.3     5.2  4.9  0.3652E+01 -0.4792E+01  0.6368E-01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-11-09 19:23 OP:rebc STATUS:               ID:20161028202735 L   I
+ OLDACT:UP  16-10-29 04:14 OP:and  STATUS:               ID:20161028201753d    3
+ OLDACT:DUP 16-10-29 04:08 OP:and  STATUS:               ID:20161028201753d    3
+ OLDACT:DUP 16-10-29 03:38 OP:and  STATUS:               ID:20161028201752d    3
+ 2016-10-28-2018-00M.COL___349                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ ES       2028  9.83                             171   -0.2410 21.7 201 
+ BRR  HZ EP       2027 56.69                             151   -0.0710 75.8 299 
+ BRR  HE ES       2028 13.56                             151    0.2210 75.8 299 
+ BRR  HZ I        2028 14.31        12.5 0.46            150           75.8 299 
+ PAM  EZ IP     C 2027 57.65                             150    0.1010 77.3  36 
+ PAM  EN ES   2   2028 14.47                             150   -0.28 5 77.3  36 
+ PAM  EZ I        2028 15.01         3.5 0.18            153           77.3  36 
+ RUS  HZ EP       2027 59.08                             144    0.1810 97.7 178 
+ RUS  HN ES   2   2028 17.32                             144    0.17 5 97.7 178 
+ RUS  HZ I        2028 18.36         3.6 0.24            144           97.7 178 
+ PTB  HZ EP   2   2028  1.88                             131   -0.76 5  151 260 
+ PTB  HN ES   4   2028 22.13                             131   -1.67 0  151 260 
+ PTB  HZ I        2028 25.35         3.9 0.17            131            151 260 
+                                                                                

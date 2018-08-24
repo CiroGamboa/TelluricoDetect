@@ -1,0 +1,25 @@
+ 2012  7 9 1600 15.2 L   7.356 -73.120 12.3  RSN  7 0.5 2.7LRSN                1
+ GAP=105        1.19       3.5     3.1  6.0 -0.1138E+00  0.6337E+01  0.2406E+01E
+ Epicentro: RIONEGRO - SANTANDER                                               3
+ ACTION:UPD 12-08-14 11:43 OP:ep   STATUS:               ID:20120709160015 L   I
+ 2012-07-09-1600-00M.COL___201                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ EP       16 0 23.74                             102     0.310   47  92 
+ PAM  SE ES   1   16 0 29.98                             102     0.1 7   47  92 
+ BRR  HZ EP       16 0 26.76                              97     0.210   71 247 
+ BRR  HN ES       16 0 35.66                              97     0.210   71 247 
+ BRR  HZ I        16 0 37.15       185.0 0.30                            71 247 
+ BAR2 SZ EP       16 0 29.03                              96     0.110   85 185 
+ BAR2 SZ ES   1   16 0 38.80                              96    -0.9 7   85 185 
+ BAR2 SZ I        16 0 40.42       155.7 0.15                            85 185 
+ OCA  HN ES   1   16 0 42.60                              95    -1.0 7  100 347 
+ OCA  HZ I        16 0 44.04       224.6 0.30                           100 347 
+ RUS  HZ EP   1   16 0 40.49                              56    -0.1 7  162 179 
+ RUS  HN ES   1   16 1  0.11                              56    -0.2 7  162 179 
+ RUS  HZ I        16 1  5.64        41.7 0.31                           162 179 
+ PTB  HZ EP       16 0 41.56                              56     0.2 9  173 239 
+ PTB  HN ES   1   16 1  1.08                              56    -0.7 7  173 239 
+ PTB  HZ I        16 1  3.61       101.3 0.40                           173 239 
+ ZAR  HZ EP       16 0 44.42                              56     0.6 9  192 275 
+ ZAR  HE ES   1   16 1  6.33                              56     0.2 7  192 275 
+ ZAR  HZ I        16 1  8.57       151.1 0.49                           192 275 

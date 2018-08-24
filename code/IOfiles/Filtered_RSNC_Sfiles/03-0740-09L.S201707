@@ -1,0 +1,20 @@
+ 2017  7 3 0740  9.4 L   6.698 -73.105144.2  RSN  4 0.2 1.1LRSN                1
+ GAP=272        0.53       4.0     5.1  5.1 -0.4565E+01 -0.7402E+01  0.2152E+01E
+ Epicentro: JORDAN - SANTANDER                                                 3
+ ACTION:UPD 17-08-30 15:29 OP:rebc STATUS:               ID:20170703074009 L   I
+ OLDACT:DUP 17-07-03 17:14 OP:edw  STATUS:               ID:20170703073740d    3
+ OLDACT:UP  17-07-03 17:12 OP:edw  STATUS:               ID:20170703073739     3
+ OLDACT:REG 17-07-03 14:01 OP:edw  STATUS:               ID:20170703073739     3
+ 2017-07-03-0738-00M.COL___365                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        740 28.86                             174    0.1610 14.5 216 
+ BAR2 EZ ES        740 43.59                             174   -0.1610 14.5 216 
+ BAR2 EZ I         740 45.31         3.4 0.40            173           14.5 216 
+ BRR  HZ EP     D  740 30.74                             149   -0.2310 80.9 304 
+ BRR  HN ES        740 47.98                             149    0.1910 80.9 304 
+ BRR  HZ I         740 50.88         3.5 0.42            147           80.9 304 
+ PTB  HZ EP   9    740 35.63                             131   -0.87 0  151 263 
+ PTB  HN ES        740 56.52                             132   -0.24 9  151 263 
+ PTB  HZ I         740 59.84         1.0 0.10            131            151 263 
+ SPBC HN ES        740 59.03                             130    0.04 9  158 223 
+                                                                                

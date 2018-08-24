@@ -1,0 +1,27 @@
+ 2016  612 0346 35.3 L   6.789 -73.156142.6  RSN  7 0.5 1.5LRSN                1
+ GAP=136        1.29       4.8     6.3  9.4 -0.6807E+01  0.7955E+01  0.9928E-01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 16-07-21 22:17 OP:rebc STATUS:               ID:20160612034635 L   I
+ OLDACT:UP  16-06-14 16:11 OP:nlst STATUS:               ID:20160612034635 L   3
+ OLDACT:REG 16-06-12 12:42 OP:dani STATUS:               ID:20160612033742     3
+ 2016-06-12-0337-42M.COL___325                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP     C  346 54.64                             171    0.1310 22.0 188 
+ BAR2 EZ ES        347  9.40                             171   -0.1010 22.0 188 
+ BAR2 EZ I         347 10.45         4.8 0.18                          22.0 188 
+ BRR  HZ EP        346 56.50                             152    0.4310 70.8 300 
+ BRR  HN ES        347 13.06                             152    0.7810 70.8 300 
+ BRR  HZ I         347 17.73         9.6 0.48                          70.8 300 
+ PAM  EZ EP     C  346 57.66                             150    0.4010 79.0  40 
+ PAM  EN ES        347 14.40                             150   -0.0010 79.0  40 
+ PAM  EZ I         347 18.75         3.5 0.48                          79.0  40 
+ RUS  HZ EP        346 58.81                             143    0.1710 99.5 175 
+ RUS  HN ES        347 16.13                             143   -0.7410 99.5 175 
+ RUS  HZ I         347 17.87         1.9 0.22                          99.5 175 
+ PTB  HZ EP        347  1.39                             131   -0.48 9  146 259 
+ PTB  HN ES        347 22.07                             131   -0.54 9  146 259 
+ PTB  HZ I         347 25.00         4.8 0.16                           146 259 
+ OCA  HE ES        347 24.65                             129   -0.76 9  161 354 
+ OCA  HZ I         347 28.10         9.3 0.34                           161 354 
+ SPBC HE ES        347 25.86                             129    0.55 9  162 219 
+                                                                                

@@ -1,0 +1,31 @@
+ 2016  9 8 0514 45.3 L   7.459 -73.517100.0  RSN  8 0.3 1.3LRSN                1
+ GAP= 96        0.70       2.4     2.5  5.0 -0.1225E+01  0.3190E+01  0.1803E+01E
+ Epicentro: SABANA DE TORRES - SANTANDER                                       3
+ ACTION:UPD 17-08-17 21:07 OP:lp   STATUS:               ID:20160908051445 L   I
+ OLDACT:UP  16-09-08 19:00 OP:dani STATUS:               ID:20160908050740     3
+ OLDACT:REG 16-09-08 18:55 OP:dani STATUS:               ID:20160908050740     3
+ 2016-09-08-0508-00M.COL___351                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        514 59.77                             154   -0.2110 44.5 209 
+ BRR  HN ES        515 11.69                             154    0.2410 44.5 209 
+ BRR  HZ I         515 12.58         5.9 0.14            137           44.5 209 
+ OCA  HZ EP        515  3.00                             135   -0.3910 88.9  14 
+ OCA  HE ES        515 17.77                             135    0.2510 88.9  14 
+ OCA  HZ I         515 18.94        12.3 0.19            120           88.9  14 
+ PAM  EZ EP        515  4.11                             134    0.0610 91.2  98 
+ PAM  EE ES        515 18.51                             134   -0.1710 91.2  98 
+ PAM  EZ I         515 20.32         5.5 0.45            116           91.2  98 
+ PTB  HZ EP   4    515  6.23                             119   -2.50 0  145 226 
+ PTB  HE ES        515 26.57                             119   -0.44 9  145 226 
+ PTB  HZ I         515 28.29         2.6 0.20            105            145 226 
+ ZAR  HZ EP        515  9.27                             119    0.26 9  148 272 
+ ZAR  HE ES   4	   515 29.43                             119    1.92 0  148 272 
+ ZAR  HZ I         515 31.79         4.9 0.26            106            148 272 
+ RUS  HZ EP        515 13.50                             114    0.40 9  180 164 
+ RUS  HZ I         515 41.29         0.7 0.22            101            180 164 
+ SPBC HZ EP        515 15.74                             110   -0.17 8  209 197 
+ SPBC HN ES        515 40.01                             110    0.21 8  209 197 
+ SPBC HZ I         515 46.11         3.0 0.31             99            209 197 
+ URE  HN ES        515 42.91                             108    0.05 8  225 278 
+ URE  HZ I         515 50.10         2.8 0.20             99            225 278 
+                                                                                

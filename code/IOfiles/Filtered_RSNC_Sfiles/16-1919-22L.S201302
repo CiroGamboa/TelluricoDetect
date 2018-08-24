@@ -1,0 +1,50 @@
+ 2013  216 1919 22.2 L   6.792 -73.134148.0  RSN 11 0.5 3.0LRSN 3.1WRSN        1
+ SPEC AVERAGE  MO 13.8 ST  1.7 OM  2.6 f0 2.78 R0.5727 AL 2.43 WI 15.5 MW  3.1 3
+ SPEC SD       MO  0.2 ST0.884 OM  0.6 f00.733 R0.1696 AL      WI      MW  0.1 3
+ GAP= 72        0.97       3.3     3.9  6.2  0.1783E+01  0.3735E+01 -0.2311E+00E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC TAM HH N MO 13.5 ST  1.1 OM  1.8 f0 2.88 R0.5104 AL 3.00 WI 15.9 MW  3.0 3
+ SPEC TAM HH N T1920 9 K 0.000 GD  213 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 14.0 ST0.733 OM  2.3 f0 1.72 R0.8547 AL 0.93 WI 17.2 MW  3.3 3
+ SPEC PTB HH N T1920 9 K 0.000 GD  210 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 13.6 ST  2.7 OM  2.0 f0 3.53 R0.4164 AL 3.16 WI  9.9 MW  3.0 3
+ SPEC RUS HH N T1920 3 K 0.000 GD  178 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 13.9 ST  1.2 OM  2.3 f0 2.19 R0.6712 AL 2.03 WI 13.6 MW  3.2 3
+ SPEC PAM SH N T1920 1 K 0.000 GD  166 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 13.7 ST  2.9 OM  1.8 f0 3.58 R0.4106 AL 3.01 WI 21.0 MW  3.0 3
+ SPEC CHI HH N T192028 K 0.000 GD  288 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-03-12 09:33 OP:ep   STATUS:               ID:20130216191922 L   I
+ 2013-02-16-1918-49M.COL___201                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       1919 42.19                             171    0.1510 22.7 194 
+ BAR2 SZ ES   1   1919 57.79                             171    0.23 7 22.7 194 
+ BAR2 SZ I        1919 59.03       168.4 0.30            170           22.7 194 
+ BRR  HZ IP     C 1919 44.10                             152    0.4610 72.8 299 
+ BRR  HN ES   1   1920  1.16                             152    0.77 7 72.8 299 
+ BRR  HN I        1920  2.29       262.7 0.34            151           72.8 299 
+ PAM  SZ EP   1   1919 44.93                             151    0.33 7 77.3  38 
+ PAM  SN ES   1   1920  2.15                             151    0.03 7 77.3  38 
+ PAM  SN I        1920  3.40       198.9 0.22            154           77.3  38 
+ RUS  HZ EP   1   1919 46.06                             145    0.00 7 99.6 177 
+ RUS  HN ES       1920  4.51                             145   -0.1910 99.6 177 
+ RUS  HN I        1920  6.41        93.6 0.18            146           99.6 177 
+ PTB  HZ EP       1919 48.75                             132   -0.65 9  149 259 
+ PTB  HN ES   1   1920 10.23                             132   -0.43 7  149 259 
+ PTB  HN I        1920 15.26       161.0 0.34            132            149 259 
+ TAM  HZ IP     D 1919 50.35                             131    0.47 9  154 105 
+ TAM  HN ES   1   1920 10.58                             131   -0.92 7  154 105 
+ TAM  HN I        1920 12.81        35.1 0.30            134            154 105 
+ OCA  HZ EP   1   1919 50.39                             130   -0.35 7  161 353 
+ OCA  HN ES   1   1920 12.47                             130   -0.57 7  161 353 
+ OCA  HN I        1920 20.57       213.9 0.22            131            161 353 
+ ZAR  HZ EP   1   1919 55.77                             123    0.87 6  206 292 
+ ZAR  HN ES   1   1920 20.41                             123   -0.04 6  206 292 
+ ZAR  HN I        1920 25.79        82.5 0.20            123            206 292 
+ SML  HZ EP   1   1919 58.78                             118   -0.27 6  245 335 
+ SML  HN ES   1   1920 27.26                             118   -0.58 6  245 335 
+ SML  HN I        1920 30.44       161.8 0.10            119            245 335 
+ CHI  HZ EP       1920  0.38                             118    0.46 8  248 196 
+ CHI  HN ES       1920 29.00                             118   -0.38 8  248 196 
+ CHI  HN I        1920 37.92        22.3 0.30            119            248 196 
+ DBB  SZ EP   1   1920  9.75                             110   -0.13 5  341 274 
+                                                                                

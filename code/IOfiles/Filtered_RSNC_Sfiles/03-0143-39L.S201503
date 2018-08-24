@@ -1,0 +1,20 @@
+ 2015  3 3 0143 39.3 L   7.515 -73.170141.7  RSN  4 0.3 1.7LRSN                1
+ GAP=145        0.75       5.1     4.7  7.1 -0.3232E+01  0.1178E+02 -0.8845E+01E
+ Epicentro: EL PLAYON - SANTANDER                                              3
+ ACTION:UPD 15-04-30 16:22 OP:nd   STATUS:               ID:20150303014339 L   I
+ OLDACT:REG 15-03-03 12:34 OP:spq  STATUS:               ID:20150303013750     3
+ 2015-03-03-0137-50M.COL___287                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ PAM  SZ EP        144  0.17                             158    0.3010 55.4 110 
+ PAM  SE ES        144 15.62                             158   -0.3210 55.4 110 
+ PAM  SZ I         144 18.65         7.5 0.46            164           55.4 110 
+ BRR  HZ EP   1    144  0.30                             151    0.10 7 74.9 233 
+ BRR  HN ES        144 16.85                             151    0.3210 74.9 233 
+ BRR  HZ I         144 17.64        19.6 0.44            152           74.9 233 
+ SML  HZ EP   1    144  8.76                             126    0.42 7  174 325 
+ SML  HN ES   1    144 30.73                             126   -0.28 7  174 325 
+ SML  HZ I         144 37.20         7.2 0.22            126            174 325 
+ PTB  HZ EP        144  8.37                             125   -0.48 9  178 233 
+ PTB  HN ES   1    144 31.85                             125   -0.08 7  178 233 
+ PTB  HZ I         144 36.13         3.9 0.18            128            178 233 
+                                                                                

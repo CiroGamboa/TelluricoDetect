@@ -1,0 +1,23 @@
+ 2016 12 3 0229 21.3 L   7.112 -73.888 93.3  RSN  5 0.5 1.5LRSN                1
+ GAP=148        0.76       4.9     2.9  6.2  0.1254E+01  0.1807E+01 -0.6232E+01E
+ Epicentro: BARRANCABERMEJA - SANTANDER                                        3
+ ACTION:UPD 17-01-11 20:12 OP:rebc STATUS:               ID:20161203022921 L   I
+ OLDACT:UP  16-12-03 13:48 OP:dani STATUS:               ID:20161203022743     3
+ OLDACT:UP  16-12-03 13:47 OP:dani STATUS:               ID:20161203022743     3
+ OLDACT:REG 16-12-03 12:33 OP:dnl  STATUS:               ID:20161203022743     3
+ 2016-12-03-0228-00M.COL___351                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP     D  229 34.53                             167    0.3010 19.4  91 
+ BRR  HN ES        229 44.35                             167    0.0610 19.4  91 
+ BRR  HZ I         229 44.90        15.0 0.40            171           19.4  91 
+ PTB  HZ EP        229 39.02                             133    0.3210 89.2 225 
+ PTB  HN ES        229 51.92                             133   -0.3310 89.2 225 
+ PTB  HZ I         229 53.72         3.7 0.11            134           89.2 225 
+ ZAR  HZ EP   3    229 40.30                             125   -0.89 2  115 292 
+ ZAR  HE ES        229 56.77                             125    0.1110  115 292 
+ ZAR  HZ I         230  0.34         7.3 0.11            124            115 292 
+ PAM  EZ EP        229 43.42                             121   -0.3110  134  79 
+ URE  HZ EP   3    229 51.93                             111    1.99 2  195 291 
+ URE  HN ES        230 11.97                             111   -0.28 9  195 291 
+ URE  HZ I         230 16.07         6.5 0.21            111            195 291 
+                                                                                

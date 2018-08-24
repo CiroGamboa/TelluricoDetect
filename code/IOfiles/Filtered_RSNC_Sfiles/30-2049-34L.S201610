@@ -1,0 +1,24 @@
+ 2016 1030 2049 34.7 L   6.847 -73.009141.6  RSN  5 0.3 1.4LRSN                1
+ GAP=152        0.72       4.1     5.7  5.7  0.2935E+01  0.9634E+01  0.4691E+01E
+ Epicentro: CEPITA - SANTANDER                                                 3
+ ACTION:UPD 16-11-09 19:24 OP:rebc STATUS:               ID:20161030204934 L   I
+ OLDACT:UP  16-10-31 07:33 OP:and  STATUS:               ID:20161030204743     3
+ OLDACT:UP  16-10-31 07:30 OP:and  STATUS:               ID:20161030204743     3
+ OLDACT:REG 16-10-31 06:57 OP:and  STATUS:               ID:20161030204743     3
+ 2016-10-30-2048-00M.COL___325                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       2049 54.24                             166    0.1310 34.0 214 
+ BAR2 EZ ES       2050  9.57                             166    0.3310 34.0 214 
+ BAR2 EZ I        2050 10.16         8.2 0.15            171           34.0 214 
+ PAM  EZ EP   4   2049 56.99                             154    1.25 0 64.3  32 
+ PAM  EN ES       2050 11.94                             154   -0.2010 64.3  32 
+ PAM  EZ I        2050 17.63         3.6 0.38            151           64.3  32 
+ BRR  HZ EP       2049 56.09                             148   -0.0310 82.9 290 
+ BRR  HN ES       2050 12.87                             148    0.0410 82.9 290 
+ RUS  HZ EP       2049 58.82                             141    0.3810  106 184 
+ RUS  HN ES       2050 16.53                             141   -0.4210  106 184 
+ RUS  HZ I        2050 17.46         3.3 0.23            145            106 184 
+ PTB  HZ EP       2050  2.56                             128   -0.27 9  164 258 
+ PTB  HN ES   4   2050 21.74                             128   -3.03 0  164 258 
+ PTB  HZ I        2050 24.22         4.8 0.20            131            164 258 
+                                                                                

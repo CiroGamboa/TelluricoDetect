@@ -1,0 +1,60 @@
+ 2016  7 7 0226 29.7 L   5.905 -73.640119.6  RSN 13 0.3 1.8LRSN                1
+ GAP= 71        0.75       2.3     2.4  5.0  0.4792E+00  0.5588E+01  0.3933E+01E
+ Epicentro: BARBOSA - SANTANDER                                                3
+ ACTION:UPD 17-03-29 16:47 OP:lp   STATUS:               ID:20160707022629 L   I
+ OLDACT:UP  16-07-07 15:29 OP:dani STATUS:               ID:20160707021746d    3
+ OLDACT:UP  16-07-07 15:29 OP:dani STATUS:               ID:20160707021746d    3
+ OLDACT:UP  16-07-07 15:27 OP:dani STATUS:               ID:20160707021746d    3
+ OLDACT:UP  16-07-07 15:27 OP:dani STATUS:               ID:20160707021746d    3
+ OLDACT:DUP 16-07-07 15:15 OP:dani STATUS:               ID:20160707021746d    3
+ OLDACT:UP  16-07-07 15:11 OP:dani STATUS:               ID:20160707021745d    3
+ OLDACT:UP  16-07-07 15:11 OP:dani STATUS:               ID:20160707021745d    3
+ OLDACT:UP  16-07-07 15:10 OP:dani STATUS:               ID:20160707021745d    3
+ OLDACT:UP  16-07-07 15:09 OP:dani STATUS:               ID:20160707021745d    3
+ OLDACT:UP  16-07-07 15:08 OP:dani STATUS:               ID:20160707021745d    3
+ OLDACT:UP  16-07-07 15:08 OP:dani STATUS:               ID:20160707021745d    3
+ OLDACT:UP  16-07-07 15:08 OP:dani STATUS:               ID:20160707021745d    3
+ OLDACT:UP  16-07-07 15:08 OP:dani STATUS:               ID:20160707021745d    3
+ OLDACT:UP  16-07-07 15:07 OP:dani STATUS:               ID:20160707021745d    3
+ OLDACT:UP  16-07-07 15:04 OP:dani STATUS:               ID:20160707021745d    3
+ OLDACT:DUP 16-07-07 15:01 OP:dani STATUS:               ID:20160707021745d    3
+ 2016-07-07-0217-43M.COL___328                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ EP        226 47.16                             154   -0.1010 55.4 240 
+ SPBC HN ES   2    227  0.98                             154    0.02 5 55.4 240 
+ SPBC HZ I         227  2.77        16.4 0.14            150           55.4 240 
+ RUS  HZ EP        226 48.06                             151   -0.1310 61.7  91 
+ RUS  HE ES        227  2.98                             151    0.3610 61.7  91 
+ RUS  HZ I         227  5.04         5.9 0.28            156           61.7  91 
+ BAR2 EZ EP        226 49.96                             140    0.0910 91.3  34 
+ BAR2 EZ ES        227  5.67                             140    0.0610 91.3  34 
+ BAR2 EZ I         227  6.89        46.5 0.54            143           91.3  34 
+ PTB  HZ EP   4    226 50.29                             133   -1.21 0  114 308 
+ PTB  HE ES        227  8.18                             133   -0.3410  114 308 
+ PTB  HZ I         227 15.52         6.1 0.26            132            114 308 
+ BRR  HZ EP        226 52.97                             128   -0.2510  133 357 
+ BRR  HN ES        227 11.70                             128    0.1310  133 357 
+ BRR  HZ I         227 12.53        15.0 0.40            129            133 357 
+ NOR  HZ EP        226 54.08                             127    0.00 9  141 255 
+ NOR  HE ES   4    227 14.47                             127    1.38 0  141 255 
+ NOR  HZ I         227 16.30        18.4 0.14            125            141 255 
+ GUY2CHZ EP        227  1.98                             116    0.65 8  205 249 
+ GUY2CHN ES        227 25.49                             116   -0.51 8  205 249 
+ GUY2CHE ES        227 27.81                             115            205 249 
+ GUY2CHZ I         227 32.82         3.8 0.34                           205 249 
+ HEL  HZ EP        227  1.67                             115   -0.19 8  211 279 
+ HEL  HE ES   4    227 25.92                             115   -1.03 0  211 279 
+ HEL  HZ I         227 33.50         3.7 0.18            115            211 279 
+ ZAR  HZ EP        227  2.88                             114    0.40 8  221 323 
+ ZAR  HN ES        227 28.05                             114   -0.01 8  221 323 
+ ZAR  HZ I         227 33.12         6.8 0.34            114            221 323 
+ PTGC HE ES        227 33.60                             111   -0.61 8  252 138 
+ CBOC HZ EP        227  7.42                             110    0.03 8  263 269 
+ CBOC HN ES        227 36.73                             110   -0.07 8  263 269 
+ CBOC HZ I         227 38.63         3.6 0.46            109            263 269 
+ PRA  HZ EP        227  8.90                             108   -0.20 7  279 210 
+ PRA  HN ES        227 40.55                             108    0.72 7  279 210 
+ PRA  HZ I         227 46.27         4.7 0.42            108            279 210 
+ PAL  HZ EP        227 13.14                             106    0.03 7  313 249 
+ PAL  HZ I         227 36.18         3.0 0.16            106            313 249 
+                                                                                

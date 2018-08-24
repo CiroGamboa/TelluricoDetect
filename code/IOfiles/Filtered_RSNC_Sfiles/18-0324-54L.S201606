@@ -1,0 +1,27 @@
+ 2016  618 0324 54.0 L   6.843 -73.214138.8  RSN  6 0.4 1.3LRSN                1
+ GAP=176        0.87       4.1     6.4  9.8 -0.3109E+01  0.2638E+02 -0.1262E+02E
+ Epicentro: ZAPATOCA - SANTANDER                                               3
+ ACTION:UPD 16-07-21 22:20 OP:rebc STATUS:               ID:20160618032454 L   I
+ OLDACT:UP  16-06-18 17:11 OP:dani STATUS:               ID:20160618031749d    3
+ OLDACT:UP  16-06-18 17:10 OP:dani STATUS:               ID:20160618031749d    3
+ OLDACT:DUP 16-06-18 17:06 OP:dani STATUS:               ID:20160618031749d    3
+ OLDACT:UP  16-06-18 17:05 OP:dani STATUS:               ID:20160618031748     3
+ OLDACT:UP  16-06-18 17:05 OP:dani STATUS:               ID:20160618031748     3
+ OLDACT:REG 16-06-18 12:38 OP:dani STATUS:               ID:20160618031748     3
+ 2016-06-18-0317-48M.COL___346                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        325 12.65                             168   -0.2910 27.9 173 
+ BAR2 EZ ES        325 27.64                             168   -0.0410 27.9 173 
+ BAR2 EZ I         325 28.22         3.8 0.26                          27.9 173 
+ BRR  HZ EP        325 14.67                             154    0.7210 62.4 298 
+ BRR  HZ I         325 30.26        10.4 0.34                          62.4 298 
+ RUS  HZ I         325 35.55         1.8 0.48                           106 172 
+ RUS  HE ES        325 35.81                             141   -0.0410  106 172 
+ PTB  HZ EP        325 19.55                             132   -0.32 9  141 256 
+ PTB  HE ES        325 39.85                             132   -0.16 9  141 256 
+ PTB  HZ I         325 42.79         1.5 0.28                           141 256 
+ OCA  HN ES        325 42.47                             129   -0.10 9  155 356 
+ OCA  HZ I         325 50.49         5.9 0.50                           155 356 
+ SPBC HN ES   2    325 44.42                             127    0.73 5  162 216 
+ SPBC HZ I         325 44.55         2.6 0.24                           162 216 
+                                                                                

@@ -1,0 +1,40 @@
+ 2015  625 0222 57.9 L   7.383 -73.749 92.9  RSN  8 0.4 1.8LRSN                1
+ GAP=118        0.89       2.8     3.0  6.1  0.2541E+01  0.4505E+01 -0.1434E+00E
+ Epicentro: PUERTO WILCHES - SANTANDER                                         3
+ ACTION:UPD 15-09-10 22:14 OP:cam  STATUS:               ID:20150625022257 L   I
+ OLDACT:UP  15-06-25 14:25 OP:mh   STATUS:               ID:20150625021749d    3
+ OLDACT:DUP 15-06-25 14:23 OP:mh   STATUS:               ID:20150625021749d    3
+ OLDACT:UP  15-06-25 14:23 OP:mh   STATUS:               ID:20150625021748     3
+ OLDACT:UP  15-06-25 14:23 OP:mh   STATUS:               ID:20150625021748     3
+ OLDACT:UP  15-06-25 14:22 OP:mh   STATUS:               ID:20150625021748     3
+ OLDACT:UP  15-06-25 14:22 OP:mh   STATUS:               ID:20150625021748     3
+ OLDACT:UP  15-06-25 14:20 OP:mh   STATUS:               ID:20150625021748     3
+ OLDACT:REG 15-06-25 12:08 OP:mh   STATUS:               ID:20150625021748     3
+ 2015-06-25-0217-48M.COL___322                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        223 11.10                             160   -0.0210 30.8 172 
+ BRR  HN ES        223 21.44                             160   -0.0110 30.8 172 
+ BRR  HZ I         223 21.46        64.4 0.12            160           30.8 172 
+ OCA  HZ EP        223 16.91                             128   -0.0710  106  27 
+ OCA  HN ES        223 32.23                             128    0.3610  106  27 
+ OCA  HZ I         223 34.37        24.1 0.16            126            106  27 
+ BAR2 EZ EP        223 17.33                             127    0.0810  108 144 
+ BAR2 EZ ES        223 31.87                             127   -0.4910  108 144 
+ BAR2 EZ I         223 33.68         9.2 0.19            126            108 144 
+ ZAR  HZ EP        223 18.25                             123   -0.2710  123 276 
+ ZAR  HN ES        223 34.75                             123    0.1410  123 276 
+ ZAR  HZ I         223 39.44        14.2 0.12            120            123 276 
+ RUS  HZ EP        223 25.21                             113   -0.22 9  181 156 
+ RUS  HN ES        223 47.29                             113    0.38 9  181 156 
+ RUS  HZ I         223 51.33         3.2 0.22            112            181 156 
+ URE  HZ EP        223 27.76                             110    0.58 9  201 282 
+ URE  HN ES   4    223 49.00                             110   -1.03 0  201 282 
+ URE  HZ I         223 51.08         8.3 0.34            108            201 282 
+ HEL  HN ES   1    223 58.82                             107    0.54 6  237 236 
+ HEL  HZ I         224  2.69         5.9 0.23            105            237 236 
+ MON  HZ EP   4    223 30.37                             105   -3.91 0  262 306 
+ MON  HN ES        224  1.85                             105   -0.82 8  262 306 
+ MON  HZ I         224 12.22         2.0 0.42            104            262 306 
+ SJC  HZ EP   4    223 39.59                             102   -1.73 0  319 331 
+ SJC  HN ES   4    224 12.99                             102   -2.21 0  319 331 
+                                                                                

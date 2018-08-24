@@ -1,0 +1,39 @@
+ 2017  120 0451 56.5 L   6.840 -73.423122.1  RSN  9 0.4 1.8LRSN                1
+ GAP= 85        0.81       2.9     2.9  4.7  0.1135E+01  0.3175E+01  0.3110E+00E
+ Epicentro: SAN VICENTE DE CHUCURI - SANTANDER                                 3
+ ACTION:UPD 17-05-22 16:01 OP:jn   STATUS:               ID:20170120045156 L   I
+ OLDACT:UP  17-01-20 16:14 OP:dani STATUS:               ID:20170120044743d    3
+ OLDACT:UP  17-01-20 16:14 OP:dani STATUS:               ID:20170120044743d    3
+ OLDACT:UP  17-01-20 16:14 OP:dani STATUS:               ID:20170120044743d    3
+ OLDACT:UP  17-01-20 16:13 OP:dani STATUS:               ID:20170120044743d    3
+ OLDACT:DUP 17-01-20 16:07 OP:dani STATUS:               ID:20170120044743d    3
+ 2017-01-20-0448-00M.COL___313                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP     D  452 13.96                             162    0.1610 38.2 136 
+ BAR2 EZ ES        452 27.07                             162   -0.1910 38.2 136 
+ BAR2 EZ I         452 27.94        22.8 0.22            164           38.2 136 
+ BRR  HZ IP     D  452 13.91        17.5 0.44            159    0.2510 43.4 313 
+ BRR  HN ES        452 27.49                             159    0.4810 43.4 313 
+ BRR  HZ I         452 28.14        17.5 0.44            156           43.4 313 
+ PAM  EZ EP     D  452 17.91                             139    0.1410 97.2  55 
+ PAM  EN ES        452 33.81                             139   -0.5110 97.2  55 
+ PAM  EZ I         452 35.97        15.3 0.18            142           97.2  55 
+ RUS  HZ EP        452 19.01                             135    0.0610  111 160 
+ RUS  HE ES        452 36.59                             135    0.1710  111 160 
+ RUS  HZ I         452 37.45         8.7 0.30            135            111 160 
+ PTB  HZ EP     D  452 18.69                             133   -0.2810  119 254 
+ PTB  HN ES        452 36.21                             133   -0.2410  119 254 
+ PTB  HZ I         452 41.56         8.7 0.14            130            119 254 
+ ZAR  HZ EP   9    452 25.94                             121    1.58 0  174 295 
+ ZAR  HN ES        452 48.08                             120    0.44 9  174 295 
+ ZAR  HZ I         452 51.49        10.6 0.24            120            174 295 
+ CHI  HZ EP   3    452 34.63                             112    1.79 2  247 188 
+ CHI  HN ES        453  1.02                             112   -0.13 8  247 188 
+ CHI  HZ I         453  7.83         2.7 0.14            112            247 188 
+ URE  HZ EP        452 33.56                             111    0.44 8  254 294 
+ URE  HN ES        453  1.12                             111   -0.54 8  254 294 
+ URE  HZ I         453  8.77         6.5 0.24            110            254 294 
+ LL6C HZ EP   4    452 21.83                             106   -19.0 0  321   3 
+ SJC  HZ EP        452 49.10                             102    0.04 6  389 330 
+ SJC  HN ES   4    453 27.42                             102   -2.61 0  389 330 
+                                                                                

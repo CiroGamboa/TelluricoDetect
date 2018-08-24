@@ -1,0 +1,36 @@
+ 2014  2 9 0207  1.7 L   6.805 -73.093149.7  RSN  8 0.4 1.8LRSN                1
+ GAP=243        0.83       5.0     6.7  6.6  0.1027E+02  0.1593E+02  0.1003E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 14-03-10 08:08 OP:ep   STATUS:               ID:20140209020701 L   I
+ OLDACT:UP  14-02-09 10:04 OP:mh   STATUS:               ID:20140209020540     3
+ OLDACT:UP  14-02-09 10:03 OP:mh   STATUS:               ID:20140209020540     3
+ OLDACT:UP  14-02-09 10:03 OP:mh   STATUS:               ID:20140209020540     3
+ OLDACT:REG 14-02-09 08:35 OP:mh   STATUS:               ID:20140209020540     3
+ 2014-02-09-0205-40M.COL___233                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP   1    2 7 22.03                             170    0.16 7 25.6 203 
+ BAR2 SZ ES   1    2 7 37.10                             170   -0.49 7 25.6 203 
+ BAR2 SZ I         2 7 39.12        14.2 0.19            164           25.6 203 
+ BRR  HZ EP     C  2 7 23.88                             152    0.3010 76.1 296 
+ BRR  HN ES   1    2 7 41.28                             152    0.66 7 76.1 296 
+ BRR  HZ I         2 7 43.91         8.7 0.14            142           76.1 296 
+ RUS  HZ EP   1    2 7 25.84                             145   -0.05 7  101 179 
+ RUS  HN ES        2 7 44.68                             145   -0.0610  101 179 
+ RUS  HZ I         2 7 45.77         5.3 0.23            140            101 179 
+ PTB  HZ EP   1    2 7 28.89                             132   -0.65 7  154 259 
+ PTB  HZ I         2 7 52.20         9.1 0.09            124            154 259 
+ SPBC HZ EP   1    2 7 30.93                             129    0.01 7  167 220 
+ SPBC HN ES   1    2 7 53.66                             129   -0.03 7  167 220 
+ SPBC HZ I         2 7 58.60         6.2 0.07            123            167 220 
+ ZAR  HZ EP   1    2 7 34.61                             122   -0.35 6  209 291 
+ ZAR  HN ES   1    2 8  0.49                             122   -0.39 6  209 291 
+ ZAR  HZ I         2 8  6.15         7.9 0.33            116            209 291 
+ NOR  HZ EP        2 7 37.99                             119   -0.24 8  240 235 
+ NOR  HE ES   1    2 8  6.85                             119    0.15 6  240 235 
+ NOR  HZ I         2 8 10.30         7.3 0.23            113            240 235 
+ RREF BZ EP   1    2 7 49.88                             111    1.29 5  327 230 
+ RREF BN ES   4    2 8 27.23                             111    2.09 0  327 230 
+ RREF BZ I         2 8 33.64         3.9 0.38            107            327 230 
+ SJC  HZ EP   4    2 7 56.13                             106   -1.60 0  412 326 
+ SJC  HN ES   4    2 8 39.72                             106   -1.70 0  412 326 
+                                                                                

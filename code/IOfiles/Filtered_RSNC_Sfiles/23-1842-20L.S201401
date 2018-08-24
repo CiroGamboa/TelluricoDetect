@@ -1,0 +1,53 @@
+ 2014  123 1842 20.0 L   6.831 -73.145142.3  RSN 10 0.6 2.0LRSN 2.6WRSN        1
+ SPEC AVERAGE  MO 12.9 ST123.0 OM  1.3 f0 23.9 R0.0947 AL 0.00 WI 20.0 MW  2.6 3
+ SPEC SD       MO  0.3 ST145.0 OM  0.4 f0 9.56 R0.0373 AL      WI      MW  0.2 3
+ GAP=135        1.41       3.9     6.0  7.5 -0.4880E+01  0.1281E+02  0.1159E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC BAR2SH Z MO 13.1 ST153.0 OM  1.3 f0 26.3 R0.0732 AL-0.00 WI 20.0 MW  2.7 3
+ SPEC BAR2SH Z T184252 K 0.050 GD  144 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC BRR HH Z MO 13.3 ST 23.2 OM  1.4 f0 12.6 R0.1527 AL-0.00 WI 20.0 MW  2.8 3
+ SPEC BRR HH Z T184256 K 0.050 GD  158 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC RUS HH Z MO 12.4 ST 23.9 OM  0.5 f0 24.5 R0.0785 AL-0.00 WI 20.0 MW  2.2 3
+ SPEC RUS HH Z T184259 K 0.050 GD  176 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC OCA HH Z MO 13.0 ST394.7 OM  1.0 f0 40.0 R0.0481 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC OCA HH Z T1843 7 K 0.050 GD  211 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPEC NOR HH Z MO 12.9 ST 20.4 OM  0.8 f0 15.9 R0.1210 AL-0.00 WI 20.0 MW  2.6 3
+ SPEC NOR HH Z T184321 K 0.050 GD  276 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ SPECGUY2CHH Z MO 13.1 ST  0.3 OM  0.9 f0 3.39 R 0.568 AL-0.00 WI 20.0 MW  2.6 3
+ SPECGUY2CHH Z T184337 K 0.050 GD334.8 VS 5.20 DE 3.20 Q0750.0 QA 1.50 VS 5.20 3
+ OLDACT:REG 14-01-23 15:40 OP:stll STATUS:               ID:20140123183806     3
+ ACTION:UPD 14-03-13 09:57 OP:ep   STATUS:               ID:20140123184220 L   I
+ OLDACT:UP  14-01-23 18:52 OP:stll STATUS:               ID:20140123183806     3
+ 2014-01-23-1838-06M.COL___244                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ IP     D 1842 39.45                             169    0.1910 26.7 189 
+ BAR2 SZ ES       1842 54.03                             169   -0.2710 26.7 189 
+ BAR2 SZ I        1842 59.92        27.1 0.20            163           26.7 189 
+ BRR  HZ IP     C 1842 41.21                             152    0.5610 69.6 296 
+ BRR  HN ES       1842 57.90                             152    1.1210 69.6 296 
+ BRR  SZ I        1843  2.05        25.5 0.28            154           69.6 296 
+ PAM  SZ IP     C 1842 42.10                             151    0.4410 74.7  41 
+ PAM  SN ES       1842 58.80                             151    0.2310 74.7  41 
+ PAM  SZ I        1842 59.38         7.4 0.44            157           74.7  41 
+ RUS  HZ EP       1842 43.59                             142   -0.0510  104 176 
+ RUS  HN ES       1843  1.37                             142   -0.7210  104 176 
+ RUS  SZ I        1843  3.49         4.9 0.26            139            104 176 
+ PTB  HZ EP       1842 46.32                             131   -0.40 9  148 258 
+ PTB  HN ES       1843  7.07                             131   -0.52 9  148 258 
+ PTB  SZ I        1843  9.94        16.6 0.22            131            148 258 
+ OCA  HZ EP       1842 47.39                             130   -0.30 9  157 353 
+ OCA  HE ES       1843  9.22                             130   -0.08 9  157 353 
+ OCA  SZ I        1843 14.09        19.0 0.28            134            157 353 
+ NOR  HZ EP       1842 55.75                             118    0.03 8  237 234 
+ NOR  HN ES       1843 23.02                             118   -0.59 8  237 234 
+ NOR  SZ I        1843 33.01         6.5 0.12            118            237 234 
+ SML  HZ EP       1842 55.22                             117   -0.84 8  241 335 
+ SML  HN ES       1843 23.34                             117   -0.87 8  241 335 
+ SML  SZ I        1843 25.89        19.8 0.22            120            241 335 
+ CHI  HZ EP       1842 58.07                             116    0.23 8  252 195 
+ CHI  HN ES       1843 27.11                             116   -0.27 8  252 195 
+ CHI  SZ I        1844  0.28         6.3 2.08            116            252 195 
+ GUY2CHZ EP       1843  5.01                             112    1.36 7  303 234 
+ GUY2CHN ES       1843 38.51                             112    0.79 7  303 234 
+ GUY2CSZ I        1843 45.63         7.1 0.42                           303 234 
+                                                                                

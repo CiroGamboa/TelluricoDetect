@@ -1,0 +1,27 @@
+ 2016 12 2 2104 43.5 L   6.769 -73.156142.0  RSN  6 0.3 2.0LRSN                1
+ GAP=150        0.74       4.2     3.4  5.0 -0.2182E+01  0.4200E+01  0.5282E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ ACTION:UPD 17-01-11 20:12 OP:rebc STATUS:               ID:20161202210443 L   I
+ OLDACT:UP  16-12-03 06:53 OP:cara STATUS:               ID:20161202205744     3
+ OLDACT:REG 16-12-03 05:17 OP:cara STATUS:               ID:20161202205744     3
+ 2016-12-02-2058-00M.COL___348                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP       21 5  2.46                             172   -0.2010 19.8 188 
+ BAR2 HN ES       21 5 17.63                             172    0.0710 19.8 188 
+ BAR2 EZ I        21 5 19.96        15.4 0.24            171           19.8 188 
+ BRR  HZ IP       21 5  4.57                             152    0.2410 71.9 301 
+ BRR  HN ES       21 5 20.88                             152    0.3410 71.9 301 
+ BRR  HZ I        21 5 25.37        15.2 0.18            153           71.9 301 
+ PAM  EZ IP       21 5  5.44                             149   -0.1310 80.8  39 
+ PAM  EN ES       21 5 22.71                             149   -0.0410 80.8  39 
+ PAM  EZ I        21 5 24.87        23.1 0.56            152           80.8  39 
+ PTB  HZ EP       21 5  9.54                             131   -0.51 9  146 260 
+ PTB  HN ES       21 5 30.27                             131   -0.45 9  146 260 
+ PTB  HZ I        21 5 32.13        12.6 0.36            133            146 260 
+ ZAR  HZ EP       21 5 16.08                             121    0.30 9  204 293 
+ ZAR  HN ES       21 5 40.97                             121    0.06 9  204 293 
+ ZAR  HZ I        21 5 43.36        10.6 0.14            124            204 293 
+ PRA  HZ EP       21 5 36.91                             106    0.38 6  388 210 
+ PRA  HE ES       21 6 18.36                             106    0.51 6  388 210 
+ PRA  HZ I        21 6 22.03         3.1 0.30            108            388 210 
+                                                                                

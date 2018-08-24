@@ -1,0 +1,24 @@
+ 2016  331 0012  7.0 L   6.212 -73.706 54.4  RSN  4 0.0 1.1LRSN                1
+ GAP=120        0.65       3.4     3.1 11.0 -0.4861E+01  0.1453E+02 -0.1636E+02E
+ Epicentro: LANDAZURI - SANTANDER                                              3
+ ACTION:UPD 16-05-13 21:29 OP:cam  STATUS:               ID:20160331001206 L   I
+ OLDACT:UP  16-04-14 15:01 OP:cam  STATUS:               ID:20160331001206 L   3
+ OLDACT:UP  16-04-14 15:00 OP:cam  STATUS:               ID:20160331001206 L   3
+ OLDACT:UP  16-04-14 14:58 OP:cam  STATUS:               ID:20160331001206 L   3
+ OLDACT:UP  16-04-01 11:33 OP:AR   STATUS:               ID:20160331001206 L   3
+ OLDACT:REG 16-03-31 12:15 OP:drio STATUS:               ID:20160331000747     3
+ 2016-03-31-0007-47M.COL___296                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 EZ EP        012 20.13                             119    0.0510 71.6  54 
+ BAR2 EZ ES   1    012 30.29                             119    0.05 7 71.6  54 
+ BAR2 EZ I         012 31.98         5.8 0.36            128           71.6  54 
+ SPBC HZ EP        012 20.13                             118   -0.0110 74.0 213 
+ SPBC HN ES        012 30.36                             118    0.0010 74.0 213 
+ SPBC HZ I         012 31.50        11.5 0.28            128           74.0 213 
+ RUS  HZ EP   9    012 19.89                             117   -1.15 0 77.4 117 
+ RUS  HN ES        012 30.19                             125   -0.6110 77.4 117 
+ RUS  HZ I         012 30.85         4.1 0.24            129           77.4 117 
+ PTB  HZ EP        012 21.89                             112   -0.0210 90.6 294 
+ PTB  HN ES   1    012 33.42                             112   -0.09 7 90.6 294 
+ PTB  HZ I         012 36.13         3.2 0.16            118           90.6 294 
+                                                                                

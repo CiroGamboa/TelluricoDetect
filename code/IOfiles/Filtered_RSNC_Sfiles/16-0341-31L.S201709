@@ -1,0 +1,24 @@
+ 2017  916 0341 31.2 L   6.301 -74.182 73.9  RSN  5 0.2 1.2LRSN                1
+ GAP=167        0.63       2.8     3.2  8.1 -0.6178E+01  0.6383E+01 -0.7590E+01E
+ Epicentro: CIMITARRA - SANTANDER                                              3
+ ACTION:UPD 17-10-05 19:13 OP:rebc STATUS:               ID:20170916034131 L   I
+ OLDACT:UP  17-09-16 15:52 OP:mg   STATUS:               ID:20170916033745     3
+ OLDACT:UP  17-09-16 15:51 OP:mg   STATUS:               ID:20170916033745     3
+ OLDACT:REG 17-09-16 12:55 OP:mg   STATUS:               ID:20170916033745     3
+ 2017-09-16-0338-00M.COL___447                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ SPBC HZ IP     D  341 45.10                             131   -0.4410 72.8 170 
+ SPBC HN ES        341 56.64                             131   -0.1010 72.8 170 
+ SPBC HZ I         341 57.41         7.7 0.11             47           72.8 170 
+ BRR  HZ EP        341 48.41                             120   -0.0810  103  30 
+ BRR  HN ES        342  1.84                             120   -0.1410  103  30 
+ BRR  HZ I         342  8.35         6.2 0.20             47            103  30 
+ NOR  HZ EP        341 49.60                             118    0.1410  112 223 
+ NOR  HN ES        342  3.97                             118    0.2510  112 223 
+ NOR  HZ I         342  5.63         2.5 0.24             47            112 223 
+ BAR2 EZ EP   1    341 50.13                             117    0.03 7  115  74 
+ BAR2 EZ ES        342  5.22                             117    0.3810  115  74 
+ BAR2 EZ I         342  8.14         6.2 0.38             47            115  74 
+ RUS  HZ EP   1    341 52.04                             114   -0.00 7  130 110 
+ RUS  HZ I         342  7.65         1.4 0.19             47            130 110 
+                                                                                

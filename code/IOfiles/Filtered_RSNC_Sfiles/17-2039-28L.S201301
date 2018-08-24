@@ -1,0 +1,73 @@
+ 2013  117 2039 28.5 L   6.788 -73.136142.7  RSN 14 0.5 3.0LRSN 3.3WRSN        1
+ SPEC AVERAGE  MO 14.1 ST  7.0 OM  2.5 f0 3.22 R0.4976 AL 2.76 WI 19.1 MW  3.3 3
+ SPEC SD       MO  0.2 ST  4.8 OM  0.3 f0 1.01 R0.1551 AL      WI      MW  0.1 3
+ GAP= 72        1.14       3.4     3.2  5.7 -0.2085E+00  0.4772E+01  0.2473E+01E
+ Epicentro: LOS SANTOS - SANTANDER                                             3
+ SPEC ZAR HH N MO 13.9 ST 15.1 OM  2.1 f0 5.18 R0.2838 AL 2.70 WI 16.0 MW  3.2 3
+ SPEC ZAR HH N T204025 K 0.000 GD  250 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC TAM HH N MO 14.2 ST  3.3 OM  2.5 f0 2.44 R0.6025 AL 3.03 WI 19.7 MW  3.4 3
+ SPEC TAM HH N T204014 K 0.000 GD  209 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RREFHH Z MO 14.1 ST  7.3 OM  2.2 f0 3.37 R0.4362 AL 3.36 WI 21.2 MW  3.4 3
+ SPEC RREFHH Z T204049 K 0.000 GD  352 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ROSCBH Z MO 14.3 ST  1.9 OM  2.4 f0 1.98 R0.7424 AL 2.96 WI 24.0 MW  3.4 3
+ SPEC ROSCBH Z T204036 K 0.000 GD  289 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC NOR HH N MO 14.1 ST 13.7 OM  2.3 f0 4.17 R0.3525 AL 2.26 WI 19.7 MW  3.4 3
+ SPEC NOR HH N T204030 K 0.000 GD  274 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC OCA HH N MO 14.3 ST 13.0 OM  2.6 f0 3.53 R0.4164 AL 2.92 WI 14.3 MW  3.5 3
+ SPEC OCA HH N T204016 K 0.000 GD  215 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PTB HH N MO 14.0 ST  6.0 OM  2.3 f0 3.49 R0.4212 AL 1.89 WI 19.6 MW  3.3 3
+ SPEC PTB HH N T204014 K 0.000 GD  206 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC RUS HH N MO 13.8 ST  1.8 OM  2.2 f0 2.65 R0.5547 AL 2.30 WI 23.4 MW  3.2 3
+ SPEC RUS HH N T2040 8 K 0.000 GD  173 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC PAM SH N MO 14.2 ST  1.4 OM  2.6 f0 1.83 R0.8033 AL 2.54 WI  9.6 MW  3.4 3
+ SPEC PAM SH N T2040 6 K 0.000 GD  162 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC ANILHH Z MO  0.0 ST0.000 OM  2.0 f0 2.24 R0.6937 AL 2.52 WI 14.2 MW  0.0 3
+ SPEC ANILHH Z T204058 K 0.000 GD  308 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC HEL HH N MO 14.0 ST  3.7 OM  2.1 f0 3.02 R0.4868 AL 2.97 WI 25.1 MW  3.3 3
+ SPEC HEL HH N T204039 K 0.000 GD  308 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC CHI HH N MO 14.1 ST  3.5 OM  2.2 f0 2.81 R0.5231 AL 3.18 WI 19.6 MW  3.3 3
+ SPEC CHI HH N T204033 K 0.000 GD  286 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ SPEC BRR HH N MO 14.1 ST 13.1 OM  2.5 f0 4.22 R0.3483 AL 2.99 WI 17.1 MW  3.3 3
+ SPEC BRR HH N T2040 5 K 0.000 GD  160 VS 4.20 DE 3.20 Q0300.0 QA 0.60 VS 4.20 3
+ ACTION:UPD 13-02-15 09:14 OP:ep   STATUS:               ID:20130117203928 L   I
+ 2013-01-17-2037-51M.COL___198                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 SZ EP       2039 47.70                             171    0.0010 22.2 193 
+ BAR2 SZ ES       2040  2.73                             171    0.0210 22.2 193 
+ BAR2 SZ I        2040  3.87       295.0 0.18            162           22.2 193 
+ BRR  HZ EP     C 2039 49.65                             151    0.2810 72.8 299 
+ BRR  HN ES       2040  6.40                             151    0.7210 72.8 299 
+ BRR  HN I        2040  6.98       289.8 0.26            143           72.8 299 
+ PAM  SZ EP     D 2039 50.81                             150    0.4310 77.7  38 
+ PAM  SN ES       2040  7.36                             150   -0.1010 77.7  38 
+ PAM  SN I        2040  8.37       220.8 0.62            145           77.7  38 
+ RUS  HZ EP       2039 51.63                             144   -0.1810 99.2 177 
+ RUS  HN ES       2040  9.91                             144   -0.1110 99.2 177 
+ RUS  HN I        2040 10.82        46.0 0.24            131           99.2 177 
+ PTB  HZ EP       2039 54.40                             131   -0.86 9  149 259 
+ PTB  HN ES       2040 15.51                             131   -0.65 9  149 259 
+ PTB  HN I        2040 20.96       166.3 0.26            119            149 259 
+ TAM  HZ EP       2039 56.07                             130    0.30 9  154 105 
+ TAM  HE ES       2040 17.24                             130    0.17 9  154 105 
+ TAM  HE I        2040 18.74       156.1 0.58            120            154 105 
+ OCA  HZ EP       2039 56.11                             129   -0.57 9  162 353 
+ OCA  HN ES       2040 17.86                             129   -0.82 9  162 353 
+ OCA  HN I        2040 22.90       373.1 0.24            120            162 353 
+ ZAR  HZ EP       2040  1.55                             121    0.68 8  206 292 
+ ZAR  HN ES       2040 26.53                             121    0.39 8  206 292 
+ ZAR  HN I        2040 31.19        96.1 0.30            112            206 292 
+ NOR  HZ EP       2040  3.67                             118   -0.36 8  235 235 
+ NOR  HN ES       2040 31.47                             118   -0.30 8  235 235 
+ NOR  HN I        2040 37.02       118.1 0.22            108            235 235 
+ CHI  HZ EP       2040  5.90                             117    0.01 8  248 195 
+ CHI  HN ES       2040 34.78                             117   -0.29 8  248 195 
+ CHI  HN I        2040 41.11        43.4 0.28            106            248 195 
+ ROSC BZ EP   4   2040  7.81                             116    1.45 0  252 211 
+ ROSC BZ I        2040 45.33        72.4 0.45            106            252 211 
+ HEL  HZ EP       2040  9.28                             114    0.67 8  273 256 
+ HEL  HN ES       2040 40.60                             114    0.69 8  273 256 
+ HEL  HN I        2040 46.83        51.9 0.30            105            273 256 
+ RREF HZ EP   1   2040 15.27                             110    0.80 5  322 230 
+ RREF HZ I        2040 58.77        39.3 0.24            101            322 230 
+ DBB  SZ EP       2040 15.62                             109   -0.34 7  341 274 
+                                                                                

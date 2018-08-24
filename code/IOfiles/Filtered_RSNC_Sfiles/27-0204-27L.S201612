@@ -1,0 +1,24 @@
+ 2016 1227 0204 27.3 L   6.362 -73.501  4.0  RSN  5 0.2 1.1LRSN                1
+ GAP=142        0.50       1.2     1.1  2.9  0.1909E+00 -0.2719E+00 -0.5706E+00E
+ Epicentro: CONTRATACION - SANTANDER                                           3
+ ACTION:UPD 17-01-11 20:19 OP:rebc STATUS:               ID:20161227020427 L   I
+ OLDACT:UP  16-12-27 15:12 OP:edw  STATUS:               ID:20161227015742     3
+ OLDACT:UP  16-12-27 15:11 OP:y    STATUS:               ID:20161227015742     3
+ OLDACT:REG 16-12-27 12:55 OP:edw  STATUS:               ID:20161227015742     3
+ 2016-12-27-0158-00M.COL___363                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BAR2 HZ EP        2 4 34.82                              47    0.0510 43.5  54 
+ BAR2 HZ ES        2 4 40.58                              47    0.0210 43.5  54 
+ BAR2 HZ I         2 4 41.09         7.3 0.10             47           43.5  54 
+ RUS  HZ EP        2 4 39.03                              47    0.0510 69.6 138 
+ RUS  HN ES        2 4 48.00                              47   -0.0610 69.6 138 
+ RUS  HZ I         2 4 48.88        10.5 0.34             47           69.6 138 
+ BRR  HZ EP        2 4 41.26                              47    0.3610 85.6 344 
+ BRR  HN ES        2 4 51.48                              47    0.0010 85.6 344 
+ PTB  HZ EP        2 4 44.30                              47    0.0810  107 281 
+ PTB  HE ES        2 4 57.14                              47   -0.2510  107 281 
+ PTB  HZ I         2 4 59.14         9.9 0.20             47            107 281 
+ PAM  EZ EP        2 4 49.62                              47    0.01 9  140  39 
+ PAM  EE ES        2 5  6.69                              47   -0.30 9  140  39 
+ PAM  EZ I         2 5  7.57         2.1 0.14             47            140  39 
+                                                                                

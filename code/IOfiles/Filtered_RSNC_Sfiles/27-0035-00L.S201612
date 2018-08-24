@@ -1,0 +1,23 @@
+ 2016 1227 0035  0.1 L   6.716 -73.255147.6  RSN  6 0.2 1.1LRSN                1
+ GAP=218        0.51       4.9     4.7  5.9  0.5540E+01 -0.1870E+01  0.8259E+01E
+ Epicentro: GALAN - SANTANDER                                                  3
+ ACTION:UPD 17-01-11 20:19 OP:rebc STATUS:               ID:20161227003500 L   I
+ OLDACT:UP  16-12-27 14:06 OP:edw  STATUS:               ID:20161227002743d    3
+ OLDACT:DUP 16-12-27 13:44 OP:edw  STATUS:               ID:20161227002743d    3
+ 2016-12-27-0028-00M.COL___372                                                 6
+ STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
+ BRR  HZ EP        035 21.53                             154    0.3010 66.5 311 
+ BRR  HN ES        035 37.58                             154   -0.1010 66.5 311 
+ RUS  HZ EP   2    035 23.19                             146   -0.36 5 93.0 168 
+ RUS  HN ES   2    035 41.75                             146   -0.05 5 93.0 168 
+ RUS  HZ I         035 42.78         1.8 0.32            142           93.0 168 
+ PTB  HZ EP        035 25.81                             135   -0.2610  134 262 
+ PTB  HN ES        035 46.45                             135    0.1510  134 262 
+ PTB  HZ I         035 48.14         1.4 0.44            134            134 262 
+ ZAR  HN ES   2    035 56.57                             124   -0.22 4  197 296 
+ NOR  HN ES   4    035 58.71                             121   -2.34 0  219 235 
+ NOR  HZ I         036  1.09         1.4 0.14            119            219 235 
+ CHI  HZ EP   2    035 36.95                             119    0.29 4  237 193 
+ CHI  HN ES   4    036  8.00                             119    2.87 0  237 193 
+ CHI  HZ I         036 11.28         1.0 0.46            117            237 193 
+                                                                                
