@@ -80,6 +80,8 @@ m.fillcontinents(color='wheat', lake_color='skyblue')
 #m.drawmeridians(np.arange(-180., 181., 20.))
 m.drawmapboundary(fill_color='skyblue')
 
+
+
 # Plot events
 m.plot(x,y,'bo',marker=',',color='red')
 
@@ -87,9 +89,15 @@ m.plot(x,y,'bo',marker=',',color='red')
 m.plot(x_stat,y_stat,'bo',marker='^',color='b')
 
 # Put station names
+
+import matplotlib.patheffects as PathEffects
+#txt = plt.text(2,2,'This is a test', size=11, color='black')
+#txt.set_path_effects([PathEffects.withStroke(linewidth=5, foreground='w')]
+
 fig.bmap = m
 for label,xpt,ypt in zip(stat_names, x_stat, y_stat):
-    plt.text(xpt, ypt, label)
+    txt = plt.text(xpt, ypt, label, color = 'white')
+    txt.set_path_effects([PathEffects.withStroke(linewidth=2, foreground='black')])
 plt.show()
 
 

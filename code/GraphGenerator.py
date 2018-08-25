@@ -14,6 +14,8 @@ COMPLETO
 
 https://matplotlib.org/users/colors.html
 '''
+
+### SISMOS POR ESTACION GENERAL: YA EXPORTADO
 def seisms_per_station(sfiles,group_factor=10,save_graphs=False):
         import matplotlib.pyplot as plt
         import matplotlib as mpl
@@ -105,7 +107,7 @@ def seisms_per_station(sfiles,group_factor=10,save_graphs=False):
 INCOMPLETO: FALTA GUARDAR, USAR EL TRY-CATCH PARA DESCARTAR SFILES
 - RANDOM SEED
 '''
-# Plot the events registered by stations in descendent order
+# SISMOS POR ESTACION POR EPICENTRO CON Y SIN LOS SANTOS GENERAL: YA EXPORTADO
 def seisms_per_stationEpis(sfiles,group_factor=10,num_epis=10,save_graphs=False,exclude_main=False):
     import operator
     import numpy as np
@@ -283,6 +285,8 @@ def get_epi_loc(sfiles):
 INCOMPLETO: TAL VEZ ES BUENA IDEA ACORTAR LOS NOMBRES QUITANDO 'SANTANDER',
 PERO HABRIA QUE TENER CUIDADO CON EPICENTROS FUERA DE SANTANDER 
 '''
+
+# CANTIDAD DE SISMOS POR EPICENTRO GENERAL: YA EXPORTADO
 def events_per_epicenter(sfiles,group_factor=10,save_graphs=False):
     import matplotlib.pyplot as plt
     import os
@@ -379,17 +383,22 @@ DETALLES ESTETICOS
 - CAMBIAR EJE POR PORCENTAJE
 - 
 '''
+### DISTRIBUCION DE MAGNITUDES GENERAL: YA EXPORTADA, FALTA MODIFICAR EL PUNTO DECIMAL
 def magnitude_values(sfiles):
 #    https://matplotlib.org/gallery/statistics/hist.html
+    import matplotlib
     import matplotlib.pyplot as plt
     import numpy as np
     from matplotlib import colors
     from matplotlib.ticker import PercentFormatter
-
+    
+    amout_events = len(sfiles)
+    matplotlib.style.use('seaborn')
     # Fixing random state for reproducibility
     np.random.seed(19680801)
     undefined_group = []
     magnitudes = []
+    magnitudes2 = []
     for sfile in sfiles:
             
         try:  
@@ -409,39 +418,47 @@ def magnitude_values(sfiles):
         color = plt.cm.viridis(norm(thisfrac))
         thispatch.set_facecolor(color)
     
-    axs.grid(True)
-    axs.hist(magnitudes,bins = x_axis, density=True)
+#    axs.grid(True)
+#    print(x_axis)
+    
+#    for i in range(0,len(magnitudes)):
+#        magnitudes[i] /= 10
+#    axs.hist(magnitudes,bins = len(x_axis), density=True)
+
+    
+    
+    from matplotlib.ticker import FuncFormatter
+    def to_percent(y, position):
+        # Ignore the passed in position. This has the effect of scaling the default
+        # tick locations.
+        s = str(round(100 * y / amout_events,1))
+    
+        # The percent symbol needs escaping in latex
+        if matplotlib.rcParams['text.usetex'] is True:
+            return s + r'$\%$'
+        else:
+            return s + '%'
+    
+    
+    # Make a normed histogram. It'll be multiplied by 100 later.
+    axs.hist(magnitudes,bins = len(x_axis), density = True)
+    
+    # Create the formatter using the function to_percent. This multiplies all the
+    # default labels by 100, making them all percentages
+    formatter = FuncFormatter(to_percent)
+    
+    # Set the formatter
+    plt.gca().yaxis.set_major_formatter(formatter)
+
+    
+    
 #    plt.plot(magnitudes)
 #    axs.yaxis.set_major_formatter(PercentFormatter(xmax=1))
-    plt.xlabel("Seismic magnitude [Richter Scale]")
-    plt.ylabel("% of occurrency")
-    plt.title("Distribution of Seismic magnitudes in Santander [2010-2017]")
+    plt.xlabel("Magnitud sísmica [Escala de Richter]", weight = 'bold')
+    plt.ylabel("% de ocurrencia", weight = 'bold')
+    plt.title("Distribución de magnitudes sísmicas en Santander [2010-2017], total eventos: "+str(amout_events), weight = 'bold')
 #    plt.show()
-#    return [magnitudes,hist]
-
-
-
-#fig, axs = plt.subplots(1, 2, tight_layout=True)
-#
-## N is the count in each bin, bins is the lower-limit of the bin
-#N, bins, patches = axs[0].hist(x, bins=n_bins)
-#
-## We'll color code by height, but you could use any scalar
-#fracs = N / N.max()
-#
-## we need to normalize the data to 0..1 for the full range of the colormap
-#norm = colors.Normalize(fracs.min(), fracs.max())
-#
-## Now, we'll loop through our objects and set the color of each accordingly
-#for thisfrac, thispatch in zip(fracs, patches):
-#    color = plt.cm.viridis(norm(thisfrac))
-#    thispatch.set_facecolor(color)
-#
-## We can also normalize our inputs by the total number of counts
-#axs[1].hist(x, bins=n_bins, density=True)
-#
-## Now we format the y-axis to display percentage
-#axs[1].yaxis.set_major_formatter(PercentFormatter(xmax=1))
+    return magnitudes,x_axis
 
 #%%
 '''
@@ -456,12 +473,17 @@ DETALLES ESTETICOS
 - CAMBIAR EJE POR PORCENTAJE
 - 
 '''
+### DISTRIBUCION DE PROFUNDIDADES GENERAL: YA EXPORTADO
 def depth_values(sfiles):
 #    https://matplotlib.org/gallery/statistics/hist.html
+    import matplotlib
     import matplotlib.pyplot as plt
     import numpy as np
     from matplotlib import colors
 #    from matplotlib.ticker import PercentFormatter
+
+    amount_events = len(sfiles)
+
 
     # Fixing random state for reproducibility
     np.random.seed(19680801)
@@ -470,27 +492,50 @@ def depth_values(sfiles):
             
         try:  
             depth = float(sfile.type_1['DEPTH'])
-            depths.append(depth)
+            if depth <= 200:
+                depths.append(depth)
                 
         except:
             pass
 
     fig, axs = plt.subplots(tight_layout=True)
-    x_axis = np.arange(0,200,0.1)
-#    N, bins, patches = plt.hist(depths,bins = x_axis)
-#    fracs = N / N.max()
-#    norm = colors.Normalize(fracs.min(), fracs.max())
-#    for thisfrac, thispatch in zip(fracs, patches):
-#        color = plt.cm.viridis(norm(thisfrac))
-#        thispatch.set_facecolor(color)
+    x_axis = np.arange(0,200,1)
+    N, bins, patches = plt.hist(depths,bins = x_axis)
+    fracs = N / N.max()
+    norm = colors.Normalize(fracs.min(), fracs.max())
+    for thisfrac, thispatch in zip(fracs, patches):
+        color = plt.cm.viridis(norm(thisfrac))
+        thispatch.set_facecolor(color)
+        
+    from matplotlib.ticker import FuncFormatter
+    def to_percent(y, position):
+        # Ignore the passed in position. This has the effect of scaling the default
+        # tick locations.
+        s = str(round(100 * y / amount_events,1))
     
-    axs.grid(True)
-    axs.hist(depths,bins = x_axis, density=True)
-#    plt.plot(magnitudes)
-#    axs.yaxis.set_major_formatter(PercentFormatter(xmax=1))
-    plt.xlabel("Seismic depths [Km]")
-    plt.ylabel("% of occurrency")
-    plt.title("Distribution of Seismic Depths in Santander [2010-2017]")
+        # The percent symbol needs escaping in latex
+        if matplotlib.rcParams['text.usetex'] is True:
+            return s + r'$\%$'
+        else:
+            return s + '%'
+    
+    
+    # Make a normed histogram. It'll be multiplied by 100 later.
+    axs.hist(depths,bins = len(x_axis), density = True)
+    
+    # Create the formatter using the function to_percent. This multiplies all the
+    # default labels by 100, making them all percentages
+    formatter = FuncFormatter(to_percent)
+    
+    # Set the formatter
+    plt.gca().yaxis.set_major_formatter(formatter)
+
+    
+    plt.xlabel("Profundidades sísmicas [Km]", weight = 'bold')
+    plt.ylabel("% de ocurrencia", weight = 'bold')
+    plt.title("Distribución de profundidades sísmicas en Santander [2010-2017], total eventos: "+str(amount_events), weight = 'bold')
+#    plt.show()
+    return depths,x_axis
 
 #%%
 '''
@@ -552,12 +597,18 @@ def cumulative_depth_values(sfiles):
 INCOMPLETO: DETALLES ESTETICOS MENORES, CAMBIAR NOMBRES A EJES, CORREGIR
 LONGITUD DE NOMBRES EN EJE X
 '''
+
+
 def meanDepth_per_epicenter(sfiles,group_factor=5,save_graphs=False):
     import matplotlib.pyplot as plt
     import operator
     import os
     epis = {}
     weird_sfiles = []
+    
+    amount_events = len(sfiles)
+    color = 'teal'
+    
     for sfile in sfiles:
         try:
             epistring = sfile.type_3['EPICENTER_LOCATION']
@@ -590,33 +641,45 @@ def meanDepth_per_epicenter(sfiles,group_factor=5,save_graphs=False):
         index += 1
         
     #print(segmented_graphs)  
-    
+#    plt.tight_layout()
     plt.figure()
-    plt.title("Seisms per Epicenter 2010-2017")
-    plt.bar(range(len(event_dict)), event_dict.values(), align='center')
-    plt.xlabel("Epicenter index")
-    plt.ylabel("Amount of events")
+    plt.title("Profundidad promedio por epicentro 2010-2017, total de eventos: "+str(amount_events), weight = 'bold')
+    plt.bar(range(len(event_dict)), event_dict.values(), align='center', color = color)
+    plt.xlabel("Indice del epicentro", weight = 'bold')
+    plt.ylabel("Profundidad [Km]", weight = 'bold')
     
     path = "IOfiles/Graphs/"
     if(save_graphs):   
         if not os.path.exists(path):
             os.makedirs(path)           
-        plt.savefig(path+"SeismsXstationAll.png")
+        plt.savefig(path+"MeanDepthXepicenterAll.png")
     
     index = 0
     for graph in segmented_graphs:
         plt.figure()
         group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
-        plt.title("Seisms per station 2010-2017 ["+group_name+"]")
-        plt.bar(range(len(graph)), graph.values(), align='center')
-        plt.xticks(range(len(graph)), graph.keys())
-        plt.xlabel("Epicenter name")
+        plt.title("Profundidad promedio por epicentro 2010-2017 ["+group_name+"], total de eventos: "+str(amount_events), weight = 'bold')
+        plt.bar(range(len(graph)), graph.values(), align='center', color = color)
+        
+        keys = []
+        for key in graph.keys():
+            try:
+                st = key.split('-')
+                keys.append(st[0]+'\n'+st[1])
+            except:
+                keys.append(key)
+        plt.xticks([i for i in range(0,len(graph))], keys,ha='center',rotation=45)
+        
+        
+        
+#        plt.xticks(range(len(graph)), graph.keys())
+        plt.xlabel("Nombre del epicentro", weight = 'bold')
         plt.xticks(rotation=45)
-        plt.ylabel("Amount of events")
+        plt.ylabel("Profundidad [Km]", weight = 'bold')
         index += 1
         
         if(save_graphs):
-            plt.savefig(path+"SeismsXstation"+group_name+".png")
+            plt.savefig(path+"MeanDepthXepicenter"+group_name+".png")
         
         
     # Es buena idea verificar la fecha minima y la maxima para ponerlas como
@@ -787,17 +850,16 @@ def box_depth_perEpi(sfiles,group_factor=5,save_graphs=False):
     if(save_graphs):   
         if not os.path.exists(path):
             os.makedirs(path)           
-        plt.savefig(path+"SeismsXstationAll.png")
     
     index = 0
     for graph in segmented_graphs:
 #        print(graph)
         plt.figure()
         group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
-        plt.title("Depth per epicenter 2010-2017 ["+group_name+"]")
+        plt.title("Profundidad por epicentro 2010-2017 ["+group_name+"]", weight = 'bold')
 #        plt.bar(range(len(graph)), graph.values(), align='center')
 #        print(graph.values())
-        plt.boxplot(graph.values())
+        plt.boxplot(graph.values(),sym = 'o')
         keys = []
         for key in graph.keys():
             try:
@@ -807,14 +869,14 @@ def box_depth_perEpi(sfiles,group_factor=5,save_graphs=False):
                 keys.append(key)
         plt.xticks([i+1 for i in range(0,len(graph))], keys,ha='center',rotation=45)
 #        plt.xticks(range(len(graph)), graph.keys())
-        plt.xlabel("Epicenter name")
+        plt.xlabel("Nombre del epicentro", weight = 'bold')
 #        plt.xticks(rotation=45)
-        plt.ylabel("Depth")
+        plt.ylabel("Profundidad [Km]", weight = 'bold')
 #        plt.grid(True)
         index += 1
         
         if(save_graphs):
-            plt.savefig(path+"SeismsXstation"+group_name+".png")
+            plt.savefig(path+"BoxDepthXepicenter"+group_name+".png")
         
         
     # Es buena idea verificar la fecha minima y la maxima para ponerlas como
@@ -878,7 +940,6 @@ def box_mag_perEpi(sfiles,group_factor=5,save_graphs=False):
     if(save_graphs):   
         if not os.path.exists(path):
             os.makedirs(path)           
-        plt.savefig(path+"SeismsXstationAll.png")
     
     index = 0
     for graph in segmented_graphs:
