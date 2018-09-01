@@ -62,7 +62,7 @@ events = []
 #sfile = Sfile('30-0429-45L.S201709', '/home/tellurico-admin/TelluricoDetect/code/IOfiles/')
 #[newEvent, stats_sort] = Waveform('IOfiles/', '2017-09-30-0428-00M.COL___441', sfile).get_event()
 #events.append(newEvent)
-sfile = Sfile('18-0602-02L.S201306.txt', '/home/administrador/Tellurico/TelluricoDetect/code/IOfiles/')
+sfile = Sfile('18-0602-02L.S201306.txt', '/home/tellurico/Tellurico/TelluricoDetect/code/IOfiles/')
 [newEvent, stats_sort] = Waveform('IOfiles/', '2013_06_2013-06-18-0559-59M.COL___261', sfile).get_event()
 events.append(newEvent)
 
@@ -1630,6 +1630,225 @@ for stat in stations:
         ax6.vlines(vline, i, j, color='r', lw=1)
         ax6.vlines(vline-(0.9*(window_size/2)), i, j, color='k', lw=1)
 
+
+#Temporal complexity for attributes calculation per window for one stations, increasing
+# moving window and slope of one sample
+for tuple_sort in stats_sort:
+stat = 'BRR'; 
+window = []
+time_list = []
+init = events[0].trace_groups[stat].P_Wave
+iterations = 50
+max_window = 500
+acumul = 0.0
+for i in range(5, int(max_window/2)+1, 5):
+    window_size = 2*i
+    inf_limit = init - i
+    sup_limit = init + i
+    for ii in range(0, iterations):
+        start = time.time()
+        [dataX, dataY, dataZ] = TelluricoTools.xyz_array(events[0].trace_groups[stat])
+        dataX = TelluricoTools.sub_trace(dataX.filter_wave,inf_limit,sup_limit)
+        dataY = TelluricoTools.sub_trace(dataY.filter_wave,inf_limit,sup_limit)
+        dataZ = TelluricoTools.sub_trace(dataZ.filter_wave,inf_limit,sup_limit)
+        
+        TimeDomain_Attributes.DOP(dataX,dataY,dataZ)
+        TimeDomain_Attributes.RV2T(dataX,dataY,dataZ)
+        NonLinear_Attributes.signal_entropy(dataX)[1]
+        TimeDomain_Attributes.signal_kurtosis(dataX)
+        TimeDomain_Attributes.signal_skew(dataX)
+        NonLinear_Attributes.corr_CD(dataX, 1)
+        
+        end = time.time()
+        acumul += (end - start)
+    window.append(window_size)
+    time_list.append(acumul/iterations)
+ml.plot(window, time_list)
+ml.title('Temporal complexity')
+ml.xlabel('Window size (samples)')
+ml.ylabel('Time (seconds)')
+ml.grid(True)
+
+####################################################################################################
+## TODO: ALL FEATURES IN BRR STATION
+# DOP, RV2T, Entropy, Kurtosis, Skewness, Correlation Dimension
+path =  '/home/tellurico/Tellurico/Variables/'
+stat = 'BRR'
+atts = ['DOP', 'RV2T', 'Entropy', 'Kurtosis', 'Skewness', 'Correlation Dimension']
+observ_signal = {atts[0]:[],atts[1]:[],atts[2]:[],atts[3]:[],atts[4]:[],atts[5]:[]}
+window_size = 50
+p_mark = events[0].trace_groups[stat].P_Wave
+windows = 2
+init = p_mark - (windows*window_size) - int(window_size/2)
+fin = p_mark + (windows*window_size) + int(window_size/2)
+for i in range(init, fin+1):
+    [dataX, dataY, dataZ] = TelluricoTools.xyz_array(events[0].trace_groups[stat])
+    dataX = TelluricoTools.sub_trace(dataX.filter_wave,i,i+window_size)
+    dataY = TelluricoTools.sub_trace(dataY.filter_wave,i,i+window_size)
+    dataZ = TelluricoTools.sub_trace(dataZ.filter_wave,i,i+window_size)
+    resultant = TelluricoTools.getResultantTrace(dataX,dataY,dataZ)
+    
+    observ_signal[atts[0]].append(TimeDomain_Attributes.DOP(dataX,dataY,dataZ))
+    observ_signal[atts[1]].append(TimeDomain_Attributes.RV2T(dataX,dataY,dataZ))
+    observ_signal[atts[2]].append(NonLinear_Attributes.signal_entropy(resultant)[1])
+    observ_signal[atts[3]].append(TimeDomain_Attributes.signal_kurtosis(resultant))
+    observ_signal[atts[4]].append(TimeDomain_Attributes.signal_skew(resultant))
+    observ_signal[atts[5]].append(NonLinear_Attributes.corr_CD(resultant, 1))
+
+vline = (windows*window_size)
+fig = ml.figure()
+ax1 = fig.add_subplot(321)
+ax2 = fig.add_subplot(322, sharex=ax1)
+ax3 = fig.add_subplot(323, sharex=ax1)
+ax4 = fig.add_subplot(324, sharex=ax1)
+ax5 = fig.add_subplot(325, sharex=ax1)
+ax6 = fig.add_subplot(326, sharex=ax1)
+
+ax1.set_title('DOP - ' + stat)
+ax1.plot(observ_signal['DOP'])
+i, j = ax1.get_ylim()
+#ax1.vlines(vline, i, j, color='k', lw=1)
+ax1.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+ax2.set_title('RV2T - ' + stat)
+ax2.plot(observ_signal['RV2T'])
+i, j = ax2.get_ylim()
+#ax2.vlines(vline, i, j, color='k', lw=1)
+ax2.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+ax3.set_title('Entropy - ' + stat)
+ax3.plot(observ_signal['Entropy'])
+i, j = ax3.get_ylim()
+#ax3.vlines(vline, i, j, color='k', lw=1)
+ax3.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+ax4.set_title('Kurtosis - ' + stat)
+ax4.plot(observ_signal['Kurtosis'])
+i, j = ax4.get_ylim()
+#ax4.vlines(vline, i, j, color='r', lw=1)
+ax4.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+ax5.set_title('Skewness - ' + stat)
+ax5.plot(observ_signal['Skew'])
+i, j = ax5.get_ylim()
+#ax5.vlines(vline, i, j, color='k', lw=1)
+ax5.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+ax6.set_title('Correlation Dimension - ' + stat)
+ax6.plot(observ_signal['CD'])
+i, j = ax6.get_ylim()
+#ax6.vlines(vline, i, j, color='k', lw=1)
+ax6.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+
+ml.rcParams['figure.figsize'] = 15, 10
+for attrs in observ_signal:
+    fig = ml.figure()
+    ax1 = fig.add_subplot(111)
+    ax1.set_title('Comportamiento del atributo ' + attrs + ' en una ventana deslizante de 200 muestras')
+    ax1.set_xlabel('Posición de la ventana en la señal')
+    ax1.set_ylabel(attrs)
+    ax1.plot(observ_signal[attrs])
+    i, j = ax1.get_ylim()
+    ax1.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+    ml.grid(True)
+    ml.savefig(path + attrs + '_calc.eps', dpi=500)
+    ml.savefig(path + attrs + '_calc.png', dpi=500)
+    
+
+#Temporal complexity for attributes calculation per window for all stations, increasing
+# moving window and slope of one sample, and stations quantity
+init = events[0].trace_groups[stat].P_Wave
+iterations = 50
+init_window = 5
+incr_window = 5
+max_window = 500
+acumul = 0.0
+stats_quant = len(stats_sort)
+
+times = np.zeros((stats_quant,int(((max_window/2)-init_window)/incr_window)))
+
+for i in range(init_window, int(max_window/2)+1, incr_window):
+    window_size = 2*i
+    inf_limit = init - i
+    sup_limit = init + i
+    for stats_q in range(1, len(stats_sort)+1):
+        for ii in range(0, iterations):
+            start = time.time()
+            
+            for tuple_sort in stats_sort[:stats_q]:
+                stat = tuple_sort[0]
+                [dataX, dataY, dataZ] = TelluricoTools.xyz_array(events[0].trace_groups[stat])
+                dataX = TelluricoTools.sub_trace(dataX.filter_wave,inf_limit,sup_limit)
+                dataY = TelluricoTools.sub_trace(dataY.filter_wave,inf_limit,sup_limit)
+                dataZ = TelluricoTools.sub_trace(dataZ.filter_wave,inf_limit,sup_limit)
+                
+                TimeDomain_Attributes.DOP(dataX,dataY,dataZ)
+                TimeDomain_Attributes.RV2T(dataX,dataY,dataZ)
+                NonLinear_Attributes.signal_entropy(dataX)[1]
+                TimeDomain_Attributes.signal_kurtosis(dataX)
+                TimeDomain_Attributes.signal_skew(dataX)
+                NonLinear_Attributes.corr_CD(dataX, 1)
+                
+            end = time.time()
+            acumul += (end - start)
+        times[stats_q-1][int(i/incr_window)-1] = acumul/iterations
+        acumul = 0.0
+file_var_name =  '/home/tellurico/Tellurico/Variables/timesV2.pckl'
+f = open(file_var_name, 'wb')
+pickle.dump(times, f)
+f.close()
+
+time_axis = np.arange(init_window, int(max_window/2)-incr_window, incr_window)
+stats = np.arange(1, len(stats_sort)+1, 1)
+# Temporal Complexity - stations vs. time
+for i in range(1, int(((max_window/2)-init_window)/incr_window)):
+    ml.plot(stats, times[:,[i]])
+ml.title('Complejidad temporal | Cantidad de estaciones vs. Tiempo')
+ml.xlabel('Cantidad de estaciones')
+ml.ylabel('Tiempo (segundos)')
+ml.grid(True)
+# window vs. time
+for i in range(0, len(stats_sort)):
+    ml.plot(time_axis, times[i,1:])
+ml.title('Complejidad temporal | Tamano de ventana vs. Tiempo')
+ml.xlabel('Tamano ventana (muestras)')
+ml.ylabel('Tiempo (segundos)')
+ml.grid(True)
+
+
+# TODO: save a signal
+path =  '/home/tellurico/Tellurico/Variables/'
+stat = 'BRR'
+init = 14000
+fin = 26000
+ml.rcParams.update({'font.size':14})
+ml.rcParams['figure.figsize'] = 15, 10
+fig = ml.figure()
+ax1 = fig.add_subplot(111)
+vline_P = events[0].trace_groups[stat].P_Wave - init
+vline_S = events[0].trace_groups[stat].S_Wave - init
+ax1.set_title('Actividad sísmica del 18/06/2013 en estación BRR-Vertical')
+ax1.set_xlabel('Muestras')
+ax1.set_ylabel('Salida digitalizada de la velocidad')
+ax1.plot(events[0].trace_groups[stat].traces[0].filter_wave[init:fin], color='k', lw=0.5)
+i, j = ax1.get_ylim()
+ax1.vlines(vline_P, i, j, color='r', lw=2)
+ax1.vlines(vline_S, i, j, color='b', lw=2)
+ml.grid(True)
+ml.savefig(path + 'SeismicSignalExample1.eps', dpi=500)
+ml.savefig(path + 'SeismicSignalExample1.png', dpi=500)
+init = 14000
+fin = init + 3500
+fig = ml.figure()
+ax1 = fig.add_subplot(111)
+vline_P = events[0].trace_groups[stat].P_Wave - init
+vline_S = events[0].trace_groups[stat].S_Wave - init
+ax1.set_title('Actividad sísmica ampliada del 18/06/2013 en estación BRR-Vertical')
+ax1.set_xlabel('Muestras')
+ax1.set_ylabel('Salida digitalizada de la velocidad')
+ax1.plot(events[0].trace_groups[stat].traces[0].filter_wave[init:fin], color='k', lw=1)
+i, j = ax1.get_ylim()
+ax1.vlines(vline_P, i, j, color='r', lw=2)
+ax1.vlines(vline_S, i, j, color='b', lw=2)
+ml.grid(True)
+ml.savefig(path + 'SeismicSignalExample2.eps', dpi=500)
+ml.savefig(path + 'SeismicSignalExample2.png', dpi=500)
+##################################################################################################
 
 from SfileAnalyzer import SfileAnalyzer
 waveforms_path = '/home/administrador/Tellurico/Archivos_Prueba/PrototipoV0_1/Waveforms/'
