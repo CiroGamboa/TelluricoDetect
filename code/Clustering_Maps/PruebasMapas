@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Aug 29 16:02:43 2018
+
+@author: CiroGamJr
+"""
+
+from mpl_toolkits.basemap import Basemap
+import matplotlib.pyplot as plt
+
+map = Basemap(llcrnrlon=3.75,llcrnrlat=39.75,urcrnrlon=4.35,urcrnrlat=40.15, epsg=5520)
+#http://server.arcgisonline.com/arcgis/rest/services
+
+map.arcgisimage(service='World_Shaded_Relief', xpixels = 1500, verbose= True)
+plt.show()

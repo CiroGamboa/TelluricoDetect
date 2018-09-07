@@ -854,12 +854,17 @@ def box_depth_perEpi(sfiles,group_factor=5,save_graphs=False):
     index = 0
     for graph in segmented_graphs:
 #        print(graph)
-        plt.figure()
+        fig = plt.figure()
+        
+        ax = fig.add_subplot(111)
+        
         group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
         plt.title("Profundidad por epicentro 2010-2017 ["+group_name+"]", weight = 'bold')
 #        plt.bar(range(len(graph)), graph.values(), align='center')
 #        print(graph.values())
-        plt.boxplot(graph.values(),sym = 'o')
+        plt.boxplot(graph.values())
+#        bp = ax.boxplot(graph.values())
+
         keys = []
         for key in graph.keys():
             try:
@@ -873,6 +878,38 @@ def box_depth_perEpi(sfiles,group_factor=5,save_graphs=False):
 #        plt.xticks(rotation=45)
         plt.ylabel("Profundidad [Km]", weight = 'bold')
 #        plt.grid(True)
+        ax = plt.axes()  
+        
+        ax.yaxis.grid(True)
+        
+
+#    for box in bp['boxes']:
+#        # change outline color
+#        box.set( color='#7570b3', linewidth=2)
+#        # change fill color
+#        box.set( facecolor = '#1b9e77' )
+#    
+#    ## change color and linewidth of the whiskers
+#    for whisker in bp['whiskers']:
+#        whisker.set(color='#7570b3', linewidth=2)
+#    
+#    ## change color and linewidth of the caps
+#    for cap in bp['caps']:
+#        cap.set(color='#7570b3', linewidth=2)
+#    
+#    ## change color and linewidth of the medians
+#    for median in bp['medians']:
+#        median.set(color='#b2df8a', linewidth=2)
+#    
+#    ## change the style of fliers and their fill
+#    for flier in bp['fliers']:
+#        flier.set(marker='o', color='#e7298a', alpha=0.5)
+            
+        
+        
+        
+        
+        
         index += 1
         
         if(save_graphs):
@@ -941,12 +978,13 @@ def box_mag_perEpi(sfiles,group_factor=5,save_graphs=False):
         if not os.path.exists(path):
             os.makedirs(path)           
     
+    amount_events = len(sfiles)
     index = 0
     for graph in segmented_graphs:
 #        print(graph)
         plt.figure()
         group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
-        plt.title("Seisms per station 2010-2017 ["+group_name+"]")
+        plt.title("Magnitud por epicentro 2010-2017 ["+group_name+"], total eventos: "+str(amount_events), weight = 'bold')
 #        plt.bar(range(len(graph)), graph.values(), align='center')
 #        print(graph.values())
         plt.boxplot(graph.values())
@@ -959,11 +997,14 @@ def box_mag_perEpi(sfiles,group_factor=5,save_graphs=False):
                 keys.append(key)
         plt.xticks([i+1 for i in range(0,len(graph))], keys,ha='center',rotation=45)
 #        plt.xticks(range(len(graph)), graph.keys())
-        plt.xlabel("Epicenter name")
+        plt.xlabel("Nombre del epicentro", weight = 'bold')
 #        plt.xticks(rotation=45)
-        plt.ylabel("Magnitude")
+        plt.ylabel("Magnitud [Escala de Richter]" , weight = 'bold')
 #        plt.grid(True)
         index += 1
+        
+        ax = plt.axes()  
+        ax.yaxis.grid(True)
         
         if(save_graphs):
             plt.savefig(path+"SeismsXstation"+group_name+".png")
@@ -1157,13 +1198,13 @@ def magDisEpi_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag
     
     
     color = 'tab:blue'
-    ax2.set_ylabel('Mean epicenter distance', color=color)  # we already handled the x-label with ax1
+    ax2.set_ylabel('Distancia epicentral promedio (Km)', color=color, weight = 'bold')  # we already handled the x-label with ax1
     ax2.bar(range(len(dis_dict)),dis_dict.values(), color=color, width = 0.4, align = 'edge')
     ax2.tick_params(axis='y', labelcolor=color)
     
     fig.tight_layout()  # otherwise the right y-label is slightly clipped
-    plt.title("Mean Distance VS Amount of Seisms per station 2010-2017")
-    plt.grid(True)
+    plt.title("Distancia epicentral promedio VS Sismos por estación 2010-2017", weight = 'bold')
+#    plt.grid(True)
     #plt.show()
     
     
@@ -1178,18 +1219,18 @@ def magDisEpi_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag
         group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
         
         fig, ax1 = plt.subplots()
-        plt.title("Mean Dis VS Amount of Seisms per station 2010-2017 ["+group_name+"]")
+        plt.title("Distancia epicentral promedio VS Sismos por estación 2010-2017 ["+group_name+"]", weight = 'bold')
         
         x1 = [x - 0.4 for x in range(len(graph_dis))]
         color = 'tab:red'
-        ax1.set_ylabel('Amount of Seisms', color=color)
+        ax1.set_ylabel('Cantidad de sismos', color=color, weight = 'bold')
         ax1.bar(x1, graph_amount.values(), color=color, width = 0.4, align = 'edge')
         ax1.tick_params(axis='y', labelcolor=color)
         ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
         
         
         color = 'tab:blue'
-        ax2.set_ylabel('Mean epicenter distance', color=color)  # we already handled the x-label with ax1
+        ax2.set_ylabel('Distancia epicentral promedio (Km)', color=color, weight = 'bold')  # we already handled the x-label with ax1
         ax2.bar(range(len(graph_dis)),graph_dis.values(), color=color, width = 0.4, align = 'edge')
         ax2.tick_params(axis='y', labelcolor=color)
         
@@ -1198,11 +1239,12 @@ def magDisEpi_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag
         
 #        plt.bar(range(len(graph)), graph.values(), align='center')
         plt.xticks(range(len(graph_dis)), graph_dis.keys())
-        plt.grid(True)
+#        plt.grid(True)
 #        plt.xlabel("Station name")
 #        plt.ylabel("Mean epicenter distance")
         index += 1
         
+        ax1.set_xlabel("Nombre de la estación", weight = 'bold')
 
         if(save_graphs):
             plt.savefig(path+"MeanDisVSamountXstation"+group_name+".png")
@@ -1215,10 +1257,35 @@ def magDisEpi_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag
 '''
 12. Mean epicenter distance vs Station vs Amount of Seisms
 '''
-def magDisHip_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag = True, path = "IOfiles/Graphs/"):
+def magDisHip_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag = True):
     import matplotlib.pyplot as plt
     import operator
     import os 
+    import math
+    
+#    mpl.style.use('seaborn')
+    
+    amount_events = len(sfiles)
+    path = "IOfiles/Graphs/"
+    
+    #https://www.datos.gov.co/Minas-y-Energ-a/Estaciones-Red-Sismol-gica-Nacional-de-Colombia-Se/sefu-3xqc
+    # Falta la altitud de Ocaña
+    height_stats = { 'BAR2' : 1864,
+                'BRR'  : 137,
+                'RUS'  : 3697,
+                'PTB'  : 260,
+                'PAM'  : 3676,
+                'ZAR'  : 205,
+                'SPBC' : 799,
+                'TAM'  : 457,
+                'CHI'  : 3140,
+                'NOR'  : 536,
+                'OCA'  : 1436
+            }
+    
+    lat_oca = 8.239
+    lon_oca = -73.319
+    
     
     events_per_station = {}
     for sfile in sfiles:
@@ -1233,15 +1300,17 @@ def magDisHip_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag
                 station_dis = float(station['DIS'])
                 depth = float(sfile.type_1['DEPTH'])
                 
+                dis_hip = math.sqrt((((height_stats[station_name]/1000)+depth)**2)+station_dis**2)
+                
                 
                 if station_name not in events_per_station:
                     
                     
-                    events_per_station[station_name] = [1,station_dis]
+                    events_per_station[station_name] = [1,dis_hip]
                 else:
                     if station_name != last_station_name:
                         events_per_station[station_name][0] = events_per_station[station_name][0] + 1
-                        events_per_station[station_name][1] = events_per_station[station_name][1] + station_dis
+                        events_per_station[station_name][1] = events_per_station[station_name][1] + dis_hip
                         last_station_name = station_name
             
             except:
@@ -1289,13 +1358,13 @@ def magDisHip_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag
     
     
     color = 'tab:blue'
-    ax2.set_ylabel('Mean epicenter distance', color=color)  # we already handled the x-label with ax1
+    ax2.set_ylabel('Distancia hipocentral promedio', color=color, weight = 'bold')  # we already handled the x-label with ax1
     ax2.bar(range(len(dis_dict)),dis_dict.values(), color=color, width = 0.4, align = 'edge')
     ax2.tick_params(axis='y', labelcolor=color)
     
     fig.tight_layout()  # otherwise the right y-label is slightly clipped
-    plt.title("Mean Distance VS Amount of Seisms per station 2010-2017")
-    plt.grid(True)
+    plt.title("Distancia hipocentral promedio VS Cantidad de sismos por estación 2010-2017, total eventos: "+str(amount_events), weight = 'bold')
+#    plt.grid(True)
     #plt.show()
     
     
@@ -1310,18 +1379,18 @@ def magDisHip_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag
         group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
         
         fig, ax1 = plt.subplots()
-        plt.title("Mean Dis VS Amount of Seisms per station 2010-2017 ["+group_name+"]")
+        plt.title("Distancia hipocentral promedio VS Cantidad de sismos por estación 2010-2017 ["+group_name+"]", weight = 'bold')
         
         x1 = [x - 0.4 for x in range(len(graph_dis))]
         color = 'tab:red'
-        ax1.set_ylabel('Amount of Seisms', color=color)
+        ax1.set_ylabel('Cantidad de sismos', color=color, weight = 'bold')
         ax1.bar(x1, graph_amount.values(), color=color, width = 0.4, align = 'edge')
         ax1.tick_params(axis='y', labelcolor=color)
         ax2 = ax1.twinx()  # instantiate a second axes that shares the same x-axis
         
         
         color = 'tab:blue'
-        ax2.set_ylabel('Mean epicenter distance', color=color)  # we already handled the x-label with ax1
+        ax2.set_ylabel('Distancia hipocentral promedio (Km)', color=color, weight = 'bold')  # we already handled the x-label with ax1
         ax2.bar(range(len(graph_dis)),graph_dis.values(), color=color, width = 0.4, align = 'edge')
         ax2.tick_params(axis='y', labelcolor=color)
         
@@ -1330,7 +1399,9 @@ def magDisHip_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag
         
 #        plt.bar(range(len(graph)), graph.values(), align='center')
         plt.xticks(range(len(graph_dis)), graph_dis.keys())
-        plt.grid(True)
+        
+        ax1.set_xlabel("Nombre de la estación", weight = 'bold')
+#        plt.grid(True)
 #        plt.xlabel("Station name")
 #        plt.ylabel("Mean epicenter distance")
         index += 1
@@ -1342,7 +1413,6 @@ def magDisHip_per_station(sfiles,group_factor=10,save_graphs=False, order_by_mag
 ##########        
         
     return dis_dict,amount_dict
-
 #%%
 '''
 13. Station sampling rate vs Time
@@ -1462,7 +1532,140 @@ def components_per_station(sfiles,group_factor=10,save_graphs=False):
             
         return [event_dict,comps_per_station]
     
+#%%
+'''
+16. Epicentral distance vs Station (range, mean)
+'''
+def box_DisEpi_perStation(sfiles,group_factor=5,save_graphs=False):
+        
+    import matplotlib.pyplot as plt
+#    import numpy as np
+#    import operator
+    import os
+    
+    
+    amount_events = len(sfiles)
+    
+    epidis_per_station = {}
+    weird_sfiles = []
+    for sfile in sfiles:
+        last_station_name = " "
+        stations = sfile.type_7
+        for station in stations:
+            try:
+                station_name = station['STAT']
+                epidis = float(station['DIS'])
+                
+                if station_name not in epidis_per_station:
+                    epidis_per_station[station_name] = [epidis]
+                else:
+                    if station_name != last_station_name:
+                        epidis_per_station[station_name].append(epidis)
+                        last_station_name = station_name
+            except:
+                pass
+        
+        
+    event_list = sorted(epidis_per_station.items(), key=lambda e: len(e[1]))
+    event_list.reverse()
+    print(epidis_per_station)
+#    print(epis)
+    
+    event_dict = {}
+        
+    segmented_graphs = []
+    index = 0
+    list_index = -1
+    for event in event_list:
+        
+        if(index%group_factor == 0):
+            segmented_graphs.append({})
+            list_index += 1
+            
+        event_dict[event[0]] = event[1]
+        segmented_graphs[list_index][event[0]] = event[1]
+        index += 1
+        
+    #print(segmented_graphs)  
+      
+    path = "IOfiles/Graphs/"
+    if(save_graphs):   
+        if not os.path.exists(path):
+            os.makedirs(path)           
+    
+    index = 0
+    for graph in segmented_graphs:
+#        print(graph)
+        fig = plt.figure()
+        
+        ax = fig.add_subplot(111)
+        
+        group_name = str(group_factor*index+1)+"-"+str(group_factor*(index+1))
+        plt.title("Profundidad por epicentro 2010-2017 ["+group_name+"], total eventos: "+str(amount_events), weight = 'bold')
+#        plt.bar(range(len(graph)), graph.values(), align='center')
+#        print(graph.values())
+        plt.boxplot(graph.values())
+#        bp = ax.boxplot(graph.values())
 
+        keys = []
+        for key in graph.keys():
+            try:
+                st = key.split('-')
+                keys.append(st[0]+'\n'+st[1])
+            except:
+                keys.append(key)
+        plt.xticks([i+1 for i in range(0,len(graph))], keys,ha='center',rotation=45)
+#        plt.xticks(range(len(graph)), graph.keys())
+        plt.xlabel("Nombre de la estación", weight = 'bold')
+#        plt.xticks(rotation=45)
+        plt.ylabel("Distancia epicentral (Km)", weight = 'bold')
+#        plt.grid(True)
+        ax = plt.axes()  
+        
+        ax.yaxis.grid(True)
+        
+
+#    for box in bp['boxes']:
+#        # change outline color
+#        box.set( color='#7570b3', linewidth=2)
+#        # change fill color
+#        box.set( facecolor = '#1b9e77' )
+#    
+#    ## change color and linewidth of the whiskers
+#    for whisker in bp['whiskers']:
+#        whisker.set(color='#7570b3', linewidth=2)
+#    
+#    ## change color and linewidth of the caps
+#    for cap in bp['caps']:
+#        cap.set(color='#7570b3', linewidth=2)
+#    
+#    ## change color and linewidth of the medians
+#    for median in bp['medians']:
+#        median.set(color='#b2df8a', linewidth=2)
+#    
+#    ## change the style of fliers and their fill
+#    for flier in bp['fliers']:
+#        flier.set(marker='o', color='#e7298a', alpha=0.5)
+            
+        
+        
+        
+        
+        
+        index += 1
+        
+        if(save_graphs):
+            plt.savefig(path+"BoxDepthXepicenter"+group_name+".png")
+        
+        
+    # Es buena idea verificar la fecha minima y la maxima para ponerlas como
+    # parametro de entrada
+    
+    #print("Events per Station between 2010 and 2017") 
+    #for event in event_dict:
+     #   print("Station name: "+event+"\tEvents:\t"+str(event_dict[event]))
+        
+    return event_list
 #%% Demos
 '''
 ==============
