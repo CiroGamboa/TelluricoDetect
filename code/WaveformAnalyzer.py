@@ -62,8 +62,15 @@ events = []
 #sfile = Sfile('30-0429-45L.S201709', '/home/tellurico-admin/TelluricoDetect/code/IOfiles/')
 #[newEvent, stats_sort] = Waveform('IOfiles/', '2017-09-30-0428-00M.COL___441', sfile).get_event()
 #events.append(newEvent)
+
 sfile = Sfile('18-0602-02L.S201306.txt', '/home/tellurico/Tellurico/TelluricoDetect/code/IOfiles/')
 [newEvent, stats_sort] = Waveform('IOfiles/', '2013_06_2013-06-18-0559-59M.COL___261', sfile).get_event()
+events.append(newEvent)
+sfile = Sfile('10-2055-44L.S201503', '/home/tellurico/Tellurico/TelluricoDetect/code/IOfiles/')
+[newEvent, stats_sort] = Waveform('IOfiles/', '2015-03-10-2049-48M.COL___284', sfile).get_event()
+events.append(newEvent)
+sfile = Sfile('30-0429-45L.S201709', '/home/tellurico/Tellurico/TelluricoDetect/code/IOfiles/')
+[newEvent, stats_sort] = Waveform('IOfiles/', '2017-09-30-0428-00M.COL___441', sfile).get_event()
 events.append(newEvent)
 
 ''' DATASET ATRIBUTES '''
@@ -1670,6 +1677,184 @@ ml.ylabel('Time (seconds)')
 ml.grid(True)
 
 ####################################################################################################
+# Plot waves for all stations of an specific event
+for station in events[0].trace_groups:
+        events[0].trace_groups[station].graphOriginalComponents(station)
+
+# Stations and components with original mean and sampling rate != 0
+for event in range(0, len(events)):
+    for station in events[event].trace_groups:
+        for component in events[event].trace_groups[station].traces:
+            media = np.mean(component.original_waveform)
+            sampling = component.original_sampling_rate
+            if((media < -25000.0 or media > 25000.0) and  sampling != 100.0):
+                print("Event " + str(event) + " " + station + " " + component.channel + " - Mean: " + str(media) + " Samplrate: " + str(sampling))
+                ml.figure()
+                ml.plot(component.original_waveform)
+                ml.title("Event " + str(event) + " " + station + " " + component.channel)
+                ml.grid(True)
+
+# Graph P-waves of all stations and components
+window_size = 200
+for tuple_sort in stats_sort:
+    stat = (tuple_sort[0])
+    if(stat in events[0].trace_groups):
+        Graph.graph_P_waves(events[0].trace_groups[stat], events[0].trace_groups[stat].P_Wave, window_size, stat, 0.9)
+
+# Plot FFT for all stations of an specific event
+for station in events[0].trace_groups:
+    print(station)
+    Transformations.FFT(events[0].trace_groups[station].traces[0].waveform, 
+                           events[0].trace_groups[station].traces[0].sampling_rate,
+                           events[0].trace_groups[station].traces[0].station)
+        
+# Plot FFT for certain stations of an specific event
+stations = ['BRR','PAM','PTB','RUS']
+init = 10000
+last = 30000
+for station in stations:
+    if station in events[0].trace_groups:
+        Transformations.FFT(events[0].trace_groups[station].traces[0].waveform[init:last], 
+                           events[0].trace_groups[station].traces[0].sampling_rate,
+                           events[0].trace_groups[station].traces[0].station)
+        
+# Plot FFT Noise pre P for certain stations of an specific event
+stations = ['BRR','PAM','PTB','RUS']
+init = 0
+last = 10000
+for station in stations:
+    if station in events[0].trace_groups:
+        Transformations.FFT(events[0].trace_groups[station].traces[0].waveform[init:last], 
+                           events[0].trace_groups[station].traces[0].sampling_rate,
+                           events[0].trace_groups[station].traces[0].station)
+
+# Plot FFT Noise post P for certain stations of an specific event
+stations = ['BRR','PAM','PTB','RUS']
+init = 40000
+last = 55000
+for station in stations:
+    if station in events[0].trace_groups:
+        Transformations.FFT(events[0].trace_groups[station].traces[0].waveform[init:last], 
+                           events[0].trace_groups[station].traces[0].sampling_rate,
+                           events[0].trace_groups[station].traces[0].station)
+
+# Plot FFT P_Wave for certain stations of an specific event
+stations = ['BRR','PAM','PTB','RUS']
+for station in stations:
+    if station in events[0].trace_groups:
+        init = events[0].trace_groups[station].P_Wave - 100
+        last = init + 200
+        Transformations.FFT2(events[0].trace_groups[station].traces[0].waveform[init:last], 
+                           events[0].trace_groups[station].traces[0].sampling_rate,
+                           events[0].trace_groups[station].traces[0].station)
+ 
+       
+
+# Plot filtered signal all stations of all events
+path = '/home/tellurico/Tellurico/Variables/FFT_Graphs/'
+stations = []
+stations.append(['BRR','PAM','PTB','RUS','URI','GCUF','SOL','PCON']) #18-0602-02L.S201306
+stations.append(['TUM','PTGA','TGUH','GTBY','TEIG','OTAV']) #10-2055-44L.S201503
+stations.append(['ORTC','SMAR','NOR','SJC','ELA','GUA','PTGC','ROSC']) #30-0429-45L.S201709
+#stations = ['BRR','PAM','PTB','RUS'] #18-0602-02L.S201306
+low = 1
+high = 8
+labels = ['SenalCompleta', 'SoloRuido', 'SoloOndaP']
+archivo = ['S201306','S201503','S201709']
+#25000 a 750000
+for e in range(0,len(events)):
+    for station in stations[e]:
+        for i in range(0,3):
+            if station in events[e].trace_groups:
+                init = [0, 1000, events[e].trace_groups[station].P_Wave - 100]
+                last = [len(events[e].trace_groups[station].traces[0].waveform), 5000, init[2] + 200]
+                trace = events[e].trace_groups[station].traces[0]
+                dataX = trace.waveform[init[i]:last[i]]
+                [frq, Y] = Transformations.FFT3(dataX, trace.sampling_rate)
+                dataX_F = trace.filter_wave[init[i]:last[i]]
+                ml.rcParams.update({'font.size':12})
+                ml.tight_layout(pad=2)
+                ml.rcParams['figure.figsize'] = 15, 10
+                fig = ml.figure()
+                ax1 = fig.add_subplot(311)
+                ax2 = fig.add_subplot(312)
+                ax3 = fig.add_subplot(313)
+                ax1.plot(trace.original_waveform[init[i]:last[i]],'b') # plotting the spectrum
+                ax1.set_xlabel('Muestras')
+                ax1.set_ylabel('Salida digitalizada de velocidad')
+                ax1.grid(True)
+                ax2.plot(frq,abs(Y),'r') # plotting the spectrum
+                ax2.set_xlabel('Frecuencia (Hz)')
+                ax2.set_ylabel('Amplitud')
+                ax2.grid(True)
+                ax3.plot(dataX_F,'g') # plotting the spectrum
+                ax3.set_xlabel('muestras')
+                ax3.set_ylabel('Salida normalizada de velocidad')
+                ax3.grid(True)
+                label = labels[i] + '_' + station + "_" + archivo[e]
+                ml.savefig(path + label + '.eps', dpi=500)
+                ml.savefig(path + label + '.png', dpi=500)
+                
+                
+# Plot filtered signal all stations of an specific event       
+path = '/home/tellurico/Tellurico/Variables/FFT_Graphs/'
+stations = ['BRR','PAM','PTB','RUS']
+e = 1
+low = 1
+high = 8
+labels = ['SenalCompleta', 'SoloRuido', 'SoloOndaP']
+archivo = ['S201306','S201503','S201709']
+for station in stations:
+    for i in range(0,1):
+        if station in events[e].trace_groups:
+            init = [25000, 1000, events[e].trace_groups[station].P_Wave - 100]
+            last = [75000, 5000, init[2] + 200]
+            trace = events[e].trace_groups[station].traces[0]
+            dataX = trace.waveform[init[i]:last[i]]
+            [frq, Y] = Transformations.FFT3(dataX, trace.sampling_rate)
+            dataX_F = trace.filter_wave[init[i]:last[i]]
+            ml.rcParams.update({'font.size':12})
+            ml.tight_layout(pad=2)
+            ml.rcParams['figure.figsize'] = 15, 10
+            fig = ml.figure()
+            ax1 = fig.add_subplot(311)
+            ax2 = fig.add_subplot(312)
+            ax3 = fig.add_subplot(313)
+            ax1.plot(trace.original_waveform[init[i]:last[i]],'b') # plotting the spectrum
+            ax1.set_xlabel('Muestras')
+            ax1.set_ylabel('Salida digitalizada de velocidad')
+            ax1.grid(True)
+            ax2.plot(frq,abs(Y),'r') # plotting the spectrum
+            ax2.set_xlabel('Frecuencia (Hz)')
+            ax2.set_ylabel('Amplitud')
+            ax2.grid(True)
+            ax3.plot(dataX_F,'g') # plotting the spectrum
+            ax3.set_xlabel('muestras')
+            ax3.set_ylabel('Salida normalizada de velocidad')
+            ax3.grid(True)
+            label = labels[i] + '_' + station + "_" + archivo[e]
+            ml.savefig(path + label + '.eps', dpi=500)
+            ml.savefig(path + label + '.png', dpi=500)
+#
+#ax1.set_title('DOP - ' + stat)
+#ax1.plot(observ_signal['DOP'])
+#i, j = ax1.get_ylim()
+##ax1.vlines(vline, i, j, color='k', lw=1)
+#ax1.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+#ax2.set_title('RV2T - ' + stat)
+#ax2.plot(observ_signal['RV2T'])
+#i, j = ax2.get_ylim()
+##ax2.vlines(vline, i, j, color='k', lw=1)
+#ax2.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+#ax3.set_title('Entropy - ' + stat)
+#ax3.plot(observ_signal['Entropy'])
+#i, j = ax3.get_ylim()
+##ax3.vlines(vline, i, j, color='k', lw=1)
+#ax3.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+#events[0].trace_groups['ELA'].graphOriginalComponents(station)
+
+
+
 ## TODO: ALL FEATURES IN BRR STATION
 # DOP, RV2T, Entropy, Kurtosis, Skewness, Correlation Dimension
 path =  '/home/tellurico/Tellurico/Variables/'
@@ -1705,37 +1890,38 @@ ax5 = fig.add_subplot(325, sharex=ax1)
 ax6 = fig.add_subplot(326, sharex=ax1)
 
 ax1.set_title('DOP - ' + stat)
-ax1.plot(observ_signal['DOP'])
+ax1.plot(observ_signal[atts[0]])
 i, j = ax1.get_ylim()
 #ax1.vlines(vline, i, j, color='k', lw=1)
 ax1.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
 ax2.set_title('RV2T - ' + stat)
-ax2.plot(observ_signal['RV2T'])
+ax2.plot(observ_signal[atts[1]])
 i, j = ax2.get_ylim()
 #ax2.vlines(vline, i, j, color='k', lw=1)
 ax2.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
 ax3.set_title('Entropy - ' + stat)
-ax3.plot(observ_signal['Entropy'])
+ax3.plot(observ_signal[atts[2]])
 i, j = ax3.get_ylim()
 #ax3.vlines(vline, i, j, color='k', lw=1)
 ax3.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
 ax4.set_title('Kurtosis - ' + stat)
-ax4.plot(observ_signal['Kurtosis'])
+ax4.plot(observ_signal[atts[3]])
 i, j = ax4.get_ylim()
 #ax4.vlines(vline, i, j, color='r', lw=1)
 ax4.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
 ax5.set_title('Skewness - ' + stat)
-ax5.plot(observ_signal['Skew'])
+ax5.plot(observ_signal[atts[4]])
 i, j = ax5.get_ylim()
 #ax5.vlines(vline, i, j, color='k', lw=1)
 ax5.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
 ax6.set_title('Correlation Dimension - ' + stat)
-ax6.plot(observ_signal['CD'])
+ax6.plot(observ_signal[atts[5]])
 i, j = ax6.get_ylim()
 #ax6.vlines(vline, i, j, color='k', lw=1)
 ax6.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
 
 ml.rcParams['figure.figsize'] = 15, 10
+ml.rcParams.update({'font.size':14})
 for attrs in observ_signal:
     fig = ml.figure()
     ax1 = fig.add_subplot(111)
@@ -1744,10 +1930,12 @@ for attrs in observ_signal:
     ax1.set_ylabel(attrs)
     ax1.plot(observ_signal[attrs])
     i, j = ax1.get_ylim()
-    ax1.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=1)
+    ax1.vlines(vline-(0.9*(window_size/2)), i, j, color='r', lw=2)
+    ax1.vlines(vline, i, j, color='#009900', lw=2)
     ml.grid(True)
     ml.savefig(path + attrs + '_calc.eps', dpi=500)
     ml.savefig(path + attrs + '_calc.png', dpi=500)
+    
     
 
 #Temporal complexity for attributes calculation per window for all stations, increasing
@@ -1811,6 +1999,7 @@ ml.ylabel('Tiempo (segundos)')
 ml.grid(True)
 
 
+
 # TODO: save a signal
 path =  '/home/tellurico/Tellurico/Variables/'
 stat = 'BRR'
@@ -1832,8 +2021,12 @@ ax1.vlines(vline_S, i, j, color='b', lw=2)
 ml.grid(True)
 ml.savefig(path + 'SeismicSignalExample1.eps', dpi=500)
 ml.savefig(path + 'SeismicSignalExample1.png', dpi=500)
+
+stat = 'BRR'
 init = 14000
 fin = init + 3500
+ml.rcParams.update({'font.size':14})
+ml.rcParams['figure.figsize'] = 15, 10
 fig = ml.figure()
 ax1 = fig.add_subplot(111)
 vline_P = events[0].trace_groups[stat].P_Wave - init
@@ -1848,6 +2041,21 @@ ax1.vlines(vline_S, i, j, color='b', lw=2)
 ml.grid(True)
 ml.savefig(path + 'SeismicSignalExample2.eps', dpi=500)
 ml.savefig(path + 'SeismicSignalExample2.png', dpi=500)
+
+stat = 'BRR'
+init = 1000
+fin = 4500
+ml.rcParams.update({'font.size':14})
+ml.rcParams['figure.figsize'] = 15, 10
+fig = ml.figure()
+ax1 = fig.add_subplot(111)
+ax1.set_title('Porción de Ruido en la traza del 18/06/2013 en estación BRR-Vertical')
+ax1.set_xlabel('Muestras')
+ax1.set_ylabel('Salida digitalizada de la velocidad')
+ax1.plot(events[0].trace_groups[stat].traces[0].filter_wave[init:fin], color='k', lw=1)
+ml.grid(True)
+ml.savefig(path + 'SeismicNoiseExample1.eps', dpi=500)
+ml.savefig(path + 'SeismicNoiseExample1.png', dpi=500)
 ##################################################################################################
 
 from SfileAnalyzer import SfileAnalyzer

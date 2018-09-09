@@ -19,7 +19,9 @@ class TraceComponent:
     
     # Filter, normalice and resample signals
     def __init__(self, trace):
-        self.waveform = self.normalice(trace)
+#        self.waveform = self.normalice(trace)
+        self.original_waveform = trace
+        self.waveform = self.mean_normalice(trace)
         self.network = trace.stats.network
         self.station = trace.stats.station
         self.location = trace.stats.location
@@ -46,6 +48,15 @@ class TraceComponent:
         mean= np.mean(trace)
         for sample in trace:
             output.append(sample - mean)
+        return output
+    
+    # Normalice the trace, deleting d.c. level
+    def mean_normalice(self, trace):
+        output = []
+        mean= np.mean(trace)
+        max_min = max(trace) - min(trace)
+        for sample in trace:
+            output.append((sample - mean)/(max_min))
         return output
     
     # Bandpass Butterworth filter

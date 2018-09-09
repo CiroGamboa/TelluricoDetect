@@ -143,6 +143,49 @@ class Transformations:
         ax[1].set_xlabel('Freq (Hz)')
         ax[1].set_ylabel('|Y(freq)|')
     
+    # Fast Fourier Transform
+    def FFT2(trace, SR, station):
+        Fs = SR;  # sampling rate
+        Ts = 1.0/Fs; # sampling interval
+        t = np.arange(0,(len(trace)/Fs),Ts) # time vector
+        n = len(trace) # length of the signal
+        k = np.arange(n)
+        T = n/Fs
+        frq = k/T # two sides frequency range
+        frq = frq[range(int(n/2))] # one side frequency range
+        
+        Y = np.fft.fft(trace)/n # fft computing and normalization
+        Y = Y[range(int(n/2))]
+        
+        ml.rcParams.update({'font.size':12})
+        ml.tight_layout(pad=1.08)
+        ml.rcParams['figure.figsize'] = 15, 10
+        fig, ax = ml.subplots(2, 1)
+        ax[0].plot(t,trace)
+        ax[0].set_xlabel('Muestras')
+        ax[0].set_ylabel('Salida digitalizada de velocidad')
+        ax[0].set_tile('Componente vertical de la estación: ' + station)
+        ax[1].plot(frq,abs(Y),'r') # plotting the spectrum
+        ax[1].set_xlabel('Frecuencia (Hz)')
+        ax[1].set_ylabel('Amplitud')
+        ax[1].set_tile('Contenido frecuencial de la componente vertical de la estación: ' + station)
+        
+        # Fast Fourier Transform
+    def FFT3(trace, SR):
+        Fs = SR;  # sampling rate
+        #Ts = 1.0/Fs; # sampling interval
+        #t = np.arange(0,(len(trace)/Fs),Ts) # time vector
+        n = len(trace) # length of the signal
+        k = np.arange(n)
+        T = n/Fs
+        frq = k/T # two sides frequency range
+        frq = frq[range(int(n/2))] # one side frequency range
+        
+        Y = np.fft.fft(trace)/n # fft computing and normalization
+        Y = Y[range(int(n/2))]
+        
+        return frq, abs(Y)
+        
     #Logarithmic Spectrum - Welch Periodogram
     def welch_periodogram_log(trace, fs):
         f, Pxx_den = periodogram(trace, fs)

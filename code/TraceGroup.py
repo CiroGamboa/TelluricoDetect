@@ -106,12 +106,12 @@ class TraceGroup:
         return resultantTrace
     
     # Graph the original components of each waveform
-    def graphOriginalComponents(self):
+    def graphOriginalComponents(self, stat):
         comps = len(self.traces)
         components = str(comps) + '11'
         fig = ml.figure()
         ax1 = fig.add_subplot(int(components))
-        ax1.set_title('Channel: ' + self.traces[0].channel, fontsize=16)
+        ax1.set_title('Channel: ' + self.traces[0].channel + ' - stat: ' + stat, fontsize=16)
         ax1.plot(self.traces[0].waveform)
         for i in range(1, comps):
             ax = fig.add_subplot(int(str(comps) + '1' + str(i + 1)), sharex=ax1)
