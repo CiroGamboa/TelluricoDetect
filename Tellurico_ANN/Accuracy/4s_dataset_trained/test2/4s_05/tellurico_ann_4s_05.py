@@ -126,7 +126,7 @@ def import_ann(X_test,y_test):
     
     
     # Evaluate loaded model on test data
-    loaded_classifier.compile(loss = 'binary_crossentropy', optimizer = 'rmsprop',
+    loaded_classifier.compile(loss = 'binary_crossentropy', optimizer = 'adadelta',
                               metrics = ['accuracy'])
     
     # Predicting the Test set results
@@ -142,6 +142,38 @@ def import_ann(X_test,y_test):
     print("Test set accuracy")
     print(test_acc)
     return loaded_classifier
+
+
+#%% Graficas de entrenamiento
+import matplotlib.pyplot as plt
+classifier = import_ann(X_test,y_test)
+
+# Fit the model
+history = classifier.fit(X_train, y_train, validation_split=0.2, epochs=100, batch_size=64, verbose=0)
+# list all data in history
+print(history.history.keys())
+
+plt.figure()
+# summarize history for accuracy
+plt.plot(history.history['acc'])
+plt.plot(history.history['val_acc'])
+plt.title('Classifier accuracy')
+plt.ylabel('accuracy')
+plt.xlabel('epoch')
+plt.legend(['train', 'validation'], loc='upper right')
+plt.show()
+plt.grid()
+
+plt.figure()
+# summarize history for loss
+plt.plot(history.history['loss'])
+plt.plot(history.history['val_loss'])
+plt.title('Classifier loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'validation'], loc='upper right')
+plt.show()
+plt.grid()
     
 
 
